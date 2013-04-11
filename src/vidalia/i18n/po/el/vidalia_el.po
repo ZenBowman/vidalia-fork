@@ -1,0 +1,3850 @@
+# 
+# Translators:
+#   <fragos.george@hotmail.com>, 2012.
+#   <kotakota@gmail.com>, 2012.
+# runasand <runa.sandvik@gmail.com>, 2011.
+#   <smartmediagr@gmail.com>, 2011.
+# Γιάννης  <yannanth@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: The Tor Project\n"
+"Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
+"POT-Creation-Date: 2012-03-21 17:52+0000\n"
+"PO-Revision-Date: 2012-10-21 10:42+0000\n"
+"Last-Translator: kotkotkot <kotakota@gmail.com>\n"
+"Language-Team: translations@vidalia-project.net\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: el\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Vidalia ts2po 0.2\n"
+
+msgctxt "AboutDialog"
+msgid "About Vidalia"
+msgstr "Σχετικά με το Vidalia"
+
+msgctxt "AboutDialog"
+msgid "License"
+msgstr "Άδεια χρήσης"
+
+msgctxt "AboutDialog"
+msgid "Vidalia 0.2.0"
+msgstr "Vidalia 0.2.0"
+
+msgctxt "AboutDialog"
+msgid "Tor 0.2.0.32"
+msgstr "Tor 0.2.0.32"
+
+msgctxt "AboutDialog"
+msgid "Qt 4.4.2"
+msgstr "Qt 4.4.2"
+
+msgctxt "AdvancedPage"
+msgid "'%1' is not a valid IP address."
+msgstr "Η διεύθυνση ΙΡ '%1' δεν είναι έγκυρη."
+
+msgctxt "AdvancedPage"
+msgid ""
+"You selected 'Password' authentication, but did not specify a password."
+msgstr "Επιλέξατε πιστοποίηση με κωδικό, αλλά δεν ορίσατε κωδικό."
+
+msgctxt "AdvancedPage"
+msgid "Select Tor Configuration File"
+msgstr "Επιλογή Αρχείου Ρυθμίσεων Tor"
+
+msgctxt "AdvancedPage"
+msgid "File Not Found"
+msgstr "Το Αρχείο Δεν Βρέθηκε"
+
+msgctxt "AdvancedPage"
+msgid "%1 does not exist. Would you like to create it?"
+msgstr "Το %1 δεν υπάρχει. Δημιουργία τώρα;"
+
+msgctxt "AdvancedPage"
+msgid "Failed to Create File"
+msgstr "Αποτυχία Δημιουργίας Αρχείου"
+
+msgctxt "AdvancedPage"
+msgid "Unable to create %1 [%2]"
+msgstr "Δεν δημιουργήθηκε το %1 [%2]"
+
+msgctxt "AdvancedPage"
+msgid "Select a Directory to Use for Tor Data"
+msgstr "Επιλογή φακέλου για αποθήκευση δεδομένων Tor "
+
+msgctxt "AdvancedPage"
+msgid "Unable to remove Tor Service"
+msgstr "Αποτυχία διαγραφής της Υπηρεσίας Tor"
+
+msgctxt "AdvancedPage"
+msgid "Unable to install Tor Service"
+msgstr "Αποτυχία εγκατάστασης Υπηρεσίας Tor"
+
+msgctxt "AdvancedPage"
+msgid "Vidalia was unable to install the Tor service."
+msgstr "Το Vidalia δεν μπόρεσε να εγκαταστήσει την υπηρεσία Tor."
+
+msgctxt "AdvancedPage"
+msgid "Authentication:"
+msgstr "Έλεγχος πιστοποίησης:"
+
+msgctxt "AdvancedPage"
+msgid "Address:"
+msgstr "Διεύθυνση:"
+
+msgctxt "AdvancedPage"
+msgid "None"
+msgstr "Κανένας"
+
+msgctxt "AdvancedPage"
+msgid "Cookie"
+msgstr "Cookie"
+
+msgctxt "AdvancedPage"
+msgid "Password"
+msgstr "Κωδικός"
+
+msgctxt "AdvancedPage"
+msgid "Randomly Generate"
+msgstr "Δημιουργία Τυχαίου"
+
+msgctxt "AdvancedPage"
+msgid ":"
+msgstr ":"
+
+msgctxt "AdvancedPage"
+msgid "Tor Configuration File"
+msgstr "Αρχείο Ρυθμίσεων Tor"
+
+msgctxt "AdvancedPage"
+msgid "Start the Tor software with the specified configuration file (torrc)"
+msgstr "Εκκίνηση Tor με χρήση του καθορισμένου αρχείου ρυθμίσεων (torrc)"
+
+msgctxt "AdvancedPage"
+msgid "Select path to your configuration file"
+msgstr "Επιλέξτε τη διαδρομή του αρχείου ρυθμίσεων"
+
+msgctxt "AdvancedPage"
+msgid "Browse"
+msgstr "Περιήγηση"
+
+msgctxt "AdvancedPage"
+msgid "Data Directory"
+msgstr "Φάκελος Δεδομένων"
+
+msgctxt "AdvancedPage"
+msgid "Store data for the Tor software in the following directory"
+msgstr "Αποθήκευση δεδομένων Tor στον παρακάτω φάκελο"
+
+msgctxt "AdvancedPage"
+msgid "Select the directory used to store data for the Tor software"
+msgstr "Επιλέξτε τον φάκελο για την αποθήκευση δεδομένων Tor"
+
+msgctxt "AdvancedPage"
+msgid "Tor Control"
+msgstr "Έλεγχος Tor"
+
+msgctxt "AdvancedPage"
+msgid "Use TCP connection (ControlPort)"
+msgstr "Χρήση σύνδεσης TCP (ControlPort)"
+
+msgctxt "AdvancedPage"
+msgid "Path:"
+msgstr "Διαδρομή:"
+
+msgctxt "AdvancedPage"
+msgid "Use Unix domain socket (ControlSocket)"
+msgstr "Χρήση υποδοχέα τύπου Unix domain (ControlSocket)"
+
+msgctxt "AdvancedPage"
+msgid "Edit current torrc"
+msgstr "Επεξεργασία του τρέχοντος αρχείου torrc"
+
+msgctxt "AdvancedPage"
+msgid "NOTE: this will edit the currently loaded torrc"
+msgstr "ΣΗΜΕΙΩΣΗ: θα γίνει επεξεργασία του χρησιμοποιούμενου torrc"
+
+msgctxt "AdvancedPage"
+msgid "ControlSocket path doesn't exist."
+msgstr "Η διαδρομή ControlSocket δεν υπάρχει."
+
+msgctxt "AdvancedPage"
+msgid ""
+"The specified Tor configuration file location contains characters that "
+"cannot be represented in your system's current 8-bit character encoding."
+msgstr "Η τοποθεσία του αρχείου ρυθμίσεων Tor που δόθηκε περιέχει χαρακτήρες οι οποίοι δεν μπορούν να εμφανιστούν στην τρέχουσα 8-μπιτ κωδικοποίηση χαρακτήρων του συστήματός σας."
+
+msgctxt "AdvancedPage"
+msgid ""
+"The specified Tor data directory location contains characters that cannot be"
+" represented in your system's current 8-bit character encoding."
+msgstr "Η τοποθεσία καταλόγου δεδομένων του Tor που δόθηκε περιέχει χαρακτήρες οι οποίοι δεν μπορούν να εμφανιστούν στην τρέχουσα 8-μπιτ κωδικοποίηση χαρακτήρων του συστήματός σας."
+
+msgctxt "AdvancedPage"
+msgid "Warning"
+msgstr "Προειδοποίηση"
+
+msgctxt "AdvancedPage"
+msgid "You changed torrc path, would you like to restart Tor?"
+msgstr "Η διαδρομή του αρχείου torrc άλλαξε. Θέλετε να επανεκκινήσει το Tor;"
+
+msgctxt "AdvancedPage"
+msgid "Tor Configuration File (torrc);;All Files (*)"
+msgstr "Αρχείο Ρυθμίσεων Tor(torrc);;Όλα τα Αρχεία(*)"
+
+msgctxt "AdvancedPage"
+msgid "Select a file to use for Tor socket path"
+msgstr "Επιλέξτε ένα αρχείο που θα χρησιοποιηθεί ως διαδρομή για τον υποδοχέα του Tor"
+
+msgctxt "AdvancedPage"
+msgid "Configure ControlPort automatically"
+msgstr "Αυτόματη ρύθμιση του ControlPort"
+
+msgctxt "AdvancedPage"
+msgid ""
+"You've checked the autoconfiguration option for the ControlPort, but "
+"provided no Data Directory. Please add one, or uncheck the \"Configure "
+"ControlPort automatically\" option."
+msgstr "Επιλέξατε την αυτόματη ρύθμιση για το ControlPort, αλλά δεν καθορίσατε Κατάλογο Δεδομένων. Προσθέστε ένα τέτοιο κατάλογο, ή αποεπιλέξτε την \"Αυτόμαρη ρύθμιση του ControlPort\"."
+
+msgctxt "AdvancedPage"
+msgid ""
+"Vidalia was unable to remove the Tor service.\n"
+"\n"
+"You may need to remove it manually."
+msgstr "Το Vidalia απέτυχε στη διαγραφή της υπηρεσίας Tor.\n\nΜπορεί να χρειαστεί χειροκίνητη διαγραφή."
+
+msgctxt "AppearancePage"
+msgid "Language"
+msgstr "Γλώσσα"
+
+msgctxt "AppearancePage"
+msgid "Choose the language used in Vidalia"
+msgstr "Επιλέξτε τη γλώσσα που θα χρησιμοποιεί το Vidalia"
+
+msgctxt "AppearancePage"
+msgid "Style"
+msgstr "Εμφάνιση"
+
+msgctxt "AppearancePage"
+msgid "Choose Vidalia's interface style"
+msgstr "Επιλογή εμφάνισης του Vidalia"
+
+msgctxt "AppearancePage"
+msgid "Vidalia was unable to load the selected language translation."
+msgstr "Αδυναμία φόρτωσης επιλεγμένου αρχείου μετάφρασης."
+
+msgctxt "AppearancePage"
+msgid ""
+"System Icon Preferences (changes will take effect when you restart Vidalia)"
+msgstr "Προτιμήσεις Εικονιδίου Συστήματος (οι αλλαγές θα εφαρμοστούν όταν επανεκκινήσετε το Vidalia)"
+
+msgctxt "AppearancePage"
+msgid "Show the Tray Icon and Dock Icon (default)"
+msgstr "Εμφάνιση Εικονιδίου Συστήματος και Εικονιδίου Συντόμευσης (αρχική ρύθμιση)"
+
+msgctxt "AppearancePage"
+msgid "Hide the Tray Icon"
+msgstr "Απόκρυψη του Εικονιδίου Συστήματος"
+
+msgctxt "AppearancePage"
+msgid "Hide the Dock Icon"
+msgstr "Απόκρυψη του Εικονιδίου Συντόμευσης"
+
+msgctxt "BandwidthGraph"
+msgid "Since:"
+msgstr "Από:"
+
+msgctxt "BandwidthGraph"
+msgid "Hide Settings"
+msgstr "Απόκρυψη ρυθμίσεων"
+
+msgctxt "BandwidthGraph"
+msgid "Show Settings"
+msgstr "Εμφάνιση ρυθμίσεων"
+
+msgctxt "BandwidthGraph"
+msgid "Tor Bandwidth Usage"
+msgstr "Χρήση Ευρούς Ζώνης Tor"
+
+msgctxt "BandwidthGraph"
+msgid "Reset"
+msgstr "Μηδενισμός"
+
+msgctxt "BandwidthGraph"
+msgid "Receive Rate"
+msgstr "Ρυθμός Λήψης"
+
+msgctxt "BandwidthGraph"
+msgid "Send Rate"
+msgstr "Ρυθμός Αποστολής"
+
+msgctxt "BandwidthGraph"
+msgid "Always on Top"
+msgstr "Πάντα μπροστά"
+
+msgctxt "BandwidthGraph"
+msgid "Style"
+msgstr "Εμφάνιση"
+
+msgctxt "BandwidthGraph"
+msgid "Changes the transparency of the Bandwidth Graph"
+msgstr "Αλλαγή ποσοστού διαφάνειας του γραφήματος εύρους ζώνης"
+
+msgctxt "BandwidthGraph"
+msgid "100"
+msgstr "100"
+
+msgctxt "BandwidthGraph"
+msgid "% Opaque"
+msgstr "% Αδιαφάνεια"
+
+msgctxt "BandwidthGraph"
+msgid "Save"
+msgstr "Αποθήκευση"
+
+msgctxt "BandwidthGraph"
+msgid "Cancel"
+msgstr "Άκυρο"
+
+msgctxt "BridgeDownloader"
+msgid "Starting HTTPS bridge request..."
+msgstr "Εκκίνηση HTTPS αιτήματος γεφυρών..."
+
+msgctxt "BridgeDownloader"
+msgid "Connecting to %1:%2..."
+msgstr "Σύνδεση με το %1:%2..."
+
+msgctxt "BridgeDownloader"
+msgid "Sending an HTTPS request for bridges..."
+msgstr "Αποστολή HTTPS αιτήματος για γέφυρες..."
+
+msgctxt "BridgeDownloader"
+msgid "Downloading a list of bridges..."
+msgstr "Λήψη λίστας γεφυρών..."
+
+msgctxt "BridgeDownloaderProgressDialog"
+msgid "Downloading Bridges"
+msgstr "Γίνεται λήψη γεφυρών"
+
+msgctxt "BridgeDownloaderProgressDialog"
+msgid "Unable to download bridges: %1"
+msgstr "Αδυναμία λήψης γεφυρών: %1"
+
+msgctxt "BridgeDownloaderProgressDialog"
+msgid "Retrying bridge request..."
+msgstr "Επανάληψη αιτήματος γεφυρών..."
+
+msgctxt "BridgeUsageDialog"
+msgid "Country"
+msgstr "Χώρα"
+
+msgctxt "BridgeUsageDialog"
+msgid "# Clients"
+msgstr "# Πελατών"
+
+msgctxt "BridgeUsageDialog"
+msgid "Clients from the following countries have used your relay since %1"
+msgstr "Πελάτες από τις ακόλουθες χώρες χρησιμοποιήσαν τον αναμεταδότη σας από την %1"
+
+msgctxt "BridgeUsageDialog"
+msgid "Bridge Usage Summary"
+msgstr "Σύνοψη Χρήσης της Γέφυρας"
+
+msgctxt "BridgeUsageDialog"
+msgid "Client Summary"
+msgstr "Σύνοψη Πελάτη"
+
+msgctxt "Circuit"
+msgid "New"
+msgstr "Νέο"
+
+msgctxt "Circuit"
+msgid "Open"
+msgstr "Άνοιγμα"
+
+msgctxt "Circuit"
+msgid "Building"
+msgstr "Δημιουργία"
+
+msgctxt "Circuit"
+msgid "Failed"
+msgstr "Αποτυχία"
+
+msgctxt "Circuit"
+msgid "Closed"
+msgstr "Έκλεισε"
+
+msgctxt "Circuit"
+msgid "Unknown"
+msgstr "Άγνωστο"
+
+msgctxt "CircuitItem"
+msgid "<Path Empty>"
+msgstr "<Κενή Διαδρομή>"
+
+msgctxt "CircuitListWidget"
+msgid "Connection"
+msgstr "Σύνδεση"
+
+msgctxt "CircuitListWidget"
+msgid "Status"
+msgstr "Κατάσταση"
+
+msgctxt "CircuitListWidget"
+msgid "Zoom to Circuit"
+msgstr "Μεγέθυνση στο Κύκλωμα"
+
+msgctxt "CircuitListWidget"
+msgid "Close Circuit (Del)"
+msgstr "Κλείσιμο Κυκλώματος (Del)"
+
+msgctxt "CircuitListWidget"
+msgid "Close Stream (Del)"
+msgstr "Κλείσιμο Ροής (Del)"
+
+msgctxt "ConfigDialog"
+msgid "General"
+msgstr "Γενικά"
+
+msgctxt "ConfigDialog"
+msgid "Network"
+msgstr "Δίκτυο"
+
+msgctxt "ConfigDialog"
+msgid "Sharing"
+msgstr "Κοινή Χρήση"
+
+msgctxt "ConfigDialog"
+msgid "Services"
+msgstr "Υπηρεσίες"
+
+msgctxt "ConfigDialog"
+msgid "Appearance"
+msgstr "Εμφάνιση"
+
+msgctxt "ConfigDialog"
+msgid "Advanced"
+msgstr "Προχωρημένα"
+
+msgctxt "ConfigDialog"
+msgid "Help"
+msgstr "Βοήθεια"
+
+msgctxt "ConfigDialog"
+msgid "Error Saving Settings"
+msgstr "Αποτυχία Αποθήκευσης Ρυθμίσεων"
+
+msgctxt "ConfigDialog"
+msgid "Vidalia was unable to save your %1 settings."
+msgstr "Το Vidalia δεν μπόρεσε να αποθηκεύσει τις ρυθμίσεις %1."
+
+msgctxt "ConfigDialog"
+msgid "Error Applying Settings"
+msgstr "Αποτυχία Εφαρμογής Ρυθμίσεων"
+
+msgctxt "ConfigDialog"
+msgid "Vidalia was unable to apply your %1 settings to Tor."
+msgstr "Το Vidalia δεν μπόρεσε να εφαρμόσει τις ρυθμίσεις %1 στο Tor."
+
+msgctxt "ConfigDialog"
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+msgctxt "ControlConnection"
+msgid "Vidalia was unable to connect to Tor. (%1)"
+msgstr "Το Vidalia δεν μπόρεσε να συνδεθεί στο Tor. (%1)"
+
+msgctxt "ControlConnection"
+msgid "Control socket is not connected."
+msgstr "Η υποδοχή ελέγχου δεν είναι συνδεδεμένη."
+
+msgctxt "ControlPasswordInputDialog"
+msgid "Password Required"
+msgstr "Απαιτείται κωδικός"
+
+msgctxt "ControlPasswordInputDialog"
+msgid "Remember my password"
+msgstr "Απομνημόνευση Κωδικού"
+
+msgctxt "ControlPasswordInputDialog"
+msgid ""
+"Vidalia has connected to a running Tor process that requires a password. "
+"Please enter your control password:"
+msgstr "Το Vidalia συνδέθηκε σε μια ενεργή διαδικασία Tor η οποία απαιτεί κωδικό. Εισάγετε τον κωδικό σας ελέγχου:"
+
+msgctxt "ControlSocket"
+msgid "Control socket is not connected."
+msgstr "Η υποδοχή ελέγχου δεν είναι συνδεδεμένη."
+
+msgctxt "ControlSocket"
+msgid "Error sending control command. [%1]"
+msgstr "Αποτυχία αποστολής εντολής ελεγχου. [%1]"
+
+msgctxt "ControlSocket"
+msgid "Socket disconnected while attempting to read a line of data."
+msgstr "Κατά την προσπάθεια ανάγνωσης μιας γραμμής δεδομένων αποσυνδέθηκε η υποδοχή (socket)."
+
+msgctxt "ControlSocket"
+msgid "Invalid control reply. [%1]"
+msgstr "Άκυρη απάντηση ελέγχου. [%1]"
+
+msgctxt "CountryInfo"
+msgid "Afghanistan"
+msgstr "Αφγανιστάν"
+
+msgctxt "CountryInfo"
+msgid "Andorra"
+msgstr "Ανδόρρα"
+
+msgctxt "CountryInfo"
+msgid "Angola"
+msgstr "Αγκόλα"
+
+msgctxt "CountryInfo"
+msgid "Antigua & Barbuda"
+msgstr "Αντίγκουα & Μπαρμπούντα"
+
+msgctxt "CountryInfo"
+msgid "Argentina"
+msgstr "Αργεντινή"
+
+msgctxt "CountryInfo"
+msgid "Armenia"
+msgstr "Αρμενία"
+
+msgctxt "CountryInfo"
+msgid "Australia"
+msgstr "Αυστραλία"
+
+msgctxt "CountryInfo"
+msgid "Azerbaijan"
+msgstr "Αζερμπαϊτζάν"
+
+msgctxt "CountryInfo"
+msgid "Bahamas"
+msgstr "Μπαχάμες"
+
+msgctxt "CountryInfo"
+msgid "Bangladesh"
+msgstr "Μπαγκλαντές"
+
+msgctxt "CountryInfo"
+msgid "Barbados"
+msgstr "Μπαρμπάντος"
+
+msgctxt "CountryInfo"
+msgid "Belarus"
+msgstr "Λευκορωσία"
+
+msgctxt "CountryInfo"
+msgid "Belgium"
+msgstr "Βέλγιο"
+
+msgctxt "CountryInfo"
+msgid "Belize"
+msgstr "Μπελίζ"
+
+msgctxt "CountryInfo"
+msgid "Bhutan"
+msgstr "Μπουτάν"
+
+msgctxt "CountryInfo"
+msgid "Bolivia"
+msgstr "Βολιβία"
+
+msgctxt "CountryInfo"
+msgid "Bosnia & Herzegovina"
+msgstr "Βοσνία & Ερζεγοβίνη"
+
+msgctxt "CountryInfo"
+msgid "Botswana"
+msgstr "Μποτσουάνα"
+
+msgctxt "CountryInfo"
+msgid "Brazil"
+msgstr "Βραζιλία"
+
+msgctxt "CountryInfo"
+msgid "Brunei Darussalam"
+msgstr "Μπρουνέι Νταρουσαλάμ"
+
+msgctxt "CountryInfo"
+msgid "Bulgaria"
+msgstr "Βουλγαρία"
+
+msgctxt "CountryInfo"
+msgid "Burkina Faso"
+msgstr "Μπουρκίνα Φάσο"
+
+msgctxt "CountryInfo"
+msgid "Burundi"
+msgstr "Μπουρούντι"
+
+msgctxt "CountryInfo"
+msgid "Cambodia"
+msgstr "Καμπότζη"
+
+msgctxt "CountryInfo"
+msgid "Cameroon"
+msgstr "Καμερούν"
+
+msgctxt "CountryInfo"
+msgid "Canada"
+msgstr "Καναδάς"
+
+msgctxt "CountryInfo"
+msgid "Cape Verde"
+msgstr "Πράσινο Ακρωτήριο"
+
+msgctxt "CountryInfo"
+msgid "Central African Republic"
+msgstr "Κεντροαφρικανική Δημοκρατία"
+
+msgctxt "CountryInfo"
+msgid "Chad"
+msgstr "Τσαντ"
+
+msgctxt "CountryInfo"
+msgid "Chile"
+msgstr "Χιλή"
+
+msgctxt "CountryInfo"
+msgid "China"
+msgstr "Κίνα"
+
+msgctxt "CountryInfo"
+msgid "Colombia"
+msgstr "Κολομβία"
+
+msgctxt "CountryInfo"
+msgid "Comoros"
+msgstr "Κομόρες"
+
+msgctxt "CountryInfo"
+msgid "Congo, The Democratic Republic of the"
+msgstr " Κονγκό, Λαϊκή Δημοκρατία του"
+
+msgctxt "CountryInfo"
+msgid "Congo"
+msgstr "Κονγκό"
+
+msgctxt "CountryInfo"
+msgid "Costa Rica"
+msgstr "Κόστα Ρίκα"
+
+msgctxt "CountryInfo"
+msgid "Cote dâIvoire"
+msgstr "Ακτή Ελεφαντοστού"
+
+msgctxt "CountryInfo"
+msgid "Croatia"
+msgstr "Κροατία"
+
+msgctxt "CountryInfo"
+msgid "Cuba"
+msgstr "Κούβα"
+
+msgctxt "CountryInfo"
+msgid "Cyprus"
+msgstr "Κύπρος"
+
+msgctxt "CountryInfo"
+msgid "Czech Republic"
+msgstr "Τσέχικη Δημοκρατία"
+
+msgctxt "CountryInfo"
+msgid "Denmark"
+msgstr "Δανία"
+
+msgctxt "CountryInfo"
+msgid "Djibouti"
+msgstr "Τζιμπουτί"
+
+msgctxt "CountryInfo"
+msgid "Dominica"
+msgstr "Ντομίνικα"
+
+msgctxt "CountryInfo"
+msgid "Dominican Republic"
+msgstr "Δομινικανή Δημοκρατία"
+
+msgctxt "CountryInfo"
+msgid "Ecuador"
+msgstr "Εκουαδόρ"
+
+msgctxt "CountryInfo"
+msgid "Egypt"
+msgstr "Αίγυπτος"
+
+msgctxt "CountryInfo"
+msgid "El Salvador"
+msgstr "Ελ Σαλβαδόρ"
+
+msgctxt "CountryInfo"
+msgid "Equatorial Guinea"
+msgstr "Ισημερινή Γουινέα"
+
+msgctxt "CountryInfo"
+msgid "Eritrea"
+msgstr "Ερυθραία"
+
+msgctxt "CountryInfo"
+msgid "Estonia"
+msgstr "Εσθονία"
+
+msgctxt "CountryInfo"
+msgid "France"
+msgstr "Γαλλία"
+
+msgctxt "CountryInfo"
+msgid "Gabon"
+msgstr "Γκαμπόν"
+
+msgctxt "CountryInfo"
+msgid "Gambia"
+msgstr "Γκάμπια"
+
+msgctxt "CountryInfo"
+msgid "Georgia"
+msgstr "Γεωργία"
+
+msgctxt "CountryInfo"
+msgid "Germany"
+msgstr "Γερμανία"
+
+msgctxt "CountryInfo"
+msgid "Ghana"
+msgstr "Γκάνα"
+
+msgctxt "CountryInfo"
+msgid "Grenada"
+msgstr "Γρενάδα"
+
+msgctxt "CountryInfo"
+msgid "Guatemala"
+msgstr "Γουατεμάλα"
+
+msgctxt "CountryInfo"
+msgid "Guinea"
+msgstr "Γουινέα"
+
+msgctxt "CountryInfo"
+msgid "Guinea-Bissau"
+msgstr "Γουινέα-Μπισάου"
+
+msgctxt "CountryInfo"
+msgid "Guyana"
+msgstr "Γουιάνα"
+
+msgctxt "CountryInfo"
+msgid "Hong Kong"
+msgstr "Χονγκ Κονγκ"
+
+msgctxt "CountryInfo"
+msgid "Haiti"
+msgstr "Αϊτή"
+
+msgctxt "CountryInfo"
+msgid "Honduras"
+msgstr "Ονδούρα"
+
+msgctxt "CountryInfo"
+msgid "Israel"
+msgstr "Ισραήλ"
+
+msgctxt "CountryInfo"
+msgid "Italy"
+msgstr "Ιταλία"
+
+msgctxt "CountryInfo"
+msgid "Jamaica"
+msgstr "Ιαμαϊκή"
+
+msgctxt "CountryInfo"
+msgid "Japan"
+msgstr "Ιαπωνία"
+
+msgctxt "CountryInfo"
+msgid "Jordan"
+msgstr "Ιορδανία"
+
+msgctxt "CountryInfo"
+msgid "Kazakhstan"
+msgstr "Καζακστάν"
+
+msgctxt "CountryInfo"
+msgid "Kenya"
+msgstr "Κένυα"
+
+msgctxt "CountryInfo"
+msgid "Kiribati"
+msgstr "Κιριμπάτι"
+
+msgctxt "CountryInfo"
+msgid "Kuwait"
+msgstr "Κουβέιτ"
+
+msgctxt "CountryInfo"
+msgid "Kyrgyzstan"
+msgstr "Κιργιζία"
+
+msgctxt "CountryInfo"
+msgid "Laos"
+msgstr "Λάος"
+
+msgctxt "CountryInfo"
+msgid "Latvia"
+msgstr "Λετονία"
+
+msgctxt "CountryInfo"
+msgid "Lebanon"
+msgstr "Λίβανος"
+
+msgctxt "CountryInfo"
+msgid "Lesotho"
+msgstr "Λεσότο"
+
+msgctxt "CountryInfo"
+msgid "Liberia"
+msgstr "Λιβερία"
+
+msgctxt "CountryInfo"
+msgid "Liechtenstein"
+msgstr "Λιχτενστάιν"
+
+msgctxt "CountryInfo"
+msgid "Lithuania"
+msgstr "Λιθουανία"
+
+msgctxt "CountryInfo"
+msgid "Luxembourg"
+msgstr "Λουξεμβούργο"
+
+msgctxt "CountryInfo"
+msgid "Macedonia"
+msgstr "Μακεδονία"
+
+msgctxt "CountryInfo"
+msgid "Madagascar"
+msgstr "Μαδαγασκάρη"
+
+msgctxt "CountryInfo"
+msgid "Malawi"
+msgstr "Μαλάουι"
+
+msgctxt "CountryInfo"
+msgid "Malaysia"
+msgstr "Μαλαισία"
+
+msgctxt "CountryInfo"
+msgid "Mali"
+msgstr "Μάλι"
+
+msgctxt "CountryInfo"
+msgid "Malta"
+msgstr "Μάλτα"
+
+msgctxt "CountryInfo"
+msgid "Marshall Islands"
+msgstr "Νησιά Μάρσαλ"
+
+msgctxt "CountryInfo"
+msgid "Mauritania"
+msgstr "Μαυριτανία"
+
+msgctxt "CountryInfo"
+msgid "Mauritius"
+msgstr "Μαυρίκιος"
+
+msgctxt "CountryInfo"
+msgid "Micronesia"
+msgstr "Μικρονησία"
+
+msgctxt "CountryInfo"
+msgid "Moldova"
+msgstr "Μολδαβία"
+
+msgctxt "CountryInfo"
+msgid "Monaco"
+msgstr "Μονακό"
+
+msgctxt "CountryInfo"
+msgid "Mongolia"
+msgstr "Μογγολία"
+
+msgctxt "CountryInfo"
+msgid "Montenegro"
+msgstr "Μαυροβούνιο"
+
+msgctxt "CountryInfo"
+msgid "Morocco"
+msgstr "Μαρόκο"
+
+msgctxt "CountryInfo"
+msgid "Mozambique"
+msgstr "Μοζαμβίκη"
+
+msgctxt "CountryInfo"
+msgid "Namibia"
+msgstr "Ναμίμπια"
+
+msgctxt "CountryInfo"
+msgid "Nauru"
+msgstr "Ναουρού"
+
+msgctxt "CountryInfo"
+msgid "Nepal"
+msgstr "Νεπάλ"
+
+msgctxt "CountryInfo"
+msgid "Netherlands"
+msgstr "Ολλανδία"
+
+msgctxt "CountryInfo"
+msgid "New Zealand"
+msgstr "Νέα Ζηλανδία"
+
+msgctxt "CountryInfo"
+msgid "Nicaragua"
+msgstr "Νικαράγουα"
+
+msgctxt "CountryInfo"
+msgid "Niger"
+msgstr "Νίγηρας"
+
+msgctxt "CountryInfo"
+msgid "Nigeria"
+msgstr "Νιγηρία"
+
+msgctxt "CountryInfo"
+msgid "Norway"
+msgstr "Νορβηγία"
+
+msgctxt "CountryInfo"
+msgid "Oman"
+msgstr "Ομάν"
+
+msgctxt "CountryInfo"
+msgid "Pakistan"
+msgstr "Πακιστάν"
+
+msgctxt "CountryInfo"
+msgid "Palau"
+msgstr "Πελάου"
+
+msgctxt "CountryInfo"
+msgid "Palestine"
+msgstr "Παλαιστίνη"
+
+msgctxt "CountryInfo"
+msgid "Panama"
+msgstr "Παναμάς"
+
+msgctxt "CountryInfo"
+msgid "Papua New Guinea"
+msgstr "Παπούα-Νέα Γουινέα"
+
+msgctxt "CountryInfo"
+msgid "Paraguay"
+msgstr "Παραγουάη"
+
+msgctxt "CountryInfo"
+msgid "Peru"
+msgstr "Περού"
+
+msgctxt "CountryInfo"
+msgid "Philippines"
+msgstr "Φιλιππίνες"
+
+msgctxt "CountryInfo"
+msgid "Poland"
+msgstr "Πολωνία"
+
+msgctxt "CountryInfo"
+msgid "Portugal"
+msgstr "Πορτογαλία"
+
+msgctxt "CountryInfo"
+msgid "Qatar"
+msgstr "Κατάρ"
+
+msgctxt "CountryInfo"
+msgid "Romania"
+msgstr "Ρουμανία"
+
+msgctxt "CountryInfo"
+msgid "Russia"
+msgstr "Ρωσία"
+
+msgctxt "CountryInfo"
+msgid "Rwanda"
+msgstr "Ρουάντα"
+
+msgctxt "CountryInfo"
+msgid "Saint Kitts & Nevis"
+msgstr "Άγιος Χριστόφορος και Νέβις"
+
+msgctxt "CountryInfo"
+msgid "Saint Lucia"
+msgstr "Αγία Λουκία"
+
+msgctxt "CountryInfo"
+msgid "Saint Vincent & the Grenadines"
+msgstr "Άγιος Βικέντιος και Γρεναδίνες"
+
+msgctxt "CountryInfo"
+msgid "Samoa"
+msgstr "Σαμόα"
+
+msgctxt "CountryInfo"
+msgid "San Marino"
+msgstr "Σαν Μαρίνο"
+
+msgctxt "CountryInfo"
+msgid "Sao Tome & Principe"
+msgstr "Σάο Τομέ και Πρίνσιπε"
+
+msgctxt "CountryInfo"
+msgid "Saudi Arabia"
+msgstr "Σαουδική Αραβία"
+
+msgctxt "CountryInfo"
+msgid "Senegal"
+msgstr "Σενεγάλη"
+
+msgctxt "CountryInfo"
+msgid "Serbia"
+msgstr "Σερβία"
+
+msgctxt "CountryInfo"
+msgid "Seychelles"
+msgstr "Σεϋχέλλες"
+
+msgctxt "CountryInfo"
+msgid "Sierra Leone"
+msgstr "Σιέρα Λεόνε"
+
+msgctxt "CountryInfo"
+msgid "Singapore"
+msgstr "Σιγκαπούρη"
+
+msgctxt "CountryInfo"
+msgid "Slovakia"
+msgstr "Σλοβακία"
+
+msgctxt "CountryInfo"
+msgid "Slovenia"
+msgstr "Σλοβενία"
+
+msgctxt "CountryInfo"
+msgid "Solomon Islands"
+msgstr "Νησιά Σολομώντα"
+
+msgctxt "CountryInfo"
+msgid "Somalia"
+msgstr "Σομαλία"
+
+msgctxt "CountryInfo"
+msgid "South Africa"
+msgstr "Νότια Αφρική"
+
+msgctxt "CountryInfo"
+msgid "Spain"
+msgstr "Ισπανία"
+
+msgctxt "CountryInfo"
+msgid "Sri Lanka"
+msgstr "Σρι Λάνκα"
+
+msgctxt "CountryInfo"
+msgid "Sudan"
+msgstr "Σουδάν"
+
+msgctxt "CountryInfo"
+msgid "Suriname"
+msgstr "Σουρινάμ"
+
+msgctxt "CountryInfo"
+msgid "Swaziland"
+msgstr "Σουαζιλάνδη"
+
+msgctxt "CountryInfo"
+msgid "Sweden"
+msgstr "Σουηδία"
+
+msgctxt "CountryInfo"
+msgid "Switzerland"
+msgstr "Ελβετία"
+
+msgctxt "CountryInfo"
+msgid "Syria"
+msgstr "Συρία"
+
+msgctxt "CountryInfo"
+msgid "Tajikistan"
+msgstr "Τατζικιστάν"
+
+msgctxt "CountryInfo"
+msgid "Tanzania"
+msgstr "Τανζανία"
+
+msgctxt "CountryInfo"
+msgid "Thailand"
+msgstr "Ταϊλάνδη"
+
+msgctxt "CountryInfo"
+msgid "Timor-Leste (East Timor)"
+msgstr "Τιμόρ-Λέστε (Ανατολικό Τιμόρ)"
+
+msgctxt "CountryInfo"
+msgid "Togo"
+msgstr "Τόγκο"
+
+msgctxt "CountryInfo"
+msgid "Tonga"
+msgstr "Τόνγκα"
+
+msgctxt "CountryInfo"
+msgid "Trinidad & Tobago"
+msgstr "Τρινιντάντ & Τομπάγκο"
+
+msgctxt "CountryInfo"
+msgid "Tunisia"
+msgstr "Τυνησία"
+
+msgctxt "CountryInfo"
+msgid "Turkey"
+msgstr "Τουρκία"
+
+msgctxt "CountryInfo"
+msgid "Turkmenistan"
+msgstr "Τουρκμενιστάν"
+
+msgctxt "CountryInfo"
+msgid "Tuvalu"
+msgstr "Τουβαλού"
+
+msgctxt "CountryInfo"
+msgid "Uganda"
+msgstr "Ουγκάντα"
+
+msgctxt "CountryInfo"
+msgid "Ukraine"
+msgstr "Ουκρανία"
+
+msgctxt "CountryInfo"
+msgid "United Arab Emirates"
+msgstr "Ηνωμένα Αραβικά Εμιράτα"
+
+msgctxt "CountryInfo"
+msgid "United Kingdom"
+msgstr "Ηνωμένο Βασίλειο"
+
+msgctxt "CountryInfo"
+msgid "United States"
+msgstr "Ηνωμένες Πολιτείες"
+
+msgctxt "CountryInfo"
+msgid "Uruguay"
+msgstr "Ουρουγουάη"
+
+msgctxt "CountryInfo"
+msgid "Uzbekistan"
+msgstr "Ουζμπεκιστάν"
+
+msgctxt "CountryInfo"
+msgid "Vanuatu"
+msgstr "Βανουάτου"
+
+msgctxt "CountryInfo"
+msgid "Vatican"
+msgstr "Βατικανό"
+
+msgctxt "CountryInfo"
+msgid "Venezuela"
+msgstr "Βενεζουέλα"
+
+msgctxt "CountryInfo"
+msgid "Vietnam"
+msgstr "Βιετνάμ"
+
+msgctxt "CountryInfo"
+msgid "Western Sahara"
+msgstr "Δυτική Σαχάρα"
+
+msgctxt "CountryInfo"
+msgid "Yemen"
+msgstr "Υεμένη"
+
+msgctxt "CountryInfo"
+msgid "Zambia"
+msgstr "Ζάμπια"
+
+msgctxt "CountryInfo"
+msgid "Zimbabwe"
+msgstr "Ζιμπάμπουε"
+
+msgctxt "CountryInfo"
+msgid "Zaire"
+msgstr "Zaire"
+
+msgctxt "CountryInfo"
+msgid "Albania"
+msgstr "Αλβανία"
+
+msgctxt "CountryInfo"
+msgid "Algeria"
+msgstr "Αλγερία"
+
+msgctxt "CountryInfo"
+msgid "Austria"
+msgstr "Αυστρία"
+
+msgctxt "CountryInfo"
+msgid "Bahrain"
+msgstr "Μπαχρέιν"
+
+msgctxt "CountryInfo"
+msgid "Benin"
+msgstr "Μπενίν"
+
+msgctxt "CountryInfo"
+msgid "Ethiopia"
+msgstr "Αιθιοπία"
+
+msgctxt "CountryInfo"
+msgid "Fiji"
+msgstr "Φίτζι"
+
+msgctxt "CountryInfo"
+msgid "Finland"
+msgstr "Φινλανδία"
+
+msgctxt "CountryInfo"
+msgid "Greece"
+msgstr "Ελλάδα"
+
+msgctxt "CountryInfo"
+msgid "Guam"
+msgstr "Γκουάμ"
+
+msgctxt "CountryInfo"
+msgid "Hungary"
+msgstr "Ουγγαρία"
+
+msgctxt "CountryInfo"
+msgid "Iceland"
+msgstr "Ισλανδία"
+
+msgctxt "CountryInfo"
+msgid "India"
+msgstr "Ινδία"
+
+msgctxt "CountryInfo"
+msgid "Indonesia"
+msgstr "Ινδονησία"
+
+msgctxt "CountryInfo"
+msgid "Iran"
+msgstr "Ιράν"
+
+msgctxt "CountryInfo"
+msgid "Iraq"
+msgstr "Ιράκ"
+
+msgctxt "CountryInfo"
+msgid "Ireland"
+msgstr "Ιρλανδία"
+
+msgctxt "CountryInfo"
+msgid "Korea, North"
+msgstr "Κορέα, Βόρεια"
+
+msgctxt "CountryInfo"
+msgid "Korea, South"
+msgstr "Κορέα, Νότια"
+
+msgctxt "CountryInfo"
+msgid "Libya"
+msgstr "Λιβύη"
+
+msgctxt "CountryInfo"
+msgid "Maldives"
+msgstr "Μαλδίβες"
+
+msgctxt "CountryInfo"
+msgid "Mexico"
+msgstr "Μεξικό"
+
+msgctxt "CountryInfo"
+msgid "Myanmar"
+msgstr "Μιανμάρ"
+
+msgctxt "CountryInfo"
+msgid "Taiwan"
+msgstr "Ταϊβάν"
+
+msgctxt "CrashReportDialog"
+msgid "Submit a Crash Report"
+msgstr "Υποβολή αναφοράς κατάρρευσης"
+
+msgctxt "CrashReportDialog"
+msgid "Vidalia encountered an error and needed to close"
+msgstr "Το Vidalia εντόπισε ένα σφάλμα και πρέπει να κλείσει"
+
+msgctxt "CrashReportDialog"
+msgid "Restart Vidalia"
+msgstr "Επανεκκίνηση του Vidalia"
+
+msgctxt "CrashReportDialog"
+msgid "Don't Restart"
+msgstr "Να μην γίνει επανεκκίνηση"
+
+msgctxt "CrashReportDialog"
+msgid "Unable to restart Vidalia"
+msgstr "Αδυναμία επανεκκίνσης του Vidalia"
+
+msgctxt "CrashReportDialog"
+msgid ""
+"We were unable to automatically restart Vidalia. Please restart Vidalia "
+"manually."
+msgstr "Αδυναμία αυτόματης επανεκκίνησης του Vidalia. Παρακαλώ επανεκκινήστε το Vidalia χειροκίνητα."
+
+msgctxt "CrashReportDialog"
+msgid "Please fill a ticket in:"
+msgstr "Συμπληρώστε το εισητήριο:"
+
+msgctxt "CrashReportDialog"
+msgid ""
+"<a "
+"href=\"https://trac.torproject.org/projects/tor/newticket\">https://trac.torproject.org/projects/tor/newticket</a>"
+msgstr "<a href=\"https://trac.torproject.org/projects/tor/newticket\">https://trac.torproject.org/projects/tor/newticket</a>"
+
+msgctxt "CrashReportDialog"
+msgid ""
+"A crash report has been created that you can send to the Vidalia developers "
+"to help identify and fix the problem. The submitted report does not contain "
+"any personally identifying information."
+msgstr "Δημιουργήθηκε μια αναφορά κατάρρευσης την οποία μπορείτε να αποστείλετε στους προγραμματιστές του Vidalia ώστε να εντοπίσουν και να διορθώσουν το πρόβλημα. Η υποβληθείσα αναφορά δεν περιλαμβάνει οποιαδήποτε προσωπικά στοιχεία."
+
+msgctxt "CrashReportDialog"
+msgid ""
+"with a description of what you were doing before the application crashed, "
+"along with the following files corresponding to the crash report:"
+msgstr "με μια περιγραφή των ενεργειών σας πριν την κατάρρευση της εφαρμογής, μαζί με τα ακόλουθα αρχεία που σχετίζονται με την αναφορά κατάρρευσης:"
+
+msgctxt "GeneralPage"
+msgid "Executables (*.exe)"
+msgstr "Εκτελέσιμα (*.exe)"
+
+msgctxt "GeneralPage"
+msgid "Select Path to Tor"
+msgstr "Επιλέξτε την Διαδρομή για το Tor"
+
+msgctxt "GeneralPage"
+msgid "Select Proxy Executable"
+msgstr "Επιλέξτε το Εκτελέσιμο του Διακομιστή Μεσολάβησης (Proxy)"
+
+msgctxt "GeneralPage"
+msgid "You must specify the name of your Tor executable."
+msgstr "Πρέπει να ορίσεις το όνομα του εκτελέσιμου αρχείου του Tor."
+
+msgctxt "GeneralPage"
+msgid "Start Vidalia when my system starts"
+msgstr "Εκκίνηση του Vidalia όταν εκκινεί το σύστημά μου"
+
+msgctxt "GeneralPage"
+msgid "Browse"
+msgstr "Περιήγηση"
+
+msgctxt "GeneralPage"
+msgid "Start the Tor software when Vidalia starts"
+msgstr "Εκκίνηση του λογισμικού Tor όταν εκκινεί το Vidalia"
+
+msgctxt "GeneralPage"
+msgid "Tor"
+msgstr "Tor"
+
+msgctxt "GeneralPage"
+msgid "Proxy Application (optional)"
+msgstr "Εφαρμογή Πληρεξούσιου (Proxy) (προεραιτικό)"
+
+msgctxt "GeneralPage"
+msgid "Start a proxy application when Tor starts"
+msgstr "Εκκίνηση μιας εφαρμογής πληρεξούσιου διακομιστή (proxy) όταν εκκινεί το Tor"
+
+msgctxt "GeneralPage"
+msgid "Proxy Application Arguments:"
+msgstr "Παράμετροι Εφαρμογής Πληρεξούσιου Διακομιστή (Proxy):"
+
+msgctxt "GeneralPage"
+msgid "Software Updates"
+msgstr "Ενημερώσεις Λογισμικού"
+
+msgctxt "GeneralPage"
+msgid "Check for new software updates automatically"
+msgstr "Αυτόματος έλεγχος για ενημερώσεις λογισμικού"
+
+msgctxt "GeneralPage"
+msgid "Check Now"
+msgstr "Έλεγχος Τώρα"
+
+msgctxt "GraphFrame"
+msgid "%1 KB/s"
+msgstr "%1 KB/s"
+
+msgctxt "GraphFrame"
+msgid "%1 KB"
+msgstr "%1 KB"
+
+msgctxt "GraphFrame"
+msgid "%1 MB"
+msgstr "%1 MB"
+
+msgctxt "GraphFrame"
+msgid "%1 GB"
+msgstr "%1 GB"
+
+msgctxt "GraphFrame"
+msgid "Recv:"
+msgstr "Παραλήθφηκαν:"
+
+msgctxt "GraphFrame"
+msgid "Sent:"
+msgstr "Απεστάλησαν:"
+
+msgctxt "HelpBrowser"
+msgid "Supplied XML file is not a valid Contents document."
+msgstr "Το προτεινόμενο αρχείο XML δεν είναι έγκυρο έγγραφο Περιεχομένων."
+
+msgctxt "HelpBrowser"
+msgid "Search reached end of document"
+msgstr "Η αναζήτηση έφτασε στο τέλος του εγγράφου"
+
+msgctxt "HelpBrowser"
+msgid "Search reached start of document"
+msgstr "Η αναζήτηση έφτασε στην αρχή του εγγράφου"
+
+msgctxt "HelpBrowser"
+msgid "Text not found in document"
+msgstr "Δεν βρέθηκε το κείμενο μέσα στο έγγραφο"
+
+msgctxt "HelpBrowser"
+msgid "Found %1 results"
+msgstr "Βρέθηκαν %1 αποτελέσματα"
+
+msgctxt "HelpBrowser"
+msgid "Vidalia Help"
+msgstr "Βοήθεια για το Vidalia"
+
+msgctxt "HelpBrowser"
+msgid "Back"
+msgstr "Πίσω"
+
+msgctxt "HelpBrowser"
+msgid "Move to previous page (Backspace)"
+msgstr "Μετακίνηση στην προηγούμενη σελίδα (Backspace)"
+
+msgctxt "HelpBrowser"
+msgid "Backspace"
+msgstr "Backspace"
+
+msgctxt "HelpBrowser"
+msgid "Forward"
+msgstr "Εμπρός"
+
+msgctxt "HelpBrowser"
+msgid "Move to next page (Shift+Backspace)"
+msgstr "Μετακίνηση στην επόμενη σελίδα (Shift+Backspace)"
+
+msgctxt "HelpBrowser"
+msgid "Shift+Backspace"
+msgstr "Shift+Backspace"
+
+msgctxt "HelpBrowser"
+msgid "Home"
+msgstr "Αρχική"
+
+msgctxt "HelpBrowser"
+msgid "Move to the Home page (Ctrl+H)"
+msgstr "Μετακίνηση στην Αρχική σελίδα (Ctrl+H)"
+
+msgctxt "HelpBrowser"
+msgid "Ctrl+H"
+msgstr "Ctrl+H"
+
+msgctxt "HelpBrowser"
+msgid "Find"
+msgstr "Εύρεση"
+
+msgctxt "HelpBrowser"
+msgid "Search for a word or phrase on current page (Ctrl+F)"
+msgstr "Αναζήτηση μιας λέξης ή φράσης στο τρέχον έγγραφο (Ctrl+F)"
+
+msgctxt "HelpBrowser"
+msgid "Ctrl+F"
+msgstr "Ctrl+F"
+
+msgctxt "HelpBrowser"
+msgid "Close"
+msgstr "Κλείσιμο"
+
+msgctxt "HelpBrowser"
+msgid "Close Vidalia Help"
+msgstr "Κλείσιμο της Βοήθειας του Vidalia"
+
+msgctxt "HelpBrowser"
+msgid "Esc"
+msgstr "Esc"
+
+msgctxt "HelpBrowser"
+msgid "Find:"
+msgstr "Εύρεση:"
+
+msgctxt "HelpBrowser"
+msgid "Find Previous"
+msgstr "Εύρεση προηγούμενου"
+
+msgctxt "HelpBrowser"
+msgid "Find Next"
+msgstr "Εύρεση επομένου"
+
+msgctxt "HelpBrowser"
+msgid "Case sensitive"
+msgstr "Με διάκριση πεζών-κεφαλαίων"
+
+msgctxt "HelpBrowser"
+msgid "Whole words only"
+msgstr "Μόνον ολόκληρες λέξεις"
+
+msgctxt "HelpBrowser"
+msgid "Help Topics"
+msgstr "Θέματα Βοήθειας"
+
+msgctxt "HelpBrowser"
+msgid "Contents"
+msgstr "Περιεχόμενα"
+
+msgctxt "HelpBrowser"
+msgid "Search"
+msgstr "Αναζήτηση"
+
+msgctxt "HelpBrowser"
+msgid "Searching for:"
+msgstr "Αναζήτηση για:"
+
+msgctxt "HelpBrowser"
+msgid "Found Documents"
+msgstr "Βρέθηκαν Έγγραφα"
+
+msgctxt "HelpBrowser"
+msgid "Error Loading Help Contents:"
+msgstr "Σφάλμα κατά την φόρτωση των περιεχομένων της Βοήθειας:"
+
+msgctxt "HelpTextBrowser"
+msgid "Opening External Link"
+msgstr "Άνοιγμα Εξωτερικού Συνδέσμου"
+
+msgctxt "HelpTextBrowser"
+msgid ""
+"Vidalia can open the link you selected in your default Web browser. If your "
+"browser is not currently configured to use Tor then the request will not be "
+"anonymous."
+msgstr "Το Vidalia μπορεί να ανοίξει τον σύνδεσμο που επιλέξατε στον αρχικό περιηγητή σας Ιστού. Αν ο περιηγητής δεν είναι ήδη ρυθμισμένος ώστε να χρησιμοποιεί το Tor, τότε το αίτημα δεν θα είναι ανώνυμο."
+
+msgctxt "HelpTextBrowser"
+msgid "Do you want Vidalia to open the link in your Web browser?"
+msgstr "Θέλετε το Vidalia να ανοίξει τον σύνδεσμο στον περιηγητή ιστού;"
+
+msgctxt "HelpTextBrowser"
+msgid "Unable to Open Link"
+msgstr "Αδυναμία Ανοίγματος του Συνδέσμου"
+
+msgctxt "HelpTextBrowser"
+msgid ""
+"Vidalia was unable to open the selected link in your Web browser. You can "
+"still copy the URL and paste it into your browser."
+msgstr "Το Vidalia δεν μπόρεσε να ανοίξει τον σύνδεσμο που επιλέξατε στον περιηγητή Ιστού. Μπορείτε να αντιγράψετε το URL και να το επικολλήσετε στον περιηγητή σας."
+
+msgctxt "HelpTextBrowser"
+msgid "Error opening help file:"
+msgstr "Σφάλμα κατά το άνοιγμα του αρχείου βοηθείας:"
+
+msgctxt "LicenseDialog"
+msgid "License Information"
+msgstr "Πληροφορίες για την Άδεια"
+
+msgctxt "LicenseDialog"
+msgid "License"
+msgstr "Άδεια"
+
+msgctxt "LicenseDialog"
+msgid "Credits"
+msgstr "Κατάλογος Συνεργατών"
+
+msgctxt "LogEvent"
+msgid "Debug"
+msgstr "Αποσφαλμάτωση"
+
+msgctxt "LogEvent"
+msgid "Info"
+msgstr "Πληροφορίες"
+
+msgctxt "LogEvent"
+msgid "Notice"
+msgstr "Ειδοποίηση"
+
+msgctxt "LogEvent"
+msgid "Warning"
+msgstr "Προειδοποίηση"
+
+msgctxt "LogEvent"
+msgid "Error"
+msgstr "Σφάλμα"
+
+msgctxt "LogEvent"
+msgid "Unknown"
+msgstr "Άγνωστο"
+
+msgctxt "LogTreeItem"
+msgid "Debug"
+msgstr "Αποσφαλμάτωση"
+
+msgctxt "LogTreeItem"
+msgid "Info"
+msgstr "Πληροφορίες"
+
+msgctxt "LogTreeItem"
+msgid "Notice"
+msgstr "Σημείωση"
+
+msgctxt "LogTreeItem"
+msgid "Warning"
+msgstr "Προειδοποίηση"
+
+msgctxt "LogTreeItem"
+msgid "Error"
+msgstr "Σφάλμα"
+
+msgctxt "LogTreeItem"
+msgid "Unknown"
+msgstr "Άγνωστο/ος"
+
+msgctxt "MainWindow"
+msgid "Start Tor"
+msgstr "Εκκίνηση Tor"
+
+msgctxt "MainWindow"
+msgid "Exit"
+msgstr "Έξοδος"
+
+msgctxt "MainWindow"
+msgid "Bandwidth Graph"
+msgstr "Γράφημα του Εύρους Ζώνης"
+
+msgctxt "MainWindow"
+msgid "Message Log"
+msgstr "Καταγραφές Μηνυμάτων"
+
+msgctxt "MainWindow"
+msgid "Network Map"
+msgstr "Χάρτης Δικτύου"
+
+msgctxt "MainWindow"
+msgid "Control Panel"
+msgstr "Πίνακας Ελέγχου"
+
+msgctxt "MainWindow"
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+msgctxt "MainWindow"
+msgid "About"
+msgstr "Σχετικά"
+
+msgctxt "MainWindow"
+msgid "Help"
+msgstr "Βοήθεια"
+
+msgctxt "MainWindow"
+msgid "New Identity"
+msgstr "Νέα Ταυτότητα"
+
+msgctxt "MainWindow"
+msgid "Ctrl+T"
+msgstr "Ctrl+T"
+
+msgctxt "MainWindow"
+msgid "Ctrl+B"
+msgstr "Ctrl+B"
+
+msgctxt "MainWindow"
+msgid "Ctrl+L"
+msgstr "Ctrl+L"
+
+msgctxt "MainWindow"
+msgid "Ctrl+N"
+msgstr "Ctrl+N"
+
+msgctxt "MainWindow"
+msgid "Ctrl+?"
+msgstr "Ctrl+?"
+
+msgctxt "MainWindow"
+msgid "Ctrl+I"
+msgstr "Ctrl+I"
+
+msgctxt "MainWindow"
+msgid "Ctrl+P"
+msgstr "Ctrl+P"
+
+msgctxt "MainWindow"
+msgid "Tor"
+msgstr "Tor"
+
+msgctxt "MainWindow"
+msgid "View"
+msgstr "Εμφάνιση"
+
+msgctxt "MainWindow"
+msgid "Vidalia Help"
+msgstr "Βοήθεια για το Vidalia"
+
+msgctxt "MainWindow"
+msgid "Error starting web browser"
+msgstr "Σφάλμα κατά την εκκίνηση του περιηγητή ιστού"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to start the configured web browser"
+msgstr "Το Vidalia δεν μπόρεσε να εκκινήσει τον ρυθμισμένο περιηγητή ιστού."
+
+msgctxt "MainWindow"
+msgid "Error starting IM client"
+msgstr "Σφάλμα κατά την εκκίνηση του προγράμματος Άμεσων Μηνυμάτων."
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to start the configured IM client"
+msgstr "Το Vidalia δεν μπόρεσε να εκκινήσει το ρυθμισμένο πρόγραμμα Άμεσων Μηνυμάτων"
+
+msgctxt "MainWindow"
+msgid "Error starting proxy server"
+msgstr "Σφάλμα κατά την εκκίνηση του διακομιστή μεσολάβησης (proxy server)"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to start the configured proxy server"
+msgstr "Το Vidalia δεν μπόρεσε να εκκινήσει τον ρυθμισμένο πληρεξούσιο διακομιστή (proxy server)"
+
+msgctxt "MainWindow"
+msgid "Connecting to a relay directory"
+msgstr "Σύνδεση σε ενδιάμεσο (relay) κατάλογο"
+
+msgctxt "MainWindow"
+msgid "Establishing an encrypted directory connection"
+msgstr "Πραγματοποιήθηκε σύνδεση σε κρυπτογραφημένο κατάλογο"
+
+msgctxt "MainWindow"
+msgid "Retrieving network status"
+msgstr "Ανάκτηση της κατάστασης του δικτύου"
+
+msgctxt "MainWindow"
+msgid "Loading network status"
+msgstr "Φόρτωση της κατάστασης του δικτύου"
+
+msgctxt "MainWindow"
+msgid "Loading authority certificates"
+msgstr "Φόρτωση των πιστοποιητικών του φορέα"
+
+msgctxt "MainWindow"
+msgid "Requesting relay information"
+msgstr "Γίνεται αίτηση για πληροφορίες των Ενδιάμεσων"
+
+msgctxt "MainWindow"
+msgid "Loading relay information"
+msgstr "Φόρτωση πληροφοριών Ενδιάμεσου"
+
+msgctxt "MainWindow"
+msgid "Connecting to the Tor network"
+msgstr "Γίνεται σύνδεση στο δίκτυο Tor"
+
+msgctxt "MainWindow"
+msgid "Establishing a Tor circuit"
+msgstr "Σύνδεση σε ένα κύκλωμα Tor"
+
+msgctxt "MainWindow"
+msgid "Connected to the Tor network!"
+msgstr "Συνδέθηκε στο δίκτυο Tor!"
+
+msgctxt "MainWindow"
+msgid "miscellaneous"
+msgstr "διάφορα"
+
+msgctxt "MainWindow"
+msgid "identity mismatch"
+msgstr "η ταυτότητα δεν ταιριάζει"
+
+msgctxt "MainWindow"
+msgid "done"
+msgstr "εντάξει"
+
+msgctxt "MainWindow"
+msgid "connection refused"
+msgstr "απόρριψη σύνδεσης"
+
+msgctxt "MainWindow"
+msgid "connection timeout"
+msgstr "λήξη χρονικού ορίου σύνδεσης"
+
+msgctxt "MainWindow"
+msgid "read/write error"
+msgstr "σφάλμα ανάγνωσης/εγγραφής"
+
+msgctxt "MainWindow"
+msgid "no route to host"
+msgstr "δεν βρέθηκε διαδρομή προς σύνδεση"
+
+msgctxt "MainWindow"
+msgid "insufficient resources"
+msgstr "ανεπαρκείς πόροι"
+
+msgctxt "MainWindow"
+msgid "unknown"
+msgstr "άγνωστο"
+
+msgctxt "MainWindow"
+msgid "Tor is not running"
+msgstr "Το Tor δεν εκτελείται"
+
+msgctxt "MainWindow"
+msgid "Tor is shutting down"
+msgstr "Το Tor τερματίζει"
+
+msgctxt "MainWindow"
+msgid "Stop Tor Now"
+msgstr "Διακοπή του Tor Τώρα"
+
+msgctxt "MainWindow"
+msgid "Stop Tor"
+msgstr "Διακοπή Tor"
+
+msgctxt "MainWindow"
+msgid "Starting the Tor software"
+msgstr "Το λογισμικό Tor ξεκινά"
+
+msgctxt "MainWindow"
+msgid "Starting Tor"
+msgstr "Εκκίνηση του Tor"
+
+msgctxt "MainWindow"
+msgid "Error Starting Tor"
+msgstr "Σφάλμα κατά την Εκκίνηση του Tor"
+
+msgctxt "MainWindow"
+msgid ""
+"Vidalia was unable to start Tor. Check your settings to ensure the correct "
+"name and location of your Tor executable is specified."
+msgstr "Το Vidalia δεν μπόρεσε να ξεκινήσει το Tor. Ελέγξτε τις ρυθμίσεις σας και βεβαιωθείτε ότι δηλώσατε το σωστό όνομα για το εκτελέσιμο του Tor."
+
+msgctxt "MainWindow"
+msgid "Connecting to Tor"
+msgstr "Γίνεται σύνδεση με το Tor"
+
+msgctxt "MainWindow"
+msgid "Connection Error"
+msgstr "Σφάλμα Σύνδεσης"
+
+msgctxt "MainWindow"
+msgid "Relaying is Enabled"
+msgstr "Η Αναμετάδοση ενδιάμεσου είναι Ενεργοποιημένη"
+
+msgctxt "MainWindow"
+msgid "Error Shutting Down"
+msgstr "Σφάλμα κατά τον Τερματισμό"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to stop the Tor software."
+msgstr "Το Vidalia δεν μπόρεσε να διακόψει το λογισμικό Tor"
+
+msgctxt "MainWindow"
+msgid "Unexpected Error"
+msgstr "Απρόσμενο Σφάλμα"
+
+msgctxt "MainWindow"
+msgid "Authenticating to Tor"
+msgstr "Γίνεται αυθεντικοποίηση με το Tor"
+
+msgctxt "MainWindow"
+msgid "Cookie Authentication Required"
+msgstr "Απαιτείται Επαλήθευση με Cookie"
+
+msgctxt "MainWindow"
+msgid ""
+"The Tor software requires Vidalia to send the contents of an authentication "
+"cookie, but Vidalia was unable to find one."
+msgstr "Το λογισμικό Tor απαιτεί από το Vidalia να στείλει το περιεχόμενο ενός cookie επαλήθευσης, αλλά το Vidalia δεν μπόρεσε να το βρει."
+
+msgctxt "MainWindow"
+msgid "Would you like to browse for the file 'control_auth_cookie' yourself?"
+msgstr "Θέλετε να αναζητήσετε το αρχείο 'control_auth_cookie'' εσείς;"
+
+msgctxt "MainWindow"
+msgid "Data Directory"
+msgstr "Κατάλογος Δεδομένων"
+
+msgctxt "MainWindow"
+msgid "Control Cookie (control_auth_cookie)"
+msgstr "Cookie Ελέγχου (control_auth_cookie)"
+
+msgctxt "MainWindow"
+msgid "Error Registering for Events"
+msgstr "Σφάλμα κατά την Καταχώρηση Συμβάντων"
+
+msgctxt "MainWindow"
+msgid ""
+"Vidalia was unable to register for some events. Many of Vidalia's features "
+"may be unavailable."
+msgstr "Το Vidalia δεν μπόρεσε να καταχωρήσει κάποια συμβάντα. Πολλές λειτουργίες του Vidalia ίσως δεν είναι διαθέσιμες."
+
+msgctxt "MainWindow"
+msgid "Authentication Error"
+msgstr "Σφάλμα Επαλήθευσης"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to authenticate to the Tor software. (%1)"
+msgstr "Το Vidalia δεν μπόρεσε να εξακριβώσει το λογισμικό Tor . (%1)"
+
+msgctxt "MainWindow"
+msgid "Please check your control port authentication settings."
+msgstr "Ελέγξτε τις ρυθμίσεις ελέγχου της θύρα εξακρίβωσης."
+
+msgctxt "MainWindow"
+msgid "Tor Update Available"
+msgstr "Υπάρχει διαθέσιμη ενημέρωση για το Tor"
+
+msgctxt "MainWindow"
+msgid ""
+"The currently installed version of Tor is out of date or no longer "
+"recommended. Please visit the Tor website to download the latest version."
+msgstr "Η τρέχουσα εγκατεστημένη έκδοση του Tor είναι παρωχημένη ή δεν συνίσταται πλέον. Επισκεφθείτε τον ιστότοπο του Tor για να παραλάβετε την πιο πρόσφατη έκδοση."
+
+msgctxt "MainWindow"
+msgid "Tor website: %1"
+msgstr "Ιστότοπος Tor: %1"
+
+msgctxt "MainWindow"
+msgid ""
+"All subsequent connections will appear to be different than your old "
+"connections."
+msgstr "Όλες οι επόμενες συνδέσεις σας θα φαίνονται διαφορετικές από τις παλαιές."
+
+msgctxt "MainWindow"
+msgid "Failed to Create New Identity"
+msgstr "Αποτυχία δημιουργίας νέας Ταυτότητας"
+
+msgctxt "MainWindow"
+msgid "Port Forwarding Failed"
+msgstr "Απέτυχε η Προώθηση Θύρας"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to configure automatic port forwarding."
+msgstr "Το Vidalia δεν μπόρεσε να ρυθμίσει την αυτόματη προώθηση θύρας."
+
+msgctxt "MainWindow"
+msgid "Vidalia Control Panel"
+msgstr "Πίνακας Ελέγχου του Vidalia"
+
+msgctxt "MainWindow"
+msgid "Status"
+msgstr "Κατάσταση"
+
+msgctxt "MainWindow"
+msgid "Vidalia Shortcuts"
+msgstr "Συντομεύσεις πληκτρολογίου για το Vidalia"
+
+msgctxt "MainWindow"
+msgid "Setup Relaying"
+msgstr "Εγκατάσταση/Ρύθμιση Ενδιάμεσου\n"
+
+msgctxt "MainWindow"
+msgid "Set up a relay and help the network grow"
+msgstr "Ρυθμίστε έναν ενδιάμεσο και βοηθήστε στην ανάπτυξη του δικτύου."
+
+msgctxt "MainWindow"
+msgid "View the Network"
+msgstr "Εμφάνιση του Δικτύου"
+
+msgctxt "MainWindow"
+msgid "View a map of the Tor network"
+msgstr "Εμφάνιση ενός χάρτη του δικτύου Tor"
+
+msgctxt "MainWindow"
+msgid "Use a New Identity"
+msgstr "Χρήση Νέας Ταυτότητας"
+
+msgctxt "MainWindow"
+msgid "Make subsequent connections appear new"
+msgstr "Οι επόμενες συνδέσεις να εμφανίζονται νέες"
+
+msgctxt "MainWindow"
+msgid "View recent bandwidth usage"
+msgstr "Εμφάνιση πρόσφατης χρήσης του εύρους ζώνης"
+
+msgctxt "MainWindow"
+msgid "View log message history"
+msgstr "Εμφάνιση του ιστορικού καταγραφών μηνυμάτων"
+
+msgctxt "MainWindow"
+msgid "View help documentation"
+msgstr "Εμφάνιση βοηθητικής τεκμηρίωσης"
+
+msgctxt "MainWindow"
+msgid "Configure Vidalia"
+msgstr "Ρύθμιση του Vidalia"
+
+msgctxt "MainWindow"
+msgid "View version and license information"
+msgstr "Εμφάνιση της έκδοσης και αδειοδοτικών πληροφοριών"
+
+msgctxt "MainWindow"
+msgid "Exit Vidalia"
+msgstr "Έξοδος από το Vidalia"
+
+msgctxt "MainWindow"
+msgid "Show this window on startup"
+msgstr "Εμφάνιση αυτού του παραθύρου κατά την εκκίνηση"
+
+msgctxt "MainWindow"
+msgid "Hide"
+msgstr "Απόκρυψη"
+
+msgctxt "MainWindow"
+msgid "Hide this window"
+msgstr "Απόκρυψη αυτού του παραθύρου"
+
+msgctxt "MainWindow"
+msgid "Password Reset Failed"
+msgstr "Ο μηδενισμός του κωδικού απέτυχε"
+
+msgctxt "MainWindow"
+msgid ""
+"Vidalia tried to reset Tor's control password, but was not able to restart "
+"the Tor software. Please check your Task Manager to ensure there are no "
+"other Tor processes running."
+msgstr "Το Vidalia προσπάθησε να επαναφέρει τον αρχικό κωδικό για τις ρυθμίσεις του Tor, αλλά δεν μπόρεσε να επανεκκινήσει το Tor. Παρακαλούμε ελέγξτε στη διαχείριση εργασιών του συστήματος ότι δεν εκτελείται κάποια άλλη υπηρεσία του Tor."
+
+msgctxt "MainWindow"
+msgid ""
+"The currently installed version of Tor is out of date or no longer "
+"recommended."
+msgstr "Η εγκατεστημένη έκδοση του Tor είναι ξεπερασμένη ή δεν συνιστάται πλέον."
+
+msgctxt "MainWindow"
+msgid ""
+"Would you like to check if a newer package is available for installation?"
+msgstr "Θέλετε να γίνει έλεγχος για νεότερα διαθέσιμα πακέτα προς εγκατάσταση;"
+
+msgctxt "MainWindow"
+msgid "Potentially Unsafe Connection"
+msgstr "Πιθανόν μη ασφαλής σύνδεση"
+
+msgctxt "MainWindow"
+msgid ""
+"Tor has automatically closed your connection in order to protect your "
+"anonymity."
+msgstr "Το Tor έκλεισε αυτόματα την σύνδεσή σας ώστε να προστατευθεί η ανωνυμία σας."
+
+msgctxt "MainWindow"
+msgid "Update Failed"
+msgstr "Η Ενημέρωση Απέτυχε"
+
+msgctxt "MainWindow"
+msgid "Your software is up to date"
+msgstr "Το λογισμικό σας είναι ενημερωμένο"
+
+msgctxt "MainWindow"
+msgid ""
+"There are no new Tor software packages available for your computer at this "
+"time."
+msgstr "Δεν υπάρχουν αυτή τη στιγμή νεότερα πακέτα Tor για τον υπολογιστή σας."
+
+msgctxt "MainWindow"
+msgid "Installation Failed"
+msgstr "Η Εγκατάσταση Απέτυχε"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to install your software updates."
+msgstr "Το Vidalia δεν μπόρεσε να εγκαταστήσει τις ενημερώσεις λογισμικού."
+
+msgctxt "MainWindow"
+msgid "The following error occurred:"
+msgstr "Έγινε το ακόλουθο σφάλμα:"
+
+msgctxt "MainWindow"
+msgid ""
+"Anything sent over this connection could be monitored. Please check your "
+"application's configuration and use only encrypted protocols, such as SSL, "
+"if possible."
+msgstr "Ο,τιδήποτε σταλεί μέσω αυτής της σύνδεσης μπορεί να ανασχεθεί. Ελέγξτε τις ρυθμίσεις της εφαρμογής σας και χρησιμοποιή(σ)τε μόνον κρυπτογραφημένα πρωτόκολα, όπως SSL, αν είναι εφικτό."
+
+msgctxt "MainWindow"
+msgid "Bootstrapping torrc from %1 to %2"
+msgstr "Ρύθμιση του torrc για εκκίνηση από %1 σε %2"
+
+msgctxt "MainWindow"
+msgid "(probably Telnet)"
+msgstr "(πιθανόν Telnet)"
+
+msgctxt "MainWindow"
+msgid "(probably an email client)"
+msgstr "(πιθανόν κάποιο πρόγραμμα ηλεκτρονικής αλληλογραφίας)"
+
+msgctxt "MainWindow"
+msgid ""
+"One of your applications %1 appears to be making a potentially unencrypted "
+"and unsafe connection to port %2."
+msgstr "Κάποια από τις εφαρμογές σας %1 φαίνεται ότι πραγματοποιεί πιθανόν μη κρυπτογραφημένες και ανασφαλείς συνδέσεις στην θήρα %2."
+
+msgctxt "MainWindow"
+msgid "failed (%1)"
+msgstr "απέτυχε (%1)"
+
+msgctxt "MainWindow"
+msgid ""
+"Your relay is shutting down.\n"
+"Click 'Stop' again to stop your relay now."
+msgstr "Ο αναμεταδότης σας πρόκειται να κλείσει.\nΠατήστε 'Stop' ξανά για να διακόψετε τον αναμεταδότη σας τώρα."
+
+msgctxt "MainWindow"
+msgid ""
+"Vidalia can't find out how to talk to Tor because it can't access this file: %1\n"
+"\n"
+"Here's the last error message:\n"
+"%2"
+msgstr "Το Vidalia δεν γνωρίζει πώς να επικοινωνήσει με το Tor διότι δεν έχει πρόσβαση σε αυτό το αρχείο: %1\n\nΤο τελευταίο μήνυμα σφάλματος ήταν:\n%2"
+
+msgctxt "MainWindow"
+msgid ""
+"It seems Tor has stopped running since Vidalia started it.\n"
+"\n"
+"See the Advanced Message Log for more information."
+msgstr "Φαίνεται ότι το Tor έχει πάψει να λειτουργεί από τότε που το εκκίνησε το Vidalia.\nΔείτε τις Προχωρημένες Καταγραφές Μηνυμάτων για περισσότερες πληροφορίες."
+
+msgctxt "MainWindow"
+msgid ""
+"You are currently running a relay. Terminating your relay will interrupt any open connections from clients.\n"
+"\n"
+"Would you like to shutdown gracefully and give clients time to find a new relay?"
+msgstr "Αυτή τη στιγμή εκτελείτε έναν αναμεταδότη. Ο τερματισμός του αναμεταδότη σας θα διακόψει κάθε ανοικτή επικοινωνία από άλλους πελάτες.\nΘέλετε η διακοπή να γίνει ομαλά ώστε να δοθεί χρόνος στους πελάτες να βρουν νέο αναμεταδότη;"
+
+msgctxt "MainWindow"
+msgid ""
+"Vidalia detected that the Tor software exited unexpectedly.\n"
+"\n"
+"Please check the message log for recent warning or error messages."
+msgstr "Το Vidalia διαπίστωσε ότι το Tor τερμάτισε αναπάντεχα.\nΕλέγξτε τα μηνύματα καταγραφής για πρόσφατες προειδοποιήσεις και μηνύματα σφάλματος."
+
+msgctxt "MessageLog"
+msgid "Error Setting Filter"
+msgstr "Αποτυχία Ρύθμισης Φίλτρου"
+
+msgctxt "MessageLog"
+msgid "Vidalia was unable to register for Tor's log events."
+msgstr "Το Vidalia δεν ήταν ικανό να καταχωρήσει τα δεδομένα σχετικά με το αρχείο καταγραφής του Tor."
+
+msgctxt "MessageLog"
+msgid "Error Opening Log File"
+msgstr "Λάθος κατά το άνοιγμα του αρχείου καταγραφής."
+
+msgctxt "MessageLog"
+msgid "Vidalia was unable to open the specified log file."
+msgstr "Το Vidalia δεν ήταν ικανό να ανοίξει το συγκεκριμένο αρχείο καταγραφής."
+
+msgctxt "MessageLog"
+msgid "Log Filename Required"
+msgstr "Απαιτείται ένα όνομα για το αρχείο καταγραφής"
+
+msgctxt "MessageLog"
+msgid "You must enter a filename to be able to save log messages to a file."
+msgstr "Πρέπει να εισάγεις ένα όνομα αρχείου ώστε να μπορείτε να αποθηκεύσετε ένα αρχείο καταγραφής."
+
+msgctxt "MessageLog"
+msgid "Select Log File"
+msgstr "Επέλεξε αρχείο καταγραφής"
+
+msgctxt "MessageLog"
+msgid "Save Log Messages"
+msgstr "Αποθήκευση αρχείων καταγραφής"
+
+msgctxt "MessageLog"
+msgid "Text Files (*.txt)"
+msgstr "Αρχεία κειμένου (*.txt)"
+
+msgctxt "MessageLog"
+msgid "Vidalia"
+msgstr "Vidalia"
+
+msgctxt "MessageLog"
+msgid "Find in Message Log"
+msgstr "Εύρεση στο αρχείο Καταγραφής Μηνυμάτων"
+
+msgctxt "MessageLog"
+msgid "Find:"
+msgstr "Εύρεση:"
+
+msgctxt "MessageLog"
+msgid "Not Found"
+msgstr "Δεν βρέθηκε"
+
+msgctxt "MessageLog"
+msgid "Search found 0 matches."
+msgstr "Η αναζήτηση βρήκε 0 αποτελέσματα."
+
+msgctxt "MessageLog"
+msgid "Message Log"
+msgstr "Αρχείο καταγραφής μηνυμάτων"
+
+msgctxt "MessageLog"
+msgid "Message Filters..."
+msgstr "Φίλτρα Μηνυμάτων..."
+
+msgctxt "MessageLog"
+msgid "Set message filters"
+msgstr "Ρύθμιση φίλτρων μηνυμάτων"
+
+msgctxt "MessageLog"
+msgid "History Size..."
+msgstr "Μέγεθος ιστορικού..."
+
+msgctxt "MessageLog"
+msgid "Set maximum number of messages to display"
+msgstr "Θέστε τον μέγιστο αριθμό των εμφανιζόμενων μηνυμάτων"
+
+msgctxt "MessageLog"
+msgid "Clear"
+msgstr "Εκκαθάριση"
+
+msgctxt "MessageLog"
+msgid "Clear all messages from the Message Log (Ctrl+E)"
+msgstr "Εκκαθάριση όλων των μηνυμάτων απο το αρχείο καταγραφής μηνυμάτων (Ctrl + E)"
+
+msgctxt "MessageLog"
+msgid "Ctrl+E"
+msgstr "Ctrl + E"
+
+msgctxt "MessageLog"
+msgid "Copy"
+msgstr "Αντιγραφή"
+
+msgctxt "MessageLog"
+msgid "Copy the selected messages to the clipboard (Ctrl+C)"
+msgstr "Αντιγραφή των επιλεγμένων μηνυμάτων στο πρόχειρο (Ctrl+C)"
+
+msgctxt "MessageLog"
+msgid "Ctrl+C"
+msgstr "Ctrl+C"
+
+msgctxt "MessageLog"
+msgid "Select All"
+msgstr "Επιλογή Όλων"
+
+msgctxt "MessageLog"
+msgid "Select all messages (Ctrl+A)"
+msgstr "Επιλέξτε όλα τα μηνύματα (Ctrl+A)"
+
+msgctxt "MessageLog"
+msgid "Ctrl+A"
+msgstr "Ctrl+A"
+
+msgctxt "MessageLog"
+msgid "Save All"
+msgstr "Αποθήκευση Όλων"
+
+msgctxt "MessageLog"
+msgid "Save all messages to a file"
+msgstr "Αποθήκευση όλων των μηνυμάτων σε αρχείο"
+
+msgctxt "MessageLog"
+msgid "Save Selected"
+msgstr "Αποθήκευση Επιλεγμένων"
+
+msgctxt "MessageLog"
+msgid "Save selected messages to a file"
+msgstr "Αποθήκευση επιλεγμένων μηνυμάτων σε αρχείο"
+
+msgctxt "MessageLog"
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+msgctxt "MessageLog"
+msgid "Adjust Message Log Settings"
+msgstr "Τροποποίηση Ρυθμίσεων αρχείου Καταγραφής Μηνυμάτων"
+
+msgctxt "MessageLog"
+msgid "Ctrl+T"
+msgstr "Ctrl+T"
+
+msgctxt "MessageLog"
+msgid "Help"
+msgstr "Βοήθεια"
+
+msgctxt "MessageLog"
+msgid "Show the help browser"
+msgstr "Εμφάνιση του περιηγητή βοήθειας"
+
+msgctxt "MessageLog"
+msgid "F1"
+msgstr "F1"
+
+msgctxt "MessageLog"
+msgid "Close"
+msgstr "Κλείσιμο"
+
+msgctxt "MessageLog"
+msgid "Close the Message Log"
+msgstr "Κλείσε το αρχείο καταγραφής μηνυμάτων"
+
+msgctxt "MessageLog"
+msgid "Esc"
+msgstr "Esc"
+
+msgctxt "MessageLog"
+msgid "Find"
+msgstr "Εύρεση"
+
+msgctxt "MessageLog"
+msgid "Find all messages containing the search text (Ctrl+F)"
+msgstr "Εύρεση όλων των μηνυμάτων που περιέχουν το προς αναζήτηση κείμενο (Ctrl+F)"
+
+msgctxt "MessageLog"
+msgid "Ctrl+F"
+msgstr "Ctrl+F"
+
+msgctxt "MessageLog"
+msgid "Time"
+msgstr "Χρόνος"
+
+msgctxt "MessageLog"
+msgid "Type"
+msgstr "Τύπος"
+
+msgctxt "MessageLog"
+msgid "Message"
+msgstr "Μήνυμα"
+
+msgctxt "MessageLog"
+msgid "Saves the current Message Log settings"
+msgstr "Αποθηκεύει τις τρέχουσες ρυθμίσεις του αρχείου Καταγραφής Μηνυμάτων"
+
+msgctxt "MessageLog"
+msgid "Save Settings"
+msgstr "Αποθήκευση Ρυθμίσεων"
+
+msgctxt "MessageLog"
+msgid "Cancels changes made to settings"
+msgstr "Ακυρώνει τις αλλαγές που έγιναν στις ρυθμίσεις"
+
+msgctxt "MessageLog"
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+msgctxt "MessageLog"
+msgid "Message Filter"
+msgstr "Φίλτρο μηνύματος"
+
+msgctxt "MessageLog"
+msgid "Error"
+msgstr "Λάθος"
+
+msgctxt "MessageLog"
+msgid "Warning"
+msgstr "Προειδοποίηση"
+
+msgctxt "MessageLog"
+msgid "Notice"
+msgstr "Σημείωση"
+
+msgctxt "MessageLog"
+msgid "Info"
+msgstr "Πληροφορίες"
+
+msgctxt "MessageLog"
+msgid "Debug"
+msgstr "Απασφαλμάτωση"
+
+msgctxt "MessageLog"
+msgid "Message Log History"
+msgstr "Ιστορικό αρχείου καταγραφής μηνυμάτων"
+
+msgctxt "MessageLog"
+msgid "Number of messages to display in the message log window"
+msgstr "Αριθμός μηνυμάτων προς εμφάνιση στο παράθυρο του αρχείου καταγραφής μηνυμάτων"
+
+msgctxt "MessageLog"
+msgid "messages"
+msgstr "μυνήματα"
+
+msgctxt "MessageLog"
+msgid "Browse"
+msgstr "Πλοήγηση"
+
+msgctxt "MessageLog"
+msgid "Enable automatically saving all new log messages to a file"
+msgstr "Ενεργοποίση αυτόματης αποθήκευσης όλων των νέων μηνυμάτων καταγραφής σε αρχείο"
+
+msgctxt "MessageLog"
+msgid "Automatically save new log messages to a file"
+msgstr "Αυτόματη αποθήκευση νέων μηνυμάτων καταγραφής σε αρχείο"
+
+msgctxt "MessageLog"
+msgid "Basic"
+msgstr "Βασικά"
+
+msgctxt "MessageLog"
+msgid "Tor Status"
+msgstr "Κατάσταση Tor"
+
+msgctxt "MessageLog"
+msgid "Advanced"
+msgstr "Προχωρημένες"
+
+msgctxt "MessageLog"
+msgid "Always Save New Log Messages"
+msgstr "Πάντα να αποθηκεύεις τα νέα αρχεία καταγραφής μηνυμάτων"
+
+msgctxt "MessageLog"
+msgid ""
+"Messages that appear when something has \n"
+"gone very wrong and Tor cannot proceed."
+msgstr "Μηνύματα που εμφανίζονται όταν συμβαίνει κάτι\nπολύ σοβαρό και το Tor δεν μπορεί να προχωρήσει."
+
+msgctxt "MessageLog"
+msgid ""
+"Messages that only appear when \n"
+"something has gone wrong with Tor."
+msgstr "Μηνύματα που εμφανίζονται μόνον όταν\nκάτι σοβαρό συμβαίνει με το Tor."
+
+msgctxt "MessageLog"
+msgid ""
+"Messages that appear infrequently \n"
+"during normal Tor operation and are \n"
+"not considered errors, but you may \n"
+"care about."
+msgstr "Μηνύματα που εμφανίζονται σπάνια\nστην διάρκεια φυσιολογικών λειτουργιών του Tor και δεν\nθεωρούνται σφάλματα, αλλά που θα πρέπει να τα ελέγξετε."
+
+msgctxt "MessageLog"
+msgid ""
+"Messages that appear frequently \n"
+"during normal Tor operation."
+msgstr "Μηνύματα που εμφανίζονται συχνά\nστη διάρκεια φυσιολογικών λειτουργιών του Tor."
+
+msgctxt "MessageLog"
+msgid ""
+"Hyper-verbose messages primarily of \n"
+"interest to Tor developers."
+msgstr "Υπερφλύαρα μηνύματα που κυρίως\nαφορούν τους προγραμματιστές του Tor."
+
+msgctxt "MessageLog"
+msgid ""
+"Cannot write file %1\n"
+"\n"
+"%2."
+msgstr "Αδυναμία εγγραφής του αρχείου %1\n\n%2."
+
+msgctxt "NetViewer"
+msgid "Tor Network Map"
+msgstr "Χάρτης δικτύου Tor"
+
+msgctxt "NetViewer"
+msgid "Refresh"
+msgstr "Ανανέωση"
+
+msgctxt "NetViewer"
+msgid "Refresh the list of Tor relays and connections"
+msgstr "Ανανέωση της λίστας των σταθμών και των συνδέσεων του Tor"
+
+msgctxt "NetViewer"
+msgid "Ctrl+R"
+msgstr "Ctrl+R"
+
+msgctxt "NetViewer"
+msgid "Help"
+msgstr "Βοήθεια"
+
+msgctxt "NetViewer"
+msgid "Show the network map help"
+msgstr "Εμφάνιση της βοήθειας του χάρτη δικτύου"
+
+msgctxt "NetViewer"
+msgid "Show network map help"
+msgstr "Εμφάνιση βοήθειας του χάρτη δικτύου"
+
+msgctxt "NetViewer"
+msgid "F1"
+msgstr "F1"
+
+msgctxt "NetViewer"
+msgid "Close"
+msgstr "Κλείσιμο"
+
+msgctxt "NetViewer"
+msgid "Close the network map"
+msgstr "Κλείσιμο του χάρτη δικτύου"
+
+msgctxt "NetViewer"
+msgid "Esc"
+msgstr "Esc"
+
+msgctxt "NetViewer"
+msgid "Zoom In"
+msgstr "Αύξηση μεγέθους"
+
+msgctxt "NetViewer"
+msgid "Zoom in on the network map"
+msgstr "Εστίασε μέσα στο χάρτη δικτύου"
+
+msgctxt "NetViewer"
+msgid "+"
+msgstr "+"
+
+msgctxt "NetViewer"
+msgid "Zoom Out"
+msgstr "Μείωση μεγέθους"
+
+msgctxt "NetViewer"
+msgid "Zoom out on the network map"
+msgstr "Εστίαση έξω στο χάρτη δικτύου"
+
+msgctxt "NetViewer"
+msgid "-"
+msgstr "-"
+
+msgctxt "NetViewer"
+msgid "Zoom To Fit"
+msgstr "Εστιάστε ώστε να χωράει"
+
+msgctxt "NetViewer"
+msgid "Zooms to fit all currently displayed circuits"
+msgstr "Εστίασε ώστε να χωράει όλα τα κυκλώματα τα οποία είναι φανερά τώρα"
+
+msgctxt "NetViewer"
+msgid "Ctrl+Z"
+msgstr "Ctrl+Z"
+
+msgctxt "NetViewer"
+msgid "Relay Not Found"
+msgstr "Δεν βρέθηκε αναμεταδότης"
+
+msgctxt "NetViewer"
+msgid "No details on the selected relay are available."
+msgstr "Δεν είναι διαθέσιμες οι λεπτομέρειες για τον επιλεγμένο αναμεταδότη."
+
+msgctxt "NetViewer"
+msgid "Unknown"
+msgstr "Άγνωστο"
+
+msgctxt "NetViewer"
+msgid "Full Screen"
+msgstr "Μέγιστη Οθόνη"
+
+msgctxt "NetViewer"
+msgid "View the network map as a full screen window"
+msgstr "Εμφάνιση του δικτυακού χάρτη σε προβολή πλήρους οθόνης"
+
+msgctxt "NetViewer"
+msgid "Ctrl+F"
+msgstr "Ctrl+F"
+
+msgctxt "NetworkPage"
+msgid "Copy (Ctrl+C)"
+msgstr "Αντιγραφή (Ctrl+C)"
+
+msgctxt "NetworkPage"
+msgid ""
+"You must specify both an IP address or hostname and a port number to "
+"configure Tor to use a proxy to access the Internet."
+msgstr "Πρέπει να καθορίσετε μία διεύθυνση IP ή ένα όνομα υπολογιστή και μία θύρα συστήματος για να ρυθμίσετε το Tor να χρησιμοποιεί διακομιστή μεσολάβησης (proxy server) για πρόσβαση στο διαδίκτυο."
+
+msgctxt "NetworkPage"
+msgid ""
+"You must specify one or more ports to which your firewall allows you to "
+"connect."
+msgstr "Πρέπει να καθορίσετε μία ή και περισσότερες θύρες συστήματος στις οποίες το τείχος προστασίας σας επιτρέπει συνδέσεις."
+
+msgctxt "NetworkPage"
+msgid "'%1' is not a valid port number."
+msgstr "%1 δεν είναι έγκυρος αριθμός θύρας συστήματος"
+
+msgctxt "NetworkPage"
+msgid "Check if your local network requires a proxy to access the Internet"
+msgstr "Επέλεξε εδώ αν το τοπικό σου δίκτυο απαιτεί διακομιστή μεσολάβησης (proxy server) για να έχετε πρόσβαση στο διαδίκτυο"
+
+msgctxt "NetworkPage"
+msgid "I use a proxy to access the Internet"
+msgstr "Χρησιμοποιώ ένα διακομιστή μεσολάβησης (proxy server) για πρόσβαση στο διαδίκτυο"
+
+msgctxt "NetworkPage"
+msgid "Proxy Settings"
+msgstr "Ρυθμίσεις Διαμεσολαβητή (proxy server)"
+
+msgctxt "NetworkPage"
+msgid "Username:"
+msgstr "Όνομα Χρήστη:"
+
+msgctxt "NetworkPage"
+msgid "Password:"
+msgstr "Κωδικός:"
+
+msgctxt "NetworkPage"
+msgid "Port:"
+msgstr "Θύρα συστήματος:"
+
+msgctxt "NetworkPage"
+msgid "Check to only connect to relays using ports allowed by your firewall"
+msgstr "Επιλέξτε εδώ για να συνδέεστε μόνο με σταθμούς  επιτρεπόμενους από το τείχος προστασίας θυρών συστήματος"
+
+msgctxt "NetworkPage"
+msgid "My firewall only lets me connect to certain ports"
+msgstr "Το τείχος προστασίας μου με αφήνει να συνδέομαι μόνο σε συγκεκριμένες θύρες συστήματος"
+
+msgctxt "NetworkPage"
+msgid "Firewall Settings"
+msgstr "Ρυθμίσεις Τείχους Προστασίας"
+
+msgctxt "NetworkPage"
+msgid "Allowed Ports:"
+msgstr "Επιτρεπόμενες Θύρες:"
+
+msgctxt "NetworkPage"
+msgid "80, 443"
+msgstr "80, 443"
+
+msgctxt "NetworkPage"
+msgid ""
+"Check to encrypt directory requests and, optionally, use bridge relays to "
+"access the Tor network"
+msgstr "Επιλέξτε εδώ ώστε να κρυπτογραφείτε τις αιτήσεις καταλόγου και, επιλεκτικά, να χρησιμοποιητε σταθμούς με συνδέσεις γέφυρας για να φτάσετε το δίκτυο του Tor"
+
+msgctxt "NetworkPage"
+msgid "My ISP blocks connections to the Tor network"
+msgstr "Ο πάροχος του Internet μου μπλοκάρει τις συνδέσεις στο δίκτυο του Tor"
+
+msgctxt "NetworkPage"
+msgid "Bridge Settings"
+msgstr "Ρυθμίσεις συνδέσεων Γέφυρας"
+
+msgctxt "NetworkPage"
+msgid "Add a Bridge:"
+msgstr "Προσθήκη μίας σύνδεσης Γέφυρας:"
+
+msgctxt "NetworkPage"
+msgid "Remove the selected bridges from the list"
+msgstr "Διαγραφή των επιλεγμένων συνδέσεων γέφυρας από τη λίστα"
+
+msgctxt "NetworkPage"
+msgid "Copy the selected bridges to the clipboard"
+msgstr "Αντιγραφή επιλεγμένων συνδέσεων γέφυρας στο πρόχειρο"
+
+msgctxt "NetworkPage"
+msgid "Find Bridges Now"
+msgstr "Αναζήτηση Γεφυρών Τώρα"
+
+msgctxt "NetworkPage"
+msgid "<a href=\"bridges.finding\">How else can I find bridges?</a>"
+msgstr "<a href=\"bridges.finding\">Με ποιόν άλλο τρόπο μπορώ να βρω γέφυρες;</a>"
+
+msgctxt "NetworkPage"
+msgid "<a href=\"bridges.finding\">How can I find bridges?</a>"
+msgstr "<a href=\"bridges.finding\">Πώς μπορώ να βρω γέφυρες;</a>"
+
+msgctxt "NetworkPage"
+msgid ""
+"No new bridges are currently available. You can either wait a while and try "
+"again, or try another method of finding new bridges."
+msgstr "Δεν υπάρχουν διαθέσιμες γέφυρες αυτή τη στιγμή. Μπορείτε είτε να περιμένετε για λίγο και να προσπαθήσετε εκ νέου, είτε να δοκιμάσετε διαφορετική μέθοδο αναζήτησης νέων γεφυρών."
+
+msgctxt "NetworkPage"
+msgid "Click Help to see other methods of finding new bridges."
+msgstr "Πατήστε Help για να δείτε άλλους τρόπους αναζήτησης νέων γεφυρών."
+
+msgctxt "NetworkPage"
+msgid "Address:"
+msgstr "Διεύθυνση:"
+
+msgctxt "NetworkPage"
+msgid "Type:"
+msgstr "Τύπος:"
+
+msgctxt "NetworkPage"
+msgid "You must select the proxy type."
+msgstr "Πρέπει να επιλέξετε τον τύπο του πληρεξούσιου διακομηστή."
+
+msgctxt "NetworkPage"
+msgid "SOCKS 4"
+msgstr "SOCKS 4"
+
+msgctxt "NetworkPage"
+msgid "SOCKS 5"
+msgstr "SOCKS 5"
+
+msgctxt "NetworkPage"
+msgid "HTTP / HTTPS"
+msgstr "HTTP / HTTPS"
+
+msgctxt "NetworkPage"
+msgid "You must specify one or more bridges."
+msgstr "Πρέπει να καθορίσετε μια ή περισσότερες γέφυρες."
+
+msgctxt "Policy"
+msgid "accept"
+msgstr "αποδοχή"
+
+msgctxt "Policy"
+msgid "reject"
+msgstr "απόρριψη"
+
+msgctxt "RouterDescriptor"
+msgid "Online"
+msgstr "Συνδεδεμένο"
+
+msgctxt "RouterDescriptor"
+msgid "Hibernating"
+msgstr "Αδρανοποίηση"
+
+msgctxt "RouterDescriptor"
+msgid "Offline"
+msgstr "Αποσυνδεδεμένο"
+
+msgctxt "RouterDescriptorView"
+msgid "Location:"
+msgstr "Τοποθεσία:"
+
+msgctxt "RouterDescriptorView"
+msgid "IP Address:"
+msgstr "Διεύθυνση ΙΡ:"
+
+msgctxt "RouterDescriptorView"
+msgid "Platform:"
+msgstr "Πλατφόρμα:"
+
+msgctxt "RouterDescriptorView"
+msgid "Bandwidth:"
+msgstr "Εύρος ζώνης:"
+
+msgctxt "RouterDescriptorView"
+msgid "Uptime:"
+msgstr "Χρόνος που εκτελείται:"
+
+msgctxt "RouterDescriptorView"
+msgid "Last Updated:"
+msgstr "Τελευταία ενημέρωση:"
+
+msgctxt "RouterDescriptorView"
+msgid "Copy"
+msgstr "Αντιγραφή"
+
+msgctxt "RouterInfoDialog"
+msgid "Hibernating"
+msgstr "Σε Αναμονή"
+
+msgctxt "RouterInfoDialog"
+msgid "Online"
+msgstr "Συνδεδεμένο"
+
+msgctxt "RouterInfoDialog"
+msgid "Offline"
+msgstr "Αποσυνδεδεμένο"
+
+msgctxt "RouterInfoDialog"
+msgid "Unknown"
+msgstr "Άγνωστο"
+
+msgctxt "RouterInfoDialog"
+msgid "Relay Details"
+msgstr "Λεπτομέρειες αναμεταδότη"
+
+msgctxt "RouterInfoDialog"
+msgid "Summary"
+msgstr "Σύνοψη"
+
+msgctxt "RouterInfoDialog"
+msgid "Name:"
+msgstr "Όνομα:"
+
+msgctxt "RouterInfoDialog"
+msgid "Status:"
+msgstr "Κατάσταση:"
+
+msgctxt "RouterInfoDialog"
+msgid "Location:"
+msgstr "Τοποθεσία:"
+
+msgctxt "RouterInfoDialog"
+msgid "IP Address:"
+msgstr "Διεύθυνση IP:"
+
+msgctxt "RouterInfoDialog"
+msgid "Platform:"
+msgstr "Πλατφόρμα:"
+
+msgctxt "RouterInfoDialog"
+msgid "Bandwidth:"
+msgstr "Εύρος ζώνης:"
+
+msgctxt "RouterInfoDialog"
+msgid "Uptime:"
+msgstr "Χρόνος λειτουργίας:"
+
+msgctxt "RouterInfoDialog"
+msgid "Contact:"
+msgstr "Επαφές:"
+
+msgctxt "RouterInfoDialog"
+msgid "Last Updated:"
+msgstr "Τελευταία Ενημέρωση:"
+
+msgctxt "RouterInfoDialog"
+msgid "Descriptor"
+msgstr "Περιγραφή:"
+
+msgctxt "RouterListItem"
+msgid "Offline"
+msgstr "Εκτός σύνδεσης"
+
+msgctxt "RouterListItem"
+msgid "Hibernating"
+msgstr "Αδρανοποίηση"
+
+msgctxt "RouterListItem"
+msgid "%1 KB/s"
+msgstr "%1 KB/s"
+
+msgctxt "RouterListWidget"
+msgid "Relay"
+msgstr "Σταθμός"
+
+msgctxt "RouterListWidget"
+msgid "Zoom to Relay"
+msgstr "Εστίασε στο σταθμό"
+
+msgctxt "RouterListWidget"
+msgid "%1 relays online"
+msgstr "%1 σταθμοί ενεργοί"
+
+msgctxt "RouterListWidget"
+msgid "Copy"
+msgstr "Αντιγραφή"
+
+msgctxt "RouterListWidget"
+msgid "Nickname"
+msgstr "Ψευδώνυμο"
+
+msgctxt "RouterListWidget"
+msgid "Fingerprint"
+msgstr "Αποτύπωμα"
+
+msgctxt "ServerPage"
+msgid "Bridge Support Unavailable"
+msgstr "Υποστήριξη σύνδεσης γέφυρας μη διαθέσιμη"
+
+msgctxt "ServerPage"
+msgid ""
+"You have configured Tor to act as a bridge relay for censored users, but "
+"your version of Tor does not support bridges."
+msgstr "Έχετε ρυθμίσει το Tor να δρα σαν σταθμός με συνδέσεις γέφυρας για τους ''απαγορευμένους'' χρήστες, αλλά η έκδοση του Tor που έχετε εγκατεστημένη δεν υποστηρίζει συνδέσεις γέφυρας."
+
+msgctxt "ServerPage"
+msgid ""
+"Please upgrade your Tor software or configure Tor to act as a normal Tor "
+"relay."
+msgstr "Παρακαλούμε αναβαθμίστε το λογισμικό Tor, ή ρυθμίστε το να δρα μόνο σαν κανονικός σταθμός. "
+
+msgctxt "ServerPage"
+msgid "Your bridge relay is not running."
+msgstr "Η σύνδεση γέφυρας σας δεν εκτελείται."
+
+msgctxt "ServerPage"
+msgid "You must specify at least a relay nickname and port."
+msgstr "Πρέπει να καθορίσεις τουλάχιστο ένα ψευδώνυμο σταθμού και μια θύρα."
+
+msgctxt "ServerPage"
+msgid "Run as a client only"
+msgstr "Εκτέλεση μόνο σαν πελάτης"
+
+msgctxt "ServerPage"
+msgid "Relay Port:"
+msgstr "Θύρα σταθμού:"
+
+msgctxt "ServerPage"
+msgid "Enable to mirror the relay directory"
+msgstr "Ενεργοποίηση διπλο-αντιστοιχίας του καταλόγου σταθμών"
+
+msgctxt "ServerPage"
+msgid "Attempt to automatically configure port forwarding"
+msgstr "Επιχείρησε να ρυθμίσεις αυτόματα την προώθηση θυρών"
+
+msgctxt "ServerPage"
+msgid "Test"
+msgstr "Δοκιμασία"
+
+msgctxt "ServerPage"
+msgid "Show help topic on port forwarding"
+msgstr "Εμφάνιση θεμάτων βοήθειας σχετικά με την προώθηση θυρών"
+
+msgctxt "ServerPage"
+msgid "Directory Port:"
+msgstr "Θύρα καταλόγου"
+
+msgctxt "ServerPage"
+msgid "Directory Port Number"
+msgstr "Αριθμός θύρας καταλόγου"
+
+msgctxt "ServerPage"
+msgid "Contact Info:"
+msgstr "Πληροφορίες επικοινωνίας"
+
+msgctxt "ServerPage"
+msgid "Name of your relay"
+msgstr "Όνομα του σταθμού σας"
+
+msgctxt "ServerPage"
+msgid "Port on which users and other relays can communicate with your relay"
+msgstr "Θύρα στην οποία χρήστες και άλλοι σταθμοί επικοινωνούν με το σταθμό σου"
+
+msgctxt "ServerPage"
+msgid "Nickname:"
+msgstr "Ψευδώνυμο"
+
+msgctxt "ServerPage"
+msgid "Basic Settings"
+msgstr "Βασικές Ρυθμίσεις"
+
+msgctxt "ServerPage"
+msgid ""
+"For Internet connections with fast download speed but slow upload, please "
+"list your upload speed here."
+msgstr "Για συνέσεις με γρήγορο download αλλά χαμηλό upload, παρακαλούμε αναφέρετε την ταχύτητα upload εδω."
+
+msgctxt "ServerPage"
+msgid "Cable/DSL 256 Kbps"
+msgstr "Cable/DSL 256 Kbps"
+
+msgctxt "ServerPage"
+msgid "Cable/DSL 512 Kbps"
+msgstr "Cable/DSL 512 Kbps"
+
+msgctxt "ServerPage"
+msgid "Cable/DSL 768 Kbps"
+msgstr "Cable/DSL 768 Kbps"
+
+msgctxt "ServerPage"
+msgid "T1/Cable/DSL 1.5 Mbps"
+msgstr "T1/Cable/DSL 1.5 Mbps"
+
+msgctxt "ServerPage"
+msgid "> 1.5 Mbps"
+msgstr "> 1.5 Mbps"
+
+msgctxt "ServerPage"
+msgid "Custom"
+msgstr "Προσαρμοσμένο"
+
+msgctxt "ServerPage"
+msgid "Select the entry that most closely resembles your Internet connection"
+msgstr "Επέλεξε την καταχώρηση η οποία αντιπροσωπεύει καλύτερα την σύνδεση σου στο διαδίκτυο"
+
+msgctxt "ServerPage"
+msgid "Show help topic on bandwidth rate limits"
+msgstr "Εμφάνιση θεμάτων βοήθειας σχετικών με όρια εύρους ζώνης"
+
+msgctxt "ServerPage"
+msgid "Average Rate"
+msgstr "Μέσος Ρυθμός"
+
+msgctxt "ServerPage"
+msgid "Long-term average bandwidth limit"
+msgstr "Βραχυπρόθεσμο όριο μέσου εύρους ζώνης"
+
+msgctxt "ServerPage"
+msgid "KB/s"
+msgstr "KB/s"
+
+msgctxt "ServerPage"
+msgid "Maximum Rate"
+msgstr "Μέγιστος ρυθμός"
+
+msgctxt "ServerPage"
+msgid "Peak bandwidth rate limit"
+msgstr "Άνω όριο ρυθμού εύρους ζώνης"
+
+msgctxt "ServerPage"
+msgid ""
+"Your maximum bandwidth rate must be greater than or equal to your average "
+"bandwidth rate. Both values must be at least 20 KB/s."
+msgstr "Ο μέγιστος ρυθμός σου εύρους ζώνης πρέπει να είναι μεγαλύτερος ή ίσος απο το μέσο όρο του ρυθμού έυρους ζώνης. Και οι δύο τιμές πρέπει να είναι τουλάχιστο 20 KB/s."
+
+msgctxt "ServerPage"
+msgid "Bandwidth Limits"
+msgstr "Όρια εύρους ζώνης"
+
+msgctxt "ServerPage"
+msgid "Ports 6660 - 6669 and 6697"
+msgstr "Θύρες 6660 - 6669 και 6697"
+
+msgctxt "ServerPage"
+msgid "Internet Relay Chat (IRC)"
+msgstr "Κουβέντα μεταδιδόμενη απο σταθμούς στο Internet (IRC)"
+
+msgctxt "ServerPage"
+msgid "Ports 110, 143, 993 and 995"
+msgstr "Θύρες 110, 143, 993, και 995"
+
+msgctxt "ServerPage"
+msgid "Retrieve Mail (POP, IMAP)"
+msgstr "Λήψη Ηλεκτρονικού Ταχυδρομίου (POP, IMAP)"
+
+msgctxt "ServerPage"
+msgid "Ports unspecified by other checkboxes"
+msgstr "Μη καθοριζόμενες θύρες από άλλα checkboxes"
+
+msgctxt "ServerPage"
+msgid "Misc Other Services"
+msgstr "Διάφορες άλλες υπηρεσίες"
+
+msgctxt "ServerPage"
+msgid "Ports 706, 1863, 5050, 5190, 5222, 5223, 8300 and 8888"
+msgstr "Θύρες 706, 1863, 5050, 5190, 5222, 5223, 8300, και 8888"
+
+msgctxt "ServerPage"
+msgid "Instant Messaging (IM)"
+msgstr "Άμμεσα Μηνύματα (IM)"
+
+msgctxt "ServerPage"
+msgid "Port 443"
+msgstr "Θύρα 443"
+
+msgctxt "ServerPage"
+msgid "Secure Websites (SSL)"
+msgstr "Ασφαλείς Ιστοχώροι (SSL)"
+
+msgctxt "ServerPage"
+msgid "Port 80"
+msgstr "Θύρα 80"
+
+msgctxt "ServerPage"
+msgid "Websites"
+msgstr "Ιστοχώροι"
+
+msgctxt "ServerPage"
+msgid "Show help topic on exit policies"
+msgstr "Εμφάνηση περιεχομένου βοήθειας σχετικό με τις πολιτικές εξόδου"
+
+msgctxt "ServerPage"
+msgid ""
+"What Internet resources should users be able to access from your relay?"
+msgstr "Σε τι είδους υπηρεσίες Internet θα μπορούν οι χρήστες να έχουν πρόσβαση απο το σταθμό σου;"
+
+msgctxt "ServerPage"
+msgid ""
+"Tor will still block some outgoing mail and file sharing applications by "
+"default to reduce spam and other abuse."
+msgstr "Το Tor από προεπιλογή θα μπλοκάρει μερικά εξερχόμενα e-mail και κάποιες εφαρμογές διαμοιρασμού αρχείων για να ελαττώσει το spam και άλλες ενοχλήσεις. (που θα προκαλούσαν άσκοπη φόρτωση του δικτύου)"
+
+msgctxt "ServerPage"
+msgid "Exit Policies"
+msgstr "Πολιτικές Εξόδου"
+
+msgctxt "ServerPage"
+msgid "Let others access your bridge by giving them this line:"
+msgstr "Επιτρέψτε σε άλλους χρήστες να έχουν πρόσβαση στη δικιά σου σύνδεση γέφυρας, δίνοντάς τους αυτή τη γραμμή:"
+
+msgctxt "ServerPage"
+msgid ""
+"This is the identity of your bridge relay that you can give to other people"
+msgstr "Αυτή είναι η ταυτότητα της σύνδεσης γέφυρας του σταθμού σου, την οποία μπορείς να δώσεις σε άλλους ανθρώπους"
+
+msgctxt "ServerPage"
+msgid "Copy your bridge relay's identity to the clipboard"
+msgstr "Αντιγράψτε τη ταυτότητα της σύνδεσης γέφυρας του σταθμού σου στο πρόχειρο "
+
+msgctxt "ServerPage"
+msgid "No Recent Usage"
+msgstr "Δεν υπάρχει πρόσφατη χρήση"
+
+msgctxt "ServerPage"
+msgid "No clients have used your relay recently."
+msgstr "Δεν υπάρχουν προγράμματα-πελάτες που χρησιμοποίησαν πρόσφατα τον αναμεταδότη σας."
+
+msgctxt "ServerPage"
+msgid ""
+"Leave your relay running so clients have a better chance of finding and "
+"using it."
+msgstr "Αφήστε τον αναμεταδότη σας να εκτελείται συνεχώς, ώστε τα προγράμματα-πελάτες να έχουν την ευκαιρία να τον εντοπίσουν και να τον χρησιμοποιήσουν."
+
+msgctxt "ServerPage"
+msgid "Bridge History"
+msgstr "Ιστορικό Γεφυρών"
+
+msgctxt "ServerPage"
+msgid "Vidalia was unable to retrieve your bridge's usage history."
+msgstr "Το Vidalia δεν μπόρεσε να ανακτήσει το ιστορικό σας χρήσης γεφυρών."
+
+msgctxt "ServerPage"
+msgid ""
+"Tor returned an improperly formatted response when Vidalia requested your "
+"bridge's usage history."
+msgstr "Το Tor επέστρεψε μια απάντηση σε ακατάλληλη μορφή, όταν το Vidalia απέστηλε αίτημα για το ιστορικό σας χρήσης γεφυρών."
+
+msgctxt "ServerPage"
+msgid "The returned response was: %1"
+msgstr "Η απάντηση που επιστράφηκε ήταν: %1"
+
+msgctxt "ServerPage"
+msgid "Help censored users reach the Tor network"
+msgstr "Βοηθείστε λογοκριμένους χρήστες να συνδεθούν στο δίκτυο Tor"
+
+msgctxt "ServerPage"
+msgid "<a href=\"#bridgeUsage\">Who has used my bridge?</a>"
+msgstr "<a href=\"#bridgeUsage\">Ποιός έχει χρησιμοποιήσει την γέφυρά μου;</a>"
+
+msgctxt "ServerPage"
+msgid "<a href=\"#bridgeHelp\">What's this?</a>"
+msgstr "<a href=\"#bridgeHelp\">Τι είναι αυτό;</a>"
+
+msgctxt "ServerPage"
+msgid "Automatically distribute my bridge address"
+msgstr "Αυτόματη διανομή της διεύθυνσης του αναμεταδότη μου"
+
+msgctxt "ServerPage"
+msgid "Relay traffic for the Tor network (exit relay)"
+msgstr "Αναμετάδοση κυκλοφορίας για το δίκτυο Tor (αναμεταδότης εξόδου)"
+
+msgctxt "ServerPage"
+msgid "Relay traffic inside the Tor network (non-exit relay)"
+msgstr "Αναμετάδοση κυκλοφορίας για το δίκτυο Tor (αναμεταδότης μη-εξόδου)"
+
+msgctxt "ServerPage"
+msgid "Mirror the Relay Directory"
+msgstr "Αντικατοπτρίστε τον Κατάλογο Αναμεταδόσεων"
+
+msgctxt "ServerPage"
+msgid ""
+"Email address at which you may be reached if there is a\n"
+"problem with your relay. You might also include your PGP or GPG fingerprint."
+msgstr "Η ηλεκτρονική διεύθυνσή σας για επικοινωνία σε περίπτωση που υπάρξει\nπρόβλημα με την αναμετάδοσή σας. Μπορείτε να συμπεριλάβετε και τα αποτυπώματα σας PGP ή GPG."
+
+msgctxt "ServicePage"
+msgid "Error while trying to unpublish all services"
+msgstr "Κάποιο λάθος παρουσιάστηκε στην προσπάθεια απενεργοποίησης των υπηρεσιών"
+
+msgctxt "ServicePage"
+msgid ""
+"Please configure at least a service directory and a virtual port for each "
+"service you want to save. Remove the other ones."
+msgstr "Παρακαλούμε ρυθμίστε τουλάχιστον ένα κατάλογο υπηρεσίας και μία εικονική πόρτα συστήματος για κάθε μία υπηρεσία που θέλετε να αποθηκεύσετε. Διαγράψτε τα υπόλοιπα."
+
+msgctxt "ServicePage"
+msgid "Error"
+msgstr "Λάθος"
+
+msgctxt "ServicePage"
+msgid "Please select a Service."
+msgstr "Παρακαλούμε επιλέξτε μια υπηρεσία."
+
+msgctxt "ServicePage"
+msgid "Select Service Directory"
+msgstr "Επιλογή Καταλόγου Υπηρεσίας"
+
+msgctxt "ServicePage"
+msgid "Virtual Port may only contain valid port numbers [1..65535]."
+msgstr "Οι εικονικές πόρτες συστήματος μπορούν να περιέχουν μόνο έγκυρους αριθμούς πορτών συστήματος, από 1 έως 65535."
+
+msgctxt "ServicePage"
+msgid "Target may only contain address:port, address, or port."
+msgstr "Ο στόχος μπορεί να περιέχει τα εξής στο πεδίο διεύθυνσης:πόρτα συστήματος, διεύθυνση ή πόρτα συστήματος."
+
+msgctxt "ServicePage"
+msgid "Directory already in use by another service."
+msgstr "Ο φάκελος χρησιμοποιήτε ήδη από άλλη υπηρεσία."
+
+msgctxt "ServicePage"
+msgid "Form"
+msgstr "Φόρμα"
+
+msgctxt "ServicePage"
+msgid "Provided Hidden Services"
+msgstr "Παρεχόμενες κρυφές υπηρεσίες"
+
+msgctxt "ServicePage"
+msgid "Onion Address"
+msgstr "''Διεύθυνση Κρεμμυδιού'' (masked IP)"
+
+msgctxt "ServicePage"
+msgid "Virtual Port"
+msgstr "Εικονική Θύρα"
+
+msgctxt "ServicePage"
+msgid "Target"
+msgstr "Στόχος"
+
+msgctxt "ServicePage"
+msgid "Directory Path"
+msgstr "Διαδρομή καταλόγου"
+
+msgctxt "ServicePage"
+msgid "Enabled"
+msgstr "Ενεργοποιημένη"
+
+msgctxt "ServicePage"
+msgid "Add new service to list"
+msgstr "Προσθήκη νέας υπηρεσίας στη λίστα"
+
+msgctxt "ServicePage"
+msgid "Remove selected service from list"
+msgstr "Απομάκρυνση της επιλεγμένης υπηρεσίας από τη λίστα"
+
+msgctxt "ServicePage"
+msgid "Copy onion address of selected service to clipboard"
+msgstr "Αντιγραφή της ''διεύθυνσης κρεμμυδιού'' (masked IP) της επιλεγμένης υπηρεσίας στο πρόχειρο"
+
+msgctxt "ServicePage"
+msgid "Browse in local file system and choose directory for selected service"
+msgstr "Περιήγηση στο τοπικό σύστημα αρχείων και επιλογή καταλόγου για την επιλεγμένη υπηρεσία."
+
+msgctxt "ServicePage"
+msgid "Created by Tor"
+msgstr "Δημιουργήθηκε από το Tor"
+
+msgctxt "StatusEventWidget"
+msgid "Copy to Clipboard"
+msgstr "Αντιγραφή στο πρόχειρο"
+
+msgctxt "StatusEventWidget"
+msgid "The Tor Software is Running"
+msgstr "Το Λογισμικό Tor εκτελείται"
+
+msgctxt "StatusEventWidget"
+msgid "You are currently running version \"%1\" of the Tor software."
+msgstr "Αυτή τη στιγμή εκτελείτε την έκδοση \"%1\" του προγράμματος Tor."
+
+msgctxt "StatusEventWidget"
+msgid "The Tor Software is not Running"
+msgstr "Το πρόγραμμα Tor δεν εκτελείται"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Click \"Start Tor\" in the Vidalia Control Panel to restart the Tor "
+"software. If Tor exited unexpectedly, select the \"Advanced\" tab above for "
+"details about any errors encountered."
+msgstr "Πατήστε \"Start Tor\" στον Πίνακα Ελέγχου του Vidalia για να επανεκκινήσετε το Tor. Αν το Tor τερματίστηκε αναπάντεχα, επιλέξτε το tab \"Advanced\" για λεπτομέρειες για πιθανά σφάλματα."
+
+msgctxt "StatusEventWidget"
+msgid ""
+"You are currently running version \"%1\" of the Tor software, which is no "
+"longer recommended. Please upgrade to the most recent version of the "
+"software, which may contain important security, reliability and performance "
+"fixes."
+msgstr "Αυτή τη στιγμή εκτελείτε την έκδοση \"%1\" του Tor, η οποία δεν είναι πλέον η συνιστώμενη. Αναβαθμίστε το πρόγραμμα στην πιο πρόσφατη έκδοσή του η οποία ίσως περιέχει σημαντικές βελτιώσεις ασφαλείας, αξιοπιστίας και επιδόσεων."
+
+msgctxt "StatusEventWidget"
+msgid ""
+"You are currently running version \"%1\" of the Tor software, which may no "
+"longer work with the current Tor network. Please upgrade to the most recent "
+"version of the software, which may contain important security, reliability "
+"and performance fixes."
+msgstr "Αυτή τη στιγμή εκτελείτε την έκδοση \"%1\" του Tor, η οποία ίσως δεν λειτουργεί με το τρέχον δίκτυο Tor. Αναβαθμίστε το πρόγραμμα στην πιο πρόσφατη έκδοσή του η οποία ίσως περιέχει σημαντικές βελτιώσεις ασφαλείας, αξιοπιστίας και επιδόσεων."
+
+msgctxt "StatusEventWidget"
+msgid "Your Tor Software is Out-of-date"
+msgstr "Το Λογισμικό σας δεν είναι ενημερωμένο"
+
+msgctxt "StatusEventWidget"
+msgid "Connected to the Tor Network"
+msgstr "Συνδέθηκε στο δίκτυο Tor"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"We were able to successfully establish a connection to the Tor network. You "
+"can now configure your applications to use the Internet anonymously."
+msgstr "Η σύνδεση με το δίκτυο Tor αποκαταστάθηκε με επιτυχία. Μπορείτε τώρα να ρυθμίσετε τις εφαρμογές σας ώστε να χρησιμοποιούν το Διαδίκτυο ανώνυμα."
+
+msgctxt "StatusEventWidget"
+msgid "Tor Software Error"
+msgstr "Σφάλμα Λογισμικού Tor"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"The Tor software encountered an internal bug. Please report the following "
+"error message to the Tor developers at bugs.torproject.org: \"%1\""
+msgstr "Το πρόγραμμα Tor έχει κάποιο εσωτερικό σφάλμα. Παρακαλούμε, αναφέρετε το μήνυμα σφάλματος που ακολουθεί στους προγραμματιστές του Tor, στην διεύθυνση bugs.torproject.org: \"%1\"."
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor has determined that your computer's clock may be set to %1 seconds in "
+"the past compared to the source \"%2\". If your clock is not correct, Tor "
+"will not be able to function. Please verify your computer displays the "
+"correct time."
+msgstr "To Tor διαπίστωσε ότι το ρολόι του υπολογιστή σας είναι ρυθμισμένο πάει πίσω %1 δευτερολέπτα ως προς τον ρυθμιστικό υπολογιστή \"%2\". Αν το ρολόι του υπολογιστή σας δεν είναι σωστό, το Tor δεν θα μπορέσει να λειτουργήσει. Επιβεβαιώστε ότι ο υπολογιστής σας εμφανίζει την σωστή ώρα."
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor has determined that your computer's clock may be set to %1 seconds in "
+"the future compared to the source \"%2\". If your clock is not correct, Tor "
+"will not be able to function. Please verify your computer displays the "
+"correct time."
+msgstr "Το Tor διαπίστωσε ότι το ρολόι του υπολογιστή σας είνα ρυθμισμένο πάει μπροστά %1 δευτερόλεπτα ως προς τον ρυθμιστικό υπολογιστή \"%2\". Αν το ρολόι του υπολογιστή σς δεν είναι σωστό, το Tor δεν θα μπορέσει να λειτουργήσει. Επιβεβαιώστε ότι ο υπολογιστής σας εμφανίζει την σωστή ώρα."
+
+msgctxt "StatusEventWidget"
+msgid "Your Computer's Clock is Potentially Incorrect"
+msgstr "Το ρολόϊ του Υπολογιστή σας είναι δυνητικά λανθασμένο"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"One of the applications on your computer may have attempted to make an "
+"unencrypted connection through Tor to port %1. Sending unencrypted "
+"information over the Tor network is dangerous and not recommended. For your "
+"protection, Tor has automatically closed this connection."
+msgstr "Κάποια εφαρμογή του υπολογιστή σας ίσως προσπάθησε να συνδεθεί χωρίς κρυπτογράφηση μέσω του Tor στην θύρα %1. Η αποστολή μη κρυπτογραφημένων πληροφοριών μέσω του δικτύου Tor είναι επικίνδυνη και δεν συνιστάται. Για την δική σας προστασία το Tor έκλεισε την σύνδεση αυτή."
+
+msgctxt "StatusEventWidget"
+msgid ""
+"One of the applications on your computer may have attempted to make an "
+"unencrypted connection through Tor to port %1. Sending unencrypted "
+"information over the Tor network is dangerous and not recommended."
+msgstr "Κάποια εφαρμογή του υπολογιστή σας ίσως προσπάθησε να συνδεθεί χωρίς κρυπτογράφηση μέσω του Tor στην θύρα %1. Η αποστολή μη κρυπτογραφημένων πληροφοριών μέσω του δικτύου Tor είναι επικίνδυνη και δεν συνιστάται."
+
+msgctxt "StatusEventWidget"
+msgid "Potentially Dangerous Connection!"
+msgstr "Πιθανά Επικίνδυνη Σύνδεση!"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"One of your applications established a connection through Tor to \"%1\" "
+"using a protocol that may leak information about your destination. Please "
+"ensure you configure your applications to use only SOCKS4a or SOCKS5 with "
+"remote hostname resolution."
+msgstr "Κάποια από τις εφαρμογές σας πραγματοποίησε σύνδεση μέσω του Tor στον/στην \"%1\" χρησιμοποιώντας ένα πρωτόκολο που μπορεί να διοχετεύει πληροφορίες σχετικές με τον προορισμό της. Βεβαιωθείτε ότι έχετε ρυθμίσει τις εφαρμογές σας ώστε να χρησιμοποιούν μόνον SOCKS4a ή SOCKS5 για την ανάλυση των ονομάτων των απομακρυσμένων υπολογιστών."
+
+msgctxt "StatusEventWidget"
+msgid "Unknown SOCKS Protocol"
+msgstr "Άγνωστο Πρωτόκολο SOCKS"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"One of your applications tried to establish a connection through Tor using a"
+" protocol that Tor does not understand. Please ensure you configure your "
+"applications to use only SOCKS4a or SOCKS5 with remote hostname resolution."
+msgstr "Κάποια από τις εφαρμογές σας πραγματοποίησε σύνδεση μέσω του Tor χρησιμοποιώντας πρωτόκολο που το Tor δεν καταλαβαίνει. Βεβαιωθείτε ότι έχετε ρυθμίσει τις εφαρμογές σας ώστε να χρησιμοποιούν μόνον SOCKS4a ή SOCKS5 για την ανάλυση των ονομάτων των απομακρυσμένων υπολογιστών."
+
+msgctxt "StatusEventWidget"
+msgid "Invalid Destination Hostname"
+msgstr "Το Όνομα του υπολογιστή Προορισμού δεν είναι έγκυρο."
+
+msgctxt "StatusEventWidget"
+msgid ""
+"One of your applications tried to establish a connection through Tor to "
+"\"%1\", which Tor does not recognize as a valid hostname. Please check your "
+"application's configuration."
+msgstr "Κάποια από τις εφαρμογές σας πραγματοποίησε σύνδεση μέσω του Tor στον \"%1\", τον οποίο το Tor δεν αναγνωρίζει ως έγκυρο όνομα υπολογιστή. Ελέγξτε τις ρυθμίσεις της εφαρμογής σας."
+
+msgctxt "StatusEventWidget"
+msgid "External IP Address Changed"
+msgstr "Η εξωτερική διεύθυνση ΙΡ άλλαξε"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor has determined your relay's public IP address is currently %1%2. If that"
+" is not correct, please consider setting the 'Address' option in your "
+"relay's configuration."
+msgstr "Το Tor διαπίστωσε ότι η δημόσια διεύθυνση ΙΡ του αναμεταδότη σας αυτή τη στιγμή είναι %1%2. Αν αυτό δεν είναι σωστό, προσαρμόστε κατάλληλα την επιλογή 'Address' στις ρυθμίσεις του αναμεταδότη σας."
+
+msgctxt "StatusEventWidget"
+msgid "DNS Hijacking Detected"
+msgstr "Ανυχνεύθηκε Παραβίαση του DNS"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor detected that your DNS provider is providing false responses for domains"
+" that do not exist. Some ISPs and other DNS providers, such as OpenDNS, are "
+"known to do this in order to display their own search or advertising pages."
+msgstr "Το Tor εντόπισε ότι ο πάροχος DNS παρέχει εσφαλμένα μηνύματα για περιοχές που δεν υπάρχουν. Μερικοί ISP και άλλοι πάροχοι DNS, όπως η OpenDNS, είναι γνωστό ότι αυτό το κάνουν για να προβάλουν τις δικές τους σελίδες αναζήτησης ή διαφήμισης."
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor detected that your DNS provider is providing false responses for well "
+"known domains. Since clients rely on Tor network relays to provide accurate "
+"DNS repsonses, your relay will not be configured as an exit relay."
+msgstr "Το Tor εντόπισε ότι ο πάροχος DNS παρέχει εσφαλμένα μηνύματα για γνωστές περιοχές. Εφόσον τα προγράμματα-πελάτες βασίζονται στους ανεμεταδότες Tor για την διαβίβαση ακριβών μηνυμάτων DNS, ο αναμεταδότης σας δεν θα ρυθμιστεί ως αναμεταδότης εξόδου."
+
+msgctxt "StatusEventWidget"
+msgid "Checking Server Port Reachability"
+msgstr "Έλεγχος της Προσεγγιστικότητας των Θυρών του Διακομηστή"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor is trying to determine if your relay's server port is reachable from the"
+" Tor network by connecting to itself at %1:%2. This test could take several "
+"minutes."
+msgstr "Το Tor προσπαθεί να προσδιορίσει αν η θυρα διακομηστή του αναμεταδότη σας μπορεί να προσεγγιστεί από το δίκτυο Tor, συνδεόμενος στους υπολογιστές %1 %2. Αυτό μπορεί να διαρκέσει πολλά λεπτά."
+
+msgctxt "StatusEventWidget"
+msgid "Server Port Reachability Test Successful!"
+msgstr "Ο έλεγχος προσεγγιστικότητας της θύρας το διακομηστή ήταν επιτυχής!"
+
+msgctxt "StatusEventWidget"
+msgid "Your relay's server port is reachable from the Tor network!"
+msgstr "Η θύρα διακομηστή του αναμεταδότη σας είναι προσβάσιμη από το δίκτυο Tor!"
+
+msgctxt "StatusEventWidget"
+msgid "Server Port Reachability Test Failed"
+msgstr "Ο έλεγχος προσεγγιστικότητας της θύρας του διακομηστή απέτυχε!"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Your relay's server port is not reachable by other Tor clients. This can "
+"happen if you are behind a router or firewall that requires you to set up "
+"port forwarding. If %1:%2 is not your correct IP address and server port, "
+"please check your relay's configuration."
+msgstr "Η θύρα διακομηστή του αναμεταδότη σας δεν είναι προσεγγίσημη από άλλα προγράμματα-πελάτες Tor. Αυτό μπορεί να συμβεί όταν συνδέεστε μέσω δρομολογητή ή τείχους προστασίας που απαιτούν ρυθμίσεις προώθησης θύρας. Αν η διεύθυνση %1:%2 δεν είναι η σωστή διεύθυνση ΙΡ και θύρα, ελέγξτε τις ρυθμίσεις του αναμεταδότη σας."
+
+msgctxt "StatusEventWidget"
+msgid "Checking Directory Port Reachability"
+msgstr "Έλεγχος Προσεγγιστικότητας της Θύρας Καταλόγου"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor is trying to determine if your relay's directory port is reachable from "
+"the Tor network by connecting to itself at %1:%2. This test could take "
+"several minutes."
+msgstr "Το Tor προσπαθεί να προσδιορίσει αν η θύρα καταλόγου του αναμεταδότη σας είναι προσεγγίσιμη από το δίκτυο Tor συνδεόμενο στον υπολογιστή %1:%2. Ο έλεγχος αυτός ίσως διαρκέσει πολλά λεπτά."
+
+msgctxt "StatusEventWidget"
+msgid "Directory Port Reachability Test Successful!"
+msgstr "Ο Έλεγχος Προσεγγιστικότητας της Θύρας Καταλόγου ήταν επιτυχής!"
+
+msgctxt "StatusEventWidget"
+msgid "Your relay's directory port is reachable from the Tor network!"
+msgstr "Η θύρα καταλόγου του αναμεταδότη σας είναι προσβάσιμη από το δίκτυο Tor!"
+
+msgctxt "StatusEventWidget"
+msgid "Directory Port Reachability Test Failed"
+msgstr "Ο Έλεγχος Προσσεγιστικότητας της Θύρας Καταλόγου απέτυχε!"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Your relay's directory port is not reachable by other Tor clients. This can "
+"happen if you are behind a router or firewall that requires you to set up "
+"port forwarding. If %1:%2 is not your correct IP address and directory port,"
+" please check your relay's configuration."
+msgstr "Η θύρα καταλόγου του αναμεταδότη σας δεν είναι προσβάσιμη από άλλα προγράμματα-πελάτες Tor. Αυτό μπορεί να συμβαίνει αν συνδέεστε μέσω δρομολογητή ή τείχους προστασίας τα οποία απαιτούν ρυθμίσεις προώθησης θύρας. Αν η διεύθυνση %1:%2 δεν είναι η σωστή διεύθυνση ΙΡ και θύρα, ελέγξτε τις ρυθμίσεις του αναμεταδότη σας."
+
+msgctxt "StatusEventWidget"
+msgid "Relay Descriptor Rejected"
+msgstr "O Περιγραφέας του Αναμεταδότη Απορρίφθηκε"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Your relay's descriptor, which enables clients to connect to your relay, was"
+" rejected by the directory server at %1:%2. The reason given was: %3"
+msgstr "Ο περιγραφέας του αναμεταδότη σας ο οποίος συνδέει προγράμματα-πελάτες στον αναμεταδότη σας, απορρίφθηκε από τον διακομηστή καταλόγου %1:%2. Η αιτία που δίδεται είναι: %3"
+
+msgctxt "StatusEventWidget"
+msgid "Your Relay is Online"
+msgstr "Ο Αναμεταδότης σας είναι Συνδεδεμένος"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Your relay is now online and available for Tor clients to use. You should "
+"see an increase in network traffic shown by the Bandwidth Graph within a few"
+" hours as more clients learn about your relay. Thank you for contributing to"
+" the Tor network!"
+msgstr "Ο αναμεταδότης σας είναι συνδεδεμένος και διαθέσιμος προς χρήση από προγράμματα Tor. Θα δείτε μια αύξηση στην κίνηση του δικτύου, μέσω του Γραφήματος Εύρους Ζώνης, μέσα στις επόμενες λίγες ώρες, όσο περισσότερα προγράμματα-πελάτες μαθαίνουν για τον αναμεταδότη σας. Ευχαριστούμε για την συνεισφορά σας στο δίκτο Tor!"
+
+msgctxt "Stream"
+msgid "New"
+msgstr "Νέο"
+
+msgctxt "Stream"
+msgid "Resolving"
+msgstr "Επίλυση..."
+
+msgctxt "Stream"
+msgid "Connecting"
+msgstr "Σύνδεση..."
+
+msgctxt "Stream"
+msgid "Open"
+msgstr "Ανοικτό"
+
+msgctxt "Stream"
+msgid "Failed"
+msgstr "Απέτυχε"
+
+msgctxt "Stream"
+msgid "Closed"
+msgstr "Κλειστό"
+
+msgctxt "Stream"
+msgid "Retrying"
+msgstr "Επαναδοκιμασία"
+
+msgctxt "Stream"
+msgid "Remapped"
+msgstr "''Ανα-χαρτογραφημένο\""
+
+msgctxt "Stream"
+msgid "Unknown"
+msgstr "Άγνωστο"
+
+msgctxt "TorProcess"
+msgid "Process %1 failed to stop. [%2]"
+msgstr "Η διεργασία %1 απέτυχε να σταματήσει. [%2]"
+
+msgctxt "TorService"
+msgid "The Tor service is not installed."
+msgstr "Η Υπηρεσία του Tor δεν είναι εγκατεστημένη."
+
+msgctxt "TorService"
+msgid "Unable to start the Tor service."
+msgstr "Δεν ήταν δυνατό να ξεκινήσει η υπηρεσία του Tor."
+
+msgctxt "TorSettings"
+msgid "Failed to hash the control password."
+msgstr "Αποτυχία ''ανακατώματος'' του κωδικού ελέγχου."
+
+msgctxt "TorrcDialog"
+msgid "Editing torrc"
+msgstr "Επεξεργασία του torrc"
+
+msgctxt "TorrcDialog"
+msgid ""
+"Save settings. If unchecked it will only apply settings to the current Tor "
+"instance."
+msgstr "Αποθήκευση ρυθμίσεων. Αν δεν επιλεχθεί, οι ρυθμίσεις θα εφαρμοσθούν μόνον για την τρέχουσα συνεδρία του Tor."
+
+msgctxt "TorrcDialog"
+msgid "Cut"
+msgstr "Αποκοπή"
+
+msgctxt "TorrcDialog"
+msgid "Copy"
+msgstr "Αντιγραφή"
+
+msgctxt "TorrcDialog"
+msgid "Paste"
+msgstr "Επικόλληση"
+
+msgctxt "TorrcDialog"
+msgid "Undo"
+msgstr "Ακύρωση"
+
+msgctxt "TorrcDialog"
+msgid "Redo"
+msgstr "Επανάληψη"
+
+msgctxt "TorrcDialog"
+msgid "Select All"
+msgstr "Επιλογή όλων"
+
+msgctxt "TorrcDialog"
+msgid "Apply all"
+msgstr "Εφαρμογή όλων"
+
+msgctxt "TorrcDialog"
+msgid "Apply selection only"
+msgstr "Εφαρμογή μόνο της επιλογής"
+
+msgctxt "TorrcDialog"
+msgid "Error connecting to Tor"
+msgstr "Σφάλμα κατά την σύνδεση στο Tor"
+
+msgctxt "TorrcDialog"
+msgid "Selection is empty. Please select some text, or check \"Apply all\""
+msgstr "Η επιλογή είναι άδεια. Παρακαλώ επιλέξτε κάποιο κείμενο, ή τσεκάρετε \"Apply all\""
+
+msgctxt "TorrcDialog"
+msgid "Error at line %1: \"%2\""
+msgstr "Λάθος στη γραμμή %1: \"%2\""
+
+msgctxt "TorrcDialog"
+msgid "Error"
+msgstr "Λάθος"
+
+msgctxt "TorrcDialog"
+msgid "An error ocurred while opening torrc file"
+msgstr "Παρουσιάστηκε σφάλμα κατά το άνοιγμα του torrc αρχείου"
+
+msgctxt "UPNPControl"
+msgid "Success"
+msgstr "Επιτυχία"
+
+msgctxt "UPNPControl"
+msgid "No UPnP-enabled devices found"
+msgstr "Δεν βρέθηκαν συσκευές που να υποστηρίζουν UPnP"
+
+msgctxt "UPNPControl"
+msgid "No valid UPnP-enabled Internet gateway devices found"
+msgstr "Δεν βρέθηκαν έγκυρες συσκευές Internet gateway (μόντεμ)  που υποστηρίζουν UPnP"
+
+msgctxt "UPNPControl"
+msgid "WSAStartup failed"
+msgstr "Η αρχικοποίηση του WSA απέτυχε"
+
+msgctxt "UPNPControl"
+msgid "Failed to add a port mapping"
+msgstr "Αποτυχία προσθήκης ''χαρτογράφησης'' πορτών συστήματος (ports)"
+
+msgctxt "UPNPControl"
+msgid "Failed to retrieve a port mapping"
+msgstr "Αποτυχία λήψης ''χαρτογράφησης'' πορτών συστήματος (ports)"
+
+msgctxt "UPNPControl"
+msgid "Failed to remove a port mapping"
+msgstr "Αποτυχία διαγραφής ''χαρτογράφησης'' πορτών συστήματος (ports)"
+
+msgctxt "UPNPControl"
+msgid "Unknown error"
+msgstr "Άγνωστο σφάλμα"
+
+msgctxt "UPNPTestDialog"
+msgid "Discovering UPnP-enabled devices"
+msgstr "Αναζήτηση συσκευών που είναι συμβατές με το UPnP"
+
+msgctxt "UPNPTestDialog"
+msgid "Updating directory port mapping"
+msgstr "Ενημέρωση καταλόγου ''χαρτογράφησης'' πορτών συστήματος (ports)"
+
+msgctxt "UPNPTestDialog"
+msgid "Updating relay port mapping"
+msgstr "Ενημέρωση ''χαρτογράφησης''  πορτών συστήματος (ports) των σταθμών"
+
+msgctxt "UPNPTestDialog"
+msgid "Test completed successfully!"
+msgstr "Ο έλεγχος ολοκληρώθηκε με επιτυχία!"
+
+msgctxt "UPNPTestDialog"
+msgid "Testing UPnP Support"
+msgstr "Δοκιμάζετε η υποστήριξη UPnP"
+
+msgctxt "UPNPTestDialog"
+msgid "Testing Universal Plug & Play Support"
+msgstr "Δοκιμάζετε η υποστήριξη USB (Universal Serial Bus)"
+
+msgctxt "UpdateProcess"
+msgid ""
+"Vidalia was unable to check for available software updates because it could "
+"not find '%1'."
+msgstr "Το Vidalia δεν μπόρεσε να ελέγξει για διαθέσιμες ενημερώσεις λογισμικού, διότι δεν βρήκε τον '%1'."
+
+msgctxt "UpdateProcess"
+msgid ""
+"Vidalia was unable to check for available software updates because Tor's "
+"update process exited unexpectedly."
+msgstr "Το Vidalia δεν μπόρεσε να ελέγξει για διαθέσιμες ενημερώσεις λογισμικού, διότι η διεργασία ενημέρωσης του Tor τερματίστηκε αναπάντεχα."
+
+msgctxt "UpdateProgressDialog"
+msgid "Checking for available updates..."
+msgstr "Έλεγχος για διαθέσιμες ενημερώσεις..."
+
+msgctxt "UpdateProgressDialog"
+msgid "Hide"
+msgstr "Απόκρυψη"
+
+msgctxt "UpdateProgressDialog"
+msgid "Downloading updates..."
+msgstr "Λήψη ενημερώσεων..."
+
+msgctxt "UpdateProgressDialog"
+msgid "Installing updated software..."
+msgstr "Εγκατάσταση ενημερωμένου λογισμικού..."
+
+msgctxt "UpdateProgressDialog"
+msgid "Done! Your software is now up to date."
+msgstr "Έγινε! Το λογισμικό σας είναι τώρα ενημερωμένο."
+
+msgctxt "UpdateProgressDialog"
+msgid "OK"
+msgstr "ΟΚ"
+
+msgctxt "UpdateProgressDialog"
+msgid "Software Updates"
+msgstr "Ενημερώσεις Λογισμικού"
+
+msgctxt "UpdateProgressDialog"
+msgid "Checking for updates..."
+msgstr "Έλεγχος για ενημερώσεις..."
+
+msgctxt "UpdateProgressDialog"
+msgid "Cancel"
+msgstr "Άκυρο"
+
+msgctxt "UpdatesAvailableDialog"
+msgid "Software Updates Available"
+msgstr "Υπάρχουν Ενημερώσεις Λογισμικού"
+
+msgctxt "UpdatesAvailableDialog"
+msgid "Remind Me Later"
+msgstr "Υπενθύμιση για αργότερα"
+
+msgctxt "UpdatesAvailableDialog"
+msgid "Install"
+msgstr "Εγκατάσταση"
+
+msgctxt "UpdatesAvailableDialog"
+msgid "The following updated software packages are ready for installation:"
+msgstr "Τα ακόλουθα ενημερωμένα πακέτα λογισμικού είναι έτοιμα για εγκατάσταση:"
+
+msgctxt "UpdatesAvailableDialog"
+msgid "Package"
+msgstr "Πακέτο"
+
+msgctxt "UpdatesAvailableDialog"
+msgid "Version"
+msgstr "Έκδοση"
+
+msgctxt "VMessageBox"
+msgid "OK"
+msgstr "ΟΚ"
+
+msgctxt "VMessageBox"
+msgid "Cancel"
+msgstr "Άκυρο"
+
+msgctxt "VMessageBox"
+msgid "Yes"
+msgstr "Ναι"
+
+msgctxt "VMessageBox"
+msgid "No"
+msgstr "Όχι"
+
+msgctxt "VMessageBox"
+msgid "Help"
+msgstr "Βοήθεια"
+
+msgctxt "VMessageBox"
+msgid "Retry"
+msgstr "Ξαναδοκίμασε"
+
+msgctxt "VMessageBox"
+msgid "Show Log"
+msgstr "Εμφάνιση αρχείου καταγραφής"
+
+msgctxt "VMessageBox"
+msgid "Show Settings"
+msgstr "Εμφάνιση Ρυθμίσεων"
+
+msgctxt "VMessageBox"
+msgid "Continue"
+msgstr "Συνέχεια"
+
+msgctxt "VMessageBox"
+msgid "Quit"
+msgstr "Έξοδος"
+
+msgctxt "VMessageBox"
+msgid "Browse"
+msgstr "Επιλογή..."
+
+msgctxt "Vidalia"
+msgid "Invalid Argument"
+msgstr "Μη έγκυρο όρισμα"
+
+msgctxt "Vidalia"
+msgid "Vidalia is already running"
+msgstr "Το Vidalia  εκτελείται ήδη"
+
+msgctxt "Vidalia"
+msgid "Displays this usage message and exits."
+msgstr "Εμφανίζει αυτό το μύνημα χρήσης και προκαλεί έξοδο."
+
+msgctxt "Vidalia"
+msgid "Resets ALL stored Vidalia settings."
+msgstr "Επαναφέρει στην αρχική τους μορφή ΟΛΕΣ τις αποθηκευμένες ρυθμίσεις του Vidalia."
+
+msgctxt "Vidalia"
+msgid "Sets the directory Vidalia uses for data files."
+msgstr "Θέτει τον κατάλογο όπου το Vidalia χρησιμοποιεί για τα αρχεία δεδομένων."
+
+msgctxt "Vidalia"
+msgid "Sets the name and location of Vidalia's pidfile."
+msgstr "Θέτει το όνομα και την τοποθεσία του αρχείου PID του Vidalia."
+
+msgctxt "Vidalia"
+msgid "Sets the name and location of Vidalia's logfile."
+msgstr "Ορίζει το όνομα και την τοποθεσία του αρχείου καταγραφής του Vidalia."
+
+msgctxt "Vidalia"
+msgid "Sets the verbosity of Vidalia's logging."
+msgstr "Ρυθμίζει την περιττολογία των καταγραφών του Vidalia."
+
+msgctxt "Vidalia"
+msgid "Sets Vidalia's interface style."
+msgstr "Ρυθμίζει την εμφάνιση του παραθύρου του Vidalia."
+
+msgctxt "Vidalia"
+msgid "Sets Vidalia's language."
+msgstr "Ρυθμίζει την γλώσσα του Vidalia."
+
+msgctxt "Vidalia"
+msgid "Vidalia Usage Information"
+msgstr "Πληροφορίες για τη χρήση του Vidalia"
+
+msgctxt "Vidalia"
+msgid "Unable to open log file '%1': %2"
+msgstr "Δεν ήταν δυνατό να ανοίξει το αρχείο καταγραφής '%1': %2"
+
+msgctxt "Vidalia"
+msgid "Value required for parameter :"
+msgstr "Απαιτείται κάποια τιμή για την παράμετρο:"
+
+msgctxt "Vidalia"
+msgid "Invalid language code specified:"
+msgstr "Δόθηκε μη έγκυρος κώδικας για την γλώσσα:"
+
+msgctxt "Vidalia"
+msgid "Invalid GUI style specified:"
+msgstr "Δόθηκε μη έγκυρο είδος GUI:"
+
+msgctxt "Vidalia"
+msgid "Invalid log level specified:"
+msgstr "Δόθηκε μη έγκυρο επίπεδο καταγραφών:"
+
+msgctxt "Vidalia"
+msgid ""
+"Another Vidalia process is possibly already running. If there really is not another Vidalia process running, you can choose to continue anyway.\n"
+"\n"
+"Would you like to continue starting Vidalia?"
+msgstr "Μια διεργασία του Vidalia μπορεί να εκτελείται ήδη. Αν πραγματικά δεν υπάρχει άλλη μια διεργασία του Vidalia σε εκτέλεση, μπορείτε να διαλέξετε να συνεχίσετε ούτε σι άλλος.\n\nΘέλετε να συνεχίσετε την εκκίνηση του Vidalia;"
+
+msgctxt "stringutil.h"
+msgid "%1 secs"
+msgstr "%1 δευτερόλεπτα"
+
+msgctxt "stringutil.h"
+msgid "%1 B/s"
+msgstr "%1 B/s"
+
+msgctxt "stringutil.h"
+msgid "%1 KB/s"
+msgstr "%1 KB/s"
+
+msgctxt "stringutil.h"
+msgid "%1 MB/s"
+msgstr "%1 MB/s"
+
+msgctxt "stringutil.h"
+msgid "%1 GB/s"
+msgstr "%1 GB/s"
+
+msgctxt "stringutil.h"
+msgid "%1 days"
+msgstr "%1 ημέρες"
+
+msgctxt "stringutil.h"
+msgid "%1 hours"
+msgstr "%1 ώρες"
+
+msgctxt "stringutil.h"
+msgid "%1 mins"
+msgstr "%1 λεπτά"

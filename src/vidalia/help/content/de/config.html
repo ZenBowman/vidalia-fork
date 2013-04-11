@@ -1,0 +1,82 @@
+<!--
+**  $Id$
+** 
+**  This file is part of Vidalia, and is subject to the license terms in the
+**  LICENSE file, found in the top level directory of this distribution. If 
+**  you did not receive the LICENSE file with this file, you may obtain it
+**  from the Vidalia source package distributed by the Vidalia Project at
+**  http://www.torproject.org/projects/vidalia.html. No part of Vidalia, 
+**  including this file, may be copied, modified, propagated, or distributed 
+**  except according to the terms described in the LICENSE file.
+-->
+
+<html>
+<body>
+
+<h1>Konfiguration von Vidalia und Tor</h1>
+<hr />
+
+<p>
+Vidalia erm&ouml;glicht es Ihnen die am gebr&auml;chlisten Einstellungen
+von Vidalia und Tor vorzunehmen. Au&szlig;erdem k&ouml;nnen Sie mit Vidalia
+einen <a href="server.html">Tor-Server</a> einrichten und betreiben und dadurch
+dem Tor-Netzwerk zu weiterem Wachtums verhelfen.
+</p>
+
+<a name="general"/>
+<h3>Allgemeine Einstellungen</h3>
+<p>
+Die Seite <i>Allgemein</i> enth&auml;lt die am meisten gebrauchten Einstellungen.
+</p>
+<ul>
+  <li><b>Pfad zur Tor-Anwendung</b>: 
+    Dies ist die ausf&uuml;hrbare Tor-Datei, die Vidalia startet, wenn Sie
+    <i>Start</i> aus dem Tray-Men&uuml; ausw&auml;hlen. Falls Sie mehrere
+    Versionen von Tor installiert haben, k&ouml;nnen Sie durch Klicken auf
+    die <i>W&auml;hlen</i> Schaltfl&auml;che die Tor-Version ausw&auml;hlen, die
+    Vidalia benutzen soll.
+  </li>
+  <li><b>Start Einstellungen</b>:
+    Durch diese Einstellung wird Tor automatisch zusammen mit Vidalia
+    gestartet. Sie k&ouml;nnen Vidalia auch konfigurieren, dass es beim
+    Systemstart ausge&uuml;hrt wird (<i>nur unter Windows</i>).
+  </li>
+</ul>
+
+<a name="server"/>
+<h3>Server Einstellungen</h3>
+<p>
+<i>
+  Lesen Sie <a href="server.html">diese Hilfeseite</a> f&uuml;r detailierte
+  Informationen zur Installation und zum Betrieb eines Tor-Servers.
+</i>
+</p>
+
+<a name="advanced"/>
+<h3>Fortgeschrittene Einstellungen</h3>
+<p>
+Die Einstellungen auf der Seite <i>Fortgeschritten</i> sollten gew&ouml;hnlich
+nur von erfahrenen Benutzern vorgenommen werden.
+</p>
+<ul>
+  <li><b>Kontroll Port</b>:
+    Den <i>Kontroll Port</i> benutzt Vidalia zur Kommunikation mit Tor.
+    Diese Einstellung braucht nur ver&auml;ndert zu werden, wenn Sie einen
+    Konflikt mit einem anderen Dienst auf Ihrem System haben.
+  </li>
+  <li><b>Tor Konfigurationsdatei</b>:
+    Mit dieser Option k&ouml;nnen Sie Vidalia veranlassen, Tor mit einer
+    speziellen Konfiguarionsdatei, <i>torrc</i>, auszuf&uuml;hren.
+  </li>
+  <li><b>Berechtigungen</b>:
+    Wenn Sie einen Wert f&uuml;r <b>Als folgender Benutzer ausf&uuml;hren</b>
+    angeben, wird Tor mit den Rechten dieses Benutzers ausge&uuml;hrt
+    (<i>setuid</i>).
+    Wenn Sie einen Wert f&uuml;r <b>Als folgende Gruppe ausf&uuml;hren</b>
+    wird Tor mit den Rechten dieser Gruppe ausgef&uuml;hrt (<i>setgid</i>).
+  </li>
+</ul>
+
+</body>
+</html>
+

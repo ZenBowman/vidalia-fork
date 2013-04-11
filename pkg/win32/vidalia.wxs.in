@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="Windows-1252" ?>
+<!-- 
+  $Id$
+ -->
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+
+  <?define VidaliaVersion="@VER_MAJOR@.@VER_MINOR@.@VER_PATCH@" ?>
+  <?define VidaliaUpgradeCode="B7FBFE11-D7CA-4895-A1FB-1D7E065E4D04" ?>
+  <?define VidaliaProductGuid="65DC4C06-95ED-4AD2-98CE-BEB82D47F84C" ?>
+  <?define VidaliaDocumentsGuid="F6A00477-80AE-43F3-B406-8B53D685BE3B" ?>
+  <?define QtLibraryGuid="420D52CF-D7C0-4BA0-9D4E-A229E6CFAE9D" ?>
+  <?define QtImageFormatPluginsGuid="420D52CF-D7C0-4BA0-9D4E-A229E6CFAE9D" ?>
+  <?define MinGWLibraryGuid="B4925AB4-DEF4-4B1E-88A7-67EACD8F1312" ?>
+  <?define MarbleWidgetLibraryGuid="8D749190-ADD6-40EA-A59F-3331EDAEDE01" ?>
+  <?define MarblePluginsGuid="D323FF55-CD5F-4EF1-BAE1-1D8A4B79E112" ?>
+  <?define MarbleLegendsDataGuid="46903134-8E51-4D06-9ABB-92A6E1F439BE" ?>
+  <?define MarbleBlueMarbleDataGuid="DE030E4A-0046-4CA7-B8DC-0E3E77A0149D" ?>
+  <?define MarbleCityLightsDataGuid="4C4F3253-38D8-484C-B49A-F0AA2ABE6F91" ?>
+  <?define MarbleMwdbiiDataGuid="5B1C77C4-27F4-4F0F-BCAE-2D48E02A4F93" ?>
+  <?define MarbleSrtmDataGuid="44053C18-D3A9-452A-A37C-E596DCEFD9AF" ?>
+  <?define MarblePlacemarkDataGuid="3166DA37-E905-48B7-AAED-5F891C06824A" ?>
+  <?define MarbleStarsDataGuid="E0C84A4B-A05D-45AE-9890-D4F896517353" ?>
+  <?define MarbleSvgDataGuid="38323BC7-6B96-46F0-BD21-0E7441D9C47C" ?>
+  <?define UseMarble="@USE_MARBLE@"?>
+  <?define UseBreakpad="@USE_BREAKPAD@"?>
+
+  <Product Name="Vidalia @VERSION@" Id="$(var.VidaliaProductGuid)"
+           Language="1033" Codepage="1252"
+           Version="$(var.VidaliaVersion)" 
+           Manufacturer="vidalia-project.net"
+           UpgradeCode="$(var.VidaliaUpgradeCode)">
+    
+    <Package Id="*" Keywords="Installer"
+             Description="Vidalia @VERSION@ Installer"
+             Manufacturer="vidalia-project.net"
+             InstallerVersion="300" Compressed="yes"
+             Languages="1033"  SummaryCodepage="1252" />
+
+    <Media Id="1" Cabinet="Vidalia.cab" CompressionLevel="high"
+           EmbedCab="yes" DiskPrompt="CD-ROM #1" />
+    <Property Id="DiskPrompt" Value="Vidalia @VERSION@ Installation [1]" />
+
+    <Upgrade Id="$(var.VidaliaUpgradeCode)">
+      <UpgradeVersion Property="UPGRADEFOUND" OnlyDetect="no"
+                      Minimum="0.0.1" IncludeMinimum="yes"
+                      Maximum="$(var.VidaliaVersion)" IncludeMaximum="no" />
+    </Upgrade>
+
+    <!-- Define the target installation directory hierarchy -->
+    <Directory Id="TARGETDIR" Name="SourceDir">
+      <Directory Id="ProgramFilesFolder" Name="ProgramFilesDir">
+        <Directory Id="INSTALLDIR" Name="Vidalia">
+          <?if $(var.UseMarble) = "ON"?>
+            <Directory Id="PluginsDir" Name="plugins">
+              <Directory Id="QtPluginsDir" Name="qt">
+                <Directory Id="QtImageFormatPluginsDir" Name="imageformats" />
+              </Directory>
+              <Directory Id="MarblePluginsDir" Name="marble" />
+            </Directory>
+            <Directory Id="MarbleDataDir" Name="data">
+              <Directory Id="MarbleMapsDir" Name="maps">
+                <Directory Id="MarbleEarthMapsDir" Name="earth">
+                  <Directory Id="MarbleBlueMarbleDataDir" Name="bluemarble" />
+                  <Directory Id="MarbleCityLightsDataDir" Name="citylights" />
+                  <Directory Id="MarbleSrtmDataDir" Name="srtm" />
+                </Directory>
+              </Directory>
+              <Directory Id="MarbleMwdbiiDir" Name="mwdbii" />
+              <Directory Id="MarblePlacemarkDataDir" Name="placemarks" />
+              <Directory Id="MarbleStarsDataDir" Name="stars" />
+              <Directory Id="MarbleSvgDataDir" Name="svg" />
+            </Directory>
+          <?endif?>
+        </Directory>
+      </Directory>
+    </Directory>
+
+    <DirectoryRef Id="INSTALLDIR">
+      <!-- Main Vidalia application files -->
+      <Component Id="VidaliaExecutable" Guid="*">
+        <File Id="VidaliaExe" DiskId="1"
+              Name="vidalia.exe" Source="@VIDALIA_EXECUTABLE@" />
+      </Component>
+
+      <!-- Vidalia-related documents -->
+      <Component Id="VidaliaDocuments" Guid="$(var.VidaliaDocumentsGuid)">
+        <File Id="VidaliaReadme" DiskId="1"
+              Name="README" Source="@Vidalia_SOURCE_DIR@\README" />
+        <File Id="VidaliaCredits" DiskId="1"
+              Name="CREDITS" Source="@Vidalia_SOURCE_DIR@\CREDITS" />
+        <File Id="VidaliaChangeLog" DiskId="1"
+              Name="CHANGELOG" Source="@Vidalia_SOURCE_DIR@\CHANGELOG" />
+        <File Id="VidaliaLicense" DiskId="1"
+              Name="LICENSE" Source="@Vidalia_SOURCE_DIR@\LICENSE" />
+        <File Id="VidaliaLicenseGplV2" DiskId="1"
+              Name="LICENSE-GPLV2" Source="@Vidalia_SOURCE_DIR@\LICENSE-GPLV2" />
+        <File Id="VidaliaLicenseGplV3" DiskId="1"
+              Name="LICENSE-GPLV3" Source="@Vidalia_SOURCE_DIR@\LICENSE-GPLV3" />
+        <File Id="VidaliaLicenseLgplV3" DiskId="1"
+              Name="LICENSE-LGPLV3" Source="@Vidalia_SOURCE_DIR@\LICENSE-LGPLV3" />
+      </Component>
+
+      <!-- Qt-related library files -->
+      <Component Id="QtLibrary" Guid="$(var.QtLibraryGuid)">
+        <File Id="QtCore4Dll" DiskId="1"
+              Name="QtCore4.dll" Source="@QT_BINARY_DIR@\QtCore4.dll" />
+        <File Id="QtGui4Dll" DiskId="1"
+              Name="QtGui4.dll" Source="@QT_BINARY_DIR@\QtGui4.dll" />
+        <File Id="QtNetwork4Dll" DiskId="1"
+              Name="QtNetwork4.dll" Source="@QT_BINARY_DIR@\QtNetwork4.dll" />
+        <File Id="QtXml4Dll" DiskId="1"
+              Name="QtXml4.dll" Source="@QT_BINARY_DIR@\QtXml4.dll" />
+        <File Id="LibGccDll" DiskId="1"
+              Name="libgcc_s_dw2-1.dll" Source="@QT_BINARY_DIR@\libgcc_s_dw2-1.dll" />
+        <?if $(var.UseMarble) = "ON"?>
+          <File Id="QtSvg4Dll" DiskId="1"
+                Name="QtSvg4.dll" Source="@QT_BINARY_DIR@\QtSvg4.dll" />
+          <File Id="QtWebKit4Dll" DiskId="1"
+                Name="QtWebKit4.dll" Source="@QT_BINARY_DIR@\QtWebKit4.dll" />
+        <?endif?>
+      </Component>
+
+      <?if $(var.UseBreakpad) = "ON"?>
+        <!-- Builds with Breakpad support must include the CRT. -->
+        <Merge Id="CRT" Language="0" DiskId="1"
+               SourceFile="C:\Program Files\Common Files\Merge Modules\microsoft_vc90_crt_x86.msm" />
+        <Component Id="CrashReporterExecutable" Guid="*">
+          <File Id="CrashReporterExe" DiskId="1"
+                Name="crashreporter.exe"
+                Source="@VIDALIA_CRASHREPORTER_EXECUTABLE@" />
+        </Component>
+      <?else?>
+        <!-- Include MinGW-related library files -->
+        <Component Id="MinGWLibrary" Guid="$(var.MinGWLibraryGuid)">
+          <File Id="MinGWDll" DiskId="1"
+                Name="mingwm10.dll" Source="@MINGW_BINARY_DIR@\mingwm10.dll" />
+        </Component>
+      <?endif?>
+
+      <?if $(var.UseMarble) = "ON"?>
+        <!-- Marble-related library files -->
+        <Component Id="MarbleWidgetLibrary" Guid="$(var.MarbleWidgetLibraryGuid)">
+          <File Id="MarbleWidgetDll" DiskId="1"
+                Name="libmarblewidget.dll" Source="@MARBLEWIDGET_LIBRARY@" />
+        </Component>
+      <?endif?>
+    </DirectoryRef>
+
+    <!-- Qt-related plugin files -->
+    <?if $(var.UseMarble) = "ON"?>
+      <DirectoryRef Id="QtImageFormatPluginsDir">
+        <Component Id="QtImageFormatPlugins" Guid="$(var.QtImageFormatPluginsGuid)">
+          <File Id="QJpeg4Dll" DiskId="1"
+                Name="qjpeg4.dll" Source="@QT_PLUGINS_DIR@\imageformats\qjpeg4.dll" />
+        </Component>
+      </DirectoryRef>
+
+      <!-- Marble-related plugin files -->
+      <DirectoryRef Id="MarblePluginsDir">
+        <Component Id="MarblePlugins" Guid="$(var.MarblePluginsGuid)">
+          <File Id="MarbleOverviewMapPlugin" DiskId="1"
+                Name="libMarbleOverviewMap.dll" Source="@MARBLE_OVERVIEWMAP_PLUGIN@" />
+          <File Id="MarbleStarsPlugin" DiskId="1"
+                Name="libMarbleStarsPlugin.dll" Source="@MARBLE_STARS_PLUGIN@" />
+        </Component>
+      </DirectoryRef>
+            
+      <!-- Marble-related data files -->
+      <DirectoryRef Id="MarbleDataDir">
+        <Component Id="MarbleLegendsData" Guid="$(var.MarbleLegendsDataGuid)">
+          <File Id="LandColorsLegend" DiskId="1"
+                Name="landcolors.leg" Source="@MARBLE_DATA_DIR@\landcolors.leg" />
+          <File Id="SeaColorsLegend" DiskId="1"
+                Name="seacolors.leg" Source="@MARBLE_DATA_DIR@\seacolors.leg" />
+        </Component>
+      </DirectoryRef>
+      <DirectoryRef Id="MarbleBlueMarbleDataDir">
+        <Component Id="MarbleBlueMarbleData" Guid="$(var.MarbleBlueMarbleDataGuid)">
+          <File Id="MarbleBlueMarbleDgml" DiskId="1"
+                Name="bluemarble.dgml" Source="@MARBLE_DATA_DIR@\maps\earth\bluemarble\bluemarble.dgml" />
+        </Component>
+      </DirectoryRef>
+      <DirectoryRef Id="MarbleCityLightsDataDir">
+        <Component Id="MarbleCityLightsData" Guid="$(var.MarbleCityLightsDataGuid)">
+          <File Id="MarbleCityLightsDgml" DiskId="1"
+                Name="citylights.dgml" Source="@MARBLE_DATA_DIR@\maps\earth\citylights\citylights.dgml" />
+        </Component>
+      </DirectoryRef>
+      <DirectoryRef Id="MarbleSrtmDataDir">
+        <Component Id="MarbleSrtmData" Guid="$(var.MarbleSrtmDataGuid)">
+          <File Id="MarbleSrtmDgml" DiskId="1"
+                Name="srtm.dgml" Source="@MARBLE_DATA_DIR@\maps\earth\srtm\srtm.dgml" />
+          <File Id="MarbleSrtmJpg" DiskId="1"
+                Name="srtm.jpg" Source="@MARBLE_DATA_DIR@\maps\earth\srtm\srtm.jpg" />
+        </Component>
+      </DirectoryRef>
+      <DirectoryRef Id="MarbleMwdbiiDir">
+        <Component Id="MarbleMwdbiiData" Guid="$(var.MarbleMwdbiiDataGuid)">
+          <File Id="DatelinePnt" DiskId="1"
+                Name="DATELINE.PNT" Source="@MARBLE_DATA_DIR@\mwdbii\DATELINE.PNT" />
+          <File Id="PAustPnt" DiskId="1"
+                Name="PAUST.PNT" Source="@MARBLE_DATA_DIR@\mwdbii\PAUST.PNT" />
+          <File Id="PBorderPnt" DiskId="1"
+                Name="PBORDER.PNT" Source="@MARBLE_DATA_DIR@\mwdbii\PBORDER.PNT" />
+          <File Id="PCanProvPnt" DiskId="1"
+                Name="PCANPROV.PNT" Source="@MARBLE_DATA_DIR@\mwdbii\PCANPROV.PNT" />
+          <File Id="PCoastPnt" DiskId="1"
+                Name="PCOAST.PNT" Source="@MARBLE_DATA_DIR@\mwdbii\PCOAST.PNT" />
+          <File Id="PDiffBorderPnt" DiskId="1"
+                Name="PDIFFBORDER.PNT" Source="@MARBLE_DATA_DIR@\mwdbii\PDIFFBORDER.PNT" />
+          <File Id="PGlacierPnt" DiskId="1"
+                Name="PGLACIER.PNT" Source="@MARBLE_DATA_DIR@\mwdbii\PGLACIER.PNT" />
+          <File Id="PIslandPnt" DiskId="1"
+                Name="PISLAND.PNT" Source="@MARBLE_DATA_DIR@\mwdbii\PISLAND.PNT" />
+          <File Id="PLakePnt" DiskId="1"
+                Name="PLAKE.PNT" Source="@MARBLE_DATA_DIR@\mwdbii\PLAKE.PNT" />
+          <File Id="PLakeIslandPnt" DiskId="1"
+                Name="PLAKEISLAND.PNT" Source="@MARBLE_DATA_DIR@\mwdbii\PLAKEISLAND.PNT" />
+          <File Id="PMexicoPnt" DiskId="1"
+                Name="PMEXICO.PNT" Source="@MARBLE_DATA_DIR@\mwdbii\PMEXICO.PNT" />
+          <File Id="PUsa48DiffPnt" DiskId="1"
+                Name="PUSA48.DIFF.PNT" Source="@MARBLE_DATA_DIR@\mwdbii\PUSA48.DIFF.PNT" />
+          <File Id="PUsa48Pnt" DiskId="1"
+                Name="PUSA48.PNT" Source="@MARBLE_DATA_DIR@\mwdbii\PUSA48.PNT" />
+          <File Id="RiverPnt" DiskId="1"
+                Name="RIVER.PNT" Source="@MARBLE_DATA_DIR@\mwdbii\RIVER.PNT" />
+        </Component>
+      </DirectoryRef>
+      <DirectoryRef Id="MarblePlacemarkDataDir">
+        <Component Id="MarblePlacemarkData" Guid="$(var.MarblePlacemarkDataGuid)">
+          <File Id="BasePlacemarksCache" DiskId="1"
+                Name="baseplacemarks.cache" Source="@MARBLE_DATA_DIR@\placemarks\baseplacemarks.cache" />
+          <File Id="BoundaryPlacemarksCache" DiskId="1"
+                Name="boundaryplacemarks.cache" Source="@MARBLE_DATA_DIR@\placemarks\boundaryplacemarks.cache" />
+          <File Id="ElevPlacemarksCache" DiskId="1"
+                Name="elevplacemarks.cache" Source="@MARBLE_DATA_DIR@\placemarks\elevplacemarks.cache" />
+        </Component>
+      </DirectoryRef>
+      <DirectoryRef Id="MarbleStarsDataDir">
+        <Component Id="MarbleStarsData" Guid="$(var.MarbleStarsDataGuid)">
+          <File Id="StarsDat" DiskId="1"
+                Name="stars.dat" Source="@MARBLE_DATA_DIR@\stars\stars.dat" />
+        </Component>
+      </DirectoryRef>
+      <DirectoryRef Id="MarbleSvgDataDir">
+        <Component Id="MarbleSvgData" Guid="$(var.MarbleSvgDataGuid)">
+          <File Id="WorldMapSvg" DiskId="1"
+                Name="worldmap.svg" Source="@MARBLE_DATA_DIR@\svg\worldmap.svg" />
+        </Component>
+      </DirectoryRef>
+      <ComponentGroup Id="MarbleData">
+        <ComponentRef Id="MarbleLegendsData" />
+        <ComponentRef Id="MarbleBlueMarbleData" />
+        <ComponentRef Id="MarbleCityLightsData" />
+        <ComponentRef Id="MarbleSrtmData" />
+        <ComponentRef Id="MarbleMwdbiiData" />
+        <ComponentRef Id="MarblePlacemarkData" />
+        <ComponentRef Id="MarbleStarsData" />
+        <ComponentRef Id="MarbleSvgData" />
+      </ComponentGroup>
+    <?endif?>
+
+    <!-- Application shortcuts and menu items -->
+    <DirectoryRef Id="TARGETDIR">
+      <Directory Id="ProgramMenuFolder" Name="Programs">
+        <Directory Id="ShortcutFolder" Name="Vidalia">
+          <Component Id="AddVidaliaToStartMenu" Guid="0F2CEE2C-8730-432e-8A8F-E49AF78AF28C">
+            <RegistryKey Root="HKCU" Key="Software\Vidalia" Action="createAndRemoveOnUninstall">
+              <RegistryValue Name="StartMenuShortcut" Value="1" Type="integer" KeyPath="yes" />
+            </RegistryKey>
+            <Shortcut Id="VidaliaStartMenuShortcut"
+                      Name="Vidalia" Target="[INSTALLDIR]vidalia.exe"
+                      Directory="ShortcutFolder" WorkingDirectory="INSTALLDIR"
+                      Icon="vidalia.ico" IconIndex="0" />
+            <RemoveFolder Id="RemoveShortcutFolder" On="uninstall" />
+          </Component>
+        </Directory>
+      </Directory>
+
+      <Directory Id="DesktopFolder" Name="Desktop">
+        <Component Id="AddVidaliaToDesktop" Guid="A7688EE5-4EDE-4429-A2D9-C8B9BD85AB5A">
+          <RegistryKey Root="HKCU" Key="Software\Vidalia" Action="createAndRemoveOnUninstall">
+            <RegistryValue Name="DesktopShortcut" Value="1" Type="integer" KeyPath="yes" />
+          </RegistryKey>
+          <Shortcut Id="VidaliaDesktopShortcut"
+                    Name="Vidalia" Target="[INSTALLDIR]vidalia.exe"
+                    Directory="DesktopFolder" WorkingDirectory="INSTALLDIR"
+                    Icon="vidalia.ico" IconIndex="0" />
+        </Component>
+      </Directory>
+
+      <Component Id="AddToStartupItems" Guid="E7BC3F3C-86BA-4a08-966C-F3F8D8CB3AF4">
+        <RegistryKey Root="HKCU"
+                     Key="Software\Microsoft\Windows\CurrentVersion\Run"
+                     Action="createAndRemoveOnUninstall">
+          <RegistryValue Name="Vidalia" Value='"[INSTALLDIR]vidalia.exe"' Type="string" />
+        </RegistryKey>
+      </Component>
+    </DirectoryRef>
+
+    <!-- Build up the feature hierarchy -->
+    <Feature Id="Complete" Title="Vidalia"
+             Level="1" Display="expand" ConfigurableDirectory="INSTALLDIR"
+             Description="Vidalia is application that helps you control, monitor, and configure the Tor software.">
+      <Feature Id="MainApplication" Title="Vidalia @VERSION@"
+               AllowAdvertise="no" Absent="disallow" Level="1"
+               Description="Main application">
+        <ComponentRef Id="VidaliaExecutable" />
+        <ComponentRef Id="VidaliaDocuments" />
+        <ComponentRef Id="QtLibrary" />
+        <?if $(var.UseMarble) = "ON"?>
+          <ComponentRef Id="QtImageFormatPlugins" />
+          <ComponentRef Id="MarbleWidgetLibrary" />
+          <ComponentRef Id="MarblePlugins" />
+          <ComponentGroupRef Id="MarbleData"/>
+        <?endif?>
+        <?if $(var.UseBreakpad) = "ON"?>
+          <MergeRef Id="CRT"/>
+          <ComponentRef Id="CrashReporterExecutable"/>
+        <?else?>
+          <ComponentRef Id="MinGWLibrary" />
+        <?endif?>
+      </Feature>
+      <Feature Id="Shortcuts" Title="Shortcuts"
+               AllowAdvertise="no" Absent="allow" Level="1"
+               Description="Add a shortcut to Vidalia to your Start menu or Desktop.">
+        <Feature Id="StartMenuShortcuts" Title="Add to Start menu"
+                 AllowAdvertise="no" Absent="allow" Level="1"
+                 Description="Add Vidalia to your Start menu">
+          <ComponentRef Id="AddVidaliaToStartMenu" />
+        </Feature>
+        <Feature Id="DesktopShortcuts" Title="Add to Desktop"
+                 AllowAdvertise="no" Absent="allow" Level="1"
+                 Description="Add Vidalia to your Desktop">
+          <ComponentRef Id="AddVidaliaToDesktop" />
+        </Feature>
+        <Feature Id="RunAtStartup" Title="Run at Startup"
+                 AllowAdvertise="no" Absent="allow" Level="1"
+                 Description="Run Vidalia automatically when your system starts">
+          <ComponentRef Id="AddToStartupItems" />
+        </Feature>
+      </Feature>
+    </Feature>
+
+    <!-- Upgrade installation sequence -->
+    <InstallExecuteSequence>
+      <RemoveExistingProducts After="InstallValidate" />
+    </InstallExecuteSequence>
+
+    <!-- Set the UI options -->
+    <UIRef Id="WixUI_Custom" />
+    <Icon Id="vidalia.ico" SourceFile="@Vidalia_SOURCE_DIR@\src\vidalia\res\icons\vidalia.ico" />
+  </Product>
+</Wix>

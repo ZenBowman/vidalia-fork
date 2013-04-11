@@ -1,0 +1,435 @@
+# Translators:
+# Translators:
+# runasand <runa.sandvik@gmail.com>, 2011.
+# Андрей Костенко <andrey@kostenko.name>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: The Tor Project\n"
+"Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
+"POT-Creation-Date: 2008-08-20 03:25+0000\n"
+"PO-Revision-Date: 2010-12-05 19:59+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: Russian (http://www.transifex.net/projects/p/torproject/language/ru/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"X-Generator: Vidalia ts2po 0.2\n"
+
+#: qaccessibleobject.cpp:348
+msgctxt "QApplication"
+msgid "Activate"
+msgstr "Запустить"
+
+#: qmessagebox.h:319
+msgctxt "QApplication"
+msgid "Executable '%1' requires Qt %2, found Qt %3."
+msgstr "Программный модуль '%1' требует Qt %2, найдена версия %3."
+
+#: qmessagebox.h:321
+msgctxt "QApplication"
+msgid "Incompatible Qt Library Error"
+msgstr "Ошибка совместимости библиотеки Qt"
+
+#: qapplication.cpp:2095
+msgctxt "QApplication"
+msgid "QT_LAYOUT_DIRECTION"
+msgstr "LTR"
+
+#: qaccessibleobject.cpp:350
+msgctxt "QApplication"
+msgid "Activates the program's main window"
+msgstr "Активировать главное окно"
+
+#: qmessagebox.cpp:2104
+msgctxt "QDialogButtonBox"
+msgid "OK"
+msgstr "OK"
+
+#: qdialogbuttonbox.cpp:528
+msgctxt "QDialogButtonBox"
+msgid "Save"
+msgstr "Сохранить"
+
+#: qdialogbuttonbox.cpp:531
+msgctxt "QDialogButtonBox"
+msgid "Open"
+msgstr "Открыть"
+
+#: qdialogbuttonbox.cpp:534
+msgctxt "QDialogButtonBox"
+msgid "Cancel"
+msgstr "Отмена"
+
+#: qdialogbuttonbox.cpp:537
+msgctxt "QDialogButtonBox"
+msgid "Close"
+msgstr "Закрыть"
+
+#: qdialogbuttonbox.cpp:540
+msgctxt "QDialogButtonBox"
+msgid "Apply"
+msgstr "Применить"
+
+#: qdialogbuttonbox.cpp:543
+msgctxt "QDialogButtonBox"
+msgid "Reset"
+msgstr "Сбросить"
+
+#: qdialogbuttonbox.cpp:546
+msgctxt "QDialogButtonBox"
+msgid "Help"
+msgstr "Справка"
+
+#: qdialogbuttonbox.cpp:550
+msgctxt "QDialogButtonBox"
+msgid "Don't Save"
+msgstr "Не сохранять"
+
+#: qdialogbuttonbox.cpp:554
+msgctxt "QDialogButtonBox"
+msgid "Discard"
+msgstr "Отмена"
+
+#: qdialogbuttonbox.cpp:557
+msgctxt "QDialogButtonBox"
+msgid "&Yes"
+msgstr "&Да"
+
+#: qdialogbuttonbox.cpp:560
+msgctxt "QDialogButtonBox"
+msgid "Yes to &All"
+msgstr "Всегда ДА"
+
+#: qdialogbuttonbox.cpp:563
+msgctxt "QDialogButtonBox"
+msgid "&No"
+msgstr "&Нет"
+
+#: qdialogbuttonbox.cpp:566
+msgctxt "QDialogButtonBox"
+msgid "N&o to All"
+msgstr "Всегда НЕТ"
+
+#: qdialogbuttonbox.cpp:569
+msgctxt "QDialogButtonBox"
+msgid "Save All"
+msgstr "Сохранить всё"
+
+#: qdialogbuttonbox.cpp:572
+msgctxt "QDialogButtonBox"
+msgid "Abort"
+msgstr "Прервать"
+
+#: qdialogbuttonbox.cpp:575
+msgctxt "QDialogButtonBox"
+msgid "Retry"
+msgstr "Повтор"
+
+#: qdialogbuttonbox.cpp:578
+msgctxt "QDialogButtonBox"
+msgid "Ignore"
+msgstr "Игнорировать"
+
+#: qdialogbuttonbox.cpp:581
+msgctxt "QDialogButtonBox"
+msgid "Restore Defaults"
+msgstr "Восстановить стандартные настройки"
+
+#: qdialogbuttonbox.cpp:552
+msgctxt "QDialogButtonBox"
+msgid "Close without Saving"
+msgstr "Выйти без сохранения"
+
+#: qdialogbuttonbox.cpp:525
+msgctxt "QDialogButtonBox"
+msgid "&OK"
+msgstr "&OK"
+
+#: qdirmodel.cpp:423
+msgctxt "QDirModel"
+msgid "Name"
+msgstr "Имя"
+
+#: qdirmodel.cpp:424
+msgctxt "QDirModel"
+msgid "Size"
+msgstr "Размер"
+
+#: qdirmodel.cpp:427
+msgctxt "QDirModel"
+msgid "Kind"
+msgstr "Разновидность"
+
+#: qdirmodel.cpp:429
+msgctxt "QDirModel"
+msgid "Type"
+msgstr "Тип"
+
+#: qdirmodel.cpp:435
+msgctxt "QDirModel"
+msgid "Date Modified"
+msgstr "Дата изменения"
+
+#: qfiledialog_win.cpp:126
+msgctxt "QFileDialog"
+msgid "All Files (*)"
+msgstr "Все файлы (*)"
+
+#: qfiledialog.cpp:881
+msgctxt "QFileDialog"
+msgid "Directories"
+msgstr "Каталоги"
+
+#: qfiledialog.cpp:2408
+msgctxt "QFileDialog"
+msgid "&Open"
+msgstr "&Открыть"
+
+#: qfiledialog.cpp:919
+msgctxt "QFileDialog"
+msgid "&Save"
+msgstr "&Сохранить"
+
+#: qfiledialog.cpp:435
+msgctxt "QFileDialog"
+msgid "Open"
+msgstr "Открыть"
+
+#: qfiledialog.cpp:1670
+msgctxt "QFileDialog"
+msgid ""
+"%1 already exists.\n"
+"Do you want to replace it?"
+msgstr "%1 уже существует.\nЗаменить?"
+
+#: qfiledialog.cpp:1690
+msgctxt "QFileDialog"
+msgid ""
+"%1\n"
+"File not found.\n"
+"Please verify the correct file name was given."
+msgstr "%1\nФайл не найден.\nПожалуйста, проверьте правильность имени и пути."
+
+#: qdirmodel.cpp:833
+msgctxt "QFileDialog"
+msgid "My Computer"
+msgstr "Мой компьютер"
+
+#: qfiledialog.cpp:462
+msgctxt "QFileDialog"
+msgid "&Rename"
+msgstr "&Переименовать"
+
+#: qfiledialog.cpp:463
+msgctxt "QFileDialog"
+msgid "&Delete"
+msgstr "&Удалить"
+
+#: qfiledialog.cpp:464
+msgctxt "QFileDialog"
+msgid "Show &hidden files"
+msgstr "Показать &скрытые файлы"
+
+#: ui_qfiledialog.h:264
+msgctxt "QFileDialog"
+msgid "Back"
+msgstr "Назад"
+
+#: ui_qfiledialog.h:274
+msgctxt "QFileDialog"
+msgid "Parent Directory"
+msgstr "Родительская директория"
+
+#: ui_qfiledialog.h:284
+msgctxt "QFileDialog"
+msgid "List View"
+msgstr "Просмотр списка"
+
+#: ui_qfiledialog.h:289
+msgctxt "QFileDialog"
+msgid "Detail View"
+msgstr "Просмотр деталей"
+
+#: ui_qfiledialog.h:292
+msgctxt "QFileDialog"
+msgid "Files of type:"
+msgstr "Файлы типа:"
+
+#: qfiledialog.cpp:883
+msgctxt "QFileDialog"
+msgid "Directory:"
+msgstr "Каталог:"
+
+#: qfiledialog.cpp:2476
+msgctxt "QFileDialog"
+msgid ""
+"%1\n"
+"Directory not found.\n"
+"Please verify the correct directory name was given."
+msgstr "%1\nДиректория не найдена.\n Пожалуйста, проверьте правильность имени и пути."
+
+#: qfiledialog.cpp:2281
+msgctxt "QFileDialog"
+msgid ""
+"'%1' is write protected.\n"
+"Do you want to delete it anyway?"
+msgstr "'%1' защищён от записи.\nВсе равно удалить?"
+
+#: qfiledialog.cpp:2286
+msgctxt "QFileDialog"
+msgid "Are sure you want to delete '%1'?"
+msgstr "Вы действительно хотите удалить '%1'?"
+
+#: qfiledialog.cpp:2299
+msgctxt "QFileDialog"
+msgid "Could not delete directory."
+msgstr "Невозможно удалить директорию."
+
+#: qfiledialog_win.cpp:128
+msgctxt "QFileDialog"
+msgid "All Files (*.*)"
+msgstr "Все файлы (*.*)"
+
+#: qfiledialog.cpp:437
+msgctxt "QFileDialog"
+msgid "Save As"
+msgstr "Сохранить как"
+
+#: qfileiconprovider.cpp:379
+msgctxt "QFileDialog"
+msgid "Drive"
+msgstr "Диск"
+
+#: qfileiconprovider.cpp:383
+msgctxt "QFileDialog"
+msgid "File"
+msgstr "Файл"
+
+#: qfileiconprovider.cpp:412
+msgctxt "QFileDialog"
+msgid "Unknown"
+msgstr "Неизвестный"
+
+#: qfiledialog.cpp:439
+msgctxt "QFileDialog"
+msgid "Find Directory"
+msgstr "Найти каталог"
+
+#: qfiledialog.cpp:458
+msgctxt "QFileDialog"
+msgid "Show "
+msgstr "Показать"
+
+#: ui_qfiledialog.h:269
+msgctxt "QFileDialog"
+msgid "Forward"
+msgstr "Вперед"
+
+#: qfiledialog.cpp:2137
+msgctxt "QFileDialog"
+msgid "New Folder"
+msgstr "Новый каталог"
+
+#: qfiledialog.cpp:465
+msgctxt "QFileDialog"
+msgid "&New Folder"
+msgstr "&Новый каталог"
+
+#: qfiledialog.cpp:917
+msgctxt "QFileDialog"
+msgid "&Choose"
+msgstr "&Выбрать"
+
+#: qsidebar.cpp:388
+msgctxt "QFileDialog"
+msgid "Remove"
+msgstr "Удалить"
+
+#: qfiledialog.cpp:886
+msgctxt "QFileDialog"
+msgid "File &name:"
+msgstr "Имя &файла:"
+
+#: ui_qfiledialog.h:261
+msgctxt "QFileDialog"
+msgid "Look in:"
+msgstr "Искать в:"
+
+#: ui_qfiledialog.h:279
+msgctxt "QFileDialog"
+msgid "Create New Folder"
+msgstr "Создать новый каталог"
+
+#: qfilesystemmodel.cpp:761
+msgctxt "QFileSystemModel"
+msgid "Invalid filename"
+msgstr "Неправильное имя файла"
+
+#: qfilesystemmodel.cpp:763
+msgctxt "QFileSystemModel"
+msgid ""
+"<b>The name \"%1\" can not be used.</b><p>Try using another name, with fewer"
+" characters or no punctuations marks."
+msgstr "<b>Нельзя использовать \"%1\" в качестве имени.</b><p>Выберите другое, без знаков препинания или с меньшим числом символов."
+
+#: qfilesystemmodel.cpp:832
+msgctxt "QFileSystemModel"
+msgid "Name"
+msgstr "Имя"
+
+#: qfilesystemmodel.cpp:834
+msgctxt "QFileSystemModel"
+msgid "Size"
+msgstr "Размер"
+
+#: qfilesystemmodel.cpp:838
+msgctxt "QFileSystemModel"
+msgid "Kind"
+msgstr "Разновидность"
+
+#: qfilesystemmodel.cpp:840
+msgctxt "QFileSystemModel"
+msgid "Type"
+msgstr "Тип"
+
+#: qfilesystemmodel.cpp:847
+msgctxt "QFileSystemModel"
+msgid "Date Modified"
+msgstr "Дата изменения"
+
+#: qfilesystemmodel_p.h:198
+msgctxt "QFileSystemModel"
+msgid "My Computer"
+msgstr "Мой компьютер"
+
+#: qfilesystemmodel_p.h:200
+msgctxt "QFileSystemModel"
+msgid "Computer"
+msgstr "Компьютер"
+
+#: qfilesystemmodel.cpp:677
+msgctxt "QFileSystemModel"
+msgid "%1 TB"
+msgstr "%1 Тб"
+
+#: qfilesystemmodel.cpp:679
+msgctxt "QFileSystemModel"
+msgid "%1 GB"
+msgstr "%1 Гб"
+
+#: qfilesystemmodel.cpp:681
+msgctxt "QFileSystemModel"
+msgid "%1 MB"
+msgstr "%1 Мб"
+
+#: qfilesystemmodel.cpp:683
+msgctxt "QFileSystemModel"
+msgid "%1 KB"
+msgstr "%1 Кб"
+
+#: qfilesystemmodel.cpp:684
+msgctxt "QFileSystemModel"
+msgid "%1 bytes"
+msgstr "%1 байт"

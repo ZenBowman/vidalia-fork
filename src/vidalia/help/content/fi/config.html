@@ -1,0 +1,140 @@
+﻿<!--
+**  $Id$
+** 
+**  This file is part of Vidalia, and is subject to the license terms in the
+**  LICENSE file, found in the top level directory of this distribution. If 
+**  you did not receive the LICENSE file with this file, you may obtain it
+**  from the Vidalia source package distributed by the Vidalia Project at
+**  http://www.torproject.org/projects/vidalia.html. No part of Vidalia, 
+**  including this file, may be copied, modified, propagated, or distributed 
+**  except according to the terms described in the LICENSE file.
+-->
+
+<html>
+<body>
+
+<h1>Vidalian ja Tor-ohjelman asetusten muokkaaminen</h1>
+<hr />
+
+<p>
+Vidalia mahdollistaa Vidalian ja Tor-ohjelman yleisten toimintojen säätelyn. Vidalialla voi myös oman pystyttää <a
+href="server.html">Tor-reitittimen, hallitta sitä</a> mahdollistaen Tor-verkon kasvamisen.
+</p>
+
+<a name="general"/>
+<h3>Yleiset-asetukset</h3>
+<p>
+Yleiset-asetukset -sivun asetukset ovat yleisimmin muutettuja asetuksia.
+</p>
+<ul>
+  <li><b>Tor-ohjelma</b>: 
+    Tor-ohjelma, jonka Vidalia käynnistää kun valitaan 
+    <i>Käynnistä</i> tehtäväpalkin Vidalian valikosta. Jos koneella on monta eri versiota Tor-ohjelmasta, voi valita mitä Vidalia käyttää klikkaamalla
+    <i>Selaa</i>-painiketta ja siirtymällä kyseisen Tor-ohjelman asennuskansioon.
+  </li>
+  <li><b>Käynnistys</b>:
+    Tällä asetuksella Vidalia käynnistää Tor-ohjelman samalla sen jälkeen kun on itsensä käynnistänyt. Vidalian voi myös määrittää käynnistymään käyttöjärjestelmän käynnistymisen yhteydessä (<i>Vain Windows</i>).
+  </li>
+</ul>
+
+<a name="network"/>
+<h3>Verkkoasetukset</h3>
+<p>
+<i>Verkko</i>-asetussivulla voi päättää kuinka Tor-ohjelma yhdistää Tor-verkkoon.
+</p>
+<ul>
+  <li><b>Käytän välityspalvelinta käyttääkseen Internettiä</b>:
+    Jos Internetyhteytesi vaatii toimiakseen HTTP-välityspalvelimen, voi säätää Tor-ohjelman lähettämään yhteyspyyntönsä ja Tor-reititin yhteytensä välityspalvelimen kautta. Toimiakseen täytyy määrittää Vidaliaan välityspalvelimen osoite ja sen portti, jolla sitä käytetään. Jos välityspalvelin tarvitsee toimiakseen kirjautua, voi myös asettaa sen <i>käyttäjänimen</i> ja <i>salasananan</i>.
+    Muuten noi kentät jätetään tyhjäksi.
+  </li>
+  <li><b>Palomuuri sallii yhteydet vain tiettyihin portteihin</b>:
+    Jos on rajoittavan palomuurin takana tai välityspalvelin rajoittaa yhdistettävien porttien käyttöä, voi määrittää Tor-ohjelman ottavan yhteyden sillaisiin reitittimiin jotka kuuntelevat niissä porteissa joita palomuuri tai välityspalvelin sallii. Laittaa vain listan niistä porteista, jotka ovat sallittuja palomuurin tai välityspalvelimen kautta, eroteltuna pilkuilla. (<i>Esimerkiksi: 80,443,8080</i>)
+  </li>
+  <li><b>Operaattori torjuu yhteydet Tor-verkkoon</b>:
+    Jos ISP (Internet Palvelun Tarjoajasi engl. Internet Service Provider) torjuu yhteydet Tor-verkkoon, Tor-ohjelma voi välttää suodatuksen suojaamalla, tarkemmin ottaen kryptaamalla, sen yhteydet ja yhdistämällä Tor-verkkoon <i>siltareittimen</i> kautta (vain Tor 0.2.0.3-alpha tai uudempi). Siltareitittimiä voi määrittää joko osoitteella ja portilla tai niiden osoitteella, portilla ja tunnisteella.<br>
+
+    Esimerkkejä sopivista siltaosoitteiden kirjoitustyyleistä:
+    <ul>
+      <li>
+        128.213.48.13:8080
+      </li>
+      <li>
+        128.213.48.13:8080 1054 13B1 DBDA F867 B226 74D2 52DF 3D9F A367 1F73
+      </li>
+      <li>
+        128.213.48.13:8080 105413B1DBDAF867B22674D252DF3D9FA3671F73
+      </li>
+    </ul>
+    Vaikka ei tiedä yhdenkään siltareitittimen osoitetta, rastittamalla tämän laatikon voi olla hyödyllistä. Silloin Tor-ohjelma suojaa yhteydet kryptaamalla ne, joka päihittää joitakin torjumistekniikoita, jotka yleensä rajoittavat Tor-verkon käyttöä. Jos yhteydet normaaleihin Tor-reitittimiin torjutaan, täytyy jonkin siltareitittimen osoite saada selville ja lisätä tänne. Lue lisää ohjeenaiheesta <a href="bridges.html#finding">Miten löydän siltareitittimen?</a> saadakseen lisää tietoa siltareitittimien osoitteista ja tunnisteista.
+  </li>
+</ul>
+
+<a name="server"/>
+<h3>Reititinasetukset</h3>
+<p>
+<i>
+  Katso <a href="server.html">tätä ohjeenaihetta</a> saadakseen lisätietoa reitittimen pystyttämisestä ja käyttämisestä.
+</i>
+</p>
+
+<a name="appearance"/>
+<h3>Ulkoasun asetukset</h3>
+<p>
+Vidalian ulkonäköä voi muuttaa <i>Ulkoasut</i>-sivulla olevilla asetuksilla.
+</p>
+<ul>
+  <li><b>Kieli</b>:
+    Vidalian käyttöliittymä on käännetty usealle kielelle avuliaiden vapaaehtoisten avulla. Ensimmäisellä Vidalian käynnistys kerralla Vidalia yrittää arvata mitä kieltä tietokone käyttää. Jos Vidalia arvaa väärin tai haluaa muuten valita toisen, niin kielen voi vaihtaa kehyksestä. Vidalia pitää käynnistää kielen vaihdon jälkeen, jotta muutokset pääsevät voimaan.
+  </li>
+  <li><b>Tyyli</b>:
+    Monissa tapauksissa Vidalia käyttää alustan oletusulkoasutyyliä. Tyylin voi vaihtaa valitsemalla kehyksestä.
+  </li>
+</ul>
+
+<a name="advanced"/>
+<h3>Lisäasetukset</h3>
+<p>
+<i>Lisäasetukset</i>-sivun asetuksia yleensä muuttaa vain kokeneet käyttäjät.
+</p>
+<ul>
+  <li><b>Ohjausportti</b>:
+    <i>Portti</i>, jolla Vidalia käyttää Tor-ohjelmaa tai jolla voi ohjata ja tarkkailla Tor-ohjelmaa toisella tietokoneella.
+    Tätä ei tarvitse muuttaa, jos ei ole ristiriitaa oman tietokoneen muun palvelun kanssa.
+  </li>
+  <li><b>Ohjausporttiin kirjautuminen</b>:
+    Ohjausportin kirjautumisella voidaan rajoittaa ohjelmia ottamasta yhteyttä Tor-ohjelmaan ja muuttamasta sen asetuksia. Käytössä olevat kirjautumistavat:
+    <ul>  
+      <li>
+        <b>Ei lainkaan</b> -- Kirjautumista ei tarvita. Tätä valintaa
+        <b>ehdottomasti</b> ei suosita. Mikä tahansa ohjelma tai käyttäjä koneella voi uudelleen määrittää Tor-ohjelman toiminnan.
+      </li>
+      <li> 
+        <b>Salasana</b> <i>(Oletus)</i> -- Jos tämän tavan valitsee, voi määrittää salasanan jonka Tor tarvitsee aina kun käyttäjä tai ohjelma ottaa yhteyttä Tor-ohjelman ohjausporttiin. Jos Vidalia käynnistää Tor-ohjelman, Vidalia voi luoda joka kerta kun se käynnistää Tor-ohjelman uuden salasanan rastittamalla <i>Luo satunnaisesti</i>-ruutu.
+      </li>
+      <li>
+        <b>Eväste</b> -- jos evästekirjautuminen on valittuna, Tor-ohjelma kirjoittaa tiedoston (toisin sanoen <i>evästeen</i>) sisältäen satunnaisia tavuja tietokansioon käynnistyessä. Jokaisen käyttäjän tai ohjelman joka yrittää yhdistää Tor-ohjelman ohjausporttiin pitää tarjota tämän evästeen sisällön.
+      </li>
+    </ul>
+  </li>
+  <li><b>Tor-asetustiedosto</b> <i>(valinnainen)</i>:
+   Tällä saa Vidalian käynnistämään Tor-ohjelman jollakin erikseen määrätyllä Tor-asetustiedostolla <i>(torcc-tiedosto)</i>. Jos kentän jättää tyhjäksi Vidalia käyttää Tor-ohjelman oletusasetustiedostoa.
+  </li>
+  <li><b>Tor-ohjelman tietokansio</b> <i>(valinnainen)</i>:
+    Kansio, jossa Tor säilyttää tallentamansa tiedon kuten Tor-reititin tietoja, reititin avaimia ja asetustiedostoja voidaan määrittää. Jos tämän kehyksen jättää tyhjäksi, Tor-ohjelma käyttää omaa oletustietojen tallennuskansiota.
+  </li>
+  <li><b>Oikeudet</b> <i>(Valinnainen, ei ole käytössä Windowssissa)</i>:
+    Tor-ohjelmaa voi käyttää toisella käyttäjätilillä, jos laittaa arvon Suorita käyttäjänä. Silloin Tor-ohjelma suorittaa <i>setuid</i> tällä käyttäjällä käynnistyessään.
+Tor-ohjelma voi myös käynnistyä toisen ryhmän oikeuksien mukaisesti, jos laittaa arvon Suorita ryhmänä. Silloin Tor-ohjelma suorittaa <i>setgid</i> tällä ryhmällä käynnistyessään.
+  </li>
+</ul>
+
+
+<a name="services"/>
+<h3>Piilopalveluasetukset</h3>
+<p>
+Piilopalvelut antavat mahdollisuuden tarjoa minkälaisen tahansa TCP-pohjaisen palvelun, esim. HTTP-palvelimen, näyttämättä muille IP-osoitetta.
+</p>
+
+</body>
+</html>
+

@@ -1,0 +1,47 @@
+<!--
+**  $Id$
+** 
+**  This file is part of Vidalia, and is subject to the license terms in the
+**  LICENSE file, found in the top level directory of this distribution. If 
+**  you did not receive the LICENSE file with this file, you may obtain it
+**  from the Vidalia source package distributed by the Vidalia Project at
+**  http://www.vidalia-project.net/. No part of Vidalia, including this file,
+**  may be copied, modified, propagated, or distributed except according to
+**  the terms described in the LICENSE file.
+-->
+
+<Contents name="Vidalia Hilfe" html="index.html">
+  <Topic id="running" name="Tor betreiben" html="running.html">
+    <Topic id="starting" name="Tor starten und beenden" html="running.html" section="starting"/>
+    <Topic id="monitoring" name="Tors Status &#252;berwachen" html="running.html" section="monitoring"/>
+  </Topic>
+  <Topic id="log" name="Nachrichtenprotokoll" html="log.html">
+    <Topic id="basic" name="Allgemeine Informationen" html="log.html" section="basic"/>
+    <Topic id="severities" name="Gewichtung von Nachrichten" html="log.html" section="severities"/>
+    <Topic id="logfile" name="Das Nachrichtenprotokoll speichern" html="log.html" section="tofile"/>
+  </Topic>
+  <Topic id="netview" name="Netzwerk-Betrachter" html="netview.html">
+    <Topic id="overview" name="&#220;berblick" html="netview.html" section="overview"/>
+    <Topic id="netmap" name="Netzwerk-Karte" html="netview.html" section="netmap"/>
+    <Topic id="status" name="Server-Status" html="netview.html" section="status"/>
+    <Topic id="details" name="Server-Details" html="netview.html" section="details"/>
+  </Topic>
+  <Topic id="config" name="Konfiguration von Tor" html="config.html">
+    <Topic id="general" name="Allgemeine Einstellungen" html="config.html" section="general"/>
+    <Topic id="server" name="Server Einstellungen" html="config.html" section="server"/>
+    <Topic id="advanced" name="Fortgeschrittene Einstellungen" html="config.html" section="advanced"/>
+  </Topic>
+  <Topic id="server" name="Einen Tor Server betreiben" html="server.html">
+    <Topic id="basic" name="Basis Einstellungen" html="server.html" section="basic"/>
+    <Topic id="bandwidth" name="Bandbreitenbegrenzung" html="server.html" section="bandwidth"/>
+    <Topic id="exitpolicy" name="Exit-Regeln" html="server.html" section="exitpolicy"/>
+  </Topic>
+  <Topic id="troubleshooting" name="Fehlersuche und Fehlerbeseitigung" html="troubleshooting.html">
+    <Topic id="start" name="Ich kann Tor nicht starten" html="troubleshooting.html" section="start"/>
+    <Topic id="connect" name="Vidalia kann keine Verbindung zu Tor herstellen" html="troubleshooting.html" section="connect"/>
+    <Topic id="torexited" name="Tor wurden unerwartet beendet" html="troubleshooting.html" section="torexited"/>
+    <Topic id="stop" name="Vidalia kann Tor nicht beenden" html="troubleshooting.html" section="stop"/>
+  </Topic>
+  <Topic id="links" name="N&#252;tzliche Links" html="links.html"/>
+</Contents>
+

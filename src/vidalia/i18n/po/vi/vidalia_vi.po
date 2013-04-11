@@ -1,0 +1,3846 @@
+# 
+# Translators:
+# runasand <runa.sandvik@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: The Tor Project\n"
+"Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
+"POT-Creation-Date: 2012-03-21 17:52+0000\n"
+"PO-Revision-Date: 2012-03-22 08:52+0000\n"
+"Last-Translator: runasand <runa.sandvik@gmail.com>\n"
+"Language-Team: translations@vidalia-project.net\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: vi\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"X-Generator: Vidalia ts2po 0.2\n"
+
+msgctxt "AboutDialog"
+msgid "About Vidalia"
+msgstr "Về Vidalia"
+
+msgctxt "AboutDialog"
+msgid "License"
+msgstr "Giấy phép"
+
+msgctxt "AboutDialog"
+msgid "Vidalia 0.2.0"
+msgstr ""
+
+msgctxt "AboutDialog"
+msgid "Tor 0.2.0.32"
+msgstr ""
+
+msgctxt "AboutDialog"
+msgid "Qt 4.4.2"
+msgstr ""
+
+msgctxt "AdvancedPage"
+msgid "'%1' is not a valid IP address."
+msgstr "'%1' không phải là một địa chỉ IP hợp lệ."
+
+msgctxt "AdvancedPage"
+msgid ""
+"You selected 'Password' authentication, but did not specify a password."
+msgstr "Bạn đã chọn xác thực 'Mật khẩu', nhưng lại không ghi rõ mật khẩu."
+
+msgctxt "AdvancedPage"
+msgid "Select Tor Configuration File"
+msgstr "Chọn Tập tin Cấu hình Tor"
+
+msgctxt "AdvancedPage"
+msgid "File Not Found"
+msgstr "Tập tin không tìm được"
+
+msgctxt "AdvancedPage"
+msgid "%1 does not exist. Would you like to create it?"
+msgstr "%1 không tồn tại. Bạn có muốn tạo nó ra không?"
+
+msgctxt "AdvancedPage"
+msgid "Failed to Create File"
+msgstr "Tạo Tập tin bị thất bại"
+
+msgctxt "AdvancedPage"
+msgid "Unable to create %1 [%2]"
+msgstr "Không thể tạo %1 [%2]"
+
+msgctxt "AdvancedPage"
+msgid "Select a Directory to Use for Tor Data"
+msgstr "Chọn một Thư mục để dùng cho Dữ liệu của Tor"
+
+msgctxt "AdvancedPage"
+msgid "Unable to remove Tor Service"
+msgstr "Không thể gỡ bỏ Dịch vụ Tor"
+
+msgctxt "AdvancedPage"
+msgid "Unable to install Tor Service"
+msgstr "Không thể cài đặt Dịch vụ Tor"
+
+msgctxt "AdvancedPage"
+msgid "Vidalia was unable to install the Tor service."
+msgstr "Vidalia không thể cài đặt Dịch vụ Tor."
+
+msgctxt "AdvancedPage"
+msgid "Authentication:"
+msgstr "Xác thực:"
+
+msgctxt "AdvancedPage"
+msgid "Address:"
+msgstr "Địa chỉ:"
+
+msgctxt "AdvancedPage"
+msgid "None"
+msgstr "Không có"
+
+msgctxt "AdvancedPage"
+msgid "Cookie"
+msgstr "Cookie"
+
+msgctxt "AdvancedPage"
+msgid "Password"
+msgstr "Mật khẩu"
+
+msgctxt "AdvancedPage"
+msgid "Randomly Generate"
+msgstr "Tạo ra Ngẫu nhiên "
+
+msgctxt "AdvancedPage"
+msgid ":"
+msgstr ":"
+
+msgctxt "AdvancedPage"
+msgid "Tor Configuration File"
+msgstr "Tập tin Cấu hình Tor"
+
+msgctxt "AdvancedPage"
+msgid "Start the Tor software with the specified configuration file (torrc)"
+msgstr "Bắt đầu nhu liệu Tor với tập tin cấu hình đã ghi rõ (torrc)"
+
+msgctxt "AdvancedPage"
+msgid "Select path to your configuration file"
+msgstr "Chọn đường dẫn đến tập tin cấu hình của bạn"
+
+msgctxt "AdvancedPage"
+msgid "Browse"
+msgstr "Trình duyệt"
+
+msgctxt "AdvancedPage"
+msgid "Data Directory"
+msgstr "Từ điển Dữ liệu"
+
+msgctxt "AdvancedPage"
+msgid "Store data for the Tor software in the following directory"
+msgstr "Cất giữ dữ liệu cho nhu liệu Tor trong thư mục sau đây"
+
+msgctxt "AdvancedPage"
+msgid "Select the directory used to store data for the Tor software"
+msgstr "Chọn thư mục dùng để cất giữ dữ liệu cho nhu liệu Tor"
+
+msgctxt "AdvancedPage"
+msgid "Tor Control"
+msgstr ""
+
+msgctxt "AdvancedPage"
+msgid "Use TCP connection (ControlPort)"
+msgstr ""
+
+msgctxt "AdvancedPage"
+msgid "Path:"
+msgstr ""
+
+msgctxt "AdvancedPage"
+msgid "Use Unix domain socket (ControlSocket)"
+msgstr ""
+
+msgctxt "AdvancedPage"
+msgid "Edit current torrc"
+msgstr ""
+
+msgctxt "AdvancedPage"
+msgid "NOTE: this will edit the currently loaded torrc"
+msgstr ""
+
+msgctxt "AdvancedPage"
+msgid "ControlSocket path doesn't exist."
+msgstr ""
+
+msgctxt "AdvancedPage"
+msgid ""
+"The specified Tor configuration file location contains characters that "
+"cannot be represented in your system's current 8-bit character encoding."
+msgstr ""
+
+msgctxt "AdvancedPage"
+msgid ""
+"The specified Tor data directory location contains characters that cannot be"
+" represented in your system's current 8-bit character encoding."
+msgstr ""
+
+msgctxt "AdvancedPage"
+msgid "Warning"
+msgstr ""
+
+msgctxt "AdvancedPage"
+msgid "You changed torrc path, would you like to restart Tor?"
+msgstr ""
+
+msgctxt "AdvancedPage"
+msgid "Tor Configuration File (torrc);;All Files (*)"
+msgstr ""
+
+msgctxt "AdvancedPage"
+msgid "Select a file to use for Tor socket path"
+msgstr ""
+
+msgctxt "AdvancedPage"
+msgid "Configure ControlPort automatically"
+msgstr ""
+
+msgctxt "AdvancedPage"
+msgid ""
+"You've checked the autoconfiguration option for the ControlPort, but "
+"provided no Data Directory. Please add one, or uncheck the \"Configure "
+"ControlPort automatically\" option."
+msgstr ""
+
+msgctxt "AdvancedPage"
+msgid ""
+"Vidalia was unable to remove the Tor service.\n"
+"\n"
+"You may need to remove it manually."
+msgstr ""
+
+msgctxt "AppearancePage"
+msgid "Language"
+msgstr "Ngôn ngữ"
+
+msgctxt "AppearancePage"
+msgid "Choose the language used in Vidalia"
+msgstr "Chọn lựa ngôn ngữ dùng trong Vidalia"
+
+msgctxt "AppearancePage"
+msgid "Style"
+msgstr "Kiểu dáng"
+
+msgctxt "AppearancePage"
+msgid "Choose Vidalia's interface style"
+msgstr "Chọn lựa kiểu dáng giao diện của Vidalia"
+
+msgctxt "AppearancePage"
+msgid "Vidalia was unable to load the selected language translation."
+msgstr "Vidalia không thể nạp phiên dịch ngôn ngữ đã được chọn."
+
+msgctxt "AppearancePage"
+msgid ""
+"System Icon Preferences (changes will take effect when you restart Vidalia)"
+msgstr ""
+
+msgctxt "AppearancePage"
+msgid "Show the Tray Icon and Dock Icon (default)"
+msgstr ""
+
+msgctxt "AppearancePage"
+msgid "Hide the Tray Icon"
+msgstr ""
+
+msgctxt "AppearancePage"
+msgid "Hide the Dock Icon"
+msgstr ""
+
+msgctxt "BandwidthGraph"
+msgid "Since:"
+msgstr "Kể từ:"
+
+msgctxt "BandwidthGraph"
+msgid "Hide Settings"
+msgstr "Ẩn những Thiết lập"
+
+msgctxt "BandwidthGraph"
+msgid "Show Settings"
+msgstr "Hiện những Thiết lập"
+
+msgctxt "BandwidthGraph"
+msgid "Tor Bandwidth Usage"
+msgstr "Cách dùng Tor Bandwidth"
+
+msgctxt "BandwidthGraph"
+msgid "Reset"
+msgstr "Đặt lại"
+
+msgctxt "BandwidthGraph"
+msgid "Receive Rate"
+msgstr "Tỷ lệ Nhận "
+
+msgctxt "BandwidthGraph"
+msgid "Send Rate"
+msgstr "Tỷ lệ Gửi "
+
+msgctxt "BandwidthGraph"
+msgid "Always on Top"
+msgstr "Luôn luôn ở Trên"
+
+msgctxt "BandwidthGraph"
+msgid "Style"
+msgstr "Kiểu dáng"
+
+msgctxt "BandwidthGraph"
+msgid "Changes the transparency of the Bandwidth Graph"
+msgstr "Thay đổi tính minh bạch của đồ thị Bandwidth"
+
+msgctxt "BandwidthGraph"
+msgid "100"
+msgstr "100"
+
+msgctxt "BandwidthGraph"
+msgid "% Opaque"
+msgstr "% Mờ"
+
+msgctxt "BandwidthGraph"
+msgid "Save"
+msgstr "Lưu"
+
+msgctxt "BandwidthGraph"
+msgid "Cancel"
+msgstr "Thôi"
+
+msgctxt "BridgeDownloader"
+msgid "Starting HTTPS bridge request..."
+msgstr ""
+
+msgctxt "BridgeDownloader"
+msgid "Connecting to %1:%2..."
+msgstr ""
+
+msgctxt "BridgeDownloader"
+msgid "Sending an HTTPS request for bridges..."
+msgstr ""
+
+msgctxt "BridgeDownloader"
+msgid "Downloading a list of bridges..."
+msgstr ""
+
+msgctxt "BridgeDownloaderProgressDialog"
+msgid "Downloading Bridges"
+msgstr ""
+
+msgctxt "BridgeDownloaderProgressDialog"
+msgid "Unable to download bridges: %1"
+msgstr ""
+
+msgctxt "BridgeDownloaderProgressDialog"
+msgid "Retrying bridge request..."
+msgstr ""
+
+msgctxt "BridgeUsageDialog"
+msgid "Country"
+msgstr ""
+
+msgctxt "BridgeUsageDialog"
+msgid "# Clients"
+msgstr ""
+
+msgctxt "BridgeUsageDialog"
+msgid "Clients from the following countries have used your relay since %1"
+msgstr ""
+
+msgctxt "BridgeUsageDialog"
+msgid "Bridge Usage Summary"
+msgstr ""
+
+msgctxt "BridgeUsageDialog"
+msgid "Client Summary"
+msgstr ""
+
+msgctxt "Circuit"
+msgid "New"
+msgstr "Mới"
+
+msgctxt "Circuit"
+msgid "Open"
+msgstr "Mở"
+
+msgctxt "Circuit"
+msgid "Building"
+msgstr "Xây dựng"
+
+msgctxt "Circuit"
+msgid "Failed"
+msgstr "Thất bại"
+
+msgctxt "Circuit"
+msgid "Closed"
+msgstr "Đóng"
+
+msgctxt "Circuit"
+msgid "Unknown"
+msgstr "Không biết"
+
+msgctxt "CircuitItem"
+msgid "<Path Empty>"
+msgstr "<Đường dẫn Rỗng>"
+
+msgctxt "CircuitListWidget"
+msgid "Connection"
+msgstr "Kết nối"
+
+msgctxt "CircuitListWidget"
+msgid "Status"
+msgstr "Tình trạng"
+
+msgctxt "CircuitListWidget"
+msgid "Zoom to Circuit"
+msgstr "Tăng giảm tới Mạch"
+
+msgctxt "CircuitListWidget"
+msgid "Close Circuit (Del)"
+msgstr "Đóng mạch (Del)"
+
+msgctxt "CircuitListWidget"
+msgid "Close Stream (Del)"
+msgstr "Đóng Stream (Del)"
+
+msgctxt "ConfigDialog"
+msgid "General"
+msgstr "Chung"
+
+msgctxt "ConfigDialog"
+msgid "Network"
+msgstr "Mạng lưới"
+
+msgctxt "ConfigDialog"
+msgid "Sharing"
+msgstr "Chia sẻ"
+
+msgctxt "ConfigDialog"
+msgid "Services"
+msgstr "Những dịch vụ"
+
+msgctxt "ConfigDialog"
+msgid "Appearance"
+msgstr "Xuất hiện"
+
+msgctxt "ConfigDialog"
+msgid "Advanced"
+msgstr "Nâng cao"
+
+msgctxt "ConfigDialog"
+msgid "Help"
+msgstr "Giúp đỡ"
+
+msgctxt "ConfigDialog"
+msgid "Error Saving Settings"
+msgstr "Lỗi bảo lưu thiết lập "
+
+msgctxt "ConfigDialog"
+msgid "Vidalia was unable to save your %1 settings."
+msgstr "Vidalia không thể bảo lưu %1 những thiết lập của bạn ."
+
+msgctxt "ConfigDialog"
+msgid "Error Applying Settings"
+msgstr "Lỗi Thiết lập ứng dụng "
+
+msgctxt "ConfigDialog"
+msgid "Vidalia was unable to apply your %1 settings to Tor."
+msgstr "Vidalia không thể ứng dụng %1 những thiết lập của bạn với Tor."
+
+msgctxt "ConfigDialog"
+msgid "Settings"
+msgstr "Thiết lập"
+
+msgctxt "ControlConnection"
+msgid "Vidalia was unable to connect to Tor. (%1)"
+msgstr "Vidalia không thể kết nối với Tor. (% 1)"
+
+msgctxt "ControlConnection"
+msgid "Control socket is not connected."
+msgstr "Socket kiểm soát không được kết nối."
+
+msgctxt "ControlPasswordInputDialog"
+msgid "Password Required"
+msgstr "Mật khẩu bắt buộc"
+
+msgctxt "ControlPasswordInputDialog"
+msgid "Remember my password"
+msgstr "Ghi nhớ mật khẩu của tôi"
+
+msgctxt "ControlPasswordInputDialog"
+msgid ""
+"Vidalia has connected to a running Tor process that requires a password. "
+"Please enter your control password:"
+msgstr ""
+
+msgctxt "ControlSocket"
+msgid "Control socket is not connected."
+msgstr "Socket kiểm soát không được kết nối."
+
+msgctxt "ControlSocket"
+msgid "Error sending control command. [%1]"
+msgstr "Lỗi gửi lệnh điều khiển. [% 1]"
+
+msgctxt "ControlSocket"
+msgid "Socket disconnected while attempting to read a line of data."
+msgstr "Socket ngắt kết nối khi đang thử đọc một dòng dữ liệu."
+
+msgctxt "ControlSocket"
+msgid "Invalid control reply. [%1]"
+msgstr "Không hợp lệ kiểm soát sự trả lời. [% 1]"
+
+msgctxt "CountryInfo"
+msgid "Afghanistan"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Andorra"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Angola"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Antigua & Barbuda"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Argentina"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Armenia"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Australia"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Azerbaijan"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Bahamas"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Bangladesh"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Barbados"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Belarus"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Belgium"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Belize"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Bhutan"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Bolivia"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Bosnia & Herzegovina"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Botswana"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Brazil"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Brunei Darussalam"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Bulgaria"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Burkina Faso"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Burundi"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Cambodia"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Cameroon"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Canada"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Cape Verde"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Central African Republic"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Chad"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Chile"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "China"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Colombia"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Comoros"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Congo, The Democratic Republic of the"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Congo"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Costa Rica"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Cote dâIvoire"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Croatia"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Cuba"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Cyprus"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Czech Republic"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Denmark"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Djibouti"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Dominica"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Dominican Republic"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Ecuador"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Egypt"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "El Salvador"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Equatorial Guinea"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Eritrea"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Estonia"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "France"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Gabon"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Gambia"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Georgia"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Germany"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Ghana"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Grenada"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Guatemala"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Guinea"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Guinea-Bissau"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Guyana"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Hong Kong"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Haiti"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Honduras"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Israel"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Italy"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Jamaica"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Japan"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Jordan"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Kazakhstan"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Kenya"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Kiribati"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Kuwait"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Kyrgyzstan"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Laos"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Latvia"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Lebanon"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Lesotho"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Liberia"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Liechtenstein"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Lithuania"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Luxembourg"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Macedonia"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Madagascar"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Malawi"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Malaysia"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Mali"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Malta"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Marshall Islands"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Mauritania"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Mauritius"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Micronesia"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Moldova"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Monaco"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Mongolia"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Montenegro"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Morocco"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Mozambique"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Namibia"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Nauru"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Nepal"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Netherlands"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "New Zealand"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Nicaragua"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Niger"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Nigeria"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Norway"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Oman"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Pakistan"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Palau"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Palestine"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Panama"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Papua New Guinea"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Paraguay"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Peru"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Philippines"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Poland"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Portugal"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Qatar"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Romania"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Russia"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Rwanda"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Saint Kitts & Nevis"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Saint Lucia"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Saint Vincent & the Grenadines"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Samoa"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "San Marino"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Sao Tome & Principe"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Saudi Arabia"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Senegal"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Serbia"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Seychelles"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Sierra Leone"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Singapore"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Slovakia"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Slovenia"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Solomon Islands"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Somalia"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "South Africa"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Spain"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Sri Lanka"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Sudan"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Suriname"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Swaziland"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Sweden"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Switzerland"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Syria"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Tajikistan"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Tanzania"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Thailand"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Timor-Leste (East Timor)"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Togo"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Tonga"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Trinidad & Tobago"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Tunisia"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Turkey"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Turkmenistan"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Tuvalu"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Uganda"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Ukraine"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "United Arab Emirates"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "United Kingdom"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "United States"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Uruguay"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Uzbekistan"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Vanuatu"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Vatican"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Venezuela"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Vietnam"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Western Sahara"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Yemen"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Zambia"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Zimbabwe"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Zaire"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Albania"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Algeria"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Austria"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Bahrain"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Benin"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Ethiopia"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Fiji"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Finland"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Greece"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Guam"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Hungary"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Iceland"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "India"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Indonesia"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Iran"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Iraq"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Ireland"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Korea, North"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Korea, South"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Libya"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Maldives"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Mexico"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Myanmar"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Taiwan"
+msgstr ""
+
+msgctxt "CrashReportDialog"
+msgid "Submit a Crash Report"
+msgstr ""
+
+msgctxt "CrashReportDialog"
+msgid "Vidalia encountered an error and needed to close"
+msgstr ""
+
+msgctxt "CrashReportDialog"
+msgid "Restart Vidalia"
+msgstr ""
+
+msgctxt "CrashReportDialog"
+msgid "Don't Restart"
+msgstr ""
+
+msgctxt "CrashReportDialog"
+msgid "Unable to restart Vidalia"
+msgstr ""
+
+msgctxt "CrashReportDialog"
+msgid ""
+"We were unable to automatically restart Vidalia. Please restart Vidalia "
+"manually."
+msgstr ""
+
+msgctxt "CrashReportDialog"
+msgid "Please fill a ticket in:"
+msgstr ""
+
+msgctxt "CrashReportDialog"
+msgid ""
+"<a "
+"href=\"https://trac.torproject.org/projects/tor/newticket\">https://trac.torproject.org/projects/tor/newticket</a>"
+msgstr ""
+
+msgctxt "CrashReportDialog"
+msgid ""
+"A crash report has been created that you can send to the Vidalia developers "
+"to help identify and fix the problem. The submitted report does not contain "
+"any personally identifying information."
+msgstr ""
+
+msgctxt "CrashReportDialog"
+msgid ""
+"with a description of what you were doing before the application crashed, "
+"along with the following files corresponding to the crash report:"
+msgstr ""
+
+msgctxt "GeneralPage"
+msgid "Executables (*.exe)"
+msgstr "Thực thi (*. exe)"
+
+msgctxt "GeneralPage"
+msgid "Select Path to Tor"
+msgstr "Chọn đường dẫn tới Tor"
+
+msgctxt "GeneralPage"
+msgid "Select Proxy Executable"
+msgstr "Chọn Proxy Executable"
+
+msgctxt "GeneralPage"
+msgid "You must specify the name of your Tor executable."
+msgstr "Bạn phải chỉ định tên của Tor thực thi của bạn."
+
+msgctxt "GeneralPage"
+msgid "Start Vidalia when my system starts"
+msgstr "Bắt đầu Vidalia khi hệ thống của tôi bắt đầu"
+
+msgctxt "GeneralPage"
+msgid "Browse"
+msgstr "Trình duyệt"
+
+msgctxt "GeneralPage"
+msgid "Start the Tor software when Vidalia starts"
+msgstr "Bắt đầu phần mềm Tor khi bắt đầu Vidalia"
+
+msgctxt "GeneralPage"
+msgid "Tor"
+msgstr "The-onion-router"
+
+msgctxt "GeneralPage"
+msgid "Proxy Application (optional)"
+msgstr "Proxy ứng dụng (tùy chọn)"
+
+msgctxt "GeneralPage"
+msgid "Start a proxy application when Tor starts"
+msgstr "Bắt đầu một ứng dụng proxy khi Tor bắt đầu"
+
+msgctxt "GeneralPage"
+msgid "Proxy Application Arguments:"
+msgstr "Các đối số Proxy ứng dụng:"
+
+msgctxt "GeneralPage"
+msgid "Software Updates"
+msgstr ""
+
+msgctxt "GeneralPage"
+msgid "Check for new software updates automatically"
+msgstr ""
+
+msgctxt "GeneralPage"
+msgid "Check Now"
+msgstr ""
+
+msgctxt "GraphFrame"
+msgid "%1 KB/s"
+msgstr "%1 KB/s"
+
+msgctxt "GraphFrame"
+msgid "%1 KB"
+msgstr "%1 KB"
+
+msgctxt "GraphFrame"
+msgid "%1 MB"
+msgstr "%1 MB"
+
+msgctxt "GraphFrame"
+msgid "%1 GB"
+msgstr "%1 GB"
+
+msgctxt "GraphFrame"
+msgid "Recv:"
+msgstr ""
+
+msgctxt "GraphFrame"
+msgid "Sent:"
+msgstr ""
+
+msgctxt "HelpBrowser"
+msgid "Supplied XML file is not a valid Contents document."
+msgstr "Tập tin XML được cung cấp không phải là một tài liệu nội dung hợp lệ."
+
+msgctxt "HelpBrowser"
+msgid "Search reached end of document"
+msgstr "Tìm kiếm đã đến cuối cùng của tài liệu"
+
+msgctxt "HelpBrowser"
+msgid "Search reached start of document"
+msgstr "Tìm kiếm đã đến bắt đầu của tài liệu"
+
+msgctxt "HelpBrowser"
+msgid "Text not found in document"
+msgstr "Văn bản không được tìm thấy trong tài liệu"
+
+msgctxt "HelpBrowser"
+msgid "Found %1 results"
+msgstr "Tìm thấy% 1 kết quả"
+
+msgctxt "HelpBrowser"
+msgid "Vidalia Help"
+msgstr "Vidalia Trợ giúp"
+
+msgctxt "HelpBrowser"
+msgid "Back"
+msgstr "Trở về"
+
+msgctxt "HelpBrowser"
+msgid "Move to previous page (Backspace)"
+msgstr "Chuyển đến trang trước đó (Backspace)"
+
+msgctxt "HelpBrowser"
+msgid "Backspace"
+msgstr "Backspace"
+
+msgctxt "HelpBrowser"
+msgid "Forward"
+msgstr "Về phía trước"
+
+msgctxt "HelpBrowser"
+msgid "Move to next page (Shift+Backspace)"
+msgstr "Chuyển đến trang tiếp theo (Shift + Backspace)"
+
+msgctxt "HelpBrowser"
+msgid "Shift+Backspace"
+msgstr "Chuyển+Quay lại "
+
+msgctxt "HelpBrowser"
+msgid "Home"
+msgstr "Trang chu?"
+
+msgctxt "HelpBrowser"
+msgid "Move to the Home page (Ctrl+H)"
+msgstr "Đi đến trang chủ (Ctrl + H)"
+
+msgctxt "HelpBrowser"
+msgid "Ctrl+H"
+msgstr "Ctrl+H"
+
+msgctxt "HelpBrowser"
+msgid "Find"
+msgstr "Ti`m"
+
+msgctxt "HelpBrowser"
+msgid "Search for a word or phrase on current page (Ctrl+F)"
+msgstr "Tìm kiếm một từ hoặc cụm từ trên trang hiện tại (Ctrl + F)"
+
+msgctxt "HelpBrowser"
+msgid "Ctrl+F"
+msgstr "Ctrl+F"
+
+msgctxt "HelpBrowser"
+msgid "Close"
+msgstr "Đóng"
+
+msgctxt "HelpBrowser"
+msgid "Close Vidalia Help"
+msgstr "Đóng Vidalia Trợ giúp"
+
+msgctxt "HelpBrowser"
+msgid "Esc"
+msgstr "Esc"
+
+msgctxt "HelpBrowser"
+msgid "Find:"
+msgstr "Tìm:"
+
+msgctxt "HelpBrowser"
+msgid "Find Previous"
+msgstr "Tìm Ngược lại"
+
+msgctxt "HelpBrowser"
+msgid "Find Next"
+msgstr "Tìm Kế tiếp"
+
+msgctxt "HelpBrowser"
+msgid "Case sensitive"
+msgstr "Nhạy cảm chữ Hoa, chữ thường"
+
+msgctxt "HelpBrowser"
+msgid "Whole words only"
+msgstr "Chỉ toàn bộ các từ "
+
+msgctxt "HelpBrowser"
+msgid "Help Topics"
+msgstr "Chủ đề trợ giúp"
+
+msgctxt "HelpBrowser"
+msgid "Contents"
+msgstr "Nội dung"
+
+msgctxt "HelpBrowser"
+msgid "Search"
+msgstr "Tìm kiếm"
+
+msgctxt "HelpBrowser"
+msgid "Searching for:"
+msgstr "Tìm theo:"
+
+msgctxt "HelpBrowser"
+msgid "Found Documents"
+msgstr "Tài liệu được tìm thấy"
+
+msgctxt "HelpBrowser"
+msgid "Error Loading Help Contents:"
+msgstr ""
+
+msgctxt "HelpTextBrowser"
+msgid "Opening External Link"
+msgstr "Mở Liên kết ngoài"
+
+msgctxt "HelpTextBrowser"
+msgid ""
+"Vidalia can open the link you selected in your default Web browser. If your "
+"browser is not currently configured to use Tor then the request will not be "
+"anonymous."
+msgstr "Vidalia có thể mở các liên kết mà bạn đã chọn trong trình duyệt web mặc định của bạn. Nếu trình duyệt của bạn hiện không có cấu hình để sử dụng Tor thì yêu cầu sẽ không được ẩn danh."
+
+msgctxt "HelpTextBrowser"
+msgid "Do you want Vidalia to open the link in your Web browser?"
+msgstr "Bạn có muốn Vidalia mở liên kết trong trình duyệt web của bạn?"
+
+msgctxt "HelpTextBrowser"
+msgid "Unable to Open Link"
+msgstr "Không thể  mở Liên kết "
+
+msgctxt "HelpTextBrowser"
+msgid ""
+"Vidalia was unable to open the selected link in your Web browser. You can "
+"still copy the URL and paste it into your browser."
+msgstr "Vidalia không thể mở liên kết được lựa chọn trong trình duyệt web của bạn. Bạn vẫn có thể sao chép URL và dán nó vào trình duyệt của bạn."
+
+msgctxt "HelpTextBrowser"
+msgid "Error opening help file:"
+msgstr ""
+
+msgctxt "LicenseDialog"
+msgid "License Information"
+msgstr "Thông tin giấy phép"
+
+msgctxt "LicenseDialog"
+msgid "License"
+msgstr "Giấy phép"
+
+msgctxt "LicenseDialog"
+msgid "Credits"
+msgstr "Tín dụng"
+
+msgctxt "LogEvent"
+msgid "Debug"
+msgstr "De lỗi"
+
+msgctxt "LogEvent"
+msgid "Info"
+msgstr "Thông tin "
+
+msgctxt "LogEvent"
+msgid "Notice"
+msgstr "chú ý "
+
+msgctxt "LogEvent"
+msgid "Warning"
+msgstr "Cảnh báo"
+
+msgctxt "LogEvent"
+msgid "Error"
+msgstr "Lỗi"
+
+msgctxt "LogEvent"
+msgid "Unknown"
+msgstr "Không biết"
+
+msgctxt "LogTreeItem"
+msgid "Debug"
+msgstr ""
+
+msgctxt "LogTreeItem"
+msgid "Info"
+msgstr ""
+
+msgctxt "LogTreeItem"
+msgid "Notice"
+msgstr ""
+
+msgctxt "LogTreeItem"
+msgid "Warning"
+msgstr ""
+
+msgctxt "LogTreeItem"
+msgid "Error"
+msgstr ""
+
+msgctxt "LogTreeItem"
+msgid "Unknown"
+msgstr ""
+
+msgctxt "MainWindow"
+msgid "Start Tor"
+msgstr "Bắt đầu Tor"
+
+msgctxt "MainWindow"
+msgid "Exit"
+msgstr "Thoát"
+
+msgctxt "MainWindow"
+msgid "Bandwidth Graph"
+msgstr "Đồ thị Băng thông "
+
+msgctxt "MainWindow"
+msgid "Message Log"
+msgstr "Thông báo Đăng nhập"
+
+msgctxt "MainWindow"
+msgid "Network Map"
+msgstr "Bản đồ Mạng "
+
+msgctxt "MainWindow"
+msgid "Control Panel"
+msgstr "Bản điều khiển"
+
+msgctxt "MainWindow"
+msgid "Settings"
+msgstr "Cài đặt"
+
+msgctxt "MainWindow"
+msgid "About"
+msgstr "Về"
+
+msgctxt "MainWindow"
+msgid "Help"
+msgstr "Giúp"
+
+msgctxt "MainWindow"
+msgid "New Identity"
+msgstr "Giám định Mới"
+
+msgctxt "MainWindow"
+msgid "Ctrl+T"
+msgstr "Ctrl+T"
+
+msgctxt "MainWindow"
+msgid "Ctrl+B"
+msgstr "Ctrl+B"
+
+msgctxt "MainWindow"
+msgid "Ctrl+L"
+msgstr "Ctrl+L"
+
+msgctxt "MainWindow"
+msgid "Ctrl+N"
+msgstr "Ctrl+N"
+
+msgctxt "MainWindow"
+msgid "Ctrl+?"
+msgstr "Ctrl+?"
+
+msgctxt "MainWindow"
+msgid "Ctrl+I"
+msgstr "Ctrl+I"
+
+msgctxt "MainWindow"
+msgid "Ctrl+P"
+msgstr "Ctrl+P"
+
+msgctxt "MainWindow"
+msgid "Tor"
+msgstr "Tor"
+
+msgctxt "MainWindow"
+msgid "View"
+msgstr "Xem"
+
+msgctxt "MainWindow"
+msgid "Vidalia Help"
+msgstr "Vidalia Trợ giúp"
+
+msgctxt "MainWindow"
+msgid "Error starting web browser"
+msgstr "Lỗi bắt đầu trình duyệt web"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to start the configured web browser"
+msgstr "Vidalia không thể bắt đầu trình duyệt web cấu hình"
+
+msgctxt "MainWindow"
+msgid "Error starting IM client"
+msgstr "Lỗi bắt đầu nhắn tin khách hàng IM"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to start the configured IM client"
+msgstr "Vidalia không thể bắt đầu các thân chủ nhắn tin cấu hình IM"
+
+msgctxt "MainWindow"
+msgid "Error starting proxy server"
+msgstr "Lỗi bắt đầu máy chủ proxy"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to start the configured proxy server"
+msgstr "Vidalia không thể bắt đầu máy chủ cấu hình proxy "
+
+msgctxt "MainWindow"
+msgid "Connecting to a relay directory"
+msgstr "Kết nối vào một thư mục chuyển tiếp "
+
+msgctxt "MainWindow"
+msgid "Establishing an encrypted directory connection"
+msgstr "Thành lập một kết nối thư mục được mã hóa"
+
+msgctxt "MainWindow"
+msgid "Retrieving network status"
+msgstr "Khôi phục trạng thái mạng"
+
+msgctxt "MainWindow"
+msgid "Loading network status"
+msgstr "Nap tình trạng mạng"
+
+msgctxt "MainWindow"
+msgid "Loading authority certificates"
+msgstr "Nạp giấy chứng nhận quyền"
+
+msgctxt "MainWindow"
+msgid "Requesting relay information"
+msgstr "Yêu cầu thông tin tiếp sức"
+
+msgctxt "MainWindow"
+msgid "Loading relay information"
+msgstr "Tải thông tin tiếp sức"
+
+msgctxt "MainWindow"
+msgid "Connecting to the Tor network"
+msgstr "Kết nối với mạng Tor"
+
+msgctxt "MainWindow"
+msgid "Establishing a Tor circuit"
+msgstr "Thành lập một mạch Tor"
+
+msgctxt "MainWindow"
+msgid "Connected to the Tor network!"
+msgstr "Kết nối với mạng Tor!"
+
+msgctxt "MainWindow"
+msgid "miscellaneous"
+msgstr "hỗn hợp"
+
+msgctxt "MainWindow"
+msgid "identity mismatch"
+msgstr "nhận dạng không phù hợp"
+
+msgctxt "MainWindow"
+msgid "done"
+msgstr "làm xong"
+
+msgctxt "MainWindow"
+msgid "connection refused"
+msgstr "kết nối từ chối"
+
+msgctxt "MainWindow"
+msgid "connection timeout"
+msgstr "kết nối timeout"
+
+msgctxt "MainWindow"
+msgid "read/write error"
+msgstr "lỗi đọc / ghi"
+
+msgctxt "MainWindow"
+msgid "no route to host"
+msgstr "không có lộ trình để lưu trữ"
+
+msgctxt "MainWindow"
+msgid "insufficient resources"
+msgstr "không đủ nguồn lực"
+
+msgctxt "MainWindow"
+msgid "unknown"
+msgstr "chưa biết"
+
+msgctxt "MainWindow"
+msgid "Tor is not running"
+msgstr "Tor không hoạt động"
+
+msgctxt "MainWindow"
+msgid "Tor is shutting down"
+msgstr "Tor là tắt"
+
+msgctxt "MainWindow"
+msgid "Stop Tor Now"
+msgstr "Dừng Tor Now"
+
+msgctxt "MainWindow"
+msgid "Stop Tor"
+msgstr "Dừng Tor"
+
+msgctxt "MainWindow"
+msgid "Starting the Tor software"
+msgstr "Bắt đầu phần mềm Tor"
+
+msgctxt "MainWindow"
+msgid "Starting Tor"
+msgstr "Bắt đầu Tor"
+
+msgctxt "MainWindow"
+msgid "Error Starting Tor"
+msgstr "lỗi bắt đầu Tor"
+
+msgctxt "MainWindow"
+msgid ""
+"Vidalia was unable to start Tor. Check your settings to ensure the correct "
+"name and location of your Tor executable is specified."
+msgstr "Vidalia không thể bắt đầu Tor. Kiểm tra các thiết lập của bạn để đảm bảo đúng tên và vị trí của Tor thực thi được chỉ định của bạn."
+
+msgctxt "MainWindow"
+msgid "Connecting to Tor"
+msgstr "Kết nối với Tor"
+
+msgctxt "MainWindow"
+msgid "Connection Error"
+msgstr "Lỗi kết nối"
+
+msgctxt "MainWindow"
+msgid "Relaying is Enabled"
+msgstr "Tiếp nhận được cho phép"
+
+msgctxt "MainWindow"
+msgid "Error Shutting Down"
+msgstr "Lỗi Shutting Down"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to stop the Tor software."
+msgstr "Vidalia đã không thể ngăn chặn các phần mềm Tor."
+
+msgctxt "MainWindow"
+msgid "Unexpected Error"
+msgstr "Lỗi bất ngờ"
+
+msgctxt "MainWindow"
+msgid "Authenticating to Tor"
+msgstr "Chứng thực Tor"
+
+msgctxt "MainWindow"
+msgid "Cookie Authentication Required"
+msgstr "Xác thực Cookie đòi hỏi"
+
+msgctxt "MainWindow"
+msgid ""
+"The Tor software requires Vidalia to send the contents of an authentication "
+"cookie, but Vidalia was unable to find one."
+msgstr "Các phần mềm Tor đòi hỏi Vidalia gửi yêu cầu về nội dung của một cookie xác thực, nhưng Vidalia đã không thể tìm thấy một cookie."
+
+msgctxt "MainWindow"
+msgid "Would you like to browse for the file 'control_auth_cookie' yourself?"
+msgstr "Bạn có muốn duyệt hồ sơ 'control_auth_cookie' chính mình?"
+
+msgctxt "MainWindow"
+msgid "Data Directory"
+msgstr "Thư mục Dữ liệu "
+
+msgctxt "MainWindow"
+msgid "Control Cookie (control_auth_cookie)"
+msgstr "Kiểm soát Cookie (control_auth_cookie)"
+
+msgctxt "MainWindow"
+msgid "Error Registering for Events"
+msgstr "Lỗi Đăng ký Sự kiện"
+
+msgctxt "MainWindow"
+msgid ""
+"Vidalia was unable to register for some events. Many of Vidalia's features "
+"may be unavailable."
+msgstr "Vidalia không thể đăng ghi cho một số sự kiện. Nhiều trong số các tính năng của Vidalia có thể không có sẵn."
+
+msgctxt "MainWindow"
+msgid "Authentication Error"
+msgstr "Lỗi xác thực"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to authenticate to the Tor software. (%1)"
+msgstr "Vidalia không thể xác nhận phần mềm Tor. (% 1)"
+
+msgctxt "MainWindow"
+msgid "Please check your control port authentication settings."
+msgstr "Vui lòng kiểm tra các thiết lập xác thực cổng truy nhập điều khiển của bạn."
+
+msgctxt "MainWindow"
+msgid "Tor Update Available"
+msgstr "Có sẵn Cập nhật Tor "
+
+msgctxt "MainWindow"
+msgid ""
+"The currently installed version of Tor is out of date or no longer "
+"recommended. Please visit the Tor website to download the latest version."
+msgstr "Phiên bản cài đặt hiện thời của Tor hết hạn hoặc không còn được đề nghị. Xin vui lòng truy cập vào trang web Tor để tải phiên bản mới nhất."
+
+msgctxt "MainWindow"
+msgid "Tor website: %1"
+msgstr "Tor trang web:% 1"
+
+msgctxt "MainWindow"
+msgid ""
+"All subsequent connections will appear to be different than your old "
+"connections."
+msgstr "Tất cả các kết nối tiếp theo sẽ xuất hiện khác với các kết nối cũ của bạn."
+
+msgctxt "MainWindow"
+msgid "Failed to Create New Identity"
+msgstr "Không thể tạo Identity mới"
+
+msgctxt "MainWindow"
+msgid "Port Forwarding Failed"
+msgstr "Chuyển tới cổng thất bại"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to configure automatic port forwarding."
+msgstr "Vidalia không thể cấu hình chuyển tiếp cổng tự động."
+
+msgctxt "MainWindow"
+msgid "Vidalia Control Panel"
+msgstr "Bảng Kiểm soát Vidalia"
+
+msgctxt "MainWindow"
+msgid "Status"
+msgstr "Tình trạng"
+
+msgctxt "MainWindow"
+msgid "Vidalia Shortcuts"
+msgstr "đường tắt Vidalia"
+
+msgctxt "MainWindow"
+msgid "Setup Relaying"
+msgstr "Thiết lập tiếp nhận\n"
+
+msgctxt "MainWindow"
+msgid "Set up a relay and help the network grow"
+msgstr "Thiết lập một chuyển tiếp và giúp phát triển mạng lưới"
+
+msgctxt "MainWindow"
+msgid "View the Network"
+msgstr "Xem các mạng"
+
+msgctxt "MainWindow"
+msgid "View a map of the Tor network"
+msgstr "Xem một bản đồ của mạng Tor"
+
+msgctxt "MainWindow"
+msgid "Use a New Identity"
+msgstr "Sử dụng một Identity mới"
+
+msgctxt "MainWindow"
+msgid "Make subsequent connections appear new"
+msgstr "Làm cho các kết nối tiếp theo tro*? tha`nh mới"
+
+msgctxt "MainWindow"
+msgid "View recent bandwidth usage"
+msgstr "Xem băng thông sử dụng gần đây"
+
+msgctxt "MainWindow"
+msgid "View log message history"
+msgstr "Xem lịch sử tin đăng nhập "
+
+msgctxt "MainWindow"
+msgid "View help documentation"
+msgstr "Xem tài liệu trợ giúp"
+
+msgctxt "MainWindow"
+msgid "Configure Vidalia"
+msgstr "Cấu hình Vidalia"
+
+msgctxt "MainWindow"
+msgid "View version and license information"
+msgstr "Xem thông tin về phiên bản và giấy phép"
+
+msgctxt "MainWindow"
+msgid "Exit Vidalia"
+msgstr "Thoát khỏi Vidalia"
+
+msgctxt "MainWindow"
+msgid "Show this window on startup"
+msgstr "Hiển thị cửa sổ này lu'c khởi động"
+
+msgctxt "MainWindow"
+msgid "Hide"
+msgstr "giấu"
+
+msgctxt "MainWindow"
+msgid "Hide this window"
+msgstr "Ẩn cửa sổ này"
+
+msgctxt "MainWindow"
+msgid "Password Reset Failed"
+msgstr "Đặt lại mật khẩu bị lỗi"
+
+msgctxt "MainWindow"
+msgid ""
+"Vidalia tried to reset Tor's control password, but was not able to restart "
+"the Tor software. Please check your Task Manager to ensure there are no "
+"other Tor processes running."
+msgstr "Vidalia đã thu*? đặt lại mật khẩu điều khiển Tor, nhưng đã không thể khởi động lại phần mềm Tor. Vui lòng kiểm tra quản lý công việc của bạn để đảm bảo không có tiến trình Tor khác đang chạy."
+
+msgctxt "MainWindow"
+msgid ""
+"The currently installed version of Tor is out of date or no longer "
+"recommended."
+msgstr ""
+
+msgctxt "MainWindow"
+msgid ""
+"Would you like to check if a newer package is available for installation?"
+msgstr ""
+
+msgctxt "MainWindow"
+msgid "Potentially Unsafe Connection"
+msgstr ""
+
+msgctxt "MainWindow"
+msgid ""
+"Tor has automatically closed your connection in order to protect your "
+"anonymity."
+msgstr ""
+
+msgctxt "MainWindow"
+msgid "Update Failed"
+msgstr ""
+
+msgctxt "MainWindow"
+msgid "Your software is up to date"
+msgstr ""
+
+msgctxt "MainWindow"
+msgid ""
+"There are no new Tor software packages available for your computer at this "
+"time."
+msgstr ""
+
+msgctxt "MainWindow"
+msgid "Installation Failed"
+msgstr ""
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to install your software updates."
+msgstr ""
+
+msgctxt "MainWindow"
+msgid "The following error occurred:"
+msgstr ""
+
+msgctxt "MainWindow"
+msgid ""
+"Anything sent over this connection could be monitored. Please check your "
+"application's configuration and use only encrypted protocols, such as SSL, "
+"if possible."
+msgstr ""
+
+msgctxt "MainWindow"
+msgid "Bootstrapping torrc from %1 to %2"
+msgstr ""
+
+msgctxt "MainWindow"
+msgid "(probably Telnet)"
+msgstr ""
+
+msgctxt "MainWindow"
+msgid "(probably an email client)"
+msgstr ""
+
+msgctxt "MainWindow"
+msgid ""
+"One of your applications %1 appears to be making a potentially unencrypted "
+"and unsafe connection to port %2."
+msgstr ""
+
+msgctxt "MainWindow"
+msgid "failed (%1)"
+msgstr ""
+
+msgctxt "MainWindow"
+msgid ""
+"Your relay is shutting down.\n"
+"Click 'Stop' again to stop your relay now."
+msgstr ""
+
+msgctxt "MainWindow"
+msgid ""
+"Vidalia can't find out how to talk to Tor because it can't access this file: %1\n"
+"\n"
+"Here's the last error message:\n"
+"%2"
+msgstr ""
+
+msgctxt "MainWindow"
+msgid ""
+"It seems Tor has stopped running since Vidalia started it.\n"
+"\n"
+"See the Advanced Message Log for more information."
+msgstr ""
+
+msgctxt "MainWindow"
+msgid ""
+"You are currently running a relay. Terminating your relay will interrupt any open connections from clients.\n"
+"\n"
+"Would you like to shutdown gracefully and give clients time to find a new relay?"
+msgstr ""
+
+msgctxt "MainWindow"
+msgid ""
+"Vidalia detected that the Tor software exited unexpectedly.\n"
+"\n"
+"Please check the message log for recent warning or error messages."
+msgstr ""
+
+msgctxt "MessageLog"
+msgid "Error Setting Filter"
+msgstr "Lỗi Thiết Filter"
+
+msgctxt "MessageLog"
+msgid "Vidalia was unable to register for Tor's log events."
+msgstr "Vidalia không thể ghi đăng cho các sự kiện đăng nhập của Tor."
+
+msgctxt "MessageLog"
+msgid "Error Opening Log File"
+msgstr "Lỗi mở tập tin Đăng nhập"
+
+msgctxt "MessageLog"
+msgid "Vidalia was unable to open the specified log file."
+msgstr "Vidalia không thể mở hồ sơ đăng nhập chỉ định."
+
+msgctxt "MessageLog"
+msgid "Log Filename Required"
+msgstr "Tên Tập tin Đăng nhập bắt buộc"
+
+msgctxt "MessageLog"
+msgid "You must enter a filename to be able to save log messages to a file."
+msgstr "Bạn phải nhập một tên tập tin để có thể lưu các tin nhắn đăng nhập vào một tập tin."
+
+msgctxt "MessageLog"
+msgid "Select Log File"
+msgstr "Chọn Log File"
+
+msgctxt "MessageLog"
+msgid "Save Log Messages"
+msgstr "Lưu Đăng Thông điệp"
+
+msgctxt "MessageLog"
+msgid "Text Files (*.txt)"
+msgstr "Tệp tin văn bản (*. txt)"
+
+msgctxt "MessageLog"
+msgid "Vidalia"
+msgstr "Vidalia"
+
+msgctxt "MessageLog"
+msgid "Find in Message Log"
+msgstr "Tìm trong tin nhắn Đăng nhập"
+
+msgctxt "MessageLog"
+msgid "Find:"
+msgstr "Tìm:"
+
+msgctxt "MessageLog"
+msgid "Not Found"
+msgstr "Không tìm thấy"
+
+msgctxt "MessageLog"
+msgid "Search found 0 matches."
+msgstr "Tìm thấy 0 tương hợp."
+
+msgctxt "MessageLog"
+msgid "Message Log"
+msgstr "Thông báo Đăng nhập"
+
+msgctxt "MessageLog"
+msgid "Message Filters..."
+msgstr "Bộ lọc tin nhắn ..."
+
+msgctxt "MessageLog"
+msgid "Set message filters"
+msgstr "Thiết lập bộ lọc thư"
+
+msgctxt "MessageLog"
+msgid "History Size..."
+msgstr "Lịch sử Kích thước ..."
+
+msgctxt "MessageLog"
+msgid "Set maximum number of messages to display"
+msgstr "Thiết lập tối đa số tin nhắn để hiển thị"
+
+msgctxt "MessageLog"
+msgid "Clear"
+msgstr "Rõ ràng"
+
+msgctxt "MessageLog"
+msgid "Clear all messages from the Message Log (Ctrl+E)"
+msgstr "Xoá tất cả thư từ Đăng nhập tin nhắn (Ctrl + E)"
+
+msgctxt "MessageLog"
+msgid "Ctrl+E"
+msgstr "Ctrl+E"
+
+msgctxt "MessageLog"
+msgid "Copy"
+msgstr "Bản sao"
+
+msgctxt "MessageLog"
+msgid "Copy the selected messages to the clipboard (Ctrl+C)"
+msgstr "Chép các tin nhắn được chọn vào bộ nhớ tạm (Ctrl + C)"
+
+msgctxt "MessageLog"
+msgid "Ctrl+C"
+msgstr "Ctrl+C"
+
+msgctxt "MessageLog"
+msgid "Select All"
+msgstr "Chọn Tất cả"
+
+msgctxt "MessageLog"
+msgid "Select all messages (Ctrl+A)"
+msgstr "Chọn tất cả bài viết (Ctrl + A)"
+
+msgctxt "MessageLog"
+msgid "Ctrl+A"
+msgstr "Ctrl+A"
+
+msgctxt "MessageLog"
+msgid "Save All"
+msgstr "Lưu Tất cả"
+
+msgctxt "MessageLog"
+msgid "Save all messages to a file"
+msgstr "Lưu tất cả các tin nhắn đến một tập tin"
+
+msgctxt "MessageLog"
+msgid "Save Selected"
+msgstr "Lưu lựa chọn"
+
+msgctxt "MessageLog"
+msgid "Save selected messages to a file"
+msgstr "Lưu tin nhắn lựa chọn vào một hồ sơ"
+
+msgctxt "MessageLog"
+msgid "Settings"
+msgstr "Thiết lập"
+
+msgctxt "MessageLog"
+msgid "Adjust Message Log Settings"
+msgstr "Điều chỉnh Cài đặt tin nhắn Đăng nhập"
+
+msgctxt "MessageLog"
+msgid "Ctrl+T"
+msgstr "Ctrl+T"
+
+msgctxt "MessageLog"
+msgid "Help"
+msgstr "Giúp "
+
+msgctxt "MessageLog"
+msgid "Show the help browser"
+msgstr "SHiển thị trình duyệt trợ giúp"
+
+msgctxt "MessageLog"
+msgid "F1"
+msgstr "F1"
+
+msgctxt "MessageLog"
+msgid "Close"
+msgstr "Đóng"
+
+msgctxt "MessageLog"
+msgid "Close the Message Log"
+msgstr "Đóng Đăng nhập tin nhắn"
+
+msgctxt "MessageLog"
+msgid "Esc"
+msgstr "Esc"
+
+msgctxt "MessageLog"
+msgid "Find"
+msgstr "Tìm"
+
+msgctxt "MessageLog"
+msgid "Find all messages containing the search text (Ctrl+F)"
+msgstr "Tìm tất cả các tin nhắn có chứa các văn bản tìm kiếm (Ctrl + F)"
+
+msgctxt "MessageLog"
+msgid "Ctrl+F"
+msgstr "Ctrl+F"
+
+msgctxt "MessageLog"
+msgid "Time"
+msgstr "Thời gian"
+
+msgctxt "MessageLog"
+msgid "Type"
+msgstr "Loại"
+
+msgctxt "MessageLog"
+msgid "Message"
+msgstr "Thông điệp"
+
+msgctxt "MessageLog"
+msgid "Saves the current Message Log settings"
+msgstr "Lưu những thiết lập Đăng nhập tin nhắn hiện tại"
+
+msgctxt "MessageLog"
+msgid "Save Settings"
+msgstr "Thiết lập Bảo lưu"
+
+msgctxt "MessageLog"
+msgid "Cancels changes made to settings"
+msgstr "Hủy bỏ các thay đổi được thực hiện cho các cài đặt"
+
+msgctxt "MessageLog"
+msgid "Cancel"
+msgstr "Hủy"
+
+msgctxt "MessageLog"
+msgid "Message Filter"
+msgstr "Lọc Thông báo"
+
+msgctxt "MessageLog"
+msgid "Error"
+msgstr "Lỗi"
+
+msgctxt "MessageLog"
+msgid "Warning"
+msgstr "Cảnh báo"
+
+msgctxt "MessageLog"
+msgid "Notice"
+msgstr "Thông báo"
+
+msgctxt "MessageLog"
+msgid "Info"
+msgstr "Tin"
+
+msgctxt "MessageLog"
+msgid "Debug"
+msgstr "Gở lỗi"
+
+msgctxt "MessageLog"
+msgid "Message Log History"
+msgstr "Lược sử đăng nhập tin nhắn"
+
+msgctxt "MessageLog"
+msgid "Number of messages to display in the message log window"
+msgstr "Một số tin nhắn để hiển thị trong cửa sổ đăng nhập tin nhắn"
+
+msgctxt "MessageLog"
+msgid "messages"
+msgstr "Thông điệp"
+
+msgctxt "MessageLog"
+msgid "Browse"
+msgstr "Trình duyệt"
+
+msgctxt "MessageLog"
+msgid "Enable automatically saving all new log messages to a file"
+msgstr "Kích hoạt tính năng ưu tự động ltất cả các tin nhắn đăng nhập mới vào một tập tin"
+
+msgctxt "MessageLog"
+msgid "Automatically save new log messages to a file"
+msgstr "Tự động lưu các tin nhắn đăng nhập mới vào một tập tin"
+
+msgctxt "MessageLog"
+msgid "Basic"
+msgstr ""
+
+msgctxt "MessageLog"
+msgid "Tor Status"
+msgstr ""
+
+msgctxt "MessageLog"
+msgid "Advanced"
+msgstr ""
+
+msgctxt "MessageLog"
+msgid "Always Save New Log Messages"
+msgstr "Luôn luôn Đăng Lưu Thông điệp mới"
+
+msgctxt "MessageLog"
+msgid ""
+"Messages that appear when something has \n"
+"gone very wrong and Tor cannot proceed."
+msgstr ""
+
+msgctxt "MessageLog"
+msgid ""
+"Messages that only appear when \n"
+"something has gone wrong with Tor."
+msgstr ""
+
+msgctxt "MessageLog"
+msgid ""
+"Messages that appear infrequently \n"
+"during normal Tor operation and are \n"
+"not considered errors, but you may \n"
+"care about."
+msgstr ""
+
+msgctxt "MessageLog"
+msgid ""
+"Messages that appear frequently \n"
+"during normal Tor operation."
+msgstr ""
+
+msgctxt "MessageLog"
+msgid ""
+"Hyper-verbose messages primarily of \n"
+"interest to Tor developers."
+msgstr ""
+
+msgctxt "MessageLog"
+msgid ""
+"Cannot write file %1\n"
+"\n"
+"%2."
+msgstr ""
+
+msgctxt "NetViewer"
+msgid "Tor Network Map"
+msgstr "Bản đồ  mạng Tor"
+
+msgctxt "NetViewer"
+msgid "Refresh"
+msgstr "Cập nhật"
+
+msgctxt "NetViewer"
+msgid "Refresh the list of Tor relays and connections"
+msgstr "Cập nhật danh sách của những Tor chuyển tiếp và kết nối"
+
+msgctxt "NetViewer"
+msgid "Ctrl+R"
+msgstr "Ctrl+R"
+
+msgctxt "NetViewer"
+msgid "Help"
+msgstr "Giúp "
+
+msgctxt "NetViewer"
+msgid "Show the network map help"
+msgstr "Hiển thị  giúp bản đồ mạng"
+
+msgctxt "NetViewer"
+msgid "Show network map help"
+msgstr "Hiển thị giúp bản đồ mạng "
+
+msgctxt "NetViewer"
+msgid "F1"
+msgstr "F1"
+
+msgctxt "NetViewer"
+msgid "Close"
+msgstr "Đóng"
+
+msgctxt "NetViewer"
+msgid "Close the network map"
+msgstr "Đóng đồ mạng"
+
+msgctxt "NetViewer"
+msgid "Esc"
+msgstr "Esc"
+
+msgctxt "NetViewer"
+msgid "Zoom In"
+msgstr "Phóng to"
+
+msgctxt "NetViewer"
+msgid "Zoom in on the network map"
+msgstr "Phóng to trên bản đồ mạng"
+
+msgctxt "NetViewer"
+msgid "+"
+msgstr "+"
+
+msgctxt "NetViewer"
+msgid "Zoom Out"
+msgstr "Thu Nhỏ"
+
+msgctxt "NetViewer"
+msgid "Zoom out on the network map"
+msgstr "Thu nhỏ trên bản đồ mạng"
+
+msgctxt "NetViewer"
+msgid "-"
+msgstr "-"
+
+msgctxt "NetViewer"
+msgid "Zoom To Fit"
+msgstr "Phóng Để phù hợp "
+
+msgctxt "NetViewer"
+msgid "Zooms to fit all currently displayed circuits"
+msgstr "Phóng để phù hợp với tất cả các mạch hiện đang hiển thị"
+
+msgctxt "NetViewer"
+msgid "Ctrl+Z"
+msgstr "Ctrl+Z"
+
+msgctxt "NetViewer"
+msgid "Relay Not Found"
+msgstr ""
+
+msgctxt "NetViewer"
+msgid "No details on the selected relay are available."
+msgstr ""
+
+msgctxt "NetViewer"
+msgid "Unknown"
+msgstr ""
+
+msgctxt "NetViewer"
+msgid "Full Screen"
+msgstr ""
+
+msgctxt "NetViewer"
+msgid "View the network map as a full screen window"
+msgstr ""
+
+msgctxt "NetViewer"
+msgid "Ctrl+F"
+msgstr ""
+
+msgctxt "NetworkPage"
+msgid "Copy (Ctrl+C)"
+msgstr "Sao chép (Ctrl+C)"
+
+msgctxt "NetworkPage"
+msgid ""
+"You must specify both an IP address or hostname and a port number to "
+"configure Tor to use a proxy to access the Internet."
+msgstr "Bạn phải xác định cả hai một địa chỉ IP hay tên máy và số cổng để cấu hình Tor để sử dụng một proxy ủy quyền truy cập vào  Liên mạng"
+
+msgctxt "NetworkPage"
+msgid ""
+"You must specify one or more ports to which your firewall allows you to "
+"connect."
+msgstr "Bạn phải chỉ định một hoặc nhiều cổng để  firewall của bạn cho phép bạn kết nối."
+
+msgctxt "NetworkPage"
+msgid "'%1' is not a valid port number."
+msgstr "'% 1' không phải là một số cổng hợp lệ."
+
+msgctxt "NetworkPage"
+msgid "Check if your local network requires a proxy to access the Internet"
+msgstr "Kiểm tra nếu mạng địa phương của bạn yêu cầu một máy ủy quyền proxy để truy cập  Liên mạng"
+
+msgctxt "NetworkPage"
+msgid "I use a proxy to access the Internet"
+msgstr "Tôi sử dụng một máy chủ proxy để truy cập Liên mạng"
+
+msgctxt "NetworkPage"
+msgid "Proxy Settings"
+msgstr "Những Cài đặt máy chủ proxy"
+
+msgctxt "NetworkPage"
+msgid "Username:"
+msgstr "Tên đăng nhập:"
+
+msgctxt "NetworkPage"
+msgid "Password:"
+msgstr "Mật khẩu:"
+
+msgctxt "NetworkPage"
+msgid "Port:"
+msgstr "Cổng:"
+
+msgctxt "NetworkPage"
+msgid "Check to only connect to relays using ports allowed by your firewall"
+msgstr "Kiểm tra chỉ kết nối với những tiếp sức sử dụng cổng được cho phép bởi tường lửa của bạn"
+
+msgctxt "NetworkPage"
+msgid "My firewall only lets me connect to certain ports"
+msgstr "Tường lửa của tôi chỉ cho phép tôi kết nối với một số cổng nhất định"
+
+msgctxt "NetworkPage"
+msgid "Firewall Settings"
+msgstr "Những Cài đặt tường lửa"
+
+msgctxt "NetworkPage"
+msgid "Allowed Ports:"
+msgstr "Những Cổng Được phép:"
+
+msgctxt "NetworkPage"
+msgid "80, 443"
+msgstr "80, 443"
+
+msgctxt "NetworkPage"
+msgid ""
+"Check to encrypt directory requests and, optionally, use bridge relays to "
+"access the Tor network"
+msgstr "Kiểm tra để mã hóa các yêu cầu thư mục và, mo^.t ca'ch tùy chọn, sử dụng những tiếp sức cầu để truy cập vào mạng Tor"
+
+msgctxt "NetworkPage"
+msgid "My ISP blocks connections to the Tor network"
+msgstr "ISP của tôi chặn các kết nối vào mạng Tor"
+
+msgctxt "NetworkPage"
+msgid "Bridge Settings"
+msgstr "Những Thiết lập Cầu"
+
+msgctxt "NetworkPage"
+msgid "Add a Bridge:"
+msgstr "Thêm một cầu:"
+
+msgctxt "NetworkPage"
+msgid "Remove the selected bridges from the list"
+msgstr "Hủy bỏ các cây cầu được lựa chọn từ danh sách"
+
+msgctxt "NetworkPage"
+msgid "Copy the selected bridges to the clipboard"
+msgstr "Sao chép lại các cầu được chọn vào bộ nhớ tạm"
+
+msgctxt "NetworkPage"
+msgid "Find Bridges Now"
+msgstr ""
+
+msgctxt "NetworkPage"
+msgid "<a href=\"bridges.finding\">How else can I find bridges?</a>"
+msgstr ""
+
+msgctxt "NetworkPage"
+msgid "<a href=\"bridges.finding\">How can I find bridges?</a>"
+msgstr ""
+
+msgctxt "NetworkPage"
+msgid ""
+"No new bridges are currently available. You can either wait a while and try "
+"again, or try another method of finding new bridges."
+msgstr ""
+
+msgctxt "NetworkPage"
+msgid "Click Help to see other methods of finding new bridges."
+msgstr ""
+
+msgctxt "NetworkPage"
+msgid "Address:"
+msgstr ""
+
+msgctxt "NetworkPage"
+msgid "Type:"
+msgstr ""
+
+msgctxt "NetworkPage"
+msgid "You must select the proxy type."
+msgstr ""
+
+msgctxt "NetworkPage"
+msgid "SOCKS 4"
+msgstr ""
+
+msgctxt "NetworkPage"
+msgid "SOCKS 5"
+msgstr ""
+
+msgctxt "NetworkPage"
+msgid "HTTP / HTTPS"
+msgstr ""
+
+msgctxt "NetworkPage"
+msgid "You must specify one or more bridges."
+msgstr ""
+
+msgctxt "Policy"
+msgid "accept"
+msgstr "chấp nhận"
+
+msgctxt "Policy"
+msgid "reject"
+msgstr "từ chối"
+
+msgctxt "RouterDescriptor"
+msgid "Online"
+msgstr "Trực tuyến"
+
+msgctxt "RouterDescriptor"
+msgid "Hibernating"
+msgstr "Không hoạt động"
+
+msgctxt "RouterDescriptor"
+msgid "Offline"
+msgstr "thoát tuyến"
+
+msgctxt "RouterDescriptorView"
+msgid "Location:"
+msgstr "Địa điểm:"
+
+msgctxt "RouterDescriptorView"
+msgid "IP Address:"
+msgstr "Địa chỉ IP:"
+
+msgctxt "RouterDescriptorView"
+msgid "Platform:"
+msgstr "Diễn đàn:"
+
+msgctxt "RouterDescriptorView"
+msgid "Bandwidth:"
+msgstr "Băng thông:"
+
+msgctxt "RouterDescriptorView"
+msgid "Uptime:"
+msgstr "Thời gian hoạt động:"
+
+msgctxt "RouterDescriptorView"
+msgid "Last Updated:"
+msgstr "Cập nhật cuối nhất:"
+
+msgctxt "RouterDescriptorView"
+msgid "Copy"
+msgstr "Sao chép"
+
+msgctxt "RouterInfoDialog"
+msgid "Hibernating"
+msgstr ""
+
+msgctxt "RouterInfoDialog"
+msgid "Online"
+msgstr ""
+
+msgctxt "RouterInfoDialog"
+msgid "Offline"
+msgstr ""
+
+msgctxt "RouterInfoDialog"
+msgid "Unknown"
+msgstr ""
+
+msgctxt "RouterInfoDialog"
+msgid "Relay Details"
+msgstr ""
+
+msgctxt "RouterInfoDialog"
+msgid "Summary"
+msgstr ""
+
+msgctxt "RouterInfoDialog"
+msgid "Name:"
+msgstr ""
+
+msgctxt "RouterInfoDialog"
+msgid "Status:"
+msgstr ""
+
+msgctxt "RouterInfoDialog"
+msgid "Location:"
+msgstr ""
+
+msgctxt "RouterInfoDialog"
+msgid "IP Address:"
+msgstr ""
+
+msgctxt "RouterInfoDialog"
+msgid "Platform:"
+msgstr ""
+
+msgctxt "RouterInfoDialog"
+msgid "Bandwidth:"
+msgstr ""
+
+msgctxt "RouterInfoDialog"
+msgid "Uptime:"
+msgstr ""
+
+msgctxt "RouterInfoDialog"
+msgid "Contact:"
+msgstr ""
+
+msgctxt "RouterInfoDialog"
+msgid "Last Updated:"
+msgstr ""
+
+msgctxt "RouterInfoDialog"
+msgid "Descriptor"
+msgstr ""
+
+msgctxt "RouterListItem"
+msgid "Offline"
+msgstr "Ngoại tuyến"
+
+msgctxt "RouterListItem"
+msgid "Hibernating"
+msgstr "Đang không hoạt động"
+
+msgctxt "RouterListItem"
+msgid "%1 KB/s"
+msgstr "%1 KB/s"
+
+msgctxt "RouterListWidget"
+msgid "Relay"
+msgstr "Tiếp sức"
+
+msgctxt "RouterListWidget"
+msgid "Zoom to Relay"
+msgstr "Phóng to to*'i  tiếp sức"
+
+msgctxt "RouterListWidget"
+msgid "%1 relays online"
+msgstr "% 1 rơ le trực tuyến"
+
+msgctxt "RouterListWidget"
+msgid "Copy"
+msgstr "Sao chép"
+
+msgctxt "RouterListWidget"
+msgid "Nickname"
+msgstr "Biệt danh"
+
+msgctxt "RouterListWidget"
+msgid "Fingerprint"
+msgstr "Vân tay"
+
+msgctxt "ServerPage"
+msgid "Bridge Support Unavailable"
+msgstr "Hết Cầu Hỗ trợ"
+
+msgctxt "ServerPage"
+msgid ""
+"You have configured Tor to act as a bridge relay for censored users, but "
+"your version of Tor does not support bridges."
+msgstr "Bạn đã cấu hình Tor để hoạt động như một cầu nối tiếp sức cho người sử dụng kiểm duyệt, nhưng phiên bản Tor của bạn không hỗ trợ cầu."
+
+msgctxt "ServerPage"
+msgid ""
+"Please upgrade your Tor software or configure Tor to act as a normal Tor "
+"relay."
+msgstr "Xin vui lòng nâng cấp phần mềm Tor của bạn hoặc cấu hình Tor để hành động như là một Tor tiếp sức bình thường."
+
+msgctxt "ServerPage"
+msgid "Your bridge relay is not running."
+msgstr "Tiếp sức cầu của bạn không chạy."
+
+msgctxt "ServerPage"
+msgid "You must specify at least a relay nickname and port."
+msgstr "Bạn phải chỉ định ít nhất một biệt hiệu tiếp sức và cổng."
+
+msgctxt "ServerPage"
+msgid "Run as a client only"
+msgstr "Chạy chi? như một khách hàng"
+
+msgctxt "ServerPage"
+msgid "Relay Port:"
+msgstr "Cổng tiếp sức:"
+
+msgctxt "ServerPage"
+msgid "Enable to mirror the relay directory"
+msgstr "Kích hoạt để đối xứng thư mục tiếp sức"
+
+msgctxt "ServerPage"
+msgid "Attempt to automatically configure port forwarding"
+msgstr "Thử tự động cấu hình chuyển tới cổng"
+
+msgctxt "ServerPage"
+msgid "Test"
+msgstr "Kiểm tra"
+
+msgctxt "ServerPage"
+msgid "Show help topic on port forwarding"
+msgstr "Hiển thị chủ đề trợ giúp cho chuyển tới cổng"
+
+msgctxt "ServerPage"
+msgid "Directory Port:"
+msgstr "Cổng danh mục:"
+
+msgctxt "ServerPage"
+msgid "Directory Port Number"
+msgstr "Số cổng danh mục "
+
+msgctxt "ServerPage"
+msgid "Contact Info:"
+msgstr "Thông báo Liên hệ:"
+
+msgctxt "ServerPage"
+msgid "Name of your relay"
+msgstr "Tên tiếp sức của bạn"
+
+msgctxt "ServerPage"
+msgid "Port on which users and other relays can communicate with your relay"
+msgstr "Cổng mà người sử dụng và những chuyển tiếp khác có thể giao tiếp với tiếp sức của bạn"
+
+msgctxt "ServerPage"
+msgid "Nickname:"
+msgstr "Biệt danh:"
+
+msgctxt "ServerPage"
+msgid "Basic Settings"
+msgstr "Những Cài đặt Cơ bản"
+
+msgctxt "ServerPage"
+msgid ""
+"For Internet connections with fast download speed but slow upload, please "
+"list your upload speed here."
+msgstr "Cho các kết nối Liên mạng với tốc độ tải xuống nhanh, nhưng nạp lên chậm, xin ghi vào danh sách tốc độ nạp lên của bạn ở đây."
+
+msgctxt "ServerPage"
+msgid "Cable/DSL 256 Kbps"
+msgstr "Cable/DSL 256 Kbps"
+
+msgctxt "ServerPage"
+msgid "Cable/DSL 512 Kbps"
+msgstr "Cable/DSL 512 Kbps"
+
+msgctxt "ServerPage"
+msgid "Cable/DSL 768 Kbps"
+msgstr "Cable/DSL 768 Kbps"
+
+msgctxt "ServerPage"
+msgid "T1/Cable/DSL 1.5 Mbps"
+msgstr "T1/Cable/DSL 1.5 Mbps"
+
+msgctxt "ServerPage"
+msgid "> 1.5 Mbps"
+msgstr "> 1.5 Mbps"
+
+msgctxt "ServerPage"
+msgid "Custom"
+msgstr "tùy chỉnh"
+
+msgctxt "ServerPage"
+msgid "Select the entry that most closely resembles your Internet connection"
+msgstr "Hãy chọn đề mục tương tự gần nhất như kết nối Liên mạng của bạn"
+
+msgctxt "ServerPage"
+msgid "Show help topic on bandwidth rate limits"
+msgstr "Chỉ chủ đề giúp về giới hạn tốc độ băng thông"
+
+msgctxt "ServerPage"
+msgid "Average Rate"
+msgstr "Tỷ lệ trung bình"
+
+msgctxt "ServerPage"
+msgid "Long-term average bandwidth limit"
+msgstr "Giới hạn băng thông trung bình dài hạn"
+
+msgctxt "ServerPage"
+msgid "KB/s"
+msgstr "KB/s"
+
+msgctxt "ServerPage"
+msgid "Maximum Rate"
+msgstr "Tỷ lệ Tối đa"
+
+msgctxt "ServerPage"
+msgid "Peak bandwidth rate limit"
+msgstr "Đỉnh giới hạn tỷ lệ băng thông"
+
+msgctxt "ServerPage"
+msgid ""
+"Your maximum bandwidth rate must be greater than or equal to your average "
+"bandwidth rate. Both values must be at least 20 KB/s."
+msgstr "Tỷ lệ băng thông tối đa của bạn phải lớn hơn hoặc bằng mức băng thông trung bình của bạn. Cả hai giá trị phải có ít nhất 20 kB / s."
+
+msgctxt "ServerPage"
+msgid "Bandwidth Limits"
+msgstr "Giới hạn băng thông"
+
+msgctxt "ServerPage"
+msgid "Ports 6660 - 6669 and 6697"
+msgstr "Cổng 6660 - 6669 và 6697"
+
+msgctxt "ServerPage"
+msgid "Internet Relay Chat (IRC)"
+msgstr "Internet Relay Chat (IRC)"
+
+msgctxt "ServerPage"
+msgid "Ports 110, 143, 993 and 995"
+msgstr "Ports 110, 143, 993 và 995"
+
+msgctxt "ServerPage"
+msgid "Retrieve Mail (POP, IMAP)"
+msgstr "Lấy Mail (POP, IMAP)"
+
+msgctxt "ServerPage"
+msgid "Ports unspecified by other checkboxes"
+msgstr "Các Cổng chưa xác định bo*?i những hộp kiểm khác"
+
+msgctxt "ServerPage"
+msgid "Misc Other Services"
+msgstr "Hỗn hợp Các dịch vụ khác"
+
+msgctxt "ServerPage"
+msgid "Ports 706, 1863, 5050, 5190, 5222, 5223, 8300 and 8888"
+msgstr "Cổng  706, 1863, 5050, 5190, 5222, 5223, 8300 và 8888"
+
+msgctxt "ServerPage"
+msgid "Instant Messaging (IM)"
+msgstr "Nhắn tin Tức tho*ì (IM)"
+
+msgctxt "ServerPage"
+msgid "Port 443"
+msgstr "Cổng 443"
+
+msgctxt "ServerPage"
+msgid "Secure Websites (SSL)"
+msgstr "Trang web an toàn (SSL)"
+
+msgctxt "ServerPage"
+msgid "Port 80"
+msgstr "Cổng  80"
+
+msgctxt "ServerPage"
+msgid "Websites"
+msgstr "Trang web"
+
+msgctxt "ServerPage"
+msgid "Show help topic on exit policies"
+msgstr "Hiển thị chủ đề về các chính sách trợ giúp thoát"
+
+msgctxt "ServerPage"
+msgid ""
+"What Internet resources should users be able to access from your relay?"
+msgstr "Người sử dụng những nguồn năng lực Liên mạng gì sẽ có thể truy nhập từ tiếp sức của bạn?"
+
+msgctxt "ServerPage"
+msgid ""
+"Tor will still block some outgoing mail and file sharing applications by "
+"default to reduce spam and other abuse."
+msgstr "Tor vẫn sẽ chặn một số thư gửi đi và chia sẻ tập tin ứng dụng mặc định để giảm thư rác và lạm dụng khác."
+
+msgctxt "ServerPage"
+msgid "Exit Policies"
+msgstr "Chính sách xuất cảnh"
+
+msgctxt "ServerPage"
+msgid "Let others access your bridge by giving them this line:"
+msgstr "Hãy để những người khác tiếp cận cầu của bạn bằng cách cho họ dòng này:"
+
+msgctxt "ServerPage"
+msgid ""
+"This is the identity of your bridge relay that you can give to other people"
+msgstr "Đây là danh tính của cầu tiếp sức của bạn mà bạn có thể cung cấp cho người khác"
+
+msgctxt "ServerPage"
+msgid "Copy your bridge relay's identity to the clipboard"
+msgstr "Sao chép danh tính của tiếp sức cầu của bạn vào bộ nhớ tạm"
+
+msgctxt "ServerPage"
+msgid "No Recent Usage"
+msgstr ""
+
+msgctxt "ServerPage"
+msgid "No clients have used your relay recently."
+msgstr ""
+
+msgctxt "ServerPage"
+msgid ""
+"Leave your relay running so clients have a better chance of finding and "
+"using it."
+msgstr ""
+
+msgctxt "ServerPage"
+msgid "Bridge History"
+msgstr ""
+
+msgctxt "ServerPage"
+msgid "Vidalia was unable to retrieve your bridge's usage history."
+msgstr ""
+
+msgctxt "ServerPage"
+msgid ""
+"Tor returned an improperly formatted response when Vidalia requested your "
+"bridge's usage history."
+msgstr ""
+
+msgctxt "ServerPage"
+msgid "The returned response was: %1"
+msgstr ""
+
+msgctxt "ServerPage"
+msgid "Help censored users reach the Tor network"
+msgstr ""
+
+msgctxt "ServerPage"
+msgid "<a href=\"#bridgeUsage\">Who has used my bridge?</a>"
+msgstr ""
+
+msgctxt "ServerPage"
+msgid "<a href=\"#bridgeHelp\">What's this?</a>"
+msgstr ""
+
+msgctxt "ServerPage"
+msgid "Automatically distribute my bridge address"
+msgstr ""
+
+msgctxt "ServerPage"
+msgid "Relay traffic for the Tor network (exit relay)"
+msgstr ""
+
+msgctxt "ServerPage"
+msgid "Relay traffic inside the Tor network (non-exit relay)"
+msgstr ""
+
+msgctxt "ServerPage"
+msgid "Mirror the Relay Directory"
+msgstr ""
+
+msgctxt "ServerPage"
+msgid ""
+"Email address at which you may be reached if there is a\n"
+"problem with your relay. You might also include your PGP or GPG fingerprint."
+msgstr ""
+
+msgctxt "ServicePage"
+msgid "Error while trying to unpublish all services"
+msgstr "Lỗi trong khi đang thử thôi xuất bản tất cả các dịch vụ"
+
+msgctxt "ServicePage"
+msgid ""
+"Please configure at least a service directory and a virtual port for each "
+"service you want to save. Remove the other ones."
+msgstr "Xin cấu hình ít nhất một thư mục dịch vụ và một cổng ảo cho mỗi dịch vụ mà bạn muốn lưu. Hãy hủy bỏ những cái khác."
+
+msgctxt "ServicePage"
+msgid "Error"
+msgstr "Lỗi"
+
+msgctxt "ServicePage"
+msgid "Please select a Service."
+msgstr "Hãy chọn một Dịch vụ."
+
+msgctxt "ServicePage"
+msgid "Select Service Directory"
+msgstr "Chọn Thư mục Dịch vụ"
+
+msgctxt "ServicePage"
+msgid "Virtual Port may only contain valid port numbers [1..65535]."
+msgstr "Cổng thật chỉ có thể chứa những số cổng hợp lệ [1 .. 65.535]."
+
+msgctxt "ServicePage"
+msgid "Target may only contain address:port, address, or port."
+msgstr "Mục tiêu chỉ có thể chứa các địa chỉ: cổng, địa chỉ, hoặc cổng."
+
+msgctxt "ServicePage"
+msgid "Directory already in use by another service."
+msgstr "Thư mục đã được sử dụng bởi dịch vụ khác."
+
+msgctxt "ServicePage"
+msgid "Form"
+msgstr "Mẫu"
+
+msgctxt "ServicePage"
+msgid "Provided Hidden Services"
+msgstr "Những dịch vụ ẩn được cung cấp"
+
+msgctxt "ServicePage"
+msgid "Onion Address"
+msgstr "Địa chỉ onion"
+
+msgctxt "ServicePage"
+msgid "Virtual Port"
+msgstr "Ảo Cảng"
+
+msgctxt "ServicePage"
+msgid "Target"
+msgstr "Mục tiêu"
+
+msgctxt "ServicePage"
+msgid "Directory Path"
+msgstr "Đường dẫn thư mục"
+
+msgctxt "ServicePage"
+msgid "Enabled"
+msgstr "Bật"
+
+msgctxt "ServicePage"
+msgid "Add new service to list"
+msgstr "Thêm dịch vụ mới vào danh sách"
+
+msgctxt "ServicePage"
+msgid "Remove selected service from list"
+msgstr "Hủy bỏ dịch vụ lựa chọn từ danh sách"
+
+msgctxt "ServicePage"
+msgid "Copy onion address of selected service to clipboard"
+msgstr "Sao lại địa chỉ onion của dịch vụ được chọn vào bộ nhớ tạm"
+
+msgctxt "ServicePage"
+msgid "Browse in local file system and choose directory for selected service"
+msgstr "Trình duyệt trong hệ thống tập tin địa phương và chọn thư mục cho dịch vụ được chọn"
+
+msgctxt "ServicePage"
+msgid "Created by Tor"
+msgstr "Tạo bởi Tor"
+
+msgctxt "StatusEventWidget"
+msgid "Copy to Clipboard"
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid "The Tor Software is Running"
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid "You are currently running version \"%1\" of the Tor software."
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid "The Tor Software is not Running"
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Click \"Start Tor\" in the Vidalia Control Panel to restart the Tor "
+"software. If Tor exited unexpectedly, select the \"Advanced\" tab above for "
+"details about any errors encountered."
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid ""
+"You are currently running version \"%1\" of the Tor software, which is no "
+"longer recommended. Please upgrade to the most recent version of the "
+"software, which may contain important security, reliability and performance "
+"fixes."
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid ""
+"You are currently running version \"%1\" of the Tor software, which may no "
+"longer work with the current Tor network. Please upgrade to the most recent "
+"version of the software, which may contain important security, reliability "
+"and performance fixes."
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid "Your Tor Software is Out-of-date"
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid "Connected to the Tor Network"
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid ""
+"We were able to successfully establish a connection to the Tor network. You "
+"can now configure your applications to use the Internet anonymously."
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid "Tor Software Error"
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid ""
+"The Tor software encountered an internal bug. Please report the following "
+"error message to the Tor developers at bugs.torproject.org: \"%1\""
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor has determined that your computer's clock may be set to %1 seconds in "
+"the past compared to the source \"%2\". If your clock is not correct, Tor "
+"will not be able to function. Please verify your computer displays the "
+"correct time."
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor has determined that your computer's clock may be set to %1 seconds in "
+"the future compared to the source \"%2\". If your clock is not correct, Tor "
+"will not be able to function. Please verify your computer displays the "
+"correct time."
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid "Your Computer's Clock is Potentially Incorrect"
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid ""
+"One of the applications on your computer may have attempted to make an "
+"unencrypted connection through Tor to port %1. Sending unencrypted "
+"information over the Tor network is dangerous and not recommended. For your "
+"protection, Tor has automatically closed this connection."
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid ""
+"One of the applications on your computer may have attempted to make an "
+"unencrypted connection through Tor to port %1. Sending unencrypted "
+"information over the Tor network is dangerous and not recommended."
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid "Potentially Dangerous Connection!"
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid ""
+"One of your applications established a connection through Tor to \"%1\" "
+"using a protocol that may leak information about your destination. Please "
+"ensure you configure your applications to use only SOCKS4a or SOCKS5 with "
+"remote hostname resolution."
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid "Unknown SOCKS Protocol"
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid ""
+"One of your applications tried to establish a connection through Tor using a"
+" protocol that Tor does not understand. Please ensure you configure your "
+"applications to use only SOCKS4a or SOCKS5 with remote hostname resolution."
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid "Invalid Destination Hostname"
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid ""
+"One of your applications tried to establish a connection through Tor to "
+"\"%1\", which Tor does not recognize as a valid hostname. Please check your "
+"application's configuration."
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid "External IP Address Changed"
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor has determined your relay's public IP address is currently %1%2. If that"
+" is not correct, please consider setting the 'Address' option in your "
+"relay's configuration."
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid "DNS Hijacking Detected"
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor detected that your DNS provider is providing false responses for domains"
+" that do not exist. Some ISPs and other DNS providers, such as OpenDNS, are "
+"known to do this in order to display their own search or advertising pages."
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor detected that your DNS provider is providing false responses for well "
+"known domains. Since clients rely on Tor network relays to provide accurate "
+"DNS repsonses, your relay will not be configured as an exit relay."
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid "Checking Server Port Reachability"
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor is trying to determine if your relay's server port is reachable from the"
+" Tor network by connecting to itself at %1:%2. This test could take several "
+"minutes."
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid "Server Port Reachability Test Successful!"
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid "Your relay's server port is reachable from the Tor network!"
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid "Server Port Reachability Test Failed"
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Your relay's server port is not reachable by other Tor clients. This can "
+"happen if you are behind a router or firewall that requires you to set up "
+"port forwarding. If %1:%2 is not your correct IP address and server port, "
+"please check your relay's configuration."
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid "Checking Directory Port Reachability"
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor is trying to determine if your relay's directory port is reachable from "
+"the Tor network by connecting to itself at %1:%2. This test could take "
+"several minutes."
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid "Directory Port Reachability Test Successful!"
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid "Your relay's directory port is reachable from the Tor network!"
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid "Directory Port Reachability Test Failed"
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Your relay's directory port is not reachable by other Tor clients. This can "
+"happen if you are behind a router or firewall that requires you to set up "
+"port forwarding. If %1:%2 is not your correct IP address and directory port,"
+" please check your relay's configuration."
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid "Relay Descriptor Rejected"
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Your relay's descriptor, which enables clients to connect to your relay, was"
+" rejected by the directory server at %1:%2. The reason given was: %3"
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid "Your Relay is Online"
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Your relay is now online and available for Tor clients to use. You should "
+"see an increase in network traffic shown by the Bandwidth Graph within a few"
+" hours as more clients learn about your relay. Thank you for contributing to"
+" the Tor network!"
+msgstr ""
+
+msgctxt "Stream"
+msgid "New"
+msgstr "Mới"
+
+msgctxt "Stream"
+msgid "Resolving"
+msgstr "đang Giải quyết "
+
+msgctxt "Stream"
+msgid "Connecting"
+msgstr "đang Kết nối"
+
+msgctxt "Stream"
+msgid "Open"
+msgstr "Mở"
+
+msgctxt "Stream"
+msgid "Failed"
+msgstr "Thất bại"
+
+msgctxt "Stream"
+msgid "Closed"
+msgstr "Đóng cửa"
+
+msgctxt "Stream"
+msgid "Retrying"
+msgstr "Đang thử lại"
+
+msgctxt "Stream"
+msgid "Remapped"
+msgstr "Thiết kế  la.i"
+
+msgctxt "Stream"
+msgid "Unknown"
+msgstr "Không biết"
+
+msgctxt "TorProcess"
+msgid "Process %1 failed to stop. [%2]"
+msgstr "Quá trình % 1 không ngừng. [% 2]"
+
+msgctxt "TorService"
+msgid "The Tor service is not installed."
+msgstr "Các dịch vụ Tor không được cài đặt."
+
+msgctxt "TorService"
+msgid "Unable to start the Tor service."
+msgstr "Không thể bắt đầu dịch vụ Tor."
+
+msgctxt "TorSettings"
+msgid "Failed to hash the control password."
+msgstr "Không thể làm hỏng mật mã kiểm soát."
+
+msgctxt "TorrcDialog"
+msgid "Editing torrc"
+msgstr ""
+
+msgctxt "TorrcDialog"
+msgid ""
+"Save settings. If unchecked it will only apply settings to the current Tor "
+"instance."
+msgstr ""
+
+msgctxt "TorrcDialog"
+msgid "Cut"
+msgstr ""
+
+msgctxt "TorrcDialog"
+msgid "Copy"
+msgstr ""
+
+msgctxt "TorrcDialog"
+msgid "Paste"
+msgstr ""
+
+msgctxt "TorrcDialog"
+msgid "Undo"
+msgstr ""
+
+msgctxt "TorrcDialog"
+msgid "Redo"
+msgstr ""
+
+msgctxt "TorrcDialog"
+msgid "Select All"
+msgstr ""
+
+msgctxt "TorrcDialog"
+msgid "Apply all"
+msgstr ""
+
+msgctxt "TorrcDialog"
+msgid "Apply selection only"
+msgstr ""
+
+msgctxt "TorrcDialog"
+msgid "Error connecting to Tor"
+msgstr ""
+
+msgctxt "TorrcDialog"
+msgid "Selection is empty. Please select some text, or check \"Apply all\""
+msgstr ""
+
+msgctxt "TorrcDialog"
+msgid "Error at line %1: \"%2\""
+msgstr ""
+
+msgctxt "TorrcDialog"
+msgid "Error"
+msgstr ""
+
+msgctxt "TorrcDialog"
+msgid "An error ocurred while opening torrc file"
+msgstr ""
+
+msgctxt "UPNPControl"
+msgid "Success"
+msgstr "Thành công"
+
+msgctxt "UPNPControl"
+msgid "No UPnP-enabled devices found"
+msgstr "Không tìm thấy các thiết bị UPnP-cho phép "
+
+msgctxt "UPNPControl"
+msgid "No valid UPnP-enabled Internet gateway devices found"
+msgstr "Không tìm  thấy các thiết bị cổng Liên mạng UPnP-cho phép hợp lệ  "
+
+msgctxt "UPNPControl"
+msgid "WSAStartup failed"
+msgstr "WSAStartup thất bại"
+
+msgctxt "UPNPControl"
+msgid "Failed to add a port mapping"
+msgstr "Không thể thêm một bản đồ cổng "
+
+msgctxt "UPNPControl"
+msgid "Failed to retrieve a port mapping"
+msgstr "Không thể tìm thấy một bản đồ  cổng "
+
+msgctxt "UPNPControl"
+msgid "Failed to remove a port mapping"
+msgstr "Không thể gỡ bỏ một bản đồ cổng "
+
+msgctxt "UPNPControl"
+msgid "Unknown error"
+msgstr "Lỗi không rõ"
+
+msgctxt "UPNPTestDialog"
+msgid "Discovering UPnP-enabled devices"
+msgstr "Khám phá các thiết bị  UPnP-cho phép"
+
+msgctxt "UPNPTestDialog"
+msgid "Updating directory port mapping"
+msgstr "Cập nhật bản đồ cổng thư mục"
+
+msgctxt "UPNPTestDialog"
+msgid "Updating relay port mapping"
+msgstr "Cập nhật bản đồ cổng tiếp sức"
+
+msgctxt "UPNPTestDialog"
+msgid "Test completed successfully!"
+msgstr "Kiểm tra hoàn tất thành công!"
+
+msgctxt "UPNPTestDialog"
+msgid "Testing UPnP Support"
+msgstr "Thử nghiệm Hỗ trợ UPnP"
+
+msgctxt "UPNPTestDialog"
+msgid "Testing Universal Plug & Play Support"
+msgstr "Thử nghiệm Hỗ trợ Phổ dụng Plug & Play "
+
+msgctxt "UpdateProcess"
+msgid ""
+"Vidalia was unable to check for available software updates because it could "
+"not find '%1'."
+msgstr ""
+
+msgctxt "UpdateProcess"
+msgid ""
+"Vidalia was unable to check for available software updates because Tor's "
+"update process exited unexpectedly."
+msgstr ""
+
+msgctxt "UpdateProgressDialog"
+msgid "Checking for available updates..."
+msgstr ""
+
+msgctxt "UpdateProgressDialog"
+msgid "Hide"
+msgstr ""
+
+msgctxt "UpdateProgressDialog"
+msgid "Downloading updates..."
+msgstr ""
+
+msgctxt "UpdateProgressDialog"
+msgid "Installing updated software..."
+msgstr ""
+
+msgctxt "UpdateProgressDialog"
+msgid "Done! Your software is now up to date."
+msgstr ""
+
+msgctxt "UpdateProgressDialog"
+msgid "OK"
+msgstr ""
+
+msgctxt "UpdateProgressDialog"
+msgid "Software Updates"
+msgstr ""
+
+msgctxt "UpdateProgressDialog"
+msgid "Checking for updates..."
+msgstr ""
+
+msgctxt "UpdateProgressDialog"
+msgid "Cancel"
+msgstr ""
+
+msgctxt "UpdatesAvailableDialog"
+msgid "Software Updates Available"
+msgstr ""
+
+msgctxt "UpdatesAvailableDialog"
+msgid "Remind Me Later"
+msgstr ""
+
+msgctxt "UpdatesAvailableDialog"
+msgid "Install"
+msgstr ""
+
+msgctxt "UpdatesAvailableDialog"
+msgid "The following updated software packages are ready for installation:"
+msgstr ""
+
+msgctxt "UpdatesAvailableDialog"
+msgid "Package"
+msgstr ""
+
+msgctxt "UpdatesAvailableDialog"
+msgid "Version"
+msgstr ""
+
+msgctxt "VMessageBox"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "VMessageBox"
+msgid "Cancel"
+msgstr "Hủy"
+
+msgctxt "VMessageBox"
+msgid "Yes"
+msgstr "Có"
+
+msgctxt "VMessageBox"
+msgid "No"
+msgstr "Không"
+
+msgctxt "VMessageBox"
+msgid "Help"
+msgstr "Giúp đỡ"
+
+msgctxt "VMessageBox"
+msgid "Retry"
+msgstr "Thử lại"
+
+msgctxt "VMessageBox"
+msgid "Show Log"
+msgstr "Hiển Đăng nhập"
+
+msgctxt "VMessageBox"
+msgid "Show Settings"
+msgstr "Hiển thị Thiết lập"
+
+msgctxt "VMessageBox"
+msgid "Continue"
+msgstr "Tiếp tục"
+
+msgctxt "VMessageBox"
+msgid "Quit"
+msgstr "Thoát"
+
+msgctxt "VMessageBox"
+msgid "Browse"
+msgstr "Trình duyệt"
+
+msgctxt "Vidalia"
+msgid "Invalid Argument"
+msgstr "Đối số không hợp lệ"
+
+msgctxt "Vidalia"
+msgid "Vidalia is already running"
+msgstr "Vidalia đang chạy"
+
+msgctxt "Vidalia"
+msgid "Displays this usage message and exits."
+msgstr "Hiển thị thông báo sử dụng này và thoát."
+
+msgctxt "Vidalia"
+msgid "Resets ALL stored Vidalia settings."
+msgstr "Đặt lại TẤT CẢ các thiết lập lưu Vidalia."
+
+msgctxt "Vidalia"
+msgid "Sets the directory Vidalia uses for data files."
+msgstr "Đặt các sử dụng thư mục Vidalia cho các tập tin dữ liệu."
+
+msgctxt "Vidalia"
+msgid "Sets the name and location of Vidalia's pidfile."
+msgstr "Đặt tên và vị trí của Vidalia's pidfile."
+
+msgctxt "Vidalia"
+msgid "Sets the name and location of Vidalia's logfile."
+msgstr "Đặt tên và vị trí của hồ sơ đăng nhập Vidalia."
+
+msgctxt "Vidalia"
+msgid "Sets the verbosity of Vidalia's logging."
+msgstr "Đặt tính dông dài của đăng nhập Vidalia."
+
+msgctxt "Vidalia"
+msgid "Sets Vidalia's interface style."
+msgstr "Đặt phong cách giao diện của Vidalia."
+
+msgctxt "Vidalia"
+msgid "Sets Vidalia's language."
+msgstr "Đặt ngôn ngữ của Vidalia."
+
+msgctxt "Vidalia"
+msgid "Vidalia Usage Information"
+msgstr "Tư liệu cách sử dụng Vidalia "
+
+msgctxt "Vidalia"
+msgid "Unable to open log file '%1': %2"
+msgstr "Không thể mở hồ sơ đăng nhập '%1':% 2"
+
+msgctxt "Vidalia"
+msgid "Value required for parameter :"
+msgstr ""
+
+msgctxt "Vidalia"
+msgid "Invalid language code specified:"
+msgstr ""
+
+msgctxt "Vidalia"
+msgid "Invalid GUI style specified:"
+msgstr ""
+
+msgctxt "Vidalia"
+msgid "Invalid log level specified:"
+msgstr ""
+
+msgctxt "Vidalia"
+msgid ""
+"Another Vidalia process is possibly already running. If there really is not another Vidalia process running, you can choose to continue anyway.\n"
+"\n"
+"Would you like to continue starting Vidalia?"
+msgstr ""
+
+msgctxt "stringutil.h"
+msgid "%1 secs"
+msgstr ""
+
+msgctxt "stringutil.h"
+msgid "%1 B/s"
+msgstr ""
+
+msgctxt "stringutil.h"
+msgid "%1 KB/s"
+msgstr ""
+
+msgctxt "stringutil.h"
+msgid "%1 MB/s"
+msgstr ""
+
+msgctxt "stringutil.h"
+msgid "%1 GB/s"
+msgstr ""
+
+msgctxt "stringutil.h"
+msgid "%1 days"
+msgstr ""
+
+msgctxt "stringutil.h"
+msgid "%1 hours"
+msgstr ""
+
+msgctxt "stringutil.h"
+msgid "%1 mins"
+msgstr ""

@@ -1,0 +1,157 @@
+
+
+<!--
+**  $Id$
+** 
+**  This file is part of Vidalia, and is subject to the license terms in the
+**  LICENSE file, found in the top level directory of this distribution. If 
+**  you did not receive the LICENSE file with this file, you may obtain it
+**  from the Vidalia source package distributed by the Vidalia Project at
+**  http://www.torproject.org/projects/vidalia.html. No part of Vidalia, 
+**  including this file, may be copied, modified, propagated, or distributed 
+**  except according to the terms described in the LICENSE file.
+-->
+<html>
+<body>
+
+<h1>网络查看器</h1>
+<hr />
+
+<p>
+网络查看器使您可以查看 Tor 网络的中继和您经由的位置。
+</p>
+
+
+<a name="overview"/>
+<h3>概述</h3>
+<p>
+When you want to communicate anonymously through Tor (say, connecting to a
+website), Tor creates a tunnel, or <i>circuit</i>, of encrypted connections
+through a series of relays on the network. Your application's traffic is
+then sent as a <i>stream</i> through that circuit. For efficiency, multiple
+streams may share the same circuit.
+</p>
+
+<a name="netmap"/>
+<h3>网络地图</h3>
+<p>
+网络地图是由世界地图，和红点指明的 Tor 网络地图上中继的地理位置组成的。绿色线条连接中继用以指明 Tor 客户端通过 Tor 网络创建回路的路径。
+</p>
+<p>
+您可以通过点击工具栏上的<b>缩小</b>和<b>放大</b>按钮来放缩地图。您也可以通过点击地图并且拖拽到您想要移动的目标上。
+</p>
+<p>
+Tor 中继的地理位置决定于 GeoIP 数据库中中继的 IP 地址，由 MaxMind 创建并位于geoip.vidalia-project.net。
+</p>
+<p>
+In the middle of the dialog, below the network map, you will see a list of
+your current circuits, as well as any application traffic currently on those
+circuits. When the network map first loads, you will probably see a
+connection to geoip.vidalia-project.net, which occurs when Vidalia is
+looking up geographic information for the list of Tor relays. It is
+important to note that this request is done through Tor, so your location is
+not revealed to the GeoIP relay. The results of the lookups will be cached
+locally in order to reduce load on Vidalia's GeoIP relays.
+</p>
+
+
+<a name="relaylist"/>
+<h3>中继状态</h3>
+<p>
+在网络查看器的左边，您将会看到一个在 Tor 网络中的中继列表。每个中继下面是一个指示中继状态的图标。下面的表格总结了中继状态图标。
+</p>
+<p>
+<table border="1">
+<tr>
+  <td><img src="qrc:/images/icons/node-unresponsive.png"/></td>
+  <td valign="middle">
+    中继离线或未回应。
+  </td>
+</tr>
+<tr>
+  <td><img src="qrc:/images/icons/node-hibernating.png"/></td>
+  <td valign="middle">
+    The relay is <i>hibernating</i>, meaning it is online, but has used up as
+much bandwidth as the operator is willing to allow for a given time period.
+  </td>
+</tr>
+<tr>
+  <td><img src="qrc:/images/icons/node-bw-none.png"/></td>
+  <td valign="middle">
+    中继在线，但显示了很小的数据流量。
+  </td>
+</tr>
+<tr>
+  <td><img src="qrc:/images/icons/node-bw-low.png"/></td>
+  <td valign="middle">
+    中继在线并且显示流量&gt;= 20 KB/s。
+  </td>
+</tr>
+<tr>
+  <td><img src="qrc:/images/icons/node-bw-med.png"/></td>
+  <td valign="middle">
+    中继在线并且显示流量&gt;= 60 KB/s。
+  </td>
+</tr>
+<tr>
+  <td><img src="qrc:/images/icons/node-bw-high.png"/></td>
+  <td valign="middle">
+    中继在线并且显示流量&gt;= 400 KB/s。
+  </td>
+</tr>
+</table>
+</p>
+<p>
+All bandwidth values are estimates based on the minimum of either the
+maximum bandwidth sustained input or output over any ten second period in
+the past day.
+</p>
+
+
+<a name="details"/>
+<h3>中继细节</h3>
+<p>
+在屏幕右边的终极细节面板向您提供了关于中继或当前在<a
+href="#relaylist">中继列表</a>中选择的细节。如果您在当前回路或流中选择了一个回路或流，该面板将会向您展示关于每个通过回路发送信息的细节。
+</p>
+<p>
+面板中您能看的项目如下（<i>注意</i>：不是所有的项目都会显示出来的）：
+</p>
+<p>
+<table>
+<tr>
+  <td><b>位置</b></td>
+  <td>Tor 中继的地理位置。</td>
+</tr>
+<tr>
+  <td><b>IP 地址</b></td>
+  <td>该 Tor 中继可能连接到的 IP 地址。</td>
+</tr>
+<tr>
+  <td><b>平台</b></td>
+  <td>
+    当前正在运行中继平台的操作系统信息和 Tor 版本。
+  </td>
+</tr>
+<tr>
+  <td><b>宽带</b></td>
+  <td>
+    Estimated maximum amount of bandwidth that the directory relays have seen
+this relay handle recently.
+  </td>
+</tr>
+<tr>
+  <td><b>运行时间</b></td>
+  <td>
+    宽带已经运行的时间，可以帮助评估该中继的稳定性。
+  </td>
+</tr>
+<tr>
+  <td><b>最后更新</b></td>
+  <td>该中继的信息最后更新的日期。</td>
+</tr>
+</table>
+</p>
+</body>
+</html>
+

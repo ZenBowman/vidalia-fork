@@ -1,0 +1,3847 @@
+# 
+# Translators:
+# runasand <runa.sandvik@gmail.com>, 2011.
+#   <viktor.varga@gmail.com>, 2011, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: The Tor Project\n"
+"Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
+"POT-Creation-Date: 2012-03-21 17:52+0000\n"
+"PO-Revision-Date: 2012-04-06 09:28+0000\n"
+"Last-Translator: vargaviktor <viktor.varga@gmail.com>\n"
+"Language-Team: translations@vidalia-project.net\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"X-Generator: Vidalia ts2po 0.2\n"
+
+msgctxt "AboutDialog"
+msgid "About Vidalia"
+msgstr "A Vidalia névjegye"
+
+msgctxt "AboutDialog"
+msgid "License"
+msgstr "Licensz"
+
+msgctxt "AboutDialog"
+msgid "Vidalia 0.2.0"
+msgstr "Vidalia 0.2.0"
+
+msgctxt "AboutDialog"
+msgid "Tor 0.2.0.32"
+msgstr "Tor 0.2.0.32"
+
+msgctxt "AboutDialog"
+msgid "Qt 4.4.2"
+msgstr "Qt 4.4.2"
+
+msgctxt "AdvancedPage"
+msgid "'%1' is not a valid IP address."
+msgstr "'%1' egy nem létező IP cím."
+
+msgctxt "AdvancedPage"
+msgid ""
+"You selected 'Password' authentication, but did not specify a password."
+msgstr "Kiválasztotta a Jelszavas bejelentkezést, de nem adott meg jelszót."
+
+msgctxt "AdvancedPage"
+msgid "Select Tor Configuration File"
+msgstr "Tor Konfigurációs Fájl kiválasztása"
+
+msgctxt "AdvancedPage"
+msgid "File Not Found"
+msgstr "A fájl nem található"
+
+msgctxt "AdvancedPage"
+msgid "%1 does not exist. Would you like to create it?"
+msgstr "%1 nem létezik. Kívánja létrehozni?"
+
+msgctxt "AdvancedPage"
+msgid "Failed to Create File"
+msgstr "Fájl létrehozása sikertelen"
+
+msgctxt "AdvancedPage"
+msgid "Unable to create %1 [%2]"
+msgstr "Nem lehet létrehozni %1-t [%2]"
+
+msgctxt "AdvancedPage"
+msgid "Select a Directory to Use for Tor Data"
+msgstr "Válasszon egy könyvtárat a TOR adatok tárolásához"
+
+msgctxt "AdvancedPage"
+msgid "Unable to remove Tor Service"
+msgstr "Jelenleg a Tor szolgáltatás nem eltávolítható"
+
+msgctxt "AdvancedPage"
+msgid "Unable to install Tor Service"
+msgstr "Jelenleg a Tor szolgáltatás nem telepíthető"
+
+msgctxt "AdvancedPage"
+msgid "Vidalia was unable to install the Tor service."
+msgstr "A Tor szolgáltatás telepítése sikertelen."
+
+msgctxt "AdvancedPage"
+msgid "Authentication:"
+msgstr "Ellenőrzés:"
+
+msgctxt "AdvancedPage"
+msgid "Address:"
+msgstr "Cím:"
+
+msgctxt "AdvancedPage"
+msgid "None"
+msgstr "Nincs"
+
+msgctxt "AdvancedPage"
+msgid "Cookie"
+msgstr "Süti"
+
+msgctxt "AdvancedPage"
+msgid "Password"
+msgstr "Jelszó"
+
+msgctxt "AdvancedPage"
+msgid "Randomly Generate"
+msgstr "Jelszó véletlenszerű létrehozása"
+
+msgctxt "AdvancedPage"
+msgid ":"
+msgstr ":"
+
+msgctxt "AdvancedPage"
+msgid "Tor Configuration File"
+msgstr "Tor Konfigurációs Fájl"
+
+msgctxt "AdvancedPage"
+msgid "Start the Tor software with the specified configuration file (torrc)"
+msgstr "A Tor indítása a megadott 'torrc' konfigurációs fájllal"
+
+msgctxt "AdvancedPage"
+msgid "Select path to your configuration file"
+msgstr "Adja meg a konfigurációs fájl helyét"
+
+msgctxt "AdvancedPage"
+msgid "Browse"
+msgstr "Tallóz"
+
+msgctxt "AdvancedPage"
+msgid "Data Directory"
+msgstr "Adat könyvtár"
+
+msgctxt "AdvancedPage"
+msgid "Store data for the Tor software in the following directory"
+msgstr "A Tor adatok tárolása a következő könyvtárban"
+
+msgctxt "AdvancedPage"
+msgid "Select the directory used to store data for the Tor software"
+msgstr "Válassza ki a könyvtárat melyet a Tor adatok tárolására fog használni"
+
+msgctxt "AdvancedPage"
+msgid "Tor Control"
+msgstr "Tor Vezérlés"
+
+msgctxt "AdvancedPage"
+msgid "Use TCP connection (ControlPort)"
+msgstr "TCP kapcsolat használata (Vezérlőport)"
+
+msgctxt "AdvancedPage"
+msgid "Path:"
+msgstr "Útvonal:"
+
+msgctxt "AdvancedPage"
+msgid "Use Unix domain socket (ControlSocket)"
+msgstr "Unix domain socket használata (ControlSocket)"
+
+msgctxt "AdvancedPage"
+msgid "Edit current torrc"
+msgstr "Aktuális torrc (tor konfigurációs) fájl szerkesztése"
+
+msgctxt "AdvancedPage"
+msgid "NOTE: this will edit the currently loaded torrc"
+msgstr "MEGJEGYZÉS: ez az aktuálisan betöltött torrc fájlt szerkeszti"
+
+msgctxt "AdvancedPage"
+msgid "ControlSocket path doesn't exist."
+msgstr "A ControlSocket útvonala nem létezik."
+
+msgctxt "AdvancedPage"
+msgid ""
+"The specified Tor configuration file location contains characters that "
+"cannot be represented in your system's current 8-bit character encoding."
+msgstr "A megadott Tor konfigurációs fájl helye olyan karakteret tartalmaz, amely nem értelmezhető a rendszer aktuális 8-bites karakter kódolásával."
+
+msgctxt "AdvancedPage"
+msgid ""
+"The specified Tor data directory location contains characters that cannot be"
+" represented in your system's current 8-bit character encoding."
+msgstr "A megadott Tor adatkönyvtár neve olyan karakteret tartalmaz, amely nem értelmezhető a rendszer aktuális 8-bites karakter kódolásával."
+
+msgctxt "AdvancedPage"
+msgid "Warning"
+msgstr "Figyelem"
+
+msgctxt "AdvancedPage"
+msgid "You changed torrc path, would you like to restart Tor?"
+msgstr "Megváltoztatta a torrc fájl útvonalát, szeretné újraindítani a Tor-t?"
+
+msgctxt "AdvancedPage"
+msgid "Tor Configuration File (torrc);;All Files (*)"
+msgstr "Tor konfigurációs fáj (torrc);;Minden fájl (*)"
+
+msgctxt "AdvancedPage"
+msgid "Select a file to use for Tor socket path"
+msgstr "Válasszon ki egy fájlt a Tor socket útvonalhoz"
+
+msgctxt "AdvancedPage"
+msgid "Configure ControlPort automatically"
+msgstr "Vezérlőport automatikus konfigurálása"
+
+msgctxt "AdvancedPage"
+msgid ""
+"You've checked the autoconfiguration option for the ControlPort, but "
+"provided no Data Directory. Please add one, or uncheck the \"Configure "
+"ControlPort automatically\" option."
+msgstr "Bekapcsolta az automatikus beállítását a Vezérlőportnak, de nem adott meg Adat könyvtárat.Kérem adjon meg egyet, vagy kapcsolja ki a \"A vezérlőport automatikus beállítása\" opciót."
+
+msgctxt "AdvancedPage"
+msgid ""
+"Vidalia was unable to remove the Tor service.\n"
+"\n"
+"You may need to remove it manually."
+msgstr "Vidalia nem tudta eltávolítani a Tor szolgáltatást.\n\nKézzel kell majd eltávolítania."
+
+msgctxt "AppearancePage"
+msgid "Language"
+msgstr "Nyelv"
+
+msgctxt "AppearancePage"
+msgid "Choose the language used in Vidalia"
+msgstr "Válassza ki milyen nyelvet használjon a Vidalia"
+
+msgctxt "AppearancePage"
+msgid "Style"
+msgstr "Stílus"
+
+msgctxt "AppearancePage"
+msgid "Choose Vidalia's interface style"
+msgstr "Válassza ki Vidalia felhasználói felület kinézetét"
+
+msgctxt "AppearancePage"
+msgid "Vidalia was unable to load the selected language translation."
+msgstr "Nem sikerült a választott nyelvi fordítás betöltése."
+
+msgctxt "AppearancePage"
+msgid ""
+"System Icon Preferences (changes will take effect when you restart Vidalia)"
+msgstr "Rendszer ikon beállítások (a Vidalia újraindításával változnak)"
+
+msgctxt "AppearancePage"
+msgid "Show the Tray Icon and Dock Icon (default)"
+msgstr "A Tálca és Dokkoló ikonok megjelenítése (alapértelmezett)"
+
+msgctxt "AppearancePage"
+msgid "Hide the Tray Icon"
+msgstr "Tálca ikon elrejtése"
+
+msgctxt "AppearancePage"
+msgid "Hide the Dock Icon"
+msgstr "Dokkoló ikon elrejtése"
+
+msgctxt "BandwidthGraph"
+msgid "Since:"
+msgstr "Ekkortól:"
+
+msgctxt "BandwidthGraph"
+msgid "Hide Settings"
+msgstr "Beállítások elrejtése"
+
+msgctxt "BandwidthGraph"
+msgid "Show Settings"
+msgstr "Beállítások megjelenítése"
+
+msgctxt "BandwidthGraph"
+msgid "Tor Bandwidth Usage"
+msgstr "Tor sávszélesség használat"
+
+msgctxt "BandwidthGraph"
+msgid "Reset"
+msgstr "Alapállapot"
+
+msgctxt "BandwidthGraph"
+msgid "Receive Rate"
+msgstr "Fogadási arány"
+
+msgctxt "BandwidthGraph"
+msgid "Send Rate"
+msgstr "Küldési arány"
+
+msgctxt "BandwidthGraph"
+msgid "Always on Top"
+msgstr "Mindig látható"
+
+msgctxt "BandwidthGraph"
+msgid "Style"
+msgstr "Stílus"
+
+msgctxt "BandwidthGraph"
+msgid "Changes the transparency of the Bandwidth Graph"
+msgstr "A Sávszélesség grafikon átlátszóságának megváltoztatása"
+
+msgctxt "BandwidthGraph"
+msgid "100"
+msgstr "100"
+
+msgctxt "BandwidthGraph"
+msgid "% Opaque"
+msgstr "% átlátszóság"
+
+msgctxt "BandwidthGraph"
+msgid "Save"
+msgstr "Mentés"
+
+msgctxt "BandwidthGraph"
+msgid "Cancel"
+msgstr "Mégse"
+
+msgctxt "BridgeDownloader"
+msgid "Starting HTTPS bridge request..."
+msgstr "HTTPS hídkérés indítása..."
+
+msgctxt "BridgeDownloader"
+msgid "Connecting to %1:%2..."
+msgstr "Kapcsolódás a következőhöz: %1:%2..."
+
+msgctxt "BridgeDownloader"
+msgid "Sending an HTTPS request for bridges..."
+msgstr "HTTPS kérés küldése a hidaknak..."
+
+msgctxt "BridgeDownloader"
+msgid "Downloading a list of bridges..."
+msgstr "A hidak listájának letöltése..."
+
+msgctxt "BridgeDownloaderProgressDialog"
+msgid "Downloading Bridges"
+msgstr "Hidak letöltése"
+
+msgctxt "BridgeDownloaderProgressDialog"
+msgid "Unable to download bridges: %1"
+msgstr "Nem sikerült letölteni a hidakat: %1"
+
+msgctxt "BridgeDownloaderProgressDialog"
+msgid "Retrying bridge request..."
+msgstr "A hidak lekérésének újrapróbálása..."
+
+msgctxt "BridgeUsageDialog"
+msgid "Country"
+msgstr "Ország"
+
+msgctxt "BridgeUsageDialog"
+msgid "# Clients"
+msgstr "# kliens"
+
+msgctxt "BridgeUsageDialog"
+msgid "Clients from the following countries have used your relay since %1"
+msgstr "%1 óta az alábbi országokból használták az ön Elosztóját"
+
+msgctxt "BridgeUsageDialog"
+msgid "Bridge Usage Summary"
+msgstr "Híd használat összesítés"
+
+msgctxt "BridgeUsageDialog"
+msgid "Client Summary"
+msgstr "Kliens összesítés"
+
+msgctxt "Circuit"
+msgid "New"
+msgstr "Új"
+
+msgctxt "Circuit"
+msgid "Open"
+msgstr "Nyitott"
+
+msgctxt "Circuit"
+msgid "Building"
+msgstr "Felépítés alatt"
+
+msgctxt "Circuit"
+msgid "Failed"
+msgstr "Sikertelen"
+
+msgctxt "Circuit"
+msgid "Closed"
+msgstr "Lezárt"
+
+msgctxt "Circuit"
+msgid "Unknown"
+msgstr "Ismeretlen"
+
+msgctxt "CircuitItem"
+msgid "<Path Empty>"
+msgstr "<Üres útvonal>"
+
+msgctxt "CircuitListWidget"
+msgid "Connection"
+msgstr "Kapcsolat"
+
+msgctxt "CircuitListWidget"
+msgid "Status"
+msgstr "Állapot"
+
+msgctxt "CircuitListWidget"
+msgid "Zoom to Circuit"
+msgstr "Kapcsolatra közelítés"
+
+msgctxt "CircuitListWidget"
+msgid "Close Circuit (Del)"
+msgstr "Ösvény lekapcsolása (Del)"
+
+msgctxt "CircuitListWidget"
+msgid "Close Stream (Del)"
+msgstr "Adatfolyam megszakítása (Del)"
+
+msgctxt "ConfigDialog"
+msgid "General"
+msgstr "Általános"
+
+msgctxt "ConfigDialog"
+msgid "Network"
+msgstr "Hálózat"
+
+msgctxt "ConfigDialog"
+msgid "Sharing"
+msgstr "Megosztás"
+
+msgctxt "ConfigDialog"
+msgid "Services"
+msgstr "Szolgáltatások"
+
+msgctxt "ConfigDialog"
+msgid "Appearance"
+msgstr "Megjelenés"
+
+msgctxt "ConfigDialog"
+msgid "Advanced"
+msgstr "Haladó"
+
+msgctxt "ConfigDialog"
+msgid "Help"
+msgstr "Súgó"
+
+msgctxt "ConfigDialog"
+msgid "Error Saving Settings"
+msgstr "Hiba a beállítások mentése közben"
+
+msgctxt "ConfigDialog"
+msgid "Vidalia was unable to save your %1 settings."
+msgstr "A Vidalia nem tudta menteni a %1 beállításokat."
+
+msgctxt "ConfigDialog"
+msgid "Error Applying Settings"
+msgstr "Hiba a beállítások alkalmazása közben"
+
+msgctxt "ConfigDialog"
+msgid "Vidalia was unable to apply your %1 settings to Tor."
+msgstr "A Vidalia nem tudja alkalmazni a %1 Tor beállításokat."
+
+msgctxt "ConfigDialog"
+msgid "Settings"
+msgstr "Beállítások"
+
+msgctxt "ControlConnection"
+msgid "Vidalia was unable to connect to Tor. (%1)"
+msgstr "Nem sikerült a Tor-hoz kapcsolódni. (%1)"
+
+msgctxt "ControlConnection"
+msgid "Control socket is not connected."
+msgstr "A Vezérlõ szál (socket) nem kapcsolódott."
+
+msgctxt "ControlPasswordInputDialog"
+msgid "Password Required"
+msgstr "Jelszó szükséges"
+
+msgctxt "ControlPasswordInputDialog"
+msgid "Remember my password"
+msgstr "Emlékezzen a jelszavamra"
+
+msgctxt "ControlPasswordInputDialog"
+msgid ""
+"Vidalia has connected to a running Tor process that requires a password. "
+"Please enter your control password:"
+msgstr "A Vidalia olyan Tor folyamathoz kapcsolódott, amely jelszót kér. Kérjük adja meg a vezérlő jelszót:"
+
+msgctxt "ControlSocket"
+msgid "Control socket is not connected."
+msgstr "A Vezérlõ szál (socket) nem kapcsolódott."
+
+msgctxt "ControlSocket"
+msgid "Error sending control command. [%1]"
+msgstr "Hiba történt a kontroll parancs küldésekor. [%1]"
+
+msgctxt "ControlSocket"
+msgid "Socket disconnected while attempting to read a line of data."
+msgstr "A kapcsolat megszűnt egy adatsor beolvasása közben."
+
+msgctxt "ControlSocket"
+msgid "Invalid control reply. [%1]"
+msgstr "Érvénytelen kontroll válasz. [%1]"
+
+msgctxt "CountryInfo"
+msgid "Afghanistan"
+msgstr "Afganisztán"
+
+msgctxt "CountryInfo"
+msgid "Andorra"
+msgstr "Andorra"
+
+msgctxt "CountryInfo"
+msgid "Angola"
+msgstr "Angola"
+
+msgctxt "CountryInfo"
+msgid "Antigua & Barbuda"
+msgstr "Antigua & Barbuda"
+
+msgctxt "CountryInfo"
+msgid "Argentina"
+msgstr "Argentína"
+
+msgctxt "CountryInfo"
+msgid "Armenia"
+msgstr "Örményország"
+
+msgctxt "CountryInfo"
+msgid "Australia"
+msgstr "Ausztrália"
+
+msgctxt "CountryInfo"
+msgid "Azerbaijan"
+msgstr "Azerbajdzsán"
+
+msgctxt "CountryInfo"
+msgid "Bahamas"
+msgstr "Bahama-szigetek"
+
+msgctxt "CountryInfo"
+msgid "Bangladesh"
+msgstr "Banglades"
+
+msgctxt "CountryInfo"
+msgid "Barbados"
+msgstr "Barbados"
+
+msgctxt "CountryInfo"
+msgid "Belarus"
+msgstr "Fehéroroszország"
+
+msgctxt "CountryInfo"
+msgid "Belgium"
+msgstr "Belgium"
+
+msgctxt "CountryInfo"
+msgid "Belize"
+msgstr "Belize"
+
+msgctxt "CountryInfo"
+msgid "Bhutan"
+msgstr "Bhután"
+
+msgctxt "CountryInfo"
+msgid "Bolivia"
+msgstr "Bolívia"
+
+msgctxt "CountryInfo"
+msgid "Bosnia & Herzegovina"
+msgstr "Bosznia & Hercegovina"
+
+msgctxt "CountryInfo"
+msgid "Botswana"
+msgstr "Botswana"
+
+msgctxt "CountryInfo"
+msgid "Brazil"
+msgstr "Brazília"
+
+msgctxt "CountryInfo"
+msgid "Brunei Darussalam"
+msgstr "Brunei Szultánság"
+
+msgctxt "CountryInfo"
+msgid "Bulgaria"
+msgstr "Bulgária"
+
+msgctxt "CountryInfo"
+msgid "Burkina Faso"
+msgstr "Burkina Faso"
+
+msgctxt "CountryInfo"
+msgid "Burundi"
+msgstr "Burundi"
+
+msgctxt "CountryInfo"
+msgid "Cambodia"
+msgstr "Kambodzsa"
+
+msgctxt "CountryInfo"
+msgid "Cameroon"
+msgstr "Kamerun"
+
+msgctxt "CountryInfo"
+msgid "Canada"
+msgstr "Kanada"
+
+msgctxt "CountryInfo"
+msgid "Cape Verde"
+msgstr "Zöld-foki Köztársaság"
+
+msgctxt "CountryInfo"
+msgid "Central African Republic"
+msgstr "Közép-afrikai Köztársaság"
+
+msgctxt "CountryInfo"
+msgid "Chad"
+msgstr "Csád"
+
+msgctxt "CountryInfo"
+msgid "Chile"
+msgstr "Chile"
+
+msgctxt "CountryInfo"
+msgid "China"
+msgstr "Kína"
+
+msgctxt "CountryInfo"
+msgid "Colombia"
+msgstr "Kolumbia"
+
+msgctxt "CountryInfo"
+msgid "Comoros"
+msgstr "Comore-szigetek"
+
+msgctxt "CountryInfo"
+msgid "Congo, The Democratic Republic of the"
+msgstr "Kongói Demokratikus Köztársaság"
+
+msgctxt "CountryInfo"
+msgid "Congo"
+msgstr "Kongó"
+
+msgctxt "CountryInfo"
+msgid "Costa Rica"
+msgstr "Costa Rica"
+
+msgctxt "CountryInfo"
+msgid "Cote dâIvoire"
+msgstr "Elefántcsontpart"
+
+msgctxt "CountryInfo"
+msgid "Croatia"
+msgstr "Horvátország"
+
+msgctxt "CountryInfo"
+msgid "Cuba"
+msgstr "Kuba"
+
+msgctxt "CountryInfo"
+msgid "Cyprus"
+msgstr "Ciprus"
+
+msgctxt "CountryInfo"
+msgid "Czech Republic"
+msgstr "Csehország"
+
+msgctxt "CountryInfo"
+msgid "Denmark"
+msgstr "Dánia"
+
+msgctxt "CountryInfo"
+msgid "Djibouti"
+msgstr "Dzsibuti"
+
+msgctxt "CountryInfo"
+msgid "Dominica"
+msgstr "Dominika"
+
+msgctxt "CountryInfo"
+msgid "Dominican Republic"
+msgstr "Dominikai Köztársaság"
+
+msgctxt "CountryInfo"
+msgid "Ecuador"
+msgstr "Ecuador"
+
+msgctxt "CountryInfo"
+msgid "Egypt"
+msgstr "Egyiptom"
+
+msgctxt "CountryInfo"
+msgid "El Salvador"
+msgstr "El Salvador"
+
+msgctxt "CountryInfo"
+msgid "Equatorial Guinea"
+msgstr "Egyenlítői Guniea"
+
+msgctxt "CountryInfo"
+msgid "Eritrea"
+msgstr "Eritrea"
+
+msgctxt "CountryInfo"
+msgid "Estonia"
+msgstr "Estonia"
+
+msgctxt "CountryInfo"
+msgid "France"
+msgstr "Franciaország"
+
+msgctxt "CountryInfo"
+msgid "Gabon"
+msgstr "Gabon"
+
+msgctxt "CountryInfo"
+msgid "Gambia"
+msgstr "Gambia"
+
+msgctxt "CountryInfo"
+msgid "Georgia"
+msgstr "Grúzia"
+
+msgctxt "CountryInfo"
+msgid "Germany"
+msgstr "Németország"
+
+msgctxt "CountryInfo"
+msgid "Ghana"
+msgstr "Ghána"
+
+msgctxt "CountryInfo"
+msgid "Grenada"
+msgstr "Grenada"
+
+msgctxt "CountryInfo"
+msgid "Guatemala"
+msgstr "Guatemala"
+
+msgctxt "CountryInfo"
+msgid "Guinea"
+msgstr "Guinea"
+
+msgctxt "CountryInfo"
+msgid "Guinea-Bissau"
+msgstr "Bissau-Guinea"
+
+msgctxt "CountryInfo"
+msgid "Guyana"
+msgstr "Guyana"
+
+msgctxt "CountryInfo"
+msgid "Hong Kong"
+msgstr "Hong Kong"
+
+msgctxt "CountryInfo"
+msgid "Haiti"
+msgstr "Haiti"
+
+msgctxt "CountryInfo"
+msgid "Honduras"
+msgstr "Honduras"
+
+msgctxt "CountryInfo"
+msgid "Israel"
+msgstr "Izrael"
+
+msgctxt "CountryInfo"
+msgid "Italy"
+msgstr "Olaszország"
+
+msgctxt "CountryInfo"
+msgid "Jamaica"
+msgstr "Jamaika"
+
+msgctxt "CountryInfo"
+msgid "Japan"
+msgstr "Japán"
+
+msgctxt "CountryInfo"
+msgid "Jordan"
+msgstr "Jordánia"
+
+msgctxt "CountryInfo"
+msgid "Kazakhstan"
+msgstr "Kazahsztán"
+
+msgctxt "CountryInfo"
+msgid "Kenya"
+msgstr "Kenya"
+
+msgctxt "CountryInfo"
+msgid "Kiribati"
+msgstr "Kiribati"
+
+msgctxt "CountryInfo"
+msgid "Kuwait"
+msgstr "Kuvait"
+
+msgctxt "CountryInfo"
+msgid "Kyrgyzstan"
+msgstr "Kirgizisztán"
+
+msgctxt "CountryInfo"
+msgid "Laos"
+msgstr "Laosz"
+
+msgctxt "CountryInfo"
+msgid "Latvia"
+msgstr "Lettország"
+
+msgctxt "CountryInfo"
+msgid "Lebanon"
+msgstr "Libanon"
+
+msgctxt "CountryInfo"
+msgid "Lesotho"
+msgstr "Lesotho"
+
+msgctxt "CountryInfo"
+msgid "Liberia"
+msgstr "Libéria"
+
+msgctxt "CountryInfo"
+msgid "Liechtenstein"
+msgstr "Liechtenstein"
+
+msgctxt "CountryInfo"
+msgid "Lithuania"
+msgstr "Litvánia"
+
+msgctxt "CountryInfo"
+msgid "Luxembourg"
+msgstr "Luxemburg"
+
+msgctxt "CountryInfo"
+msgid "Macedonia"
+msgstr "Makedónia"
+
+msgctxt "CountryInfo"
+msgid "Madagascar"
+msgstr "Madagaszkár"
+
+msgctxt "CountryInfo"
+msgid "Malawi"
+msgstr "Malawi"
+
+msgctxt "CountryInfo"
+msgid "Malaysia"
+msgstr "Malajzia"
+
+msgctxt "CountryInfo"
+msgid "Mali"
+msgstr "Mali"
+
+msgctxt "CountryInfo"
+msgid "Malta"
+msgstr "Málta"
+
+msgctxt "CountryInfo"
+msgid "Marshall Islands"
+msgstr "Marshall-szigetek"
+
+msgctxt "CountryInfo"
+msgid "Mauritania"
+msgstr "Mauritánia"
+
+msgctxt "CountryInfo"
+msgid "Mauritius"
+msgstr "Mauritius"
+
+msgctxt "CountryInfo"
+msgid "Micronesia"
+msgstr "Mikronézia"
+
+msgctxt "CountryInfo"
+msgid "Moldova"
+msgstr "Moldova"
+
+msgctxt "CountryInfo"
+msgid "Monaco"
+msgstr "Monaco"
+
+msgctxt "CountryInfo"
+msgid "Mongolia"
+msgstr "Mongólia"
+
+msgctxt "CountryInfo"
+msgid "Montenegro"
+msgstr "Montenegró"
+
+msgctxt "CountryInfo"
+msgid "Morocco"
+msgstr "Marokkó"
+
+msgctxt "CountryInfo"
+msgid "Mozambique"
+msgstr "Mozambik"
+
+msgctxt "CountryInfo"
+msgid "Namibia"
+msgstr "Namíbia"
+
+msgctxt "CountryInfo"
+msgid "Nauru"
+msgstr "Nauru"
+
+msgctxt "CountryInfo"
+msgid "Nepal"
+msgstr "Nepál"
+
+msgctxt "CountryInfo"
+msgid "Netherlands"
+msgstr "Hollandia"
+
+msgctxt "CountryInfo"
+msgid "New Zealand"
+msgstr "Új-Zéland"
+
+msgctxt "CountryInfo"
+msgid "Nicaragua"
+msgstr "Nicaragua"
+
+msgctxt "CountryInfo"
+msgid "Niger"
+msgstr "Niger"
+
+msgctxt "CountryInfo"
+msgid "Nigeria"
+msgstr "Nigéria"
+
+msgctxt "CountryInfo"
+msgid "Norway"
+msgstr "Norvégia"
+
+msgctxt "CountryInfo"
+msgid "Oman"
+msgstr "Omán"
+
+msgctxt "CountryInfo"
+msgid "Pakistan"
+msgstr "Pakisztán"
+
+msgctxt "CountryInfo"
+msgid "Palau"
+msgstr "Palau"
+
+msgctxt "CountryInfo"
+msgid "Palestine"
+msgstr "Palesztína"
+
+msgctxt "CountryInfo"
+msgid "Panama"
+msgstr "Panama"
+
+msgctxt "CountryInfo"
+msgid "Papua New Guinea"
+msgstr "Pápua Új Guinea"
+
+msgctxt "CountryInfo"
+msgid "Paraguay"
+msgstr "Paraguay"
+
+msgctxt "CountryInfo"
+msgid "Peru"
+msgstr "Peru"
+
+msgctxt "CountryInfo"
+msgid "Philippines"
+msgstr "Fülöp-szigetek"
+
+msgctxt "CountryInfo"
+msgid "Poland"
+msgstr "Lengyelország"
+
+msgctxt "CountryInfo"
+msgid "Portugal"
+msgstr "Portugália"
+
+msgctxt "CountryInfo"
+msgid "Qatar"
+msgstr "Katar"
+
+msgctxt "CountryInfo"
+msgid "Romania"
+msgstr "Románia"
+
+msgctxt "CountryInfo"
+msgid "Russia"
+msgstr "Oroszország"
+
+msgctxt "CountryInfo"
+msgid "Rwanda"
+msgstr "Ruanda"
+
+msgctxt "CountryInfo"
+msgid "Saint Kitts & Nevis"
+msgstr "Saint Kitts & Nevis"
+
+msgctxt "CountryInfo"
+msgid "Saint Lucia"
+msgstr "Saint Lucia"
+
+msgctxt "CountryInfo"
+msgid "Saint Vincent & the Grenadines"
+msgstr "Saint Vincent és a Grenadine-szigetek"
+
+msgctxt "CountryInfo"
+msgid "Samoa"
+msgstr "Szamoa"
+
+msgctxt "CountryInfo"
+msgid "San Marino"
+msgstr "San Marino"
+
+msgctxt "CountryInfo"
+msgid "Sao Tome & Principe"
+msgstr "Sao Tome & Principe"
+
+msgctxt "CountryInfo"
+msgid "Saudi Arabia"
+msgstr "Szaúd Arábia"
+
+msgctxt "CountryInfo"
+msgid "Senegal"
+msgstr "Szenegál"
+
+msgctxt "CountryInfo"
+msgid "Serbia"
+msgstr "Szerbia"
+
+msgctxt "CountryInfo"
+msgid "Seychelles"
+msgstr "Seychelle-szigetek"
+
+msgctxt "CountryInfo"
+msgid "Sierra Leone"
+msgstr "Sierra Leone"
+
+msgctxt "CountryInfo"
+msgid "Singapore"
+msgstr "Szingapúr"
+
+msgctxt "CountryInfo"
+msgid "Slovakia"
+msgstr "Szlovákia"
+
+msgctxt "CountryInfo"
+msgid "Slovenia"
+msgstr "Szlovénia"
+
+msgctxt "CountryInfo"
+msgid "Solomon Islands"
+msgstr "Salamon-szigetek"
+
+msgctxt "CountryInfo"
+msgid "Somalia"
+msgstr "Szomália"
+
+msgctxt "CountryInfo"
+msgid "South Africa"
+msgstr "Dél Afrika"
+
+msgctxt "CountryInfo"
+msgid "Spain"
+msgstr "Spanyolország"
+
+msgctxt "CountryInfo"
+msgid "Sri Lanka"
+msgstr "Srí Lanka"
+
+msgctxt "CountryInfo"
+msgid "Sudan"
+msgstr "Szudán"
+
+msgctxt "CountryInfo"
+msgid "Suriname"
+msgstr "Suriname"
+
+msgctxt "CountryInfo"
+msgid "Swaziland"
+msgstr "Szváziföld"
+
+msgctxt "CountryInfo"
+msgid "Sweden"
+msgstr "Svédország"
+
+msgctxt "CountryInfo"
+msgid "Switzerland"
+msgstr "Svájc"
+
+msgctxt "CountryInfo"
+msgid "Syria"
+msgstr "Szíria"
+
+msgctxt "CountryInfo"
+msgid "Tajikistan"
+msgstr "Tádzsikisztán"
+
+msgctxt "CountryInfo"
+msgid "Tanzania"
+msgstr "Tanzánia"
+
+msgctxt "CountryInfo"
+msgid "Thailand"
+msgstr "Thaiföld"
+
+msgctxt "CountryInfo"
+msgid "Timor-Leste (East Timor)"
+msgstr "Kelet-Timor"
+
+msgctxt "CountryInfo"
+msgid "Togo"
+msgstr "Togo"
+
+msgctxt "CountryInfo"
+msgid "Tonga"
+msgstr "Tonga"
+
+msgctxt "CountryInfo"
+msgid "Trinidad & Tobago"
+msgstr "Trinidad & Tobago"
+
+msgctxt "CountryInfo"
+msgid "Tunisia"
+msgstr "Tunézia"
+
+msgctxt "CountryInfo"
+msgid "Turkey"
+msgstr "Törökország"
+
+msgctxt "CountryInfo"
+msgid "Turkmenistan"
+msgstr "Türkmenisztán"
+
+msgctxt "CountryInfo"
+msgid "Tuvalu"
+msgstr "Tuvalu"
+
+msgctxt "CountryInfo"
+msgid "Uganda"
+msgstr "Uganda"
+
+msgctxt "CountryInfo"
+msgid "Ukraine"
+msgstr "Ukrajna"
+
+msgctxt "CountryInfo"
+msgid "United Arab Emirates"
+msgstr "Egyesült Arab Emirátusok"
+
+msgctxt "CountryInfo"
+msgid "United Kingdom"
+msgstr "Egyesült Királyság"
+
+msgctxt "CountryInfo"
+msgid "United States"
+msgstr "Egyesült Államok"
+
+msgctxt "CountryInfo"
+msgid "Uruguay"
+msgstr "Uruguay"
+
+msgctxt "CountryInfo"
+msgid "Uzbekistan"
+msgstr "Üzbegisztán"
+
+msgctxt "CountryInfo"
+msgid "Vanuatu"
+msgstr "Vanatu"
+
+msgctxt "CountryInfo"
+msgid "Vatican"
+msgstr "Vatikán"
+
+msgctxt "CountryInfo"
+msgid "Venezuela"
+msgstr "Venezuela"
+
+msgctxt "CountryInfo"
+msgid "Vietnam"
+msgstr "Vietnam"
+
+msgctxt "CountryInfo"
+msgid "Western Sahara"
+msgstr "Nyugat Szahara"
+
+msgctxt "CountryInfo"
+msgid "Yemen"
+msgstr "Jemen"
+
+msgctxt "CountryInfo"
+msgid "Zambia"
+msgstr "Zambia"
+
+msgctxt "CountryInfo"
+msgid "Zimbabwe"
+msgstr "Zimbabwe"
+
+msgctxt "CountryInfo"
+msgid "Zaire"
+msgstr "Zaire"
+
+msgctxt "CountryInfo"
+msgid "Albania"
+msgstr "Albánia"
+
+msgctxt "CountryInfo"
+msgid "Algeria"
+msgstr "Algéria"
+
+msgctxt "CountryInfo"
+msgid "Austria"
+msgstr "Ausztria"
+
+msgctxt "CountryInfo"
+msgid "Bahrain"
+msgstr "Bahrein"
+
+msgctxt "CountryInfo"
+msgid "Benin"
+msgstr "Benin"
+
+msgctxt "CountryInfo"
+msgid "Ethiopia"
+msgstr "Etiópia"
+
+msgctxt "CountryInfo"
+msgid "Fiji"
+msgstr "Fiji-szigetek"
+
+msgctxt "CountryInfo"
+msgid "Finland"
+msgstr "Finnország"
+
+msgctxt "CountryInfo"
+msgid "Greece"
+msgstr "Görögország"
+
+msgctxt "CountryInfo"
+msgid "Guam"
+msgstr "Guam"
+
+msgctxt "CountryInfo"
+msgid "Hungary"
+msgstr "Magyarország"
+
+msgctxt "CountryInfo"
+msgid "Iceland"
+msgstr "Izland"
+
+msgctxt "CountryInfo"
+msgid "India"
+msgstr "India"
+
+msgctxt "CountryInfo"
+msgid "Indonesia"
+msgstr "Indonézia"
+
+msgctxt "CountryInfo"
+msgid "Iran"
+msgstr "Irán"
+
+msgctxt "CountryInfo"
+msgid "Iraq"
+msgstr "Irak"
+
+msgctxt "CountryInfo"
+msgid "Ireland"
+msgstr "Írország"
+
+msgctxt "CountryInfo"
+msgid "Korea, North"
+msgstr "Korai Nép Demokratikus Köztársaság"
+
+msgctxt "CountryInfo"
+msgid "Korea, South"
+msgstr "Dél-Korea"
+
+msgctxt "CountryInfo"
+msgid "Libya"
+msgstr "Líbia"
+
+msgctxt "CountryInfo"
+msgid "Maldives"
+msgstr "Maldív-szigetek"
+
+msgctxt "CountryInfo"
+msgid "Mexico"
+msgstr "Mexikó"
+
+msgctxt "CountryInfo"
+msgid "Myanmar"
+msgstr "Mianmar"
+
+msgctxt "CountryInfo"
+msgid "Taiwan"
+msgstr "Tajvan"
+
+msgctxt "CrashReportDialog"
+msgid "Submit a Crash Report"
+msgstr "Összeomlási jelentés beküldés"
+
+msgctxt "CrashReportDialog"
+msgid "Vidalia encountered an error and needed to close"
+msgstr "A Vidalia hibát észlelt és bezárása szükséges"
+
+msgctxt "CrashReportDialog"
+msgid "Restart Vidalia"
+msgstr "A Vidalia újraindítása"
+
+msgctxt "CrashReportDialog"
+msgid "Don't Restart"
+msgstr "Ne induljon újra"
+
+msgctxt "CrashReportDialog"
+msgid "Unable to restart Vidalia"
+msgstr "A Vidalia újraindítása sikertelen"
+
+msgctxt "CrashReportDialog"
+msgid ""
+"We were unable to automatically restart Vidalia. Please restart Vidalia "
+"manually."
+msgstr "Nem sikerült automatikusan újraindítani a Vidalia-t. Kérjük indítsa el kézzel."
+
+msgctxt "CrashReportDialog"
+msgid "Please fill a ticket in:"
+msgstr "Kérjük töltsön ki egy jegyet:"
+
+msgctxt "CrashReportDialog"
+msgid ""
+"<a "
+"href=\"https://trac.torproject.org/projects/tor/newticket\">https://trac.torproject.org/projects/tor/newticket</a>"
+msgstr "<a href=\"https://trac.torproject.org/projects/tor/newticket\">https://trac.torproject.org/projects/tor/newticket</a>"
+
+msgctxt "CrashReportDialog"
+msgid ""
+"A crash report has been created that you can send to the Vidalia developers "
+"to help identify and fix the problem. The submitted report does not contain "
+"any personally identifying information."
+msgstr "Egy összeomlási jelentés jött létre, amit elküldhet a Vidalia fejlesztőinek, hogy segítse a hiba megkeresését és javítását. Az elküldött hibajelentés személyazonosításra alkalmas adatot nem tartalmaz."
+
+msgctxt "CrashReportDialog"
+msgid ""
+"with a description of what you were doing before the application crashed, "
+"along with the following files corresponding to the crash report:"
+msgstr "egy leírással, hogy mit csinált mielőtt az alkalmazás összeomlott, és az alábbi fájlokkal, amelyek az összeomlási jelentéshez  kapcsolódnak:"
+
+msgctxt "GeneralPage"
+msgid "Executables (*.exe)"
+msgstr "Futtatható állományok (*.exe)"
+
+msgctxt "GeneralPage"
+msgid "Select Path to Tor"
+msgstr "A Tor elérési útjának megadása"
+
+msgctxt "GeneralPage"
+msgid "Select Proxy Executable"
+msgstr "Proxy indítófájl kiválasztása"
+
+msgctxt "GeneralPage"
+msgid "You must specify the name of your Tor executable."
+msgstr "Meg kell határoznia a Tor indítófájl nevét."
+
+msgctxt "GeneralPage"
+msgid "Start Vidalia when my system starts"
+msgstr "A Vidalia indítása a rendszerindításkor"
+
+msgctxt "GeneralPage"
+msgid "Browse"
+msgstr "Tallóz"
+
+msgctxt "GeneralPage"
+msgid "Start the Tor software when Vidalia starts"
+msgstr "A Tor szoftver indítása a Vidalia indulásakor"
+
+msgctxt "GeneralPage"
+msgid "Tor"
+msgstr "Tor"
+
+msgctxt "GeneralPage"
+msgid "Proxy Application (optional)"
+msgstr "Proxy Program (opcionális)"
+
+msgctxt "GeneralPage"
+msgid "Start a proxy application when Tor starts"
+msgstr "Proxy program indítása a Tor indításakor"
+
+msgctxt "GeneralPage"
+msgid "Proxy Application Arguments:"
+msgstr "Proxy program parancssori kapcsolói:"
+
+msgctxt "GeneralPage"
+msgid "Software Updates"
+msgstr "Szoftver frissítések"
+
+msgctxt "GeneralPage"
+msgid "Check for new software updates automatically"
+msgstr "Szoftverfrissítések ellenőrzése automatikusan"
+
+msgctxt "GeneralPage"
+msgid "Check Now"
+msgstr "Ellenőrzés most"
+
+msgctxt "GraphFrame"
+msgid "%1 KB/s"
+msgstr "%1 KB/s"
+
+msgctxt "GraphFrame"
+msgid "%1 KB"
+msgstr "%1 KB"
+
+msgctxt "GraphFrame"
+msgid "%1 MB"
+msgstr "%1 MB"
+
+msgctxt "GraphFrame"
+msgid "%1 GB"
+msgstr "%1 GB"
+
+msgctxt "GraphFrame"
+msgid "Recv:"
+msgstr "Érk.:"
+
+msgctxt "GraphFrame"
+msgid "Sent:"
+msgstr "Küld:"
+
+msgctxt "HelpBrowser"
+msgid "Supplied XML file is not a valid Contents document."
+msgstr "A megadott XML állomány nem egy érvényes Tartalomdokumentum."
+
+msgctxt "HelpBrowser"
+msgid "Search reached end of document"
+msgstr "A keresés elérte a dokumentum végét"
+
+msgctxt "HelpBrowser"
+msgid "Search reached start of document"
+msgstr "A keresés elérte a dokumentum elejét"
+
+msgctxt "HelpBrowser"
+msgid "Text not found in document"
+msgstr "A keresett szöveg nem található"
+
+msgctxt "HelpBrowser"
+msgid "Found %1 results"
+msgstr "%1 darab találat"
+
+msgctxt "HelpBrowser"
+msgid "Vidalia Help"
+msgstr "Vidalia súgó"
+
+msgctxt "HelpBrowser"
+msgid "Back"
+msgstr "Vissza"
+
+msgctxt "HelpBrowser"
+msgid "Move to previous page (Backspace)"
+msgstr "Ugrás az előző oldalra (Backspace)"
+
+msgctxt "HelpBrowser"
+msgid "Backspace"
+msgstr "Backspace"
+
+msgctxt "HelpBrowser"
+msgid "Forward"
+msgstr "Előre"
+
+msgctxt "HelpBrowser"
+msgid "Move to next page (Shift+Backspace)"
+msgstr "Ugrás a következő oldalra (Shift+Backspace)"
+
+msgctxt "HelpBrowser"
+msgid "Shift+Backspace"
+msgstr "Shift+Backspace"
+
+msgctxt "HelpBrowser"
+msgid "Home"
+msgstr "Kezdõlap"
+
+msgctxt "HelpBrowser"
+msgid "Move to the Home page (Ctrl+H)"
+msgstr "Ugrás a kezdő oldalra (Ctrl+H)"
+
+msgctxt "HelpBrowser"
+msgid "Ctrl+H"
+msgstr "Ctrl+H"
+
+msgctxt "HelpBrowser"
+msgid "Find"
+msgstr "Keresés"
+
+msgctxt "HelpBrowser"
+msgid "Search for a word or phrase on current page (Ctrl+F)"
+msgstr "Szóra vagy kifejezésre keresés az aktuális oldalon(Ctrl+F)"
+
+msgctxt "HelpBrowser"
+msgid "Ctrl+F"
+msgstr "Ctrl+F"
+
+msgctxt "HelpBrowser"
+msgid "Close"
+msgstr "Bezárás"
+
+msgctxt "HelpBrowser"
+msgid "Close Vidalia Help"
+msgstr "Vidalia súgó bezárása"
+
+msgctxt "HelpBrowser"
+msgid "Esc"
+msgstr "Esc"
+
+msgctxt "HelpBrowser"
+msgid "Find:"
+msgstr "Keresés:"
+
+msgctxt "HelpBrowser"
+msgid "Find Previous"
+msgstr "Előző keresése"
+
+msgctxt "HelpBrowser"
+msgid "Find Next"
+msgstr "Következő keresése"
+
+msgctxt "HelpBrowser"
+msgid "Case sensitive"
+msgstr "Kis- és nagybetűérzékeny"
+
+msgctxt "HelpBrowser"
+msgid "Whole words only"
+msgstr "Csak teljes szavakra"
+
+msgctxt "HelpBrowser"
+msgid "Help Topics"
+msgstr "Súgó témakörök"
+
+msgctxt "HelpBrowser"
+msgid "Contents"
+msgstr "Tartalom"
+
+msgctxt "HelpBrowser"
+msgid "Search"
+msgstr "Keresés"
+
+msgctxt "HelpBrowser"
+msgid "Searching for:"
+msgstr "Keresés erre:"
+
+msgctxt "HelpBrowser"
+msgid "Found Documents"
+msgstr "Talált dokumentumok"
+
+msgctxt "HelpBrowser"
+msgid "Error Loading Help Contents:"
+msgstr "Hiba a Súgó tartalom betöltésénél:"
+
+msgctxt "HelpTextBrowser"
+msgid "Opening External Link"
+msgstr "Külső hivatkozás megnyitása"
+
+msgctxt "HelpTextBrowser"
+msgid ""
+"Vidalia can open the link you selected in your default Web browser. If your "
+"browser is not currently configured to use Tor then the request will not be "
+"anonymous."
+msgstr "A Vidalia meg tudja nyitni ezt a hivatkozást az alapértelmezett böngészőben. Ha a böngésző nincs jelenleg a Tor használatára beállítva, a kapcsolat nem lesz anonim."
+
+msgctxt "HelpTextBrowser"
+msgid "Do you want Vidalia to open the link in your Web browser?"
+msgstr "Kívánja, hogy a Vidalia megnyissa ezt a hivatkozást az alapértelmezett böngészőben?"
+
+msgctxt "HelpTextBrowser"
+msgid "Unable to Open Link"
+msgstr "A hivatkozást nem lehet megnyitni"
+
+msgctxt "HelpTextBrowser"
+msgid ""
+"Vidalia was unable to open the selected link in your Web browser. You can "
+"still copy the URL and paste it into your browser."
+msgstr "A Vidalia nem tudta megnyitni a kiválasztott hivatkozást a böngészőben. Próbálja meg másolni és beilleszteni a a hivatkozást és <b>Beilleszt</b>eni a böngészõ URL sávjába."
+
+msgctxt "HelpTextBrowser"
+msgid "Error opening help file:"
+msgstr "Hiba a Súgó fájl megnyitásában:"
+
+msgctxt "LicenseDialog"
+msgid "License Information"
+msgstr "Licensz információk"
+
+msgctxt "LicenseDialog"
+msgid "License"
+msgstr "Licensz"
+
+msgctxt "LicenseDialog"
+msgid "Credits"
+msgstr "Készítők"
+
+msgctxt "LogEvent"
+msgid "Debug"
+msgstr "Hibakeresés"
+
+msgctxt "LogEvent"
+msgid "Info"
+msgstr "Infó"
+
+msgctxt "LogEvent"
+msgid "Notice"
+msgstr "Megjegyzés"
+
+msgctxt "LogEvent"
+msgid "Warning"
+msgstr "Figyelmeztetés"
+
+msgctxt "LogEvent"
+msgid "Error"
+msgstr "Hiba"
+
+msgctxt "LogEvent"
+msgid "Unknown"
+msgstr "Ismeretlen"
+
+msgctxt "LogTreeItem"
+msgid "Debug"
+msgstr "Debug"
+
+msgctxt "LogTreeItem"
+msgid "Info"
+msgstr "Info"
+
+msgctxt "LogTreeItem"
+msgid "Notice"
+msgstr "Megjegyzés"
+
+msgctxt "LogTreeItem"
+msgid "Warning"
+msgstr "Figyelmeztetés"
+
+msgctxt "LogTreeItem"
+msgid "Error"
+msgstr "Hiba"
+
+msgctxt "LogTreeItem"
+msgid "Unknown"
+msgstr "Ismeretlen"
+
+msgctxt "MainWindow"
+msgid "Start Tor"
+msgstr "Tor indítása"
+
+msgctxt "MainWindow"
+msgid "Exit"
+msgstr "Kilépés"
+
+msgctxt "MainWindow"
+msgid "Bandwidth Graph"
+msgstr "Sávszélesség grafikon"
+
+msgctxt "MainWindow"
+msgid "Message Log"
+msgstr "Log üzenetek"
+
+msgctxt "MainWindow"
+msgid "Network Map"
+msgstr "Hálózat térkép"
+
+msgctxt "MainWindow"
+msgid "Control Panel"
+msgstr "Vezérlőpult"
+
+msgctxt "MainWindow"
+msgid "Settings"
+msgstr "Beállítások"
+
+msgctxt "MainWindow"
+msgid "About"
+msgstr "Névjegy"
+
+msgctxt "MainWindow"
+msgid "Help"
+msgstr "Súgó"
+
+msgctxt "MainWindow"
+msgid "New Identity"
+msgstr "Új identitás"
+
+msgctxt "MainWindow"
+msgid "Ctrl+T"
+msgstr "Ctrl+T"
+
+msgctxt "MainWindow"
+msgid "Ctrl+B"
+msgstr "Ctrl+B"
+
+msgctxt "MainWindow"
+msgid "Ctrl+L"
+msgstr "Ctrl+L"
+
+msgctxt "MainWindow"
+msgid "Ctrl+N"
+msgstr "Ctrl+N"
+
+msgctxt "MainWindow"
+msgid "Ctrl+?"
+msgstr "Ctrl+?"
+
+msgctxt "MainWindow"
+msgid "Ctrl+I"
+msgstr "CTRL+I"
+
+msgctxt "MainWindow"
+msgid "Ctrl+P"
+msgstr "CTRL+P"
+
+msgctxt "MainWindow"
+msgid "Tor"
+msgstr "Tor"
+
+msgctxt "MainWindow"
+msgid "View"
+msgstr "Nézet"
+
+msgctxt "MainWindow"
+msgid "Vidalia Help"
+msgstr "Vidalia súgó"
+
+msgctxt "MainWindow"
+msgid "Error starting web browser"
+msgstr "Hiba a böngésző indításakor"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to start the configured web browser"
+msgstr "A beállított böngészõ indítása sikertelen"
+
+msgctxt "MainWindow"
+msgid "Error starting IM client"
+msgstr "Hiba az IM (azonnali üzenetküldő) program indításakor"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to start the configured IM client"
+msgstr "A beállított IM program indítása sikertelen"
+
+msgctxt "MainWindow"
+msgid "Error starting proxy server"
+msgstr "Hiba a proxy kiszolgáló indításakor"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to start the configured proxy server"
+msgstr "A beállított proxy kiszolgáló indítása sikertelen"
+
+msgctxt "MainWindow"
+msgid "Connecting to a relay directory"
+msgstr "Csatlakozás egy Elosztó címtárhoz"
+
+msgctxt "MainWindow"
+msgid "Establishing an encrypted directory connection"
+msgstr "Titkosított címtárkapcsolat létrehozása"
+
+msgctxt "MainWindow"
+msgid "Retrieving network status"
+msgstr "Hálózat státuszának lekérdezése"
+
+msgctxt "MainWindow"
+msgid "Loading network status"
+msgstr "Hálózat státuszának betöltése"
+
+msgctxt "MainWindow"
+msgid "Loading authority certificates"
+msgstr "Tanúsítványkiadó tanúsítványok betöltése"
+
+msgctxt "MainWindow"
+msgid "Requesting relay information"
+msgstr "Elosztási adatok lekérdezése"
+
+msgctxt "MainWindow"
+msgid "Loading relay information"
+msgstr "Elosztási adatok betöltése"
+
+msgctxt "MainWindow"
+msgid "Connecting to the Tor network"
+msgstr "Kapcsolódás a Tor hálózathoz"
+
+msgctxt "MainWindow"
+msgid "Establishing a Tor circuit"
+msgstr "Tor kapcsolat felépítése"
+
+msgctxt "MainWindow"
+msgid "Connected to the Tor network!"
+msgstr "Kapcsolódva a Tor hálózathoz! "
+
+msgctxt "MainWindow"
+msgid "miscellaneous"
+msgstr "egyebek"
+
+msgctxt "MainWindow"
+msgid "identity mismatch"
+msgstr "identitás eltérés"
+
+msgctxt "MainWindow"
+msgid "done"
+msgstr "kész"
+
+msgctxt "MainWindow"
+msgid "connection refused"
+msgstr "kapcsolódás visszautasítva"
+
+msgctxt "MainWindow"
+msgid "connection timeout"
+msgstr "a kapcsolódási idő letelt"
+
+msgctxt "MainWindow"
+msgid "read/write error"
+msgstr "írás/olvasás hiba"
+
+msgctxt "MainWindow"
+msgid "no route to host"
+msgstr "nincs út a kiszolgálóhoz"
+
+msgctxt "MainWindow"
+msgid "insufficient resources"
+msgstr "elfogytak az erőforrások"
+
+msgctxt "MainWindow"
+msgid "unknown"
+msgstr "ismeretlen"
+
+msgctxt "MainWindow"
+msgid "Tor is not running"
+msgstr "Tor lekapcsolva"
+
+msgctxt "MainWindow"
+msgid "Tor is shutting down"
+msgstr "Tor lekapcsolása folyamatban"
+
+msgctxt "MainWindow"
+msgid "Stop Tor Now"
+msgstr "Tor azonnali leállítása"
+
+msgctxt "MainWindow"
+msgid "Stop Tor"
+msgstr "Tor leállítása"
+
+msgctxt "MainWindow"
+msgid "Starting the Tor software"
+msgstr "Tor szoftver indítása"
+
+msgctxt "MainWindow"
+msgid "Starting Tor"
+msgstr "Tor indítása"
+
+msgctxt "MainWindow"
+msgid "Error Starting Tor"
+msgstr "Hiba a Tor indításával"
+
+msgctxt "MainWindow"
+msgid ""
+"Vidalia was unable to start Tor. Check your settings to ensure the correct "
+"name and location of your Tor executable is specified."
+msgstr "A Vidalia nem tudta elindítani a Tor-t. Ellenőrizze a beállításait, hogy jól van-e megadva a Tor indítófájl neve és elérési útja."
+
+msgctxt "MainWindow"
+msgid "Connecting to Tor"
+msgstr "Kapcsolódás a Tor-hoz"
+
+msgctxt "MainWindow"
+msgid "Connection Error"
+msgstr "Kapcsolódási hiba"
+
+msgctxt "MainWindow"
+msgid "Relaying is Enabled"
+msgstr "Elosztás bekapcsolva"
+
+msgctxt "MainWindow"
+msgid "Error Shutting Down"
+msgstr "Hiba a lekapcsoláskor"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to stop the Tor software."
+msgstr "A Vidalia nem tudta leállítani a Tor szoftvert."
+
+msgctxt "MainWindow"
+msgid "Unexpected Error"
+msgstr "Váratlan hiba"
+
+msgctxt "MainWindow"
+msgid "Authenticating to Tor"
+msgstr "Tor beléptetése"
+
+msgctxt "MainWindow"
+msgid "Cookie Authentication Required"
+msgstr "Süti azonosítás szükséges"
+
+msgctxt "MainWindow"
+msgid ""
+"The Tor software requires Vidalia to send the contents of an authentication "
+"cookie, but Vidalia was unable to find one."
+msgstr "A Tor a Vidalia-tól egy bejelentkező süti elküldését kéri, de a Vidalia nem találja."
+
+msgctxt "MainWindow"
+msgid "Would you like to browse for the file 'control_auth_cookie' yourself?"
+msgstr "Kívánja kitallózni a 'control_auth_cookie'  állományt?"
+
+msgctxt "MainWindow"
+msgid "Data Directory"
+msgstr "Adat könyvtár"
+
+msgctxt "MainWindow"
+msgid "Control Cookie (control_auth_cookie)"
+msgstr "Kontroll süti (control_auth_cookie)"
+
+msgctxt "MainWindow"
+msgid "Error Registering for Events"
+msgstr "Hiba az Események bejegyzésekor"
+
+msgctxt "MainWindow"
+msgid ""
+"Vidalia was unable to register for some events. Many of Vidalia's features "
+"may be unavailable."
+msgstr "Nem sikerült a Vidalia-t kifogástalanul elindítani, ezért bizonyos funkciói várhatóan nem fognak rendeltetésszerűen működni."
+
+msgctxt "MainWindow"
+msgid "Authentication Error"
+msgstr "Ellenőrzési hiba"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to authenticate to the Tor software. (%1)"
+msgstr "A Vidalia nem tud belépni a Tor szoftverbe. (%1)"
+
+msgctxt "MainWindow"
+msgid "Please check your control port authentication settings."
+msgstr "Ellenőõrizze a kontroll port bejelentkezési beállításait."
+
+msgctxt "MainWindow"
+msgid "Tor Update Available"
+msgstr "Tor frissítés elérhető"
+
+msgctxt "MainWindow"
+msgid ""
+"The currently installed version of Tor is out of date or no longer "
+"recommended. Please visit the Tor website to download the latest version."
+msgstr "A Tor jelenleg telepített régi vagy már nem ajánlott. Látogasson el a Tor weboldalára a legfrissebb verzióért."
+
+msgctxt "MainWindow"
+msgid "Tor website: %1"
+msgstr "Tor weboldal: %1"
+
+msgctxt "MainWindow"
+msgid ""
+"All subsequent connections will appear to be different than your old "
+"connections."
+msgstr "Minden későbbi kapcsolat a régi kapcsolataitól különbözőként fog szerepelni."
+
+msgctxt "MainWindow"
+msgid "Failed to Create New Identity"
+msgstr "Új identitás létrehozása sikertelen"
+
+msgctxt "MainWindow"
+msgid "Port Forwarding Failed"
+msgstr "Port továbbítás sikertelen"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to configure automatic port forwarding."
+msgstr "A Vidalia-nak nem sikerült beállítania az automatikus port továbbítást."
+
+msgctxt "MainWindow"
+msgid "Vidalia Control Panel"
+msgstr "Vidalia vezérlőpult"
+
+msgctxt "MainWindow"
+msgid "Status"
+msgstr "Állapot"
+
+msgctxt "MainWindow"
+msgid "Vidalia Shortcuts"
+msgstr "Vidalia Parancsikonok"
+
+msgctxt "MainWindow"
+msgid "Setup Relaying"
+msgstr "Elosztás beállítása"
+
+msgctxt "MainWindow"
+msgid "Set up a relay and help the network grow"
+msgstr "Elosztás bekapcsolása, részvétel a Tor hálózat működésében"
+
+msgctxt "MainWindow"
+msgid "View the Network"
+msgstr "Hálózat megtekintése"
+
+msgctxt "MainWindow"
+msgid "View a map of the Tor network"
+msgstr "Tor hálózati térkép megtekintése"
+
+msgctxt "MainWindow"
+msgid "Use a New Identity"
+msgstr "Új identitás használata"
+
+msgctxt "MainWindow"
+msgid "Make subsequent connections appear new"
+msgstr "További kapcsolatok újként való feltüntetése"
+
+msgctxt "MainWindow"
+msgid "View recent bandwidth usage"
+msgstr "Sávszélesség statisztika megtekintése"
+
+msgctxt "MainWindow"
+msgid "View log message history"
+msgstr "Naplóbejegyzések megtekintése"
+
+msgctxt "MainWindow"
+msgid "View help documentation"
+msgstr "Súgó megtekintése"
+
+msgctxt "MainWindow"
+msgid "Configure Vidalia"
+msgstr "Vidalia konfigurálása"
+
+msgctxt "MainWindow"
+msgid "View version and license information"
+msgstr "Verzió és licensz információk megtekintése"
+
+msgctxt "MainWindow"
+msgid "Exit Vidalia"
+msgstr "Kilépés a Vidaliából"
+
+msgctxt "MainWindow"
+msgid "Show this window on startup"
+msgstr "Megjelenítés indításkor"
+
+msgctxt "MainWindow"
+msgid "Hide"
+msgstr "Elrejtés"
+
+msgctxt "MainWindow"
+msgid "Hide this window"
+msgstr "Ablak elrejtése"
+
+msgctxt "MainWindow"
+msgid "Password Reset Failed"
+msgstr "A jelszó alaphelyzetbe állítás nem sikerült"
+
+msgctxt "MainWindow"
+msgid ""
+"Vidalia tried to reset Tor's control password, but was not able to restart "
+"the Tor software. Please check your Task Manager to ensure there are no "
+"other Tor processes running."
+msgstr "A Vidalia megpróbálta visszaállítani a Tor kontroll-jelszót, de nem tudta a Tor-t újraindítani. Ellenőrizze a Feladatkezelőben, hogy nem fut-e másik Tor példány."
+
+msgctxt "MainWindow"
+msgid ""
+"The currently installed version of Tor is out of date or no longer "
+"recommended."
+msgstr "A Tor jelenleg telepített verziója régi és már nem ajánlott."
+
+msgctxt "MainWindow"
+msgid ""
+"Would you like to check if a newer package is available for installation?"
+msgstr "Szeretné megnézni, hogy található-e újabb telepítő csomag?"
+
+msgctxt "MainWindow"
+msgid "Potentially Unsafe Connection"
+msgstr "Alapvetően nem biztonságos kapcsolat"
+
+msgctxt "MainWindow"
+msgid ""
+"Tor has automatically closed your connection in order to protect your "
+"anonymity."
+msgstr "A Tor automatikusan lezárta a kapcsolatot az anonimitása védelme érdekében."
+
+msgctxt "MainWindow"
+msgid "Update Failed"
+msgstr "A frissítés sikertelen"
+
+msgctxt "MainWindow"
+msgid "Your software is up to date"
+msgstr "A szoftver verziója az aktuális"
+
+msgctxt "MainWindow"
+msgid ""
+"There are no new Tor software packages available for your computer at this "
+"time."
+msgstr "Jelenleg nincs új Tor szoftvercsomag az ön számítógépéhez."
+
+msgctxt "MainWindow"
+msgid "Installation Failed"
+msgstr "A telepítés sikertelen"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to install your software updates."
+msgstr "A Vidalia-nak nem sikerült telepítenie a frissítéseket."
+
+msgctxt "MainWindow"
+msgid "The following error occurred:"
+msgstr "Az alábbi hiba történt:"
+
+msgctxt "MainWindow"
+msgid ""
+"Anything sent over this connection could be monitored. Please check your "
+"application's configuration and use only encrypted protocols, such as SSL, "
+"if possible."
+msgstr "Bármi ami ezen a kapcsolaton keresztül megy ki nyomon követhető. Ellenőrizze az alkalmazás beállításait, és csak titkosított kapcsolatot használjon, például SSL-t ha lehetséges."
+
+msgctxt "MainWindow"
+msgid "Bootstrapping torrc from %1 to %2"
+msgstr "Rendszertőltő torrc a %1 -től %2 -ig"
+
+msgctxt "MainWindow"
+msgid "(probably Telnet)"
+msgstr "(valószínűleg Telnet)"
+
+msgctxt "MainWindow"
+msgid "(probably an email client)"
+msgstr "(valószínűleg egy email kliens)"
+
+msgctxt "MainWindow"
+msgid ""
+"One of your applications %1 appears to be making a potentially unencrypted "
+"and unsafe connection to port %2."
+msgstr "Az alkalmazásai egyike %1 úgy tűnik, hogy egy pontenciálisan titkosítatlan és nem biztonságos kapcsolatot próbál létrehozni a a %2 porton keresztül."
+
+msgctxt "MainWindow"
+msgid "failed (%1)"
+msgstr "sikertelen (%1)"
+
+msgctxt "MainWindow"
+msgid ""
+"Your relay is shutting down.\n"
+"Click 'Stop' again to stop your relay now."
+msgstr "Az Elosztó leáll.\nKattintson újra 'Stop'-ra az azonnali leállításhoz."
+
+msgctxt "MainWindow"
+msgid ""
+"Vidalia can't find out how to talk to Tor because it can't access this file: %1\n"
+"\n"
+"Here's the last error message:\n"
+"%2"
+msgstr "A Vidalia nem tudja kideríteni, hogyan kommunikáljon a Tor-ral, mert nem fér hozzá ehhez a fájlhoz: %1\n\nAz utolsó hibaüzenet:\n%2"
+
+msgctxt "MainWindow"
+msgid ""
+"It seems Tor has stopped running since Vidalia started it.\n"
+"\n"
+"See the Advanced Message Log for more information."
+msgstr "Úgy tűnik, a Tor leállt, mióta a Vidalia el lett indítva.\n\nTekintse meg a Részletes rendszernaplót a további információkért."
+
+msgctxt "MainWindow"
+msgid ""
+"You are currently running a relay. Terminating your relay will interrupt any open connections from clients.\n"
+"\n"
+"Would you like to shutdown gracefully and give clients time to find a new relay?"
+msgstr "Jelenleg Elosztót futtat. Az Elosztó leállítása megszakítja a többi használó kapcsolatát.\n\nSzeretné szépen leállítani, és ezzel időt adni a többi használónak, hogy új elosztót találjanak??"
+
+msgctxt "MainWindow"
+msgid ""
+"Vidalia detected that the Tor software exited unexpectedly.\n"
+"\n"
+"Please check the message log for recent warning or error messages."
+msgstr "A Vidalia a Tor szoftver váratlan kilépését észlelte..\n\nKérjük tekintse meg a log üzeneteket az aktuális hibaüzenetekért."
+
+msgctxt "MessageLog"
+msgid "Error Setting Filter"
+msgstr "Hiba a szűrő beállításakor"
+
+msgctxt "MessageLog"
+msgid "Vidalia was unable to register for Tor's log events."
+msgstr "A Vidalia nem tudta regisztrálni a Tor log eseményeit."
+
+msgctxt "MessageLog"
+msgid "Error Opening Log File"
+msgstr "Hiba a log fájl megnyitásakor"
+
+msgctxt "MessageLog"
+msgid "Vidalia was unable to open the specified log file."
+msgstr "A Vidalia nem tudta megnyitni a megadott log állományt."
+
+msgctxt "MessageLog"
+msgid "Log Filename Required"
+msgstr "Log állománynév szükséges"
+
+msgctxt "MessageLog"
+msgid "You must enter a filename to be able to save log messages to a file."
+msgstr "Meg kell adnia egy állománynevet a naplózás elmentéséhez."
+
+msgctxt "MessageLog"
+msgid "Select Log File"
+msgstr "Log fájl kiválasztása"
+
+msgctxt "MessageLog"
+msgid "Save Log Messages"
+msgstr "Log üzenetek mentése"
+
+msgctxt "MessageLog"
+msgid "Text Files (*.txt)"
+msgstr "Szöveges állományok (*.txt)"
+
+msgctxt "MessageLog"
+msgid "Vidalia"
+msgstr "Vidalia"
+
+msgctxt "MessageLog"
+msgid "Find in Message Log"
+msgstr "Keresés a log üzenetekben:"
+
+msgctxt "MessageLog"
+msgid "Find:"
+msgstr "Keresés:"
+
+msgctxt "MessageLog"
+msgid "Not Found"
+msgstr "Nem található"
+
+msgctxt "MessageLog"
+msgid "Search found 0 matches."
+msgstr "A keresés 0 találati eredményt adott."
+
+msgctxt "MessageLog"
+msgid "Message Log"
+msgstr "Log üzenetek (Napló)"
+
+msgctxt "MessageLog"
+msgid "Message Filters..."
+msgstr "Üzenet szűrési feltételek..."
+
+msgctxt "MessageLog"
+msgid "Set message filters"
+msgstr "Üzenet szűrési feltételek beállítása"
+
+msgctxt "MessageLog"
+msgid "History Size..."
+msgstr "Előzmények mérete..."
+
+msgctxt "MessageLog"
+msgid "Set maximum number of messages to display"
+msgstr "A megjelenítendő üzenetek maximális számának megadása"
+
+msgctxt "MessageLog"
+msgid "Clear"
+msgstr "Törlés"
+
+msgctxt "MessageLog"
+msgid "Clear all messages from the Message Log (Ctrl+E)"
+msgstr "Az összes üzenet törlése a logból (Ctrl+E)"
+
+msgctxt "MessageLog"
+msgid "Ctrl+E"
+msgstr "Ctrl+E"
+
+msgctxt "MessageLog"
+msgid "Copy"
+msgstr "Másolás"
+
+msgctxt "MessageLog"
+msgid "Copy the selected messages to the clipboard (Ctrl+C)"
+msgstr "A kiválasztott üzenetek vágólapra másolása (Ctrl+C)"
+
+msgctxt "MessageLog"
+msgid "Ctrl+C"
+msgstr "Ctrl+C"
+
+msgctxt "MessageLog"
+msgid "Select All"
+msgstr "Minden kiválasztása"
+
+msgctxt "MessageLog"
+msgid "Select all messages (Ctrl+A)"
+msgstr "Minden üzenet kiválasztása (Ctrl+A)"
+
+msgctxt "MessageLog"
+msgid "Ctrl+A"
+msgstr "Ctrl+A"
+
+msgctxt "MessageLog"
+msgid "Save All"
+msgstr "Minden mentése"
+
+msgctxt "MessageLog"
+msgid "Save all messages to a file"
+msgstr "Minden üzenet fájlba mentése"
+
+msgctxt "MessageLog"
+msgid "Save Selected"
+msgstr "A kiválasztott mentése"
+
+msgctxt "MessageLog"
+msgid "Save selected messages to a file"
+msgstr "A kiválasztott üzenetek fájlba mentése"
+
+msgctxt "MessageLog"
+msgid "Settings"
+msgstr "Beállítások"
+
+msgctxt "MessageLog"
+msgid "Adjust Message Log Settings"
+msgstr "Log üzenetek beállításainak módosítása"
+
+msgctxt "MessageLog"
+msgid "Ctrl+T"
+msgstr "Ctrl+T"
+
+msgctxt "MessageLog"
+msgid "Help"
+msgstr "Súgó"
+
+msgctxt "MessageLog"
+msgid "Show the help browser"
+msgstr "Súgó megjelenítése"
+
+msgctxt "MessageLog"
+msgid "F1"
+msgstr "F1"
+
+msgctxt "MessageLog"
+msgid "Close"
+msgstr "Bezárás"
+
+msgctxt "MessageLog"
+msgid "Close the Message Log"
+msgstr "Log üzenetek bezárása"
+
+msgctxt "MessageLog"
+msgid "Esc"
+msgstr "Esc"
+
+msgctxt "MessageLog"
+msgid "Find"
+msgstr "Keresés"
+
+msgctxt "MessageLog"
+msgid "Find all messages containing the search text (Ctrl+F)"
+msgstr "Minden, az adott szöveget tartalmazó üzenet megkeresése (Ctrl+F)"
+
+msgctxt "MessageLog"
+msgid "Ctrl+F"
+msgstr "Ctrl+F"
+
+msgctxt "MessageLog"
+msgid "Time"
+msgstr "Idő"
+
+msgctxt "MessageLog"
+msgid "Type"
+msgstr "Típus"
+
+msgctxt "MessageLog"
+msgid "Message"
+msgstr "Üzenet"
+
+msgctxt "MessageLog"
+msgid "Saves the current Message Log settings"
+msgstr "A log üzenetek jelenlegi beállításainak mentése"
+
+msgctxt "MessageLog"
+msgid "Save Settings"
+msgstr "Beállítások mentése"
+
+msgctxt "MessageLog"
+msgid "Cancels changes made to settings"
+msgstr "Beállítások módosításainak visszavonása"
+
+msgctxt "MessageLog"
+msgid "Cancel"
+msgstr "Mégse"
+
+msgctxt "MessageLog"
+msgid "Message Filter"
+msgstr "Üzenet szűrési feltétel"
+
+msgctxt "MessageLog"
+msgid "Error"
+msgstr "Hiba"
+
+msgctxt "MessageLog"
+msgid "Warning"
+msgstr "Figyelmeztetés"
+
+msgctxt "MessageLog"
+msgid "Notice"
+msgstr "Megjegyzés"
+
+msgctxt "MessageLog"
+msgid "Info"
+msgstr "Infó"
+
+msgctxt "MessageLog"
+msgid "Debug"
+msgstr "Hibakeresés"
+
+msgctxt "MessageLog"
+msgid "Message Log History"
+msgstr "Üzenet napló"
+
+msgctxt "MessageLog"
+msgid "Number of messages to display in the message log window"
+msgstr "Naplóban egyidejűleg megjeleníthető log üzenetek száma"
+
+msgctxt "MessageLog"
+msgid "messages"
+msgstr "üzenetek"
+
+msgctxt "MessageLog"
+msgid "Browse"
+msgstr "Tallóz"
+
+msgctxt "MessageLog"
+msgid "Enable automatically saving all new log messages to a file"
+msgstr "Új üzenetek automatikus mentésének bekapcsolása"
+
+msgctxt "MessageLog"
+msgid "Automatically save new log messages to a file"
+msgstr "Mindig mentse automatikusan az új üzeneteket"
+
+msgctxt "MessageLog"
+msgid "Basic"
+msgstr "Alap"
+
+msgctxt "MessageLog"
+msgid "Tor Status"
+msgstr "Tor állapot"
+
+msgctxt "MessageLog"
+msgid "Advanced"
+msgstr "Speciális"
+
+msgctxt "MessageLog"
+msgid "Always Save New Log Messages"
+msgstr "Mindig mentse az új üzeneteket"
+
+msgctxt "MessageLog"
+msgid ""
+"Messages that appear when something has \n"
+"gone very wrong and Tor cannot proceed."
+msgstr "Üzenetek, amik akkor jelentek meg, amikor valami nagyon nem volt jó, és a Tor nem tudott működni."
+
+msgctxt "MessageLog"
+msgid ""
+"Messages that only appear when \n"
+"something has gone wrong with Tor."
+msgstr "Üzenetek, amik akkor jelentek meg, amikor valamivel gond volt a Tor-ra."
+
+msgctxt "MessageLog"
+msgid ""
+"Messages that appear infrequently \n"
+"during normal Tor operation and are \n"
+"not considered errors, but you may \n"
+"care about."
+msgstr "Üzenetek, amik néha-néha megjelennek normális Tor használatnál, és nem hibák, de talán érdemes odafigyelni rájuk."
+
+msgctxt "MessageLog"
+msgid ""
+"Messages that appear frequently \n"
+"during normal Tor operation."
+msgstr "Üzenetek, amik gyakran jelennek meg normális Tor működés alatt."
+
+msgctxt "MessageLog"
+msgid ""
+"Hyper-verbose messages primarily of \n"
+"interest to Tor developers."
+msgstr "Hiper-részletes üzenetek elsősorban a Tor fejlesztői számára."
+
+msgctxt "MessageLog"
+msgid ""
+"Cannot write file %1\n"
+"\n"
+"%2."
+msgstr "Nem írható az állomány: %1\n\n%2."
+
+msgctxt "NetViewer"
+msgid "Tor Network Map"
+msgstr "Tor hálózati térkép"
+
+msgctxt "NetViewer"
+msgid "Refresh"
+msgstr "Frissítés"
+
+msgctxt "NetViewer"
+msgid "Refresh the list of Tor relays and connections"
+msgstr "A Tor Elosztók és a kapcsolatok listájának frissítése"
+
+msgctxt "NetViewer"
+msgid "Ctrl+R"
+msgstr "CTRL+R"
+
+msgctxt "NetViewer"
+msgid "Help"
+msgstr "Súgó"
+
+msgctxt "NetViewer"
+msgid "Show the network map help"
+msgstr "A hálózati térkép súgójának megtekintése"
+
+msgctxt "NetViewer"
+msgid "Show network map help"
+msgstr "A hálózati térkép súgójának megtekintése"
+
+msgctxt "NetViewer"
+msgid "F1"
+msgstr "F1"
+
+msgctxt "NetViewer"
+msgid "Close"
+msgstr "Bezár"
+
+msgctxt "NetViewer"
+msgid "Close the network map"
+msgstr "A hálózati térkép bezárása"
+
+msgctxt "NetViewer"
+msgid "Esc"
+msgstr "Esc"
+
+msgctxt "NetViewer"
+msgid "Zoom In"
+msgstr "Nagyítás"
+
+msgctxt "NetViewer"
+msgid "Zoom in on the network map"
+msgstr "Nagyítás a hálózati térképen"
+
+msgctxt "NetViewer"
+msgid "+"
+msgstr "+"
+
+msgctxt "NetViewer"
+msgid "Zoom Out"
+msgstr "Kicsinyítés"
+
+msgctxt "NetViewer"
+msgid "Zoom out on the network map"
+msgstr "Kicsinyítés a hálózati térképen"
+
+msgctxt "NetViewer"
+msgid "-"
+msgstr "-"
+
+msgctxt "NetViewer"
+msgid "Zoom To Fit"
+msgstr "Nagyítás kitöltésig"
+
+msgctxt "NetViewer"
+msgid "Zooms to fit all currently displayed circuits"
+msgstr "Közelítés a megjelenített ösvényekre"
+
+msgctxt "NetViewer"
+msgid "Ctrl+Z"
+msgstr "Ctrl+Z"
+
+msgctxt "NetViewer"
+msgid "Relay Not Found"
+msgstr "A fájl nem található"
+
+msgctxt "NetViewer"
+msgid "No details on the selected relay are available."
+msgstr "Nincs részletes információ a kijelölt Elosztóról."
+
+msgctxt "NetViewer"
+msgid "Unknown"
+msgstr "Ismeretlen"
+
+msgctxt "NetViewer"
+msgid "Full Screen"
+msgstr "Teljes képernyő"
+
+msgctxt "NetViewer"
+msgid "View the network map as a full screen window"
+msgstr "A térkép megjelenítése teljes képernyős módban"
+
+msgctxt "NetViewer"
+msgid "Ctrl+F"
+msgstr "Ctrl+F"
+
+msgctxt "NetworkPage"
+msgid "Copy (Ctrl+C)"
+msgstr "Másolás (Ctrl+C)"
+
+msgctxt "NetworkPage"
+msgid ""
+"You must specify both an IP address or hostname and a port number to "
+"configure Tor to use a proxy to access the Internet."
+msgstr "Meg kell adnia egy IP címet, vagy egy gépnevet (host) és egy portot , ahhoz, hogy a Tor ezen a proxy-n keresztül kapcsolódjon az Internethez."
+
+msgctxt "NetworkPage"
+msgid ""
+"You must specify one or more ports to which your firewall allows you to "
+"connect."
+msgstr "Meg kell adni egy vagy több olyan portot, amelyek engedélyezve (nyitva) vannak a tűzfalon."
+
+msgctxt "NetworkPage"
+msgid "'%1' is not a valid port number."
+msgstr "A következő port érvénytelen: '%1'"
+
+msgctxt "NetworkPage"
+msgid "Check if your local network requires a proxy to access the Internet"
+msgstr "Tegye be a pipát, ha a helyi hálózata proxy-t igényel az Internethez való kapcsolódáshoz"
+
+msgctxt "NetworkPage"
+msgid "I use a proxy to access the Internet"
+msgstr "Proxy-t használok az Internethez kapcsolódáshoz"
+
+msgctxt "NetworkPage"
+msgid "Proxy Settings"
+msgstr "Proxy beállítások"
+
+msgctxt "NetworkPage"
+msgid "Username:"
+msgstr "Felhasználónév:"
+
+msgctxt "NetworkPage"
+msgid "Password:"
+msgstr "Jelszó:"
+
+msgctxt "NetworkPage"
+msgid "Port:"
+msgstr "Port:"
+
+msgctxt "NetworkPage"
+msgid "Check to only connect to relays using ports allowed by your firewall"
+msgstr "Kizárólag olyan Elosztókhoz való kapcsolódás, amelyek a tűzfalam nyitott portjaira vannak konfigurálva"
+
+msgctxt "NetworkPage"
+msgid "My firewall only lets me connect to certain ports"
+msgstr "A tűzfalam csak néhány porton engedélyez kapcsolódást"
+
+msgctxt "NetworkPage"
+msgid "Firewall Settings"
+msgstr "Tűzfal beállítások"
+
+msgctxt "NetworkPage"
+msgid "Allowed Ports:"
+msgstr "Engedélyezett portok:"
+
+msgctxt "NetworkPage"
+msgid "80, 443"
+msgstr "80, 443"
+
+msgctxt "NetworkPage"
+msgid ""
+"Check to encrypt directory requests and, optionally, use bridge relays to "
+"access the Tor network"
+msgstr "Címtár lekérdezések titkosítása és opcionálisan, Hídkapcsolatok használata a TOR-hoz való kapcsolódáshoz"
+
+msgctxt "NetworkPage"
+msgid "My ISP blocks connections to the Tor network"
+msgstr "A szolgáltatóm blokkolja a Tor-t"
+
+msgctxt "NetworkPage"
+msgid "Bridge Settings"
+msgstr "Hídkapcsolatok beállításai"
+
+msgctxt "NetworkPage"
+msgid "Add a Bridge:"
+msgstr "Hídkapcsolat hozzáadása:"
+
+msgctxt "NetworkPage"
+msgid "Remove the selected bridges from the list"
+msgstr "Hídkapcsolat eltávolítása a listából"
+
+msgctxt "NetworkPage"
+msgid "Copy the selected bridges to the clipboard"
+msgstr "A kiválasztott Hídkapcsolat vágólapra másolása"
+
+msgctxt "NetworkPage"
+msgid "Find Bridges Now"
+msgstr "Hídkapcsolatok keresése"
+
+msgctxt "NetworkPage"
+msgid "<a href=\"bridges.finding\">How else can I find bridges?</a>"
+msgstr "<a href=\"bridges.finding\">Hogyan találhatok még hídkapcsolatokat?</a>"
+
+msgctxt "NetworkPage"
+msgid "<a href=\"bridges.finding\">How can I find bridges?</a>"
+msgstr "<a href=\"bridges.finding\">Hogyan találhatok hídkapcsolatokat?</a>"
+
+msgctxt "NetworkPage"
+msgid ""
+"No new bridges are currently available. You can either wait a while and try "
+"again, or try another method of finding new bridges."
+msgstr "Nincs új hídkapcsolat elérhető. Várhat egy kicsit és megpróbálhatja később, vagy kereshet egy másik megoldást a hídkapcsolatok keresésére."
+
+msgctxt "NetworkPage"
+msgid "Click Help to see other methods of finding new bridges."
+msgstr "Kattintson a Súgó-ra, hogy megtudja, milyen lehetőségek vannak még a hídkapcsolatok keresésére."
+
+msgctxt "NetworkPage"
+msgid "Address:"
+msgstr "Cím:"
+
+msgctxt "NetworkPage"
+msgid "Type:"
+msgstr "Típus:"
+
+msgctxt "NetworkPage"
+msgid "You must select the proxy type."
+msgstr "Ki kell választania a proxy típusát."
+
+msgctxt "NetworkPage"
+msgid "SOCKS 4"
+msgstr "SOCKS 4"
+
+msgctxt "NetworkPage"
+msgid "SOCKS 5"
+msgstr "SOCKS 5"
+
+msgctxt "NetworkPage"
+msgid "HTTP / HTTPS"
+msgstr "HTTP / HTTPS"
+
+msgctxt "NetworkPage"
+msgid "You must specify one or more bridges."
+msgstr "Meg kell adnia egy vagy több hidat."
+
+msgctxt "Policy"
+msgid "accept"
+msgstr "elfogad"
+
+msgctxt "Policy"
+msgid "reject"
+msgstr "visszautasít"
+
+msgctxt "RouterDescriptor"
+msgid "Online"
+msgstr "Csatlakozva"
+
+msgctxt "RouterDescriptor"
+msgid "Hibernating"
+msgstr "Hibernált"
+
+msgctxt "RouterDescriptor"
+msgid "Offline"
+msgstr "Kapcsolat nélkül"
+
+msgctxt "RouterDescriptorView"
+msgid "Location:"
+msgstr "Hely:"
+
+msgctxt "RouterDescriptorView"
+msgid "IP Address:"
+msgstr "IP cím:"
+
+msgctxt "RouterDescriptorView"
+msgid "Platform:"
+msgstr "Platform:"
+
+msgctxt "RouterDescriptorView"
+msgid "Bandwidth:"
+msgstr "Sávszélesség:"
+
+msgctxt "RouterDescriptorView"
+msgid "Uptime:"
+msgstr "Aktivitási idő:"
+
+msgctxt "RouterDescriptorView"
+msgid "Last Updated:"
+msgstr "Utolsó frissítés ideje:"
+
+msgctxt "RouterDescriptorView"
+msgid "Copy"
+msgstr "Másolás"
+
+msgctxt "RouterInfoDialog"
+msgid "Hibernating"
+msgstr "Hibernált"
+
+msgctxt "RouterInfoDialog"
+msgid "Online"
+msgstr "Csatlakozva"
+
+msgctxt "RouterInfoDialog"
+msgid "Offline"
+msgstr "Kapcsolat nélkül"
+
+msgctxt "RouterInfoDialog"
+msgid "Unknown"
+msgstr "Ismeretlen"
+
+msgctxt "RouterInfoDialog"
+msgid "Relay Details"
+msgstr "Elosztó részletek"
+
+msgctxt "RouterInfoDialog"
+msgid "Summary"
+msgstr "Összegzés"
+
+msgctxt "RouterInfoDialog"
+msgid "Name:"
+msgstr "Név:"
+
+msgctxt "RouterInfoDialog"
+msgid "Status:"
+msgstr "Állapot"
+
+msgctxt "RouterInfoDialog"
+msgid "Location:"
+msgstr "Hely:"
+
+msgctxt "RouterInfoDialog"
+msgid "IP Address:"
+msgstr "IP cím:"
+
+msgctxt "RouterInfoDialog"
+msgid "Platform:"
+msgstr "Platform:"
+
+msgctxt "RouterInfoDialog"
+msgid "Bandwidth:"
+msgstr "Sávszélesség:"
+
+msgctxt "RouterInfoDialog"
+msgid "Uptime:"
+msgstr "Aktivitási idő:"
+
+msgctxt "RouterInfoDialog"
+msgid "Contact:"
+msgstr "Kapcsolat infó:"
+
+msgctxt "RouterInfoDialog"
+msgid "Last Updated:"
+msgstr "Utolsó frissítés ideje:"
+
+msgctxt "RouterInfoDialog"
+msgid "Descriptor"
+msgstr "Leíró"
+
+msgctxt "RouterListItem"
+msgid "Offline"
+msgstr "Kapcsolat nélkül"
+
+msgctxt "RouterListItem"
+msgid "Hibernating"
+msgstr "Hibernált"
+
+msgctxt "RouterListItem"
+msgid "%1 KB/s"
+msgstr "%1 KB/s"
+
+msgctxt "RouterListWidget"
+msgid "Relay"
+msgstr "Elosztó"
+
+msgctxt "RouterListWidget"
+msgid "Zoom to Relay"
+msgstr "Elosztókra szűkítés"
+
+msgctxt "RouterListWidget"
+msgid "%1 relays online"
+msgstr "%1 Elosztó vonalban"
+
+msgctxt "RouterListWidget"
+msgid "Copy"
+msgstr "Másolás"
+
+msgctxt "RouterListWidget"
+msgid "Nickname"
+msgstr "Becenév"
+
+msgctxt "RouterListWidget"
+msgid "Fingerprint"
+msgstr "Digitális Ujjlenyomat"
+
+msgctxt "ServerPage"
+msgid "Bridge Support Unavailable"
+msgstr "A Hídkapcsolat támogatás nem elérhető"
+
+msgctxt "ServerPage"
+msgid ""
+"You have configured Tor to act as a bridge relay for censored users, but "
+"your version of Tor does not support bridges."
+msgstr "Beállította a Tor-t Hídkapcsolati Elosztóként, a korlátozott  felhasználók Tor-hoz kapcsolódásának segítéséhez, viszont ez a Tor verzió nem támogatja a Hídkapcsolati Elosztást."
+
+msgctxt "ServerPage"
+msgid ""
+"Please upgrade your Tor software or configure Tor to act as a normal Tor "
+"relay."
+msgstr "Frissítse a Tor-t vagy állítsa be hagyományos Tor Elosztóként (közvetítőként)."
+
+msgctxt "ServerPage"
+msgid "Your bridge relay is not running."
+msgstr "A Hídkapcsolati Elosztás nem fut."
+
+msgctxt "ServerPage"
+msgid "You must specify at least a relay nickname and port."
+msgstr "Minimum egy Elosztónevet és a portot meg kell adnia."
+
+msgctxt "ServerPage"
+msgid "Run as a client only"
+msgstr "Csak kliens indítása"
+
+msgctxt "ServerPage"
+msgid "Relay Port:"
+msgstr "Közvetítő port:"
+
+msgctxt "ServerPage"
+msgid "Enable to mirror the relay directory"
+msgstr "Az Elosztócímtár tükrözésének bekapcsolása"
+
+msgctxt "ServerPage"
+msgid "Attempt to automatically configure port forwarding"
+msgstr "Port továbbítás automatikus konfigurálásának indítása"
+
+msgctxt "ServerPage"
+msgid "Test"
+msgstr "Teszt"
+
+msgctxt "ServerPage"
+msgid "Show help topic on port forwarding"
+msgstr "Port továbbítással kapcsolatos súgó témakörök megtekintése"
+
+msgctxt "ServerPage"
+msgid "Directory Port:"
+msgstr "Címtár port:"
+
+msgctxt "ServerPage"
+msgid "Directory Port Number"
+msgstr "Címtár portja"
+
+msgctxt "ServerPage"
+msgid "Contact Info:"
+msgstr "Kapcsolat infó:"
+
+msgctxt "ServerPage"
+msgid "Name of your relay"
+msgstr "Az Elosztó neve"
+
+msgctxt "ServerPage"
+msgid "Port on which users and other relays can communicate with your relay"
+msgstr "A port, amelyen más felhasználók és Elosztók kommunikálhatnak az Ön Elosztójával"
+
+msgctxt "ServerPage"
+msgid "Nickname:"
+msgstr "Becenév:"
+
+msgctxt "ServerPage"
+msgid "Basic Settings"
+msgstr "Alap beállítások"
+
+msgctxt "ServerPage"
+msgid ""
+"For Internet connections with fast download speed but slow upload, please "
+"list your upload speed here."
+msgstr "Gyors letöltés, de lassú feltöltés esetén adja meg a feltöltési sebességét itt."
+
+msgctxt "ServerPage"
+msgid "Cable/DSL 256 Kbps"
+msgstr "Kábel/DSL 256 Kbps"
+
+msgctxt "ServerPage"
+msgid "Cable/DSL 512 Kbps"
+msgstr "Kábel/DSL 512 Kbps"
+
+msgctxt "ServerPage"
+msgid "Cable/DSL 768 Kbps"
+msgstr "Kábel/DSL 768 Kbps"
+
+msgctxt "ServerPage"
+msgid "T1/Cable/DSL 1.5 Mbps"
+msgstr "T1/Kábel/DSL 1.5 Mbps"
+
+msgctxt "ServerPage"
+msgid "> 1.5 Mbps"
+msgstr "több mint 1.5 Mbps"
+
+msgctxt "ServerPage"
+msgid "Custom"
+msgstr "Egyéni"
+
+msgctxt "ServerPage"
+msgid "Select the entry that most closely resembles your Internet connection"
+msgstr "Válassza ki az Internet-sebességéhez legközelebb álló értéket"
+
+msgctxt "ServerPage"
+msgid "Show help topic on bandwidth rate limits"
+msgstr "Sávszélesség-korlátozással kapcsolatos súgó témák megjelenítése"
+
+msgctxt "ServerPage"
+msgid "Average Rate"
+msgstr "Átlagos sávszélesség"
+
+msgctxt "ServerPage"
+msgid "Long-term average bandwidth limit"
+msgstr "Hosszútávú átlagos sávszélesség korlátozás"
+
+msgctxt "ServerPage"
+msgid "KB/s"
+msgstr "KB/s"
+
+msgctxt "ServerPage"
+msgid "Maximum Rate"
+msgstr "Maximum sebesség"
+
+msgctxt "ServerPage"
+msgid "Peak bandwidth rate limit"
+msgstr "Sávszélesség-korlátozás maximuma"
+
+msgctxt "ServerPage"
+msgid ""
+"Your maximum bandwidth rate must be greater than or equal to your average "
+"bandwidth rate. Both values must be at least 20 KB/s."
+msgstr "A maximum sávszélességnek nagyobbnak kell lennie, mint az átlagosnak, de mindkét érték minimum 20 KB/s kell legyen."
+
+msgctxt "ServerPage"
+msgid "Bandwidth Limits"
+msgstr "Sávszélesség-korlátozások"
+
+msgctxt "ServerPage"
+msgid "Ports 6660 - 6669 and 6697"
+msgstr "Portok: 6660 - 6669 és 6697"
+
+msgctxt "ServerPage"
+msgid "Internet Relay Chat (IRC)"
+msgstr "IRC chat"
+
+msgctxt "ServerPage"
+msgid "Ports 110, 143, 993 and 995"
+msgstr "Portok: 110, 143,  993 és 995"
+
+msgctxt "ServerPage"
+msgid "Retrieve Mail (POP, IMAP)"
+msgstr "Levél fogadása (POP, IMAP)"
+
+msgctxt "ServerPage"
+msgid "Ports unspecified by other checkboxes"
+msgstr "Portok melyek egyébként nincsenek máshol bejelölve"
+
+msgctxt "ServerPage"
+msgid "Misc Other Services"
+msgstr "Egyéb Szolgáltatások"
+
+msgctxt "ServerPage"
+msgid "Ports 706, 1863, 5050, 5190, 5222, 5223, 8300 and 8888"
+msgstr "Portok: 706, 1863, 5050, 5190, 5222, 5223, 8300 és 8888"
+
+msgctxt "ServerPage"
+msgid "Instant Messaging (IM)"
+msgstr "IM (azonnali üzenetküldők)"
+
+msgctxt "ServerPage"
+msgid "Port 443"
+msgstr "443-as port"
+
+msgctxt "ServerPage"
+msgid "Secure Websites (SSL)"
+msgstr "Biztonságos (https) weblapok"
+
+msgctxt "ServerPage"
+msgid "Port 80"
+msgstr "80-as port"
+
+msgctxt "ServerPage"
+msgid "Websites"
+msgstr "Weboldalak"
+
+msgctxt "ServerPage"
+msgid "Show help topic on exit policies"
+msgstr "Kilépési szabályokkal kapcsolatos súgó témák megjelenítése"
+
+msgctxt "ServerPage"
+msgid ""
+"What Internet resources should users be able to access from your relay?"
+msgstr "Mely típusú Internet-kapcsolatokat engedélyezi a felhasználóknak az Elosztón keresztül?"
+
+msgctxt "ServerPage"
+msgid ""
+"Tor will still block some outgoing mail and file sharing applications by "
+"default to reduce spam and other abuse."
+msgstr "A Tor továbbra is blokkolni fog néhány levelező és fájlmegosztó szolgáltatást, a spam és visszaélések megfékezése érdekében."
+
+msgctxt "ServerPage"
+msgid "Exit Policies"
+msgstr "Kilépési szabályok"
+
+msgctxt "ServerPage"
+msgid "Let others access your bridge by giving them this line:"
+msgstr "Ezen sort adja meg másoknak, akiket szeretne hozzásegíteni a Hídkapcsolatával a Tor hálózathoz:"
+
+msgctxt "ServerPage"
+msgid ""
+"This is the identity of your bridge relay that you can give to other people"
+msgstr "Ez az Ön Hídkapcsolati azonosítója, amelyet megadhat másoknak"
+
+msgctxt "ServerPage"
+msgid "Copy your bridge relay's identity to the clipboard"
+msgstr "A Hídkapcsolati azonosító vágólapra másolása"
+
+msgctxt "ServerPage"
+msgid "No Recent Usage"
+msgstr "Nincs aktuális használat"
+
+msgctxt "ServerPage"
+msgid "No clients have used your relay recently."
+msgstr "Jelenleg nem használja senki az Elosztóját."
+
+msgctxt "ServerPage"
+msgid ""
+"Leave your relay running so clients have a better chance of finding and "
+"using it."
+msgstr "Hagyja futni az Elosztót, így a felhasználóknak jobb esélye van észlelni és használni azt."
+
+msgctxt "ServerPage"
+msgid "Bridge History"
+msgstr "Hídkapcsolatok előzményei"
+
+msgctxt "ServerPage"
+msgid "Vidalia was unable to retrieve your bridge's usage history."
+msgstr "A Vidalia nem tudja előkeresni a Hídkapcsolat használat előzményeit."
+
+msgctxt "ServerPage"
+msgid ""
+"Tor returned an improperly formatted response when Vidalia requested your "
+"bridge's usage history."
+msgstr "A Tor szoftver egy rosszul formázott üzenetet adott vissza, mikor a Vidalia elkérte tőle a Hídkapcsolat használat előzményeit."
+
+msgctxt "ServerPage"
+msgid "The returned response was: %1"
+msgstr "A visszaadott válasz: %1"
+
+msgctxt "ServerPage"
+msgid "Help censored users reach the Tor network"
+msgstr "A korlátozott felhasználók segítése a Tor hálózathoz való kapcsolódáshoz"
+
+msgctxt "ServerPage"
+msgid "<a href=\"#bridgeUsage\">Who has used my bridge?</a>"
+msgstr "<a href=\"#bridgeUsage\">Ki használta a hídkapcsolatomat?</a>"
+
+msgctxt "ServerPage"
+msgid "<a href=\"#bridgeHelp\">What's this?</a>"
+msgstr "<a href=\"#bridgeHelp\">Mi ez?</a>"
+
+msgctxt "ServerPage"
+msgid "Automatically distribute my bridge address"
+msgstr "A Hídkapcsolati címem automatikus terjesztése"
+
+msgctxt "ServerPage"
+msgid "Relay traffic for the Tor network (exit relay)"
+msgstr "A forgalom Tor hálózathoz történő elosztása (kilépő-elosztó)"
+
+msgctxt "ServerPage"
+msgid "Relay traffic inside the Tor network (non-exit relay)"
+msgstr "A forgalom Tor hálózaton belüli elosztása (nem kilépő-elosztó)"
+
+msgctxt "ServerPage"
+msgid "Mirror the Relay Directory"
+msgstr "Az Elosztó címtár tükrözése"
+
+msgctxt "ServerPage"
+msgid ""
+"Email address at which you may be reached if there is a\n"
+"problem with your relay. You might also include your PGP or GPG fingerprint."
+msgstr "Email cím amin elérhető, ha probléma van az Ön elosztójával. Megadhatja mellé a PGP vagy GPG ujjlenyomatát is."
+
+msgctxt "ServicePage"
+msgid "Error while trying to unpublish all services"
+msgstr "Hiba minden futó szolgáltatás lekapcsolásakor"
+
+msgctxt "ServicePage"
+msgid ""
+"Please configure at least a service directory and a virtual port for each "
+"service you want to save. Remove the other ones."
+msgstr "Adjon meg minimum egy szolgáltatás könyvtárat és egy portot minden elmentendő szolgáltatáshoz, a többit pedig törölje."
+
+msgctxt "ServicePage"
+msgid "Error"
+msgstr "Hiba"
+
+msgctxt "ServicePage"
+msgid "Please select a Service."
+msgstr "Válasszon egy szolgáltatást."
+
+msgctxt "ServicePage"
+msgid "Select Service Directory"
+msgstr "Szolgáltatás könyvtár kiválasztása"
+
+msgctxt "ServicePage"
+msgid "Virtual Port may only contain valid port numbers [1..65535]."
+msgstr "A Virtuális port csak érvényes (1..65535) számokat tartalmazhat"
+
+msgctxt "ServicePage"
+msgid "Target may only contain address:port, address, or port."
+msgstr "A cél cím a következő formátumú lehet: cím:port vagy csak cím, vagy csak port."
+
+msgctxt "ServicePage"
+msgid "Directory already in use by another service."
+msgstr "A könyvár már használatban van egy másik szolgáltatás által."
+
+msgctxt "ServicePage"
+msgid "Form"
+msgstr "Forma"
+
+msgctxt "ServicePage"
+msgid "Provided Hidden Services"
+msgstr "Biztosított rejtett szolgáltatások"
+
+msgctxt "ServicePage"
+msgid "Onion Address"
+msgstr "Onion cím"
+
+msgctxt "ServicePage"
+msgid "Virtual Port"
+msgstr "Virtuális Port"
+
+msgctxt "ServicePage"
+msgid "Target"
+msgstr "Cél"
+
+msgctxt "ServicePage"
+msgid "Directory Path"
+msgstr "Címtár útvonal"
+
+msgctxt "ServicePage"
+msgid "Enabled"
+msgstr "Státusz"
+
+msgctxt "ServicePage"
+msgid "Add new service to list"
+msgstr "Új szolgáltatás felvétele a listába"
+
+msgctxt "ServicePage"
+msgid "Remove selected service from list"
+msgstr "Kiválasztott szolgáltatás eltávolítása a listából"
+
+msgctxt "ServicePage"
+msgid "Copy onion address of selected service to clipboard"
+msgstr "A kiválasztott szolgáltatás .onion címének vágólapra  másolása"
+
+msgctxt "ServicePage"
+msgid "Browse in local file system and choose directory for selected service"
+msgstr "A kiválasztott szolgáltatás helyének kitallózása a számítógépen"
+
+msgctxt "ServicePage"
+msgid "Created by Tor"
+msgstr "Tor által létrehozva"
+
+msgctxt "StatusEventWidget"
+msgid "Copy to Clipboard"
+msgstr "Vágólapra másolás"
+
+msgctxt "StatusEventWidget"
+msgid "The Tor Software is Running"
+msgstr "A Tor szoftver fut."
+
+msgctxt "StatusEventWidget"
+msgid "You are currently running version \"%1\" of the Tor software."
+msgstr "A Tor szoftver \"%1\" verzióját futtatja."
+
+msgctxt "StatusEventWidget"
+msgid "The Tor Software is not Running"
+msgstr "A Tor szoftver NEM fut."
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Click \"Start Tor\" in the Vidalia Control Panel to restart the Tor "
+"software. If Tor exited unexpectedly, select the \"Advanced\" tab above for "
+"details about any errors encountered."
+msgstr "Kattintson a \"Tor indítása\" gombra a Vidalia Vezérlőpultban a Tor szoftver elindításához. Ha a Tor váratlanul lépett ki, akkor válassza a Speciális fület a megjelent hibák részleteinek megismeréséhez."
+
+msgctxt "StatusEventWidget"
+msgid ""
+"You are currently running version \"%1\" of the Tor software, which is no "
+"longer recommended. Please upgrade to the most recent version of the "
+"software, which may contain important security, reliability and performance "
+"fixes."
+msgstr "Jelenleg a Tor szoftver %1 verzióját használja, ami tovább már nem ajánlott. Kérjük frissítse a legújabb verzióra, ami fontos biztonsági, stabilitási és teljesítmény javításokat tartalmaz."
+
+msgctxt "StatusEventWidget"
+msgid ""
+"You are currently running version \"%1\" of the Tor software, which may no "
+"longer work with the current Tor network. Please upgrade to the most recent "
+"version of the software, which may contain important security, reliability "
+"and performance fixes."
+msgstr "Jelenleg a Tor szoftver %1 verzióját használja, ami már nem működik az aktuális Tor hálózattal. Kérjük frissítse a legújabb verzióra, ami fontos biztonsági, stabilitási és teljesítmény javításokat tartalmaz."
+
+msgctxt "StatusEventWidget"
+msgid "Your Tor Software is Out-of-date"
+msgstr "A Tor szoftvere már lejárt."
+
+msgctxt "StatusEventWidget"
+msgid "Connected to the Tor Network"
+msgstr "Kapcsolódva a Tor hálózathoz"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"We were able to successfully establish a connection to the Tor network. You "
+"can now configure your applications to use the Internet anonymously."
+msgstr "Sikeresen csatlakoztunk a Tor hálózathoz. Most már csak az alkalmazásait kell beállítania, hogy névtelenül érje el az Internetet."
+
+msgctxt "StatusEventWidget"
+msgid "Tor Software Error"
+msgstr "Tor szoftver hiba"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"The Tor software encountered an internal bug. Please report the following "
+"error message to the Tor developers at bugs.torproject.org: \"%1\""
+msgstr "A Tor szoftver belső hibára futott. Kérjük jelezze az alább hibaüzenetet a Tor fejlesztőinek a bugs.torproject.org oldalon: \"%1\"\n"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor has determined that your computer's clock may be set to %1 seconds in "
+"the past compared to the source \"%2\". If your clock is not correct, Tor "
+"will not be able to function. Please verify your computer displays the "
+"correct time."
+msgstr "A Tor úgy észlelte, hogy a számítógép órája %1 másodperccel vissza van állítva a \"%2\" időforráshoz képes. Ha az órája nem pontos, a Tor nem fog megfelelően működni. Ellenőrizze, hogy a számítógép a helyes időt mutatja."
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor has determined that your computer's clock may be set to %1 seconds in "
+"the future compared to the source \"%2\". If your clock is not correct, Tor "
+"will not be able to function. Please verify your computer displays the "
+"correct time."
+msgstr "A Tor úgy észlelte, hogy a számítógép órája %1 másodperccel előre van állítva a \"%2\" időforráshoz képes. Ha az órája nem pontos, a Tor nem fog megfelelően működni. Ellenőrizze, hogy a számítógép a helyes időt mutatja."
+
+msgctxt "StatusEventWidget"
+msgid "Your Computer's Clock is Potentially Incorrect"
+msgstr "A számítógép órája alapvetően nem helyes"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"One of the applications on your computer may have attempted to make an "
+"unencrypted connection through Tor to port %1. Sending unencrypted "
+"information over the Tor network is dangerous and not recommended. For your "
+"protection, Tor has automatically closed this connection."
+msgstr "Az alkalmazásainak valamelyike megpróbált egy titkosítatlan csatornát létesíteni a Tor-on keresztül a %1 porton. titkosítatlan információ keresztül küldése a Tor hálózaton veszélyes és nem ajánlott. A biztonsága érdekében a Tor lezárta ezt a kapcsolatot."
+
+msgctxt "StatusEventWidget"
+msgid ""
+"One of the applications on your computer may have attempted to make an "
+"unencrypted connection through Tor to port %1. Sending unencrypted "
+"information over the Tor network is dangerous and not recommended."
+msgstr "Az alkalmazásainak valamelyike megpróbált egy titkosítatlan csatornát létesíteni a Tor-on keresztül a %1 porton. titkosítatlan információ keresztül küldése a Tor hálózaton veszélyes és nem ajánlott."
+
+msgctxt "StatusEventWidget"
+msgid "Potentially Dangerous Connection!"
+msgstr "Alapvetően veszélyes kapcsolat!"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"One of your applications established a connection through Tor to \"%1\" "
+"using a protocol that may leak information about your destination. Please "
+"ensure you configure your applications to use only SOCKS4a or SOCKS5 with "
+"remote hostname resolution."
+msgstr "Az alkalmazásainak valamelyike létrehozott egy kapcsolatot a Tor-on a %1 irányba egy olyan protokollon keresztül, ami információt szivárogtathat az ön elérhetőségéről. Ellenőrizze, hogy az alkalmazása beállítása csak SOCKS4a vagy SOCKS5 protokollt használjon a távoli név feloldáshoz."
+
+msgctxt "StatusEventWidget"
+msgid "Unknown SOCKS Protocol"
+msgstr "Ismeretlen SOCKS protkoll"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"One of your applications tried to establish a connection through Tor using a"
+" protocol that Tor does not understand. Please ensure you configure your "
+"applications to use only SOCKS4a or SOCKS5 with remote hostname resolution."
+msgstr "Az alkalmazásainak valamelyike létrehozott egy kapcsolatot a Tor-on egy olyan protokollon keresztül, amit a Tor nem tud értelmezni. Ellenőrizze, hogy az alkalmazása beállítása csak SOCKS4a vagy SOCKS5 protokollt használjon a távoli név feloldáshoz."
+
+msgctxt "StatusEventWidget"
+msgid "Invalid Destination Hostname"
+msgstr "Érvénytelen célszámítógép név"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"One of your applications tried to establish a connection through Tor to "
+"\"%1\", which Tor does not recognize as a valid hostname. Please check your "
+"application's configuration."
+msgstr "Az alkalmazásainak valamelyike megpróbált létrehozni egy egy kapcsolatot a Tor-on keresztül a \"%1\" címre, amit a Tor nem ismer fel érvényes host névnek. Kérjük ellenőrizze az alkalmazás beállítását."
+
+msgctxt "StatusEventWidget"
+msgid "External IP Address Changed"
+msgstr "A külső IP cím megváltozott"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor has determined your relay's public IP address is currently %1%2. If that"
+" is not correct, please consider setting the 'Address' option in your "
+"relay's configuration."
+msgstr "A Tor azt észleltem hogy az Elosztó publikus IP címe jelenleg %1%2. Ha ez helytelen, akkor gondolkozzon el a 'Cím' beállítás használatáról az Elosztó beállításai között."
+
+msgctxt "StatusEventWidget"
+msgid "DNS Hijacking Detected"
+msgstr "DNS Eltérítés észlelve"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor detected that your DNS provider is providing false responses for domains"
+" that do not exist. Some ISPs and other DNS providers, such as OpenDNS, are "
+"known to do this in order to display their own search or advertising pages."
+msgstr "A Tor azt észlelte hogy a DNS szolgáltatója nem létező domainekre hamis válaszokat ad. Néhány internet szolgáltató vagy DNS szolgáltató, mint például az OpenDNS ismert arról, hogy ilyet tesz a saját reklám vagy kereső oldalaik megjelenítése érdekében."
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor detected that your DNS provider is providing false responses for well "
+"known domains. Since clients rely on Tor network relays to provide accurate "
+"DNS repsonses, your relay will not be configured as an exit relay."
+msgstr "A Tor azt észlelte hogy a DNS szolgáltatója hamis válaszokat ad jól ismert domainekre. Mivel a kliensek függnek a a pontos Tor Elosztó DNS válaszoktól, így az Elosztója nem lehet lesz Kilépő Elosztónak beállítva."
+
+msgctxt "StatusEventWidget"
+msgid "Checking Server Port Reachability"
+msgstr "A szerver port elérhetőségnek ellenőrzése"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor is trying to determine if your relay's server port is reachable from the"
+" Tor network by connecting to itself at %1:%2. This test could take several "
+"minutes."
+msgstr "A Tor megpróbálja ellenőrizni, hogy a Elosztó szerver port elérhető-e a Tor hálózatból, a %1:%2 helyre történő visszacsatlakozással. A teszt lefutása néhány percet vehet igénybe."
+
+msgctxt "StatusEventWidget"
+msgid "Server Port Reachability Test Successful!"
+msgstr "A szerver port elérhetőségnek ellenőrzése sikeres."
+
+msgctxt "StatusEventWidget"
+msgid "Your relay's server port is reachable from the Tor network!"
+msgstr "Az Elosztó szerver portja elérhető a Tor hálózatból."
+
+msgctxt "StatusEventWidget"
+msgid "Server Port Reachability Test Failed"
+msgstr "A szerver port elérhetőségnek ellenőrzése sikertelen."
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Your relay's server port is not reachable by other Tor clients. This can "
+"happen if you are behind a router or firewall that requires you to set up "
+"port forwarding. If %1:%2 is not your correct IP address and server port, "
+"please check your relay's configuration."
+msgstr "Az Elosztó szerver portja nem elérhető más Tor kliensek által. Ezt okozhatja, hogy tűzfal vagy router mögött található, ahol a port továbbítást be kell állítania. Ha %1:%2 nem a helyes IP címe és portja, akkor ellenőrizze az Elosztó beállításait."
+
+msgctxt "StatusEventWidget"
+msgid "Checking Directory Port Reachability"
+msgstr "A címtár port elérhetőségnek ellenőrzése"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor is trying to determine if your relay's directory port is reachable from "
+"the Tor network by connecting to itself at %1:%2. This test could take "
+"several minutes."
+msgstr "A Tor megpróbálja ellenőrizni, hogy a Elosztó címtár port elérhető-e a Tor hálózatból, a %1:%2 helyre történő visszacsatlakozással. A teszt lefutása néhány percet vehet igénybe."
+
+msgctxt "StatusEventWidget"
+msgid "Directory Port Reachability Test Successful!"
+msgstr "A címtár port elérhetőségnek ellenőrzése sikeres."
+
+msgctxt "StatusEventWidget"
+msgid "Your relay's directory port is reachable from the Tor network!"
+msgstr "Az Elosztó címtár portja elérhető a Tor hálózatból."
+
+msgctxt "StatusEventWidget"
+msgid "Directory Port Reachability Test Failed"
+msgstr "A címtár port elérhetőségnek ellenőrzése sikertelen."
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Your relay's directory port is not reachable by other Tor clients. This can "
+"happen if you are behind a router or firewall that requires you to set up "
+"port forwarding. If %1:%2 is not your correct IP address and directory port,"
+" please check your relay's configuration."
+msgstr "Az Elosztó címtár portja nem elérhető más Tor kliensek által. Ezt okozhatja, hogy tűzfal vagy router mögött található, ahol a port továbbítást be kell állítania. Ha %1:%2 nem a helyes IP címe és címtár portja, akkor ellenőrizze az Elosztó beállításait."
+
+msgctxt "StatusEventWidget"
+msgid "Relay Descriptor Rejected"
+msgstr "Elosztó leíró visszautasítva"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Your relay's descriptor, which enables clients to connect to your relay, was"
+" rejected by the directory server at %1:%2. The reason given was: %3"
+msgstr "Elosztó leíró amely a kliensek csatlakozását teszi lehetővé visszautasításra került a címtár a %1:%2 címen elérhető címtár szerver által. A visszautasítás oka: %3"
+
+msgctxt "StatusEventWidget"
+msgid "Your Relay is Online"
+msgstr "Az Elosztója Online."
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Your relay is now online and available for Tor clients to use. You should "
+"see an increase in network traffic shown by the Bandwidth Graph within a few"
+" hours as more clients learn about your relay. Thank you for contributing to"
+" the Tor network!"
+msgstr "Az Elosztója Online és elérhető a többi kliens számára. Emelkedő hálózati forgalmat kell látnia a Sávszélesség diagramon néhány órán belül, ahogy újabb kliensek szereznek tudomást az Elosztójáról. Köszönjük a hozzájárulását a Tor hálózathoz."
+
+msgctxt "Stream"
+msgid "New"
+msgstr "Új"
+
+msgctxt "Stream"
+msgid "Resolving"
+msgstr "Feloldás"
+
+msgctxt "Stream"
+msgid "Connecting"
+msgstr "Kapcsolódás"
+
+msgctxt "Stream"
+msgid "Open"
+msgstr "Nyitott"
+
+msgctxt "Stream"
+msgid "Failed"
+msgstr "Nem sikerült"
+
+msgctxt "Stream"
+msgid "Closed"
+msgstr "Lezárt"
+
+msgctxt "Stream"
+msgid "Retrying"
+msgstr "Újra próbálkozás"
+
+msgctxt "Stream"
+msgid "Remapped"
+msgstr "Újratérképezve"
+
+msgctxt "Stream"
+msgid "Unknown"
+msgstr "Ismeretlen"
+
+msgctxt "TorProcess"
+msgid "Process %1 failed to stop. [%2]"
+msgstr "%1 folyamat leállítása sikertelen. [%2]"
+
+msgctxt "TorService"
+msgid "The Tor service is not installed."
+msgstr "A Tor szolgáltatás nincs telepítve."
+
+msgctxt "TorService"
+msgid "Unable to start the Tor service."
+msgstr "Tor szolgáltatás indítása sikertelen."
+
+msgctxt "TorSettings"
+msgid "Failed to hash the control password."
+msgstr "Kontroll jelszó ellenőrző-végösszegének  létrehozása sikertelen."
+
+msgctxt "TorrcDialog"
+msgid "Editing torrc"
+msgstr "torrc fájl szerkesztése"
+
+msgctxt "TorrcDialog"
+msgid ""
+"Save settings. If unchecked it will only apply settings to the current Tor "
+"instance."
+msgstr "Beállítások mentése. Ha nem kerül bejelölésre, akkor csak az aktuális Tor példányhoz kerül beállításra."
+
+msgctxt "TorrcDialog"
+msgid "Cut"
+msgstr "Kivág"
+
+msgctxt "TorrcDialog"
+msgid "Copy"
+msgstr "Másol"
+
+msgctxt "TorrcDialog"
+msgid "Paste"
+msgstr "Beilleszt"
+
+msgctxt "TorrcDialog"
+msgid "Undo"
+msgstr "Visszavon"
+
+msgctxt "TorrcDialog"
+msgid "Redo"
+msgstr "Visszavonást töröl"
+
+msgctxt "TorrcDialog"
+msgid "Select All"
+msgstr "Mindent kijelöl"
+
+msgctxt "TorrcDialog"
+msgid "Apply all"
+msgstr "Mindenre végrehajt"
+
+msgctxt "TorrcDialog"
+msgid "Apply selection only"
+msgstr "Csak a kijelöltre hajt végre"
+
+msgctxt "TorrcDialog"
+msgid "Error connecting to Tor"
+msgstr "Hiba a Tor-hoz kapcsolódásban"
+
+msgctxt "TorrcDialog"
+msgid "Selection is empty. Please select some text, or check \"Apply all\""
+msgstr "A kijelölés üres. Válasszon ki szöveget, vagy jelölje a Mindenre végrehajt opciót."
+
+msgctxt "TorrcDialog"
+msgid "Error at line %1: \"%2\""
+msgstr "Hiba a %1 sorban: \"%2\""
+
+msgctxt "TorrcDialog"
+msgid "Error"
+msgstr "Hiba"
+
+msgctxt "TorrcDialog"
+msgid "An error ocurred while opening torrc file"
+msgstr "Hiba történt a torrc fájl megnyitása során"
+
+msgctxt "UPNPControl"
+msgid "Success"
+msgstr "Siker"
+
+msgctxt "UPNPControl"
+msgid "No UPnP-enabled devices found"
+msgstr "Nem található UPnP eszköz"
+
+msgctxt "UPNPControl"
+msgid "No valid UPnP-enabled Internet gateway devices found"
+msgstr "Nem található UPnP támogatású Internet átjáró eszköz"
+
+msgctxt "UPNPControl"
+msgid "WSAStartup failed"
+msgstr "WSA elindítása sikertelen"
+
+msgctxt "UPNPControl"
+msgid "Failed to add a port mapping"
+msgstr "Port térképezés hozzáadása sikertelen"
+
+msgctxt "UPNPControl"
+msgid "Failed to retrieve a port mapping"
+msgstr "Port térképezés fogadása sikertelen"
+
+msgctxt "UPNPControl"
+msgid "Failed to remove a port mapping"
+msgstr "Port térképezés eltávolítása sikertelen"
+
+msgctxt "UPNPControl"
+msgid "Unknown error"
+msgstr "Ismeretlen hiba"
+
+msgctxt "UPNPTestDialog"
+msgid "Discovering UPnP-enabled devices"
+msgstr "Bekapcsolt UPnP eszközök felderítése"
+
+msgctxt "UPNPTestDialog"
+msgid "Updating directory port mapping"
+msgstr "Címtár térképezés frissítése"
+
+msgctxt "UPNPTestDialog"
+msgid "Updating relay port mapping"
+msgstr "Elosztó térképezés frissítése"
+
+msgctxt "UPNPTestDialog"
+msgid "Test completed successfully!"
+msgstr "A teszt sikerült !"
+
+msgctxt "UPNPTestDialog"
+msgid "Testing UPnP Support"
+msgstr "UPnP támogatás tesztelése"
+
+msgctxt "UPNPTestDialog"
+msgid "Testing Universal Plug & Play Support"
+msgstr "Universal Plug & Play támogatás tesztelése"
+
+msgctxt "UpdateProcess"
+msgid ""
+"Vidalia was unable to check for available software updates because it could "
+"not find '%1'."
+msgstr "A Vidalia nem tudta ellenőrizni az elérhető szoftver frissítéseket, mert nem találta a következőt: '%1'."
+
+msgctxt "UpdateProcess"
+msgid ""
+"Vidalia was unable to check for available software updates because Tor's "
+"update process exited unexpectedly."
+msgstr "A Vidalia nem tudta ellenőrizni az elérhető szoftverfrissítéseket, mert a Tor frissítési folyamat nem várt módon megszakadt."
+
+msgctxt "UpdateProgressDialog"
+msgid "Checking for available updates..."
+msgstr "Elérhető frissítések keresése..."
+
+msgctxt "UpdateProgressDialog"
+msgid "Hide"
+msgstr "Elrejtés"
+
+msgctxt "UpdateProgressDialog"
+msgid "Downloading updates..."
+msgstr "Frissítések letöltése..."
+
+msgctxt "UpdateProgressDialog"
+msgid "Installing updated software..."
+msgstr "Frissített szoftver telepítése..."
+
+msgctxt "UpdateProgressDialog"
+msgid "Done! Your software is now up to date."
+msgstr "Kész. A szoftver naprakész állapotú."
+
+msgctxt "UpdateProgressDialog"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "UpdateProgressDialog"
+msgid "Software Updates"
+msgstr "Szoftver frissítések"
+
+msgctxt "UpdateProgressDialog"
+msgid "Checking for updates..."
+msgstr "Frissítések keresése..."
+
+msgctxt "UpdateProgressDialog"
+msgid "Cancel"
+msgstr "Mégse"
+
+msgctxt "UpdatesAvailableDialog"
+msgid "Software Updates Available"
+msgstr "Szoftver frissítések elérhetők"
+
+msgctxt "UpdatesAvailableDialog"
+msgid "Remind Me Later"
+msgstr "Emlékeztessen később"
+
+msgctxt "UpdatesAvailableDialog"
+msgid "Install"
+msgstr "Telepít"
+
+msgctxt "UpdatesAvailableDialog"
+msgid "The following updated software packages are ready for installation:"
+msgstr "A következő frissített szoftver csomagok telepítésre készen állnak:"
+
+msgctxt "UpdatesAvailableDialog"
+msgid "Package"
+msgstr "Csomag"
+
+msgctxt "UpdatesAvailableDialog"
+msgid "Version"
+msgstr "Verzió"
+
+msgctxt "VMessageBox"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "VMessageBox"
+msgid "Cancel"
+msgstr "Mégse"
+
+msgctxt "VMessageBox"
+msgid "Yes"
+msgstr "Igen"
+
+msgctxt "VMessageBox"
+msgid "No"
+msgstr "Nem"
+
+msgctxt "VMessageBox"
+msgid "Help"
+msgstr "Súgó"
+
+msgctxt "VMessageBox"
+msgid "Retry"
+msgstr "Újra"
+
+msgctxt "VMessageBox"
+msgid "Show Log"
+msgstr "Log megtekintése"
+
+msgctxt "VMessageBox"
+msgid "Show Settings"
+msgstr "Beállítások megtekintése"
+
+msgctxt "VMessageBox"
+msgid "Continue"
+msgstr "Folytatás"
+
+msgctxt "VMessageBox"
+msgid "Quit"
+msgstr "Kilépés"
+
+msgctxt "VMessageBox"
+msgid "Browse"
+msgstr "Tallóz"
+
+msgctxt "Vidalia"
+msgid "Invalid Argument"
+msgstr "Érvénytelen kapcsoló"
+
+msgctxt "Vidalia"
+msgid "Vidalia is already running"
+msgstr "A Vidalia már fut"
+
+msgctxt "Vidalia"
+msgid "Displays this usage message and exits."
+msgstr "Megjeleníti ezt az üzenetet és kilép."
+
+msgctxt "Vidalia"
+msgid "Resets ALL stored Vidalia settings."
+msgstr "Visszaállít minden tárolt Vidalia beállítást."
+
+msgctxt "Vidalia"
+msgid "Sets the directory Vidalia uses for data files."
+msgstr "Beállítja a könyvtárat melyben a Vidalia adatokat tárol."
+
+msgctxt "Vidalia"
+msgid "Sets the name and location of Vidalia's pidfile."
+msgstr "Beállítja a nevét és a helyét a Vidalia pid-állományának."
+
+msgctxt "Vidalia"
+msgid "Sets the name and location of Vidalia's logfile."
+msgstr "Beállítja a nevét és a helyét a Vidalia logjának (naplójának)."
+
+msgctxt "Vidalia"
+msgid "Sets the verbosity of Vidalia's logging."
+msgstr "Beállítja a Vidalia naplózásának részletességét."
+
+msgctxt "Vidalia"
+msgid "Sets Vidalia's interface style."
+msgstr "Beállítja a Vidalia kinézetét."
+
+msgctxt "Vidalia"
+msgid "Sets Vidalia's language."
+msgstr "Beállítja a Vidalia nyelvét."
+
+msgctxt "Vidalia"
+msgid "Vidalia Usage Information"
+msgstr "Vidalia használati útmutató"
+
+msgctxt "Vidalia"
+msgid "Unable to open log file '%1': %2"
+msgstr "A '%1' napló megnyitása sikertelen: %2"
+
+msgctxt "Vidalia"
+msgid "Value required for parameter :"
+msgstr "Várt érték a paraméterhez:"
+
+msgctxt "Vidalia"
+msgid "Invalid language code specified:"
+msgstr "Érvénytelen nyelvi kód lett megadva:"
+
+msgctxt "Vidalia"
+msgid "Invalid GUI style specified:"
+msgstr "Érvénytelen felhasználói felület stílus lett megadva:"
+
+msgctxt "Vidalia"
+msgid "Invalid log level specified:"
+msgstr "Érvénytelen naplózási szint lett megadva:"
+
+msgctxt "Vidalia"
+msgid ""
+"Another Vidalia process is possibly already running. If there really is not another Vidalia process running, you can choose to continue anyway.\n"
+"\n"
+"Would you like to continue starting Vidalia?"
+msgstr "Valószínűleg egy másik Vidalia folyamat is fut. Ha biztosan nem fut Vidalia folyamat, akkor választhatja a folytatás mindenképp lehetőséget.\n\nSzeretné folyatni a Vidalia indítását?"
+
+msgctxt "stringutil.h"
+msgid "%1 secs"
+msgstr "%1 másodperc"
+
+msgctxt "stringutil.h"
+msgid "%1 B/s"
+msgstr "%1 B/s"
+
+msgctxt "stringutil.h"
+msgid "%1 KB/s"
+msgstr "%1 KB/s"
+
+msgctxt "stringutil.h"
+msgid "%1 MB/s"
+msgstr "%1 MB/s"
+
+msgctxt "stringutil.h"
+msgid "%1 GB/s"
+msgstr "%1 GB/s"
+
+msgctxt "stringutil.h"
+msgid "%1 days"
+msgstr "%1 nap"
+
+msgctxt "stringutil.h"
+msgid "%1 hours"
+msgstr "%1 óra"
+
+msgctxt "stringutil.h"
+msgid "%1 mins"
+msgstr "%1 perc"

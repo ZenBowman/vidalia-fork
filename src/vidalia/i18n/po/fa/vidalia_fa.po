@@ -1,0 +1,3851 @@
+# 
+# Translators:
+# Ardeshir  <ardeshir@redteam.io>, 2011, 2012.
+#   <green.dove1388@gmail.com>, 2011.
+# martin luther king <sabztunnel@gmail.com>, 2012.
+# runasand <runa.sandvik@gmail.com>, 2011.
+#   <slander_mo@hotmail.com>, 2012.
+#   <s.sampad@gmail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: The Tor Project\n"
+"Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
+"POT-Creation-Date: 2012-03-21 17:52+0000\n"
+"PO-Revision-Date: 2012-04-16 09:48+0000\n"
+"Last-Translator: Ardeshir <ardeshir@redteam.io>\n"
+"Language-Team: translations@vidalia-project.net\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fa\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"X-Generator: Vidalia ts2po 0.2\n"
+
+msgctxt "AboutDialog"
+msgid "About Vidalia"
+msgstr "درباره‌ ویدالیا"
+
+msgctxt "AboutDialog"
+msgid "License"
+msgstr "مجوز"
+
+msgctxt "AboutDialog"
+msgid "Vidalia 0.2.0"
+msgstr "ویدالیا 0.2.0"
+
+msgctxt "AboutDialog"
+msgid "Tor 0.2.0.32"
+msgstr "Tor 0.2.0.32"
+
+msgctxt "AboutDialog"
+msgid "Qt 4.4.2"
+msgstr "Qt 4.4.2"
+
+msgctxt "AdvancedPage"
+msgid "'%1' is not a valid IP address."
+msgstr "'%1' یک آدرس IP معتبر نیست"
+
+msgctxt "AdvancedPage"
+msgid ""
+"You selected 'Password' authentication, but did not specify a password."
+msgstr "شما احراز هویت بر اساس اسم رمز را انتخاب کردید، اما اسم رمز را مشخص نکردید."
+
+msgctxt "AdvancedPage"
+msgid "Select Tor Configuration File"
+msgstr "فایل پیکربندی تور را انتخاب کنید"
+
+msgctxt "AdvancedPage"
+msgid "File Not Found"
+msgstr "فایل مورد نظر پیدا نشد"
+
+msgctxt "AdvancedPage"
+msgid "%1 does not exist. Would you like to create it?"
+msgstr "فایل %1 وجود ندارد. آیا می‌خواهید آن را بسازید؟"
+
+msgctxt "AdvancedPage"
+msgid "Failed to Create File"
+msgstr "ایجاد فایل ناموفق بود"
+
+msgctxt "AdvancedPage"
+msgid "Unable to create %1 [%2]"
+msgstr "ناتوان در ایجاد %1 [%2]"
+
+msgctxt "AdvancedPage"
+msgid "Select a Directory to Use for Tor Data"
+msgstr "یک دایرکتوری برای استفاده داده های تور انتخاب کنید"
+
+msgctxt "AdvancedPage"
+msgid "Unable to remove Tor Service"
+msgstr "ناتوان در پاک کردن سرویس تور"
+
+msgctxt "AdvancedPage"
+msgid "Unable to install Tor Service"
+msgstr "ناتوان در نصب سرویس تور"
+
+msgctxt "AdvancedPage"
+msgid "Vidalia was unable to install the Tor service."
+msgstr "ویدالیا نتوانست سرویس تور را نصب کند"
+
+msgctxt "AdvancedPage"
+msgid "Authentication:"
+msgstr "احراز هویت:"
+
+msgctxt "AdvancedPage"
+msgid "Address:"
+msgstr "آدرس:"
+
+msgctxt "AdvancedPage"
+msgid "None"
+msgstr "هيچكدام"
+
+msgctxt "AdvancedPage"
+msgid "Cookie"
+msgstr "کوکی"
+
+msgctxt "AdvancedPage"
+msgid "Password"
+msgstr "رمز"
+
+msgctxt "AdvancedPage"
+msgid "Randomly Generate"
+msgstr "تولید تصادفی"
+
+msgctxt "AdvancedPage"
+msgid ":"
+msgstr ":"
+
+msgctxt "AdvancedPage"
+msgid "Tor Configuration File"
+msgstr "فایل پیکربندی تور"
+
+msgctxt "AdvancedPage"
+msgid "Start the Tor software with the specified configuration file (torrc)"
+msgstr "راه اندازی نرم افزار تور با فایل پیکربندی مشخص شده (torrc)"
+
+msgctxt "AdvancedPage"
+msgid "Select path to your configuration file"
+msgstr "مسیر فایل پیکربندی تان را انتخاب کنید"
+
+msgctxt "AdvancedPage"
+msgid "Browse"
+msgstr "انتخاب فایل"
+
+msgctxt "AdvancedPage"
+msgid "Data Directory"
+msgstr "دایرکتوری داده‌ ها"
+
+msgctxt "AdvancedPage"
+msgid "Store data for the Tor software in the following directory"
+msgstr "ذخیره کردن داده ها برای نرم افزار تور در فهرست ذیل"
+
+msgctxt "AdvancedPage"
+msgid "Select the directory used to store data for the Tor software"
+msgstr "انتخاب کردن فهرست جهت ذخیره داده ها برای نرم افزار تُر"
+
+msgctxt "AdvancedPage"
+msgid "Tor Control"
+msgstr "کنترل پنل تور"
+
+msgctxt "AdvancedPage"
+msgid "Use TCP connection (ControlPort)"
+msgstr "از ارتباط TCP استفاده کن (ControlPort)"
+
+msgctxt "AdvancedPage"
+msgid "Path:"
+msgstr "مسیر :"
+
+msgctxt "AdvancedPage"
+msgid "Use Unix domain socket (ControlSocket)"
+msgstr "Use Unix domain socket (ControlSocket)"
+
+msgctxt "AdvancedPage"
+msgid "Edit current torrc"
+msgstr "torrc فعلی را ویرایش کنید"
+
+msgctxt "AdvancedPage"
+msgid "NOTE: this will edit the currently loaded torrc"
+msgstr "توجه : این torrc بارگذاری شده فعلی را ویرایش میکند"
+
+msgctxt "AdvancedPage"
+msgid "ControlSocket path doesn't exist."
+msgstr "مسیر ControlSocket وجود ندارد"
+
+msgctxt "AdvancedPage"
+msgid ""
+"The specified Tor configuration file location contains characters that "
+"cannot be represented in your system's current 8-bit character encoding."
+msgstr "The specified Tor configuration file location contains characters that cannot be represented in your system's current 8-bit character encoding."
+
+msgctxt "AdvancedPage"
+msgid ""
+"The specified Tor data directory location contains characters that cannot be"
+" represented in your system's current 8-bit character encoding."
+msgstr "تعیین محل دایرکتوری Tor را داده شامل کاراکتر است که می تواند در سیستم خود رمزگذاری کاراکتر در حال حاضر 8 - بیت نشان داده نمیشود."
+
+msgctxt "AdvancedPage"
+msgid "Warning"
+msgstr "هشدار"
+
+msgctxt "AdvancedPage"
+msgid "You changed torrc path, would you like to restart Tor?"
+msgstr "شما مسیر torrc تغییر داده اید، آیا می خواهید تور را ریستارت کنید؟"
+
+msgctxt "AdvancedPage"
+msgid "Tor Configuration File (torrc);;All Files (*)"
+msgstr "Tor Configuration File (torrc);;All Files (*)"
+
+msgctxt "AdvancedPage"
+msgid "Select a file to use for Tor socket path"
+msgstr "یک فایل برای استفاده مسیرِ سوکتِ تور انتخاب کنید"
+
+msgctxt "AdvancedPage"
+msgid "Configure ControlPort automatically"
+msgstr "ControlPort را بصورت خودکار پیکربندی کن"
+
+msgctxt "AdvancedPage"
+msgid ""
+"You've checked the autoconfiguration option for the ControlPort, but "
+"provided no Data Directory. Please add one, or uncheck the \"Configure "
+"ControlPort automatically\" option."
+msgstr "شما گزینه تنظیمات خودکار را برای ControlPort انتخاب کرده اید، ولی هیچ دایرکتوری داده ای ارایه نکردید. لطفن یکی اضافه کنید و یا گزینه تنظیم خودکار ControlPort را غیرفعال کنید."
+
+msgctxt "AdvancedPage"
+msgid ""
+"Vidalia was unable to remove the Tor service.\n"
+"\n"
+"You may need to remove it manually."
+msgstr "ویدالیا نتوانست سرویس تور را حذف کند.⏎\n⏎\nشاید لازم باشد به طور دستی آن را حذف کنید"
+
+msgctxt "AppearancePage"
+msgid "Language"
+msgstr "زبان"
+
+msgctxt "AppearancePage"
+msgid "Choose the language used in Vidalia"
+msgstr "زبان ویدالیا را انتخاب کن"
+
+msgctxt "AppearancePage"
+msgid "Style"
+msgstr "سبک نمایش"
+
+msgctxt "AppearancePage"
+msgid "Choose Vidalia's interface style"
+msgstr "نوع واسط کاربر ویدالیا را انتخاب کن"
+
+msgctxt "AppearancePage"
+msgid "Vidalia was unable to load the selected language translation."
+msgstr "ویدالیا قادر به بارگذاری زبان انتخاب شده نبود"
+
+msgctxt "AppearancePage"
+msgid ""
+"System Icon Preferences (changes will take effect when you restart Vidalia)"
+msgstr "آیکن کارایی سیستم (تغییرات اثر کند زمانی که شما ویدالیا را دوباره شروع می کنید)"
+
+msgctxt "AppearancePage"
+msgid "Show the Tray Icon and Dock Icon (default)"
+msgstr "(پیش فرض)Dock Icon و  Tray Icon نمایش"
+
+msgctxt "AppearancePage"
+msgid "Hide the Tray Icon"
+msgstr "مخفی کردن Tray Icon"
+
+msgctxt "AppearancePage"
+msgid "Hide the Dock Icon"
+msgstr "مخفی کردن Dock Icon"
+
+msgctxt "BandwidthGraph"
+msgid "Since:"
+msgstr "از زمان:"
+
+msgctxt "BandwidthGraph"
+msgid "Hide Settings"
+msgstr "تنظیمات را مخفی کن"
+
+msgctxt "BandwidthGraph"
+msgid "Show Settings"
+msgstr "نمایش تنظیمات"
+
+msgctxt "BandwidthGraph"
+msgid "Tor Bandwidth Usage"
+msgstr "مصرف پهنای باند تور"
+
+msgctxt "BandwidthGraph"
+msgid "Reset"
+msgstr "تنظیم مجدد"
+
+msgctxt "BandwidthGraph"
+msgid "Receive Rate"
+msgstr "سرعت دریافت"
+
+msgctxt "BandwidthGraph"
+msgid "Send Rate"
+msgstr "سرعت ارسال"
+
+msgctxt "BandwidthGraph"
+msgid "Always on Top"
+msgstr "همیشه بر رو"
+
+msgctxt "BandwidthGraph"
+msgid "Style"
+msgstr "سبک نمایش"
+
+msgctxt "BandwidthGraph"
+msgid "Changes the transparency of the Bandwidth Graph"
+msgstr "شفافیت نمودار پهنای‌باند را تغییر میدهد"
+
+msgctxt "BandwidthGraph"
+msgid "100"
+msgstr "100"
+
+msgctxt "BandwidthGraph"
+msgid "% Opaque"
+msgstr "مات %"
+
+msgctxt "BandwidthGraph"
+msgid "Save"
+msgstr "ذخیره"
+
+msgctxt "BandwidthGraph"
+msgid "Cancel"
+msgstr "لغو"
+
+msgctxt "BridgeDownloader"
+msgid "Starting HTTPS bridge request..."
+msgstr " شروع به درخواست پل های HTTPS"
+
+msgctxt "BridgeDownloader"
+msgid "Connecting to %1:%2..."
+msgstr "اتصال به %1:%2..."
+
+msgctxt "BridgeDownloader"
+msgid "Sending an HTTPS request for bridges..."
+msgstr "ارسال یک درخواست HTTPS برای پل ها"
+
+msgctxt "BridgeDownloader"
+msgid "Downloading a list of bridges..."
+msgstr "بارگذاری یک ليست از پل ها"
+
+msgctxt "BridgeDownloaderProgressDialog"
+msgid "Downloading Bridges"
+msgstr "بارگذاری پل ها"
+
+msgctxt "BridgeDownloaderProgressDialog"
+msgid "Unable to download bridges: %1"
+msgstr "ناتوان در بارگذاری پل ها:%1"
+
+msgctxt "BridgeDownloaderProgressDialog"
+msgid "Retrying bridge request..."
+msgstr "تلاش دوباره برای درخواست پل..."
+
+msgctxt "BridgeUsageDialog"
+msgid "Country"
+msgstr "كشور"
+
+msgctxt "BridgeUsageDialog"
+msgid "# Clients"
+msgstr "# کلاینت ها"
+
+msgctxt "BridgeUsageDialog"
+msgid "Clients from the following countries have used your relay since %1"
+msgstr "از تاریخ ‪%1‬ کلاینت هایی از کشورهای زیر از بازپخش کننده شما استفاده کرده‌اند"
+
+msgctxt "BridgeUsageDialog"
+msgid "Bridge Usage Summary"
+msgstr "گزارش استفاده از پل ها"
+
+msgctxt "BridgeUsageDialog"
+msgid "Client Summary"
+msgstr "گزارش کلاینت‌ها"
+
+msgctxt "Circuit"
+msgid "New"
+msgstr "جدید"
+
+msgctxt "Circuit"
+msgid "Open"
+msgstr "باز کن"
+
+msgctxt "Circuit"
+msgid "Building"
+msgstr "درحال ساختن"
+
+msgctxt "Circuit"
+msgid "Failed"
+msgstr "ناموفق"
+
+msgctxt "Circuit"
+msgid "Closed"
+msgstr "بسته شده"
+
+msgctxt "Circuit"
+msgid "Unknown"
+msgstr "ناشناخته"
+
+msgctxt "CircuitItem"
+msgid "<Path Empty>"
+msgstr "<مسیر خالی>"
+
+msgctxt "CircuitListWidget"
+msgid "Connection"
+msgstr "اتصال"
+
+msgctxt "CircuitListWidget"
+msgid "Status"
+msgstr "وضعیت"
+
+msgctxt "CircuitListWidget"
+msgid "Zoom to Circuit"
+msgstr "بزرگنمایی روی جریان"
+
+msgctxt "CircuitListWidget"
+msgid "Close Circuit (Del)"
+msgstr "بستن مدار (Del)"
+
+msgctxt "CircuitListWidget"
+msgid "Close Stream (Del)"
+msgstr "بستن جریان (Del)"
+
+msgctxt "ConfigDialog"
+msgid "General"
+msgstr "کلی"
+
+msgctxt "ConfigDialog"
+msgid "Network"
+msgstr "شبکه"
+
+msgctxt "ConfigDialog"
+msgid "Sharing"
+msgstr "اشتراک"
+
+msgctxt "ConfigDialog"
+msgid "Services"
+msgstr "سرویس ها"
+
+msgctxt "ConfigDialog"
+msgid "Appearance"
+msgstr "ظاهر"
+
+msgctxt "ConfigDialog"
+msgid "Advanced"
+msgstr "پیشرفته"
+
+msgctxt "ConfigDialog"
+msgid "Help"
+msgstr "راهنما"
+
+msgctxt "ConfigDialog"
+msgid "Error Saving Settings"
+msgstr "خطا در هنگام ذخیره تنظیمات"
+
+msgctxt "ConfigDialog"
+msgid "Vidalia was unable to save your %1 settings."
+msgstr "ویدالیا نتوانست تنظیمات %1 شما را ذخیره کند."
+
+msgctxt "ConfigDialog"
+msgid "Error Applying Settings"
+msgstr "خطا در هنگام اعمال تنظیمات"
+
+msgctxt "ConfigDialog"
+msgid "Vidalia was unable to apply your %1 settings to Tor."
+msgstr "ویدالیا نتوانست تنظیمات %1 شما را برای تور اعمال کند."
+
+msgctxt "ConfigDialog"
+msgid "Settings"
+msgstr "تنظیمات"
+
+msgctxt "ControlConnection"
+msgid "Vidalia was unable to connect to Tor. (%1)"
+msgstr "ویدالیا نتوانست به تور وصل شود. (%1)"
+
+msgctxt "ControlConnection"
+msgid "Control socket is not connected."
+msgstr "سوکت کنترل وصل نیست"
+
+msgctxt "ControlPasswordInputDialog"
+msgid "Password Required"
+msgstr "رمز عبور مورد نياز است"
+
+msgctxt "ControlPasswordInputDialog"
+msgid "Remember my password"
+msgstr "رمز عبور مرا به ياد داشته باش"
+
+msgctxt "ControlPasswordInputDialog"
+msgid ""
+"Vidalia has connected to a running Tor process that requires a password. "
+"Please enter your control password:"
+msgstr "ويداليا به یک تور که هم اکنون درحال اجراست و به رمز عبور نیاز دارد متصل شده است. لطفن رمز عبور را وارد كنيد"
+
+msgctxt "ControlSocket"
+msgid "Control socket is not connected."
+msgstr "سوکت کنترل وصل نیست"
+
+msgctxt "ControlSocket"
+msgid "Error sending control command. [%1]"
+msgstr "خطا در ارسال دستورات کنترل"
+
+msgctxt "ControlSocket"
+msgid "Socket disconnected while attempting to read a line of data."
+msgstr "در حین تلاش برای خواندن یک خط از داده‌ها سوکت قطع شد"
+
+msgctxt "ControlSocket"
+msgid "Invalid control reply. [%1]"
+msgstr "پاسخ کنترلی نامعتبر. ‪[%1]‬"
+
+msgctxt "CountryInfo"
+msgid "Afghanistan"
+msgstr "افغانستان"
+
+msgctxt "CountryInfo"
+msgid "Andorra"
+msgstr "آندورا"
+
+msgctxt "CountryInfo"
+msgid "Angola"
+msgstr "آنگولا"
+
+msgctxt "CountryInfo"
+msgid "Antigua & Barbuda"
+msgstr "آنتيگوآ وباربودا"
+
+msgctxt "CountryInfo"
+msgid "Argentina"
+msgstr "آرژانتين"
+
+msgctxt "CountryInfo"
+msgid "Armenia"
+msgstr "ارمنستان"
+
+msgctxt "CountryInfo"
+msgid "Australia"
+msgstr "درباره‌ ویدالیا"
+
+msgctxt "CountryInfo"
+msgid "Azerbaijan"
+msgstr "آذربايجان"
+
+msgctxt "CountryInfo"
+msgid "Bahamas"
+msgstr "باهاما"
+
+msgctxt "CountryInfo"
+msgid "Bangladesh"
+msgstr "بنگلادش"
+
+msgctxt "CountryInfo"
+msgid "Barbados"
+msgstr "باربادوس"
+
+msgctxt "CountryInfo"
+msgid "Belarus"
+msgstr "بلاروس"
+
+msgctxt "CountryInfo"
+msgid "Belgium"
+msgstr "بلژیک"
+
+msgctxt "CountryInfo"
+msgid "Belize"
+msgstr "بليز"
+
+msgctxt "CountryInfo"
+msgid "Bhutan"
+msgstr "بوتان"
+
+msgctxt "CountryInfo"
+msgid "Bolivia"
+msgstr "بولیوی"
+
+msgctxt "CountryInfo"
+msgid "Bosnia & Herzegovina"
+msgstr "بوسنی و هرزگوين"
+
+msgctxt "CountryInfo"
+msgid "Botswana"
+msgstr "بوتساوانا"
+
+msgctxt "CountryInfo"
+msgid "Brazil"
+msgstr "برزيل"
+
+msgctxt "CountryInfo"
+msgid "Brunei Darussalam"
+msgstr "برونئی داروالسلام"
+
+msgctxt "CountryInfo"
+msgid "Bulgaria"
+msgstr "بلغارستان"
+
+msgctxt "CountryInfo"
+msgid "Burkina Faso"
+msgstr "بوركينافاسو"
+
+msgctxt "CountryInfo"
+msgid "Burundi"
+msgstr "بوروندی"
+
+msgctxt "CountryInfo"
+msgid "Cambodia"
+msgstr "كامبوج"
+
+msgctxt "CountryInfo"
+msgid "Cameroon"
+msgstr "كامرون"
+
+msgctxt "CountryInfo"
+msgid "Canada"
+msgstr "كانادا"
+
+msgctxt "CountryInfo"
+msgid "Cape Verde"
+msgstr "كيپ ورد"
+
+msgctxt "CountryInfo"
+msgid "Central African Republic"
+msgstr "جمهوری آفریقای مرکزی"
+
+msgctxt "CountryInfo"
+msgid "Chad"
+msgstr "چاد"
+
+msgctxt "CountryInfo"
+msgid "Chile"
+msgstr "شيلی"
+
+msgctxt "CountryInfo"
+msgid "China"
+msgstr "چين"
+
+msgctxt "CountryInfo"
+msgid "Colombia"
+msgstr "كلمبيا"
+
+msgctxt "CountryInfo"
+msgid "Comoros"
+msgstr "كومور"
+
+msgctxt "CountryInfo"
+msgid "Congo, The Democratic Republic of the"
+msgstr "جمهوری دموكراتيک كنگو"
+
+msgctxt "CountryInfo"
+msgid "Congo"
+msgstr "كنگو"
+
+msgctxt "CountryInfo"
+msgid "Costa Rica"
+msgstr "كاستاريكا"
+
+msgctxt "CountryInfo"
+msgid "Cote dâIvoire"
+msgstr "ساحل عاج"
+
+msgctxt "CountryInfo"
+msgid "Croatia"
+msgstr "كرواسی"
+
+msgctxt "CountryInfo"
+msgid "Cuba"
+msgstr "كوبا"
+
+msgctxt "CountryInfo"
+msgid "Cyprus"
+msgstr "قبرس"
+
+msgctxt "CountryInfo"
+msgid "Czech Republic"
+msgstr "جمهوری چک"
+
+msgctxt "CountryInfo"
+msgid "Denmark"
+msgstr "دانمارک"
+
+msgctxt "CountryInfo"
+msgid "Djibouti"
+msgstr "جیبوتی"
+
+msgctxt "CountryInfo"
+msgid "Dominica"
+msgstr "دومنيكن"
+
+msgctxt "CountryInfo"
+msgid "Dominican Republic"
+msgstr "جمهوری دومنيكن"
+
+msgctxt "CountryInfo"
+msgid "Ecuador"
+msgstr "اكوادور"
+
+msgctxt "CountryInfo"
+msgid "Egypt"
+msgstr "مصر"
+
+msgctxt "CountryInfo"
+msgid "El Salvador"
+msgstr "السالوادور"
+
+msgctxt "CountryInfo"
+msgid "Equatorial Guinea"
+msgstr "گینه استوایی"
+
+msgctxt "CountryInfo"
+msgid "Eritrea"
+msgstr "اريتره"
+
+msgctxt "CountryInfo"
+msgid "Estonia"
+msgstr "استونی"
+
+msgctxt "CountryInfo"
+msgid "France"
+msgstr "فرانسه"
+
+msgctxt "CountryInfo"
+msgid "Gabon"
+msgstr "گابن"
+
+msgctxt "CountryInfo"
+msgid "Gambia"
+msgstr "گامبيا"
+
+msgctxt "CountryInfo"
+msgid "Georgia"
+msgstr "گرجستان"
+
+msgctxt "CountryInfo"
+msgid "Germany"
+msgstr "آلمان"
+
+msgctxt "CountryInfo"
+msgid "Ghana"
+msgstr "غنا"
+
+msgctxt "CountryInfo"
+msgid "Grenada"
+msgstr "گرنادا"
+
+msgctxt "CountryInfo"
+msgid "Guatemala"
+msgstr "گواتمالا"
+
+msgctxt "CountryInfo"
+msgid "Guinea"
+msgstr "گینه"
+
+msgctxt "CountryInfo"
+msgid "Guinea-Bissau"
+msgstr "گينه بيسائو"
+
+msgctxt "CountryInfo"
+msgid "Guyana"
+msgstr "گينه"
+
+msgctxt "CountryInfo"
+msgid "Hong Kong"
+msgstr "هنگ كنگ"
+
+msgctxt "CountryInfo"
+msgid "Haiti"
+msgstr "هایتی"
+
+msgctxt "CountryInfo"
+msgid "Honduras"
+msgstr "هندوراس"
+
+msgctxt "CountryInfo"
+msgid "Israel"
+msgstr "اسرائيل"
+
+msgctxt "CountryInfo"
+msgid "Italy"
+msgstr "ايتاليا"
+
+msgctxt "CountryInfo"
+msgid "Jamaica"
+msgstr "جامايكا"
+
+msgctxt "CountryInfo"
+msgid "Japan"
+msgstr "ژاپن"
+
+msgctxt "CountryInfo"
+msgid "Jordan"
+msgstr "اردن"
+
+msgctxt "CountryInfo"
+msgid "Kazakhstan"
+msgstr "قزاقستان"
+
+msgctxt "CountryInfo"
+msgid "Kenya"
+msgstr "كنيا"
+
+msgctxt "CountryInfo"
+msgid "Kiribati"
+msgstr "کيريباتی"
+
+msgctxt "CountryInfo"
+msgid "Kuwait"
+msgstr "كويت"
+
+msgctxt "CountryInfo"
+msgid "Kyrgyzstan"
+msgstr "قرقيزستان"
+
+msgctxt "CountryInfo"
+msgid "Laos"
+msgstr "لائوس"
+
+msgctxt "CountryInfo"
+msgid "Latvia"
+msgstr "لتونی"
+
+msgctxt "CountryInfo"
+msgid "Lebanon"
+msgstr "لبنان"
+
+msgctxt "CountryInfo"
+msgid "Lesotho"
+msgstr "لسوتو"
+
+msgctxt "CountryInfo"
+msgid "Liberia"
+msgstr "ليبی"
+
+msgctxt "CountryInfo"
+msgid "Liechtenstein"
+msgstr "لیختن اشتاین"
+
+msgctxt "CountryInfo"
+msgid "Lithuania"
+msgstr "لتونی"
+
+msgctxt "CountryInfo"
+msgid "Luxembourg"
+msgstr "لوكزامبورگ"
+
+msgctxt "CountryInfo"
+msgid "Macedonia"
+msgstr "مقدونيه"
+
+msgctxt "CountryInfo"
+msgid "Madagascar"
+msgstr "ماداگاسكار"
+
+msgctxt "CountryInfo"
+msgid "Malawi"
+msgstr "مالاوی"
+
+msgctxt "CountryInfo"
+msgid "Malaysia"
+msgstr "مالزی"
+
+msgctxt "CountryInfo"
+msgid "Mali"
+msgstr "مالی"
+
+msgctxt "CountryInfo"
+msgid "Malta"
+msgstr "جزیره مالت"
+
+msgctxt "CountryInfo"
+msgid "Marshall Islands"
+msgstr "جزاير مارشال"
+
+msgctxt "CountryInfo"
+msgid "Mauritania"
+msgstr "موريتانی"
+
+msgctxt "CountryInfo"
+msgid "Mauritius"
+msgstr "موريس"
+
+msgctxt "CountryInfo"
+msgid "Micronesia"
+msgstr "جزاير ميكرونزی"
+
+msgctxt "CountryInfo"
+msgid "Moldova"
+msgstr "مولداوی"
+
+msgctxt "CountryInfo"
+msgid "Monaco"
+msgstr "موناكو"
+
+msgctxt "CountryInfo"
+msgid "Mongolia"
+msgstr "مغولستان"
+
+msgctxt "CountryInfo"
+msgid "Montenegro"
+msgstr "مونته نگرو"
+
+msgctxt "CountryInfo"
+msgid "Morocco"
+msgstr "مراكش"
+
+msgctxt "CountryInfo"
+msgid "Mozambique"
+msgstr "موزامبيک"
+
+msgctxt "CountryInfo"
+msgid "Namibia"
+msgstr "نامبيا"
+
+msgctxt "CountryInfo"
+msgid "Nauru"
+msgstr "نائورو"
+
+msgctxt "CountryInfo"
+msgid "Nepal"
+msgstr "نپال"
+
+msgctxt "CountryInfo"
+msgid "Netherlands"
+msgstr "هلند"
+
+msgctxt "CountryInfo"
+msgid "New Zealand"
+msgstr "نیوزلند"
+
+msgctxt "CountryInfo"
+msgid "Nicaragua"
+msgstr "نيكاراگوئه"
+
+msgctxt "CountryInfo"
+msgid "Niger"
+msgstr "نيجر"
+
+msgctxt "CountryInfo"
+msgid "Nigeria"
+msgstr "نيجريه"
+
+msgctxt "CountryInfo"
+msgid "Norway"
+msgstr "نروژ"
+
+msgctxt "CountryInfo"
+msgid "Oman"
+msgstr "عمان"
+
+msgctxt "CountryInfo"
+msgid "Pakistan"
+msgstr "پاكستان"
+
+msgctxt "CountryInfo"
+msgid "Palau"
+msgstr "پالائو"
+
+msgctxt "CountryInfo"
+msgid "Palestine"
+msgstr "فلسطين"
+
+msgctxt "CountryInfo"
+msgid "Panama"
+msgstr "پاناما"
+
+msgctxt "CountryInfo"
+msgid "Papua New Guinea"
+msgstr "پاپوآ گينه نو"
+
+msgctxt "CountryInfo"
+msgid "Paraguay"
+msgstr "پاراگوئه"
+
+msgctxt "CountryInfo"
+msgid "Peru"
+msgstr "پرو"
+
+msgctxt "CountryInfo"
+msgid "Philippines"
+msgstr "فيليپين"
+
+msgctxt "CountryInfo"
+msgid "Poland"
+msgstr "لهستان"
+
+msgctxt "CountryInfo"
+msgid "Portugal"
+msgstr "پرتغال"
+
+msgctxt "CountryInfo"
+msgid "Qatar"
+msgstr "قطر"
+
+msgctxt "CountryInfo"
+msgid "Romania"
+msgstr "رومانی"
+
+msgctxt "CountryInfo"
+msgid "Russia"
+msgstr "روسيه"
+
+msgctxt "CountryInfo"
+msgid "Rwanda"
+msgstr "روآندا"
+
+msgctxt "CountryInfo"
+msgid "Saint Kitts & Nevis"
+msgstr "سنت کيتس و نويس"
+
+msgctxt "CountryInfo"
+msgid "Saint Lucia"
+msgstr "سنت لوسيا"
+
+msgctxt "CountryInfo"
+msgid "Saint Vincent & the Grenadines"
+msgstr "سنت وينست و گرنادين"
+
+msgctxt "CountryInfo"
+msgid "Samoa"
+msgstr "ساموآ"
+
+msgctxt "CountryInfo"
+msgid "San Marino"
+msgstr "سن مارينو"
+
+msgctxt "CountryInfo"
+msgid "Sao Tome & Principe"
+msgstr "سائوتومه و پرنسيپ"
+
+msgctxt "CountryInfo"
+msgid "Saudi Arabia"
+msgstr "عربستان سعودی"
+
+msgctxt "CountryInfo"
+msgid "Senegal"
+msgstr "سنگال"
+
+msgctxt "CountryInfo"
+msgid "Serbia"
+msgstr "صربستان"
+
+msgctxt "CountryInfo"
+msgid "Seychelles"
+msgstr "سيشل"
+
+msgctxt "CountryInfo"
+msgid "Sierra Leone"
+msgstr "سيرالئون"
+
+msgctxt "CountryInfo"
+msgid "Singapore"
+msgstr "سنگاپور"
+
+msgctxt "CountryInfo"
+msgid "Slovakia"
+msgstr "اسلواكی"
+
+msgctxt "CountryInfo"
+msgid "Slovenia"
+msgstr "اسلوونی"
+
+msgctxt "CountryInfo"
+msgid "Solomon Islands"
+msgstr "جزاير سليمان"
+
+msgctxt "CountryInfo"
+msgid "Somalia"
+msgstr "سومالی"
+
+msgctxt "CountryInfo"
+msgid "South Africa"
+msgstr "افریقای جنوبی"
+
+msgctxt "CountryInfo"
+msgid "Spain"
+msgstr "اسپانیا"
+
+msgctxt "CountryInfo"
+msgid "Sri Lanka"
+msgstr "سريلانكا"
+
+msgctxt "CountryInfo"
+msgid "Sudan"
+msgstr "سودان"
+
+msgctxt "CountryInfo"
+msgid "Suriname"
+msgstr "سورينام"
+
+msgctxt "CountryInfo"
+msgid "Swaziland"
+msgstr "سوییس"
+
+msgctxt "CountryInfo"
+msgid "Sweden"
+msgstr "سوئد"
+
+msgctxt "CountryInfo"
+msgid "Switzerland"
+msgstr "سوئيس"
+
+msgctxt "CountryInfo"
+msgid "Syria"
+msgstr "سوريه"
+
+msgctxt "CountryInfo"
+msgid "Tajikistan"
+msgstr "تاجيكستان"
+
+msgctxt "CountryInfo"
+msgid "Tanzania"
+msgstr "تانزانيا"
+
+msgctxt "CountryInfo"
+msgid "Thailand"
+msgstr "تايلند"
+
+msgctxt "CountryInfo"
+msgid "Timor-Leste (East Timor)"
+msgstr "تيمور شرقی"
+
+msgctxt "CountryInfo"
+msgid "Togo"
+msgstr "توگو"
+
+msgctxt "CountryInfo"
+msgid "Tonga"
+msgstr "تونگا"
+
+msgctxt "CountryInfo"
+msgid "Trinidad & Tobago"
+msgstr "ترينيداد و توباگو"
+
+msgctxt "CountryInfo"
+msgid "Tunisia"
+msgstr "تونس"
+
+msgctxt "CountryInfo"
+msgid "Turkey"
+msgstr "تركيه"
+
+msgctxt "CountryInfo"
+msgid "Turkmenistan"
+msgstr "تركمنستان"
+
+msgctxt "CountryInfo"
+msgid "Tuvalu"
+msgstr "توالو"
+
+msgctxt "CountryInfo"
+msgid "Uganda"
+msgstr "اوگاندا"
+
+msgctxt "CountryInfo"
+msgid "Ukraine"
+msgstr "اوكراين"
+
+msgctxt "CountryInfo"
+msgid "United Arab Emirates"
+msgstr "امارات متحده عربی"
+
+msgctxt "CountryInfo"
+msgid "United Kingdom"
+msgstr "انگلستان"
+
+msgctxt "CountryInfo"
+msgid "United States"
+msgstr "ايالات متحده آمريكا"
+
+msgctxt "CountryInfo"
+msgid "Uruguay"
+msgstr "اوروگوئه"
+
+msgctxt "CountryInfo"
+msgid "Uzbekistan"
+msgstr "ازبكستان"
+
+msgctxt "CountryInfo"
+msgid "Vanuatu"
+msgstr "وانوتائو"
+
+msgctxt "CountryInfo"
+msgid "Vatican"
+msgstr "واتيكان"
+
+msgctxt "CountryInfo"
+msgid "Venezuela"
+msgstr "ونزوئلا"
+
+msgctxt "CountryInfo"
+msgid "Vietnam"
+msgstr "ويتنام"
+
+msgctxt "CountryInfo"
+msgid "Western Sahara"
+msgstr "صحراي غربی"
+
+msgctxt "CountryInfo"
+msgid "Yemen"
+msgstr "يمن"
+
+msgctxt "CountryInfo"
+msgid "Zambia"
+msgstr "زامبيا"
+
+msgctxt "CountryInfo"
+msgid "Zimbabwe"
+msgstr "زيمباوه"
+
+msgctxt "CountryInfo"
+msgid "Zaire"
+msgstr "زئیر"
+
+msgctxt "CountryInfo"
+msgid "Albania"
+msgstr "آلباني"
+
+msgctxt "CountryInfo"
+msgid "Algeria"
+msgstr "الجزيره"
+
+msgctxt "CountryInfo"
+msgid "Austria"
+msgstr "اتريش"
+
+msgctxt "CountryInfo"
+msgid "Bahrain"
+msgstr "بحرين"
+
+msgctxt "CountryInfo"
+msgid "Benin"
+msgstr "بنين"
+
+msgctxt "CountryInfo"
+msgid "Ethiopia"
+msgstr "اتيوپی"
+
+msgctxt "CountryInfo"
+msgid "Fiji"
+msgstr "فيجی"
+
+msgctxt "CountryInfo"
+msgid "Finland"
+msgstr "فنلاند"
+
+msgctxt "CountryInfo"
+msgid "Greece"
+msgstr "يونان"
+
+msgctxt "CountryInfo"
+msgid "Guam"
+msgstr "گوام"
+
+msgctxt "CountryInfo"
+msgid "Hungary"
+msgstr "مجارستان"
+
+msgctxt "CountryInfo"
+msgid "Iceland"
+msgstr "ايسلند"
+
+msgctxt "CountryInfo"
+msgid "India"
+msgstr "هندوستان"
+
+msgctxt "CountryInfo"
+msgid "Indonesia"
+msgstr "اندونزی"
+
+msgctxt "CountryInfo"
+msgid "Iran"
+msgstr "ايران"
+
+msgctxt "CountryInfo"
+msgid "Iraq"
+msgstr "عراق"
+
+msgctxt "CountryInfo"
+msgid "Ireland"
+msgstr "ايرلند"
+
+msgctxt "CountryInfo"
+msgid "Korea, North"
+msgstr "كره شمالی"
+
+msgctxt "CountryInfo"
+msgid "Korea, South"
+msgstr "كره جنوبی"
+
+msgctxt "CountryInfo"
+msgid "Libya"
+msgstr "ليبی"
+
+msgctxt "CountryInfo"
+msgid "Maldives"
+msgstr "مالديو"
+
+msgctxt "CountryInfo"
+msgid "Mexico"
+msgstr "مكزيك"
+
+msgctxt "CountryInfo"
+msgid "Myanmar"
+msgstr "ميانمار"
+
+msgctxt "CountryInfo"
+msgid "Taiwan"
+msgstr "تايوان"
+
+msgctxt "CrashReportDialog"
+msgid "Submit a Crash Report"
+msgstr "ارسال گزارش تصادف"
+
+msgctxt "CrashReportDialog"
+msgid "Vidalia encountered an error and needed to close"
+msgstr "ویدالیا با خطایی مواجه شد و باید بسته شود"
+
+msgctxt "CrashReportDialog"
+msgid "Restart Vidalia"
+msgstr "راه اندازی مجدد ویدالیا"
+
+msgctxt "CrashReportDialog"
+msgid "Don't Restart"
+msgstr "ریستارت نکنید"
+
+msgctxt "CrashReportDialog"
+msgid "Unable to restart Vidalia"
+msgstr "راه اندازی مجدد ویدالیا امکان پذیر نیست"
+
+msgctxt "CrashReportDialog"
+msgid ""
+"We were unable to automatically restart Vidalia. Please restart Vidalia "
+"manually."
+msgstr "ما نتوانستیم به طور خودکار ویدالیا راه اندازی مجدد کنیم. لطفا ویدالیا به صورت دستی ریستارت کنید."
+
+msgctxt "CrashReportDialog"
+msgid "Please fill a ticket in:"
+msgstr "لطفن در این آدرس یک تیکت پر کنید:"
+
+msgctxt "CrashReportDialog"
+msgid ""
+"<a "
+"href=\"https://trac.torproject.org/projects/tor/newticket\">https://trac.torproject.org/projects/tor/newticket</a>"
+msgstr "<a href=\"https://trac.torproject.org/projects/tor/newticket\">https://trac.torproject.org/projects/tor/newticket</a>"
+
+msgctxt "CrashReportDialog"
+msgid ""
+"A crash report has been created that you can send to the Vidalia developers "
+"to help identify and fix the problem. The submitted report does not contain "
+"any personally identifying information."
+msgstr "گزارش از کار افتادن نرم افزار آماده شده و شما میتوانید آن را برای کمک به شناسایی و حل مشکل به توسعه دهندگان ویدالیا ارسال کنید. گزارش ثبت شده حاوی هیچگونه اطلاعات هویتی شخصی نیست."
+
+msgctxt "CrashReportDialog"
+msgid ""
+"with a description of what you were doing before the application crashed, "
+"along with the following files corresponding to the crash report:"
+msgstr "با شرحی از آنچه قبل ازکار افتادن نرم افزار انجام می‌دادید، بهمراه فایلهای مربوط به گزارش از کار افتادن:"
+
+msgctxt "GeneralPage"
+msgid "Executables (*.exe)"
+msgstr "فایل اجرایی (.exe)"
+
+msgctxt "GeneralPage"
+msgid "Select Path to Tor"
+msgstr "مسیر تور را انتخاب کن"
+
+msgctxt "GeneralPage"
+msgid "Select Proxy Executable"
+msgstr "فایل اجرایی پروکسی را انتخاب کنید"
+
+msgctxt "GeneralPage"
+msgid "You must specify the name of your Tor executable."
+msgstr "باید نام فایل اجرایی تور را مشخص کنید"
+
+msgctxt "GeneralPage"
+msgid "Start Vidalia when my system starts"
+msgstr "آغاز ویدالیا هنگام راه اندازی سیستم"
+
+msgctxt "GeneralPage"
+msgid "Browse"
+msgstr "انتخاب فایل"
+
+msgctxt "GeneralPage"
+msgid "Start the Tor software when Vidalia starts"
+msgstr "آغاز نرم افزار تور هنگام راه اندازی ویدالیا"
+
+msgctxt "GeneralPage"
+msgid "Tor"
+msgstr "تور"
+
+msgctxt "GeneralPage"
+msgid "Proxy Application (optional)"
+msgstr "برنامه پروکسی (اختیاری)"
+
+msgctxt "GeneralPage"
+msgid "Start a proxy application when Tor starts"
+msgstr "آغاز یک برنامه پروکسی هنگام راه اندازی تور"
+
+msgctxt "GeneralPage"
+msgid "Proxy Application Arguments:"
+msgstr "برهان برنامه پروکسی"
+
+msgctxt "GeneralPage"
+msgid "Software Updates"
+msgstr "به روز رسانی نرم افزار"
+
+msgctxt "GeneralPage"
+msgid "Check for new software updates automatically"
+msgstr "بررسی خودکار برای به روز رسانی‌های جدید"
+
+msgctxt "GeneralPage"
+msgid "Check Now"
+msgstr "الان چک کن"
+
+msgctxt "GraphFrame"
+msgid "%1 KB/s"
+msgstr "%1 کیلوبایت در ثانیه"
+
+msgctxt "GraphFrame"
+msgid "%1 KB"
+msgstr "%1 کیلو بایت"
+
+msgctxt "GraphFrame"
+msgid "%1 MB"
+msgstr "%1 مگا‌بایت"
+
+msgctxt "GraphFrame"
+msgid "%1 GB"
+msgstr "%1 گیگا‌بایت"
+
+msgctxt "GraphFrame"
+msgid "Recv:"
+msgstr "دريافت شده:"
+
+msgctxt "GraphFrame"
+msgid "Sent:"
+msgstr "ارسال شده:"
+
+msgctxt "HelpBrowser"
+msgid "Supplied XML file is not a valid Contents document."
+msgstr "فایل اکس‌ام‌ال داده شده یک سند قابل پردازش نیست."
+
+msgctxt "HelpBrowser"
+msgid "Search reached end of document"
+msgstr "جستجو به انتهای مطالب رسید"
+
+msgctxt "HelpBrowser"
+msgid "Search reached start of document"
+msgstr "حستجو به ابتدای مطالب رسید"
+
+msgctxt "HelpBrowser"
+msgid "Text not found in document"
+msgstr "متن مورد نظر پیدا نشد"
+
+msgctxt "HelpBrowser"
+msgid "Found %1 results"
+msgstr "%1 نتیجه پیدا شد"
+
+msgctxt "HelpBrowser"
+msgid "Vidalia Help"
+msgstr "راهنمای ویدالیا"
+
+msgctxt "HelpBrowser"
+msgid "Back"
+msgstr "قبلی"
+
+msgctxt "HelpBrowser"
+msgid "Move to previous page (Backspace)"
+msgstr "حرکت به صفحه‌ قبلی (Backspace)"
+
+msgctxt "HelpBrowser"
+msgid "Backspace"
+msgstr "Backspace"
+
+msgctxt "HelpBrowser"
+msgid "Forward"
+msgstr "جلو"
+
+msgctxt "HelpBrowser"
+msgid "Move to next page (Shift+Backspace)"
+msgstr "حرکت به صفحه‌ی بعدی (Shift+Backspace)"
+
+msgctxt "HelpBrowser"
+msgid "Shift+Backspace"
+msgstr "Shift+Backspace"
+
+msgctxt "HelpBrowser"
+msgid "Home"
+msgstr "خانه"
+
+msgctxt "HelpBrowser"
+msgid "Move to the Home page (Ctrl+H)"
+msgstr "به خانه برو (Crtl+H)"
+
+msgctxt "HelpBrowser"
+msgid "Ctrl+H"
+msgstr "کنترل + H"
+
+msgctxt "HelpBrowser"
+msgid "Find"
+msgstr "پیدا کن"
+
+msgctxt "HelpBrowser"
+msgid "Search for a word or phrase on current page (Ctrl+F)"
+msgstr "جستجو برای کلمه یا عبارتی در صفحه‌ی فعلی (Crtl+F)"
+
+msgctxt "HelpBrowser"
+msgid "Ctrl+F"
+msgstr "Crtl+F"
+
+msgctxt "HelpBrowser"
+msgid "Close"
+msgstr "ببند"
+
+msgctxt "HelpBrowser"
+msgid "Close Vidalia Help"
+msgstr "راهنمای ویدالیا را ببند"
+
+msgctxt "HelpBrowser"
+msgid "Esc"
+msgstr "انصراف"
+
+msgctxt "HelpBrowser"
+msgid "Find:"
+msgstr "پیدا کن"
+
+msgctxt "HelpBrowser"
+msgid "Find Previous"
+msgstr "قبلی را پیداکن"
+
+msgctxt "HelpBrowser"
+msgid "Find Next"
+msgstr "بعدی را پیدا کن"
+
+msgctxt "HelpBrowser"
+msgid "Case sensitive"
+msgstr "حساسیت به بزرگی و کوچکی حروف"
+
+msgctxt "HelpBrowser"
+msgid "Whole words only"
+msgstr "جستجو برای کلمات کامل"
+
+msgctxt "HelpBrowser"
+msgid "Help Topics"
+msgstr "سرفصل‌های راهنما"
+
+msgctxt "HelpBrowser"
+msgid "Contents"
+msgstr "مطالب"
+
+msgctxt "HelpBrowser"
+msgid "Search"
+msgstr "جستجو"
+
+msgctxt "HelpBrowser"
+msgid "Searching for:"
+msgstr "در حال جستجو برای:"
+
+msgctxt "HelpBrowser"
+msgid "Found Documents"
+msgstr "اسناد پیدا شده"
+
+msgctxt "HelpBrowser"
+msgid "Error Loading Help Contents:"
+msgstr "خطا در بارگذاری مطالب راهنما:"
+
+msgctxt "HelpTextBrowser"
+msgid "Opening External Link"
+msgstr "بازکردن پیوند بیرونی"
+
+msgctxt "HelpTextBrowser"
+msgid ""
+"Vidalia can open the link you selected in your default Web browser. If your "
+"browser is not currently configured to use Tor then the request will not be "
+"anonymous."
+msgstr "ویدالیا می تواند پیوندی را که انتخاب کردید در مرورگر پیش فرض تان بازکند. اگر مرورگرتان برای استفاده از تور پیکربندی نشده، هویتتان در هنگام درخواست مخفی نخواهد بود."
+
+msgctxt "HelpTextBrowser"
+msgid "Do you want Vidalia to open the link in your Web browser?"
+msgstr "آیا می خواهید ویدالیا پیوند را در مرورگر وب تان را باز کند؟"
+
+msgctxt "HelpTextBrowser"
+msgid "Unable to Open Link"
+msgstr "ناتوان در بازکردن پیوند"
+
+msgctxt "HelpTextBrowser"
+msgid ""
+"Vidalia was unable to open the selected link in your Web browser. You can "
+"still copy the URL and paste it into your browser."
+msgstr "ویدالیا نتوانست پیوند انتخاب شده را در مرورگر وب بازکند. شما می توانید نشانی وب را کپی کرده و آن را در مرورگرتان بچسبانید."
+
+msgctxt "HelpTextBrowser"
+msgid "Error opening help file:"
+msgstr "خطا در بازكردن فايل راهنما:"
+
+msgctxt "LicenseDialog"
+msgid "License Information"
+msgstr "اطلاعات مجوز"
+
+msgctxt "LicenseDialog"
+msgid "License"
+msgstr "مجوز"
+
+msgctxt "LicenseDialog"
+msgid "Credits"
+msgstr "اعتبارات"
+
+msgctxt "LogEvent"
+msgid "Debug"
+msgstr "اشکال‌یابی"
+
+msgctxt "LogEvent"
+msgid "Info"
+msgstr "اطلاع‌رسانی"
+
+msgctxt "LogEvent"
+msgid "Notice"
+msgstr "توجه"
+
+msgctxt "LogEvent"
+msgid "Warning"
+msgstr "هشدار"
+
+msgctxt "LogEvent"
+msgid "Error"
+msgstr "خطا"
+
+msgctxt "LogEvent"
+msgid "Unknown"
+msgstr "ناشناخته"
+
+msgctxt "LogTreeItem"
+msgid "Debug"
+msgstr "Debug"
+
+msgctxt "LogTreeItem"
+msgid "Info"
+msgstr "اطلاعات"
+
+msgctxt "LogTreeItem"
+msgid "Notice"
+msgstr "Notice"
+
+msgctxt "LogTreeItem"
+msgid "Warning"
+msgstr "هشدار"
+
+msgctxt "LogTreeItem"
+msgid "Error"
+msgstr "Error"
+
+msgctxt "LogTreeItem"
+msgid "Unknown"
+msgstr "Unknown"
+
+msgctxt "MainWindow"
+msgid "Start Tor"
+msgstr "راه اندازی تور"
+
+msgctxt "MainWindow"
+msgid "Exit"
+msgstr "خروج"
+
+msgctxt "MainWindow"
+msgid "Bandwidth Graph"
+msgstr "نمودار پهنای‌باند"
+
+msgctxt "MainWindow"
+msgid "Message Log"
+msgstr "گزارش پیام‌ها"
+
+msgctxt "MainWindow"
+msgid "Network Map"
+msgstr "نقشه‌ی شبکه"
+
+msgctxt "MainWindow"
+msgid "Control Panel"
+msgstr "تابلوی کنترل"
+
+msgctxt "MainWindow"
+msgid "Settings"
+msgstr "تنظیمات"
+
+msgctxt "MainWindow"
+msgid "About"
+msgstr "درباره‌"
+
+msgctxt "MainWindow"
+msgid "Help"
+msgstr "راهنما"
+
+msgctxt "MainWindow"
+msgid "New Identity"
+msgstr "هویت جدید"
+
+msgctxt "MainWindow"
+msgid "Ctrl+T"
+msgstr "Crtl+T"
+
+msgctxt "MainWindow"
+msgid "Ctrl+B"
+msgstr "Ctrl+B"
+
+msgctxt "MainWindow"
+msgid "Ctrl+L"
+msgstr "Ctrl+L"
+
+msgctxt "MainWindow"
+msgid "Ctrl+N"
+msgstr "Ctrl+N"
+
+msgctxt "MainWindow"
+msgid "Ctrl+?"
+msgstr "Ctrl+?"
+
+msgctxt "MainWindow"
+msgid "Ctrl+I"
+msgstr "Ctrl+I"
+
+msgctxt "MainWindow"
+msgid "Ctrl+P"
+msgstr "Ctrl+P"
+
+msgctxt "MainWindow"
+msgid "Tor"
+msgstr "تور"
+
+msgctxt "MainWindow"
+msgid "View"
+msgstr "نمایش"
+
+msgctxt "MainWindow"
+msgid "Vidalia Help"
+msgstr "راهنمای ویدالیا"
+
+msgctxt "MainWindow"
+msgid "Error starting web browser"
+msgstr "خطا در هنگام راه اندازی مرورگر وب"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to start the configured web browser"
+msgstr "ویدالیا قادر به راه اندازی مرورگر وب پیکربتدی شده نبود"
+
+msgctxt "MainWindow"
+msgid "Error starting IM client"
+msgstr "خطای راه اندازی کلاینت IM"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to start the configured IM client"
+msgstr "ویدالیا نتوانست کاربر IM پیکربندی شده را راه اندازی کند"
+
+msgctxt "MainWindow"
+msgid "Error starting proxy server"
+msgstr "خطا در هنگام راه اندازی سرور پروکسی"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to start the configured proxy server"
+msgstr "ویدالیا قادر به راه اندازی پیشکار پیکربندی شده نبود"
+
+msgctxt "MainWindow"
+msgid "Connecting to a relay directory"
+msgstr "اتصال به یک فهرست بازپخش"
+
+msgctxt "MainWindow"
+msgid "Establishing an encrypted directory connection"
+msgstr "برپایی یک اتصال فهرست رمزبندی شده"
+
+msgctxt "MainWindow"
+msgid "Retrieving network status"
+msgstr "بازیابی وضعیت شبکه"
+
+msgctxt "MainWindow"
+msgid "Loading network status"
+msgstr "بارگذاری وضعیت شبکه"
+
+msgctxt "MainWindow"
+msgid "Loading authority certificates"
+msgstr "بارگذاری مجوزها"
+
+msgctxt "MainWindow"
+msgid "Requesting relay information"
+msgstr "درخواست اطلاعات بازپخش"
+
+msgctxt "MainWindow"
+msgid "Loading relay information"
+msgstr "بارگذاری اطلاعات بازپخش"
+
+msgctxt "MainWindow"
+msgid "Connecting to the Tor network"
+msgstr "در حال اتصال به شبکه تور"
+
+msgctxt "MainWindow"
+msgid "Establishing a Tor circuit"
+msgstr "برپایی یک جریان تور"
+
+msgctxt "MainWindow"
+msgid "Connected to the Tor network!"
+msgstr "وصل شده به شبکه تور"
+
+msgctxt "MainWindow"
+msgid "miscellaneous"
+msgstr "گوناگون"
+
+msgctxt "MainWindow"
+msgid "identity mismatch"
+msgstr "عدم تطبیق هویت"
+
+msgctxt "MainWindow"
+msgid "done"
+msgstr "انجام شده"
+
+msgctxt "MainWindow"
+msgid "connection refused"
+msgstr "اتصال ردشد"
+
+msgctxt "MainWindow"
+msgid "connection timeout"
+msgstr "اتمام وقت اتصال"
+
+msgctxt "MainWindow"
+msgid "read/write error"
+msgstr "خطای خواندن/نوشتن"
+
+msgctxt "MainWindow"
+msgid "no route to host"
+msgstr "نبود مسیر به میزبان"
+
+msgctxt "MainWindow"
+msgid "insufficient resources"
+msgstr "منابع ناکافی"
+
+msgctxt "MainWindow"
+msgid "unknown"
+msgstr "ناشناخته"
+
+msgctxt "MainWindow"
+msgid "Tor is not running"
+msgstr "تور درحال اجرا نمی‌باشد"
+
+msgctxt "MainWindow"
+msgid "Tor is shutting down"
+msgstr "تور درحال بسته شدن است"
+
+msgctxt "MainWindow"
+msgid "Stop Tor Now"
+msgstr "همین حالا تور را متوقف کن"
+
+msgctxt "MainWindow"
+msgid "Stop Tor"
+msgstr "تور را متوقف کن"
+
+msgctxt "MainWindow"
+msgid "Starting the Tor software"
+msgstr "راه اندازی نرم افزار تور"
+
+msgctxt "MainWindow"
+msgid "Starting Tor"
+msgstr "راه اندازی تور"
+
+msgctxt "MainWindow"
+msgid "Error Starting Tor"
+msgstr "خطا در راه‌اندازی تور"
+
+msgctxt "MainWindow"
+msgid ""
+"Vidalia was unable to start Tor. Check your settings to ensure the correct "
+"name and location of your Tor executable is specified."
+msgstr "ویدالیا نتوانست تور را راه‌اندازی کند. تنظیمات خود را دوباره بررسی کنید تا مطمین شوید مسیر فایل اجرایی تر را درست مشخص کرده‌اید."
+
+msgctxt "MainWindow"
+msgid "Connecting to Tor"
+msgstr "اتصال به تور"
+
+msgctxt "MainWindow"
+msgid "Connection Error"
+msgstr "خطای اتصال"
+
+msgctxt "MainWindow"
+msgid "Relaying is Enabled"
+msgstr "بازپخش فعال میباشد"
+
+msgctxt "MainWindow"
+msgid "Error Shutting Down"
+msgstr "خطا بسته شدن"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to stop the Tor software."
+msgstr "ویدالیا نتوانست نرم افزار تور را متوقف کند."
+
+msgctxt "MainWindow"
+msgid "Unexpected Error"
+msgstr "خطای غیرمنتظره"
+
+msgctxt "MainWindow"
+msgid "Authenticating to Tor"
+msgstr "احرازهویت در تور"
+
+msgctxt "MainWindow"
+msgid "Cookie Authentication Required"
+msgstr "احراز هویت کوکی موردنیاز است"
+
+msgctxt "MainWindow"
+msgid ""
+"The Tor software requires Vidalia to send the contents of an authentication "
+"cookie, but Vidalia was unable to find one."
+msgstr "نرم افزار تور نیاز به ارسال محتویات یک کوکی احراز هویت بوسیله ویدالیا دارد اما ویدالیا نتوانست آن را پیدا کند."
+
+msgctxt "MainWindow"
+msgid "Would you like to browse for the file 'control_auth_cookie' yourself?"
+msgstr "آیا می خواهید خودتان انتخاب فایل 'control_auth_cookie' را انجام دهید؟"
+
+msgctxt "MainWindow"
+msgid "Data Directory"
+msgstr "فهرست داده ها"
+
+msgctxt "MainWindow"
+msgid "Control Cookie (control_auth_cookie)"
+msgstr "کوکی کنترل (control_auth_cookie)"
+
+msgctxt "MainWindow"
+msgid "Error Registering for Events"
+msgstr "خطا در هنگام ثبت رویدادها"
+
+msgctxt "MainWindow"
+msgid ""
+"Vidalia was unable to register for some events. Many of Vidalia's features "
+"may be unavailable."
+msgstr "ویدالیا نتوانست خود را برای برخی از رویدادها ثبت کند. بسیاری از خصوصیات ویدالیا ممکن است که فعال نباشند."
+
+msgctxt "MainWindow"
+msgid "Authentication Error"
+msgstr "خطای احرازهویت"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to authenticate to the Tor software. (%1)"
+msgstr "ویدالیا قادر به احرازهویت به نرم افزار تور نشد. (%1)"
+
+msgctxt "MainWindow"
+msgid "Please check your control port authentication settings."
+msgstr "خواهشمند است تنظیمات احرازهویت پورتِ کنترل خود را چک کنید."
+
+msgctxt "MainWindow"
+msgid "Tor Update Available"
+msgstr "به روز رسانی برای تور موجود است"
+
+msgctxt "MainWindow"
+msgid ""
+"The currently installed version of Tor is out of date or no longer "
+"recommended. Please visit the Tor website to download the latest version."
+msgstr "نسخه نصب شده تور قدیمی است و دیگر توصیه نمیشود. خواهشمند است به سایت تور رفته و آخرین نسخه را بارگذاری کنید."
+
+msgctxt "MainWindow"
+msgid "Tor website: %1"
+msgstr "وب سایت تور: %1"
+
+msgctxt "MainWindow"
+msgid ""
+"All subsequent connections will appear to be different than your old "
+"connections."
+msgstr "تمام اتصالات بعدی به صورت متفاوت از اتصالات قبلی نمایش داده خواهند شد."
+
+msgctxt "MainWindow"
+msgid "Failed to Create New Identity"
+msgstr "ایجاد هویت جدید به شکست انجامید"
+
+msgctxt "MainWindow"
+msgid "Port Forwarding Failed"
+msgstr "ارسال درگاه شکست خورد"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to configure automatic port forwarding."
+msgstr "ویدالیا نتوانست ارسال درگاه خودکار را پیکربندی کند."
+
+msgctxt "MainWindow"
+msgid "Vidalia Control Panel"
+msgstr "تابلوی کنترل ویدالیا"
+
+msgctxt "MainWindow"
+msgid "Status"
+msgstr "وضعیت"
+
+msgctxt "MainWindow"
+msgid "Vidalia Shortcuts"
+msgstr "میان برهای ویدالیا"
+
+msgctxt "MainWindow"
+msgid "Setup Relaying"
+msgstr "برپای بازپخش\n"
+
+msgctxt "MainWindow"
+msgid "Set up a relay and help the network grow"
+msgstr "یک بازپخش راه‌اندازی و به رشد شبکه کمک کنید"
+
+msgctxt "MainWindow"
+msgid "View the Network"
+msgstr "مشاهده شبکه"
+
+msgctxt "MainWindow"
+msgid "View a map of the Tor network"
+msgstr "مشاهده نقشه شبکه تور"
+
+msgctxt "MainWindow"
+msgid "Use a New Identity"
+msgstr "بکاربردن یک هویت جدید"
+
+msgctxt "MainWindow"
+msgid "Make subsequent connections appear new"
+msgstr "نمایان کردن اتصال های پسین همچون اتصال های جدید"
+
+msgctxt "MainWindow"
+msgid "View recent bandwidth usage"
+msgstr "مشاهده مصرف پهنای‌باند"
+
+msgctxt "MainWindow"
+msgid "View log message history"
+msgstr "مشاهده تاریخچه پیام های ثبت"
+
+msgctxt "MainWindow"
+msgid "View help documentation"
+msgstr "مشاهده اسناد راهنما"
+
+msgctxt "MainWindow"
+msgid "Configure Vidalia"
+msgstr "پیکربندی ویدالیا"
+
+msgctxt "MainWindow"
+msgid "View version and license information"
+msgstr "مشاهده اطلاعات مجوز و نسخه"
+
+msgctxt "MainWindow"
+msgid "Exit Vidalia"
+msgstr "برون رفتن از ویدالیا"
+
+msgctxt "MainWindow"
+msgid "Show this window on startup"
+msgstr "نمایش این پنجره در هنگام شروع"
+
+msgctxt "MainWindow"
+msgid "Hide"
+msgstr "پنهان کردن"
+
+msgctxt "MainWindow"
+msgid "Hide this window"
+msgstr "پنهان کردن این پنجره"
+
+msgctxt "MainWindow"
+msgid "Password Reset Failed"
+msgstr "بازيابي كلمه عبور شكست خورد"
+
+msgctxt "MainWindow"
+msgid ""
+"Vidalia tried to reset Tor's control password, but was not able to restart "
+"the Tor software. Please check your Task Manager to ensure there are no "
+"other Tor processes running."
+msgstr "ويداليا در حال تلاش برای تعويض کلمه عبور تر است ، اما قادر به راه اندازی مجدد نرم افزار تر نيست.لطفا نوار وظيفه(Task manager)راچك كنيد تا هيچ برنامه تُر در حال اجرا نباشد."
+
+msgctxt "MainWindow"
+msgid ""
+"The currently installed version of Tor is out of date or no longer "
+"recommended."
+msgstr "نسخه نصب شده تُر قدیمی است و دیگر توصیه نمیشود. خواهشمند است به سایت تُر رفته و نهایی ترین نسخه آن را بارگذاری کنید."
+
+msgctxt "MainWindow"
+msgid ""
+"Would you like to check if a newer package is available for installation?"
+msgstr "آيا مي خواهيد بررسي كنم نسخه جديد نر افزار تر براي نصب موجود است؟"
+
+msgctxt "MainWindow"
+msgid "Potentially Unsafe Connection"
+msgstr "اتصلات نا امن"
+
+msgctxt "MainWindow"
+msgid ""
+"Tor has automatically closed your connection in order to protect your "
+"anonymity."
+msgstr "تُر به صورت خودكار اتصال شما را بست تا در برابر شناسايي امن بمانيد."
+
+msgctxt "MainWindow"
+msgid "Update Failed"
+msgstr "به روز رسانی تُر موجود می باشد"
+
+msgctxt "MainWindow"
+msgid "Your software is up to date"
+msgstr "نرم افزار شما به روز است."
+
+msgctxt "MainWindow"
+msgid ""
+"There are no new Tor software packages available for your computer at this "
+"time."
+msgstr "در حال حاضر نسخه اي از تُر براي كامپيوتر شما وجود ندارد."
+
+msgctxt "MainWindow"
+msgid "Installation Failed"
+msgstr "نصب ناموفق بود"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to install your software updates."
+msgstr "ویدالیا نتوانست نرم افزار تُر را متوقف کند."
+
+msgctxt "MainWindow"
+msgid "The following error occurred:"
+msgstr "خطا هاي زير رخ داد:"
+
+msgctxt "MainWindow"
+msgid ""
+"Anything sent over this connection could be monitored. Please check your "
+"application's configuration and use only encrypted protocols, such as SSL, "
+"if possible."
+msgstr "هرآنچه بوسیله این ارتباط فرستاده شود می تواند مانیتور شود. لطفا بتنظیمات برنامه را بررسی کنید و تنها از پروتکل های رمزگذاری شده، از قبیل SSL، در صورت امکان استفاده کنید."
+
+msgctxt "MainWindow"
+msgid "Bootstrapping torrc from %1 to %2"
+msgstr "راه اندازی torrc از %1 به %2"
+
+msgctxt "MainWindow"
+msgid "(probably Telnet)"
+msgstr "(شاید تِل‌نت)"
+
+msgctxt "MainWindow"
+msgid "(probably an email client)"
+msgstr "(شاید یک برنامه ایمیل)"
+
+msgctxt "MainWindow"
+msgid ""
+"One of your applications %1 appears to be making a potentially unencrypted "
+"and unsafe connection to port %2."
+msgstr "به نظر می‌رسد یکی از برنامه‌های شما %1 در حال برقراری ارتباطی رمزگذاری نشده و ناامن به پورت %2 است"
+
+msgctxt "MainWindow"
+msgid "failed (%1)"
+msgstr "ناموفق(%1)"
+
+msgctxt "MainWindow"
+msgid ""
+"Your relay is shutting down.\n"
+"Click 'Stop' again to stop your relay now."
+msgstr "باز ژخش شما متوقف شده است./n"
+
+msgctxt "MainWindow"
+msgid ""
+"Vidalia can't find out how to talk to Tor because it can't access this file: %1\n"
+"\n"
+"Here's the last error message:\n"
+"%2"
+msgstr "\"ویدالیا\" نمی تواند راهی برای برقراری ارتباط با \"تُر\" پیدا کند زیرا به فایل: %1 دسترسی ندارد.\n\nآخرین پیغام خطا:\n%2"
+
+msgctxt "MainWindow"
+msgid ""
+"It seems Tor has stopped running since Vidalia started it.\n"
+"\n"
+"See the Advanced Message Log for more information."
+msgstr "به نظر می رسد که \"تُر\" پس از اجرا شدن توسط Vidalia متوقف شده است.\n\nبرای کسب اطلاعات بیشتر می توانید قسمت گزارش پیام پیشرفته را مشاهده نمایید."
+
+msgctxt "MainWindow"
+msgid ""
+"You are currently running a relay. Terminating your relay will interrupt any open connections from clients.\n"
+"\n"
+"Would you like to shutdown gracefully and give clients time to find a new relay?"
+msgstr "شما در حال حاضر يك بازپخش داريد.پايان دادن به اين بازپخش ميتواند اتصالات كاربران را متوقف كند./n/nآيا مي خواهيد به تدريج بازپخش بسته شود و به كاربران فرصت دهيد تا يك بازپخش جديد بيابند؟"
+
+msgctxt "MainWindow"
+msgid ""
+"Vidalia detected that the Tor software exited unexpectedly.\n"
+"\n"
+"Please check the message log for recent warning or error messages."
+msgstr "ويداليا يك نسخه از تُر را شناسايي كرده است./n/nلطفا پيغامها را براي خاطاها بررسي كنيد."
+
+msgctxt "MessageLog"
+msgid "Error Setting Filter"
+msgstr "خطا در تنظیم فیلتر"
+
+msgctxt "MessageLog"
+msgid "Vidalia was unable to register for Tor's log events."
+msgstr "ویدالیا نتوانست برای دریافت گزارشات تُر ثبت‌نام کند"
+
+msgctxt "MessageLog"
+msgid "Error Opening Log File"
+msgstr "خطا در بازکردن فایل گزارش"
+
+msgctxt "MessageLog"
+msgid "Vidalia was unable to open the specified log file."
+msgstr "ویدالیا نتوانست فایل مشخص شده را باز کند"
+
+msgctxt "MessageLog"
+msgid "Log Filename Required"
+msgstr "نام فایل گزارش الزامی است"
+
+msgctxt "MessageLog"
+msgid "You must enter a filename to be able to save log messages to a file."
+msgstr "برای دخیره‌ی گزارش پیام‌ها باید نام یک فایل را مشخص کنید"
+
+msgctxt "MessageLog"
+msgid "Select Log File"
+msgstr "فایل گزارش را انتخاب کن"
+
+msgctxt "MessageLog"
+msgid "Save Log Messages"
+msgstr "پیام‌های گزارش را ذخیره کن"
+
+msgctxt "MessageLog"
+msgid "Text Files (*.txt)"
+msgstr "فایل‌های متنی"
+
+msgctxt "MessageLog"
+msgid "Vidalia"
+msgstr "ویدالیا"
+
+msgctxt "MessageLog"
+msgid "Find in Message Log"
+msgstr "جستجو در گزارش پیام‌ها"
+
+msgctxt "MessageLog"
+msgid "Find:"
+msgstr "پیدا کن"
+
+msgctxt "MessageLog"
+msgid "Not Found"
+msgstr "پیدا نشد"
+
+msgctxt "MessageLog"
+msgid "Search found 0 matches."
+msgstr "جستجو نتیجه‌ای در‌بر نداشت"
+
+msgctxt "MessageLog"
+msgid "Message Log"
+msgstr "گزارش پیام‌ها"
+
+msgctxt "MessageLog"
+msgid "Message Filters..."
+msgstr "فیلترهای پیام ..."
+
+msgctxt "MessageLog"
+msgid "Set message filters"
+msgstr "تنظیم فیلترهای پیام"
+
+msgctxt "MessageLog"
+msgid "History Size..."
+msgstr "اندازه‌ی تاریخچه ..."
+
+msgctxt "MessageLog"
+msgid "Set maximum number of messages to display"
+msgstr "تعیین حداکثر تعداد پیام‌های قابل نمایش"
+
+msgctxt "MessageLog"
+msgid "Clear"
+msgstr "پاک کن"
+
+msgctxt "MessageLog"
+msgid "Clear all messages from the Message Log (Ctrl+E)"
+msgstr "تمام پیام‌های گزارش را پاک کن (کنترل + E)"
+
+msgctxt "MessageLog"
+msgid "Ctrl+E"
+msgstr "کنترل + E"
+
+msgctxt "MessageLog"
+msgid "Copy"
+msgstr "کپی کن"
+
+msgctxt "MessageLog"
+msgid "Copy the selected messages to the clipboard (Ctrl+C)"
+msgstr "پیام‌های انتخاب شده را به دفترچه یادداشت رایانه کپی کن"
+
+msgctxt "MessageLog"
+msgid "Ctrl+C"
+msgstr "کنترل + E"
+
+msgctxt "MessageLog"
+msgid "Select All"
+msgstr "همه را انتخاب کن"
+
+msgctxt "MessageLog"
+msgid "Select all messages (Ctrl+A)"
+msgstr "تمام پیام‌ها را انتخاب کن (کنترل + E)"
+
+msgctxt "MessageLog"
+msgid "Ctrl+A"
+msgstr "کنترل + A"
+
+msgctxt "MessageLog"
+msgid "Save All"
+msgstr "همه را ذخیره کن"
+
+msgctxt "MessageLog"
+msgid "Save all messages to a file"
+msgstr "تمام پیام‌ها را در یک فایل ذخیره کن"
+
+msgctxt "MessageLog"
+msgid "Save Selected"
+msgstr "انتخاب شده‌ها را ذخیره کن"
+
+msgctxt "MessageLog"
+msgid "Save selected messages to a file"
+msgstr "پیام‌های انتخاب شده را در یک فایل ذخیره کن"
+
+msgctxt "MessageLog"
+msgid "Settings"
+msgstr "تنظیمات"
+
+msgctxt "MessageLog"
+msgid "Adjust Message Log Settings"
+msgstr "تنظیمات گزارش پیام‌ها را تنظیم کن"
+
+msgctxt "MessageLog"
+msgid "Ctrl+T"
+msgstr "کنترل + T"
+
+msgctxt "MessageLog"
+msgid "Help"
+msgstr "راهنما"
+
+msgctxt "MessageLog"
+msgid "Show the help browser"
+msgstr "مرورگر راهنما را نمایش بده"
+
+msgctxt "MessageLog"
+msgid "F1"
+msgstr "F1"
+
+msgctxt "MessageLog"
+msgid "Close"
+msgstr "ببند"
+
+msgctxt "MessageLog"
+msgid "Close the Message Log"
+msgstr "گزارش پیام را ببند"
+
+msgctxt "MessageLog"
+msgid "Esc"
+msgstr "انصراف"
+
+msgctxt "MessageLog"
+msgid "Find"
+msgstr "پیدا کن"
+
+msgctxt "MessageLog"
+msgid "Find all messages containing the search text (Ctrl+F)"
+msgstr "تمام پیام‌های حاوی متن جستجو را پیدا کن (کنترل + F)"
+
+msgctxt "MessageLog"
+msgid "Ctrl+F"
+msgstr "کنترل + F"
+
+msgctxt "MessageLog"
+msgid "Time"
+msgstr "زمان"
+
+msgctxt "MessageLog"
+msgid "Type"
+msgstr "نوع"
+
+msgctxt "MessageLog"
+msgid "Message"
+msgstr "پیام"
+
+msgctxt "MessageLog"
+msgid "Saves the current Message Log settings"
+msgstr "تنظیمات فعلی گزارش پیام را ذخیره می‌کند"
+
+msgctxt "MessageLog"
+msgid "Save Settings"
+msgstr "ذخیره‌ی تنظیمات"
+
+msgctxt "MessageLog"
+msgid "Cancels changes made to settings"
+msgstr "تغییرات تنظیمات را لغو می‌کند"
+
+msgctxt "MessageLog"
+msgid "Cancel"
+msgstr "لغو کن"
+
+msgctxt "MessageLog"
+msgid "Message Filter"
+msgstr "فیلتر پیام‌ها"
+
+msgctxt "MessageLog"
+msgid "Error"
+msgstr "خطا"
+
+msgctxt "MessageLog"
+msgid "Warning"
+msgstr "هشدار"
+
+msgctxt "MessageLog"
+msgid "Notice"
+msgstr "توجه"
+
+msgctxt "MessageLog"
+msgid "Info"
+msgstr "اطلاع"
+
+msgctxt "MessageLog"
+msgid "Debug"
+msgstr "اشکال‌یابی"
+
+msgctxt "MessageLog"
+msgid "Message Log History"
+msgstr "تاریخچه‌ی گزارش پیام‌ها"
+
+msgctxt "MessageLog"
+msgid "Number of messages to display in the message log window"
+msgstr "تعداد پیام‌هایی که در پنچره‌ی گزارش پیام نمایش داده می‌شوند."
+
+msgctxt "MessageLog"
+msgid "messages"
+msgstr "پیام‌ها"
+
+msgctxt "MessageLog"
+msgid "Browse"
+msgstr "انتخاب فایل"
+
+msgctxt "MessageLog"
+msgid "Enable automatically saving all new log messages to a file"
+msgstr "ذخیره‌ی خودکار تمام گزارش‌های پیام را در یک فایل قعال کن"
+
+msgctxt "MessageLog"
+msgid "Automatically save new log messages to a file"
+msgstr "به صورت خودکار کزارش پیام‌ها را در یک فایل ذخیره کن"
+
+msgctxt "MessageLog"
+msgid "Basic"
+msgstr "اساسی"
+
+msgctxt "MessageLog"
+msgid "Tor Status"
+msgstr "وضعیت تُر"
+
+msgctxt "MessageLog"
+msgid "Advanced"
+msgstr "پیشرفته"
+
+msgctxt "MessageLog"
+msgid "Always Save New Log Messages"
+msgstr "همیشه پیام‌های جدید را ذخیره کن"
+
+msgctxt "MessageLog"
+msgid ""
+"Messages that appear when something has \n"
+"gone very wrong and Tor cannot proceed."
+msgstr "اين پيغام زماني ظاهر مي شود /nكه تُر نتواند اتفاقات را پردازش كند."
+
+msgctxt "MessageLog"
+msgid ""
+"Messages that only appear when \n"
+"something has gone wrong with Tor."
+msgstr "Messages that only appear when \nsomething has gone wrong with Tor."
+
+msgctxt "MessageLog"
+msgid ""
+"Messages that appear infrequently \n"
+"during normal Tor operation and are \n"
+"not considered errors, but you may \n"
+"care about."
+msgstr "Messages that appear infrequently \nduring normal Tor operation and are \nnot considered errors, but you may \ncare about."
+
+msgctxt "MessageLog"
+msgid ""
+"Messages that appear frequently \n"
+"during normal Tor operation."
+msgstr "Messages that appear frequently \nduring normal Tor operation."
+
+msgctxt "MessageLog"
+msgid ""
+"Hyper-verbose messages primarily of \n"
+"interest to Tor developers."
+msgstr "Hyper-verbose messages primarily of \ninterest to Tor developers."
+
+msgctxt "MessageLog"
+msgid ""
+"Cannot write file %1\n"
+"\n"
+"%2."
+msgstr "Cannot write file %1\n\n%2."
+
+msgctxt "NetViewer"
+msgid "Tor Network Map"
+msgstr "نقشه شبکه تُر"
+
+msgctxt "NetViewer"
+msgid "Refresh"
+msgstr "بازنمایی"
+
+msgctxt "NetViewer"
+msgid "Refresh the list of Tor relays and connections"
+msgstr "بازآوری لیست بازپخش ها و اتصالات تُر"
+
+msgctxt "NetViewer"
+msgid "Ctrl+R"
+msgstr "کنترل + R"
+
+msgctxt "NetViewer"
+msgid "Help"
+msgstr "راهنما"
+
+msgctxt "NetViewer"
+msgid "Show the network map help"
+msgstr "راهنمای نقشه‌ی شبکه را نشان بده"
+
+msgctxt "NetViewer"
+msgid "Show network map help"
+msgstr "راهنمای نقشه‌ی شبکه را نشان بده"
+
+msgctxt "NetViewer"
+msgid "F1"
+msgstr "F1"
+
+msgctxt "NetViewer"
+msgid "Close"
+msgstr "ببند"
+
+msgctxt "NetViewer"
+msgid "Close the network map"
+msgstr "نقشه‌ی شبکه را ببند"
+
+msgctxt "NetViewer"
+msgid "Esc"
+msgstr "انصراف"
+
+msgctxt "NetViewer"
+msgid "Zoom In"
+msgstr "بزرگتر کن"
+
+msgctxt "NetViewer"
+msgid "Zoom in on the network map"
+msgstr "نقشه‌ی شبکه را بزرگ کن"
+
+msgctxt "NetViewer"
+msgid "+"
+msgstr "+"
+
+msgctxt "NetViewer"
+msgid "Zoom Out"
+msgstr "کوچک‌تر کن"
+
+msgctxt "NetViewer"
+msgid "Zoom out on the network map"
+msgstr "نقشه‌ی شبکه را کوچک کن"
+
+msgctxt "NetViewer"
+msgid "-"
+msgstr "-"
+
+msgctxt "NetViewer"
+msgid "Zoom To Fit"
+msgstr "به اندازه‌ی صفحه‌ی نمایش بزرگ‌کن"
+
+msgctxt "NetViewer"
+msgid "Zooms to fit all currently displayed circuits"
+msgstr "بزرگنمایی کافی برای نمایش تمام مدارها نمایش‌داده‌شده فعلی"
+
+msgctxt "NetViewer"
+msgid "Ctrl+Z"
+msgstr "کنترل + Z"
+
+msgctxt "NetViewer"
+msgid "Relay Not Found"
+msgstr "فایل مورد نظر پیدا نشد"
+
+msgctxt "NetViewer"
+msgid "No details on the selected relay are available."
+msgstr "هيچ جزئياتي درباره ي بازپخش انتخاب شده موجود نيست."
+
+msgctxt "NetViewer"
+msgid "Unknown"
+msgstr "ناشناخته"
+
+msgctxt "NetViewer"
+msgid "Full Screen"
+msgstr "تمام صفحه"
+
+msgctxt "NetViewer"
+msgid "View the network map as a full screen window"
+msgstr "مشاهده نقشه شبکه به صورت يك پنجره تمام صفحه"
+
+msgctxt "NetViewer"
+msgid "Ctrl+F"
+msgstr "کنترل + F"
+
+msgctxt "NetworkPage"
+msgid "Copy (Ctrl+C)"
+msgstr "کپی کردن (Ctrl+C)"
+
+msgctxt "NetworkPage"
+msgid ""
+"You must specify both an IP address or hostname and a port number to "
+"configure Tor to use a proxy to access the Internet."
+msgstr "شما میبایست یک آدرس آی پی یا یک نام میزبان و یک شماره درگاه برای پیکربندی تُر مشخص کنید جهت استفاده ار یک پیشکار برای دسترسی به اینترنت."
+
+msgctxt "NetworkPage"
+msgid ""
+"You must specify one or more ports to which your firewall allows you to "
+"connect."
+msgstr "شما میبایست یک یا چند درگاه که بارو اجازه دسترسی به آنها را میدهد مشخص کنید."
+
+msgctxt "NetworkPage"
+msgid "'%1' is not a valid port number."
+msgstr "شماره درگاه '%1' معتبر نمیباشد."
+
+msgctxt "NetworkPage"
+msgid "Check if your local network requires a proxy to access the Internet"
+msgstr "نشان بگذارید اگر شبکه محلی شما نیاز به یک پیشکار برای دسترسی به اینترنت دارد"
+
+msgctxt "NetworkPage"
+msgid "I use a proxy to access the Internet"
+msgstr "برای دسترسی به اینترنت از یک پیشکار استفاده می کنم"
+
+msgctxt "NetworkPage"
+msgid "Proxy Settings"
+msgstr "تنظیمات پیشکار"
+
+msgctxt "NetworkPage"
+msgid "Username:"
+msgstr "نام کاربری:"
+
+msgctxt "NetworkPage"
+msgid "Password:"
+msgstr "اسم رمز:"
+
+msgctxt "NetworkPage"
+msgid "Port:"
+msgstr "درگاه:"
+
+msgctxt "NetworkPage"
+msgid "Check to only connect to relays using ports allowed by your firewall"
+msgstr "نشان بگذارید جهت متصل شدن به بازپخش هایی که تنها درگاه های مجاز بدست بارو را استفاده میکنند"
+
+msgctxt "NetworkPage"
+msgid "My firewall only lets me connect to certain ports"
+msgstr "بارو به من تنها اجازه دسترسی به برخی از درگاه ها را میدهد"
+
+msgctxt "NetworkPage"
+msgid "Firewall Settings"
+msgstr "تنظیمات بارو"
+
+msgctxt "NetworkPage"
+msgid "Allowed Ports:"
+msgstr "درگاه های مجاز:"
+
+msgctxt "NetworkPage"
+msgid "80, 443"
+msgstr "۱۰۰ {80, 443?}"
+
+msgctxt "NetworkPage"
+msgid ""
+"Check to encrypt directory requests and, optionally, use bridge relays to "
+"access the Tor network"
+msgstr "نشان بگذارید برای رمزبندی درخواست های فهرست و, اختیاری, از پلهای بازپخش برای دسترسی به شبکه تُر استفاده کنید"
+
+msgctxt "NetworkPage"
+msgid "My ISP blocks connections to the Tor network"
+msgstr "ارایه کننده خدمات دسترسی به اینترنت اتصالات به شبکه تُر را مسدود می کند"
+
+msgctxt "NetworkPage"
+msgid "Bridge Settings"
+msgstr "تنظیمات پل"
+
+msgctxt "NetworkPage"
+msgid "Add a Bridge:"
+msgstr "افزودن یک پل:"
+
+msgctxt "NetworkPage"
+msgid "Remove the selected bridges from the list"
+msgstr "حذف کردن پل های منتخب از لیست"
+
+msgctxt "NetworkPage"
+msgid "Copy the selected bridges to the clipboard"
+msgstr "کپی کردن پل های منتخب در تخته یادداشت"
+
+msgctxt "NetworkPage"
+msgid "Find Bridges Now"
+msgstr "پيدا كردن پل ها"
+
+msgctxt "NetworkPage"
+msgid "<a href=\"bridges.finding\">How else can I find bridges?</a>"
+msgstr "<a href=\"bridges.finding\">چگونه می توانيد پل ديگری پيدا کنم؟?</a>"
+
+msgctxt "NetworkPage"
+msgid "<a href=\"bridges.finding\">How can I find bridges?</a>"
+msgstr "<a href=\"bridges.finding\">چگونه می توان پل پیدا کنم؟?</a>"
+
+msgctxt "NetworkPage"
+msgid ""
+"No new bridges are currently available. You can either wait a while and try "
+"again, or try another method of finding new bridges."
+msgstr "پلِ جديدي در دسترس نيست.شما مي توانيد صبر كنيد و مجدداً سعي كنيد،يا روش ديگري امتحان كنيد براي پيدا كردن پل هاي جديد."
+
+msgctxt "NetworkPage"
+msgid "Click Help to see other methods of finding new bridges."
+msgstr "بر روي راهنما كليك كنيد تا ديگر روشها را ببينيد."
+
+msgctxt "NetworkPage"
+msgid "Address:"
+msgstr "Address:"
+
+msgctxt "NetworkPage"
+msgid "Type:"
+msgstr "Type:"
+
+msgctxt "NetworkPage"
+msgid "You must select the proxy type."
+msgstr "You must select the proxy type."
+
+msgctxt "NetworkPage"
+msgid "SOCKS 4"
+msgstr "SOCKS 4"
+
+msgctxt "NetworkPage"
+msgid "SOCKS 5"
+msgstr "SOCKS 5"
+
+msgctxt "NetworkPage"
+msgid "HTTP / HTTPS"
+msgstr "HTTP / HTTPS"
+
+msgctxt "NetworkPage"
+msgid "You must specify one or more bridges."
+msgstr "شما باید یک یا پل های بیشتری را مشخص کنید."
+
+msgctxt "Policy"
+msgid "accept"
+msgstr "قبول"
+
+msgctxt "Policy"
+msgid "reject"
+msgstr "رد"
+
+msgctxt "RouterDescriptor"
+msgid "Online"
+msgstr "آنلاین"
+
+msgctxt "RouterDescriptor"
+msgid "Hibernating"
+msgstr "به خواب رفتن"
+
+msgctxt "RouterDescriptor"
+msgid "Offline"
+msgstr "آفلاین"
+
+msgctxt "RouterDescriptorView"
+msgid "Location:"
+msgstr "موقعیت:"
+
+msgctxt "RouterDescriptorView"
+msgid "IP Address:"
+msgstr "آدرس آی‌پی"
+
+msgctxt "RouterDescriptorView"
+msgid "Platform:"
+msgstr "پلتفرم"
+
+msgctxt "RouterDescriptorView"
+msgid "Bandwidth:"
+msgstr "پهنای باند"
+
+msgctxt "RouterDescriptorView"
+msgid "Uptime:"
+msgstr "رمان فعالیت بدون‌وقفه"
+
+msgctxt "RouterDescriptorView"
+msgid "Last Updated:"
+msgstr "آخرین به‌روزرسانی:"
+
+msgctxt "RouterDescriptorView"
+msgid "Copy"
+msgstr "کپی کن"
+
+msgctxt "RouterInfoDialog"
+msgid "Hibernating"
+msgstr "به خواب رفتن"
+
+msgctxt "RouterInfoDialog"
+msgid "Online"
+msgstr "آنلاین"
+
+msgctxt "RouterInfoDialog"
+msgid "Offline"
+msgstr "آفلاین"
+
+msgctxt "RouterInfoDialog"
+msgid "Unknown"
+msgstr "ناشناخته"
+
+msgctxt "RouterInfoDialog"
+msgid "Relay Details"
+msgstr "اطلاعات بازپخش"
+
+msgctxt "RouterInfoDialog"
+msgid "Summary"
+msgstr "خلاصه"
+
+msgctxt "RouterInfoDialog"
+msgid "Name:"
+msgstr "لقب:"
+
+msgctxt "RouterInfoDialog"
+msgid "Status:"
+msgstr "وضعیت"
+
+msgctxt "RouterInfoDialog"
+msgid "Location:"
+msgstr "موقعیت:"
+
+msgctxt "RouterInfoDialog"
+msgid "IP Address:"
+msgstr "آدرس آی‌پی"
+
+msgctxt "RouterInfoDialog"
+msgid "Platform:"
+msgstr "پلتفرم"
+
+msgctxt "RouterInfoDialog"
+msgid "Bandwidth:"
+msgstr "پهنای باند"
+
+msgctxt "RouterInfoDialog"
+msgid "Uptime:"
+msgstr "رمان فعالیت بدون‌وقفه"
+
+msgctxt "RouterInfoDialog"
+msgid "Contact:"
+msgstr "مشخصات تماس:"
+
+msgctxt "RouterInfoDialog"
+msgid "Last Updated:"
+msgstr "آخرین به‌روزرسانی:"
+
+msgctxt "RouterInfoDialog"
+msgid "Descriptor"
+msgstr "توضيحات"
+
+msgctxt "RouterListItem"
+msgid "Offline"
+msgstr "آفلاین"
+
+msgctxt "RouterListItem"
+msgid "Hibernating"
+msgstr "به‌خواب رفتن"
+
+msgctxt "RouterListItem"
+msgid "%1 KB/s"
+msgstr "%1 کلیوبایت"
+
+msgctxt "RouterListWidget"
+msgid "Relay"
+msgstr "بازپخش"
+
+msgctxt "RouterListWidget"
+msgid "Zoom to Relay"
+msgstr "بزرگ نمایی بازپخش"
+
+msgctxt "RouterListWidget"
+msgid "%1 relays online"
+msgstr "%1 بازپخش های آنلاین"
+
+msgctxt "RouterListWidget"
+msgid "Copy"
+msgstr "کپی کن"
+
+msgctxt "RouterListWidget"
+msgid "Nickname"
+msgstr "Nickname"
+
+msgctxt "RouterListWidget"
+msgid "Fingerprint"
+msgstr "اثر انگشت"
+
+msgctxt "ServerPage"
+msgid "Bridge Support Unavailable"
+msgstr "پشتیبانی پل موجود نیست"
+
+msgctxt "ServerPage"
+msgid ""
+"You have configured Tor to act as a bridge relay for censored users, but "
+"your version of Tor does not support bridges."
+msgstr "شما تُر را به گونه ای پیکربندی کردید که مانند یک پل بازپخش برای کاربران سانسورشده کارکند, اما نسخه تُر شما پل ها را پشتیبانی نمی کند."
+
+msgctxt "ServerPage"
+msgid ""
+"Please upgrade your Tor software or configure Tor to act as a normal Tor "
+"relay."
+msgstr "خواهشمند است نرم افزار تُر را بروزرسانی کنید یا تُر را به گونه ای پیکربندی کنید که مانند یک بازپخش تُر نرمال کارکند."
+
+msgctxt "ServerPage"
+msgid "Your bridge relay is not running."
+msgstr "پل بازپخش شما در حال اجرا نمی باشد."
+
+msgctxt "ServerPage"
+msgid "You must specify at least a relay nickname and port."
+msgstr "شما میبایست دست کم یک لقب بازپخش و درگاه را مشخص کنید."
+
+msgctxt "ServerPage"
+msgid "Run as a client only"
+msgstr "اجراکردن تنها مانند یک کاربر"
+
+msgctxt "ServerPage"
+msgid "Relay Port:"
+msgstr "درگاه بازپخش:"
+
+msgctxt "ServerPage"
+msgid "Enable to mirror the relay directory"
+msgstr "آینه ای کردن فهرست بازپخش"
+
+msgctxt "ServerPage"
+msgid "Attempt to automatically configure port forwarding"
+msgstr "تلاش برای پیکربندی خودکار ارسال درگاه"
+
+msgctxt "ServerPage"
+msgid "Test"
+msgstr "تست"
+
+msgctxt "ServerPage"
+msgid "Show help topic on port forwarding"
+msgstr "نمایش سرفصل کمک برای ارسال درگاه"
+
+msgctxt "ServerPage"
+msgid "Directory Port:"
+msgstr "درگاه دارکتوری"
+
+msgctxt "ServerPage"
+msgid "Directory Port Number"
+msgstr "شماره‌ی درگاه دایرکتوری"
+
+msgctxt "ServerPage"
+msgid "Contact Info:"
+msgstr "مشخصات تماس:"
+
+msgctxt "ServerPage"
+msgid "Name of your relay"
+msgstr "نام بازپخش شما"
+
+msgctxt "ServerPage"
+msgid "Port on which users and other relays can communicate with your relay"
+msgstr "درگاهی که کاربران و بازپخش های دیگر می توانند بوسیله آن با بازپخش شما ارتباط برقرار کنند"
+
+msgctxt "ServerPage"
+msgid "Nickname:"
+msgstr "لقب:"
+
+msgctxt "ServerPage"
+msgid "Basic Settings"
+msgstr "تنظیمات اولیه"
+
+msgctxt "ServerPage"
+msgid ""
+"For Internet connections with fast download speed but slow upload, please "
+"list your upload speed here."
+msgstr "برای ارتباطات اینترنتی با نرخ بارگیری (دانلود) سریع ولی نرخ بارگذاری (آپلود) کند، لطفا سرعت بارگذاری خود را اینجا مشخص کنید."
+
+msgctxt "ServerPage"
+msgid "Cable/DSL 256 Kbps"
+msgstr "کابل یا DSL ۲۵۶ کیلوبیت بر ثانیه"
+
+msgctxt "ServerPage"
+msgid "Cable/DSL 512 Kbps"
+msgstr "کابل یا DSL ۵۱۲ کیلوبیت بر ثانیه"
+
+msgctxt "ServerPage"
+msgid "Cable/DSL 768 Kbps"
+msgstr "کابل یا DSL ۷۶۸ کیلوبیت بر ثانیه"
+
+msgctxt "ServerPage"
+msgid "T1/Cable/DSL 1.5 Mbps"
+msgstr "T1 یا کابل یا DSL ۱.۵ مگابیت بر ثانیه"
+
+msgctxt "ServerPage"
+msgid "> 1.5 Mbps"
+msgstr "بیش از ۱.۵ مگابیت بر ثانیه"
+
+msgctxt "ServerPage"
+msgid "Custom"
+msgstr "خودت تغیین کن"
+
+msgctxt "ServerPage"
+msgid "Select the entry that most closely resembles your Internet connection"
+msgstr "گزینه‌ای را که از همه بیشتر به نوع ارتباط اینترنت شما شبیه است انتخاب کنید"
+
+msgctxt "ServerPage"
+msgid "Show help topic on bandwidth rate limits"
+msgstr "نمایش موضوعات راهنما در مورد محدودیت‌های پهنای باند"
+
+msgctxt "ServerPage"
+msgid "Average Rate"
+msgstr "ترخ متوسط"
+
+msgctxt "ServerPage"
+msgid "Long-term average bandwidth limit"
+msgstr "محدوده‌ی میانگین بلندمدت پهنای‌باند"
+
+msgctxt "ServerPage"
+msgid "KB/s"
+msgstr "کیلوبایت بر ثانیه"
+
+msgctxt "ServerPage"
+msgid "Maximum Rate"
+msgstr "نرخ حداکثر"
+
+msgctxt "ServerPage"
+msgid "Peak bandwidth rate limit"
+msgstr "محدودیت در حداکثر پیک پهنای باند"
+
+msgctxt "ServerPage"
+msgid ""
+"Your maximum bandwidth rate must be greater than or equal to your average "
+"bandwidth rate. Both values must be at least 20 KB/s."
+msgstr "بیشترین میزان پهنای باند شما می بایست بزرگتر یا مساوی با میزان پهنای باند متوسط شما باشد. کوچکترین مقدار هردو میبایست 20 کیلوبایت در ثانیه باشد."
+
+msgctxt "ServerPage"
+msgid "Bandwidth Limits"
+msgstr "محدودیت‌های پهنای باند"
+
+msgctxt "ServerPage"
+msgid "Ports 6660 - 6669 and 6697"
+msgstr "درگاه‌های ۶۶۶۰ تا ۶۶۶۹ و ۶۶۹۷"
+
+msgctxt "ServerPage"
+msgid "Internet Relay Chat (IRC)"
+msgstr "چت بازپخش اینترنتی (IRC)"
+
+msgctxt "ServerPage"
+msgid "Ports 110, 143, 993 and 995"
+msgstr "درگاه‌های ۱۱۰، ۱۴۳، ۹۹۳ و ۹۹۵"
+
+msgctxt "ServerPage"
+msgid "Retrieve Mail (POP, IMAP)"
+msgstr "دریافت ایمیل (POP , IMAP)"
+
+msgctxt "ServerPage"
+msgid "Ports unspecified by other checkboxes"
+msgstr "درگاه‌هایی که توسط دیگر گزینه‌ها انتخاب نشده‌اند"
+
+msgctxt "ServerPage"
+msgid "Misc Other Services"
+msgstr "سروریس‌های دیگر"
+
+msgctxt "ServerPage"
+msgid "Ports 706, 1863, 5050, 5190, 5222, 5223, 8300 and 8888"
+msgstr "درگاه‌های ۷۰۶، ۱۸۶۳، ۵۰۵۰، ۵۲۲۲، ۸۳۰۰ و ۸۸۸۸ {706, 1863, 5050, 5190, 5222, 5223, 8300 ?} {8888?}"
+
+msgctxt "ServerPage"
+msgid "Instant Messaging (IM)"
+msgstr "پیام‌ کوتاه (IM)"
+
+msgctxt "ServerPage"
+msgid "Port 443"
+msgstr "درگاه ۴۴۳"
+
+msgctxt "ServerPage"
+msgid "Secure Websites (SSL)"
+msgstr "وبسایت‌های امن (SSL)"
+
+msgctxt "ServerPage"
+msgid "Port 80"
+msgstr "درگاه ۸۰"
+
+msgctxt "ServerPage"
+msgid "Websites"
+msgstr "وبسایت‌ها"
+
+msgctxt "ServerPage"
+msgid "Show help topic on exit policies"
+msgstr "موضوع راهنما در مورد سیاست‌های خروج را نمایش بده"
+
+msgctxt "ServerPage"
+msgid ""
+"What Internet resources should users be able to access from your relay?"
+msgstr "به چه منابع اینترنتی کاربران قادر به دسترسی خواهند بود از بازپخش شما؟"
+
+msgctxt "ServerPage"
+msgid ""
+"Tor will still block some outgoing mail and file sharing applications by "
+"default to reduce spam and other abuse."
+msgstr "تُر همچنان بعضي از ايميل ها و فايلهاي اشتراك گذاري شده ارسالي را به صورت پيشفرض مسدود كرده براي جلوگيري از اسپمينگ و استفاده هاي نادرست."
+
+msgctxt "ServerPage"
+msgid "Exit Policies"
+msgstr "سیاست‌های خروج"
+
+msgctxt "ServerPage"
+msgid "Let others access your bridge by giving them this line:"
+msgstr "بگذارید دیگران به پل شما دسترسی پیدا کنند با بیان کردن این خط به آنها:"
+
+msgctxt "ServerPage"
+msgid ""
+"This is the identity of your bridge relay that you can give to other people"
+msgstr "این هویت پل بازپخش شما می باشد که میتوانید آن را به افراد دیگر بدهید"
+
+msgctxt "ServerPage"
+msgid "Copy your bridge relay's identity to the clipboard"
+msgstr "کپی کردن هویت پل بازپخش شما در تخته یادداشت"
+
+msgctxt "ServerPage"
+msgid "No Recent Usage"
+msgstr "اخيراً استفاده نشده"
+
+msgctxt "ServerPage"
+msgid "No clients have used your relay recently."
+msgstr "هيچ كاربري اخيراً از بازپخش شما استفاده نكرده است."
+
+msgctxt "ServerPage"
+msgid ""
+"Leave your relay running so clients have a better chance of finding and "
+"using it."
+msgstr "اجازه دهيد بازپخش شما ادامه پيدا كند اينطور كاربران شانس بيشتري دارند تا آن را پيدا كنند."
+
+msgctxt "ServerPage"
+msgid "Bridge History"
+msgstr "تنظیمات پل"
+
+msgctxt "ServerPage"
+msgid "Vidalia was unable to retrieve your bridge's usage history."
+msgstr "ویدالیا نتوانست تنظیمات %1 را ذخیره کند."
+
+msgctxt "ServerPage"
+msgid ""
+"Tor returned an improperly formatted response when Vidalia requested your "
+"bridge's usage history."
+msgstr "Tor returned an improperly formatted response when Vidalia requested your bridge's usage history."
+
+msgctxt "ServerPage"
+msgid "The returned response was: %1"
+msgstr "The returned response was: %1"
+
+msgctxt "ServerPage"
+msgid "Help censored users reach the Tor network"
+msgstr "کمک به کاربران سانسورشده برای دستیابی به شبکه تُر (تُر 0.2.0.8-alpha یا جدیدتر)"
+
+msgctxt "ServerPage"
+msgid "<a href=\"#bridgeUsage\">Who has used my bridge?</a>"
+msgstr "<a href=\"bridges.finding\">چطور می توانم یک پل را پیدا کنم؟</a>"
+
+msgctxt "ServerPage"
+msgid "<a href=\"#bridgeHelp\">What's this?</a>"
+msgstr "<a href=\"#bridgeHelp\">این چیست؟</a>"
+
+msgctxt "ServerPage"
+msgid "Automatically distribute my bridge address"
+msgstr "بطور خودکار آدرس پل من را پخش کن"
+
+msgctxt "ServerPage"
+msgid "Relay traffic for the Tor network (exit relay)"
+msgstr "(ترافیک باز پخش برای شبکه تُر (بازپخش خروجی"
+
+msgctxt "ServerPage"
+msgid "Relay traffic inside the Tor network (non-exit relay)"
+msgstr "باز پخش ترافیک درون شبکه \"تُر\" (بازپخش داخلی)"
+
+msgctxt "ServerPage"
+msgid "Mirror the Relay Directory"
+msgstr "لينكهاي بازپخش فهرست"
+
+msgctxt "ServerPage"
+msgid ""
+"Email address at which you may be reached if there is a\n"
+"problem with your relay. You might also include your PGP or GPG fingerprint."
+msgstr "Email address at which you may be reached if there is a\nproblem with your relay. You might also include your PGP or GPG fingerprint."
+
+msgctxt "ServicePage"
+msgid "Error while trying to unpublish all services"
+msgstr "خطا هنگام غیر منتشر کردن همه سرویس ها"
+
+msgctxt "ServicePage"
+msgid ""
+"Please configure at least a service directory and a virtual port for each "
+"service you want to save. Remove the other ones."
+msgstr "خواهشمند است حداقل یک سرویس فهرست و یک درگاه مجازی برای هریک از سرویس هایی که مایل به ذخیره آن هستید پیکربندی کنید. بقیه ها را خذف کن."
+
+msgctxt "ServicePage"
+msgid "Error"
+msgstr "خطا"
+
+msgctxt "ServicePage"
+msgid "Please select a Service."
+msgstr "خواهشمند است یک سرویس انتخاب کنید."
+
+msgctxt "ServicePage"
+msgid "Select Service Directory"
+msgstr "انتخاب فهرست سرویس"
+
+msgctxt "ServicePage"
+msgid "Virtual Port may only contain valid port numbers [1..65535]."
+msgstr "درگاه های مجازی تنها می توانند شامل شماره درگاه های معتبر باشند [1..65535]."
+
+msgctxt "ServicePage"
+msgid "Target may only contain address:port, address, or port."
+msgstr "هدف تنها می تواند شامل آدرس:درگاه, آدرس, یا درگاه باشد."
+
+msgctxt "ServicePage"
+msgid "Directory already in use by another service."
+msgstr "فهرست در استفاده یک سرویس دیگر است."
+
+msgctxt "ServicePage"
+msgid "Form"
+msgstr "فرم"
+
+msgctxt "ServicePage"
+msgid "Provided Hidden Services"
+msgstr "سرویس های پنهان فراهم شده"
+
+msgctxt "ServicePage"
+msgid "Onion Address"
+msgstr "آدرس پیاز"
+
+msgctxt "ServicePage"
+msgid "Virtual Port"
+msgstr "درگاه مجازی"
+
+msgctxt "ServicePage"
+msgid "Target"
+msgstr "هدف"
+
+msgctxt "ServicePage"
+msgid "Directory Path"
+msgstr "مسیر فهرست"
+
+msgctxt "ServicePage"
+msgid "Enabled"
+msgstr "فعال"
+
+msgctxt "ServicePage"
+msgid "Add new service to list"
+msgstr "افزودن سرویس جدید به لیست"
+
+msgctxt "ServicePage"
+msgid "Remove selected service from list"
+msgstr "برداشتن سرویس انتخاب شده از لیست"
+
+msgctxt "ServicePage"
+msgid "Copy onion address of selected service to clipboard"
+msgstr "کپی کردن آدرس پیاز سرویس انتخاب شده در تخته یادداشت"
+
+msgctxt "ServicePage"
+msgid "Browse in local file system and choose directory for selected service"
+msgstr "مرور در سیستم فایل و برگزیدن فهرست برای سرویس انتخاب شده"
+
+msgctxt "ServicePage"
+msgid "Created by Tor"
+msgstr "طراحي شده توسط تُر"
+
+msgctxt "StatusEventWidget"
+msgid "Copy to Clipboard"
+msgstr "کپی به کلیپ برد"
+
+msgctxt "StatusEventWidget"
+msgid "The Tor Software is Running"
+msgstr "نرم افزار تور در حال اجراست"
+
+msgctxt "StatusEventWidget"
+msgid "You are currently running version \"%1\" of the Tor software."
+msgstr "شما هم اکنون در حال اجرای نسخه \"%1\" نرم افزار تور هستید "
+
+msgctxt "StatusEventWidget"
+msgid "The Tor Software is not Running"
+msgstr "نرم افزار تور در حال اجرا نیست"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Click \"Start Tor\" in the Vidalia Control Panel to restart the Tor "
+"software. If Tor exited unexpectedly, select the \"Advanced\" tab above for "
+"details about any errors encountered."
+msgstr "بر روی گزینهٔ \"Start Tor\" در داخل Vidalia کنترل پانل کلیک کنید، تا نرم افزار TOR اجرا شود. اگر که TOR به صورت غیر منتظره از کار ایستاد و خارج شد، تاب بالایی \"Advanced\" را انتخاب کنید تا از جزئیات مشکل پیش آماده مطلع شوید."
+
+msgctxt "StatusEventWidget"
+msgid ""
+"You are currently running version \"%1\" of the Tor software, which is no "
+"longer recommended. Please upgrade to the most recent version of the "
+"software, which may contain important security, reliability and performance "
+"fixes."
+msgstr "شما هم اکنون در حال اجرای نسخه \"%1\" از نرم افزار تور هستید که دیگر توصیه نمی شود. لطفن به آخرین نسخه از نرم افزار به روز کنید. این بروزرسانی ممکن است شامل رفع ایرادات مهم امنیتی، عملکرد و کارایی باشد"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"You are currently running version \"%1\" of the Tor software, which may no "
+"longer work with the current Tor network. Please upgrade to the most recent "
+"version of the software, which may contain important security, reliability "
+"and performance fixes."
+msgstr "شما هم اکنون در حال اجرای نسخه \"%1\" از نرم افزار تور هستید که ممکن است دیگر با شبکه فعلی تور کار نکند. لطفن به آخرین نسخه از نرم افزار به روز کنید. این بروزرسانی ممکن است شامل رفع ایرادات مهم امنیتی، عملکرد و کارایی باشد"
+
+msgctxt "StatusEventWidget"
+msgid "Your Tor Software is Out-of-date"
+msgstr "نرم افزار تور شما از رده خارج شده است"
+
+msgctxt "StatusEventWidget"
+msgid "Connected to the Tor Network"
+msgstr "به شبکه تور وصل شده است"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"We were able to successfully establish a connection to the Tor network. You "
+"can now configure your applications to use the Internet anonymously."
+msgstr "اتصال به شبکهٔ TOR موفقیت آمیز بود. حال میتوانید برنامه‌های خود را تنظیم کنید تا بتوانید به طور ناشناس از اینترنت استفاده کنید. "
+
+msgctxt "StatusEventWidget"
+msgid "Tor Software Error"
+msgstr "خطای نرم افزار تور"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"The Tor software encountered an internal bug. Please report the following "
+"error message to the Tor developers at bugs.torproject.org: \"%1\""
+msgstr "نرم افزار تور با یک اشکال داخلی مواجه شد. لطفن پیام خطای زیر را برای سازندگان تور به آدرس زیر ارسال کنید:\nbugs.torproject.org: \"%1\""
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor has determined that your computer's clock may be set to %1 seconds in "
+"the past compared to the source \"%2\". If your clock is not correct, Tor "
+"will not be able to function. Please verify your computer displays the "
+"correct time."
+msgstr "تور مشخص کرد که ساعت کامپیوتر شما ممکن است در مقایسه با منبع \"%2\"، %1 ثانیه در گذشته تنظیم شده باشد. اگر ساعت شما تنظیم نباشد تور کار نمی کند. لطفن مطمین شوید کامپیوتر شما ساعت درست را نشان میدهد"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor has determined that your computer's clock may be set to %1 seconds in "
+"the future compared to the source \"%2\". If your clock is not correct, Tor "
+"will not be able to function. Please verify your computer displays the "
+"correct time."
+msgstr "تور مشخص کرد که ساعت کامپیوتر شما ممکن است در مقایسه با منبع \"%2\"، %1 ثانیه در آینده تنظیم شده باشد. اگر ساعت شما تنظیم نباشد تور کار نمی کند. لطفن مطمین شوید کامپیوتر شما ساعت درست را نشان میدهد"
+
+msgctxt "StatusEventWidget"
+msgid "Your Computer's Clock is Potentially Incorrect"
+msgstr "ساعت کامپیوتر شما اشتباه است"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"One of the applications on your computer may have attempted to make an "
+"unencrypted connection through Tor to port %1. Sending unencrypted "
+"information over the Tor network is dangerous and not recommended. For your "
+"protection, Tor has automatically closed this connection."
+msgstr "ممکن است یکی از اپلیکیشن های کامپیوتر شما برای برقراری ارتباط رمزگذاری نشده از درگاه %1 بتوسط تور تلاش کرده باشد. فرستادن اطلاعات رمزگذاری نشده از طریق شبکه تور، خطرناک است و توصیه نمی شود. برای محافظت از شما، تور این ارتباط را بصورت خودکار بست."
+
+msgctxt "StatusEventWidget"
+msgid ""
+"One of the applications on your computer may have attempted to make an "
+"unencrypted connection through Tor to port %1. Sending unencrypted "
+"information over the Tor network is dangerous and not recommended."
+msgstr "ممکن است یکی از اپلیکیشن های کامپیوتر شما برای برقراری ارتباط رمزگذاری نشده از درگاه %1 بتوسط تور تلاش کرده باشد. فرستادن اطلاعات رمزگذاری نشده از طریق شبکه تور، خطرناک است و توصیه نمی شود."
+
+msgctxt "StatusEventWidget"
+msgid "Potentially Dangerous Connection!"
+msgstr "پتانسیل ارتباط خطرناک!"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"One of your applications established a connection through Tor to \"%1\" "
+"using a protocol that may leak information about your destination. Please "
+"ensure you configure your applications to use only SOCKS4a or SOCKS5 with "
+"remote hostname resolution."
+msgstr "یکی از اپلیکیشن های شما از طریق تور و پروتکلی که ممکن است اطلاعاتی از مقصد نهایی شما را فاش سازد به \"%1\" برقرار ساخته. لطفن مطمین شوید اپلیکیشن خود را بنحوی تنظیم میکنید که فقط از SOCKS4a یا SOCKS5 بهمراه remote hostname resolution استفاده کند."
+
+msgctxt "StatusEventWidget"
+msgid "Unknown SOCKS Protocol"
+msgstr "پروتوکل SOCKS ناشناخته"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"One of your applications tried to establish a connection through Tor using a"
+" protocol that Tor does not understand. Please ensure you configure your "
+"applications to use only SOCKS4a or SOCKS5 with remote hostname resolution."
+msgstr "یکی از اپلیکیشن های شما تلاش کرده است که به توسط تور و از پروتکلی که تور آن را نمیفهمد ارتباطی برقرار کند.  لطفن مطمین شوید اپلیکیشن خود را بنحوی تنظیم میکنید که فقط از SOCKS4a یا SOCKS5 بهمراه remote hostname resolution استفاده کند."
+
+msgctxt "StatusEventWidget"
+msgid "Invalid Destination Hostname"
+msgstr "نام میزبان مقصد نامعتبر"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"One of your applications tried to establish a connection through Tor to "
+"\"%1\", which Tor does not recognize as a valid hostname. Please check your "
+"application's configuration."
+msgstr "یکی‌ از برنامه‌های شما سعی‌ داشت تا از طریق شبکهٔ TOR به \"%1\" دست رسی‌ پیدا کند، در حالی‌ که TOR این \"hostname\" یا نام میزبان را به رسمیت نمی‌شناسد. لطفا تنظیمات برنامه خود را مجدداً چک کنید."
+
+msgctxt "StatusEventWidget"
+msgid "External IP Address Changed"
+msgstr "آی پی آدرس خارجی تغییر کرد"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor has determined your relay's public IP address is currently %1%2. If that"
+" is not correct, please consider setting the 'Address' option in your "
+"relay's configuration."
+msgstr "تور تشخیص داده که آدرس IP شما در حال حاضر %1%2 است. اگر درست نیست، لطفن تنظیم 'Address' را در پیکربندی بازپخش کننده خود در نظر داشته باشید."
+
+msgctxt "StatusEventWidget"
+msgid "DNS Hijacking Detected"
+msgstr "ربوده شدن DNS "
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor detected that your DNS provider is providing false responses for domains"
+" that do not exist. Some ISPs and other DNS providers, such as OpenDNS, are "
+"known to do this in order to display their own search or advertising pages."
+msgstr "TOR تشخیص داده است که ارائه دهندهٔ DNS شما پاسخهای نادرستی به دامین‌هایی‌ که موجود نیستند میدهد. بعضی‌ ISP‌ها و ارایه دهندگان DNS, مثل OpenDNS, به طور مشخص این کار را انجام داده تا نتایج جستجوی خود و یا تبلیغات را نمایش دهند."
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor detected that your DNS provider is providing false responses for well "
+"known domains. Since clients rely on Tor network relays to provide accurate "
+"DNS repsonses, your relay will not be configured as an exit relay."
+msgstr "TOR تشخیص داده است که ارائه دهندهٔ DNS شما پاسخهای نادرستی به دامین‌هایی‌ شناخته شده میدهد. از آنجا که کامپیوتر کاربر برای دریافت پاسخ DNS به رله‌های شبکهٔ TOR اتکا می‌کند، رله شما به عنوان رله خروجی استفاده نخواهد شد. "
+
+msgctxt "StatusEventWidget"
+msgid "Checking Server Port Reachability"
+msgstr "چک کردن برای در دسترس بودن پورتِ سرور"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor is trying to determine if your relay's server port is reachable from the"
+" Tor network by connecting to itself at %1:%2. This test could take several "
+"minutes."
+msgstr "TOR در حال تشخیص قابلیت دسترسیِ پورتِ سرور از درون شبکه TOR از طریق اتصال به خود در  \"%1:%2\" می‌باشد. \nاین پروسه چند دقیقه طول می‌کشد."
+
+msgctxt "StatusEventWidget"
+msgid "Server Port Reachability Test Successful!"
+msgstr "پورتِ سرور قابل دسترسی‌ میببشد!"
+
+msgctxt "StatusEventWidget"
+msgid "Your relay's server port is reachable from the Tor network!"
+msgstr "پورت سرور رله شما از شبکهٔ TOR قابل دسترسی‌ می‌باشد."
+
+msgctxt "StatusEventWidget"
+msgid "Server Port Reachability Test Failed"
+msgstr "پورتِ سرورِ شما از شبکه TOR قابل دسترسی‌ نیست!"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Your relay's server port is not reachable by other Tor clients. This can "
+"happen if you are behind a router or firewall that requires you to set up "
+"port forwarding. If %1:%2 is not your correct IP address and server port, "
+"please check your relay's configuration."
+msgstr "پورتِ سرورِ رله شما قابل دسترسی‌ توسط کاربران دیگر نیست. این ممکن از به این دلیل باشد که کامپیوترِ شما پشت firewall قرار دارد یا اینکه به روتر وصل شده است که لازم است پورت فرواردینگ کند. اگر \"%1:%2\" آدرسِ آی‌پی و پورتِ شما نیست، لطفا تنظیمات رله خود را چک کنید."
+
+msgctxt "StatusEventWidget"
+msgid "Checking Directory Port Reachability"
+msgstr "بررسی دسترسی پورت‌های دایرکتوری"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor is trying to determine if your relay's directory port is reachable from "
+"the Tor network by connecting to itself at %1:%2. This test could take "
+"several minutes."
+msgstr "تور در حال بررسی دسترسی پورت دایرکتوری بازپخش کننده شما، از داخل شبکه تور، به وسیله وصل خود در %1:%2 است. این آزمایش ممکن است چند دقیقه طول بکشد."
+
+msgctxt "StatusEventWidget"
+msgid "Directory Port Reachability Test Successful!"
+msgstr "آزمایش دسترسی پورت دایرکتوری موفق بود!"
+
+msgctxt "StatusEventWidget"
+msgid "Your relay's directory port is reachable from the Tor network!"
+msgstr "پورت دایرکتوری بازپخش کننده شما از شبکه تور قابل دسترس است!"
+
+msgctxt "StatusEventWidget"
+msgid "Directory Port Reachability Test Failed"
+msgstr "آزمایش دسترسی پورت دایرکتوری ناموفق بود"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Your relay's directory port is not reachable by other Tor clients. This can "
+"happen if you are behind a router or firewall that requires you to set up "
+"port forwarding. If %1:%2 is not your correct IP address and directory port,"
+" please check your relay's configuration."
+msgstr "دایرکتوری پورت بازپخش کننده شما، توسط دیگر کاربران تور قابل دسترس نیست. این اتفاق زمانی ممکن است بیافتد، که شما پشت روتر یا فایروالی هستید که نیاز به تنظیم انتقال پورت دارد. اگر %1:%2 آدرس IP و دایرکتوری پورت درست شما نیست، لطفن پیکربندی بازپخش کننده خود را چک کنید."
+
+msgctxt "StatusEventWidget"
+msgid "Relay Descriptor Rejected"
+msgstr "واصف بازپخش کننده رد شد"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Your relay's descriptor, which enables clients to connect to your relay, was"
+" rejected by the directory server at %1:%2. The reason given was: %3"
+msgstr "واصف بازپخش کننده شما، که کاربران را قادر به اتصال به بازپخش کننده شما میکند، توسط سرور داده ها در %1:%2 رد شد. علت: %3"
+
+msgctxt "StatusEventWidget"
+msgid "Your Relay is Online"
+msgstr "بازپخش کننده شما آنلاین است"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Your relay is now online and available for Tor clients to use. You should "
+"see an increase in network traffic shown by the Bandwidth Graph within a few"
+" hours as more clients learn about your relay. Thank you for contributing to"
+" the Tor network!"
+msgstr "بازپخش کننده شما آنلاین و برای استفاده کاربران تور در دسترس است. همچنان که کاربران بیشتری از بازپخش کننده شما آگاه میشوند، در چند ساعت آینده، شما باید شاهد بالا رفتن ترافیک نمایش داده شده در نمودار پهنای باند باشید!"
+
+msgctxt "Stream"
+msgid "New"
+msgstr "جدید"
+
+msgctxt "Stream"
+msgid "Resolving"
+msgstr "ترجمه"
+
+msgctxt "Stream"
+msgid "Connecting"
+msgstr "اتصال"
+
+msgctxt "Stream"
+msgid "Open"
+msgstr "باز"
+
+msgctxt "Stream"
+msgid "Failed"
+msgstr "ناموفق"
+
+msgctxt "Stream"
+msgid "Closed"
+msgstr "بسته"
+
+msgctxt "Stream"
+msgid "Retrying"
+msgstr "تلاش مجدد"
+
+msgctxt "Stream"
+msgid "Remapped"
+msgstr "بازنگاشته"
+
+msgctxt "Stream"
+msgid "Unknown"
+msgstr "نامعلوم"
+
+msgctxt "TorProcess"
+msgid "Process %1 failed to stop. [%2]"
+msgstr "فرایند شماره %1 نتوانست متوقف شود. [%2]"
+
+msgctxt "TorService"
+msgid "The Tor service is not installed."
+msgstr "سرویس تُر نصب نشده است"
+
+msgctxt "TorService"
+msgid "Unable to start the Tor service."
+msgstr "ناتوان در راه اندازی سرویس تُر."
+
+msgctxt "TorSettings"
+msgid "Failed to hash the control password."
+msgstr "شکست در درهم درآوردن اسم رمز کنترل."
+
+msgctxt "TorrcDialog"
+msgid "Editing torrc"
+msgstr "ویرایش torrc"
+
+msgctxt "TorrcDialog"
+msgid ""
+"Save settings. If unchecked it will only apply settings to the current Tor "
+"instance."
+msgstr "تنظیمات را ذخیره کن. اگر علامت نخورده باشد فقط برای نمونه تور فعلی اعمال میشود."
+
+msgctxt "TorrcDialog"
+msgid "Cut"
+msgstr "بریدن"
+
+msgctxt "TorrcDialog"
+msgid "Copy"
+msgstr "کپی"
+
+msgctxt "TorrcDialog"
+msgid "Paste"
+msgstr "چسباندن"
+
+msgctxt "TorrcDialog"
+msgid "Undo"
+msgstr "اصلاح"
+
+msgctxt "TorrcDialog"
+msgid "Redo"
+msgstr "انجام مجدد"
+
+msgctxt "TorrcDialog"
+msgid "Select All"
+msgstr "انتخاب همه"
+
+msgctxt "TorrcDialog"
+msgid "Apply all"
+msgstr "همه را اعمال کن"
+
+msgctxt "TorrcDialog"
+msgid "Apply selection only"
+msgstr "فقط موارد انتخابی را اعمال کن"
+
+msgctxt "TorrcDialog"
+msgid "Error connecting to Tor"
+msgstr "خطا در ارتباط با تور"
+
+msgctxt "TorrcDialog"
+msgid "Selection is empty. Please select some text, or check \"Apply all\""
+msgstr "محدوده انتخاب خالی است. لطفن مقداری از مت و یا \"همه را اعمال کن\" را انتخاب کنید"
+
+msgctxt "TorrcDialog"
+msgid "Error at line %1: \"%2\""
+msgstr "خطا در خط %1: \"%2\""
+
+msgctxt "TorrcDialog"
+msgid "Error"
+msgstr "خطا"
+
+msgctxt "TorrcDialog"
+msgid "An error ocurred while opening torrc file"
+msgstr "در هنگام باز کردن فایل torrc یک خطا رخ داد"
+
+msgctxt "UPNPControl"
+msgid "Success"
+msgstr "موفقیت"
+
+msgctxt "UPNPControl"
+msgid "No UPnP-enabled devices found"
+msgstr "هیچ دستگاه UPnP پیدا نشد"
+
+msgctxt "UPNPControl"
+msgid "No valid UPnP-enabled Internet gateway devices found"
+msgstr "هیچ دستگاه دروازه اینترنت معتبر UPnP پیدا نشد"
+
+msgctxt "UPNPControl"
+msgid "WSAStartup failed"
+msgstr "WSAStartup موفق نشد"
+
+msgctxt "UPNPControl"
+msgid "Failed to add a port mapping"
+msgstr "ناموفق در افزودن یک نگاشت درگاه"
+
+msgctxt "UPNPControl"
+msgid "Failed to retrieve a port mapping"
+msgstr "ناموفق در بازیافتن یک نگاشت درگاه"
+
+msgctxt "UPNPControl"
+msgid "Failed to remove a port mapping"
+msgstr "ناموفق در برداشتن یک نگاشت درگاه"
+
+msgctxt "UPNPControl"
+msgid "Unknown error"
+msgstr "خطای ناشناخته"
+
+msgctxt "UPNPTestDialog"
+msgid "Discovering UPnP-enabled devices"
+msgstr "پیداکردن دستگاه های UPnP"
+
+msgctxt "UPNPTestDialog"
+msgid "Updating directory port mapping"
+msgstr "بروز رسانی نگاشت درگاه فهرست"
+
+msgctxt "UPNPTestDialog"
+msgid "Updating relay port mapping"
+msgstr "بروزرسانی نگاشت درگاه بازپخش"
+
+msgctxt "UPNPTestDialog"
+msgid "Test completed successfully!"
+msgstr "تست با موفقیت تمام شد!"
+
+msgctxt "UPNPTestDialog"
+msgid "Testing UPnP Support"
+msgstr "تست پشتیبانی UPnP"
+
+msgctxt "UPNPTestDialog"
+msgid "Testing Universal Plug & Play Support"
+msgstr "تست پشتیبانی Universal Plug & Play"
+
+msgctxt "UpdateProcess"
+msgid ""
+"Vidalia was unable to check for available software updates because it could "
+"not find '%1'."
+msgstr "ویدالیا قادر به بررسی به روز رسانی های در دسترس نرم افزار نیست.زیرا نمیتواند '%1' را پیدا کند."
+
+msgctxt "UpdateProcess"
+msgid ""
+"Vidalia was unable to check for available software updates because Tor's "
+"update process exited unexpectedly."
+msgstr "ویدالیا قادر به بررسی به روز رسانی های در دسترس نرم افزار نیست، زیرا روند به روز رسانی تُر غیر منتظره متوقف شده."
+
+msgctxt "UpdateProgressDialog"
+msgid "Checking for available updates..."
+msgstr "چک کردن برای به روز رسانی های در دسترس..."
+
+msgctxt "UpdateProgressDialog"
+msgid "Hide"
+msgstr "پنهان کردن"
+
+msgctxt "UpdateProgressDialog"
+msgid "Downloading updates..."
+msgstr "دانلود به روز رسانی..."
+
+msgctxt "UpdateProgressDialog"
+msgid "Installing updated software..."
+msgstr "راه اندازی نرم افزار تُر"
+
+msgctxt "UpdateProgressDialog"
+msgid "Done! Your software is now up to date."
+msgstr "انجام شد! نرم افزار شما در حال حاضر به روز است."
+
+msgctxt "UpdateProgressDialog"
+msgid "OK"
+msgstr "بسیارخوب"
+
+msgctxt "UpdateProgressDialog"
+msgid "Software Updates"
+msgstr "به روزرسانی نرم افزار"
+
+msgctxt "UpdateProgressDialog"
+msgid "Checking for updates..."
+msgstr "چک کردن برای به روز رسانی..."
+
+msgctxt "UpdateProgressDialog"
+msgid "Cancel"
+msgstr "لغو"
+
+msgctxt "UpdatesAvailableDialog"
+msgid "Software Updates Available"
+msgstr "به روز رسانی تُر موجود می باشد"
+
+msgctxt "UpdatesAvailableDialog"
+msgid "Remind Me Later"
+msgstr "بعدا یادآوری کن"
+
+msgctxt "UpdatesAvailableDialog"
+msgid "Install"
+msgstr "نصب"
+
+msgctxt "UpdatesAvailableDialog"
+msgid "The following updated software packages are ready for installation:"
+msgstr "بسته های بروزرسانی زیر برای نصب آماده هستند:"
+
+msgctxt "UpdatesAvailableDialog"
+msgid "Package"
+msgstr "بک‌سپیس"
+
+msgctxt "UpdatesAvailableDialog"
+msgid "Version"
+msgstr "نسخه"
+
+msgctxt "VMessageBox"
+msgid "OK"
+msgstr "بسیارخوب"
+
+msgctxt "VMessageBox"
+msgid "Cancel"
+msgstr "لغو"
+
+msgctxt "VMessageBox"
+msgid "Yes"
+msgstr "بله"
+
+msgctxt "VMessageBox"
+msgid "No"
+msgstr "خیر"
+
+msgctxt "VMessageBox"
+msgid "Help"
+msgstr "راهنما"
+
+msgctxt "VMessageBox"
+msgid "Retry"
+msgstr "تلاش مجدد"
+
+msgctxt "VMessageBox"
+msgid "Show Log"
+msgstr "نمایش گزارش"
+
+msgctxt "VMessageBox"
+msgid "Show Settings"
+msgstr "نمایش تنظیمات"
+
+msgctxt "VMessageBox"
+msgid "Continue"
+msgstr "ادامه"
+
+msgctxt "VMessageBox"
+msgid "Quit"
+msgstr "خروج"
+
+msgctxt "VMessageBox"
+msgid "Browse"
+msgstr "انتخاب فایل"
+
+msgctxt "Vidalia"
+msgid "Invalid Argument"
+msgstr "نشانوند نامعتبر"
+
+msgctxt "Vidalia"
+msgid "Vidalia is already running"
+msgstr "ویدالیا در حال اجرا است"
+
+msgctxt "Vidalia"
+msgid "Displays this usage message and exits."
+msgstr "این پیام کاربردی را نمایش می دهد و بیرون میرود."
+
+msgctxt "Vidalia"
+msgid "Resets ALL stored Vidalia settings."
+msgstr "بازنشانی کردن همه تنظیمات ذخیره شده ویدالیا."
+
+msgctxt "Vidalia"
+msgid "Sets the directory Vidalia uses for data files."
+msgstr "گذاردن فهرست مورد استفاده توسط ویدالیا برای فایل های داده."
+
+msgctxt "Vidalia"
+msgid "Sets the name and location of Vidalia's pidfile."
+msgstr "گذاردن نام و محل فایل شناسه فرآیند ویدالیا."
+
+msgctxt "Vidalia"
+msgid "Sets the name and location of Vidalia's logfile."
+msgstr "گذاردن نام و محل فایل تاریخچه ثبت ویدالیا."
+
+msgctxt "Vidalia"
+msgid "Sets the verbosity of Vidalia's logging."
+msgstr "گذاردن درجه پرحرفی ثبت ویدالیا."
+
+msgctxt "Vidalia"
+msgid "Sets Vidalia's interface style."
+msgstr "گذاردن سبک واسط ویدالیا."
+
+msgctxt "Vidalia"
+msgid "Sets Vidalia's language."
+msgstr "گذاردن زبان ویدالیا."
+
+msgctxt "Vidalia"
+msgid "Vidalia Usage Information"
+msgstr "اطلاعات درمورد استفاده ویدالیا"
+
+msgctxt "Vidalia"
+msgid "Unable to open log file '%1': %2"
+msgstr "ناتوان در بازکردن فایل تاریخچه ثبت  '%1': %2"
+
+msgctxt "Vidalia"
+msgid "Value required for parameter :"
+msgstr "وجود مقدار برای این پارامتر الزامیست: "
+
+msgctxt "Vidalia"
+msgid "Invalid language code specified:"
+msgstr " کد زبان نامعتبر مشخص شده :"
+
+msgctxt "Vidalia"
+msgid "Invalid GUI style specified:"
+msgstr "Invalid GUI style specified:"
+
+msgctxt "Vidalia"
+msgid "Invalid log level specified:"
+msgstr "Invalid log level specified:"
+
+msgctxt "Vidalia"
+msgid ""
+"Another Vidalia process is possibly already running. If there really is not another Vidalia process running, you can choose to continue anyway.\n"
+"\n"
+"Would you like to continue starting Vidalia?"
+msgstr "Another Vidalia process is possibly already running. If there really is not another Vidalia process running, you can choose to continue anyway.\n\nWould you like to continue starting Vidalia?"
+
+msgctxt "stringutil.h"
+msgid "%1 secs"
+msgstr "%1 ثانيه"
+
+msgctxt "stringutil.h"
+msgid "%1 B/s"
+msgstr "%1 کیلوبایت در ثانیه"
+
+msgctxt "stringutil.h"
+msgid "%1 KB/s"
+msgstr "%1 کیلوبایت در ثانیه"
+
+msgctxt "stringutil.h"
+msgid "%1 MB/s"
+msgstr "%1 کیلوبایت در ثانیه"
+
+msgctxt "stringutil.h"
+msgid "%1 GB/s"
+msgstr "%1 کیلوبایت در ثانیه"
+
+msgctxt "stringutil.h"
+msgid "%1 days"
+msgstr "%1 روز"
+
+msgctxt "stringutil.h"
+msgid "%1 hours"
+msgstr "%1 ساعت"
+
+msgctxt "stringutil.h"
+msgid "%1 mins"
+msgstr "%1 دقیقه"

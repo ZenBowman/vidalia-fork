@@ -1,0 +1,6 @@
+[General]
+InterfaceStyle=Macintosh (Aqua)
+
+[Tor]
+TorExecutable=/Applications/Vidalia.app/Contents/MacOS/tor
+DataDirectory=~/.tor/

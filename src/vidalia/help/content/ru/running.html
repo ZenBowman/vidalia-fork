@@ -1,0 +1,103 @@
+
+
+<!--
+**  $Id$
+** 
+**  This file is part of Vidalia, and is subject to the license terms in the
+**  LICENSE file, found in the top level directory of this distribution. If 
+**  you did not receive the LICENSE file with this file, you may obtain it
+**  from the Vidalia source package distributed by the Vidalia Project at
+**  http://www.torproject.org/projects/vidalia.html. No part of Vidalia, 
+**  including this file, may be copied, modified, propagated, or distributed 
+**  except according to the terms described in the LICENSE file.
+-->
+<html>
+<body>
+
+<h1>Запуск Tor.</h1>
+<hr />
+
+<p>
+Vidalia поможет вам контролировать процесс Tor начиная с запуска заканчивая
+остановкой, так же мониторинг статуса Tor и даст вам знать если Tor будет
+неожиданно завершен.
+</p>
+
+<a name="starting"/>
+<h3>Запуск и остановка Tor.</h3>
+<p>
+Для <i>запуска</i> Tor.
+<ol>
+  <li>Выберите <i>Запуск</i> из меню в трее Vidalia либо нажмите <i>Ctrl+S</i></li>.
+  <li>
+    Иконка в трее Vidalia изменится со значка лука с красным X на зеленый лук
+тогда Tor запустился.
+  </li>
+</ol>
+Если Vidalia не смогла запустить Tor, Vidalia отобразить сообщение об ошибке
+с описанием причины. Вы так же можете просмотреть <a href="log.html">журнал
+сообщений</a> для более подробной информации об произошедшей ошибке.
+</p>
+
+<p>
+Для <i>остановки</i> Tor.
+<ol>
+  <li>Выберите <i>Остановить</i> в трее меню Vidalia либо нажмите <i>Ctrl+T</i></li>.
+  <li>
+    Иконка в трее Vidalia изменится со значка зеленый лук на лук с красным X
+тогда Tor остановлен.
+  </li>
+</ol>
+Если Vidalia не смогла остановить Tor, Vidalia отобразить сообщение об
+ошибке с описанием причины. Вы так же можете просмотреть <a
+href="log.html">журнал сообщений</a> для более подробной информации об
+произошедшей ошибке.
+</p>
+
+<a name="monitoring"/>
+<h3>Мониторинг статуса Tor.</h3>
+<p>
+Vidalia сообщает вам о статусе Tor отображая на иконке в вашем системном
+трее или специальной области на панели.В следующей таблице приведены
+различные статусы которые указаны на значке в области уведомлений системы:
+</p>
+<p>
+<table border="1">
+<tr>
+    <td><img src="qrc:/images/32x32/tor-off.png"/></td>
+    <td valign="middle">
+      Tor остановлен. Выберите <i>Запуск</i> из меню Vidalia для запуска Tor.
+    </td>
+</tr>
+<tr>
+    <td><img src="qrc:/images/32x32/tor-starting.png"/></td>
+    <td valign="middle">
+      Tor запускается .Вы можете проверить в <a href="log.html">журнале
+сообщений</a> информацию о статусе Tor на момент запуска.
+    </td>
+</tr>
+<tr>
+    <td><img src="qrc:/images/32x32/tor-on.png"/></td>
+    <td valign="middle">
+      Tor запущен.Если хотите остановить Tor выберите <i>Остановить</i> из меню
+Vidalia.Tor сбросит информацию в <a href="log.html">журнал сообщений</a>
+пока он работает, если вам интересно чем занимался Tor.
+    </td>
+</tr>
+<tr>
+    <td><img src="qrc:/images/32x32/tor-stopping.png"/></td>
+    <td valign="middle">Tor в процессе завершения.</td>
+</tr>
+</table>
+</p>
+
+<p>
+Если Tor завершился неожидано.Vidalia сменит иконку на темную луковку с
+красным X и отобразить ошибку с описанием проблемы.Вы так же можете
+просмотреть <a href="log.html">журнал сообщений</a> для более детальной
+информации о проблеме которая спровоцировала выход.
+</p>
+
+</body>
+</html>
+

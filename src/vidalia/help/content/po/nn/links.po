@@ -1,0 +1,78 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: The Tor Project\n"
+"Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
+"POT-Creation-Date: 2011-05-05 20:21+0200\n"
+"PO-Revision-Date: 2011-05-06 19:13+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nn\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#. type: Content of: <html><body><h1>
+#: links.html:16
+msgid "Helpful Links"
+msgstr ""
+
+#. type: Content of: <html><body><h3>
+#: links.html:19
+msgid "Vidalia"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: links.html:22 links.html:30 links.html:42 links.html:49 links.html:57
+msgid "&nbsp;&nbsp;&nbsp;"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: links.html:23 links.html:43
+msgid "Homepage"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: links.html:25
+msgid ""
+"<a href=\"https://www.torproject.org/vidalia/\"> "
+"https://www.torproject.org/vidalia/</a>"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: links.html:31 links.html:58
+msgid "Wiki and Bugtracker"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: links.html:33
+msgid "<a href=\"http://trac.torproject.org/\"> http://trac.torproject.org/</a>"
+msgstr ""
+
+#. type: Content of: <html><body><h3>
+#: links.html:39
+msgid "Tor"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: links.html:45
+msgid "<a href=\"https://www.torproject.org/\">https://www.torproject.org/</a>"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: links.html:50
+msgid "FAQ"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: links.html:52
+msgid ""
+"<a href=\"https://www.torproject.org/docs/faq.html\"> "
+"https://www.torproject.org/docs/faq.html</a>"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: links.html:60
+msgid "<a href=\"https://trac.torproject.org/\"> https://trac.torproject.org/</a>"
+msgstr ""

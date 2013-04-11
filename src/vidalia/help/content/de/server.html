@@ -1,0 +1,150 @@
+﻿<!--
+**  $Id$
+** 
+**  This file is part of Vidalia, and is subject to the license terms in the
+**  LICENSE file, found in the top level directory of this distribution. If 
+**  you did not receive the LICENSE file with this file, you may obtain it
+**  from the Vidalia source package distributed by the Vidalia Project at
+**  http://www.torproject.org/projects/vidalia.html. No part of Vidalia, 
+**  including this file, may be copied, modified, propagated, or distributed 
+**  except according to the terms described in the LICENSE file.
+-->
+
+<html>
+<body>
+
+<h1>Einen Tor Server betreiben</h1>
+<hr />
+
+Das Tor-Netzwerk besteht aus Freiwilligen aus der ganzen Welt, die einen
+Teil ihrer &uuml;bersch&uuml;ssigen Bandbreite zum Betrieb eines Servers
+bereitstellen. Vidalia hilft Ihnen sich daran zu beteiligen, indem es das
+Aufsetzen Ihres eigenen Servers sehr einfach gestaltet.
+
+<a name="basic"/>
+<h3>Basis Einstellungen</h3>
+<p>
+Falls Sie sich entscheiden, dem Tor-Netzwerk beim Wachstum zu helfen,
+k&ouml;nnen Sie die folgenden Schritte als Startpunkt befolgen:
+</p>
+<ol>
+  <li>
+    &Ouml;ffnen Sie den <i>Einstellungs-Dialog</i> durch einen Klick
+    auf <i>Einstellungen</i> im Traymen&uuml; oder <i>Eigenschaften</i>
+    in der Systemmen&uuml;leiste Ihres Macintosh-Systems.
+  </li>
+  <li>W&auml;hlen Sie die Seite <i>Server</i> aus.</li>
+  <li>Aktivieren Sie die Box <i>Leite Verkehr für das Tor Netzwerk weiter</i>.
+  <li>Geben Sie die folgenden Informationen ein:
+    <ul>
+      <li><b>Spitzname</b>:
+		  Der Name unter dem Ihr Server im Tor-Netzwerk bekannt wird. Ein
+		  Beispiel f&uuml;r einen Server-Spitznamen ist "meinVidaliaServer".
+      </li>
+      <li><b>Kontakt-Information</b>:
+		  Ihre E-Mail-Adresse. Diese Adress wird nur benutzt, falls ein
+		  wichtiges Tor-Sicherheitsupdate zu Verf&uuml;gung steht oder
+		  etwas mit Ihrem Server schief l&auml;ft. Sie k&ouml;nnen
+		  au&szlig;erdem Ihre PGP- oder GPG-Schl&uuml;ssel-ID sowie
+		  den dazugeh&ouml;rigen Fingerabdruck angeben.
+      </li>
+      <li><b>Server Port</b>:
+        Gibt den Port an, auf dem Ihr Server auf Verbindungen von
+        Client-Programmen oder anderen Tor-Servern wartet.
+      </li>
+      <li><b>Adresse</b>:
+        Geben Sie eine Adresse an, unter der Ihr Computer durch andere
+        Tor-Server &uuml;ber das Internet erreicht werden kann. Falls Ihnen
+        Ihre &ouml;ffentliche IP-Adresse nicht bekannt sein sollte,
+        k&ouml;nnen Sie auf die Schaltfl&auml;che <i>Adresse</i> klicken,
+        damit Vidalia eine externe Seite aufrufen kann (bspw.
+        <i>http://www.vidalia-project.net/iptest/ip.php</i>), um Ihre
+        &ouml;ffentliche IP-Adresse zu ermitteln.
+      </li>
+    </ul>
+  <li>
+    Wenn Sie die Server-Liste f&uuml;r andere im Netzwerk spiegeln wollen,
+    aktivieren Sie die Box <i>Die Server-Liste spiegeln</i>. Deaktivieren Sie
+    diese Box, falls Sie nicht ausreichend Bandbreite zur Verf&uuml;gung
+    haben. Falls Sie sich entscheiden, die Server-Liste zu spiegeln, stellen
+    Sie sicher, dass der <i>Verzeichnis-Port</i> sich von dem oben erw&auml;hnten
+    <i>Server Port</i> unterscheidet.
+  </li>
+</ol>
+
+<a name="bandwidth"/>
+<h3>Bandbreitenbegrenzung</h3>
+<p>
+Einen Tor Server zu betreiben kann eine Menge Bandbreite verbrauchen. Deshalb
+erlaubt es Tor, die Bandbreite zu begrenzen, die Sie dem Tor-Netzwerk zur
+Verf&uuml;gung stellen wollen. Sie k&ouml;nnen einen Server betreiben
+und gleichzeitig bleibt Ihre Netzwerkverbindung f&uuml;r Ihren eigenen
+Bedarf benutzbar.
+</p>
+<p>
+Sie sollten aus der Auswahlliste die Option w&auml;hlen, die Ihrer
+Internetverbindung am ehesten entspricht. Falls Sie <i>Benutzerdefiniert</i>
+ausw&auml;hlen, k&ouml;nnen Sie die Bandbreitenbegrenzung selbst festlegen.
+</p>
+<h4>Benutzerdefinierte Begrenzung</h4>
+<p>
+Die <i>Maximale Rate</i> ist die Bandbreite die w&auml;hrend kurzer Perioden
+von hohem Datenverkehr zur Verf&uuml;gung steht und &uuml;ber Ihrer
+angegebenen <i>Durchschnittlichen Rate</i> liegt. Dabei wird der langfristige
+Durchschnitt nicht beeintr&auml;chtigt. Eine niedrige Durchschnittliche Rate,
+aber eine hohe Maximale Rate stellt gen&uuml;gend Bandbreite zu Spitzenzeiten zur
+Verf&uuml;gung, sofern der Durchschnitt nicht bereits erreicht wurde.
+Wenn Ihre Durchschnittliche Rate der <i>Maximalen Rate</i> entspricht, wird
+Tor niemals die angegebene Rate &uuml;berschreiten.Ihre <i>Maximale Rate</i>
+muss mindestens gleich gro&szlig; oder gr&ouml;&szlig;er als Ihre
+<i>Durchschnittliche Rate</i> sein.
+</p>
+<p>
+Die <i>Durchschnittliche Rate</i> gibt die maximale durchschnittliche
+Bandbreite, gemessen &uuml;ber einen langen Zeitraum, an (in
+Kilobyte pro Sekunde). Sie k&ouml;nnen bspw. 2 Megabyte pro Sekunde
+(2048 KB/s) oder 50 Kilobyte pro Sekunde (entspricht einer
+durchschnittlichen Kabel-Internetverbindung) angeben. Tor ben&ouml;tigt
+mindestens 20 Kilobyte pro Sekunde, um als Server betrieben zu werden.
+</p>
+<p>
+Beachten Sie, dass Tor die Bandbreite in <b>byte</b> und nicht in bits misst.
+Au&szlig;erdem beachtet Tor in diesem Fall nur eingehende und nicht ausgehende
+bytes. Falls Ihr Server bspw. zur Verzeichnisspiegelung dient, versenden Sie
+wahrscheinlich mehr bytes, als Sie empfangen. Wenn dies der Falls ist und Ihre
+Bandbreite zu sehr beansprucht, sollten Sie erw&auml;gen, die Checkbox
+<i>Das Tor Verzeichnis spiegeln</i> zu deaktivieren.
+</p>
+
+<a name="exitpolicy"/>
+<h3>Exit-Regeln</h3>
+<p>
+Durch die Exit-Regeln k&ouml;nnen Sie festlegen, welche Art von
+Internet-Ressourcen Tor-Benutzer von Ihrem Server aus erreichen k&ouml;nnen.
+Tor benutzt eine vorkonfigurierte Liste von Exit-Regeln,
+um dem Mi&szlig;brauch des Tor-Netzwerkes durch bestimmte Dienste, bspw.
+Spam oder File Sharing zu reduzieren.
+</p>
+
+<p>
+Mit den Checkboxen k&ouml;nnen Sie den Zugriff von Tor-Benutzern auf
+Internet-Ressourcen &uuml;ber Ihren Server steuern. Wenn Sie eine
+Checkbox neben einer speziellen Internet-Ressource deaktivieren,
+werden Tor-Benutzer nicht mehr in der Lage sein, diese &uuml;ber Ihren
+Server zu erreichen. Falls Sie die Checkbox <i>Verschiedene andere
+Dienste</i> aktivieren, k&ouml;nnen Tor-Benutzer alle Internet-Ressourcen
+nutzen, die nicht durch vorhandene Regeln beschr&auml;nkt worden sind.
+</p>
+
+<p>
+Falls Sie Tor-Benutzern nicht gestatten wollen, Verbindungen zu Punkten
+au&szlig;erhalb des Tor-Netzwerkes von Ihrem Server aus aufzubauen,
+deaktivieren Sie alle Checkboxen. In diesem Fall wird ihr Server weiterhin
+zum Tor-Netzwerk beitragen. Tor-Benutzer k&ouml;nnen sich weiterhin mit dem
+Tor-Netzwerk verbinden und Ihr Server wird Netzwerkverkehr zwischen anderen
+Tor-Servern weiterleiten.
+</p>
+
+</body>
+</html>
+

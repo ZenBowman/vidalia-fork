@@ -1,0 +1,142 @@
+﻿<!--
+**  $Id$
+** 
+**  This file is part of Vidalia, and is subject to the license terms in the
+**  LICENSE file, found in the top level directory of this distribution. If 
+**  you did not receive the LICENSE file with this file, you may obtain it
+**  from the Vidalia source package distributed by the Vidalia Project at
+**  http://www.torproject.org/projects/vidalia.html. No part of Vidalia, 
+**  including this file, may be copied, modified, propagated, or distributed 
+**  except according to the terms described in the LICENSE file.
+-->
+
+<html>
+<body>
+
+<h1>Verkkokartta</h1>
+<hr />
+
+<p>
+Verkkokartalla voi nähdä Tor-verkossa olevat reitittimet ja mihin omat yhteydet kulkevat.
+</p>
+
+
+<a name="overview"/>
+<h3>Yleistä</h3>
+<p>
+Kun halutaan kommunikoida tuntemattomasti Tor-verkon kautta (esim. internetsivulle), niin Tor-ohjelma luo yhteyden <i>(engl. circuit)</i> koostuen erillisistä suojatuista yhteyksistä reititinsarjojen läpi verkossa. Ohjelman liikenne kulkee datavirtoina <i>(engl. stream)</i> edellä mainitun yhteystyypin mukaisesti. Toiminnan tehostuksena yksittäisessä yhteydessä voi olla useaita datavirtoja.
+</p>
+
+<a name="netmap"/>
+<h3>Verkkokartta</h3>
+<p>
+Verkkokartta koostuu Maan kartasta ja punaisista pisteistä, joilla ilmaistaan Tor-verkon reitittimien maantieteelliset sijainnit. Reitittimien välille piirretyt vihreät viivat näyttävät oman Tor-ohjelman ja Tor-verkon välissä olevien yhteyksien reitin.
+</p>
+<p>
+Karttaa voi skaalata klikkaamalla <b>Suurenna</b>- ja
+<b>Pienennä</b> -nappuloita työkalupalkista. Karttaa voi myös vierittää klikkaamalla sitä tai vetämällä sitä omaan haluttuun suuntaan.
+</p>
+<p>
+Tor-reitittimien maantieteellinen sijainti selvitetään tarkistamalla IP-osoite GeoIP-tietokannasta, jonka on tehnyt MaxMind ja sijaitsee osoitteessa geoip.vidalia-project.net.
+</p>
+<p>
+Keskellä ruutua kartan alla on lista käytössä olevista yhteyksistä, kuten myös minkä tahansa ohjelmien datavirta näissä yhteyksissä. Kun verkkokartta latautuu, ruudusta näkee yhteyden geoip.vidalia-project.net -osoitteeseen, joka tapahtuu kun Vidalia tarkistaa Tor-reitittimien maantieteellistensijaintien tietoja. Tärkeää on huomioida, että pyyntö luodaan käyttämällä Tor-verkkoa, joten omaa sijaintia ei ilmoiteta GeoIP-palvelimelle. Pyyntöjen tulokset tallennetaan kiintolevylle välimuistiin säästäkseen rasittamasta Vidalian GeoIP-reitittimiä suuresti.
+</p>
+
+
+<a name="serverlist"/>
+<h3>Reitittimien tila</h3>
+<p>
+Vasemmassa reunassa verkkokartassa on lista Tor-verkon reitittimistä. Jokaisen reitittimen vieressä on kuvake, joka ilmaisee sen tilan.
+Seuraavassa taulukossa on käytössä olevat reitittimien tilat:
+</p>
+<p>
+<table border="1">
+<tr>
+  <td><img src="qrc:/images/icons/node-unresponsive.png"/></td>
+  <td valign="middle">
+    Reititin on poispäältä (offline-tilassa) tai ei vastaa.
+  </td>
+</tr>
+<tr>
+  <td><img src="qrc:/images/icons/node-hibernating.png"/></td>
+  <td valign="middle">
+    Reititin on <i>lepotilassa</i> eli se on päällä (online-tilassa), mutta on käyttänyt yhteyttä niin paljon kuin operaattori on sallinnut tietyn ajan kuluessa.
+  </td>
+</tr>
+<tr>
+  <td><img src="qrc:/images/icons/node-bw-none.png"/></td>
+  <td valign="middle">
+    Reititin on online-tilassa ja sen kautta kulkee vähän liikennettä.
+  </td>
+</tr>
+<tr>
+  <td><img src="qrc:/images/icons/node-bw-low.png"/></td>
+  <td valign="middle">
+    Reititin on online-tilassa ja sen kautta välittyy &gt;= 20 KB/s.
+  </td>
+</tr>
+<tr>
+  <td><img src="qrc:/images/icons/node-bw-med.png"/></td>
+  <td valign="middle">
+    Reititin on online-tilassa ja sen kautta välittyy &gt;= 60 KB/s.
+  </td>
+</tr>
+<tr>
+  <td><img src="qrc:/images/icons/node-bw-high.png"/></td>
+  <td valign="middle">
+   Reititin on online-tilassa ja sen kautta välittyy &gt;= 400 KB/s.
+  </td>
+</tr>
+</table>
+</p>
+<p>
+Kaikki yhteysnopeusarvot ovat arvioita vähimmäis yhteysnopeuksista sisään tai ulos yli kymmenen sekunnin aikana kuluneessa päivässä.
+</p>
+
+
+<a name="details"/>
+<h3>Reitittimien tiedot</h3>
+<p>Reititin-tietoruutussa oikealla kerrotaan lisätietoa 
+<a href="#serverlist">reititinlistasta</a> valitusta reitittimestä tai reitittimistä. Jos yhteys tai datavirta on valittu datavirrat-listasta, niin tässä ruudussa näkyy tietoa kaikista reitittimistä joiden kautta oman koneen välittyy liikenne.
+</p>
+<p>
+Tiedot, jotka ovat nähtävissä ruudusta ovat samanlaisia kuten seuraavat (<i>Huomaa</i>: ei kaikki seuraavaksi mainituista ole aina välttämättä näkyvillä):
+</p>
+<p>
+<table>
+<tr>
+  <td><b>Sijainti</b></td>
+  <td>Tor-reitittimen maantieteellinen sijainti.</td>
+</tr>
+<tr>
+  <td><b>IP-osoite</b></td>
+  <td>IP-osoite, josta Tor-reititin voidaan tavoittaa.</td>
+</tr>
+<tr>
+  <td><b>Alusta</b></td>
+  <td>
+Tietoa sen käyttöjärjestelmästä ja Tor-ohjelmasta sillä Tor-reitittimellä.
+  </td>
+</tr>
+<tr>
+  <td><b>Yhteys</b></td>
+  <td>
+    Arvioitu enimmäisnopeus, joka on välittynyt hiljattain tältä reitittimeltä listareitittimien kautta.
+  </td>
+</tr>
+<tr>
+  <td><b>Päällä</b></td>
+  <td>
+    Aika, kuinka kauan reititin on ollut päällä ja, josta voi olla apua arvioidakseen reitittimen vakaus.
+  </td>
+</tr>
+<tr>
+  <td><b>Viimeksi päivitetty</b></td>
+  <td>Ajankohta, jolloin on viimeksi reitittimen tiedot päivitetty.</td>
+</tr>
+</table>
+</p>
+</body>
+</html>
+

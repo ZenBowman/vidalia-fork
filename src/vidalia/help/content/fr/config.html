@@ -1,0 +1,200 @@
+
+
+<!--
+**  $Id$
+** 
+**  This file is part of Vidalia, and is subject to the license terms in the
+**  LICENSE file, found in the top level directory of this distribution. If 
+**  you did not receive the LICENSE file with this file, you may obtain it
+**  from the Vidalia source package distributed by the Vidalia Project at
+**  http://www.torproject.org/projects/vidalia.html. No part of Vidalia, 
+**  including this file, may be copied, modified, propagated, or distributed 
+**  except according to the terms described in the LICENSE file.
+-->
+<html>
+<body>
+
+<h1>Configurer Vidalia et Tor</h1>
+<hr />
+
+<p>
+Vidalia vous permet de configurer quelques-uns des aspects communément
+modifiables de Vidalia et de Tor. Il vous permet aussi de mettre en place et
+de gérer un <a href="server.html">relai Tor</a> afin d'aider le réseau Tor à
+grandir.
+</p>
+
+<a name="general"/>
+<h3>Paramètres généraux</h3>
+<p>
+Les paramètres sur la page <i>Paramètres généraux</i> sont les paramètres
+les plus souvent modifiés.
+</p>
+<ul>
+  <li><b>Exécutable Tor</b>: Ceci est le fichier exécutable de Tor que Vidalia
+lancera lorsque vous sélectionnerez <i>Démarrer</i> depuis le menu de la
+barre des tâches. Si vous avez plusieurs versions de Tor d'installées, vous
+pouvez indiquer à Vidalia quelle version vous aimeriez utiliser en cliquant
+le bouton <i>Parcourir</i> et en naviguant vers l'installation de Tor que
+vous préférez.
+  </li>
+  <li><b>Options de démarrage</b>: Ce paramètre vous permet de démarrer Tor
+automatiquement quand Vidalia démarre. Vous pouvez aussi configurer Vidalia
+pour démarrer en même temps que le système (<i>seulement Windows</i>).
+  </li>
+</ul>
+
+<a name="network"/>
+<h3>Paramètres du réseau</h3>
+<p>
+La page des paramètres <i>Réseau</i> vous permet de modifier comment Tor se
+connecte au réseau Tor.
+</p>
+<ul>
+  <li><b>J'utilise un proxy pour accéder à internet</b>: Si votre connexion
+Internet requiert un proxy HTTP, vous pouvez configurer Tor pour diriger
+toutes les requêtes et les connexions relais à travers ce proxy. Vous devez
+au moins spécifier le nom d'hôte ou l'adresse de votre proxy, et le port sur
+lequel le proxy attend des connexions. Si votre proxy demande une
+authetification, vous pouvez aussi entrer le <i>nom d'utilisateur</i> et le
+<i>mot de passe</i> que vous utilisez pour vous connecter à votre proxy.
+Autrement, vous pouvez laisser ces champs vides.
+  </li>
+  <li><b>Mon pare-feu me permet de me connecter seulement sur certains ports</b>:
+si vous êtes derrière un pare-feu réstrictif ou derrière un proxy qui limite
+les connexions à certains ports seulement, vous pouvez configurer Tor de
+sorte à se connecter directement sur des relais qui écoutent seulement sur
+les ports autorisés par votre pare-feu ou proxy. Entrez simplement une liste
+de ports autorisés par votre pare-feu ou proxy, séparé par des
+virgules. (<i>Exemple: 80,443,8080</i>)
+  </li>
+  <li><b>Mon FAI bloque des connexions sur le réseau Tor</b>: Si votre FAI
+(Fournisseur d'accès à Internet) bloque les connexions sur le réseau Tor,
+Tor peut tenter d'éviter ce filtrage en chiffrant ses connexions et en
+passant par des relais <i>passerelle</i> (à partir de la version Tor
+0.2.0.3-alpha seulement). Vous pouvez ajouter des passerelles en spécifiant
+soit leur adresse et leur port soit leur adresse, leur numéro de port et
+leur empreinte.<br/>
+
+    Voici quelques exemples de formats d'adresses de passerelles valides :
+    <ul>
+      <li>
+        128.213.48.13:8080
+      </li>
+      <li>
+        128.213.48.13:8080 1054 13B1 DBDA F867 B226 74D2 52DF 3D9F A367 1F73
+      </li>
+      <li>
+        128.213.48.13:8080 105413B1DBDAF867B22674D252DF3D9FA3671F73
+      </li>
+    </ul>
+    Même si vous ne connaissez pas d'adresse de passerelle, il peut être utile
+de cocher cette case. Tor chiffrera alors ses requêtes d'annuaire, ce qui
+peut contourner les mécanismes de blocage qui cherchent à filtrer les
+requêtes Tor qui concernent l'information sur d'autres relais. Si les
+connexions aux relais normaux sont également bloquées, il vous faudra
+trouver l'adresse d'une passerelle d'une manière ou d'une autre pour
+l'ajouter ici. Consultez cette d'aide sur la manière de <a
+href="bridges.html#finding">trouver une passerelle</a> en récupérant des
+adresses et des empreintes.
+  </li>
+</ul>
+
+<a name="relay"/>
+<h3>Paramètres relai</h3>
+<p>
+<i> Lire <a href="server.html">l'aide</a> pour des informations détaillées
+sur la mise en place et la gestion d'un relai Tor.  </i>
+</p>
+
+<a name="appearance"/>
+<h3>Paramètres d'apparence</h3>
+<p>
+Les paramètres d'<i>apparence</i> vous permettent de personnaliser
+l'apparence de Vidalia.
+</p>
+<ul>
+  <li><b>Langue:</b>: l'interface de Vidalia a été traduite dans de nombreuses
+langues par des volontaires. Lorsque Vidalia est lancé pour la première
+fois, l'application tentera de deviner quelle est la langue employée sur
+l'ordinateur en cours d'utilisation. Si Vidalia n'a pas fait le bon choix ou
+bien si voous désirez utiliser une autre langue, vous pouvez en choisir une
+sur la liste déroulante. Vous devrez redémarrer Vidalia afin que la langue
+utilisée soit celle que vous avez choisie.
+  </li>
+  <li><b>Style</b>: Dans la plupart des cas, Vidalia utilisera le style par défaut
+de votre plateforme. Si ce dernier ne vous plaît pas, vous pouvez le changer
+en en sélectionnant un autre dans la liste déroulante. 
+  </li>
+</ul>
+
+<a name="advanced"/>
+<h3>Paramètres avancés</h3>
+<p>
+Les paramètres de la page <i>Avancée</i> devraient être modifié, en règle
+générale, uniquement par des utilisateurs expérimentés.
+</p>
+<ul>
+  <li><b>Adresse et Port de contrôle<b>: Le <i>Port de Contrôle</i> est le port
+utilisé par Vidalia pour communiquer avec Tor. Il n'y a pas besoin de le
+modifier à moins que vous ayez un conflit avec un autre service sur votre
+machine ou si vous utilisez Vidalia pour contrôler et surveiller un
+processus Tor qui tourne sur une autre machine.
+  </li>
+  <li><b>Authentification du Port de Contrôle</b>: L'authentification du port de
+contrôle est utilisée pour gérer quelles seront les applications de votre
+machine qui pourront se connecter et reconfigurer l'installation de Tor. Les
+méthodes d'authentification suivantes sont disponibles:
+    <ul>  
+      <li>
+        <b>Aucune</b>  --Aucune authentification ne sera requise. Utiliser cette
+option est <b>fortement</b> déconseillée. Toute application ou utilisateur
+de cet ordinateur pourra alors reconfigurer votre installation de Tor.
+      </li>
+      <li> 
+        <b>Mot de passe</b> <i>(Défaut)</i> -- Lorsque cette méthode est employée,
+vous pouvez indiquer un mot de passe que Tor demandera chaque fois qu'un
+utilisateur ou une application tentera de se connecter au port de
+contrôle. Si Vidalia lance Tor pour vous, vous pouvez faire en sorte que
+l'application génère un nouveau mot de passe au hasard, à chaque fois
+qu'elle démarrera Tor en activant la case <i>Génération Aléatoire</i>.
+      </li>
+      <li>
+        <b>Cookie</b> -- Si l'authentification par cookie est employée, Tor écrira
+un fichier (ou, un <i>cookie</i>) contenant une suite aléatoire d'octets
+dans le répertoire de données, lors de son démarrage. Tout utilisateur ou
+application désirant se connecter au port de contrôle devra indiquer le
+contenu de ce cookie.
+      </li>
+    </ul>
+  </li>
+  <li><b>Fichier de configuration de Tor</b> <i>(optionnel)</i>: Vous pouvez
+utiliser cette option pour permettre à Vidalia de démarrer Tor en indiquant
+un fichier <i>torrc</i> spécifique. Si vous laissez ce champ à blanc, Tor
+utilisera l'emplacement par défaut.
+  </li>
+  <li><b>Répertoire de Données de Tor</b> <i>(optionnel)</i>: Vous pouvez indiquer
+l'emplacement dans lequel Tor enregistrera ses données telles que le cache
+d'information sur les relais, les clefs ainsi que les fichiers de
+configuration. Si vous laissez ce champ à blanc, Tor utilisera l'emplacement
+par défaut.
+  </li>
+  <li><b>Permissions</b> <i>(optionnel, non disponible sous Windows)</i>: Si vous
+indiquez une valeur pour le champ <b>Lancer sous l'utilisateur</b>, Tor
+effectuera un <i>setuid</i> vers cet utilisateur lorsqu'il démarrera. Si
+vous entrez une valeur pour <b>Lancer sous le groupe</b>, Tor effectuera un
+<i>setgid</i> vers ce groupe lorsqu'il démarrera.
+  </li>
+</ul>
+
+<a name="services"/>
+<h3>Paramètres des Services cachés</h3>
+<p>
+Les services cachés vous permettent de mettre à disposition d'autres
+personnes tout type de service basé sur le TCP, par exemple, un service
+HTTP, sans révéler votre adresse IP.
+</p>
+
+</body>
+</html>
+

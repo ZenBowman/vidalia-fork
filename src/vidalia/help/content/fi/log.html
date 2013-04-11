@@ -1,0 +1,89 @@
+﻿<!--
+**  $Id$
+** 
+**  This file is part of Vidalia, and is subject to the license terms in the
+**  LICENSE file, found in the top level directory of this distribution. If 
+**  you did not receive the LICENSE file with this file, you may obtain it
+**  from the Vidalia source package distributed by the Vidalia Project at
+**  http://www.torproject.org/projects/vidalia.html. No part of Vidalia, 
+**  including this file, may be copied, modified, propagated, or distributed 
+**  except according to the terms described in the LICENSE file.
+-->
+
+<html>
+<body>
+
+<h1>Tapahtumaloki</h1>
+<hr />
+
+Tapahtumaloki antaa lisätietoa käynnissä olevasta Tor-ohjelmasta.
+
+<a name="basic"/>
+Jokaisella tapahtumalla on oma <i>tärkeys/prioriteetti</i>, vakavasta
+<b>Virheestä</b> <b>Debug-tietoihin</b> (monisanainen). Tarkempaa tietoa on ohjeenaiheessa <a href="#severities">Tapahtumien tärkeys</a>.
+
+
+<a name="severities"/>
+<h3>Tapahtumien tärkeys</h3>
+<p>
+Tapahtuman tärkeydellä saa tiedon kuinka vakava on kyseinen tapahtuma. Lieviä tapahtumia tulee sattumanvaraisesti normaalin Tor-toiminnan yhteydessä, joita ei tarvitse kirjata lokiin.
+</p>
+
+<p>
+Mahdolliset tapahtumatyypit, vakavimmista ja lievimpään:
+</p>
+<ul>
+  <li>
+    <b>Virhe</b>: Tapahtumat, jotka tapahtuvat kun jotain on pahasti mennyt pieleen eikä Tor-ohjelma pysty jatkamaan toimintaansa. Nämä tapahtumat korostetaan <i>punaisella</i> tapahtumalokissa.
+  </li>
+  <li>
+    <b>Varoitus</b>: Tapahtumat, jotka tapahtuvat kun jotain on mennyt pieleen Tor-ohjelman kanssa, mutta eivät ole vakavia ja Tor-ohjelma voi jatkaa toimintaansa. Nämä tapahtumat korostetaan <i>keltaisella</i>.
+  </li>
+  <li>
+    <b>Ilmoitus</b>: Tapahtumat, jotka tapahtuvat sattumanvaraisesti normaalin Tor-toiminnan yhteydessä ja joita ei pidetä virheinä, mutta joiden tarkkailu on suositeltavaa.
+  </li>
+  <li>
+    <b>Tiedote</b>: Tapahtumat, jotka tapahtuvat säännöllisesti normaalin Tor-toiminnan yhteydessä ja joista käyttäjien ei tarvitse välittää.
+  </li>
+  <li>
+    <b>Debug</b>: Erittäin monisanaisia tapahtumia, jotka kiinnostavat erityisesti Tor-ohjelmoijia. Debug-tapahtumia ei kannata kirjata lokiin, jos ei ole erityisen suurta tarvetta sen kaltaiseen.
+  </li>
+</ul>
+
+<p>
+Käyttäjien kannattaa yleensä kirjata vain <i>Virhe-</i>, <i>Varoitus-</i>, ja <i>Ilmoitus-</i>tapahtumat.
+</p>
+
+<p>
+Valitakseen kuinka tärkeitä tapahtumia haluaa nähdä, niin tee seuraavanlaisesti:
+<ol>
+  <li>Avaa tapahtumaloki tehtäväpalkin Vidalian valikosta.</li>
+  <li>Klikkaa <i>Näytä asetukset</i> tapahtumaloki-ikkunan alaosasta.</li>
+  <li>
+    Rastita tapahtumatyypit tapahtumiensuodatuksesta vasemmalta, jotka haluat nähdä ja poista rasti niistä joita et halua.
+  </li>
+  <li>Klikkaa <i>Tallenna asetukset</i> hyväksyäksesi muutokset tapahtumien suodattaakseen.</li>
+</ol>
+</p>
+
+
+<a name="logfile"/>
+<h3>Tapahtumien tallennus</h3>
+<p>
+Vidalialla voi tallentaa tapahtumat erilliselle tiedostolle samanaikaisesti kun se kirjaa ne tapahtumaloki-ikkunaan. Tapahtumien tallentaminen automaattisesti lokiin saadaan:
+</p>
+
+<ol>
+  <li>Avaa tapahtumaloki tehtäväpalkin Vidalian valikosta.</li>
+  <li>Klikkaa <i>Näytä asetukset</i> tapahtumaloki-ikkunan alaosasta.</li>
+  <li>Rastita ruutu <i>Tallenna tapahtumat tiedostoon</i>.
+  <li>
+    Tiedosto, johon loki tallennetaan voidaan vaihtaa joko kirjoittamalla sijainti ja tiedostonnimi tekstikehykseen tai klikkaamalla <i>Selaa</i>
+    ja siirtymällä sijaintiin, johon haluaa lokitiedoston.
+  </li>
+  <li>Klikkaa <i>Tallenna asetukset</i> tallentaakseen loki kohteeseen.</li>
+</ol>
+
+</body>
+</html>
+

@@ -1,0 +1,435 @@
+# Translators:
+# Translators:
+# Gerard Farràs Ballabriga <>, 2012.
+# runasand <runa.sandvik@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: The Tor Project\n"
+"Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
+"POT-Creation-Date: 2008-08-20 03:25+0000\n"
+"PO-Revision-Date: 2012-02-14 09:46+0000\n"
+"Last-Translator: Gerard Farràs Ballabriga <>\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ca\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"X-Generator: Vidalia ts2po 0.2\n"
+
+#: qaccessibleobject.cpp:348
+msgctxt "QApplication"
+msgid "Activate"
+msgstr "Activa"
+
+#: qmessagebox.h:319
+msgctxt "QApplication"
+msgid "Executable '%1' requires Qt %2, found Qt %3."
+msgstr "L'executable '%1' requereix Qt %2 i s'ha trobat Qt %3."
+
+#: qmessagebox.h:321
+msgctxt "QApplication"
+msgid "Incompatible Qt Library Error"
+msgstr "Error d'incompatibilitat amb la llibreria Qt"
+
+#: qapplication.cpp:2095
+msgctxt "QApplication"
+msgid "QT_LAYOUT_DIRECTION"
+msgstr "QT_LAYOUT_DIRECTION"
+
+#: qaccessibleobject.cpp:350
+msgctxt "QApplication"
+msgid "Activates the program's main window"
+msgstr "Activa la finestra principal del programa"
+
+#: qmessagebox.cpp:2104
+msgctxt "QDialogButtonBox"
+msgid "OK"
+msgstr "D'acord"
+
+#: qdialogbuttonbox.cpp:528
+msgctxt "QDialogButtonBox"
+msgid "Save"
+msgstr "Desa"
+
+#: qdialogbuttonbox.cpp:531
+msgctxt "QDialogButtonBox"
+msgid "Open"
+msgstr "Obre"
+
+#: qdialogbuttonbox.cpp:534
+msgctxt "QDialogButtonBox"
+msgid "Cancel"
+msgstr "Cancel·la"
+
+#: qdialogbuttonbox.cpp:537
+msgctxt "QDialogButtonBox"
+msgid "Close"
+msgstr "Tanca"
+
+#: qdialogbuttonbox.cpp:540
+msgctxt "QDialogButtonBox"
+msgid "Apply"
+msgstr "Aplica"
+
+#: qdialogbuttonbox.cpp:543
+msgctxt "QDialogButtonBox"
+msgid "Reset"
+msgstr "Reinicia"
+
+#: qdialogbuttonbox.cpp:546
+msgctxt "QDialogButtonBox"
+msgid "Help"
+msgstr "Ajut"
+
+#: qdialogbuttonbox.cpp:550
+msgctxt "QDialogButtonBox"
+msgid "Don't Save"
+msgstr "No ho desis"
+
+#: qdialogbuttonbox.cpp:554
+msgctxt "QDialogButtonBox"
+msgid "Discard"
+msgstr "Descarta"
+
+#: qdialogbuttonbox.cpp:557
+msgctxt "QDialogButtonBox"
+msgid "&Yes"
+msgstr "&Sí"
+
+#: qdialogbuttonbox.cpp:560
+msgctxt "QDialogButtonBox"
+msgid "Yes to &All"
+msgstr "Sí a &tot"
+
+#: qdialogbuttonbox.cpp:563
+msgctxt "QDialogButtonBox"
+msgid "&No"
+msgstr "&No"
+
+#: qdialogbuttonbox.cpp:566
+msgctxt "QDialogButtonBox"
+msgid "N&o to All"
+msgstr "N&o a tot"
+
+#: qdialogbuttonbox.cpp:569
+msgctxt "QDialogButtonBox"
+msgid "Save All"
+msgstr "Desa-ho tot"
+
+#: qdialogbuttonbox.cpp:572
+msgctxt "QDialogButtonBox"
+msgid "Abort"
+msgstr "Avorta"
+
+#: qdialogbuttonbox.cpp:575
+msgctxt "QDialogButtonBox"
+msgid "Retry"
+msgstr "Reintenta"
+
+#: qdialogbuttonbox.cpp:578
+msgctxt "QDialogButtonBox"
+msgid "Ignore"
+msgstr "Ignora"
+
+#: qdialogbuttonbox.cpp:581
+msgctxt "QDialogButtonBox"
+msgid "Restore Defaults"
+msgstr "Reestableix predeterminats"
+
+#: qdialogbuttonbox.cpp:552
+msgctxt "QDialogButtonBox"
+msgid "Close without Saving"
+msgstr "No ho desis i tanca"
+
+#: qdialogbuttonbox.cpp:525
+msgctxt "QDialogButtonBox"
+msgid "&OK"
+msgstr "&D'acord"
+
+#: qdirmodel.cpp:423
+msgctxt "QDirModel"
+msgid "Name"
+msgstr "Nom"
+
+#: qdirmodel.cpp:424
+msgctxt "QDirModel"
+msgid "Size"
+msgstr "Mida"
+
+#: qdirmodel.cpp:427
+msgctxt "QDirModel"
+msgid "Kind"
+msgstr "Classe"
+
+#: qdirmodel.cpp:429
+msgctxt "QDirModel"
+msgid "Type"
+msgstr "Tipus"
+
+#: qdirmodel.cpp:435
+msgctxt "QDirModel"
+msgid "Date Modified"
+msgstr "Data de modificació"
+
+#: qfiledialog_win.cpp:126
+msgctxt "QFileDialog"
+msgid "All Files (*)"
+msgstr "Tots els fitxers (*)"
+
+#: qfiledialog.cpp:881
+msgctxt "QFileDialog"
+msgid "Directories"
+msgstr "Directoris"
+
+#: qfiledialog.cpp:2408
+msgctxt "QFileDialog"
+msgid "&Open"
+msgstr "&Obre"
+
+#: qfiledialog.cpp:919
+msgctxt "QFileDialog"
+msgid "&Save"
+msgstr "&Desa"
+
+#: qfiledialog.cpp:435
+msgctxt "QFileDialog"
+msgid "Open"
+msgstr "Obre"
+
+#: qfiledialog.cpp:1670
+msgctxt "QFileDialog"
+msgid ""
+"%1 already exists.\n"
+"Do you want to replace it?"
+msgstr "%1 ja existeix.\nVoleu reemplaçar-lo?"
+
+#: qfiledialog.cpp:1690
+msgctxt "QFileDialog"
+msgid ""
+"%1\n"
+"File not found.\n"
+"Please verify the correct file name was given."
+msgstr "%1\nFitxer no trobat.\nSi us plau, verifiqueu que heu introduït el nom correcte."
+
+#: qdirmodel.cpp:833
+msgctxt "QFileDialog"
+msgid "My Computer"
+msgstr "El meu ordinador"
+
+#: qfiledialog.cpp:462
+msgctxt "QFileDialog"
+msgid "&Rename"
+msgstr "&Reanomena"
+
+#: qfiledialog.cpp:463
+msgctxt "QFileDialog"
+msgid "&Delete"
+msgstr "&Esborra"
+
+#: qfiledialog.cpp:464
+msgctxt "QFileDialog"
+msgid "Show &hidden files"
+msgstr "Mostra fitxers &ocults"
+
+#: ui_qfiledialog.h:264
+msgctxt "QFileDialog"
+msgid "Back"
+msgstr "Enrere"
+
+#: ui_qfiledialog.h:274
+msgctxt "QFileDialog"
+msgid "Parent Directory"
+msgstr "Directori superior"
+
+#: ui_qfiledialog.h:284
+msgctxt "QFileDialog"
+msgid "List View"
+msgstr "Vista com a llistat"
+
+#: ui_qfiledialog.h:289
+msgctxt "QFileDialog"
+msgid "Detail View"
+msgstr "Vista en detall"
+
+#: ui_qfiledialog.h:292
+msgctxt "QFileDialog"
+msgid "Files of type:"
+msgstr "Tipus de fitxers:"
+
+#: qfiledialog.cpp:883
+msgctxt "QFileDialog"
+msgid "Directory:"
+msgstr "Directori:"
+
+#: qfiledialog.cpp:2476
+msgctxt "QFileDialog"
+msgid ""
+"%1\n"
+"Directory not found.\n"
+"Please verify the correct directory name was given."
+msgstr "%1\n\nDirectori no trobat.\nSi us plau, verifiqueu que s'ha proporcionat un nom de directori correcte."
+
+#: qfiledialog.cpp:2281
+msgctxt "QFileDialog"
+msgid ""
+"'%1' is write protected.\n"
+"Do you want to delete it anyway?"
+msgstr "'%1' està protegit per escriptura.\nEl desitgeu suprimir igualment?"
+
+#: qfiledialog.cpp:2286
+msgctxt "QFileDialog"
+msgid "Are sure you want to delete '%1'?"
+msgstr "Esteu segur que desitgeu suprimir '%1'?"
+
+#: qfiledialog.cpp:2299
+msgctxt "QFileDialog"
+msgid "Could not delete directory."
+msgstr "Podria no suprimir aquest directori."
+
+#: qfiledialog_win.cpp:128
+msgctxt "QFileDialog"
+msgid "All Files (*.*)"
+msgstr "Tots els fitxers (*.*)"
+
+#: qfiledialog.cpp:437
+msgctxt "QFileDialog"
+msgid "Save As"
+msgstr "Desa com a"
+
+#: qfileiconprovider.cpp:379
+msgctxt "QFileDialog"
+msgid "Drive"
+msgstr "Unitat"
+
+#: qfileiconprovider.cpp:383
+msgctxt "QFileDialog"
+msgid "File"
+msgstr "Fitxer"
+
+#: qfileiconprovider.cpp:412
+msgctxt "QFileDialog"
+msgid "Unknown"
+msgstr "Desconegut"
+
+#: qfiledialog.cpp:439
+msgctxt "QFileDialog"
+msgid "Find Directory"
+msgstr "Cerca directori"
+
+#: qfiledialog.cpp:458
+msgctxt "QFileDialog"
+msgid "Show "
+msgstr "Mostra"
+
+#: ui_qfiledialog.h:269
+msgctxt "QFileDialog"
+msgid "Forward"
+msgstr "Reenvia"
+
+#: qfiledialog.cpp:2137
+msgctxt "QFileDialog"
+msgid "New Folder"
+msgstr "Nova carpeta"
+
+#: qfiledialog.cpp:465
+msgctxt "QFileDialog"
+msgid "&New Folder"
+msgstr "&Nova carpeta"
+
+#: qfiledialog.cpp:917
+msgctxt "QFileDialog"
+msgid "&Choose"
+msgstr "&Escolliu"
+
+#: qsidebar.cpp:388
+msgctxt "QFileDialog"
+msgid "Remove"
+msgstr "Suprimeix"
+
+#: qfiledialog.cpp:886
+msgctxt "QFileDialog"
+msgid "File &name:"
+msgstr "Nom de fitxer:"
+
+#: ui_qfiledialog.h:261
+msgctxt "QFileDialog"
+msgid "Look in:"
+msgstr "Mira a:"
+
+#: ui_qfiledialog.h:279
+msgctxt "QFileDialog"
+msgid "Create New Folder"
+msgstr "Crea nova carpeta"
+
+#: qfilesystemmodel.cpp:761
+msgctxt "QFileSystemModel"
+msgid "Invalid filename"
+msgstr "Nom de fitxer invàlid"
+
+#: qfilesystemmodel.cpp:763
+msgctxt "QFileSystemModel"
+msgid ""
+"<b>The name \"%1\" can not be used.</b><p>Try using another name, with fewer"
+" characters or no punctuations marks."
+msgstr "<b>No es pot utilitzar el nom \"%1\".</b><p>Intenteu utilitzar un altre nom, amb menys caracters o sense marques de puntuació."
+
+#: qfilesystemmodel.cpp:832
+msgctxt "QFileSystemModel"
+msgid "Name"
+msgstr "Nom"
+
+#: qfilesystemmodel.cpp:834
+msgctxt "QFileSystemModel"
+msgid "Size"
+msgstr "Mida"
+
+#: qfilesystemmodel.cpp:838
+msgctxt "QFileSystemModel"
+msgid "Kind"
+msgstr "Tipus"
+
+#: qfilesystemmodel.cpp:840
+msgctxt "QFileSystemModel"
+msgid "Type"
+msgstr "Tipus"
+
+#: qfilesystemmodel.cpp:847
+msgctxt "QFileSystemModel"
+msgid "Date Modified"
+msgstr "Data de modificació"
+
+#: qfilesystemmodel_p.h:198
+msgctxt "QFileSystemModel"
+msgid "My Computer"
+msgstr "El meu ordinador"
+
+#: qfilesystemmodel_p.h:200
+msgctxt "QFileSystemModel"
+msgid "Computer"
+msgstr "Ordinador"
+
+#: qfilesystemmodel.cpp:677
+msgctxt "QFileSystemModel"
+msgid "%1 TB"
+msgstr "%1 TB"
+
+#: qfilesystemmodel.cpp:679
+msgctxt "QFileSystemModel"
+msgid "%1 GB"
+msgstr "%1 GB"
+
+#: qfilesystemmodel.cpp:681
+msgctxt "QFileSystemModel"
+msgid "%1 MB"
+msgstr "%1 MB"
+
+#: qfilesystemmodel.cpp:683
+msgctxt "QFileSystemModel"
+msgid "%1 KB"
+msgstr "%1 KB"
+
+#: qfilesystemmodel.cpp:684
+msgctxt "QFileSystemModel"
+msgid "%1 bytes"
+msgstr "%1 bytes"

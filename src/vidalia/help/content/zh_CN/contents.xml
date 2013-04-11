@@ -1,0 +1,47 @@
+<!--
+**  $Id$
+** 
+**  This file is part of Vidalia, and is subject to the license terms in the
+**  LICENSE file, found in the top level directory of this distribution. If 
+**  you did not receive the LICENSE file with this file, you may obtain it
+**  from the Vidalia source package distributed by the Vidalia Project at
+**  http://www.vidalia-project.net/. No part of Vidalia, including this file,
+**  may be copied, modified, propagated, or distributed except according to
+**  the terms described in the LICENSE file.
+-->
+
+<Contents name="Vidalia帮助" html="index.html">
+  <Topic id="running" name="运行Tor" html="running.html">
+    <Topic id="starting" name="启动和停止Tor" html="running.html" section="starting"/>
+    <Topic id="monitoring" name="监视Tor的状态" html="running.html" section="monitoring"/>
+  </Topic>
+  <Topic id="log" name="消息日志" html="log.html">
+    <Topic id="basic" name="基本信息" html="log.html" section="basic"/>
+    <Topic id="severities" name="消息级别" html="log.html" section="severities"/>
+    <Topic id="logfile" name="记录到文件" html="log.html" section="tofile"/>
+  </Topic>
+  <Topic id="netview" name="Network Viewer" html="netview.html">
+    <Topic id="overview" name="Overview" html="netview.html" section="overview"/>
+    <Topic id="netmap" name="Network Map" html="netview.html" section="netmap"/>
+    <Topic id="status" name="Router Status" html="netview.html" section="status"/>
+    <Topic id="details" name="Router Details" html="netview.html" section="details"/>
+  </Topic>
+  <Topic id="config" name="配置Vidalia和Tor" html="config.html">
+    <Topic id="general" name="一般设置" html="config.html" section="general"/>
+    <Topic id="server" name="服务器设置" html="config.html" section="server"/>
+    <Topic id="advanced" name="高级设置" html="config.html" section="advanced"/>
+  </Topic>
+  <Topic id="server" name="运行Tor服务器" html="server.html">
+    <Topic id="basic" name="安装基础" html="server.html" section="basic"/>
+    <Topic id="bandwidth" name="Rate Limiting" html="server.html" section="bandwidth"/>
+    <Topic id="exitpolicy" name="退出策略" html="server.html" section="exitpolicy"/>
+  </Topic>
+  <Topic id="troubleshooting" name="问题多多" html="troubleshooting.html">
+    <Topic id="start" name="我无法运行Tor" html="troubleshooting.html" section="start"/>
+    <Topic id="connect" name="Vidalia Can't Connect to Tor" html="troubleshooting.html" section="connect"/>
+    <Topic id="torexited" name="Tor exited unexpectedly" html="troubleshooting.html" section="torexited"/>
+    <Topic id="stop" name="Vidalia Can't Stop Tor" html="troubleshooting.html" section="stop"/>
+ </Topic>
+ <Topic id="links" name="Helpful Links" html="links.html"/>
+</Contents>
+

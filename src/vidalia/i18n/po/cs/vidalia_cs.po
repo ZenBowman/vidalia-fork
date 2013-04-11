@@ -1,0 +1,3815 @@
+# Translators:
+# Translators:
+# runasand <runa.sandvik@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: The Tor Project\n"
+"Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
+"POT-Creation-Date: 2011-09-07 14:40+0000\n"
+"PO-Revision-Date: 2012-02-14 09:46+0000\n"
+"Last-Translator: smejicisebestie <smejicisebestie@gmail.com>\n"
+"Language-Team: translations@vidalia-project.net\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: cs\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2\n"
+"X-Generator: Vidalia ts2po 0.2\n"
+
+msgctxt "AboutDialog"
+msgid "About Vidalia"
+msgstr "O Vidalia"
+
+msgctxt "AboutDialog"
+msgid "License"
+msgstr "Licence"
+
+msgctxt "AboutDialog"
+msgid "Vidalia 0.2.0"
+msgstr "Vidalia 0.2.0"
+
+msgctxt "AboutDialog"
+msgid "Tor 0.2.0.32"
+msgstr "Tor 0.2.0.32"
+
+msgctxt "AboutDialog"
+msgid "Qt 4.4.2"
+msgstr "Qt 4.4.2"
+
+msgctxt "AdvancedPage"
+msgid "'%1' is not a valid IP address."
+msgstr "'%1' neni platna IP adresa."
+
+msgctxt "AdvancedPage"
+msgid ""
+"You selected 'Password' authentication, but did not specify a password."
+msgstr "Jako způsob autentizace jste vybrali \"Heslo\", ale žádné heslo jste neurčili"
+
+msgctxt "AdvancedPage"
+msgid "Select Tor Configuration File"
+msgstr "Vyber Tor konfigurační soubor"
+
+msgctxt "AdvancedPage"
+msgid "File Not Found"
+msgstr "Soubor nenalezen"
+
+msgctxt "AdvancedPage"
+msgid "%1 does not exist. Would you like to create it?"
+msgstr "%1 neexistuje. Chcete jej vytvořit?"
+
+msgctxt "AdvancedPage"
+msgid "Failed to Create File"
+msgstr "Vytvoření souboru bylo neúspěšné."
+
+msgctxt "AdvancedPage"
+msgid "Unable to create %1 [%2]"
+msgstr "Nelze vytvořit %1 [%2]"
+
+msgctxt "AdvancedPage"
+msgid "Select a Directory to Use for Tor Data"
+msgstr "Vyberte adresář, který může Tor používat pro svá data"
+
+msgctxt "AdvancedPage"
+msgid "Unable to remove Tor Service"
+msgstr "Nemohu ostranit Sluzbu Tor"
+
+msgctxt "AdvancedPage"
+msgid "Unable to install Tor Service"
+msgstr "Nemohu instalovat Tor jako Sluzbu"
+
+msgctxt "AdvancedPage"
+msgid "Vidalia was unable to install the Tor service."
+msgstr "Vidalia neni schopna instalovat Tor jako sluzbu"
+
+msgctxt "AdvancedPage"
+msgid "Authentication:"
+msgstr "Autentizace:"
+
+msgctxt "AdvancedPage"
+msgid "Address:"
+msgstr "Adresa:"
+
+msgctxt "AdvancedPage"
+msgid "None"
+msgstr "Není"
+
+msgctxt "AdvancedPage"
+msgid "Cookie"
+msgstr "Koláčky"
+
+msgctxt "AdvancedPage"
+msgid "Password"
+msgstr "Heslo"
+
+msgctxt "AdvancedPage"
+msgid "Randomly Generate"
+msgstr "Generováno Náhodně"
+
+msgctxt "AdvancedPage"
+msgid ":"
+msgstr ":"
+
+msgctxt "AdvancedPage"
+msgid "Tor Configuration File"
+msgstr "Tor Konfigurační soubor"
+
+msgctxt "AdvancedPage"
+msgid "Start the Tor software with the specified configuration file (torrc)"
+msgstr "Spustit Tor s vybraným konfiguračním souborem (torrc)"
+
+msgctxt "AdvancedPage"
+msgid "Select path to your configuration file"
+msgstr "Vyberte umístění vašeho konfiguračního souboru"
+
+msgctxt "AdvancedPage"
+msgid "Browse"
+msgstr "Prohlížet"
+
+msgctxt "AdvancedPage"
+msgid "Data Directory"
+msgstr "Adresář dat"
+
+msgctxt "AdvancedPage"
+msgid "Store data for the Tor software in the following directory"
+msgstr "Ukládat data pro Tor software v následujícím adresáři"
+
+msgctxt "AdvancedPage"
+msgid "Select the directory used to store data for the Tor software"
+msgstr "Vyberte adresář pro ukládání dat Tor softwaru"
+
+msgctxt "AdvancedPage"
+msgid "Tor Control"
+msgstr "Tor Ovládání"
+
+msgctxt "AdvancedPage"
+msgid "Use TCP connection (ControlPort)"
+msgstr "Používat TCP spojení (ControlPort)"
+
+msgctxt "AdvancedPage"
+msgid "Path:"
+msgstr "Cesta:"
+
+msgctxt "AdvancedPage"
+msgid "Use Unix domain socket (ControlSocket)"
+msgstr "Use Unix domain socket (ControlSocket)"
+
+msgctxt "AdvancedPage"
+msgid "Edit current torrc"
+msgstr "Upravit používaný torrc"
+
+msgctxt "AdvancedPage"
+msgid "NOTE: this will edit the currently loaded torrc"
+msgstr "UOZORNĚNÍ: to změní momentálně nahraný torrc"
+
+msgctxt "AdvancedPage"
+msgid "ControlSocket path doesn't exist."
+msgstr "cesta k CotrolSocket neexistuje"
+
+msgctxt "AdvancedPage"
+msgid ""
+"The specified Tor configuration file location contains characters that "
+"cannot be represented in your system's current 8-bit character encoding."
+msgstr "Uvedené umístění  konfiguračního souboru Tor obsahuje znak, který není v používaném 8-bitovém kódování povolen."
+
+msgctxt "AdvancedPage"
+msgid ""
+"The specified Tor data directory location contains characters that cannot be"
+" represented in your system's current 8-bit character encoding."
+msgstr "Uvedené umístění adresáře určeného pro data Tor obsahuje znak, který není v používaném 8-bitovém kódování povolen."
+
+msgctxt "AdvancedPage"
+msgid "Warning"
+msgstr "Varování"
+
+msgctxt "AdvancedPage"
+msgid "You changed torrc path, would you like to restart Tor?"
+msgstr "Změnili jste cestu k torrc, přejete si restartovat aplikaci?"
+
+msgctxt "AdvancedPage"
+msgid "Tor Configuration File (torrc);;All Files (*)"
+msgstr "Konfigurační soubor (torrc);;Všechny soubory(*)"
+
+msgctxt "AdvancedPage"
+msgid "Select a file to use for Tor socket path"
+msgstr "Vyberte soubor pro Tor cestu soketu"
+
+msgctxt "AdvancedPage"
+msgid "Configure ControlPort automatically"
+msgstr "Nastavit ControlPort automaticky"
+
+msgctxt "AdvancedPage"
+msgid ""
+"Vidalia was unable to remove the Tor service.\n"
+"\n"
+"You may need to remove it manually."
+msgstr "Program Vidalie nemůže odebrat službu Tor.\n\n Musíte ji tedy odebrat ručně."
+
+msgctxt "AppearancePage"
+msgid "Language"
+msgstr "Jazyk"
+
+msgctxt "AppearancePage"
+msgid "Choose the language used in Vidalia"
+msgstr "Vyber jazyk pro použití ve Vidalia"
+
+msgctxt "AppearancePage"
+msgid "Style"
+msgstr "Styl"
+
+msgctxt "AppearancePage"
+msgid "Choose Vidalia's interface style"
+msgstr "Vyber styl rozhrání Vidalia"
+
+msgctxt "AppearancePage"
+msgid "Vidalia was unable to load the selected language translation."
+msgstr "Vidalia nebyl schopen načíst vybraný překlad."
+
+msgctxt "BandwidthGraph"
+msgid "Since:"
+msgstr "Od:"
+
+msgctxt "BandwidthGraph"
+msgid "Hide Settings"
+msgstr "Skrýt nastavení"
+
+msgctxt "BandwidthGraph"
+msgid "Show Settings"
+msgstr "Zobrazit Nastavení"
+
+msgctxt "BandwidthGraph"
+msgid "Tor Bandwidth Usage"
+msgstr "Míra vytíženosti Tor"
+
+msgctxt "BandwidthGraph"
+msgid "Reset"
+msgstr "Resetovat"
+
+msgctxt "BandwidthGraph"
+msgid "Receive Rate"
+msgstr "Udělené hodnocení"
+
+msgctxt "BandwidthGraph"
+msgid "Send Rate"
+msgstr "Odeslat hodnocení"
+
+msgctxt "BandwidthGraph"
+msgid "Always on Top"
+msgstr "Vždy nahoře"
+
+msgctxt "BandwidthGraph"
+msgid "Style"
+msgstr "Styl"
+
+msgctxt "BandwidthGraph"
+msgid "Changes the transparency of the Bandwidth Graph"
+msgstr "Změna průhlednosti grafu pro tok dat"
+
+msgctxt "BandwidthGraph"
+msgid "100"
+msgstr "100"
+
+msgctxt "BandwidthGraph"
+msgid "% Opaque"
+msgstr "% Neprůhlednost"
+
+msgctxt "BandwidthGraph"
+msgid "Save"
+msgstr "Uložit"
+
+msgctxt "BandwidthGraph"
+msgid "Cancel"
+msgstr "Zrušit"
+
+msgctxt "BridgeDownloader"
+msgid "Starting HTTPS bridge request..."
+msgstr "Zahájení navazování HTTPS přemostění"
+
+msgctxt "BridgeDownloader"
+msgid "Connecting to %1:%2..."
+msgstr "Připojování k  %1:%2..."
+
+msgctxt "BridgeDownloader"
+msgid "Sending an HTTPS request for bridges..."
+msgstr "Odesílání HTTPS požadvku přemostěním"
+
+msgctxt "BridgeDownloader"
+msgid "Downloading a list of bridges..."
+msgstr "Stahování seznamu přemostění..."
+
+msgctxt "BridgeDownloaderProgressDialog"
+msgid "Downloading Bridges"
+msgstr "Stahování přemostění"
+
+msgctxt "BridgeDownloaderProgressDialog"
+msgid "Unable to download bridges: %1"
+msgstr "Nelze stáhnout přemostění"
+
+msgctxt "BridgeDownloaderProgressDialog"
+msgid "Retrying bridge request..."
+msgstr "Znovu odesílám žádost"
+
+msgctxt "BridgeUsageDialog"
+msgid "Country"
+msgstr "Země"
+
+msgctxt "BridgeUsageDialog"
+msgid "# Clients"
+msgstr "# Klienti"
+
+msgctxt "BridgeUsageDialog"
+msgid "Clients from the following countries have used your relay since %1"
+msgstr "Klienti z následujících států použili Váš uzel %1"
+
+msgctxt "BridgeUsageDialog"
+msgid "Bridge Usage Summary"
+msgstr "Celkové využití přemostění"
+
+msgctxt "BridgeUsageDialog"
+msgid "Client Summary"
+msgstr "Souhrn za klienta"
+
+msgctxt "Circuit"
+msgid "New"
+msgstr "Nový"
+
+msgctxt "Circuit"
+msgid "Open"
+msgstr "Otevřít"
+
+msgctxt "Circuit"
+msgid "Building"
+msgstr "Sestavení"
+
+msgctxt "Circuit"
+msgid "Failed"
+msgstr "Neúspěšný"
+
+msgctxt "Circuit"
+msgid "Closed"
+msgstr "Zavřít"
+
+msgctxt "Circuit"
+msgid "Unknown"
+msgstr "Neznámé"
+
+msgctxt "CircuitItem"
+msgid "<Path Empty>"
+msgstr "<Prázdná cesta>"
+
+msgctxt "CircuitListWidget"
+msgid "Connection"
+msgstr "Připojení"
+
+msgctxt "CircuitListWidget"
+msgid "Status"
+msgstr "Status"
+
+msgctxt "CircuitListWidget"
+msgid "Zoom to Circuit"
+msgstr "Nahled na data řetězce"
+
+msgctxt "CircuitListWidget"
+msgid "Close Circuit (Del)"
+msgstr "Uzavřít řetězec (Del)"
+
+msgctxt "CircuitListWidget"
+msgid "Close Stream (Del)"
+msgstr "Uzavřít datový tok (Del)"
+
+msgctxt "ConfigDialog"
+msgid "General"
+msgstr "Hlavní"
+
+msgctxt "ConfigDialog"
+msgid "Network"
+msgstr "Síť"
+
+msgctxt "ConfigDialog"
+msgid "Sharing"
+msgstr "Sdílení"
+
+msgctxt "ConfigDialog"
+msgid "Services"
+msgstr "Služby"
+
+msgctxt "ConfigDialog"
+msgid "Appearance"
+msgstr "Podoba"
+
+msgctxt "ConfigDialog"
+msgid "Advanced"
+msgstr "Pokrocile"
+
+msgctxt "ConfigDialog"
+msgid "Help"
+msgstr "Pomoc"
+
+msgctxt "ConfigDialog"
+msgid "Error Saving Settings"
+msgstr "Chyba ukládání nastavení"
+
+msgctxt "ConfigDialog"
+msgid "Vidalia was unable to save your %1 settings."
+msgstr "Vidalia nebyla schopna uložit %1 vašich nastavení"
+
+msgctxt "ConfigDialog"
+msgid "Error Applying Settings"
+msgstr "Chyba při použití nastavení"
+
+msgctxt "ConfigDialog"
+msgid "Vidalia was unable to apply your %1 settings to Tor."
+msgstr "Vidalia nebyla schopna uložit %1 vašich nastavení do sítě Tor"
+
+msgctxt "ConfigDialog"
+msgid "Settings"
+msgstr "Nastavení"
+
+msgctxt "ControlConnection"
+msgid "Vidalia was unable to connect to Tor. (%1)"
+msgstr "Vidalia se nebyla schopna připojit do sítě Tor. (%1)"
+
+msgctxt "ControlConnection"
+msgid "Control socket is not connected."
+msgstr "Kontrolni socket neni detekovan"
+
+msgctxt "ControlPasswordInputDialog"
+msgid "Password Required"
+msgstr "Heslo je povinné"
+
+msgctxt "ControlPasswordInputDialog"
+msgid "Remember my password"
+msgstr "Zapamatovat heslo"
+
+msgctxt "ControlPasswordInputDialog"
+msgid ""
+"Vidalia has connected to a running Tor process that requires a password. "
+"Please enter your control password:"
+msgstr "Vidalia se snaží připojit do běžícího Tor procesu, který vyžaduje heslo. Prosím zadejte vaše heslo:"
+
+msgctxt "ControlSocket"
+msgid "Control socket is not connected."
+msgstr "Kontrolní socket není připojen."
+
+msgctxt "ControlSocket"
+msgid "Error sending control command. [%1]"
+msgstr "Chyba v odeslani kontrolni instrukce. [%1]"
+
+msgctxt "ControlSocket"
+msgid "Socket disconnected while attempting to read a line of data."
+msgstr "Socket odpojen v prubehu cteni dat."
+
+msgctxt "ControlSocket"
+msgid "Invalid control reply. [%1]"
+msgstr "Chybna controlni odpoved. [%1]"
+
+msgctxt "CountryInfo"
+msgid "Afghanistan"
+msgstr "Afghánistán"
+
+msgctxt "CountryInfo"
+msgid "Andorra"
+msgstr "Andorra"
+
+msgctxt "CountryInfo"
+msgid "Angola"
+msgstr "Angola"
+
+msgctxt "CountryInfo"
+msgid "Antigua & Barbuda"
+msgstr "Antigua & Barbuda"
+
+msgctxt "CountryInfo"
+msgid "Argentina"
+msgstr "Argentina"
+
+msgctxt "CountryInfo"
+msgid "Armenia"
+msgstr "Arménie"
+
+msgctxt "CountryInfo"
+msgid "Australia"
+msgstr "Austrálie"
+
+msgctxt "CountryInfo"
+msgid "Azerbaijan"
+msgstr "Azerbajdžán"
+
+msgctxt "CountryInfo"
+msgid "Bahamas"
+msgstr "Bahamy"
+
+msgctxt "CountryInfo"
+msgid "Bangladesh"
+msgstr "Bangladéš"
+
+msgctxt "CountryInfo"
+msgid "Barbados"
+msgstr "Barbados"
+
+msgctxt "CountryInfo"
+msgid "Belarus"
+msgstr "Bělorusko"
+
+msgctxt "CountryInfo"
+msgid "Belgium"
+msgstr "Belgie"
+
+msgctxt "CountryInfo"
+msgid "Belize"
+msgstr "Belize"
+
+msgctxt "CountryInfo"
+msgid "Bhutan"
+msgstr "Bhutan"
+
+msgctxt "CountryInfo"
+msgid "Bolivia"
+msgstr "Bolívie"
+
+msgctxt "CountryInfo"
+msgid "Bosnia & Herzegovina"
+msgstr "Bosna a Hercegovina"
+
+msgctxt "CountryInfo"
+msgid "Botswana"
+msgstr "Botswana"
+
+msgctxt "CountryInfo"
+msgid "Brazil"
+msgstr "Brazílie"
+
+msgctxt "CountryInfo"
+msgid "Brunei Darussalam"
+msgstr "Brunei Darussalam"
+
+msgctxt "CountryInfo"
+msgid "Bulgaria"
+msgstr "Bulharsko"
+
+msgctxt "CountryInfo"
+msgid "Burkina Faso"
+msgstr "Burkina Faso"
+
+msgctxt "CountryInfo"
+msgid "Burundi"
+msgstr "Burundi"
+
+msgctxt "CountryInfo"
+msgid "Cambodia"
+msgstr "Kambodža"
+
+msgctxt "CountryInfo"
+msgid "Cameroon"
+msgstr "Kamerun"
+
+msgctxt "CountryInfo"
+msgid "Canada"
+msgstr "Kanada"
+
+msgctxt "CountryInfo"
+msgid "Cape Verde"
+msgstr "Cape Verde"
+
+msgctxt "CountryInfo"
+msgid "Central African Republic"
+msgstr "Centrální Africká republika"
+
+msgctxt "CountryInfo"
+msgid "Chad"
+msgstr "Čad"
+
+msgctxt "CountryInfo"
+msgid "Chile"
+msgstr "Chile"
+
+msgctxt "CountryInfo"
+msgid "China"
+msgstr "Čína"
+
+msgctxt "CountryInfo"
+msgid "Colombia"
+msgstr "Kolumbie"
+
+msgctxt "CountryInfo"
+msgid "Comoros"
+msgstr "Comoros"
+
+msgctxt "CountryInfo"
+msgid "Congo, The Democratic Republic of the"
+msgstr "Demokratická republika Kongo"
+
+msgctxt "CountryInfo"
+msgid "Congo"
+msgstr "Kongo"
+
+msgctxt "CountryInfo"
+msgid "Costa Rica"
+msgstr "Kosta Rika"
+
+msgctxt "CountryInfo"
+msgid "Cote dâIvoire"
+msgstr "Cote dâIvoire"
+
+msgctxt "CountryInfo"
+msgid "Croatia"
+msgstr "Chorvatsko"
+
+msgctxt "CountryInfo"
+msgid "Cuba"
+msgstr "Kuba"
+
+msgctxt "CountryInfo"
+msgid "Cyprus"
+msgstr "Kypr"
+
+msgctxt "CountryInfo"
+msgid "Czech Republic"
+msgstr "Česká republika"
+
+msgctxt "CountryInfo"
+msgid "Denmark"
+msgstr "Dánsko"
+
+msgctxt "CountryInfo"
+msgid "Djibouti"
+msgstr "O aplikaci"
+
+msgctxt "CountryInfo"
+msgid "Dominica"
+msgstr "Dominica"
+
+msgctxt "CountryInfo"
+msgid "Dominican Republic"
+msgstr "Dominikánská republika"
+
+msgctxt "CountryInfo"
+msgid "Ecuador"
+msgstr "Ekvádor"
+
+msgctxt "CountryInfo"
+msgid "Egypt"
+msgstr "Egypt"
+
+msgctxt "CountryInfo"
+msgid "El Salvador"
+msgstr "El Salvador"
+
+msgctxt "CountryInfo"
+msgid "Equatorial Guinea"
+msgstr "Equatorial Guinea"
+
+msgctxt "CountryInfo"
+msgid "Eritrea"
+msgstr "Eritrea"
+
+msgctxt "CountryInfo"
+msgid "Estonia"
+msgstr "Estonsko"
+
+msgctxt "CountryInfo"
+msgid "France"
+msgstr "Francie"
+
+msgctxt "CountryInfo"
+msgid "Gabon"
+msgstr "Gabon"
+
+msgctxt "CountryInfo"
+msgid "Gambia"
+msgstr "Gambia"
+
+msgctxt "CountryInfo"
+msgid "Georgia"
+msgstr "Georgia"
+
+msgctxt "CountryInfo"
+msgid "Germany"
+msgstr "Německo"
+
+msgctxt "CountryInfo"
+msgid "Ghana"
+msgstr "Ghana"
+
+msgctxt "CountryInfo"
+msgid "Grenada"
+msgstr "Grenada"
+
+msgctxt "CountryInfo"
+msgid "Guatemala"
+msgstr "Guatemala"
+
+msgctxt "CountryInfo"
+msgid "Guinea"
+msgstr "Guinea"
+
+msgctxt "CountryInfo"
+msgid "Guinea-Bissau"
+msgstr "Guinea-Bissau"
+
+msgctxt "CountryInfo"
+msgid "Guyana"
+msgstr "Guyana"
+
+msgctxt "CountryInfo"
+msgid "Hong Kong"
+msgstr "Hong Kong"
+
+msgctxt "CountryInfo"
+msgid "Haiti"
+msgstr "Haiti"
+
+msgctxt "CountryInfo"
+msgid "Honduras"
+msgstr "Honduras"
+
+msgctxt "CountryInfo"
+msgid "Israel"
+msgstr "Israel"
+
+msgctxt "CountryInfo"
+msgid "Italy"
+msgstr "Italy"
+
+msgctxt "CountryInfo"
+msgid "Jamaica"
+msgstr "Jamaica"
+
+msgctxt "CountryInfo"
+msgid "Japan"
+msgstr "Japan"
+
+msgctxt "CountryInfo"
+msgid "Jordan"
+msgstr "Jordan"
+
+msgctxt "CountryInfo"
+msgid "Kazakhstan"
+msgstr "Kazakhstan"
+
+msgctxt "CountryInfo"
+msgid "Kenya"
+msgstr "Kenya"
+
+msgctxt "CountryInfo"
+msgid "Kiribati"
+msgstr "Kiribati"
+
+msgctxt "CountryInfo"
+msgid "Kuwait"
+msgstr "Kuwait"
+
+msgctxt "CountryInfo"
+msgid "Kyrgyzstan"
+msgstr "Kyrgyzstan"
+
+msgctxt "CountryInfo"
+msgid "Laos"
+msgstr "Laos"
+
+msgctxt "CountryInfo"
+msgid "Latvia"
+msgstr "Latvia"
+
+msgctxt "CountryInfo"
+msgid "Lebanon"
+msgstr "Lebanon"
+
+msgctxt "CountryInfo"
+msgid "Lesotho"
+msgstr "Lesotho"
+
+msgctxt "CountryInfo"
+msgid "Liberia"
+msgstr "Liberia"
+
+msgctxt "CountryInfo"
+msgid "Liechtenstein"
+msgstr "Liechtenstein"
+
+msgctxt "CountryInfo"
+msgid "Lithuania"
+msgstr "Lithuania"
+
+msgctxt "CountryInfo"
+msgid "Luxembourg"
+msgstr "Luxembourg"
+
+msgctxt "CountryInfo"
+msgid "Macedonia"
+msgstr "Macedonia"
+
+msgctxt "CountryInfo"
+msgid "Madagascar"
+msgstr "Madagascar"
+
+msgctxt "CountryInfo"
+msgid "Malawi"
+msgstr "Malawi"
+
+msgctxt "CountryInfo"
+msgid "Malaysia"
+msgstr "Malaysia"
+
+msgctxt "CountryInfo"
+msgid "Mali"
+msgstr "Mali"
+
+msgctxt "CountryInfo"
+msgid "Malta"
+msgstr "Malta"
+
+msgctxt "CountryInfo"
+msgid "Marshall Islands"
+msgstr "Marshall Islands"
+
+msgctxt "CountryInfo"
+msgid "Mauritania"
+msgstr "Mauritania"
+
+msgctxt "CountryInfo"
+msgid "Mauritius"
+msgstr "Mauritius"
+
+msgctxt "CountryInfo"
+msgid "Micronesia"
+msgstr "Micronesia"
+
+msgctxt "CountryInfo"
+msgid "Moldova"
+msgstr "Moldova"
+
+msgctxt "CountryInfo"
+msgid "Monaco"
+msgstr "Monaco"
+
+msgctxt "CountryInfo"
+msgid "Mongolia"
+msgstr "Mongolia"
+
+msgctxt "CountryInfo"
+msgid "Montenegro"
+msgstr "Montenegro"
+
+msgctxt "CountryInfo"
+msgid "Morocco"
+msgstr "Morocco"
+
+msgctxt "CountryInfo"
+msgid "Mozambique"
+msgstr "Mozambique"
+
+msgctxt "CountryInfo"
+msgid "Namibia"
+msgstr "Namibia"
+
+msgctxt "CountryInfo"
+msgid "Nauru"
+msgstr "Nauru"
+
+msgctxt "CountryInfo"
+msgid "Nepal"
+msgstr "Nepal"
+
+msgctxt "CountryInfo"
+msgid "Netherlands"
+msgstr "Netherlands"
+
+msgctxt "CountryInfo"
+msgid "New Zealand"
+msgstr "New Zealand"
+
+msgctxt "CountryInfo"
+msgid "Nicaragua"
+msgstr "Nicaragua"
+
+msgctxt "CountryInfo"
+msgid "Niger"
+msgstr "Niger"
+
+msgctxt "CountryInfo"
+msgid "Nigeria"
+msgstr "Nigeria"
+
+msgctxt "CountryInfo"
+msgid "Norway"
+msgstr "Presmerovani"
+
+msgctxt "CountryInfo"
+msgid "Oman"
+msgstr "Oman"
+
+msgctxt "CountryInfo"
+msgid "Pakistan"
+msgstr "Pakistan"
+
+msgctxt "CountryInfo"
+msgid "Palau"
+msgstr "Palau"
+
+msgctxt "CountryInfo"
+msgid "Palestine"
+msgstr "Palestine"
+
+msgctxt "CountryInfo"
+msgid "Panama"
+msgstr "Panama"
+
+msgctxt "CountryInfo"
+msgid "Papua New Guinea"
+msgstr "Papua New Guinea"
+
+msgctxt "CountryInfo"
+msgid "Paraguay"
+msgstr "Paraguay"
+
+msgctxt "CountryInfo"
+msgid "Peru"
+msgstr "Peru"
+
+msgctxt "CountryInfo"
+msgid "Philippines"
+msgstr "Philippines"
+
+msgctxt "CountryInfo"
+msgid "Poland"
+msgstr "Poland"
+
+msgctxt "CountryInfo"
+msgid "Portugal"
+msgstr "Portugal"
+
+msgctxt "CountryInfo"
+msgid "Qatar"
+msgstr "Qatar"
+
+msgctxt "CountryInfo"
+msgid "Romania"
+msgstr "Romania"
+
+msgctxt "CountryInfo"
+msgid "Russia"
+msgstr "Russia"
+
+msgctxt "CountryInfo"
+msgid "Rwanda"
+msgstr "Rwanda"
+
+msgctxt "CountryInfo"
+msgid "Saint Kitts & Nevis"
+msgstr "Saint Kitts & Nevis"
+
+msgctxt "CountryInfo"
+msgid "Saint Lucia"
+msgstr "Saint Lucia"
+
+msgctxt "CountryInfo"
+msgid "Saint Vincent & the Grenadines"
+msgstr "Saint Vincent & the Grenadines"
+
+msgctxt "CountryInfo"
+msgid "Samoa"
+msgstr "Samoa"
+
+msgctxt "CountryInfo"
+msgid "San Marino"
+msgstr "San Marino"
+
+msgctxt "CountryInfo"
+msgid "Sao Tome & Principe"
+msgstr "Sao Tome & Principe"
+
+msgctxt "CountryInfo"
+msgid "Saudi Arabia"
+msgstr "Saudi Arabia"
+
+msgctxt "CountryInfo"
+msgid "Senegal"
+msgstr "Hlavni"
+
+msgctxt "CountryInfo"
+msgid "Serbia"
+msgstr "Serbia"
+
+msgctxt "CountryInfo"
+msgid "Seychelles"
+msgstr "Seychelles"
+
+msgctxt "CountryInfo"
+msgid "Sierra Leone"
+msgstr "Sierra Leone"
+
+msgctxt "CountryInfo"
+msgid "Singapore"
+msgstr "Singapore"
+
+msgctxt "CountryInfo"
+msgid "Slovakia"
+msgstr "Slovakia"
+
+msgctxt "CountryInfo"
+msgid "Slovenia"
+msgstr "Slovenia"
+
+msgctxt "CountryInfo"
+msgid "Solomon Islands"
+msgstr "Solomon Islands"
+
+msgctxt "CountryInfo"
+msgid "Somalia"
+msgstr "Somalia"
+
+msgctxt "CountryInfo"
+msgid "South Africa"
+msgstr "South Africa"
+
+msgctxt "CountryInfo"
+msgid "Spain"
+msgstr "Spain"
+
+msgctxt "CountryInfo"
+msgid "Sri Lanka"
+msgstr "Sri Lanka"
+
+msgctxt "CountryInfo"
+msgid "Sudan"
+msgstr "Sudan"
+
+msgctxt "CountryInfo"
+msgid "Suriname"
+msgstr "Suriname"
+
+msgctxt "CountryInfo"
+msgid "Swaziland"
+msgstr "Swaziland"
+
+msgctxt "CountryInfo"
+msgid "Sweden"
+msgstr "Sweden"
+
+msgctxt "CountryInfo"
+msgid "Switzerland"
+msgstr "Switzerland"
+
+msgctxt "CountryInfo"
+msgid "Syria"
+msgstr "Syria"
+
+msgctxt "CountryInfo"
+msgid "Tajikistan"
+msgstr "Tajikistan"
+
+msgctxt "CountryInfo"
+msgid "Tanzania"
+msgstr "Tanzania"
+
+msgctxt "CountryInfo"
+msgid "Thailand"
+msgstr "Thailand"
+
+msgctxt "CountryInfo"
+msgid "Timor-Leste (East Timor)"
+msgstr "Timor-Leste (East Timor)"
+
+msgctxt "CountryInfo"
+msgid "Togo"
+msgstr "Togo"
+
+msgctxt "CountryInfo"
+msgid "Tonga"
+msgstr "Tonga"
+
+msgctxt "CountryInfo"
+msgid "Trinidad & Tobago"
+msgstr "Trinidad & Tobago"
+
+msgctxt "CountryInfo"
+msgid "Tunisia"
+msgstr "Tunisia"
+
+msgctxt "CountryInfo"
+msgid "Turkey"
+msgstr "Turkey"
+
+msgctxt "CountryInfo"
+msgid "Turkmenistan"
+msgstr "Turkmenistan"
+
+msgctxt "CountryInfo"
+msgid "Tuvalu"
+msgstr "Tuvalu"
+
+msgctxt "CountryInfo"
+msgid "Uganda"
+msgstr "Uganda"
+
+msgctxt "CountryInfo"
+msgid "Ukraine"
+msgstr "Ukraine"
+
+msgctxt "CountryInfo"
+msgid "United Arab Emirates"
+msgstr "United Arab Emirates"
+
+msgctxt "CountryInfo"
+msgid "United Kingdom"
+msgstr "United Kingdom"
+
+msgctxt "CountryInfo"
+msgid "United States"
+msgstr "United States"
+
+msgctxt "CountryInfo"
+msgid "Uruguay"
+msgstr "Uruguay"
+
+msgctxt "CountryInfo"
+msgid "Uzbekistan"
+msgstr "Uzbekistan"
+
+msgctxt "CountryInfo"
+msgid "Vanuatu"
+msgstr "Vanuatu"
+
+msgctxt "CountryInfo"
+msgid "Vatican"
+msgstr "Vatican"
+
+msgctxt "CountryInfo"
+msgid "Venezuela"
+msgstr "Venezuela"
+
+msgctxt "CountryInfo"
+msgid "Vietnam"
+msgstr "Vietnam"
+
+msgctxt "CountryInfo"
+msgid "Western Sahara"
+msgstr "Western Sahara"
+
+msgctxt "CountryInfo"
+msgid "Yemen"
+msgstr "Yemen"
+
+msgctxt "CountryInfo"
+msgid "Zambia"
+msgstr "Zambia"
+
+msgctxt "CountryInfo"
+msgid "Zimbabwe"
+msgstr "Zimbabwe"
+
+msgctxt "CountryInfo"
+msgid "Zaire"
+msgstr "Zaire"
+
+msgctxt "CountryInfo"
+msgid "Albania"
+msgstr "Albania"
+
+msgctxt "CountryInfo"
+msgid "Algeria"
+msgstr "Algeria"
+
+msgctxt "CountryInfo"
+msgid "Austria"
+msgstr "Austria"
+
+msgctxt "CountryInfo"
+msgid "Bahrain"
+msgstr "Bahrain"
+
+msgctxt "CountryInfo"
+msgid "Benin"
+msgstr "Benin"
+
+msgctxt "CountryInfo"
+msgid "Ethiopia"
+msgstr "Ethiopia"
+
+msgctxt "CountryInfo"
+msgid "Fiji"
+msgstr "Fiji"
+
+msgctxt "CountryInfo"
+msgid "Finland"
+msgstr "Finland"
+
+msgctxt "CountryInfo"
+msgid "Greece"
+msgstr "Greece"
+
+msgctxt "CountryInfo"
+msgid "Guam"
+msgstr "Guam"
+
+msgctxt "CountryInfo"
+msgid "Hungary"
+msgstr "Hungary"
+
+msgctxt "CountryInfo"
+msgid "Iceland"
+msgstr "Iceland"
+
+msgctxt "CountryInfo"
+msgid "India"
+msgstr "India"
+
+msgctxt "CountryInfo"
+msgid "Indonesia"
+msgstr "Indonesia"
+
+msgctxt "CountryInfo"
+msgid "Iran"
+msgstr "Iran"
+
+msgctxt "CountryInfo"
+msgid "Iraq"
+msgstr "Iraq"
+
+msgctxt "CountryInfo"
+msgid "Ireland"
+msgstr "Ireland"
+
+msgctxt "CountryInfo"
+msgid "Korea, North"
+msgstr "Korea, North"
+
+msgctxt "CountryInfo"
+msgid "Korea, South"
+msgstr "Korea, South"
+
+msgctxt "CountryInfo"
+msgid "Libya"
+msgstr "Libya"
+
+msgctxt "CountryInfo"
+msgid "Maldives"
+msgstr "Maldives"
+
+msgctxt "CountryInfo"
+msgid "Mexico"
+msgstr "Mexico"
+
+msgctxt "CountryInfo"
+msgid "Myanmar"
+msgstr "Myanmar"
+
+msgctxt "CountryInfo"
+msgid "Taiwan"
+msgstr "Taiwan"
+
+msgctxt "CrashReportDialog"
+msgid "Submit a Crash Report"
+msgstr "Odeslat zprávu o chybách"
+
+msgctxt "CrashReportDialog"
+msgid "Vidalia encountered an error and needed to close"
+msgstr "Vidalia narazila na chybu a musí být uzavřena"
+
+msgctxt "CrashReportDialog"
+msgid "Restart Vidalia"
+msgstr "Restartovat Vidalii"
+
+msgctxt "CrashReportDialog"
+msgid "Don't Restart"
+msgstr "Nerestartovat"
+
+msgctxt "CrashReportDialog"
+msgid "Unable to restart Vidalia"
+msgstr "Vidaliu nelze restartovat"
+
+msgctxt "CrashReportDialog"
+msgid ""
+"We were unable to automatically restart Vidalia. Please restart Vidalia "
+"manually."
+msgstr "Nepodařilo se Vidalii restartovat automaticky. Prosím restrtujte ručně."
+
+msgctxt "CrashReportDialog"
+msgid "Please fill a ticket in:"
+msgstr "Prosím vyplňte tiket na?"
+
+msgctxt "CrashReportDialog"
+msgid ""
+"<a "
+"href=\"https://trac.torproject.org/projects/tor/newticket\">https://trac.torproject.org/projects/tor/newticket</a>"
+msgstr "<a href=\"https://trac.torproject.org/projects/tor/newticket\">https://trac.torproject.org/projects/tor/newticket</a>"
+
+msgctxt "CrashReportDialog"
+msgid ""
+"A crash report has been created that you can send to the Vidalia developers "
+"to help identify and fix the problem. The submitted report does not contain "
+"any personally identifying information."
+msgstr "Byla sestavena zpráva o chybě, kterou můžete odeslat vývojovému týmu Vidalia a pomoci tak s odstraněním problému. Schválená zpráva neobsahuje žádná osobní data."
+
+msgctxt "CrashReportDialog"
+msgid ""
+"with a description of what you were doing before the application crashed, "
+"along with the following files corresponding to the crash report:"
+msgstr "s popisem Vašich činností před selháním aplikace a s následující zprávě o chybě."
+
+msgctxt "GeneralPage"
+msgid "Executables (*.exe)"
+msgstr "Spustitelne (*.exe)"
+
+msgctxt "GeneralPage"
+msgid "Select Path to Tor"
+msgstr "Oznac cestu k Tor."
+
+msgctxt "GeneralPage"
+msgid "Select Proxy Executable"
+msgstr "Vyberte aplikaci proxy serveru"
+
+msgctxt "GeneralPage"
+msgid "You must specify the name of your Tor executable."
+msgstr "Musíte specifikovat jméno Tor aplikace"
+
+msgctxt "GeneralPage"
+msgid "Start Vidalia when my system starts"
+msgstr "Spustit Vidalii při spuštění mého systému"
+
+msgctxt "GeneralPage"
+msgid "Browse"
+msgstr "Prohlizej"
+
+msgctxt "GeneralPage"
+msgid "Start the Tor software when Vidalia starts"
+msgstr "Spustit software Tor při spuštění Vidalii"
+
+msgctxt "GeneralPage"
+msgid "Tor"
+msgstr "Tor"
+
+msgctxt "GeneralPage"
+msgid "Proxy Application (optional)"
+msgstr "Proxy aplikace (volitelné)"
+
+msgctxt "GeneralPage"
+msgid "Start a proxy application when Tor starts"
+msgstr "Spustit proxy aplikace při startu tor"
+
+msgctxt "GeneralPage"
+msgid "Proxy Application Arguments:"
+msgstr "Argumenty proxy aplikace"
+
+msgctxt "GeneralPage"
+msgid "Software Updates"
+msgstr "Aktualizace programu"
+
+msgctxt "GeneralPage"
+msgid "Check for new software updates automatically"
+msgstr "Kontrolovat dostupné aplikace automaticky"
+
+msgctxt "GeneralPage"
+msgid "Check Now"
+msgstr "Zkontrolovat nyní"
+
+msgctxt "GraphFrame"
+msgid "%1 KB/s"
+msgstr "%1 KB/s"
+
+msgctxt "GraphFrame"
+msgid "%1 KB"
+msgstr "%1 KB"
+
+msgctxt "GraphFrame"
+msgid "%1 MB"
+msgstr "%1 MB"
+
+msgctxt "GraphFrame"
+msgid "%1 GB"
+msgstr "%1 GB"
+
+msgctxt "GraphFrame"
+msgid "Recv:"
+msgstr "Obdrž:"
+
+msgctxt "GraphFrame"
+msgid "Sent:"
+msgstr "Odesl:"
+
+msgctxt "HelpBrowser"
+msgid "Supplied XML file is not a valid Contents document."
+msgstr "Zadany XML soubor nema validni obsah."
+
+msgctxt "HelpBrowser"
+msgid "Search reached end of document"
+msgstr "Hledani dosahlo konce dokumentu"
+
+msgctxt "HelpBrowser"
+msgid "Search reached start of document"
+msgstr "Hledani dosahlo zacatku dokumentu"
+
+msgctxt "HelpBrowser"
+msgid "Text not found in document"
+msgstr "Text v dokumentu nenalezen"
+
+msgctxt "HelpBrowser"
+msgid "Found %1 results"
+msgstr "%1 vysledku hledani"
+
+msgctxt "HelpBrowser"
+msgid "Vidalia Help"
+msgstr "Napoveda k Vidalia"
+
+msgctxt "HelpBrowser"
+msgid "Back"
+msgstr "Nazpatek"
+
+msgctxt "HelpBrowser"
+msgid "Move to previous page (Backspace)"
+msgstr "Predchozi stranka (Backspace)"
+
+msgctxt "HelpBrowser"
+msgid "Backspace"
+msgstr "Backspace"
+
+msgctxt "HelpBrowser"
+msgid "Forward"
+msgstr "Presmerovani"
+
+msgctxt "HelpBrowser"
+msgid "Move to next page (Shift+Backspace)"
+msgstr "Jdi na dalsi stranku (Shift+Backspace)"
+
+msgctxt "HelpBrowser"
+msgid "Shift+Backspace"
+msgstr "Shift+Backspace"
+
+msgctxt "HelpBrowser"
+msgid "Home"
+msgstr "Domu"
+
+msgctxt "HelpBrowser"
+msgid "Move to the Home page (Ctrl+H)"
+msgstr "Na domaci stranku (Ctrl+H)"
+
+msgctxt "HelpBrowser"
+msgid "Ctrl+H"
+msgstr "Ctrl+H"
+
+msgctxt "HelpBrowser"
+msgid "Find"
+msgstr "Najdi"
+
+msgctxt "HelpBrowser"
+msgid "Search for a word or phrase on current page (Ctrl+F)"
+msgstr "Najdi na strance slovo nebo frazi (Ctrl+F)"
+
+msgctxt "HelpBrowser"
+msgid "Ctrl+F"
+msgstr "Ctrl+F"
+
+msgctxt "HelpBrowser"
+msgid "Close"
+msgstr "Zavri"
+
+msgctxt "HelpBrowser"
+msgid "Close Vidalia Help"
+msgstr "Zavri napovedu Vidalia"
+
+msgctxt "HelpBrowser"
+msgid "Esc"
+msgstr "Esc"
+
+msgctxt "HelpBrowser"
+msgid "Find:"
+msgstr "Najdi:"
+
+msgctxt "HelpBrowser"
+msgid "Find Previous"
+msgstr "Najdi predchozi"
+
+msgctxt "HelpBrowser"
+msgid "Find Next"
+msgstr "Najdi nasledujici"
+
+msgctxt "HelpBrowser"
+msgid "Case sensitive"
+msgstr "Presne fraze"
+
+msgctxt "HelpBrowser"
+msgid "Whole words only"
+msgstr "Pouze celel slova"
+
+msgctxt "HelpBrowser"
+msgid "Help Topics"
+msgstr "Tema napovedy"
+
+msgctxt "HelpBrowser"
+msgid "Contents"
+msgstr "Obsah"
+
+msgctxt "HelpBrowser"
+msgid "Search"
+msgstr "Hledat"
+
+msgctxt "HelpBrowser"
+msgid "Searching for:"
+msgstr "Hledani:"
+
+msgctxt "HelpBrowser"
+msgid "Found Documents"
+msgstr "Najdi dokument"
+
+msgctxt "HelpBrowser"
+msgid "Error Loading Help Contents:"
+msgstr "Chyba při načtení nápovědy:"
+
+msgctxt "HelpTextBrowser"
+msgid "Opening External Link"
+msgstr "Otevírám externí odkaz"
+
+msgctxt "HelpTextBrowser"
+msgid ""
+"Vidalia can open the link you selected in your default Web browser. If your "
+"browser is not currently configured to use Tor then the request will not be "
+"anonymous."
+msgstr "Vidalia může vybraný odskaz otevřít ve výchozím prohlížeči. Pokud Váš prohlížeč není momentálně nastaven pro použití sítě Tor, nebude váš požadavek již anonymní"
+
+msgctxt "HelpTextBrowser"
+msgid "Do you want Vidalia to open the link in your Web browser?"
+msgstr "Přejete si odkaz otevřít v internetovém prohlížeči?"
+
+msgctxt "HelpTextBrowser"
+msgid "Unable to Open Link"
+msgstr "Nepodařilo se získat odkaz"
+
+msgctxt "HelpTextBrowser"
+msgid ""
+"Vidalia was unable to open the selected link in your Web browser. You can "
+"still copy the URL and paste it into your browser."
+msgstr "Nepodařilo se rovnou otevřít odkaz ve vašem prohlížeči. Vložte URL adresu odkazu přímo do prohlížeče."
+
+msgctxt "HelpTextBrowser"
+msgid "Error opening help file:"
+msgstr "Chyba při otevírání souboru nápovědy:"
+
+msgctxt "LicenseDialog"
+msgid "License Information"
+msgstr "Licenční informace"
+
+msgctxt "LicenseDialog"
+msgid "License"
+msgstr "Licence"
+
+msgctxt "LicenseDialog"
+msgid "Credits"
+msgstr "Credits"
+
+msgctxt "LogEvent"
+msgid "Debug"
+msgstr "Ladici informace"
+
+msgctxt "LogEvent"
+msgid "Info"
+msgstr "Informace"
+
+msgctxt "LogEvent"
+msgid "Notice"
+msgstr "Upozorneni"
+
+msgctxt "LogEvent"
+msgid "Warning"
+msgstr "Varovani"
+
+msgctxt "LogEvent"
+msgid "Error"
+msgstr "Chyba"
+
+msgctxt "LogEvent"
+msgid "Unknown"
+msgstr "Nezname"
+
+msgctxt "LogTreeItem"
+msgid "Debug"
+msgstr "Debug"
+
+msgctxt "LogTreeItem"
+msgid "Info"
+msgstr "Info"
+
+msgctxt "LogTreeItem"
+msgid "Notice"
+msgstr "Upozornění"
+
+msgctxt "LogTreeItem"
+msgid "Warning"
+msgstr "Varování"
+
+msgctxt "LogTreeItem"
+msgid "Error"
+msgstr "Chyba"
+
+msgctxt "LogTreeItem"
+msgid "Unknown"
+msgstr "Neznámý"
+
+msgctxt "MainWindow"
+msgid "Start Tor"
+msgstr "Spustit Tor"
+
+msgctxt "MainWindow"
+msgid "Exit"
+msgstr "Ukoncit"
+
+msgctxt "MainWindow"
+msgid "Bandwidth Graph"
+msgstr "Provozni Graf"
+
+msgctxt "MainWindow"
+msgid "Message Log"
+msgstr "Log oznameni"
+
+msgctxt "MainWindow"
+msgid "Network Map"
+msgstr "Mapa site"
+
+msgctxt "MainWindow"
+msgid "Control Panel"
+msgstr "Kontrolni panel"
+
+msgctxt "MainWindow"
+msgid "Settings"
+msgstr "Nastaveni"
+
+msgctxt "MainWindow"
+msgid "About"
+msgstr "O aplikaci"
+
+msgctxt "MainWindow"
+msgid "Help"
+msgstr "Napoveda"
+
+msgctxt "MainWindow"
+msgid "New Identity"
+msgstr "Nova identita"
+
+msgctxt "MainWindow"
+msgid "Ctrl+T"
+msgstr "Ctrl+T"
+
+msgctxt "MainWindow"
+msgid "Ctrl+B"
+msgstr "Ctrl+B"
+
+msgctxt "MainWindow"
+msgid "Ctrl+L"
+msgstr "Ctrl+L"
+
+msgctxt "MainWindow"
+msgid "Ctrl+N"
+msgstr "Ctrl+N"
+
+msgctxt "MainWindow"
+msgid "Ctrl+?"
+msgstr "Ctrl+?"
+
+msgctxt "MainWindow"
+msgid "Ctrl+I"
+msgstr "Ctrl+I"
+
+msgctxt "MainWindow"
+msgid "Ctrl+P"
+msgstr "Ctrl+P"
+
+msgctxt "MainWindow"
+msgid "Tor"
+msgstr "Tor"
+
+msgctxt "MainWindow"
+msgid "View"
+msgstr "Nahled"
+
+msgctxt "MainWindow"
+msgid "Vidalia Help"
+msgstr "Napoveda Vidalia"
+
+msgctxt "MainWindow"
+msgid "Error starting web browser"
+msgstr "Chyba při spouštění prohlížeče"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to start the configured web browser"
+msgstr "Vidalii se nepodařilo spustit nastavený webový prohlížeč"
+
+msgctxt "MainWindow"
+msgid "Error starting IM client"
+msgstr "Chyba při spouštění IM klienta"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to start the configured IM client"
+msgstr "Vidalii se nepodařilo spustit nastavený IM klient"
+
+msgctxt "MainWindow"
+msgid "Error starting proxy server"
+msgstr "Chyba při spouštění proxy serveru"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to start the configured proxy server"
+msgstr "Vidalii se nepodařilo spustit nastavený proxy server"
+
+msgctxt "MainWindow"
+msgid "Connecting to a relay directory"
+msgstr "Připojování do adresáře uzlu"
+
+msgctxt "MainWindow"
+msgid "Establishing an encrypted directory connection"
+msgstr "Navazuji spojení s šifrovaným adresářem"
+
+msgctxt "MainWindow"
+msgid "Retrieving network status"
+msgstr "Zjišťuji stav sítě"
+
+msgctxt "MainWindow"
+msgid "Loading network status"
+msgstr "Načítam stav sítě"
+
+msgctxt "MainWindow"
+msgid "Loading authority certificates"
+msgstr "Nahrávám certifikáty autority"
+
+msgctxt "MainWindow"
+msgid "Requesting relay information"
+msgstr "Zjišťuji informace o uzlu"
+
+msgctxt "MainWindow"
+msgid "Loading relay information"
+msgstr "Nahrávám informace o uzlu"
+
+msgctxt "MainWindow"
+msgid "Connecting to the Tor network"
+msgstr "Připojuji se do sítě Tor"
+
+msgctxt "MainWindow"
+msgid "Establishing a Tor circuit"
+msgstr "Sestavuji Tor řetězec"
+
+msgctxt "MainWindow"
+msgid "Connected to the Tor network!"
+msgstr "Připojeno do sítě Tor!"
+
+msgctxt "MainWindow"
+msgid "Unrecognized startup status"
+msgstr "Nerozpoznaný stav spuštění"
+
+msgctxt "MainWindow"
+msgid "miscellaneous"
+msgstr "různý"
+
+msgctxt "MainWindow"
+msgid "identity mismatch"
+msgstr "nesouhlasí identita"
+
+msgctxt "MainWindow"
+msgid "done"
+msgstr "hotovo"
+
+msgctxt "MainWindow"
+msgid "connection refused"
+msgstr "spojení odmítnuto"
+
+msgctxt "MainWindow"
+msgid "connection timeout"
+msgstr "čas spojení vypršel"
+
+msgctxt "MainWindow"
+msgid "read/write error"
+msgstr "chyba čtená/zápisu"
+
+msgctxt "MainWindow"
+msgid "no route to host"
+msgstr "bez spojení s hostitelem"
+
+msgctxt "MainWindow"
+msgid "insufficient resources"
+msgstr "nedostatečné zdroje"
+
+msgctxt "MainWindow"
+msgid "unknown"
+msgstr "nenámý"
+
+msgctxt "MainWindow"
+msgid "Tor is not running"
+msgstr "Tor neni spusten"
+
+msgctxt "MainWindow"
+msgid "Tor is shutting down"
+msgstr "Tor se vypina"
+
+msgctxt "MainWindow"
+msgid "Stop Tor Now"
+msgstr "Zastavit Tor nyní"
+
+msgctxt "MainWindow"
+msgid "Stop Tor"
+msgstr "Zastavit Tor"
+
+msgctxt "MainWindow"
+msgid "Starting the Tor software"
+msgstr "Spouštím software Tor"
+
+msgctxt "MainWindow"
+msgid "Starting Tor"
+msgstr "Spoštím Tor"
+
+msgctxt "MainWindow"
+msgid "Error Starting Tor"
+msgstr "Chyba pri spusteni Tor"
+
+msgctxt "MainWindow"
+msgid ""
+"Vidalia was unable to start Tor. Check your settings to ensure the correct "
+"name and location of your Tor executable is specified."
+msgstr "Vidalia nemuze spustit Tor. Ujistete se, ze vase nastaveni identifikatoru a lokality je odpovidajici."
+
+msgctxt "MainWindow"
+msgid "Connecting to Tor"
+msgstr "Připojuji se k Tor"
+
+msgctxt "MainWindow"
+msgid "Connection Error"
+msgstr "Chyba spojení"
+
+msgctxt "MainWindow"
+msgid "Relaying is Enabled"
+msgstr "Povoleno využití uzlu"
+
+msgctxt "MainWindow"
+msgid "Error Shutting Down"
+msgstr "Chyba Ukončování programu"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to stop the Tor software."
+msgstr "Vidalii se nepodařilo zastavit Tor software"
+
+msgctxt "MainWindow"
+msgid "Unexpected Error"
+msgstr "Neočekávaná chyba"
+
+msgctxt "MainWindow"
+msgid "Authenticating to Tor"
+msgstr "Přihlašování do Tor"
+
+msgctxt "MainWindow"
+msgid "Cookie Authentication Required"
+msgstr "Cookie ověření požadováno"
+
+msgctxt "MainWindow"
+msgid ""
+"The Tor software requires Vidalia to send the contents of an authentication "
+"cookie, but Vidalia was unable to find one."
+msgstr "Tor software potřebuje aby Vidalia odeslala obsah ověřovací cookie, ale Vidalia žádné nanšla"
+
+msgctxt "MainWindow"
+msgid "Would you like to browse for the file 'control_auth_cookie' yourself?"
+msgstr "Přejete si najít soubor 'control_auth_cookie' sám?"
+
+msgctxt "MainWindow"
+msgid "Data Directory"
+msgstr "Adresář dat"
+
+msgctxt "MainWindow"
+msgid "Control Cookie (control_auth_cookie)"
+msgstr "Kontrolní cookie (control_auth_cookie)"
+
+msgctxt "MainWindow"
+msgid "Error Registering for Events"
+msgstr "Chyba při odběru událostí"
+
+msgctxt "MainWindow"
+msgid ""
+"Vidalia was unable to register for some events. Many of Vidalia's features "
+"may be unavailable."
+msgstr "Vidalia se nebyla schopna přihlásit k odběru událostí. Množství funkcionalit bude nejspíš nedostupných "
+
+msgctxt "MainWindow"
+msgid "Authentication Error"
+msgstr "Chyba při ověřování"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to authenticate to the Tor software. (%1)"
+msgstr "Vidalia se nebyla schopna  autentizovat do Tor softwaru (%1)"
+
+msgctxt "MainWindow"
+msgid "Please check your control port authentication settings."
+msgstr "Prosím zkontrolujte nastavení ověření kontrolního portu"
+
+msgctxt "MainWindow"
+msgid "Tor Update Available"
+msgstr "K dispozici Tor aktualizace "
+
+msgctxt "MainWindow"
+msgid ""
+"The currently installed version of Tor is out of date or no longer "
+"recommended. Please visit the Tor website to download the latest version."
+msgstr "Momentálně nainstalovaná verze Tor je zastaralá a již se nedoporučuje. Pro novější verzi navštivte stránky projektu."
+
+msgctxt "MainWindow"
+msgid "Tor website: %1"
+msgstr "Tor webová stránka: %1"
+
+msgctxt "MainWindow"
+msgid ""
+"All subsequent connections will appear to be different than your old "
+"connections."
+msgstr "Vsechny nasledujici pripojeni budou od puvodnich rozdilne."
+
+msgctxt "MainWindow"
+msgid "Failed to Create New Identity"
+msgstr "Vytvoreni nove identity selhalo."
+
+msgctxt "MainWindow"
+msgid "Port Forwarding Failed"
+msgstr "Přesměrování portu selhalo"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to configure automatic port forwarding."
+msgstr "Vidalii se nepodařilo nastavit automatické přesměrování portu"
+
+msgctxt "MainWindow"
+msgid "Vidalia Control Panel"
+msgstr "Kontrolni panel Vidalia"
+
+msgctxt "MainWindow"
+msgid "Status"
+msgstr "Status"
+
+msgctxt "MainWindow"
+msgid "Vidalia Shortcuts"
+msgstr "Zkratky Vidalia"
+
+msgctxt "MainWindow"
+msgid "Setup Relaying"
+msgstr "Nastav Preposilani"
+
+msgctxt "MainWindow"
+msgid "Set up a relay and help the network grow"
+msgstr "Vytvořte uzel a pomožte síťi růst"
+
+msgctxt "MainWindow"
+msgid "View the Network"
+msgstr "Pohled na Sit"
+
+msgctxt "MainWindow"
+msgid "View a map of the Tor network"
+msgstr "Pohled na Mapu Site Tor"
+
+msgctxt "MainWindow"
+msgid "Use a New Identity"
+msgstr "Pouzit Novou Identitu"
+
+msgctxt "MainWindow"
+msgid "Make subsequent connections appear new"
+msgstr "Vsechny dalsi pripojeni jako nove"
+
+msgctxt "MainWindow"
+msgid "View recent bandwidth usage"
+msgstr "Zobrazit využití sítě"
+
+msgctxt "MainWindow"
+msgid "View log message history"
+msgstr "Zobrazit zprávy logu"
+
+msgctxt "MainWindow"
+msgid "View help documentation"
+msgstr "Dokumentace Napovedy"
+
+msgctxt "MainWindow"
+msgid "Configure Vidalia"
+msgstr "Nastavit Vidalii"
+
+msgctxt "MainWindow"
+msgid "View version and license information"
+msgstr "Verze a licencni informace"
+
+msgctxt "MainWindow"
+msgid "Exit Vidalia"
+msgstr "Ukoncit Vidalia"
+
+msgctxt "MainWindow"
+msgid "Show this window on startup"
+msgstr "Zobrazuj toto okno pri startu"
+
+msgctxt "MainWindow"
+msgid "Hide"
+msgstr "Schovat"
+
+msgctxt "MainWindow"
+msgid "Hide this window"
+msgstr "Schovat toto okno"
+
+msgctxt "MainWindow"
+msgid "Password Reset Failed"
+msgstr "Chyba při resetu hesla"
+
+msgctxt "MainWindow"
+msgid ""
+"Vidalia tried to reset Tor's control password, but was not able to restart "
+"the Tor software. Please check your Task Manager to ensure there are no "
+"other Tor processes running."
+msgstr "Vidalie se pokusila resetovat heslo Tor, ale nepodařilo se restartovat Tor software. Prosím ujistěte se ve správci úloh že neprobíha žádný další Tor processes"
+
+msgctxt "MainWindow"
+msgid ""
+"The currently installed version of Tor is out of date or no longer "
+"recommended."
+msgstr "Právě nainstalovaná verze  Toru je zastaralá a již se ji nedporučuje používat."
+
+msgctxt "MainWindow"
+msgid ""
+"Would you like to check if a newer package is available for installation?"
+msgstr "Přejete si zkontrolovat dostupnost nových instalačních balíčků?"
+
+msgctxt "MainWindow"
+msgid "Potentially Unsafe Connection"
+msgstr "Potencionálně nebezpečné připojení"
+
+msgctxt "MainWindow"
+msgid ""
+"Tor has automatically closed your connection in order to protect your "
+"anonymity."
+msgstr "Tor automaticky ukončil vaše připojení aby ochránil Vaši anonimitu"
+
+msgctxt "MainWindow"
+msgid "Update Failed"
+msgstr "Neuspesne"
+
+msgctxt "MainWindow"
+msgid "Your software is up to date"
+msgstr "Váš software je zastaralý"
+
+msgctxt "MainWindow"
+msgid ""
+"There are no new Tor software packages available for your computer at this "
+"time."
+msgstr "Není k dispozici žádný Tor softwarový balíček "
+
+msgctxt "MainWindow"
+msgid "Installation Failed"
+msgstr "Instalace selhala"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to install your software updates."
+msgstr "Vidalia neni schopna instalovat Tor jako sluzbu"
+
+msgctxt "MainWindow"
+msgid "The following error occurred:"
+msgstr "Objevila se následující chyba"
+
+msgctxt "MainWindow"
+msgid ""
+"Anything sent over this connection could be monitored. Please check your "
+"application's configuration and use only encrypted protocols, such as SSL, "
+"if possible."
+msgstr "Veškerá komunikace přes toto připojení může být monitorováno. Zkontrolujte nastavení aplikace a pokud možno používejte výhradně šifrovaný protokol jako je SSL"
+
+msgctxt "MainWindow"
+msgid "failed (%1)"
+msgstr "Selhání (%1)"
+
+msgctxt "MainWindow"
+msgid ""
+"Your relay is shutting down.\n"
+"Click 'Stop' again to stop your relay now."
+msgstr "Váš uzel se vypíná.\nKlikněte na 'Stop' znovu pro okamžité odpojení."
+
+msgctxt "MainWindow"
+msgid "Bootstrapping torrc from %1 to %2"
+msgstr "Konfigurace připojení v torrc pomocí BOOTP od %1 do %2"
+
+msgctxt "MainWindow"
+msgid ""
+"You are currently running a relay. Terminating your relay will interrupt any open connections from clients.\n"
+"\n"
+"Would you like to shutdown gracefully and give clients time to find a new relay?"
+msgstr "Máte právě spuštěný uzel. Jeho ukončením přerušíte všechna otevřená připojení klientů.\n\nPřejete si spojení s klienty ukončit a nechat jim čas nalézt nový uzel?"
+
+msgctxt "MainWindow"
+msgid ""
+"Vidalia detected that the Tor software exited unexpectedly.\n"
+"\n"
+"Please check the message log for recent warning or error messages."
+msgstr "Vidalia zaznamenala neočekávané ukončení Tor software.\n\nZkontrolujte poslední varovné a chybové zprávy v logu."
+
+msgctxt "MainWindow"
+msgid "(probably Telnet)"
+msgstr "(pravděpodobně Telnet)"
+
+msgctxt "MainWindow"
+msgid "(probably an email client)"
+msgstr "(pravděpodobně emailový klient)"
+
+msgctxt "MainWindow"
+msgid ""
+"One of your applications %1 appears to be making a potentially unencrypted "
+"and unsafe connection to port %2."
+msgstr "Zdá se že jedna z Vašich aplikací %1 komunikuje nešifrovaně a nebezpečně na portu %2."
+
+msgctxt "MessageLog"
+msgid "Error Setting Filter"
+msgstr "Chyba Nastaveni Filtru"
+
+msgctxt "MessageLog"
+msgid "Vidalia was unable to register for Tor's log events."
+msgstr "Vidalia nelze pripojit k zaznamu udalosti Tor."
+
+msgctxt "MessageLog"
+msgid "Error Opening Log File"
+msgstr "Otevreni zaznamu neuspesne"
+
+msgctxt "MessageLog"
+msgid "Vidalia was unable to open the specified log file."
+msgstr "Vidalia neni schopna otevrit oznaceni soubor zaznamu."
+
+msgctxt "MessageLog"
+msgid "Log Filename Required"
+msgstr "Jmeno Zaznamu Nutne"
+
+msgctxt "MessageLog"
+msgid "You must enter a filename to be able to save log messages to a file."
+msgstr "Pro ulozeni zaznamu je nutne zadat jmeno."
+
+msgctxt "MessageLog"
+msgid "Select Log File"
+msgstr "Oznac Soubor Zaznamu"
+
+msgctxt "MessageLog"
+msgid "Save Log Messages"
+msgstr "Uloz Soubor Zaznamu"
+
+msgctxt "MessageLog"
+msgid "Text Files (*.txt)"
+msgstr "Textove soubory (*.txt)"
+
+msgctxt "MessageLog"
+msgid "Vidalia"
+msgstr "Vidalia"
+
+msgctxt "MessageLog"
+msgid "Find in Message Log"
+msgstr "Najdi v Zaznamu"
+
+msgctxt "MessageLog"
+msgid "Find:"
+msgstr "Najdi:"
+
+msgctxt "MessageLog"
+msgid "Not Found"
+msgstr "Nenalezeno"
+
+msgctxt "MessageLog"
+msgid "Search found 0 matches."
+msgstr "Hledani nalezlo O zaznamu."
+
+msgctxt "MessageLog"
+msgid "Message Log"
+msgstr "Zaznam logu"
+
+msgctxt "MessageLog"
+msgid "Message Filters..."
+msgstr "Filtry oznameni.."
+
+msgctxt "MessageLog"
+msgid "Set message filters"
+msgstr "Nastav filtry oznamovani"
+
+msgctxt "MessageLog"
+msgid "History Size..."
+msgstr "Velikost Historie..."
+
+msgctxt "MessageLog"
+msgid "Set maximum number of messages to display"
+msgstr "Nastav maximalni pocet zobrazenych oznameni"
+
+msgctxt "MessageLog"
+msgid "Clear"
+msgstr "Vycistit"
+
+msgctxt "MessageLog"
+msgid "Clear all messages from the Message Log (Ctrl+E)"
+msgstr "Vycisti vsechna oznameni v Logu (Ctrl+E)"
+
+msgctxt "MessageLog"
+msgid "Ctrl+E"
+msgstr "Ctrl+E"
+
+msgctxt "MessageLog"
+msgid "Copy"
+msgstr "Kopirovat"
+
+msgctxt "MessageLog"
+msgid "Copy the selected messages to the clipboard (Ctrl+C)"
+msgstr "Skopirovat oznacene oznameni do schranky (Ctrl+C)"
+
+msgctxt "MessageLog"
+msgid "Ctrl+C"
+msgstr "Ctrl+C"
+
+msgctxt "MessageLog"
+msgid "Select All"
+msgstr "Oznacit vse"
+
+msgctxt "MessageLog"
+msgid "Select all messages (Ctrl+A)"
+msgstr "Oznacit vsechna oznameni (Ctrl+A)"
+
+msgctxt "MessageLog"
+msgid "Ctrl+A"
+msgstr "Ctrl+A"
+
+msgctxt "MessageLog"
+msgid "Save All"
+msgstr "Ulozit vse"
+
+msgctxt "MessageLog"
+msgid "Save all messages to a file"
+msgstr "Ulozit oznameni do souboru"
+
+msgctxt "MessageLog"
+msgid "Save Selected"
+msgstr "Ulozit oznacene"
+
+msgctxt "MessageLog"
+msgid "Save selected messages to a file"
+msgstr "Ulozit oznacene oznameni do souboru"
+
+msgctxt "MessageLog"
+msgid "Settings"
+msgstr "Nastaveni"
+
+msgctxt "MessageLog"
+msgid "Adjust Message Log Settings"
+msgstr "Uprav Konfiguraci Zaznamu"
+
+msgctxt "MessageLog"
+msgid "Ctrl+T"
+msgstr "Ctrl+T"
+
+msgctxt "MessageLog"
+msgid "Help"
+msgstr "Napoveda"
+
+msgctxt "MessageLog"
+msgid "Show the help browser"
+msgstr "Ukaz prohlizec napovedy"
+
+msgctxt "MessageLog"
+msgid "F1"
+msgstr "F1"
+
+msgctxt "MessageLog"
+msgid "Close"
+msgstr "Zavrit"
+
+msgctxt "MessageLog"
+msgid "Close the Message Log"
+msgstr "Zavrit log oznameni"
+
+msgctxt "MessageLog"
+msgid "Esc"
+msgstr "Esc"
+
+msgctxt "MessageLog"
+msgid "Find"
+msgstr "Najit"
+
+msgctxt "MessageLog"
+msgid "Find all messages containing the search text (Ctrl+F)"
+msgstr "najdi vechna oznameni obsahujici hledani text (Ctrl+F)"
+
+msgctxt "MessageLog"
+msgid "Ctrl+F"
+msgstr "Ctrl+F"
+
+msgctxt "MessageLog"
+msgid "Time"
+msgstr "Cas"
+
+msgctxt "MessageLog"
+msgid "Type"
+msgstr "Typ"
+
+msgctxt "MessageLog"
+msgid "Message"
+msgstr "Oznameni"
+
+msgctxt "MessageLog"
+msgid "Saves the current Message Log settings"
+msgstr "Ulozit aktualni nastaveni Zobrazovani udalosti"
+
+msgctxt "MessageLog"
+msgid "Save Settings"
+msgstr "Uloz nastaveni"
+
+msgctxt "MessageLog"
+msgid "Cancels changes made to settings"
+msgstr "Zrusit provedene zmeny nastaveni"
+
+msgctxt "MessageLog"
+msgid "Cancel"
+msgstr "Zrusit"
+
+msgctxt "MessageLog"
+msgid "Message Filter"
+msgstr "Filtr Oznameni"
+
+msgctxt "MessageLog"
+msgid "Error"
+msgstr "Chyba"
+
+msgctxt "MessageLog"
+msgid "Warning"
+msgstr "Varovani"
+
+msgctxt "MessageLog"
+msgid "Notice"
+msgstr "Oznameni"
+
+msgctxt "MessageLog"
+msgid "Info"
+msgstr "Informace"
+
+msgctxt "MessageLog"
+msgid "Debug"
+msgstr "Ladeni"
+
+msgctxt "MessageLog"
+msgid "Message Log History"
+msgstr "Histrorie Zaznamu"
+
+msgctxt "MessageLog"
+msgid "Number of messages to display in the message log window"
+msgstr "Pocet zobrazenych zaznamu."
+
+msgctxt "MessageLog"
+msgid "messages"
+msgstr "oznameni"
+
+msgctxt "MessageLog"
+msgid "Browse"
+msgstr "Prohlizet"
+
+msgctxt "MessageLog"
+msgid "Enable automatically saving all new log messages to a file"
+msgstr "Povol automaticke ukladani vsech novych oznameni do souboru."
+
+msgctxt "MessageLog"
+msgid "Automatically save new log messages to a file"
+msgstr "Automaticky uloz nove oznameni do souboru"
+
+msgctxt "MessageLog"
+msgid "Basic"
+msgstr "Jednoduchý"
+
+msgctxt "MessageLog"
+msgid "Tor Status"
+msgstr "Tor Stav"
+
+msgctxt "MessageLog"
+msgid "Advanced"
+msgstr "Pokročilý"
+
+msgctxt "MessageLog"
+msgid "Always Save New Log Messages"
+msgstr "Vzdy Ukladat Nove Oznameni"
+
+msgctxt "MessageLog"
+msgid ""
+"Messages that appear when something has \n"
+"gone very wrong and Tor cannot proceed."
+msgstr "Zprávy které se objeví při závadě \nkdy Tor nemůže nadále pokračovat."
+
+msgctxt "MessageLog"
+msgid ""
+"Messages that only appear when \n"
+"something has gone wrong with Tor."
+msgstr "Zprávy které se objeví při závadě \nTor."
+
+msgctxt "MessageLog"
+msgid ""
+"Messages that appear infrequently \n"
+"during normal Tor operation and are \n"
+"not considered errors, but you may \n"
+"care about."
+msgstr "Zprávy které se během normálního \nprovozu zřídka objevují a které nepředstavují \nchybu, nicméně měli by jste jim věnovat pozornost"
+
+msgctxt "MessageLog"
+msgid ""
+"Messages that appear frequently \n"
+"during normal Tor operation."
+msgstr "Zprávy které se objevují při běžném \n provou často"
+
+msgctxt "MessageLog"
+msgid ""
+"Hyper-verbose messages primarily of \n"
+"interest to Tor developers."
+msgstr "Zprávy určené Tor vývojářů"
+
+msgctxt "MessageLog"
+msgid ""
+"Cannot write file %1\n"
+"\n"
+"%2."
+msgstr "Nelze zapisovat do souboru %1\n\n%2."
+
+msgctxt "NetViewer"
+msgid "Tor Network Map"
+msgstr "Mapa sítě"
+
+msgctxt "NetViewer"
+msgid "Refresh"
+msgstr "Aktualizace"
+
+msgctxt "NetViewer"
+msgid "Refresh the list of Tor relays and connections"
+msgstr "Obnovit výpis detailů k uzlům a připojením"
+
+msgctxt "NetViewer"
+msgid "Ctrl+R"
+msgstr "Ctrl+R"
+
+msgctxt "NetViewer"
+msgid "Help"
+msgstr "Napoveda"
+
+msgctxt "NetViewer"
+msgid "Show the network map help"
+msgstr "Zobrazit napovedu pro mapu site"
+
+msgctxt "NetViewer"
+msgid "Show network map help"
+msgstr "Zobrazit napovedu mapy site"
+
+msgctxt "NetViewer"
+msgid "F1"
+msgstr "F1"
+
+msgctxt "NetViewer"
+msgid "Close"
+msgstr "Zavrit"
+
+msgctxt "NetViewer"
+msgid "Close the network map"
+msgstr "Zavrit mapu site"
+
+msgctxt "NetViewer"
+msgid "Esc"
+msgstr "Esc"
+
+msgctxt "NetViewer"
+msgid "Zoom In"
+msgstr "Zvetsit"
+
+msgctxt "NetViewer"
+msgid "Zoom in on the network map"
+msgstr "Priblizit mapu site"
+
+msgctxt "NetViewer"
+msgid "+"
+msgstr "+"
+
+msgctxt "NetViewer"
+msgid "Zoom Out"
+msgstr "Zmensit"
+
+msgctxt "NetViewer"
+msgid "Zoom out on the network map"
+msgstr "Oddalit mapu site"
+
+msgctxt "NetViewer"
+msgid "-"
+msgstr "-"
+
+msgctxt "NetViewer"
+msgid "Zoom To Fit"
+msgstr "Na cele okno"
+
+msgctxt "NetViewer"
+msgid "Zooms to fit all currently displayed circuits"
+msgstr "Zobrazit dostupne okruhy na cele okno"
+
+msgctxt "NetViewer"
+msgid "Ctrl+Z"
+msgstr "Ctrl+Z"
+
+msgctxt "NetViewer"
+msgid "Relay Not Found"
+msgstr "Soubro nenalezen"
+
+msgctxt "NetViewer"
+msgid "No details on the selected relay are available."
+msgstr "Není vybrán žádný detail uzlu"
+
+msgctxt "NetViewer"
+msgid "Unknown"
+msgstr "Nezname"
+
+msgctxt "NetViewer"
+msgid "Full Screen"
+msgstr "Celá obrazovka"
+
+msgctxt "NetViewer"
+msgid "View the network map as a full screen window"
+msgstr "Zobrazit mapu sítě jako okno na celou obrazovku"
+
+msgctxt "NetViewer"
+msgid "Ctrl+F"
+msgstr "Ctrl+F"
+
+msgctxt "NetworkPage"
+msgid "Invalid Bridge"
+msgstr "Neplatný most"
+
+msgctxt "NetworkPage"
+msgid "The specified bridge identifier is not valid."
+msgstr "Uvedený identifikátor mostu je neplatný"
+
+msgctxt "NetworkPage"
+msgid "Copy (Ctrl+C)"
+msgstr "Kopírovat (Ctrl+C)"
+
+msgctxt "NetworkPage"
+msgid ""
+"You must specify both an IP address or hostname and a port number to "
+"configure Tor to use a proxy to access the Internet."
+msgstr "Pro nastavení Toru pro použití proxy serveru musíte specifikovat jak IP adresu (nebo jméno hostitele) tak číslo portu"
+
+msgctxt "NetworkPage"
+msgid ""
+"You must specify one or more ports to which your firewall allows you to "
+"connect."
+msgstr "Musíte specifikovat jeden nebo více portů, které Váš firewall neblokuje"
+
+msgctxt "NetworkPage"
+msgid "'%1' is not a valid port number."
+msgstr "'%1' je neplatné číslo portu."
+
+msgctxt "NetworkPage"
+msgid "Check if your local network requires a proxy to access the Internet"
+msgstr "Zkontrolujte zda k přístupu k internetu nepoužíváte proxy"
+
+msgctxt "NetworkPage"
+msgid "I use a proxy to access the Internet"
+msgstr "Pro připojení k internetu používám proxy"
+
+msgctxt "NetworkPage"
+msgid "Proxy Settings"
+msgstr "Nastavení proxy"
+
+msgctxt "NetworkPage"
+msgid "Username:"
+msgstr "Uživatel:"
+
+msgctxt "NetworkPage"
+msgid "Password:"
+msgstr "Heslo."
+
+msgctxt "NetworkPage"
+msgid "Port:"
+msgstr "Port:"
+
+msgctxt "NetworkPage"
+msgid "Check to only connect to relays using ports allowed by your firewall"
+msgstr "Ujistěte se že na uzlech jsou nastaveny porty, které jsou povoleny na firewallu"
+
+msgctxt "NetworkPage"
+msgid "My firewall only lets me connect to certain ports"
+msgstr "Můj firewall mě povoluje jen něktré porty"
+
+msgctxt "NetworkPage"
+msgid "Firewall Settings"
+msgstr "Nastavení firewallu"
+
+msgctxt "NetworkPage"
+msgid "Allowed Ports:"
+msgstr "Povolené porty:"
+
+msgctxt "NetworkPage"
+msgid "80, 443"
+msgstr "80, 443"
+
+msgctxt "NetworkPage"
+msgid ""
+"Check to encrypt directory requests and, optionally, use bridge relays to "
+"access the Tor network"
+msgstr "Zkontrolujte že jste zakodovali požadavky a použijte mostové uzly k přístupu na internet"
+
+msgctxt "NetworkPage"
+msgid "My ISP blocks connections to the Tor network"
+msgstr "Můj Provider blokuje připojení do Tor sítě"
+
+msgctxt "NetworkPage"
+msgid "Bridge Settings"
+msgstr "Nastavení mostu"
+
+msgctxt "NetworkPage"
+msgid "Add a Bridge:"
+msgstr "Přidej most:"
+
+msgctxt "NetworkPage"
+msgid "Remove the selected bridges from the list"
+msgstr "Odeber vybrané mosty ze seznamu"
+
+msgctxt "NetworkPage"
+msgid "Copy the selected bridges to the clipboard"
+msgstr "Zkopírujte vybrané mosty do schránky"
+
+msgctxt "NetworkPage"
+msgid "Find Bridges Now"
+msgstr "Najdi mosty teď"
+
+msgctxt "NetworkPage"
+msgid "<a href=\"bridges.finding\">How else can I find bridges?</a>"
+msgstr "<a href=\"bridges.finding\">Kde dál najdu mosty?</a>"
+
+msgctxt "NetworkPage"
+msgid "<a href=\"bridges.finding\">How can I find bridges?</a>"
+msgstr "<a href=\"bridges.finding\">Kde najdu mosty?</a>"
+
+msgctxt "NetworkPage"
+msgid ""
+"No new bridges are currently available. You can either wait a while and try "
+"again, or try another method of finding new bridges."
+msgstr "Nyní je k dispozici nový most. Můžete počkat a zkušet to za chvili, nebo přejít na jinou metodu jak si najít snoubenku."
+
+msgctxt "NetworkPage"
+msgid "Click Help to see other methods of finding new bridges."
+msgstr "Klikněte na nápovědu pro dalšé metody jak najít nové mosty"
+
+msgctxt "NetworkPage"
+msgid "Address:"
+msgstr "Adresa:"
+
+msgctxt "NetworkPage"
+msgid "Type:"
+msgstr "Typ:"
+
+msgctxt "NetworkPage"
+msgid "You must select the proxy type."
+msgstr "Musíte vybrat typ proxy"
+
+msgctxt "NetworkPage"
+msgid "SOCKS 4"
+msgstr "SOCKS 4"
+
+msgctxt "NetworkPage"
+msgid "SOCKS 5"
+msgstr "SOCKS 5"
+
+msgctxt "NetworkPage"
+msgid "HTTP"
+msgstr "HTTP"
+
+msgctxt "NetworkPage"
+msgid "HTTP / HTTPS"
+msgstr "HTTP / HTTPS"
+
+msgctxt "Policy"
+msgid "accept"
+msgstr "prijmout"
+
+msgctxt "Policy"
+msgid "reject"
+msgstr "odmítnout"
+
+msgctxt "RouterDescriptor"
+msgid "Online"
+msgstr "Online"
+
+msgctxt "RouterDescriptor"
+msgid "Hibernating"
+msgstr "Uspani"
+
+msgctxt "RouterDescriptor"
+msgid "Offline"
+msgstr "Offline"
+
+msgctxt "RouterDescriptorView"
+msgid "Location:"
+msgstr "Umisteni:"
+
+msgctxt "RouterDescriptorView"
+msgid "IP Address:"
+msgstr "IP Adresa:"
+
+msgctxt "RouterDescriptorView"
+msgid "Platform:"
+msgstr "Platforma:"
+
+msgctxt "RouterDescriptorView"
+msgid "Bandwidth:"
+msgstr "Sirka pasma:"
+
+msgctxt "RouterDescriptorView"
+msgid "Uptime:"
+msgstr "Uptime:"
+
+msgctxt "RouterDescriptorView"
+msgid "Last Updated:"
+msgstr "Aktualizovano naposled:"
+
+msgctxt "RouterDescriptorView"
+msgid "Copy"
+msgstr "Kopirovat"
+
+msgctxt "RouterInfoDialog"
+msgid "Hibernating"
+msgstr "Uspani"
+
+msgctxt "RouterInfoDialog"
+msgid "Online"
+msgstr "Online"
+
+msgctxt "RouterInfoDialog"
+msgid "Offline"
+msgstr "Offline"
+
+msgctxt "RouterInfoDialog"
+msgid "Unknown"
+msgstr "Nezname"
+
+msgctxt "RouterInfoDialog"
+msgid "Relay Details"
+msgstr "Detail uzlu"
+
+msgctxt "RouterInfoDialog"
+msgid "Summary"
+msgstr "Souhrn"
+
+msgctxt "RouterInfoDialog"
+msgid "Name:"
+msgstr "Prezdivka:"
+
+msgctxt "RouterInfoDialog"
+msgid "Status:"
+msgstr "Status"
+
+msgctxt "RouterInfoDialog"
+msgid "Location:"
+msgstr "Umisteni:"
+
+msgctxt "RouterInfoDialog"
+msgid "IP Address:"
+msgstr "IP Adresa:"
+
+msgctxt "RouterInfoDialog"
+msgid "Platform:"
+msgstr "Platforma:"
+
+msgctxt "RouterInfoDialog"
+msgid "Bandwidth:"
+msgstr "Sirka pasma:"
+
+msgctxt "RouterInfoDialog"
+msgid "Uptime:"
+msgstr "Uptime:"
+
+msgctxt "RouterInfoDialog"
+msgid "Contact:"
+msgstr "Kontaktni informace:"
+
+msgctxt "RouterInfoDialog"
+msgid "Last Updated:"
+msgstr "Aktualizovano naposled:"
+
+msgctxt "RouterInfoDialog"
+msgid "Descriptor"
+msgstr "Ukazatel"
+
+msgctxt "RouterListItem"
+msgid "Offline"
+msgstr "Offline"
+
+msgctxt "RouterListItem"
+msgid "Hibernating"
+msgstr "Usapni"
+
+msgctxt "RouterListItem"
+msgid "%1 KB/s"
+msgstr "%1 KB/s"
+
+msgctxt "RouterListWidget"
+msgid "Relay"
+msgstr "Uzel"
+
+msgctxt "RouterListWidget"
+msgid "Zoom to Relay"
+msgstr "Zvětšit uzel"
+
+msgctxt "RouterListWidget"
+msgid "%1 relays online"
+msgstr "%1 uzlů online"
+
+msgctxt "RouterListWidget"
+msgid "Copy"
+msgstr "Kopirovat"
+
+msgctxt "RouterListWidget"
+msgid "Nickname"
+msgstr "Přezdívka"
+
+msgctxt "RouterListWidget"
+msgid "Fingerprint"
+msgstr "Otisk prstu"
+
+msgctxt "ServerPage"
+msgid "Bridge Support Unavailable"
+msgstr "Nedostupná podpora uzlu"
+
+msgctxt "ServerPage"
+msgid ""
+"You have configured Tor to act as a bridge relay for censored users, but "
+"your version of Tor does not support bridges."
+msgstr "Nastavili jste Tor jako most pro uživatele postižené cenzurou, ale Vaše verze Toru nepodporuje mosty"
+
+msgctxt "ServerPage"
+msgid ""
+"Please upgrade your Tor software or configure Tor to act as a normal Tor "
+"relay."
+msgstr "Prosím upgradujte Váš Tor, nebo jej nastavte tak, aby se choval jako normální uzel"
+
+msgctxt "ServerPage"
+msgid "Your bridge relay is not running."
+msgstr "Váš most neběží"
+
+msgctxt "ServerPage"
+msgid "You must specify at least a relay nickname and port."
+msgstr "Musíte uvézt alespoň jméno uzlu a port"
+
+msgctxt "ServerPage"
+msgid "Run as a client only"
+msgstr "Pracovat pouze jako klient"
+
+msgctxt "ServerPage"
+msgid "Relay traffic for the Tor network"
+msgstr "Prenos dat pro sit Tor"
+
+msgctxt "ServerPage"
+msgid "Relay Port:"
+msgstr "Uzel portu"
+
+msgctxt "ServerPage"
+msgid "Enable to mirror the relay directory"
+msgstr "Poskytnout adresář uzlu ke stahování"
+
+msgctxt "ServerPage"
+msgid "Attempt to automatically configure port forwarding"
+msgstr "Zkouším automaticky nastavit přesněrování portů"
+
+msgctxt "ServerPage"
+msgid "Test"
+msgstr "Test"
+
+msgctxt "ServerPage"
+msgid "Show help topic on port forwarding"
+msgstr "Nápověda k přesměrování portů"
+
+msgctxt "ServerPage"
+msgid "Directory Port:"
+msgstr "Port Adresare:"
+
+msgctxt "ServerPage"
+msgid "Directory Port Number"
+msgstr "Cislo Portu Adresare:"
+
+msgctxt "ServerPage"
+msgid "Contact Info:"
+msgstr "Kontaktni informace:"
+
+msgctxt "ServerPage"
+msgid "Name of your relay"
+msgstr "Název Vašeho uzlu"
+
+msgctxt "ServerPage"
+msgid "Port on which users and other relays can communicate with your relay"
+msgstr "Port na kterém mohou uživatelé a jiné uzly komunikovat s Vaším uzlem"
+
+msgctxt "ServerPage"
+msgid "Nickname:"
+msgstr "Prezdivka:"
+
+msgctxt "ServerPage"
+msgid "Basic Settings"
+msgstr "Zakladni nastaveni"
+
+msgctxt "ServerPage"
+msgid ""
+"For Internet connections with fast download speed but slow upload, please "
+"list your upload speed here."
+msgstr "Pro pripojeni s rychlym downloadem ale pomalym uploadem zde nastav rychlost pro uploadu."
+
+msgctxt "ServerPage"
+msgid "Cable/DSL 256 Kbps"
+msgstr "Cable/DSL 256 Kbps"
+
+msgctxt "ServerPage"
+msgid "Cable/DSL 512 Kbps"
+msgstr "Cable/DSL 512 Kbps"
+
+msgctxt "ServerPage"
+msgid "Cable/DSL 768 Kbps"
+msgstr "Cable/DSL 768 Kbps"
+
+msgctxt "ServerPage"
+msgid "T1/Cable/DSL 1.5 Mbps"
+msgstr "T1/Cable/DSL 1.5 Mbps"
+
+msgctxt "ServerPage"
+msgid "> 1.5 Mbps"
+msgstr "> 1.5 Mbps"
+
+msgctxt "ServerPage"
+msgid "Custom"
+msgstr "Vlastni"
+
+msgctxt "ServerPage"
+msgid "Select the entry that most closely resembles your Internet connection"
+msgstr "Oznac hodnotu nejbliz tvemu internetovemu pripojeni."
+
+msgctxt "ServerPage"
+msgid "Show help topic on bandwidth rate limits"
+msgstr "Zobraz napovedu pro omezeni prutoku dat"
+
+msgctxt "ServerPage"
+msgid "Average Rate"
+msgstr "Prumer"
+
+msgctxt "ServerPage"
+msgid "Long-term average bandwidth limit"
+msgstr "Dlouhodoby prumer prutoku dat"
+
+msgctxt "ServerPage"
+msgid "KB/s"
+msgstr "KB/s"
+
+msgctxt "ServerPage"
+msgid "Maximum Rate"
+msgstr "Maximum"
+
+msgctxt "ServerPage"
+msgid "Peak bandwidth rate limit"
+msgstr "Spicka prutoku dat"
+
+msgctxt "ServerPage"
+msgid ""
+"Your maximum bandwidth rate must be greater than or equal to your average "
+"bandwidth rate. Both values must be at least 20 KB/s."
+msgstr "Tvoje maximalni prenosova kapacita musi byt vyssi nebo rovna prumerne. Obe hodnoty musi byt minimalne 20 KB/s (160kbps)."
+
+msgctxt "ServerPage"
+msgid "Bandwidth Limits"
+msgstr "Limity pro prenos dat"
+
+msgctxt "ServerPage"
+msgid "Ports 6660 - 6669 and 6697"
+msgstr "Porty 6660 - 6669 a 6697"
+
+msgctxt "ServerPage"
+msgid "Internet Relay Chat (IRC)"
+msgstr "Internet Relay Chat (IRC)"
+
+msgctxt "ServerPage"
+msgid "Ports 110, 143, 993 and 995"
+msgstr "Porty 110, 143, 993 a 995"
+
+msgctxt "ServerPage"
+msgid "Retrieve Mail (POP, IMAP)"
+msgstr "Povol Mail (POP, IMAP)"
+
+msgctxt "ServerPage"
+msgid "Ports unspecified by other checkboxes"
+msgstr "Porty nespecifikovane v nastaveni"
+
+msgctxt "ServerPage"
+msgid "Misc Other Services"
+msgstr "Ruzne dalsi sluzby"
+
+msgctxt "ServerPage"
+msgid "Ports 706, 1863, 5050, 5190, 5222, 5223, 8300 and 8888"
+msgstr "Porty 706, 1863, 5050, 5190, 5222, 8300 a 8888 {706, 1863, 5050, 5190, 5222, 5223, 8300 ?}"
+
+msgctxt "ServerPage"
+msgid "Instant Messaging (IM)"
+msgstr "Instant Messaging (IM)"
+
+msgctxt "ServerPage"
+msgid "Port 443"
+msgstr "Port 443"
+
+msgctxt "ServerPage"
+msgid "Secure Websites (SSL)"
+msgstr "Secure Websites (SSL)"
+
+msgctxt "ServerPage"
+msgid "Port 80"
+msgstr "Port 80"
+
+msgctxt "ServerPage"
+msgid "Websites"
+msgstr "Webove stranky"
+
+msgctxt "ServerPage"
+msgid "Show help topic on exit policies"
+msgstr "Ukaza napovedu pro provozni pravidla"
+
+msgctxt "ServerPage"
+msgid ""
+"What Internet resources should users be able to access from your relay?"
+msgstr "Jaké prostředky internetu zpřístupníte z Vašeho uzlu"
+
+msgctxt "ServerPage"
+msgid ""
+"Tor will still block some outgoing mail and file sharing applications by "
+"default to reduce spam and other abuse."
+msgstr "Tor bude nadále blokovat některé emaily a aplikace pro sdílení souborů, kvuli omezení spamu"
+
+msgctxt "ServerPage"
+msgid "Exit Policies"
+msgstr "Pravidla Provozu"
+
+msgctxt "ServerPage"
+msgid "Let others access your bridge by giving them this line:"
+msgstr "Umožněte ostatním sdílet Váš most. Poskytněte jim následující odkaz:"
+
+msgctxt "ServerPage"
+msgid ""
+"This is the identity of your bridge relay that you can give to other people"
+msgstr "Jedná se o označnčí Vašeho mostu, které můžete poskytnout ostatním"
+
+msgctxt "ServerPage"
+msgid "Copy your bridge relay's identity to the clipboard"
+msgstr "Zkopírujte Vaše označení do Schránky."
+
+msgctxt "ServerPage"
+msgid "No Recent Usage"
+msgstr "Momentálně bez vytížení"
+
+msgctxt "ServerPage"
+msgid "No clients have used your relay recently."
+msgstr "NV poslední době nikdo nevyužil Váš uzel"
+
+msgctxt "ServerPage"
+msgid ""
+"Leave your relay running so clients have a better chance of finding and "
+"using it."
+msgstr "Nechte Váš uzel puštěný, klienti pak budou snáze schopni ho najít a používat"
+
+msgctxt "ServerPage"
+msgid "Bridge History"
+msgstr "Histrorie Zaznamu"
+
+msgctxt "ServerPage"
+msgid "Vidalia was unable to retrieve your bridge's usage history."
+msgstr "Vidalia nelze pripojit k zaznamu udalosti Tor."
+
+msgctxt "ServerPage"
+msgid ""
+"Tor returned an improperly formatted response when Vidalia requested your "
+"bridge's usage history."
+msgstr "Tor navrátil nesprávně formátovanou odpověď Viladie, když se dotaovala na historii vyzužití mostu"
+
+msgctxt "ServerPage"
+msgid "The returned response was: %1"
+msgstr "Vrácená odpověď byla: %1"
+
+msgctxt "ServerPage"
+msgid "Help censored users reach the Tor network"
+msgstr "Pomožte uživatelům pod cenzurou připojit se do sítě Tor"
+
+msgctxt "ServerPage"
+msgid "<a href=\"#bridgeUsage\">Who has used my bridge?</a>"
+msgstr "<a href=\"#bridgeUsage\">Kdo použil můj most?</a>"
+
+msgctxt "ServerPage"
+msgid "<a href=\"#bridgeHelp\">What's this?</a>"
+msgstr "<a href=\"#bridgeHelp\">Co to je?</a>"
+
+msgctxt "ServerPage"
+msgid "Automatically distribute my bridge address"
+msgstr "Automatická distribuce adresy mého mostu"
+
+msgctxt "ServerPage"
+msgid "Mirror the Relay Directory"
+msgstr "Sdílet adresář uzlu"
+
+msgctxt "ServerPage"
+msgid ""
+"Email address at which you may be reached if there is a\n"
+"problem with your relay. You might also include your PGP or GPG fingerprint."
+msgstr "Email na kterém jste k zastižení kdyby se\nobjevili problémy s uzlem. Měli by jste také váš  PGP nebo GPG fingerprint."
+
+msgctxt "ServicePage"
+msgid "Error while trying to unpublish all services"
+msgstr "Chyba při odhlášení všech služeb"
+
+msgctxt "ServicePage"
+msgid ""
+"Please configure at least a service directory and a virtual port for each "
+"service you want to save. Remove the other ones."
+msgstr "Nastavte přinejmenším adresář služby a virtualní port pro každou službu, kterou chcete zachránit. Ostatní odstraňte."
+
+msgctxt "ServicePage"
+msgid "Error"
+msgstr "Chyba"
+
+msgctxt "ServicePage"
+msgid "Please select a Service."
+msgstr "Prosím vyberte službu"
+
+msgctxt "ServicePage"
+msgid "Select Service Directory"
+msgstr "Vyberte Adresář služby"
+
+msgctxt "ServicePage"
+msgid "Virtual Port may only contain valid port numbers [1..65535]."
+msgstr "Virtuální port smí obsahovat pouze platné šíslice."
+
+msgctxt "ServicePage"
+msgid "Target may only contain address:port, address, or port."
+msgstr "Cíl by měl obsahovat pouze adresu:port, adresu, nebo port"
+
+msgctxt "ServicePage"
+msgid "Directory already in use by another service."
+msgstr "Adresář již využívá jiná služba"
+
+msgctxt "ServicePage"
+msgid "Form"
+msgstr "Forma"
+
+msgctxt "ServicePage"
+msgid "Provided Hidden Services"
+msgstr "Poskytované skryté služby"
+
+msgctxt "ServicePage"
+msgid "Onion Address"
+msgstr "Cibulová adresa"
+
+msgctxt "ServicePage"
+msgid "Virtual Port"
+msgstr "Virtuální port"
+
+msgctxt "ServicePage"
+msgid "Target"
+msgstr "Cél"
+
+msgctxt "ServicePage"
+msgid "Directory Path"
+msgstr "Cesta k adresáři"
+
+msgctxt "ServicePage"
+msgid "Enabled"
+msgstr "Povoleno"
+
+msgctxt "ServicePage"
+msgid "Add new service to list"
+msgstr "Přidat do seznamu novou službu"
+
+msgctxt "ServicePage"
+msgid "Remove selected service from list"
+msgstr "Odebrat vybranou službu ze seznamu"
+
+msgctxt "ServicePage"
+msgid "Copy onion address of selected service to clipboard"
+msgstr "Kopírovat cibulová adresa vybrané služby do schránky"
+
+msgctxt "ServicePage"
+msgid "Browse in local file system and choose directory for selected service"
+msgstr "Projděte na lokálním disku soubory a vyberte adresář pro vybranou službu"
+
+msgctxt "ServicePage"
+msgid "Created by Tor"
+msgstr "Created by Tor"
+
+msgctxt "StatusEventWidget"
+msgid "Copy to Clipboard"
+msgstr "Kopírovat do schránky"
+
+msgctxt "StatusEventWidget"
+msgid "The Tor Software is Running"
+msgstr "Tor software běží"
+
+msgctxt "StatusEventWidget"
+msgid "You are currently running version \"%1\" of the Tor software."
+msgstr "Právě máte spuštěnou verzi  \"%1\"  tor softwaru"
+
+msgctxt "StatusEventWidget"
+msgid "The Tor Software is not Running"
+msgstr "Tor software neběží"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Click \"Start Tor\" in the Vidalia Control Panel to restart the Tor "
+"software. If Tor exited unexpectedly, select the \"Advanced\" tab above for "
+"details about any errors encountered."
+msgstr "Ve Vidalia Ovládacím panelu klikněte na \"Start Tor\" pro restartování softwaru. Pokud Tor skončil neočekávaně, klikněte na \"Pokročilé\"  a zobrazí se Vám informace o chybách"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"You are currently running version \"%1\" of the Tor software, which is no "
+"longer recommended. Please upgrade to the most recent version of the "
+"software, which may contain important security, reliability and performance "
+"fixes."
+msgstr "Právě používáte program Tor ve verzi \"%1\" . Tato verze již není podporována. Prosím upgradujte software pro získání důležitých oprav."
+
+msgctxt "StatusEventWidget"
+msgid ""
+"You are currently running version \"%1\" of the Tor software, which may no "
+"longer work with the current Tor network. Please upgrade to the most recent "
+"version of the software, which may contain important security, reliability "
+"and performance fixes."
+msgstr "Právě používáte program Tor ve verzi \"%1\" . Tato verze již není podporována. Prosím upgradujte software pro získání důležitých oprav."
+
+msgctxt "StatusEventWidget"
+msgid "Your Tor Software is Out-of-date"
+msgstr "Váš Tor software je zastaralý"
+
+msgctxt "StatusEventWidget"
+msgid "Connected to the Tor Network"
+msgstr "Připojeno do Sítě Tor"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"We were able to successfully establish a connection to the Tor network. You "
+"can now configure your applications to use the Internet anonymously."
+msgstr "Nyní se již můžeme připojit do sítě Tor. Nyní můžete nastavit Vaše aplikace pro anonymní používání internetu"
+
+msgctxt "StatusEventWidget"
+msgid "Tor Software Error"
+msgstr "Tor Software Error"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"The Tor software encountered an internal bug. Please report the following "
+"error message to the Tor developers at bugs.torproject.org: \"%1\""
+msgstr "Software Tor  našel interní chybu. Prosím odešlete básledující zprávu vývojářům na bugs.torproject.org: \"%1\""
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor has determined that your computer's clock may be set to %1 seconds in "
+"the past compared to the source \"%2\". If your clock is not correct, Tor "
+"will not be able to function. Please verify your computer displays the "
+"correct time."
+msgstr "Tor identifikoval, že vaše systémové hodiny jdou o %1 sekund opožděne oproti zdroji \"%2\". S nesprávně nastaveným časem nemůže Tor správně pracovat. Prosím ověřte správnost systémového času."
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor has determined that your computer's clock may be set to %1 seconds in "
+"the future compared to the source \"%2\". If your clock is not correct, Tor "
+"will not be able to function. Please verify your computer displays the "
+"correct time."
+msgstr "Tor identifikoval, že vaše systémové hodiny jdou o %1 sekund napřed oproti zdroji \"%2\". S nesprávně nastaveným časem nemůže Tor správně pracovat. Prosím ověřte správnost systémového času."
+
+msgctxt "StatusEventWidget"
+msgid "Your Computer's Clock is Potentially Incorrect"
+msgstr "Nesprávný systémový čas"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"One of the applications on your computer may have attempted to make an "
+"unencrypted connection through Tor to port %1. Sending unencrypted "
+"information over the Tor network is dangerous and not recommended. For your "
+"protection, Tor has automatically closed this connection."
+msgstr "Jedna z aplikací na Vašem počítači se pokusila o nezašifrovanou komunikaci na portu %1. Posílání nezašifrovaných informací sítí Tor je nebezpečné. Pro Vaši ochranu Tor automaticky uzavřel spojení."
+
+msgctxt "StatusEventWidget"
+msgid ""
+"One of the applications on your computer may have attempted to make an "
+"unencrypted connection through Tor to port %1. Sending unencrypted "
+"information over the Tor network is dangerous and not recommended."
+msgstr "Jedna z aplikací na Vašem počítači se pokusila o nezašifrovanou komunikaci na portu %1. Posílání nezašifrovaných informací sítí Tor je nebezpečné. Pro Vaši ochranu Tor automaticky uzavřel spojení."
+
+msgctxt "StatusEventWidget"
+msgid "Potentially Dangerous Connection!"
+msgstr "Potenciálně nebezpečné připojení!"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"One of your applications established a connection through Tor to \"%1\" "
+"using a protocol that may leak information about your destination. Please "
+"ensure you configure your applications to use only SOCKS4a or SOCKS5 with "
+"remote hostname resolution."
+msgstr "Jedna z Vašich aplikací navázala spojení přes Tor na  \"%1\" používajíc protokol, který by prozradil informace o Vaší poloze. Ujistěte se že jste nastavil Vaše aplikace aby používali pouze SOCKS4a nebo SOCKS5 se remote hostname resolution."
+
+msgctxt "StatusEventWidget"
+msgid "Unknown SOCKS Protocol"
+msgstr "Neznámý SOCKS protokol"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"One of your applications tried to establish a connection through Tor using a"
+" protocol that Tor does not understand. Please ensure you configure your "
+"applications to use only SOCKS4a or SOCKS5 with remote hostname resolution."
+msgstr "Jedna z Vašich aplikací navázala spojení přes Tor používajíc protokol, který Tor nezna. Ujistěte se že jste nastavil Vaše aplikace aby používali pouze SOCKS4a nebo SOCKS5 se remote hostname resolution."
+
+msgctxt "StatusEventWidget"
+msgid "Invalid Destination Hostname"
+msgstr "Neplatný název cílového serveru"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"One of your applications tried to establish a connection through Tor to "
+"\"%1\", which Tor does not recognize as a valid hostname. Please check your "
+"application's configuration."
+msgstr "Jedna z Vašich aplikací se pokouší spojit přes Tor na  \"%1\", jehož hostname nepovažuje Tor za platné. Prosím zkontrolujte nastavení Vaší aplikace."
+
+msgctxt "StatusEventWidget"
+msgid "External IP Address Changed"
+msgstr "Externí IP adresa se změnila"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor has determined your relay's public IP address is currently %1%2. If that"
+" is not correct, please consider setting the 'Address' option in your "
+"relay's configuration."
+msgstr "Tor určil Vaši veřejnou IP adresu na %1%2. Pokud to není správně, upravte hodnotu  'Adresa' v nastavení uzlu."
+
+msgctxt "StatusEventWidget"
+msgid "DNS Hijacking Detected"
+msgstr "Detekován DNS Hijacking"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor detected that your DNS provider is providing false responses for domains"
+" that do not exist. Some ISPs and other DNS providers, such as OpenDNS, are "
+"known to do this in order to display their own search or advertising pages."
+msgstr "Tor zaznamenal, že Váš DNS provider odesílá nesprávné odpovědi při hledání neexistujících domén. Někteří poskytovatelé DNS a internetu to dělají, aby uživateli podstrčili vlastní reklamy nebo vyhledávače."
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor detected that your DNS provider is providing false responses for well "
+"known domains. Since clients rely on Tor network relays to provide accurate "
+"DNS repsonses, your relay will not be configured as an exit relay."
+msgstr "Tor zaznamenal, že Váš DNS provider poskytuje nesprávné odpovědi u existujícíhc stránek. Vzhledem k tomu nebude Váš uzel nastaven jako výstupní."
+
+msgctxt "StatusEventWidget"
+msgid "Checking Server Port Reachability"
+msgstr "Kontrola dostupnosti portů"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor is trying to determine if your relay's server port is reachable from the"
+" Tor network by connecting to itself at %1:%2. This test could take several "
+"minutes."
+msgstr "Tor zkouší jestli je Váš uzel přístupný ze sítě Tor přihlášením sám sebe na %1:%2. Test může trvat několik minut."
+
+msgctxt "StatusEventWidget"
+msgid "Server Port Reachability Test Successful!"
+msgstr "Test dostupnosti portu úspěšně dokončen!"
+
+msgctxt "StatusEventWidget"
+msgid "Your relay's server port is reachable from the Tor network!"
+msgstr "Váš uzel je na svém portu přístupný ze sítě Tor!"
+
+msgctxt "StatusEventWidget"
+msgid "Server Port Reachability Test Failed"
+msgstr "Test přístupnosti portu serveru selhal"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Your relay's server port is not reachable by other Tor clients. This can "
+"happen if you are behind a router or firewall that requires you to set up "
+"port forwarding. If %1:%2 is not your correct IP address and server port, "
+"please check your relay's configuration."
+msgstr "Váš uzlový server není dostupný klientům ze sítě Tor. To může být pokud jste za routerem, nebo firewallem kvůli kterému je nutné porty přesměrovat. Pokud toto není Vaše IP adresa %1:%2 i a port serveru, zkontrolujte nastavení Vašeho uzlu"
+
+msgctxt "StatusEventWidget"
+msgid "Checking Directory Port Reachability"
+msgstr "Kontrola Dostupnosti adresářového portu"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor is trying to determine if your relay's directory port is reachable from "
+"the Tor network by connecting to itself at %1:%2. This test could take "
+"several minutes."
+msgstr "Tor zkouší jestli je Váš adresářový port na uzlu přístupný ze sítě Tor přihlášením sám sebe na %1:%2. Test může trvat několik minut."
+
+msgctxt "StatusEventWidget"
+msgid "Directory Port Reachability Test Successful!"
+msgstr "Test dostupnosti adresářového portu úspěšný!"
+
+msgctxt "StatusEventWidget"
+msgid "Your relay's directory port is reachable from the Tor network!"
+msgstr "Váš uzel je na svém adresářovém  portu přístupný ze sítě Tor!"
+
+msgctxt "StatusEventWidget"
+msgid "Directory Port Reachability Test Failed"
+msgstr "Test dostupnosti adresářového portů úspěšně dokončen!"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Your relay's directory port is not reachable by other Tor clients. This can "
+"happen if you are behind a router or firewall that requires you to set up "
+"port forwarding. If %1:%2 is not your correct IP address and directory port,"
+" please check your relay's configuration."
+msgstr "Váš adresářový port uzlu není dostupný klientům ze sítě Tor. To může být pokud jste za routerem, nebo firewallem kvůli kterému je nutné porty přesměrovat. Pokud toto není Vaše IP adresa %1:%2 i a port serveru, zkontrolujte nastavení Vašeho uzlu"
+
+msgctxt "StatusEventWidget"
+msgid "Relay Descriptor Rejected"
+msgstr "Odmítnut uzlový ukazatel"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Your relay's descriptor, which enables clients to connect to your relay, was"
+" rejected by the directory server at %1:%2. The reason given was: %3"
+msgstr "Váš ukazatel uzlu, který umožňuje klientům se na něj připojit, byl odmítnut adresářovým serverm na %1:%2. Uvedený důvod: %3"
+
+msgctxt "StatusEventWidget"
+msgid "Your Relay is Online"
+msgstr "Váš uzel je Online"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Your relay is now online and available for Tor clients to use. You should "
+"see an increase in network traffic shown by the Bandwidth Graph within a few"
+" hours as more clients learn about your relay. Thank you for contributing to"
+" the Tor network!"
+msgstr "Váš uzel je nyní online a dostupný pro klienty Toru. Za několik hodin dojde pravděpodobně k vyššímu vytížení v souvislosti s tím jak vás jednotlivé klienty postupně objevují. Děkujeme Vám za přispívání Tor síti"
+
+msgctxt "Stream"
+msgid "New"
+msgstr "Nove"
+
+msgctxt "Stream"
+msgid "Resolving"
+msgstr "Preklad"
+
+msgctxt "Stream"
+msgid "Connecting"
+msgstr "Pripojeni"
+
+msgctxt "Stream"
+msgid "Open"
+msgstr "Otevrit"
+
+msgctxt "Stream"
+msgid "Failed"
+msgstr "Selhani"
+
+msgctxt "Stream"
+msgid "Closed"
+msgstr "Zavrit"
+
+msgctxt "Stream"
+msgid "Retrying"
+msgstr "Opakovat"
+
+msgctxt "Stream"
+msgid "Remapped"
+msgstr "Přemapováno"
+
+msgctxt "Stream"
+msgid "Unknown"
+msgstr "Nezname"
+
+msgctxt "TorProcess"
+msgid "Process %1 failed to stop. [%2]"
+msgstr "Zastaveni procesu %1 selhalo. [%2]"
+
+msgctxt "TorService"
+msgid "The Tor service is not installed."
+msgstr "Tor neni instalovan jako servisni sluzba."
+
+msgctxt "TorService"
+msgid "Unable to start the Tor service."
+msgstr "Tor neni instalovan jako servis."
+
+msgctxt "TorSettings"
+msgid "Failed to hash the control password."
+msgstr "Chyba při hashování hesla"
+
+msgctxt "TorrcDialog"
+msgid "Editing torrc"
+msgstr "Uprava torrc"
+
+msgctxt "TorrcDialog"
+msgid ""
+"Save settings. If unchecked it will only apply settings to the current Tor "
+"instance."
+msgstr "Uložit nastavení. Pokud není zaškrtnuto, změny se projeví na právě běžící instance Toru"
+
+msgctxt "TorrcDialog"
+msgid "Cut"
+msgstr "Vyjmout"
+
+msgctxt "TorrcDialog"
+msgid "Copy"
+msgstr "Kopírovat"
+
+msgctxt "TorrcDialog"
+msgid "Paste"
+msgstr "Vložit"
+
+msgctxt "TorrcDialog"
+msgid "Undo"
+msgstr "Zpět"
+
+msgctxt "TorrcDialog"
+msgid "Redo"
+msgstr "Vpřed"
+
+msgctxt "TorrcDialog"
+msgid "Select All"
+msgstr "Označit vše"
+
+msgctxt "TorrcDialog"
+msgid "Apply all"
+msgstr "Použít vše"
+
+msgctxt "TorrcDialog"
+msgid "Apply selection only"
+msgstr "Použít poze označené"
+
+msgctxt "TorrcDialog"
+msgid "Error connecting to Tor"
+msgstr "Chyba připojování do Tor"
+
+msgctxt "TorrcDialog"
+msgid "Selection is empty. Please select some text, or check \"Apply all\""
+msgstr "Výběr je prázdný. Prosím vyberte nějaký text, nebo použijte \"Označit vše\""
+
+msgctxt "TorrcDialog"
+msgid "Error at line %1: \"%2\""
+msgstr "Chyba na řádce %1: \"%2\""
+
+msgctxt "TorrcDialog"
+msgid "Error"
+msgstr "Chyba"
+
+msgctxt "TorrcDialog"
+msgid "An error ocurred while opening torrc file"
+msgstr "Vyskytla se chyba při otevírání souboru torrc"
+
+msgctxt "UPNPControl"
+msgid "Success"
+msgstr "Úspěšně dokončeno"
+
+msgctxt "UPNPControl"
+msgid "No UPnP-enabled devices found"
+msgstr "Nenalezeno žádné UPnP zařízení"
+
+msgctxt "UPNPControl"
+msgid "No valid UPnP-enabled Internet gateway devices found"
+msgstr "Nenalzeno žádné UPnP zařízení pro přístup k internetu"
+
+msgctxt "UPNPControl"
+msgid "WSAStartup failed"
+msgstr "WSAStartup selhalo"
+
+msgctxt "UPNPControl"
+msgid "Failed to add a port mapping"
+msgstr "Selhal pokus přidat mapování portů"
+
+msgctxt "UPNPControl"
+msgid "Failed to retrieve a port mapping"
+msgstr "Selhalo obdržení mapování portů"
+
+msgctxt "UPNPControl"
+msgid "Failed to remove a port mapping"
+msgstr "Selhalo odstranění mapování portů"
+
+msgctxt "UPNPControl"
+msgid "Unknown error"
+msgstr "Neznámá chyba"
+
+msgctxt "UPNPTestDialog"
+msgid "Discovering UPnP-enabled devices"
+msgstr "Zjišťování UPnP zařízení"
+
+msgctxt "UPNPTestDialog"
+msgid "Updating directory port mapping"
+msgstr "Aktualizace mapování adresářového portu"
+
+msgctxt "UPNPTestDialog"
+msgid "Updating relay port mapping"
+msgstr "Aktualizace mapování portů uzlu"
+
+msgctxt "UPNPTestDialog"
+msgid "Test completed successfully!"
+msgstr "Test úspěšně skončen"
+
+msgctxt "UPNPTestDialog"
+msgid "Testing UPnP Support"
+msgstr "Testování podpory UPnP "
+
+msgctxt "UPNPTestDialog"
+msgid "Testing Universal Plug & Play Support"
+msgstr "Testování podpory Universal Plug & Play"
+
+msgctxt "UpdateProcess"
+msgid ""
+"Vidalia was unable to check for available software updates because it could "
+"not find '%1'."
+msgstr "Vidalia se nepodařilo zjistit přítomnost dostupných aktualizací, protože se nepodařilo nalézt '%1'."
+
+msgctxt "UpdateProcess"
+msgid ""
+"Vidalia was unable to check for available software updates because Tor's "
+"update process exited unexpectedly."
+msgstr "Vidalia se nepodařilo zjistit přítomnost dostupných aktualizací, protože proces Tor aktualizace skončil neočekávaně."
+
+msgctxt "UpdateProgressDialog"
+msgid "Checking for available updates..."
+msgstr "Kontroluji nové aktualizace"
+
+msgctxt "UpdateProgressDialog"
+msgid "Hide"
+msgstr "Schovat"
+
+msgctxt "UpdateProgressDialog"
+msgid "Downloading updates..."
+msgstr "Stahuji aktualizace..."
+
+msgctxt "UpdateProgressDialog"
+msgid "Installing updated software..."
+msgstr "Insatalace aktualizovaného software..."
+
+msgctxt "UpdateProgressDialog"
+msgid "Done! Your software is now up to date."
+msgstr "Hotovo! Váš software je aktuální!"
+
+msgctxt "UpdateProgressDialog"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "UpdateProgressDialog"
+msgid "Software Updates"
+msgstr "SW Aktualizace"
+
+msgctxt "UpdateProgressDialog"
+msgid "Checking for updates..."
+msgstr "Zjišťuji aktualizace"
+
+msgctxt "UpdateProgressDialog"
+msgid "Cancel"
+msgstr "Smaz"
+
+msgctxt "UpdatesAvailableDialog"
+msgid "Software Updates Available"
+msgstr "Dostupné SW aktualizace"
+
+msgctxt "UpdatesAvailableDialog"
+msgid "Remind Me Later"
+msgstr "Připomenout poději"
+
+msgctxt "UpdatesAvailableDialog"
+msgid "Install"
+msgstr "Instalace"
+
+msgctxt "UpdatesAvailableDialog"
+msgid "The following updated software packages are ready for installation:"
+msgstr "Následující aktualizované SW balíčky jsou připraveny k instalaci"
+
+msgctxt "UpdatesAvailableDialog"
+msgid "Package"
+msgstr "Backspace"
+
+msgctxt "UpdatesAvailableDialog"
+msgid "Version"
+msgstr "Verze"
+
+msgctxt "VMessageBox"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "VMessageBox"
+msgid "Cancel"
+msgstr "Zrus"
+
+msgctxt "VMessageBox"
+msgid "Yes"
+msgstr "Ano"
+
+msgctxt "VMessageBox"
+msgid "No"
+msgstr "Ne"
+
+msgctxt "VMessageBox"
+msgid "Help"
+msgstr "Napoveda"
+
+msgctxt "VMessageBox"
+msgid "Retry"
+msgstr "Opakovat"
+
+msgctxt "VMessageBox"
+msgid "Show Log"
+msgstr "Ukaz zaznam"
+
+msgctxt "VMessageBox"
+msgid "Show Settings"
+msgstr "Ukaz nastaveni"
+
+msgctxt "VMessageBox"
+msgid "Continue"
+msgstr "Pokracovat"
+
+msgctxt "VMessageBox"
+msgid "Quit"
+msgstr "Ukoncit"
+
+msgctxt "VMessageBox"
+msgid "Browse"
+msgstr "Prochazet"
+
+msgctxt "Vidalia"
+msgid "Invalid Argument"
+msgstr "Neplatny Argument"
+
+msgctxt "Vidalia"
+msgid "Vidalia is already running"
+msgstr "Vidalia je spustena"
+
+msgctxt "Vidalia"
+msgid "Displays this usage message and exits."
+msgstr "Zobrazi toto oznameni a ukonci se."
+
+msgctxt "Vidalia"
+msgid "Resets ALL stored Vidalia settings."
+msgstr "Resetuj vechna nastaveni Vidalia."
+
+msgctxt "Vidalia"
+msgid "Sets the directory Vidalia uses for data files."
+msgstr "Nastav slozku pro data uzivatelu Vidalia."
+
+msgctxt "Vidalia"
+msgid "Sets the name and location of Vidalia's pidfile."
+msgstr "Nastav nazev a umisteni pidfile Vidalia."
+
+msgctxt "Vidalia"
+msgid "Sets the name and location of Vidalia's logfile."
+msgstr "Nastav nazev a umisteni zaznamu Vidalia."
+
+msgctxt "Vidalia"
+msgid "Sets the verbosity of Vidalia's logging."
+msgstr "Nastav upovidanost zaznamu Vidalia."
+
+msgctxt "Vidalia"
+msgid "Sets Vidalia's interface style."
+msgstr "Nastav vzhled aplikace."
+
+msgctxt "Vidalia"
+msgid "Sets Vidalia's language."
+msgstr "Nastav jazyk Vidalia."
+
+msgctxt "Vidalia"
+msgid "Vidalia Usage Information"
+msgstr "Informace o pouzivani Vidalia"
+
+msgctxt "Vidalia"
+msgid "Unable to open log file '%1': %2"
+msgstr "Nemohu otevrit soubor zaznamu '%1': %2"
+
+msgctxt "Vidalia"
+msgid "Value required for parameter :"
+msgstr "Parametr vyžaduje hodnotu:"
+
+msgctxt "Vidalia"
+msgid "Invalid language code specified:"
+msgstr "Neplatný kód jazyka"
+
+msgctxt "Vidalia"
+msgid "Invalid GUI style specified:"
+msgstr "Neplatná specifikace stylu GUI"
+
+msgctxt "Vidalia"
+msgid "Invalid log level specified:"
+msgstr "Neplatná úroveň logu"
+
+msgctxt "Vidalia"
+msgid ""
+"Another Vidalia process is possibly already running. If there really is not another Vidalia process running, you can choose to continue anyway.\n"
+"\n"
+"Would you like to continue starting Vidalia?"
+msgstr "Je možné že již běží jiný proces Vidalia. Pokud skutečně žádný další proces Vidalia neběží můžete pokračovat dál.\n\nPřejete si dále spoštět Vidaliu?"
+
+msgctxt "stringutil.h"
+msgid "%1 secs"
+msgstr "%1 sekund"
+
+msgctxt "stringutil.h"
+msgid "%1 B/s"
+msgstr "%1 B/s"
+
+msgctxt "stringutil.h"
+msgid "%1 KB/s"
+msgstr "%1 KB/s"
+
+msgctxt "stringutil.h"
+msgid "%1 MB/s"
+msgstr "%1 MB/s"
+
+msgctxt "stringutil.h"
+msgid "%1 GB/s"
+msgstr "%1 GB/s"
+
+msgctxt "stringutil.h"
+msgid "%1 days"
+msgstr "%1 dnů"
+
+msgctxt "stringutil.h"
+msgid "%1 hours"
+msgstr "%1 hodin"
+
+msgctxt "stringutil.h"
+msgid "%1 mins"
+msgstr "%1 min"

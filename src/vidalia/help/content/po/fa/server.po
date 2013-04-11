@@ -1,0 +1,523 @@
+# 
+#   $Id$
+# 
+#   This file is part of Vidalia, and is subject to the license terms in
+#   the LICENSE file, found in the top level directory of this
+#   distribution. If you did not receive the LICENSE file with this
+#   file, you may obtain it from the Vidalia source package distributed
+#   by the Vidalia Project at http://www.torproject.org/projects/vidalia.html.
+#   No part of Vidalia, including this file, may be copied, modified,
+#   propagated, or distributed except according to the terms described
+#   in the LICENSE file.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-06-26 17:00+0200\n"
+"PO-Revision-Date: 2010-09-25 16:46+0200\n"
+"Last-Translator: Ghazal <nevisht@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.0.5\n"
+
+#. type: Content of: <html><body><h1>
+#: en/server.html:16
+msgid "Setting Up a Tor Relay"
+msgstr "راه اندازی بازپخش Tor"
+
+#. type: Content of: <html><body>
+#: en/server.html:19
+msgid ""
+"The Tor network is made up of volunteers all over the world who donate some "
+"of their spare bandwidth by running a Tor relay. Vidalia helps you do your "
+"part by making it easy to set up a relay of your own.  <a name=\"basic\"/>"
+msgstr ""
+"این شبکه با همکاری داوطلبانه افرادی در سراسر جهان، که بخشی از پهنای نوار خود "
+"را، با فعال سازی بازپخش Tor اهدا می کنند، تشکیل شده است. Vidalia با آسان "
+"نمودن مراحل راه اندازی، امکان می دهد که شما هم سهم خود را ادا کنید. "
+
+#. type: Content of: <html><body><h3>
+#: en/server.html:24
+msgid "Basic Settings"
+msgstr "تنظیمات پایه"
+
+#. type: Content of: <html><body><p>
+#: en/server.html:26
+msgid ""
+"If you decide you want to help the Tor network grow by running a relay, you "
+"can follow these steps to get started:"
+msgstr ""
+"اگر مایلید شما نیز با راه اندازی یک بازپخش به رشد و گسترش شبکه Tor  یاری "
+"کنید، برای شروع این مراحل را گام به گام اجرا کنید."
+
+#. type: Content of: <html><body><ol><li>
+#: en/server.html:31
+msgid ""
+"Open the <i>Configuration Dialog</i> by selecting <i>Settings</i> from the "
+"tray menu or <i>Preferences</i> from your system menubar on Macintosh "
+"systems."
+msgstr ""
+"<i>تنظیمات گفتگو</i> را با انتخاب <i> تنظیمات </i> از لیست منیو و یا از "
+"<i>گزینه ها</i> از نوار منیو در سیستم مکینتاش، باز کنید. "
+
+#. type: Content of: <html><body><ol><li>
+#: en/server.html:35
+msgid "Select the <i>Relay</i> configuration page."
+msgstr "<i> بازپخش</i> را در صفحه تنظیمات انتخاب کنید. "
+
+#. type: Content of: <html><body><ol><li>
+#: en/server.html:37
+msgid ""
+"Decide whether you want to run a normal Tor relay or a <i>bridge</i> relay "
+"(Tor 0.2.0.8-alpha or newer). Bridge relays help censored Tor users who are "
+"blocked from accessing the Tor network directly.  Check the box labeled "
+"<i>Relay traffic for the Tor network</i> if you want to run a normal Tor "
+"relay or <i>Help censored users reach the Tor network</i> if you want to run "
+"a bridge relay."
+msgstr ""
+"تصمیم بگیرید که مایلید بازپخش Tor معمولی را فعال کنید یا بازپخش <i>پل</i>، "
+"یعنی Tor معمولی یا ورژن جدیدتر آن. بازپخش های پل به کاربرهای سانسورشده Tor "
+"که راه دسترسشان به شبکه Tor مستقیمن مسدود شده کمک می کنند. اگر مایلید که Tor "
+"معمولی را فعال کنید، مربع مارک <i> ترافیک بازپخش برای شبکه تَر </i>  را تیک "
+"بزنید. اگر مایل هستید بازپخش معمولی Tor را فعال کنید و اگر می خواهید که یک "
+"بازپخش پل فعال کنید <i>کمک به کاربرها برای دسترسی به شبکه تُر</i> را انتخاب "
+"کنید."
+
+#. type: Content of: <html><body><ol><li>
+#: en/server.html:44
+msgid "Enter the following information:"
+msgstr "اطلاعات زیر را وارد کنید:"
+
+#. type: Content of: <html><body><ol><ul><li>
+#: en/server.html:46
+msgid ""
+"<b>Nickname</b>: The name which your relay will be known as on the Tor "
+"network. An example of a relay nickname is \"MyVidaliaRelay\"."
+msgstr ""
+"<b>اسم مستعار</b>: نامی است که بازپخش شما در شبکه Tor به آن نام شناخته می "
+"شود. نمونه ای از نام مستعار بازپخش، \"بازپخش ویدالیای من\" (\"MyVidaliaRelay\")."
+
+#. type: Content of: <html><body><ol><ul><li>
+#: en/server.html:50
+msgid ""
+"<b>Contact Info</b>: Your e-mail address. This address will only be used to "
+"contact you in case there is an important Tor security update or something "
+"goes wrong with your relay. You might also include your PGP or GPG key ID "
+"and fingerprint."
+msgstr ""
+"<b>اطلاعات تماس</b>: آدرس ایمیل شما. این آدرس فقط برای تماس با شما در صورتی "
+"که یک بروزرسانی امنیتی ضرورت پیدا کند و یا بازپخش شما دچار اشکال شود، "
+"استفاده می شود. همچنین می توانید رمز شناسایی و انگشت نگاری PGP و یا GPG را "
+"وارد کنید. "
+
+#. type: Content of: <html><body><ol><ul><li>
+#: en/server.html:56
+msgid ""
+"<b>Relay Port</b>: The port on which your relay will listen for traffic from "
+"clients or other Tor relays."
+msgstr ""
+"<b>درگاه بازپخش</b>: درگاهی که از آن بازپخش شما به ترافیک کاربران و یا "
+"بازپخش های دیگر Tor گوش می دهد. "
+
+#. type: Content of: <html><body><ol><li>
+#: en/server.html:62
+msgid ""
+"If you would like to mirror Tor's directory of relays for others on the "
+"network you can check the box labeled <i>Mirror the Relay Directory</i>.  If "
+"you do not have much bandwidth, uncheck this box. If you do decide to mirror "
+"the relay directory, make sure the <i>Directory Port</i> is different than "
+"the <i>Relay port</i> you entered above. Bridge relays <i>must</i> mirror "
+"the relay directory."
+msgstr ""
+"اگر مایلید فهرست بازپخش های Tor را برای دیگران بر روی شبکه منعکس کنید می "
+"توانید مربع مجاور <i>فهرست بازپخش را منعکس کن</i> را تیک بزنید. اگر پهنای "
+"نوار شما کافی نیست، این مربع را خالی بگذارید. اگر تصمیم گرفتید که فهرست "
+"بازپخش را منعکس کنید، مطمئن شوید که <i>درگاه فهرست</i> از <i>درگاه "
+"بازپخش</i> که در بالا وارد کردید، متفاوت است. پل های بازپخش <i>می بایست</i> "
+"فهرست بازپخش را منعکس کنند.  "
+
+#. type: Content of: <html><body>
+#: en/server.html:71
+msgid "<a name=\"bandwidth\"/>"
+msgstr "<یک نام=\"پهنای نوار\"/>"
+
+#. type: Content of: <html><body><h3>
+#: en/server.html:72
+msgid "Bandwidth Limits"
+msgstr "حد پهنای نوار"
+
+#. type: Content of: <html><body><p>
+#: en/server.html:74
+msgid ""
+"Running a Tor relay can consume a large amount of bandwidth; however, Tor "
+"allows you to limit the amount of bandwidth that you are willing to "
+"contribute to the Tor network. You can run a relay, while still keeping your "
+"network connection usable for your own use."
+msgstr ""
+"فعال سازی بازپخش Tor بخش عظیمی از پهنای نوار را اشغال می کند، با این وجود، "
+"Tor این امکان را ایجاد می کند که شما مقدار پهنای نواری که مایلید به شبکه Tor "
+"اهدا کنید را محدود کنید. می توانید همزمان که یک بازپخش را فعال می کنید، "
+"ارتباط با شبکه را برای استفاده خصوصی خود حفظ کنید."
+
+#. type: Content of: <html><body><p>
+#: en/server.html:80
+msgid ""
+"You should select the option in the dropdown box that best matches your "
+"connection speed. If you select <i>Custom</i>, you will be able to specify "
+"your own limits."
+msgstr ""
+"می بایست گزینه ای که بیش از همه با سرعت اتصال شما هماهنگ است را در منوی "
+"کرکره ای (dropdown menu) تیک بزنید. اگر <i>سلیقه</i> را انتخاب کرده اید، می "
+"توانید خودتان تعیین کنید که چه حدی به کار شما می آید."
+
+#. type: Content of: <html><body><h4>
+#: en/server.html:84
+msgid "Custom Limits"
+msgstr "محدودیت های خودساخته"
+
+#. type: Content of: <html><body><p>
+#: en/server.html:86
+msgid ""
+"The <i>maximum rate</i> is a pool of bytes used to fulfill requests during "
+"short periods of traffic higher than your specified <i>average rate</i>, but "
+"still maintains the average over a long period. A low average rate but a "
+"high maximum rate enforces a long-term average while still allowing more "
+"traffic during peak times if the average hasn't been reached lately. If your "
+"average rate is the same as your <i>maximum rate</i>, then Tor will never "
+"exceed the specified rate. Your <i>maximum rate</i> must always be greater "
+"than or equal to your <i>average rate</i>."
+msgstr ""
+"<i>نرخ حداکثری</i> مخزنی از بایت است که در دوره های کوتاه ترافیک بالا که بیش "
+"از ظرفتی است که در<i>نرخ متوسط</i> تعیین کرده اید، به عنوان نیروی کمکی عمل "
+"می کند، اما در دراز مدت همچنان متوسط می ماند. یک نرخ متوسط نازل، همراه با "
+"نرخ حداکثری بالا، در دراز مدت نرخ متوسط را تقویت می کند و همزمان در ساعات "
+"شلوغ، امکان ترافیک شدیدتر را، در صورتی که ظرفیت متوسط به طور کامل مصرف نشده "
+"باشد، ایجاد می کند. اگر نرخ متوسط شما با<i>نرخ حداکثری</i> شما یکسان است، در "
+"این صورت Tor هیچ وقت از نرخی که تعیین کرده اید، تجاوز نمی کند. <i>نرخ "
+"حداکثری</i> شما می بایست از <i>نرخ متوسط</i> بیشتر یا همسان باشد. "
+
+#. type: Content of: <html><body><p>
+#: en/server.html:96
+msgid ""
+"The <i>average rate</i> is the maximum long-term average bandwidth allowed "
+"(in kilobytes per second). For example, you might want to choose 2 megabytes "
+"per second (2048 KB/s), or 50 kilobytes per second (a medium-speed cable "
+"connection). Tor requires a minimum of 20 kilobytes per second to run a "
+"relay."
+msgstr ""
+"<i>نرخ متوسط</i> حداکثر پهنای نواری با نرخ متوسط است که برای مصرف دراز مدت "
+"(کیلوبایت در ثانیه) مجاز است. برای نمونه، ممکن است گزینه 2 مگابایت در ثانیه "
+"(2048 KB/s) و یا 50 کیلوبایت در ثانیه (اتصال کیبلی سرعت متوسط) را انتخاب "
+"کنید. Tor به 20 کیلوبایت در ثانیه نیاز دارد تا بازپخش را فعال کند."
+
+#. type: Content of: <html><body><p>
+#: en/server.html:103
+msgid ""
+"It is important to remember that Tor measures bandwidth in <b>bytes</b>, not "
+"bits. Also, Tor only looks at incoming bytes instead of outgoing bytes. For "
+"example, if your relay acts as a directory mirror, you may be sending more "
+"outgoing bytes than incoming. If you find this is the case and is putting "
+"too much strain on your bandwidth, you should consider unchecking the "
+"checkbox labeled <i>Mirror the relay directory</i>."
+msgstr ""
+"نکته با اهمیتی که باید به خاطر داشت آن است که Tor پهنای نوار را <b>بایت</b> "
+" اندازه می گیرد نه با بیت (bits). همچنین، Tor تنها به بایت های ورودی توجه "
+"می کند نه بایت های خروجی. برای مثال اگر بازپخش شما به عنوان منعکس کننده "
+"فهرست عمل می کنند، امکان دارد بایت های خروجی شما بیشتر از بایت های ورودی شما "
+"باشد. اگر اینطور باشد و فشار زیادی بر پهنای نوار شما وارد کند، بهتر است چک "
+"باکس <i>فهرست را منعکس کن</i> تیک نزنید."
+
+#. type: Content of: <html><body>
+#: en/server.html:111
+msgid "<a name=\"exitpolicy\"/>"
+msgstr "<یک اسم=\"مقررات خروج\"/>"
+
+#. type: Content of: <html><body><h3>
+#: en/server.html:112
+msgid "Exit Policies"
+msgstr "مقررات خروج"
+
+#. type: Content of: <html><body><p>
+#: en/server.html:114
+msgid ""
+"Exit policies give you a way to specify what kinds of resources on the "
+"Internet you are willing let other Tor users access from your Tor relay.  "
+"Tor uses a default list of exit policies that restrict some services, such "
+"as mail to prevent spam and some default file sharing ports to reduce abuse "
+"of the Tor network."
+msgstr ""
+"مقررات خروج به شما امکان می دهد تعیین کنید  دیگر کاربران Tor از کدام منابع "
+"اینترنتی شما مجازند استفاده کنند. Tor یک لیست پیشفرض از مقررات خروج، که "
+"استفاده بعضی از سرویس ها نظیر ایمیل، برای جلوگیری از ارسال هرزنامه، و چند "
+"درگاه اشتراک فایل پیشفرض شده، برای جلوگیری از سوء استفاده خلاف از شبکه Tor "
+"را مسدود می کند. "
+
+#. type: Content of: <html><body><p>
+#: en/server.html:121
+msgid ""
+"Each of the checkboxes represents a type of resource that you can allow Tor "
+"users to access through your relay. If you uncheck the box next to a "
+"particular type of resource, Tor users will not be allowed to access that "
+"resource from your relay. If the box labeled <i>Misc Other Services</i> is "
+"checked, Tor users will be able to access other services not covered by the "
+"other checkboxes or Tor's default exit policy."
+msgstr ""
+"هر چک باکس مربوط به یک نوع از منابعی است که شما می توانید به کاربران Tor "
+"اجازه بدهید از طریق آن به بازپخش شما دسترسی پیدا کنند. اگر چک باکس کنار یک "
+"منبع را تیک نزنید، کاربران Tor مجاز به دسترسی به آن منبع از طریق بازپخش شما "
+"نخواهند بود. اگر باکس <i>Misc Other Services</i> تیک شده باشد، کاربران Tor "
+"قادر خواهند بود به دیگر سرویس هایی که شامل چک باکس های دیگر و یا مقررات خروج "
+"پیشفرض شده Tor نمی شوند، دسترس داشته باشند. "
+
+#. type: Content of: <html><body><p>
+#: en/server.html:130
+msgid ""
+"For completeness, the following table lists the specific port numbers "
+"represented by each of the exit policy checkboxes. The <b>Description</b> "
+"column describes the resources Tor clients will be allowed to access through "
+"your relay, if the associated box is checked."
+msgstr ""
+"برای تکمیل، جدول زیر، لیستی از شماره درگاه های معین با چک باکس مربوط به آن "
+"درگاه به دست می دهد. ستون<b>شرح</b> منابعی را معین می کند که کاربران Tor "
+"مجاز خواهند بود از طریق بازپخش شما به آن دسترسی یابند، اگر باکس مربوط تیک "
+"خورده باشد. "
+
+#. type: Content of: <html><body><table><tr><td>
+#: en/server.html:138
+msgid "<b>Checkbox</b>"
+msgstr "<b>چک باکس</b>"
+
+#. type: Content of: <html><body><table><tr><td>
+#: en/server.html:139
+msgid "<b>Ports</b>"
+msgstr "<b>درگاه ها</b>"
+
+#. type: Content of: <html><body><table><tr><td>
+#: en/server.html:140
+msgid "<b>Description</b>"
+msgstr "<b>شرح</b>"
+
+#. type: Content of: <html><body><table><tr><td>
+#: en/server.html:143
+msgid "Websites"
+msgstr "وبسایت ها"
+
+#. type: Content of: <html><body><table><tr><td>
+#: en/server.html:144
+msgid "80"
+msgstr "80"
+
+#. type: Content of: <html><body><table><tr><td>
+#: en/server.html:145
+msgid "Normal, unencrypted Web browsing"
+msgstr "مرور وب نرمال و رمزبندی نشده"
+
+#. type: Content of: <html><body><table><tr><td>
+#: en/server.html:148
+msgid "Secure Websites (SSL)"
+msgstr "وبسایت های امن (SSL)"
+
+#. type: Content of: <html><body><table><tr><td>
+#: en/server.html:149
+msgid "443"
+msgstr "443"
+
+#. type: Content of: <html><body><table><tr><td>
+#: en/server.html:150
+msgid "Encrypted Web browsing"
+msgstr "مرور وب رمزبندی شده"
+
+#. type: Content of: <html><body><table><tr><td>
+#: en/server.html:153
+msgid "Retrieve Mail (POP, IMAP)"
+msgstr "بازیابی ارسالات (POP , IMAP)"
+
+#. type: Content of: <html><body><table><tr><td>
+#: en/server.html:154
+msgid "110, 143, 993, 995"
+msgstr "995, 993, 143, 110"
+
+#. type: Content of: <html><body><table><tr><td>
+#: en/server.html:155
+msgid "Downloading email (does not permit sending email)"
+msgstr "بارگیری ایمیل (اجازه ارسال ایمیل نمی دهد)"
+
+#. type: Content of: <html><body><table><tr><td>
+#: en/server.html:158
+msgid "Instant Messaging (IM)"
+msgstr "ارسال فوری پیام"
+
+#. type: Content of: <html><body><table><tr><td>
+#: en/server.html:159
+msgid "703, 1863, 5050, 5190, 5222, 5223, 8300, 8888"
+msgstr "703،1863،5050،5190،5222،5223،8300،8888"
+
+#. type: Content of: <html><body><table><tr><td>
+#: en/server.html:160
+msgid "Instant messaging applications like MSN Messenger, AIM, ICQ, and Jabber"
+msgstr ""
+"برنامه های ارسال فوری پیام نظیر ام اس ان مسنجر، ای آی ام، آی سی کیو، و جابر"
+
+#. type: Content of: <html><body><table><tr><td>
+#: en/server.html:163
+msgid "Internet Relay Chat (IRC)"
+msgstr "چت بازپخش اینترنتی (IRC)"
+
+#. type: Content of: <html><body><table><tr><td>
+#: en/server.html:164
+msgid "6660-6669, 6697, 7000-7001"
+msgstr "6660-6669, 6697, 7000-7001"
+
+#. type: Content of: <html><body><table><tr><td>
+#: en/server.html:165
+msgid "IRC clients and servers"
+msgstr "کاربران و سرویسدهندگان آی آر سی"
+
+#. type: Content of: <html><body><table><tr><td>
+#: en/server.html:168
+msgid "Misc. Other Services"
+msgstr "دیگر سرویس های متفرقه"
+
+#. type: Content of: <html><body><table><tr><td>
+#: en/server.html:169
+msgid "*"
+msgstr "*"
+
+#. type: Content of: <html><body><table><tr><td>
+#: en/server.html:170
+msgid "All other applications that aren't covered by the previous checkboxes"
+msgstr "تمامی دیگر برنامه های کاربردی که شامل چک باکس های پیشین نمی شوند."
+
+#. type: Content of: <html><body><p>
+#: en/server.html:175
+msgid ""
+"If you do not want to let other Tor users make connections outside the Tor "
+"network from your relay, you can uncheck all of the checkboxes. Even if you "
+"uncheck all of the checkboxes, your relay is still useful to the Tor "
+"network.  Your relay will allow other Tor users to connect to the Tor "
+"network and will help relay traffic between other Tor relays."
+msgstr ""
+"اگر مایل نیستید دیگر کاربران Tor از طریق بازپخش شما با خارج از شبکه Tor در "
+"ارتباط باشند، هیچکدام از چک باکس ها را تیک نزنید. حتی اگر هیچ کدام از چک "
+"باکس ها را تیک نزنید، بازپخش شما همچنان برای شبکه Tor سودمند خواهد بود. "
+"بازپخش شما به دیگر کاربران Tor امکان می دهد که به شبکه Tor متصل شوند و نیز "
+"به بازپخش ترافیک میان دیگر بازپخش های Tor کمک می کند. "
+
+#. type: Content of: <html><body><p>
+#: en/server.html:182
+msgid ""
+"If you chose to run a bridge relay, the <i>Exit Policies</i> tab will be "
+"grayed out, since bridge relays do not allow exit connections. Bridges are "
+"only used by Tor clients to connect to the Tor network."
+msgstr ""
+"اگر تصمیم گرفتید یک پل بازپخش فعال کنید، کلید <i>مقررات خروج</i> خاکستری می "
+"شود، و پل های بازپخش اجازه ارتباطات خروجی را نمی دهند. پل ها تنها توسط "
+"مشتریان Tor برای اتصال به شبکه Tor استفاده می شود. "
+
+#. type: Content of: <html><body>
+#: en/server.html:188
+msgid "<a name=\"upnp\"/>"
+msgstr "<a name=\"upnp\"/>"
+
+#. type: Content of: <html><body><h3>
+#: en/server.html:189
+msgid "Port Forwarding"
+msgstr "ارسال درگاه"
+
+#. type: Content of: <html><body><p>
+#: en/server.html:191
+msgid ""
+"Many home users connect to the Internet via a <i>router</i>, which allows "
+"multiple computers on a local network to share the same Internet "
+"connection.  Some users may also be behind a <i>firewall</i> that blocks "
+"incoming connections to your computer from other computers on the Internet.  "
+"If you want to run a Tor relay, however, other Tor clients and relays must "
+"be able to connect to your relay through your home router or firewall."
+msgstr ""
+"بسیاری از کاربران خانگی از طریق <i>router</i> به اینترنت وصل می شوند که به "
+"همزمان به چندین کامپیوتر اجازه میدهد که از یک اتصال اینترنتی واحد استفاده "
+"کنند. بعضی از کاربران ممکن است توسط <i>firewall</i> که اتصال ورودی به "
+"کامپیوتر شما از طریق دیگر کامپیوترهای آنلاین را مسدود می کند. اگر می خواهید "
+"بازپخش Tor را فعال کنید دیگر کارکنان و مشتریان  Tor و بازپخش ها می بایست "
+"مجاز باشند از طریق router خانگی و یا firewall به بازپخش شما متصل شوند"
+
+#. type: Content of: <html><body><p>
+#: en/server.html:200
+msgid ""
+"To make your relay publicly accessible, your router or firewall needs to "
+"know which ports to allow through to your computer by setting up what is "
+"known as <i>port forwarding</i>. Port forwarding configures your router or "
+"firewall to \"forward\" all connections to certain ports on your router or "
+"firewall to local ports on your computer."
+msgstr ""
+"اگر بخواهید بازپخش خود را در دسترس عموم قرار دهید می بایست <i>port "
+"forwarding</i>(ارسال درگاه) را راه اندازی کنید تا router یا firewall شما "
+"بداند کدام درگاه ها مجاز به ورود از طریق کامپیوتر شما هستند. ارسال "
+"درگاهrouter یا firewall تنظیم می کند تا تمامی اتصال درگاه های معین router و "
+"یا firewall را به درگاه های محلی کامپیوتر شما \"ارسال\" کند."
+
+#. type: Content of: <html><body><p>
+#: en/server.html:208
+msgid ""
+"If you check the box labeled <i>Attempt to automatically configure port "
+"forwarding</i>, Vidalia will attempt to automatically set up port forwarding "
+"on your local network connection so that other Tor clients can connect to "
+"your relay. Not all routers support automatic port forwarding, though. You "
+"can use the <i>Test</i> button next to the checkbox to find out if Vidalia "
+"is able to automatically set up port forwarding for you."
+msgstr ""
+" اگر باکس <i> اقدام به تنظیم اتوماتیک ارسال درگاه</i> را تیک بزنید، Vidalia "
+"اقدام به راه اندازی اتوماتیک ارسال پورت بر روی شبکه اتصال محلی شما می کند تا "
+"دیگر کاربران Tor بتوانند به بازپخش شما متصل شوند. می توانید دکمه "
+"<i>Test</i> کنار چک باکس را بزنید تا ببینید آیا Vidalia می تواند به طور "
+"اتوماتیک برای شما ارسال درگاه را راه اندازی کند یا نه."
+
+#. type: Content of: <html><body><p>
+#: en/server.html:217
+msgid ""
+"If the <i>Test</i> button finds that Vidalia is unable to set up port "
+"forwarding for you, you may need to enable this feature on your router or "
+"set up port forwarding manually. Some network devices have a feature called "
+"<i>Universal Plug-and-Play</i> (UPnP). If you can access your router's "
+"administrative interface, you should look for an option to enable UPnP. The "
+"administrative interface for most routers can be accessed by opening <a "
+"href=\"http://192.168.0.1/\">http://192.168.0.1</a> or <a "
+"href=\"http://192.168.1.1/\">http://192.168.1.1</a> in your Web browser. You "
+"should consult your router's instruction manual for more information."
+msgstr ""
+"اگر دکمه <i>Test</i> دریابد که Vidalia قادر نیست برای شما ارسال درگاه را راه "
+"اندازی کند، شاید لازم شود این گزینه را روی router فعال کنید و یا ارسال "
+"درگاه را خودتان عملن فعال کنید. بعضی از دستگاه های مورد استفاده شبکه گزینه "
+"ای دارند به نام <i>Universal Plug-and-Play</i> (UPnP). اگر به بخش تنظیمات "
+"اجرایی router خود دسترسی دارید، باید دنبال گزینه ای بگرددید که UPnP را فعال "
+"کند. بخش تنظیمات اجرایی بیشتر rounterها با باز کردن <a "
+"href=\"http://192.168.0.1/\">http://192.168.0.1</a>، و یا <a "
+"href=\"http://192.168.1.1/\">http://192.168.1.1</a> در  مرورگر وب، قابل دسترسی "
+"است. برای اطلاعات بیشتر به راهنمای استفاده از rounter خود مراجعه کنید."
+
+#. type: Content of: <html><body><p>
+#: en/server.html:229
+msgid ""
+"If you need to set up port forwarding manually, the website <a "
+"href=\"http://www.portforward.com/english/routers/port_forwarding/routerindex.htm\"> "
+"portforward.com</a> has instructions for how to set up port forwarding for "
+"many types of routers and firewalls. At a minimum, you will need to forward "
+"your <i>Relay Port</i>, which defaults to port 443 on Windows and 9001 on "
+"all other operating systems. If you also checked the checkbox labeled "
+"<i>Mirror the relay directory</i>, then you will also need to forward your "
+"<i>Directory Port</i>. The <i>Directory Port</i> is set to port 9030 by "
+"default on all operating systems."
+msgstr ""
+"اگر می خواهید ارسال درگاه را به صورت دستی فعال کنید، راهنمای راه اندازی "
+"ارسال درگاه بسیاری از routerها و firewallها  در این وبسایت موجود است: <a hre"
+"f=\"http://www.portforward.com/english/routers/port_forwarding/routerindex.ht"
+"m\"> portforward.com</a>. دست کم، می بایست<i>Relay Port</i> (درگاه بازپخش) "
+"خود را ارسال کنید که بر روی درگاه 443 در ویندوز و 9001 در دیگر سیستم های "
+"عامل، پیشفرض شده است. و نیز، اگر باکس <i>Mirror the relay directory</i> را "
+"تیک زده اید، می بایست <i>Directory Port</i> خود را نیز ارسال کنید. در تمام "
+"سیستم های عامل،<i>Directory Port</i> بر 9030 پیشفرض شده است."

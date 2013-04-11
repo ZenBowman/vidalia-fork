@@ -1,0 +1,3846 @@
+# 
+# Translators:
+# runasand <runa.sandvik@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: The Tor Project\n"
+"Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
+"POT-Creation-Date: 2012-03-21 17:52+0000\n"
+"PO-Revision-Date: 2012-06-23 09:17+0000\n"
+"Last-Translator: Thura Hlaing <trhura@gmail.com>\n"
+"Language-Team: translations@vidalia-project.net\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: my\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"X-Generator: Vidalia ts2po 0.2\n"
+
+msgctxt "AboutDialog"
+msgid "About Vidalia"
+msgstr "Vidalia အကြောင်း"
+
+msgctxt "AboutDialog"
+msgid "License"
+msgstr "လိုင်စင်"
+
+msgctxt "AboutDialog"
+msgid "Vidalia 0.2.0"
+msgstr "Vidalia 0.2.0"
+
+msgctxt "AboutDialog"
+msgid "Tor 0.2.0.32"
+msgstr "Tor 0.2.0.32"
+
+msgctxt "AboutDialog"
+msgid "Qt 4.4.2"
+msgstr "Qt 4.4.2"
+
+msgctxt "AdvancedPage"
+msgid "'%1' is not a valid IP address."
+msgstr "'%1' သည် မှန်ကန်သော IP လိပ်စာ မဟုတ်ပါ။"
+
+msgctxt "AdvancedPage"
+msgid ""
+"You selected 'Password' authentication, but did not specify a password."
+msgstr "'စကားဝှက်' အတည်ပြုချက်ကို သင် ရွေးချယ်ခဲ့သည်။ သို့သော် စကားဝှက်ကို မသတ်မှတ်ခဲ့ပါ။"
+
+msgctxt "AdvancedPage"
+msgid "Select Tor Configuration File"
+msgstr "Tor ပုံစံချဖိုင်ကို ရွေးချယ်ရန်"
+
+msgctxt "AdvancedPage"
+msgid "File Not Found"
+msgstr "ဖိုင်ကို ရှာမတွေ့ပါ"
+
+msgctxt "AdvancedPage"
+msgid "%1 does not exist. Would you like to create it?"
+msgstr "%1 မရှိပါ။ ၎င်းဖိုင်ကို ဖန်တီးလိုသလား?"
+
+msgctxt "AdvancedPage"
+msgid "Failed to Create File"
+msgstr "ဖိုင် ဖန်တီး၍ မရပါ"
+
+msgctxt "AdvancedPage"
+msgid "Unable to create %1 [%2]"
+msgstr "%1 [%2] ကို ဖန်တီး၍ မရပါ"
+
+msgctxt "AdvancedPage"
+msgid "Select a Directory to Use for Tor Data"
+msgstr "To ဒေတာ၌ သုံးရန် ဖိုင်လမ်းကြောင်း တစ်ခုကို ရွေးချယ်ရန်"
+
+msgctxt "AdvancedPage"
+msgid "Unable to remove Tor Service"
+msgstr "Tor ဝန်ဆောင်မှုကို ဖယ်ထုတ် မရပါ"
+
+msgctxt "AdvancedPage"
+msgid "Unable to install Tor Service"
+msgstr "Tor ဝန်ဆောင်မှုကို စက်တွင်း ထည့်မရပါ"
+
+msgctxt "AdvancedPage"
+msgid "Vidalia was unable to install the Tor service."
+msgstr "Vidalia သည် Tor ဝန်ဆောင်မှုကို စက်တွင်း မထည့်သွင်းပေးနိုင်ပါ။"
+
+msgctxt "AdvancedPage"
+msgid "Authentication:"
+msgstr "အတည်ပြုခြင်း -"
+
+msgctxt "AdvancedPage"
+msgid "Address:"
+msgstr "နေရပ်လိပ်စာ -"
+
+msgctxt "AdvancedPage"
+msgid "None"
+msgstr "ဘာမှမရှိ"
+
+msgctxt "AdvancedPage"
+msgid "Cookie"
+msgstr "ကွတ်ကီး"
+
+msgctxt "AdvancedPage"
+msgid "Password"
+msgstr "စကားဝှက်"
+
+msgctxt "AdvancedPage"
+msgid "Randomly Generate"
+msgstr "ကျပန်း ထုတ်လုပ်ရန်"
+
+msgctxt "AdvancedPage"
+msgid ":"
+msgstr ":"
+
+msgctxt "AdvancedPage"
+msgid "Tor Configuration File"
+msgstr "Tor ပုံစံချ ဖိုင်"
+
+msgctxt "AdvancedPage"
+msgid "Start the Tor software with the specified configuration file (torrc)"
+msgstr "သတ်မှတ်ထားသည့် ပုံစံပြင်ဖိုင် (torrc) နှင့်အတူ Tor ဆော့ဖ်ဝဲကို စတင်သုံးစွဲပါ"
+
+msgctxt "AdvancedPage"
+msgid "Select path to your configuration file"
+msgstr "သင့် ပုံစံချဖိုင်အတွက် ဖိုင်လမ်းကြောင်း ရွေးချယ်ရန်"
+
+msgctxt "AdvancedPage"
+msgid "Browse"
+msgstr "ဖွင့်ကြည့်ရန်"
+
+msgctxt "AdvancedPage"
+msgid "Data Directory"
+msgstr "ဒေတာ ဖိုင်တွဲ"
+
+msgctxt "AdvancedPage"
+msgid "Store data for the Tor software in the following directory"
+msgstr "Tor ဆော့ဝဲလ် အတွက် ဒေတာများကို အောက်ပါ ဖိုင်တွဲတွင် သိမ်းဆည်းရန်"
+
+msgctxt "AdvancedPage"
+msgid "Select the directory used to store data for the Tor software"
+msgstr "Tor ဆော့ဝဲလ်အတွက် ဒေတာ သိမ်းရန် အသုံးပြုသော ဖိုင်လမ်းကြောင်းကို ရွေးချယ်ပါ။"
+
+msgctxt "AdvancedPage"
+msgid "Tor Control"
+msgstr "Tor ထိန်းချုပ်မှု"
+
+msgctxt "AdvancedPage"
+msgid "Use TCP connection (ControlPort)"
+msgstr "TCP ချိတ်ဆက်မှု (ControlPort) ကို သုံးစွဲရန်"
+
+msgctxt "AdvancedPage"
+msgid "Path:"
+msgstr "လမ်းကြောင်း -"
+
+msgctxt "AdvancedPage"
+msgid "Use Unix domain socket (ControlSocket)"
+msgstr "Unix ဒိုမိန်းဆော့ကတ် (ControlSocket) အား သုံးရန်"
+
+msgctxt "AdvancedPage"
+msgid "Edit current torrc"
+msgstr "လက်ရှိ torrc ကို တည်းဖြတ်ရန်"
+
+msgctxt "AdvancedPage"
+msgid "NOTE: this will edit the currently loaded torrc"
+msgstr "မှတ်ချက် - လတ်တလော ဖွင့်ထားသော torrc ကို တည်းဖြတ်ပေးလိမ့်မည်။"
+
+msgctxt "AdvancedPage"
+msgid "ControlSocket path doesn't exist."
+msgstr "ControlSocket လမ်းကြောင်း မရှိပါ။"
+
+msgctxt "AdvancedPage"
+msgid ""
+"The specified Tor configuration file location contains characters that "
+"cannot be represented in your system's current 8-bit character encoding."
+msgstr "သတ်မှတ်ထားသည့် Tor ပုံစံချ ဖိုင်တည်နေရာ၌ သင်၏ စက်တွင်း 8-bit စာလုံး စာဝှက်စနစ်ကို ကိုယ်စားမပြုသော စာလုံးများ ပါရှိသည်။"
+
+msgctxt "AdvancedPage"
+msgid ""
+"The specified Tor data directory location contains characters that cannot be"
+" represented in your system's current 8-bit character encoding."
+msgstr "သတ်မှတ်ထားသည့် Tor ဒေတာ ဖိုင်လမ်းကြောင်း တည်နေရာ၌ သင်၏ စက်တွင်း 8-bit စာလုံး စာဝှက်စနစ်ကို ကိုယ်စားမပြုသော စာလုံးများ ပါရှိသည်။"
+
+msgctxt "AdvancedPage"
+msgid "Warning"
+msgstr "သတိပေးချက်"
+
+msgctxt "AdvancedPage"
+msgid "You changed torrc path, would you like to restart Tor?"
+msgstr "သင်သည် torrc လမ်းကြောင်းကို ပြောင်းလဲလိုက်သည်။ Tor ကို အစမှ ပြန်စလိုပါသလား?"
+
+msgctxt "AdvancedPage"
+msgid "Tor Configuration File (torrc);;All Files (*)"
+msgstr "Tor ပုံစံပြင်ဖိုင် (torrc) -- ဖိုင်များ အားလုံး (*)"
+
+msgctxt "AdvancedPage"
+msgid "Select a file to use for Tor socket path"
+msgstr "Tor ဆော့ကတ် လမ်းကြောင်းတွင် အသုံးပြုရန် ဖိုင်တစ်ဖိုင်ကို ရွေးချယ်ပါ။"
+
+msgctxt "AdvancedPage"
+msgid "Configure ControlPort automatically"
+msgstr "ControlPort ကို အလိုအလျောက် ပုံစံချမှတ်ပါ။"
+
+msgctxt "AdvancedPage"
+msgid ""
+"You've checked the autoconfiguration option for the ControlPort, but "
+"provided no Data Directory. Please add one, or uncheck the \"Configure "
+"ControlPort automatically\" option."
+msgstr "သင်သည် ControlPort အတွက် အလိုအလျောက် ပုံစံချမှတ်ခြင်းကို စစ်ဆေးပြီးပြီ။ သို့သော် ဒေတာဖိုင် လမ်းကြောင်းကို မထောက်ပံ့ထားပါ။ ကျေးဇူးပြု၍ ဒေတာ ဖိုင်လမ်းကြောင်း တစ်ခုကို ထည့်ပါ။ သို့မဟုတ် \"ControlPort ကို အလိုအလျောက် ပုံစံချမှတ်ရန်\" ဆိုသည့် ရွေးစရာကို ဖြုတ်ပါ။"
+
+msgctxt "AdvancedPage"
+msgid ""
+"Vidalia was unable to remove the Tor service.\n"
+"\n"
+"You may need to remove it manually."
+msgstr "Vidalia သည် Tor ဝန်ဆောင်မှုကို ဖယ်ထုတ်မပေးနိုင်ပါ။\n၄င်းကို ကိုယ်တိုင် ဖယ်ထုတ်ရန် လိုအပ်နိုင်သည်။"
+
+msgctxt "AppearancePage"
+msgid "Language"
+msgstr "ဘာသာစကား"
+
+msgctxt "AppearancePage"
+msgid "Choose the language used in Vidalia"
+msgstr "Vidalia  တွင် အသုံးပြုသည့် ဘာသာစကားကို ရွေးချယ်ရန်"
+
+msgctxt "AppearancePage"
+msgid "Style"
+msgstr "စတိုင်"
+
+msgctxt "AppearancePage"
+msgid "Choose Vidalia's interface style"
+msgstr "Vidalia ၏ မျက်နှာစာ ပုံစံဒီဇိုင်းကို ရွေးချယ်ရန်"
+
+msgctxt "AppearancePage"
+msgid "Vidalia was unable to load the selected language translation."
+msgstr "Vidalia သည် ရွေးချယ်ထားသည့် ဘာသာစကားကို မဖွင့်နိုင်ပါ။"
+
+msgctxt "AppearancePage"
+msgid ""
+"System Icon Preferences (changes will take effect when you restart Vidalia)"
+msgstr "စက်သုံး အိုင်ကွန် ဦးစားပေးချက်များ (Vidalia ကို သင် စတင်သည့်အခါ အပြောင်းအလဲများ အကျိုးသက်ရောက်သွားမည် ဖြစ်သည်။)"
+
+msgctxt "AppearancePage"
+msgid "Show the Tray Icon and Dock Icon (default)"
+msgstr "Tray အိုင်ကွန်နှင့် Dock အိုင်ကွန်ကို ပြရန် (မူလအတိုင်း)"
+
+msgctxt "AppearancePage"
+msgid "Hide the Tray Icon"
+msgstr "Tray ပုံသင်္ကေတကို ဖျောက်ရန်"
+
+msgctxt "AppearancePage"
+msgid "Hide the Dock Icon"
+msgstr "Dock ပုံသင်္ကေတကို ဖျောက်ရန်"
+
+msgctxt "BandwidthGraph"
+msgid "Since:"
+msgstr "ကတည်းက - "
+
+msgctxt "BandwidthGraph"
+msgid "Hide Settings"
+msgstr "ချိန်ညှိချက်များကို​ ဖျောက်ရန်"
+
+msgctxt "BandwidthGraph"
+msgid "Show Settings"
+msgstr "ချိန်ညှိချက်များကို ပြရန်"
+
+msgctxt "BandwidthGraph"
+msgid "Tor Bandwidth Usage"
+msgstr "Tor Bandwidth သုံးစွဲမှု"
+
+msgctxt "BandwidthGraph"
+msgid "Reset"
+msgstr "ပြန်ချိန်ရန်"
+
+msgctxt "BandwidthGraph"
+msgid "Receive Rate"
+msgstr "လက်ခံနှုန်း"
+
+msgctxt "BandwidthGraph"
+msgid "Send Rate"
+msgstr "ပေးပို့နှုန်း"
+
+msgctxt "BandwidthGraph"
+msgid "Always on Top"
+msgstr "အမြဲတမ်း ထိပ်တွင် ထားရှိရန်"
+
+msgctxt "BandwidthGraph"
+msgid "Style"
+msgstr "စတိုင်"
+
+msgctxt "BandwidthGraph"
+msgid "Changes the transparency of the Bandwidth Graph"
+msgstr "မြန်နှုန်းပြ ဇယား၏ ပါးလွှာမှု အပြောင်းအလဲများ"
+
+msgctxt "BandwidthGraph"
+msgid "100"
+msgstr "၁၀၀"
+
+msgctxt "BandwidthGraph"
+msgid "% Opaque"
+msgstr "% အလင်းဖောက်ထွင်းနှုန်း"
+
+msgctxt "BandwidthGraph"
+msgid "Save"
+msgstr "သိမ်းဆည်းရန်"
+
+msgctxt "BandwidthGraph"
+msgid "Cancel"
+msgstr "ရပ်ဆိုင်းရန်"
+
+msgctxt "BridgeDownloader"
+msgid "Starting HTTPS bridge request..."
+msgstr "HTTPS bridge တောင်းဆိုမှုကို အစပြုနေသည်..."
+
+msgctxt "BridgeDownloader"
+msgid "Connecting to %1:%2..."
+msgstr "%1:%2 သို့ ဆက်သွယ်နေသည်..."
+
+msgctxt "BridgeDownloader"
+msgid "Sending an HTTPS request for bridges..."
+msgstr "bridge များအတွက် HTTPS တောင်းဆိုမှု တစ်ခု ပေးပို့နသည်..."
+
+msgctxt "BridgeDownloader"
+msgid "Downloading a list of bridges..."
+msgstr "Bridges စာရင်းကို ဒေါင်းလုဒ် ဆွဲနေသည်..."
+
+msgctxt "BridgeDownloaderProgressDialog"
+msgid "Downloading Bridges"
+msgstr "Bridges များကို ဒေါင်းလုဒ် ဆွဲနေသည်..."
+
+msgctxt "BridgeDownloaderProgressDialog"
+msgid "Unable to download bridges: %1"
+msgstr "Bridge များကို ဒေါင်းလုဒ် ဆွဲ၍ မရပါ - %1"
+
+msgctxt "BridgeDownloaderProgressDialog"
+msgid "Retrying bridge request..."
+msgstr "Bridge တောင်းဆိုချက်ကို ထပ်မံ ကြိုးစားနေသည်..."
+
+msgctxt "BridgeUsageDialog"
+msgid "Country"
+msgstr "နိုင်ငံ"
+
+msgctxt "BridgeUsageDialog"
+msgid "# Clients"
+msgstr "# သုံးစွဲသူများ"
+
+msgctxt "BridgeUsageDialog"
+msgid "Clients from the following countries have used your relay since %1"
+msgstr "ဖော်ပြပါ နိုင်ငံများမှ သုံးစွဲသူများသည် %1 ကတည်းက သင်၏ relay ကို အသုံးပြုခဲ့ကြပြီ။"
+
+msgctxt "BridgeUsageDialog"
+msgid "Bridge Usage Summary"
+msgstr "Bridge အသုံးပြုမှု အနှစ်ချုပ်"
+
+msgctxt "BridgeUsageDialog"
+msgid "Client Summary"
+msgstr "သုံးစွဲသူ အကျဉ်းချုပ်"
+
+msgctxt "Circuit"
+msgid "New"
+msgstr "အသစ်"
+
+msgctxt "Circuit"
+msgid "Open"
+msgstr "ဖွင့်ရန်"
+
+msgctxt "Circuit"
+msgid "Building"
+msgstr "အဆောက်အဦး"
+
+msgctxt "Circuit"
+msgid "Failed"
+msgstr "မအောင်မြင်ပါ"
+
+msgctxt "Circuit"
+msgid "Closed"
+msgstr "ပိတ်ထားသည်"
+
+msgctxt "Circuit"
+msgid "Unknown"
+msgstr "အမည်မသိ"
+
+msgctxt "CircuitItem"
+msgid "<Path Empty>"
+msgstr "<ဖိုင်လမ်းကြောင်း မရှိ>"
+
+msgctxt "CircuitListWidget"
+msgid "Connection"
+msgstr "ဆက်သွယ်မှုလိုင်း"
+
+msgctxt "CircuitListWidget"
+msgid "Status"
+msgstr "အနေအထား"
+
+msgctxt "CircuitListWidget"
+msgid "Zoom to Circuit"
+msgstr "ဆားကစ်ကို ချုံ့ချဲ့ပြုလုပ်ရန်"
+
+msgctxt "CircuitListWidget"
+msgid "Close Circuit (Del)"
+msgstr "ဆားကစ်ကို ပိတ်ရန် (Del)"
+
+msgctxt "CircuitListWidget"
+msgid "Close Stream (Del)"
+msgstr "Stream ကို ပိတ်ရန် (Del)"
+
+msgctxt "ConfigDialog"
+msgid "General"
+msgstr "ယေဘုယျ"
+
+msgctxt "ConfigDialog"
+msgid "Network"
+msgstr "ကွန်ရက်"
+
+msgctxt "ConfigDialog"
+msgid "Sharing"
+msgstr "ဝေမျှခြင်း"
+
+msgctxt "ConfigDialog"
+msgid "Services"
+msgstr "ဝန်ဆောင်မှုများ"
+
+msgctxt "ConfigDialog"
+msgid "Appearance"
+msgstr "ပုံပန်းသဏ္ဍာန်"
+
+msgctxt "ConfigDialog"
+msgid "Advanced"
+msgstr "အဆင့်မြင့်"
+
+msgctxt "ConfigDialog"
+msgid "Help"
+msgstr "အကူအညီ"
+
+msgctxt "ConfigDialog"
+msgid "Error Saving Settings"
+msgstr "ချိန်ညှိချက်များ သိမ်းဆည်းမှု ချို့ယွင်းချက်"
+
+msgctxt "ConfigDialog"
+msgid "Vidalia was unable to save your %1 settings."
+msgstr "Vidalia သင့် %l ချိန်ညှိချက်များကို သိမ်းဆည်း၍ မရပါ။"
+
+msgctxt "ConfigDialog"
+msgid "Error Applying Settings"
+msgstr "ချိန်ညှိချက်များ အသုံးချမှု ချို့ယွင်းချက်များ"
+
+msgctxt "ConfigDialog"
+msgid "Vidalia was unable to apply your %1 settings to Tor."
+msgstr "Vidalia သည် Tor အတွက် သင်၏ %1 ချိန်ညှိချက်များကို အသုံးချ၍ မရပါ။"
+
+msgctxt "ConfigDialog"
+msgid "Settings"
+msgstr "ချိန်ညှိချက်များ"
+
+msgctxt "ControlConnection"
+msgid "Vidalia was unable to connect to Tor. (%1)"
+msgstr "Vidalia သည် Tor ကို မဆက်သွယ်နိုင်ပါ။ (%l)"
+
+msgctxt "ControlConnection"
+msgid "Control socket is not connected."
+msgstr "ထိန်းချုပ် ဆော့ကတ်ကို မချိတ်ဆက်ထားပါ။"
+
+msgctxt "ControlPasswordInputDialog"
+msgid "Password Required"
+msgstr "စကားဝှက် လိုအပ်သည်"
+
+msgctxt "ControlPasswordInputDialog"
+msgid "Remember my password"
+msgstr "_L စကားဝှက်ကို မှတ်ထားရန်"
+
+msgctxt "ControlPasswordInputDialog"
+msgid ""
+"Vidalia has connected to a running Tor process that requires a password. "
+"Please enter your control password:"
+msgstr "Vidalia  သည် Tor ၏ လုပ်ငန်းတစ်ခု ဆောင်ရွတ်ရာတွင် စကားဝှက် တစ်ခု လိုအပ်နေသည်။ ထိန်းချုပ် စကားဝှက်ကို ထည့်သွင်းပါ -"
+
+msgctxt "ControlSocket"
+msgid "Control socket is not connected."
+msgstr "ထိန်းချုပ် ဆော့ကတ်ကို မချိတ်ဆက်ထားပါ။"
+
+msgctxt "ControlSocket"
+msgid "Error sending control command. [%1]"
+msgstr "ထိန်းချုပ် ညွှန်ကြားချက် ​ေးပို့ရာ၌ ချို့ယွင်းချက် ရှိသည်။ [%1]"
+
+msgctxt "ControlSocket"
+msgid "Socket disconnected while attempting to read a line of data."
+msgstr "ဒေတာ တစ်သီတစ်တန်းကို ဖတ်ရန် ကြိုးစားနေစဉ်တွင် ဆော့ကတ် ချိတ်ဆက်မှု မရပါ။"
+
+msgctxt "ControlSocket"
+msgid "Invalid control reply. [%1]"
+msgstr "မှားနေသော ထိန်းချုပ်မှုဆိုင်ရာ အကြောင်းပြန်ချက်။ [%1]"
+
+msgctxt "CountryInfo"
+msgid "Afghanistan"
+msgstr "အာဖဂန်နစ္စတန်"
+
+msgctxt "CountryInfo"
+msgid "Andorra"
+msgstr "အန်ဒိုရာ"
+
+msgctxt "CountryInfo"
+msgid "Angola"
+msgstr "အင်ဂိုလာ"
+
+msgctxt "CountryInfo"
+msgid "Antigua & Barbuda"
+msgstr "အန်တီဂွာနှင့် ဘာဘူဒါ"
+
+msgctxt "CountryInfo"
+msgid "Argentina"
+msgstr "အာဂျင်တီးနား"
+
+msgctxt "CountryInfo"
+msgid "Armenia"
+msgstr "အာမေနီးယား"
+
+msgctxt "CountryInfo"
+msgid "Australia"
+msgstr "သြစတြေးလျ"
+
+msgctxt "CountryInfo"
+msgid "Azerbaijan"
+msgstr "အဇာဘိုင်ဂျန်"
+
+msgctxt "CountryInfo"
+msgid "Bahamas"
+msgstr "ဘဟားမားစ်"
+
+msgctxt "CountryInfo"
+msgid "Bangladesh"
+msgstr "ဘင်္ဂလားဒေ့ရှ်"
+
+msgctxt "CountryInfo"
+msgid "Barbados"
+msgstr "ဘာရ်ဘာဒိုစ်"
+
+msgctxt "CountryInfo"
+msgid "Belarus"
+msgstr "ဘီလာရုစ်"
+
+msgctxt "CountryInfo"
+msgid "Belgium"
+msgstr "ဘယ်လ်ဂျီယမ်"
+
+msgctxt "CountryInfo"
+msgid "Belize"
+msgstr "ဘီလစ်"
+
+msgctxt "CountryInfo"
+msgid "Bhutan"
+msgstr "ဘူတန်"
+
+msgctxt "CountryInfo"
+msgid "Bolivia"
+msgstr "ဘိုလီဗီးယား"
+
+msgctxt "CountryInfo"
+msgid "Bosnia & Herzegovina"
+msgstr "ဘော့စနီးယားနှင့် ဟာဇီဂိုဗီးနား"
+
+msgctxt "CountryInfo"
+msgid "Botswana"
+msgstr "ဘော့စဝါနာ"
+
+msgctxt "CountryInfo"
+msgid "Brazil"
+msgstr "ဘရားဇီး"
+
+msgctxt "CountryInfo"
+msgid "Brunei Darussalam"
+msgstr "ဘရူးနိုင်း ဒါရုစလမ်"
+
+msgctxt "CountryInfo"
+msgid "Bulgaria"
+msgstr "ဘူဂေးရီးယား"
+
+msgctxt "CountryInfo"
+msgid "Burkina Faso"
+msgstr "ဘာကီနာ ဖာဆို"
+
+msgctxt "CountryInfo"
+msgid "Burundi"
+msgstr "ဘာရွန်ဒီ"
+
+msgctxt "CountryInfo"
+msgid "Cambodia"
+msgstr "ကမ္ဗောဒီးယား"
+
+msgctxt "CountryInfo"
+msgid "Cameroon"
+msgstr "ကင်မရွန်း"
+
+msgctxt "CountryInfo"
+msgid "Canada"
+msgstr "ကနေဒါ"
+
+msgctxt "CountryInfo"
+msgid "Cape Verde"
+msgstr "ဗာဒီ အငူ"
+
+msgctxt "CountryInfo"
+msgid "Central African Republic"
+msgstr "အလယ်ပိုင်း အာဖရိက"
+
+msgctxt "CountryInfo"
+msgid "Chad"
+msgstr "ချဒ်"
+
+msgctxt "CountryInfo"
+msgid "Chile"
+msgstr "ချီလီ"
+
+msgctxt "CountryInfo"
+msgid "China"
+msgstr "တရုတ်"
+
+msgctxt "CountryInfo"
+msgid "Colombia"
+msgstr "ကိုလံဘီယာ"
+
+msgctxt "CountryInfo"
+msgid "Comoros"
+msgstr "ကိုမိုရို့စ်"
+
+msgctxt "CountryInfo"
+msgid "Congo, The Democratic Republic of the"
+msgstr "ကွန်​ဂို ဒီမိုကရက်တစ်"
+
+msgctxt "CountryInfo"
+msgid "Congo"
+msgstr "ကွန်ဂို"
+
+msgctxt "CountryInfo"
+msgid "Costa Rica"
+msgstr "ကော့စတာရီကာ"
+
+msgctxt "CountryInfo"
+msgid "Cote dâIvoire"
+msgstr "ကုတ်ဒီဗိုး"
+
+msgctxt "CountryInfo"
+msgid "Croatia"
+msgstr "ခရိုအေးရှား"
+
+msgctxt "CountryInfo"
+msgid "Cuba"
+msgstr "ကျူးဘား"
+
+msgctxt "CountryInfo"
+msgid "Cyprus"
+msgstr "ဆိုက်ပရပ်စ်"
+
+msgctxt "CountryInfo"
+msgid "Czech Republic"
+msgstr "ချက်ဗ်"
+
+msgctxt "CountryInfo"
+msgid "Denmark"
+msgstr "ဒိန်းမတ်"
+
+msgctxt "CountryInfo"
+msgid "Djibouti"
+msgstr "ဂျီဗိုးတီ"
+
+msgctxt "CountryInfo"
+msgid "Dominica"
+msgstr "ဒိုမီနီကာ"
+
+msgctxt "CountryInfo"
+msgid "Dominican Republic"
+msgstr "ဒိုမီနီကန်"
+
+msgctxt "CountryInfo"
+msgid "Ecuador"
+msgstr "အီကွေဒေါ"
+
+msgctxt "CountryInfo"
+msgid "Egypt"
+msgstr "အီဂျစ်"
+
+msgctxt "CountryInfo"
+msgid "El Salvador"
+msgstr "အယ်လ် ဆာလ်ဗားဒါး"
+
+msgctxt "CountryInfo"
+msgid "Equatorial Guinea"
+msgstr "အီကွေတိုးရီးယယ် ဂီးနီးယား"
+
+msgctxt "CountryInfo"
+msgid "Eritrea"
+msgstr "အယ်ရစ်ထြီးယား"
+
+msgctxt "CountryInfo"
+msgid "Estonia"
+msgstr "အစ္စ​တိုး​နီး​ယား"
+
+msgctxt "CountryInfo"
+msgid "France"
+msgstr "ပြင်သစ်"
+
+msgctxt "CountryInfo"
+msgid "Gabon"
+msgstr "ဂါ့ဘွန်"
+
+msgctxt "CountryInfo"
+msgid "Gambia"
+msgstr "ဂမ်ဘီယာ"
+
+msgctxt "CountryInfo"
+msgid "Georgia"
+msgstr "ဂျော်ဂျီယာ"
+
+msgctxt "CountryInfo"
+msgid "Germany"
+msgstr "ဂျာမနီ"
+
+msgctxt "CountryInfo"
+msgid "Ghana"
+msgstr "ဂါနာ"
+
+msgctxt "CountryInfo"
+msgid "Grenada"
+msgstr "ဂရီနာဒါ"
+
+msgctxt "CountryInfo"
+msgid "Guatemala"
+msgstr "ဂွါတီမာလာ"
+
+msgctxt "CountryInfo"
+msgid "Guinea"
+msgstr "ဂီးနီးယား"
+
+msgctxt "CountryInfo"
+msgid "Guinea-Bissau"
+msgstr "ဂီးနီးယား-ဘစ်ဆာအူ"
+
+msgctxt "CountryInfo"
+msgid "Guyana"
+msgstr "ဂူရာနာ"
+
+msgctxt "CountryInfo"
+msgid "Hong Kong"
+msgstr "ဟောင်ကောင်"
+
+msgctxt "CountryInfo"
+msgid "Haiti"
+msgstr "ဟေတီ"
+
+msgctxt "CountryInfo"
+msgid "Honduras"
+msgstr "ဟွန်ဒူးရပ်"
+
+msgctxt "CountryInfo"
+msgid "Israel"
+msgstr "အစ္စရေး"
+
+msgctxt "CountryInfo"
+msgid "Italy"
+msgstr "အီတလီ"
+
+msgctxt "CountryInfo"
+msgid "Jamaica"
+msgstr "ဂျမေကာ"
+
+msgctxt "CountryInfo"
+msgid "Japan"
+msgstr "ဂျပန်"
+
+msgctxt "CountryInfo"
+msgid "Jordan"
+msgstr "ဂျော်ဒန်"
+
+msgctxt "CountryInfo"
+msgid "Kazakhstan"
+msgstr "ကာဇတ်စတန်"
+
+msgctxt "CountryInfo"
+msgid "Kenya"
+msgstr "ကင်ညာ"
+
+msgctxt "CountryInfo"
+msgid "Kiribati"
+msgstr "ကိရိဘာတီ"
+
+msgctxt "CountryInfo"
+msgid "Kuwait"
+msgstr "ကူဝိတ်"
+
+msgctxt "CountryInfo"
+msgid "Kyrgyzstan"
+msgstr "ကာဂျီစတန်"
+
+msgctxt "CountryInfo"
+msgid "Laos"
+msgstr "လာအို"
+
+msgctxt "CountryInfo"
+msgid "Latvia"
+msgstr "လတ်ဗီးယား"
+
+msgctxt "CountryInfo"
+msgid "Lebanon"
+msgstr "လက်ဘနွန်"
+
+msgctxt "CountryInfo"
+msgid "Lesotho"
+msgstr "လီဆိုသို"
+
+msgctxt "CountryInfo"
+msgid "Liberia"
+msgstr "လစ်ဗျား"
+
+msgctxt "CountryInfo"
+msgid "Liechtenstein"
+msgstr "လိချ်တဲန်စတိန်း"
+
+msgctxt "CountryInfo"
+msgid "Lithuania"
+msgstr "လစ်သူအေးနီးယား"
+
+msgctxt "CountryInfo"
+msgid "Luxembourg"
+msgstr "လူဇင်ဘတ်"
+
+msgctxt "CountryInfo"
+msgid "Macedonia"
+msgstr "မေစီဒိုးနီးယား"
+
+msgctxt "CountryInfo"
+msgid "Madagascar"
+msgstr "မဒဂတ်စ်ကား"
+
+msgctxt "CountryInfo"
+msgid "Malawi"
+msgstr "မာလာဝီ"
+
+msgctxt "CountryInfo"
+msgid "Malaysia"
+msgstr "မလေးရှား"
+
+msgctxt "CountryInfo"
+msgid "Mali"
+msgstr "မာလီ"
+
+msgctxt "CountryInfo"
+msgid "Malta"
+msgstr "မော်လ်တာ"
+
+msgctxt "CountryInfo"
+msgid "Marshall Islands"
+msgstr "မာရှယ် ကျွန်းစုများ"
+
+msgctxt "CountryInfo"
+msgid "Mauritania"
+msgstr "မောင်ရီတာနီးယား"
+
+msgctxt "CountryInfo"
+msgid "Mauritius"
+msgstr "မော်ရီတီရက်စ်"
+
+msgctxt "CountryInfo"
+msgid "Micronesia"
+msgstr "မိုက်ခရိုနီးရှား"
+
+msgctxt "CountryInfo"
+msgid "Moldova"
+msgstr "မော်လ်ဒိုဗာ"
+
+msgctxt "CountryInfo"
+msgid "Monaco"
+msgstr "မိုနာကို"
+
+msgctxt "CountryInfo"
+msgid "Mongolia"
+msgstr "မွန်ဂိုလီးယား"
+
+msgctxt "CountryInfo"
+msgid "Montenegro"
+msgstr "မွန်တီနီဂရိုး"
+
+msgctxt "CountryInfo"
+msgid "Morocco"
+msgstr "မော်ရိုကို"
+
+msgctxt "CountryInfo"
+msgid "Mozambique"
+msgstr "မိုဇန်ဘစ်"
+
+msgctxt "CountryInfo"
+msgid "Namibia"
+msgstr "နမီးဘီးယား"
+
+msgctxt "CountryInfo"
+msgid "Nauru"
+msgstr "နာအူးရူ"
+
+msgctxt "CountryInfo"
+msgid "Nepal"
+msgstr "နီပေါ"
+
+msgctxt "CountryInfo"
+msgid "Netherlands"
+msgstr "နယ်သာလန်"
+
+msgctxt "CountryInfo"
+msgid "New Zealand"
+msgstr "နယူးဇီလန်"
+
+msgctxt "CountryInfo"
+msgid "Nicaragua"
+msgstr "နီးကာရာဂွား"
+
+msgctxt "CountryInfo"
+msgid "Niger"
+msgstr "နိုင်ဂျာ"
+
+msgctxt "CountryInfo"
+msgid "Nigeria"
+msgstr "နိုင်ဂျီးရီးယား"
+
+msgctxt "CountryInfo"
+msgid "Norway"
+msgstr "နော်ဝေ"
+
+msgctxt "CountryInfo"
+msgid "Oman"
+msgstr "အိုမန်"
+
+msgctxt "CountryInfo"
+msgid "Pakistan"
+msgstr "ပါကစ္စတန်"
+
+msgctxt "CountryInfo"
+msgid "Palau"
+msgstr "ပါလာအူ"
+
+msgctxt "CountryInfo"
+msgid "Palestine"
+msgstr "ပါလက်စတိုင်း"
+
+msgctxt "CountryInfo"
+msgid "Panama"
+msgstr "ပနားမား"
+
+msgctxt "CountryInfo"
+msgid "Papua New Guinea"
+msgstr "ပါ​ပူ​အာ နယူးဂီနီ"
+
+msgctxt "CountryInfo"
+msgid "Paraguay"
+msgstr "ပါရာဂွေး"
+
+msgctxt "CountryInfo"
+msgid "Peru"
+msgstr "ပီရူး"
+
+msgctxt "CountryInfo"
+msgid "Philippines"
+msgstr "ဖိလစ်ပိုင်"
+
+msgctxt "CountryInfo"
+msgid "Poland"
+msgstr "ပိုလန်"
+
+msgctxt "CountryInfo"
+msgid "Portugal"
+msgstr "ပေါ်တူဂီ"
+
+msgctxt "CountryInfo"
+msgid "Qatar"
+msgstr "ကာတာ"
+
+msgctxt "CountryInfo"
+msgid "Romania"
+msgstr "ရိုမေးနီးယား"
+
+msgctxt "CountryInfo"
+msgid "Russia"
+msgstr "ရုရှား"
+
+msgctxt "CountryInfo"
+msgid "Rwanda"
+msgstr "ရဝမ်ဒါ"
+
+msgctxt "CountryInfo"
+msgid "Saint Kitts & Nevis"
+msgstr "စိန့်ကစ်နှင့် နီဗစ်"
+
+msgctxt "CountryInfo"
+msgid "Saint Lucia"
+msgstr "စိန့်လူစီယာ"
+
+msgctxt "CountryInfo"
+msgid "Saint Vincent & the Grenadines"
+msgstr "စိန့်ဗင်းဆင့်နှင့် ဂရီနာဒိုင်းစ်"
+
+msgctxt "CountryInfo"
+msgid "Samoa"
+msgstr "ဆမိုအာ"
+
+msgctxt "CountryInfo"
+msgid "San Marino"
+msgstr "ဆန်မာရီနို"
+
+msgctxt "CountryInfo"
+msgid "Sao Tome & Principe"
+msgstr "ဆော တိုမီနှင့် ပရင်စီပင်"
+
+msgctxt "CountryInfo"
+msgid "Saudi Arabia"
+msgstr "ဆော်ဒီအာရေဗီးယား"
+
+msgctxt "CountryInfo"
+msgid "Senegal"
+msgstr "ဆီနီဒေါ"
+
+msgctxt "CountryInfo"
+msgid "Serbia"
+msgstr "ဆားဘီးယား"
+
+msgctxt "CountryInfo"
+msgid "Seychelles"
+msgstr "ဆေးရှဲလ်စ်"
+
+msgctxt "CountryInfo"
+msgid "Sierra Leone"
+msgstr "ဆီအာရာ လီယွန်း"
+
+msgctxt "CountryInfo"
+msgid "Singapore"
+msgstr "စင်္ကာပူ"
+
+msgctxt "CountryInfo"
+msgid "Slovakia"
+msgstr "ဆလိုဗာကီးယား"
+
+msgctxt "CountryInfo"
+msgid "Slovenia"
+msgstr "ဆလိုဗေးနီးယား"
+
+msgctxt "CountryInfo"
+msgid "Solomon Islands"
+msgstr "ဆော်လမွန်ကျွန်းများ"
+
+msgctxt "CountryInfo"
+msgid "Somalia"
+msgstr "ဆိုမာလီယာ"
+
+msgctxt "CountryInfo"
+msgid "South Africa"
+msgstr "တောင်အာဖရိက"
+
+msgctxt "CountryInfo"
+msgid "Spain"
+msgstr "စပိန်"
+
+msgctxt "CountryInfo"
+msgid "Sri Lanka"
+msgstr "သီရိလင်္ကာ"
+
+msgctxt "CountryInfo"
+msgid "Sudan"
+msgstr "ဆူဒန်"
+
+msgctxt "CountryInfo"
+msgid "Suriname"
+msgstr "ဆူရီနာမ်"
+
+msgctxt "CountryInfo"
+msgid "Swaziland"
+msgstr "ဆွာဇီလန်"
+
+msgctxt "CountryInfo"
+msgid "Sweden"
+msgstr "ဆွီဒင်"
+
+msgctxt "CountryInfo"
+msgid "Switzerland"
+msgstr "ဆွစ်ဇာလန်"
+
+msgctxt "CountryInfo"
+msgid "Syria"
+msgstr "ဆီးရီးယား"
+
+msgctxt "CountryInfo"
+msgid "Tajikistan"
+msgstr "တာဂျစ်ကစ္စတန်"
+
+msgctxt "CountryInfo"
+msgid "Tanzania"
+msgstr "တန်ဇန်နီးယား"
+
+msgctxt "CountryInfo"
+msgid "Thailand"
+msgstr "ထိုင်း"
+
+msgctxt "CountryInfo"
+msgid "Timor-Leste (East Timor)"
+msgstr "တီမော-လက်စ်တီ (အရှေ့တီမော)"
+
+msgctxt "CountryInfo"
+msgid "Togo"
+msgstr "တိုဂို"
+
+msgctxt "CountryInfo"
+msgid "Tonga"
+msgstr "တွန်ဂါ"
+
+msgctxt "CountryInfo"
+msgid "Trinidad & Tobago"
+msgstr "ထရီနီဒက်နှင့် တိုဘာဂို"
+
+msgctxt "CountryInfo"
+msgid "Tunisia"
+msgstr "တူ​နီး​ရှား"
+
+msgctxt "CountryInfo"
+msgid "Turkey"
+msgstr "တူရကီ"
+
+msgctxt "CountryInfo"
+msgid "Turkmenistan"
+msgstr "တာ့ခ်မန်နစ္စတန်"
+
+msgctxt "CountryInfo"
+msgid "Tuvalu"
+msgstr "တူးဗလူး"
+
+msgctxt "CountryInfo"
+msgid "Uganda"
+msgstr "ယူဂန်ဒါ"
+
+msgctxt "CountryInfo"
+msgid "Ukraine"
+msgstr "ယူကရိန်း"
+
+msgctxt "CountryInfo"
+msgid "United Arab Emirates"
+msgstr "အာ​ရပ် စော်ဘွား​များ​ပြည်ထောင်စု"
+
+msgctxt "CountryInfo"
+msgid "United Kingdom"
+msgstr "ဗြိတိန်"
+
+msgctxt "CountryInfo"
+msgid "United States"
+msgstr "အမေ​ရိ​ကန်​ပြည်ထောင်စု"
+
+msgctxt "CountryInfo"
+msgid "Uruguay"
+msgstr "ဥရုဂွေး"
+
+msgctxt "CountryInfo"
+msgid "Uzbekistan"
+msgstr "ဥဇဘက်ကစ္စတန်"
+
+msgctxt "CountryInfo"
+msgid "Vanuatu"
+msgstr "ဗားနူးအာတူး"
+
+msgctxt "CountryInfo"
+msgid "Vatican"
+msgstr "ဗာတီကန်"
+
+msgctxt "CountryInfo"
+msgid "Venezuela"
+msgstr "ဗင်နီဇွဲလား"
+
+msgctxt "CountryInfo"
+msgid "Vietnam"
+msgstr "ဗီယက်နမ်"
+
+msgctxt "CountryInfo"
+msgid "Western Sahara"
+msgstr "အနောက်ဆာဟာရာ"
+
+msgctxt "CountryInfo"
+msgid "Yemen"
+msgstr "ယီမင်"
+
+msgctxt "CountryInfo"
+msgid "Zambia"
+msgstr "ဇန်ဘီယား"
+
+msgctxt "CountryInfo"
+msgid "Zimbabwe"
+msgstr "ဇင်ဘာဗွေ"
+
+msgctxt "CountryInfo"
+msgid "Zaire"
+msgstr "ဇာအီယား"
+
+msgctxt "CountryInfo"
+msgid "Albania"
+msgstr "အယ်လ်ဘေးနီးယား"
+
+msgctxt "CountryInfo"
+msgid "Algeria"
+msgstr "အယ်လ်​ဂျီး​ရီး​ယား"
+
+msgctxt "CountryInfo"
+msgid "Austria"
+msgstr "ဩစတြီးယား"
+
+msgctxt "CountryInfo"
+msgid "Bahrain"
+msgstr "ဘာရိန်း"
+
+msgctxt "CountryInfo"
+msgid "Benin"
+msgstr "ဘီနင်း"
+
+msgctxt "CountryInfo"
+msgid "Ethiopia"
+msgstr "အီသီယိုးပီးယား"
+
+msgctxt "CountryInfo"
+msgid "Fiji"
+msgstr "ဖီဂျီ"
+
+msgctxt "CountryInfo"
+msgid "Finland"
+msgstr "ဖင်လန်"
+
+msgctxt "CountryInfo"
+msgid "Greece"
+msgstr "ဂရိ"
+
+msgctxt "CountryInfo"
+msgid "Guam"
+msgstr "ဂူအမ်"
+
+msgctxt "CountryInfo"
+msgid "Hungary"
+msgstr "ဟန်ဂေရီ"
+
+msgctxt "CountryInfo"
+msgid "Iceland"
+msgstr "အိုက်စ်လန်"
+
+msgctxt "CountryInfo"
+msgid "India"
+msgstr "အိန္ဒိယ"
+
+msgctxt "CountryInfo"
+msgid "Indonesia"
+msgstr "အင်ဒိုနီးရှား"
+
+msgctxt "CountryInfo"
+msgid "Iran"
+msgstr "အီရန်"
+
+msgctxt "CountryInfo"
+msgid "Iraq"
+msgstr "အီရတ်"
+
+msgctxt "CountryInfo"
+msgid "Ireland"
+msgstr "အိုင်ယာလန်"
+
+msgctxt "CountryInfo"
+msgid "Korea, North"
+msgstr "မြောက်ကိုရီးယား"
+
+msgctxt "CountryInfo"
+msgid "Korea, South"
+msgstr "တောင်ကိုရီးယား"
+
+msgctxt "CountryInfo"
+msgid "Libya"
+msgstr "လစ်ဗျား"
+
+msgctxt "CountryInfo"
+msgid "Maldives"
+msgstr "မော်လဒိုက်"
+
+msgctxt "CountryInfo"
+msgid "Mexico"
+msgstr "မက္ကစီကို"
+
+msgctxt "CountryInfo"
+msgid "Myanmar"
+msgstr "မြန်မာ"
+
+msgctxt "CountryInfo"
+msgid "Taiwan"
+msgstr "ထိုင်ဝမ်"
+
+msgctxt "CrashReportDialog"
+msgid "Submit a Crash Report"
+msgstr "ပျက်စီးမှု အစီရင်ခံချက် တင်ပြရန်"
+
+msgctxt "CrashReportDialog"
+msgid "Vidalia encountered an error and needed to close"
+msgstr "Vidalia ၌ ချို့ယွင်းချက် တစ်ခု ဖြစ်ပေါ်နေ​ပြီး ပိတ်ရန် လိုအပ်သည်"
+
+msgctxt "CrashReportDialog"
+msgid "Restart Vidalia"
+msgstr "Vidalia ကို ပြန်ဖွင့်ရန်"
+
+msgctxt "CrashReportDialog"
+msgid "Don't Restart"
+msgstr "ပြန်မဖွင့်ရ"
+
+msgctxt "CrashReportDialog"
+msgid "Unable to restart Vidalia"
+msgstr "Vidalia ကို အစမှ ပြန်ဖွင့်မရပါ"
+
+msgctxt "CrashReportDialog"
+msgid ""
+"We were unable to automatically restart Vidalia. Please restart Vidalia "
+"manually."
+msgstr "ကွန်ုပ်တို့သည် Vidalia ကို အလိုအလျောက် ပြန်ဖွင့်၍ မရပါ။ Vidalia ကို ကိုယ်တိုင် ပြန်ဖွင့်ပါ။"
+
+msgctxt "CrashReportDialog"
+msgid "Please fill a ticket in:"
+msgstr "ကျေးဇူးပြု၍ လက်မှတ် တစ်စောင် ဖြည့်ပေးပါ -"
+
+msgctxt "CrashReportDialog"
+msgid ""
+"<a "
+"href=\"https://trac.torproject.org/projects/tor/newticket\">https://trac.torproject.org/projects/tor/newticket</a>"
+msgstr "<a href=\"https://trac.torproject.org/projects/tor/newticket\">https://trac.torproject.org/projects/tor/newticket</a>"
+
+msgctxt "CrashReportDialog"
+msgid ""
+"A crash report has been created that you can send to the Vidalia developers "
+"to help identify and fix the problem. The submitted report does not contain "
+"any personally identifying information."
+msgstr "ပြဿနာကို ခွဲခြမ်းစိတ်ဖြာပြီး အမှားပြင်ဆင်ပေးနိုင်ရန် Vidalia ကို စီစဉ်​ဖန်တီးသူများထံ ပေးပို့နိုင်ရန် ပျက်စီးမှု အစီရင်ခံစာကို ဖန်တီးလိုက်ပြီ။ တင်ပို့လိုက်သည့် အစီရင်ခံစာ၌ ပုဂ္ဂိုလ်ရေး အချက်အလက်များ မပါရှိပါ။"
+
+msgctxt "CrashReportDialog"
+msgid ""
+"with a description of what you were doing before the application crashed, "
+"along with the following files corresponding to the crash report:"
+msgstr "အပ္ပလီဂေးရှင်း မပျက်စီမီ သင်လုပ်ဆောင်ခဲ့သော ဖော်ပြချက်ကို ဆော့ဖ်ဝဲ ပျက်စီးမှုနှင့် သက်ဆိုင်သော အောက်ပါဖိုင်များအတူ ဖေါ်ပြချက်-"
+
+msgctxt "GeneralPage"
+msgid "Executables (*.exe)"
+msgstr "ပရိုဂရမ် သွင်းနိုင်သောဖိုင်များ (*.exe)"
+
+msgctxt "GeneralPage"
+msgid "Select Path to Tor"
+msgstr "Tor ထံ သွားရာ ဖိုင်လမ်းကြောင်းကို ရွေးချယ်ရန်"
+
+msgctxt "GeneralPage"
+msgid "Select Proxy Executable"
+msgstr "ပရောက်ဇီ သွင်းနိုင်သော ဖိုင်ကို ရွေးရန်"
+
+msgctxt "GeneralPage"
+msgid "You must specify the name of your Tor executable."
+msgstr "Tor ပရိုဂရမ် သွင်းနိုင်သော ဖိုင်အမည်ကို သတ်မှတ်ရမည်။"
+
+msgctxt "GeneralPage"
+msgid "Start Vidalia when my system starts"
+msgstr "ကွန်ပျူတာ တက်လာသောအခါ Vidalia ကို စဖွင့်ပါ"
+
+msgctxt "GeneralPage"
+msgid "Browse"
+msgstr "ဖွင့်ကြည့်ရန်"
+
+msgctxt "GeneralPage"
+msgid "Start the Tor software when Vidalia starts"
+msgstr "Vidalia တက်လာသောအခါ Tor ကို စဖွင့်ပါ"
+
+msgctxt "GeneralPage"
+msgid "Tor"
+msgstr "Tor"
+
+msgctxt "GeneralPage"
+msgid "Proxy Application (optional)"
+msgstr "ပရောက်ဇီ လမ်းကြောင်း (လိုအပ်လျှင်) -"
+
+msgctxt "GeneralPage"
+msgid "Start a proxy application when Tor starts"
+msgstr "Tor တက်လာသောအခါ ပရောက်ဇ်ကို စဖွင့်ပါ"
+
+msgctxt "GeneralPage"
+msgid "Proxy Application Arguments:"
+msgstr "ပရောက်ဇီ အပ္ပလီဂေးရှင်း ငြင်းဆိုချက်များ -"
+
+msgctxt "GeneralPage"
+msgid "Software Updates"
+msgstr "ဆော့ဖ်ဝဲ မွမ်းမံချက်များ"
+
+msgctxt "GeneralPage"
+msgid "Check for new software updates automatically"
+msgstr "ဆော့ဗ်ဝဲ မွမ်းမံချက် အသစ်ကို အလိုအလျောက် စစ်ဆေးရန်"
+
+msgctxt "GeneralPage"
+msgid "Check Now"
+msgstr "ယခု စစ်ဆေးရန်"
+
+msgctxt "GraphFrame"
+msgid "%1 KB/s"
+msgstr "တစ်စက္ကန့်လျှင် %1 KB"
+
+msgctxt "GraphFrame"
+msgid "%1 KB"
+msgstr "%1 KB"
+
+msgctxt "GraphFrame"
+msgid "%1 MB"
+msgstr "%1 MB"
+
+msgctxt "GraphFrame"
+msgid "%1 GB"
+msgstr "%1 GB"
+
+msgctxt "GraphFrame"
+msgid "Recv:"
+msgstr "လက်ခံ -"
+
+msgctxt "GraphFrame"
+msgid "Sent:"
+msgstr "ပေးပို့ပြီး - "
+
+msgctxt "HelpBrowser"
+msgid "Supplied XML file is not a valid Contents document."
+msgstr "ပေးထားသော XML ဖိုင်သည် အကြောင်းအရာများ ပါရှိသော စာရွက်စာတမ်း အမှန် မဟုတ်ပါ။"
+
+msgctxt "HelpBrowser"
+msgid "Search reached end of document"
+msgstr "ရှာဖွေမှုသည် စာရွက်စာတမ်း၏ အဆုံးထိ ရောက်သွားပြီ"
+
+msgctxt "HelpBrowser"
+msgid "Search reached start of document"
+msgstr "ရှာဖွေမှုသည် စာရွက်စာတမ်း၏ အစ ရောက်သွားပြီ"
+
+msgctxt "HelpBrowser"
+msgid "Text not found in document"
+msgstr "စာရွက်စာတမ်းထဲတွင် စာသားကို ရှာမတွေ့ပါ"
+
+msgctxt "HelpBrowser"
+msgid "Found %1 results"
+msgstr "ရလဒ် %1 ခု ကို ရှာဖွေတွေ့ရှိခဲ့သည်"
+
+msgctxt "HelpBrowser"
+msgid "Vidalia Help"
+msgstr "Vidalia အကူအညီ"
+
+msgctxt "HelpBrowser"
+msgid "Back"
+msgstr "နောက်သို့"
+
+msgctxt "HelpBrowser"
+msgid "Move to previous page (Backspace)"
+msgstr "ယခင် စာမျက်နှာသို့ ရွေ့ရန် (Backspace)"
+
+msgctxt "HelpBrowser"
+msgid "Backspace"
+msgstr "Backspace"
+
+msgctxt "HelpBrowser"
+msgid "Forward"
+msgstr "အရှေ့သို့"
+
+msgctxt "HelpBrowser"
+msgid "Move to next page (Shift+Backspace)"
+msgstr "နောက်စာမျက်နှာသို့ ရွေ့ရန် (Shift+Backspace)"
+
+msgctxt "HelpBrowser"
+msgid "Shift+Backspace"
+msgstr "Shift+Backspace"
+
+msgctxt "HelpBrowser"
+msgid "Home"
+msgstr "ပင်မ စာမျက်နှာ"
+
+msgctxt "HelpBrowser"
+msgid "Move to the Home page (Ctrl+H)"
+msgstr "ပင်မ စာမျက်နှာသို့ ရွေ့ရန် (Ctrl+H)"
+
+msgctxt "HelpBrowser"
+msgid "Ctrl+H"
+msgstr "Ctrl+H"
+
+msgctxt "HelpBrowser"
+msgid "Find"
+msgstr "ရှာဖွေရန်"
+
+msgctxt "HelpBrowser"
+msgid "Search for a word or phrase on current page (Ctrl+F)"
+msgstr "လက်ရှိ စာမျက်နှာပေါ်၌ စာလုံး တစ်လုံး (သို့) စကားစု တစ်စု ရှာဖွေရန် (Ctrl+F)"
+
+msgctxt "HelpBrowser"
+msgid "Ctrl+F"
+msgstr "Ctrl+F"
+
+msgctxt "HelpBrowser"
+msgid "Close"
+msgstr "ပိတ်ရန်"
+
+msgctxt "HelpBrowser"
+msgid "Close Vidalia Help"
+msgstr "Vidalia အကူအညီကို ပိတ်ရန်"
+
+msgctxt "HelpBrowser"
+msgid "Esc"
+msgstr "Esc"
+
+msgctxt "HelpBrowser"
+msgid "Find:"
+msgstr "ရှာဖွေရန်"
+
+msgctxt "HelpBrowser"
+msgid "Find Previous"
+msgstr "နောက်ပြန် ရှာရန်"
+
+msgctxt "HelpBrowser"
+msgid "Find Next"
+msgstr "ရှေ့ဆက် ရှာရန်"
+
+msgctxt "HelpBrowser"
+msgid "Case sensitive"
+msgstr "စာလုံးအမှားမခံ"
+
+msgctxt "HelpBrowser"
+msgid "Whole words only"
+msgstr "စကားလုံး တစ်ခုလုံး သာလျှင်"
+
+msgctxt "HelpBrowser"
+msgid "Help Topics"
+msgstr "အကူအညီ ခေါင်းစဉ်များ"
+
+msgctxt "HelpBrowser"
+msgid "Contents"
+msgstr "မာတိကာ"
+
+msgctxt "HelpBrowser"
+msgid "Search"
+msgstr "ရှာဖွေရန်"
+
+msgctxt "HelpBrowser"
+msgid "Searching for:"
+msgstr "ရှာဖွေလိုသည့် အချက် -"
+
+msgctxt "HelpBrowser"
+msgid "Found Documents"
+msgstr "တွေ့ရှိသည့် စာရွက်စာတမ်းများ"
+
+msgctxt "HelpBrowser"
+msgid "Error Loading Help Contents:"
+msgstr "အကူအညီ အကြောင်းအရာများကို ဖွင့်နေစဉ် ချို့ယွင်းချက် -"
+
+msgctxt "HelpTextBrowser"
+msgid "Opening External Link"
+msgstr "ပြင်ပ လင့်ခ်ကို ဖွင့်ရန်"
+
+msgctxt "HelpTextBrowser"
+msgid ""
+"Vidalia can open the link you selected in your default Web browser. If your "
+"browser is not currently configured to use Tor then the request will not be "
+"anonymous."
+msgstr "Vidalia သည် သင့် မူလ ကွန်ရက် ဘရောင်ဆာ၌ ရွေးထားသော လင့်ခ်ကို ဖွင့်ပေးနိုင်သည်။ အကယ်၍ သင့် ဘရောင်ဆာကို Tor ဖွင့်နိုင်ရန် လောလောဆယ် မပြင်ဆင်သေးပါက၊ သင့် တောင်းဆိုချက်ကို ​ဝှက်ထားပေးမည် မဟုတ်ပါ။"
+
+msgctxt "HelpTextBrowser"
+msgid "Do you want Vidalia to open the link in your Web browser?"
+msgstr "သင်သည် Vidalia ကို သုံးပြီး သင့် ကွန်ရက် ဘရောင်ဆာပေါ်၌ လင့်ခ်တစ်ခုကို ဖွင့်စေလိုသလား?"
+
+msgctxt "HelpTextBrowser"
+msgid "Unable to Open Link"
+msgstr "လင့်ခ်ကို မဖွင့်နိုင်ပါ"
+
+msgctxt "HelpTextBrowser"
+msgid ""
+"Vidalia was unable to open the selected link in your Web browser. You can "
+"still copy the URL and paste it into your browser."
+msgstr "Vidalia သည် ရွေးချယ်ထား​သော လင့်ခ်ကို သင့် ကွန်ရက် ဘရောင်ဆာပေါ်၌ မဖွင့်နိုင်ပါ။URL ကို ကော်ပီကူးပြီး သင့် ဘရောင်ဆာပေါ်တွင် ပွားယူနိုင်သေးသည်။"
+
+msgctxt "HelpTextBrowser"
+msgid "Error opening help file:"
+msgstr "အကူအညီဖိုင် ဖွင့်ရာ၌ ချို့ယွင်းချက် ရှိသည် -"
+
+msgctxt "LicenseDialog"
+msgid "License Information"
+msgstr "လိုင်စင် အချက်အလက်များ"
+
+msgctxt "LicenseDialog"
+msgid "License"
+msgstr "လိုင်စင်"
+
+msgctxt "LicenseDialog"
+msgid "Credits"
+msgstr "ဂုဏ်ပြုမှတ်တမ်းလွှာ"
+
+msgctxt "LogEvent"
+msgid "Debug"
+msgstr "အမှားစစ်ရန်"
+
+msgctxt "LogEvent"
+msgid "Info"
+msgstr "အချက်အလက်"
+
+msgctxt "LogEvent"
+msgid "Notice"
+msgstr "သတိပြုရန်"
+
+msgctxt "LogEvent"
+msgid "Warning"
+msgstr "သတိပေးချက်"
+
+msgctxt "LogEvent"
+msgid "Error"
+msgstr "ချို့ယွင်းချက်"
+
+msgctxt "LogEvent"
+msgid "Unknown"
+msgstr "အမည်မသိ"
+
+msgctxt "LogTreeItem"
+msgid "Debug"
+msgstr "အမှားစစ်ရန်"
+
+msgctxt "LogTreeItem"
+msgid "Info"
+msgstr "အချက်အလက်"
+
+msgctxt "LogTreeItem"
+msgid "Notice"
+msgstr "သတိပြုရန်"
+
+msgctxt "LogTreeItem"
+msgid "Warning"
+msgstr "သတိပေးချက်"
+
+msgctxt "LogTreeItem"
+msgid "Error"
+msgstr "ချို့ယွင်းချက်"
+
+msgctxt "LogTreeItem"
+msgid "Unknown"
+msgstr "အမည်မသိ"
+
+msgctxt "MainWindow"
+msgid "Start Tor"
+msgstr "Tor ကို စဖွင့်ရန်"
+
+msgctxt "MainWindow"
+msgid "Exit"
+msgstr "ထွက်ရန်"
+
+msgctxt "MainWindow"
+msgid "Bandwidth Graph"
+msgstr "Bandwidth ဇယား"
+
+msgctxt "MainWindow"
+msgid "Message Log"
+msgstr "သတင်း မှတ်မ်း"
+
+msgctxt "MainWindow"
+msgid "Network Map"
+msgstr "ကွန်ရက်ပြ မြေပုံ"
+
+msgctxt "MainWindow"
+msgid "Control Panel"
+msgstr "ထိန်းချုပ် စခန်း"
+
+msgctxt "MainWindow"
+msgid "Settings"
+msgstr "ချိန်ညှိချက်များ"
+
+msgctxt "MainWindow"
+msgid "About"
+msgstr "အကြောင်း"
+
+msgctxt "MainWindow"
+msgid "Help"
+msgstr "အကူအညီ"
+
+msgctxt "MainWindow"
+msgid "New Identity"
+msgstr "အထောက်အထားသစ်"
+
+msgctxt "MainWindow"
+msgid "Ctrl+T"
+msgstr "Ctrl+T"
+
+msgctxt "MainWindow"
+msgid "Ctrl+B"
+msgstr "Ctrl+H"
+
+msgctxt "MainWindow"
+msgid "Ctrl+L"
+msgstr "Ctrl+H"
+
+msgctxt "MainWindow"
+msgid "Ctrl+N"
+msgstr "Ctrl+H"
+
+msgctxt "MainWindow"
+msgid "Ctrl+?"
+msgstr "Ctrl+H"
+
+msgctxt "MainWindow"
+msgid "Ctrl+I"
+msgstr "Ctrl+H"
+
+msgctxt "MainWindow"
+msgid "Ctrl+P"
+msgstr "Ctrl+H"
+
+msgctxt "MainWindow"
+msgid "Tor"
+msgstr "Tor"
+
+msgctxt "MainWindow"
+msgid "View"
+msgstr "မြင်ကွင်း"
+
+msgctxt "MainWindow"
+msgid "Vidalia Help"
+msgstr "Vidalia အကူအညီ"
+
+msgctxt "MainWindow"
+msgid "Error starting web browser"
+msgstr "ကွန်ရက် ဘရောင်ဆာ စဖွင့်ရာတွင် ချို့ယွင်းချက် ရှိသည်"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to start the configured web browser"
+msgstr "Vidalia သည် ပြင်ဆင်ထားသော ကွန်ရက် ဘရောင်ဆာကို မဖွင့်နိုင်ပါ"
+
+msgctxt "MainWindow"
+msgid "Error starting IM client"
+msgstr " IM ကလိုင်း စဖွင့်ရာတွင် ချို့ယွင်းချက် ရှိသည်"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to start the configured IM client"
+msgstr "Vidalia သည် ပြင်ဆင်ထားသော IM Client ကို မဖွင့်နိုင်ပါ"
+
+msgctxt "MainWindow"
+msgid "Error starting proxy server"
+msgstr "ပရောက်ဇီ ဆာဗာကို စဖွင့်ရာတွင် ချို့ယွင်းချက် ရှိသည်"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to start the configured proxy server"
+msgstr "Vidalia သည် ပြင်ဆင်ထားသော ပရောက်ဇီ ဆာဗာကို မဖွင့်နိုင်ပါ"
+
+msgctxt "MainWindow"
+msgid "Connecting to a relay directory"
+msgstr "Relay ဖိုင်လမ်းကြောင်း တစ်ခုကို ဆက်သွယ်နေသည်"
+
+msgctxt "MainWindow"
+msgid "Establishing an encrypted directory connection"
+msgstr "စာဝှက်ထားသည့် ဖိုင်လမ်းကြောင်း ချိတ်ဆက်မှု တစ်ခု တည်ဆောက်နေသည်"
+
+msgctxt "MainWindow"
+msgid "Retrieving network status"
+msgstr "ကွန်ရက် အနေအထားကို ပြန်ရယူနေသည်"
+
+msgctxt "MainWindow"
+msgid "Loading network status"
+msgstr "ကွန်ရက် အနေအထားကို ဖွင့်နေသည်"
+
+msgctxt "MainWindow"
+msgid "Loading authority certificates"
+msgstr "လုပ်ပိုင်ခွင့် လက်မှတ်များကို ရယူနေသည်"
+
+msgctxt "MainWindow"
+msgid "Requesting relay information"
+msgstr "Relay အချက်အလက်ကို တောင်းခံနေသည်"
+
+msgctxt "MainWindow"
+msgid "Loading relay information"
+msgstr "Relay အချက်အလက်များကို ရယူနေသည်"
+
+msgctxt "MainWindow"
+msgid "Connecting to the Tor network"
+msgstr "Tor ကွန်ရက်ကို ဆက်သွယ်နေသည်"
+
+msgctxt "MainWindow"
+msgid "Establishing a Tor circuit"
+msgstr "Tor ဆားကစ် တစ်ခုကို တည်ဆောက်နေသည်"
+
+msgctxt "MainWindow"
+msgid "Connected to the Tor network!"
+msgstr "Tor ကွန်ရက်ကို ချိတ်ဆက်မိသည်!"
+
+msgctxt "MainWindow"
+msgid "miscellaneous"
+msgstr "အထွေထွေ"
+
+msgctxt "MainWindow"
+msgid "identity mismatch"
+msgstr "အထောက်အထား မကိုက်ညီပါ"
+
+msgctxt "MainWindow"
+msgid "done"
+msgstr "ပြီးသွားပြီ"
+
+msgctxt "MainWindow"
+msgid "connection refused"
+msgstr "ဆက်သွယ်မှုလိုင်း မရပါ"
+
+msgctxt "MainWindow"
+msgid "connection timeout"
+msgstr "ချိတ်ဆက်မှုလိုင်း ပြတ်သွားသည်"
+
+msgctxt "MainWindow"
+msgid "read/write error"
+msgstr "အရေး/အဖတ် ချို့ယွင်းချက်"
+
+msgctxt "MainWindow"
+msgid "no route to host"
+msgstr "Host ကို သွားမည့် လမ်းမရှိပါ"
+
+msgctxt "MainWindow"
+msgid "insufficient resources"
+msgstr "အရင်းအမြစ်များ မလုံလောက်ပါ"
+
+msgctxt "MainWindow"
+msgid "unknown"
+msgstr "အမည်မသိ"
+
+msgctxt "MainWindow"
+msgid "Tor is not running"
+msgstr "Tor အလုပ် မလုပ်ပါ"
+
+msgctxt "MainWindow"
+msgid "Tor is shutting down"
+msgstr "Tor ပိတ်နေသည်"
+
+msgctxt "MainWindow"
+msgid "Stop Tor Now"
+msgstr "Tor ကို ယခု ပိတ်လိုက်ပါ"
+
+msgctxt "MainWindow"
+msgid "Stop Tor"
+msgstr "Tor ကို ပိတ်လိုက်ပါ"
+
+msgctxt "MainWindow"
+msgid "Starting the Tor software"
+msgstr "Tor ဆော့ဖ်ဝဲလ် စဖွင့်နေသည်"
+
+msgctxt "MainWindow"
+msgid "Starting Tor"
+msgstr "Tor ကို စဖွင့်နေသည်"
+
+msgctxt "MainWindow"
+msgid "Error Starting Tor"
+msgstr "Tor စဖွင့်ရာ၌ ချို့ယွင်းချက် ရှိသည်"
+
+msgctxt "MainWindow"
+msgid ""
+"Vidalia was unable to start Tor. Check your settings to ensure the correct "
+"name and location of your Tor executable is specified."
+msgstr "Vidalia သည် Tor ကို မဖွင့်နိုင်ပါ။ Tor သွင်းနိုင်သော ဖိုင် အမည်နှင့် တည်နေရာ မှန်မမှန် သိရှိရန် သင့် ချိန်ညှိချက်များကို စစ်ဆေးပါ"
+
+msgctxt "MainWindow"
+msgid "Connecting to Tor"
+msgstr "Tor ကို ဆက်သွယ်နေသည်"
+
+msgctxt "MainWindow"
+msgid "Connection Error"
+msgstr "ဆက်သွယ်​မှုလိုင်း ချို့ယွင်းချက်"
+
+msgctxt "MainWindow"
+msgid "Relaying is Enabled"
+msgstr "ထပ်ဆင့်လွှင်းခြင်းကို ဖွင့်ထားသည်"
+
+msgctxt "MainWindow"
+msgid "Error Shutting Down"
+msgstr "စက်ပိတ်ရာ၌ ချို့ယွင်းချက် ရှိသည်"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to stop the Tor software."
+msgstr "Vidalia သည် Tor ဆော့ဝဲလ်ကို မရပ်တန့်နိုင်ပါ။"
+
+msgctxt "MainWindow"
+msgid "Unexpected Error"
+msgstr "မထင်မှတ်သော ချို့ယွင်းချက်"
+
+msgctxt "MainWindow"
+msgid "Authenticating to Tor"
+msgstr "Tor ကို အတည်ပြုနေသည်"
+
+msgctxt "MainWindow"
+msgid "Cookie Authentication Required"
+msgstr "ကွတ်ကီး အတည်ပြုချက် ရယူရန် လိုအပ်သည်"
+
+msgctxt "MainWindow"
+msgid ""
+"The Tor software requires Vidalia to send the contents of an authentication "
+"cookie, but Vidalia was unable to find one."
+msgstr "Tor ဆော့ဖ်ဝဲလ်သည် အတည်ပြုမဲ့ ကွတ်ကီး၏အကြောင်းအရာများကို ပေးပို့ရန် Vidalia ကို လိုအပ်သည်၊ သို့သော် Vidalia ကို ရှာမတွေ့နိုင်ပါ။"
+
+msgctxt "MainWindow"
+msgid "Would you like to browse for the file 'control_auth_cookie' yourself?"
+msgstr "'control_auth_cookie' ဖိုင်ကို သင်ကိုယ်တိုင် ဖွင့်ကြည့်လိုသလား?"
+
+msgctxt "MainWindow"
+msgid "Data Directory"
+msgstr "ဒေတာ ဖိုင်လမ်းကြောင်း"
+
+msgctxt "MainWindow"
+msgid "Control Cookie (control_auth_cookie)"
+msgstr "ကွတ်ကီးကို ထိန်းချုပ်ရန် (control_auth_cookie)"
+
+msgctxt "MainWindow"
+msgid "Error Registering for Events"
+msgstr "ဖြစ်ရပ်များကို မှတ်ပုံတင်ရာတွင် ချို့ယွင်းချက် ရှိသည်"
+
+msgctxt "MainWindow"
+msgid ""
+"Vidalia was unable to register for some events. Many of Vidalia's features "
+"may be unavailable."
+msgstr "Vidalia သည် ဖြစ်ရပ်တချို့ကို စာရင်းမသွင်းနိုင်ပါ။ Vidalia ၏အင်္ဂါရပ် အတော်များများကို မရရှိနိုင်ပါ။"
+
+msgctxt "MainWindow"
+msgid "Authentication Error"
+msgstr "အတည်ပြုချက် ချို့ယွင်းချက်"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to authenticate to the Tor software. (%1)"
+msgstr "Vidalia သည် Tor ဆော့ဗ်ဝဲကို အတည်မပြုနိုင်ပါ။ (%1)"
+
+msgctxt "MainWindow"
+msgid "Please check your control port authentication settings."
+msgstr "သင့် ထိန်းချုပ် port အတည်ပြုမှု ချိန်ညှိချက်များကို စစ်ဆေးပါ။"
+
+msgctxt "MainWindow"
+msgid "Tor Update Available"
+msgstr "Tor မွမ်းမံချက် ရရှိနိုင်သည်"
+
+msgctxt "MainWindow"
+msgid ""
+"The currently installed version of Tor is out of date or no longer "
+"recommended. Please visit the Tor website to download the latest version."
+msgstr "လက်ရှိ ထည့်သွင်းထားသည့် Tor ဗားရှင်းသည် သက်တမ်းကုန်သွားပြီ (သို့) ဆက်လက် သုံးစွဲရန် အားမပေးပါ။ နောက်ဆုံး ဗားရှင်းကို ဒေါင်းလုဒ် ဆွဲရန် Tor ကွန်ရက် စာမျက်နှာကို သွားရောက် လေ့လာပါ။"
+
+msgctxt "MainWindow"
+msgid "Tor website: %1"
+msgstr "Tor ကွန်ရက် စာမျက်နှာ - %1"
+
+msgctxt "MainWindow"
+msgid ""
+"All subsequent connections will appear to be different than your old "
+"connections."
+msgstr "နောက်ပိုင်း ဆက်သွယ်မှုလိုင်း အားလုံးသည် ယခင် သင် သုံးစွဲခဲ့သော ဆက်သွယ်မှုလိုင်းနှင့် ကွာခြားနေပုံ ပေါ်နေလိမ့်မယ်။"
+
+msgctxt "MainWindow"
+msgid "Failed to Create New Identity"
+msgstr "အထောက်အထား အသစ် ဖန်တီးရန် မအောင်မြင်ပါ"
+
+msgctxt "MainWindow"
+msgid "Port Forwarding Failed"
+msgstr "Port ထပ်ဆင့် ပေးပို့မှု မအောင်မြင်ပါ"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to configure automatic port forwarding."
+msgstr "Vidalia သည် အလိုအလျောက် Port ထပ်ဆင့် ပေးပို့မှုကို မပြင်ဆင်နိုင်ပါ။"
+
+msgctxt "MainWindow"
+msgid "Vidalia Control Panel"
+msgstr "Vidalia ထိန်းချုပ်ရာ စခန်း"
+
+msgctxt "MainWindow"
+msgid "Status"
+msgstr "အနေအထား"
+
+msgctxt "MainWindow"
+msgid "Vidalia Shortcuts"
+msgstr "Vidalia ဖြတ်လမ်းများ"
+
+msgctxt "MainWindow"
+msgid "Setup Relaying"
+msgstr "ထပ်ဆင့်လွှင့်ချက် စီစဉ်ရန်"
+
+msgctxt "MainWindow"
+msgid "Set up a relay and help the network grow"
+msgstr "Relay တစ်ခု စီစဉ်ပြီး ကွန်ရက် ဖြန့်ကျက်လာရန် ကူညီပါ"
+
+msgctxt "MainWindow"
+msgid "View the Network"
+msgstr "ကွန်ရက်ကို ကြည့်ရန်"
+
+msgctxt "MainWindow"
+msgid "View a map of the Tor network"
+msgstr "Tor ကွန်ရက်၏ ​မြေပုံကို ကြည့်ရန်"
+
+msgctxt "MainWindow"
+msgid "Use a New Identity"
+msgstr "အထောက်အထား အသစ် သုံးစွဲရန်"
+
+msgctxt "MainWindow"
+msgid "Make subsequent connections appear new"
+msgstr "နောက်ဆက်တွဲ ဆက်သွယ်မှုလိုင်းများကို အသစ်ကဲ့သို့ ဖန်တီးရန်"
+
+msgctxt "MainWindow"
+msgid "View recent bandwidth usage"
+msgstr "လတ်တလော bandwidth သုံးစွဲမှုကို ကြည့်ရန်"
+
+msgctxt "MainWindow"
+msgid "View log message history"
+msgstr "သတင်း မှတ်တမ်းကို ကြည့်ရန်"
+
+msgctxt "MainWindow"
+msgid "View help documentation"
+msgstr "အကူအညီ လမ်းညွှန် ကြည့်ရှုရန်"
+
+msgctxt "MainWindow"
+msgid "Configure Vidalia"
+msgstr "Vidalia ကို ပြင်ဆင်ရန်"
+
+msgctxt "MainWindow"
+msgid "View version and license information"
+msgstr "ဗားရှင်းနှင့် လိုင်စင် အချက်အလက်များကို ကြည့်ရန်"
+
+msgctxt "MainWindow"
+msgid "Exit Vidalia"
+msgstr "Vidalia ပိတ်ရန်"
+
+msgctxt "MainWindow"
+msgid "Show this window on startup"
+msgstr "ဤ၀င်းဒိုးကို စက်အတက်တွင် ပြပါ"
+
+msgctxt "MainWindow"
+msgid "Hide"
+msgstr "ဖျောက်ထားရန်"
+
+msgctxt "MainWindow"
+msgid "Hide this window"
+msgstr "ဤဝင်းဒိုးကို ဖျောက်ထားရန်"
+
+msgctxt "MainWindow"
+msgid "Password Reset Failed"
+msgstr "စကားဝှက် ပြန်ချိန်၍ မရပါ"
+
+msgctxt "MainWindow"
+msgid ""
+"Vidalia tried to reset Tor's control password, but was not able to restart "
+"the Tor software. Please check your Task Manager to ensure there are no "
+"other Tor processes running."
+msgstr "Vidalia သည် Tor ၏ ထိန်းချုပ် စကားဝှက်ကို ပြန်ချိန်ရန် ကြိုးစားခဲ့သည်။ သို့သော် Tor ဆော့ဗ်ဝဲကို ပြန်မဖွင့်နိုင်ပါ။ အခြားTor ၏ လုပ်ငန်း ဆောင်ရွတ်မှု မရှိစေရန် Task Manager ကို စစ်ဆေးပါ။"
+
+msgctxt "MainWindow"
+msgid ""
+"The currently installed version of Tor is out of date or no longer "
+"recommended."
+msgstr "လက်ရှိ ထည့်သွင်းထားသော Tor ဗားရှင်းသည် သက်တမ်းကုန်သွားပြီး (သို့) နောက်ထပ် သုံးစွဲရန် အား​မပေးတော့ပါ။"
+
+msgctxt "MainWindow"
+msgid ""
+"Would you like to check if a newer package is available for installation?"
+msgstr "စက်ထဲ ထည့်သွင်းရန် ဆော့ဗ်ဝဲ အသစ် ရမရ စစ်ဆေးလိုသလား?"
+
+msgctxt "MainWindow"
+msgid "Potentially Unsafe Connection"
+msgstr "ဖြစ်လာနိုင်ချေ လုံခြုံမှု မရှိသည့် ဆက်သွယ်မှုလိုင်း"
+
+msgctxt "MainWindow"
+msgid ""
+"Tor has automatically closed your connection in order to protect your "
+"anonymity."
+msgstr "Tor သည် သင်၏ အမည်ဖျောက်ထားမှုကို ထိန်းသိမ်းနိုင်ရန် သင့် ဆက်သွယ်မှုလိုင်းကို အလိုအလျောက် ပိတ်လိုက်သည်။"
+
+msgctxt "MainWindow"
+msgid "Update Failed"
+msgstr "မွမ်းမံချက် မအောင်မြင်ပါ"
+
+msgctxt "MainWindow"
+msgid "Your software is up to date"
+msgstr "သင့် ဆော့ဗ်ဝဲသည် နောက်ဆုံးထုတ် ဗားရှင်း ဖြစ်သည်"
+
+msgctxt "MainWindow"
+msgid ""
+"There are no new Tor software packages available for your computer at this "
+"time."
+msgstr "ယခုအချိန်၌ သင့်ကွန်ပျူတာအတွက် ရနိုင်သော Tor ဆော့ဖ်ဝဲလ်အသစ် မရှိပါ။"
+
+msgctxt "MainWindow"
+msgid "Installation Failed"
+msgstr "ဆော့ဗ်ဝဲ ထည့်သွင်းမှု မအောင်မြင်ပါ"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to install your software updates."
+msgstr "Vidalia သည် သင့် ဆော့ဗ်ဝဲ၏ မွမ်းမံချက်များကို မထည့်သွင်းနိုင်ပါ။"
+
+msgctxt "MainWindow"
+msgid "The following error occurred:"
+msgstr "အောက်ပါ ချို့ယွင်းချက် ဖြစ်ပေါ်နေသည် -"
+
+msgctxt "MainWindow"
+msgid ""
+"Anything sent over this connection could be monitored. Please check your "
+"application's configuration and use only encrypted protocols, such as SSL, "
+"if possible."
+msgstr "ဤဆက်သွယ်မှုလိုင်းမှ ပေးပို့သမျှကို စောင့်ကြည့် ခံရနိုင်သည်။ သင့် အပ္ပလီဂေးရှင်း၏ ပုံစံချမှတ်မှုကို စစ်ဆေးပြီး ဖြစ်နိုင်ပါက SSL ကဲ့သို့ စာဝှက်ထားသော ပရိုတိုကောများကိုသာ သုံးစွဲပါ။"
+
+msgctxt "MainWindow"
+msgid "Bootstrapping torrc from %1 to %2"
+msgstr "torrc ကို %1 မှ %2 သို့ အလို​အလျှောက် ပြုလုပ်နေသည်"
+
+msgctxt "MainWindow"
+msgid "(probably Telnet)"
+msgstr "(Telnet ဖြစ်နိုင်သည်)"
+
+msgctxt "MainWindow"
+msgid "(probably an email client)"
+msgstr "(အီးမေးလ် ဂလိုင်း ဖြစ်နိုင်သည်)"
+
+msgctxt "MainWindow"
+msgid ""
+"One of your applications %1 appears to be making a potentially unencrypted "
+"and unsafe connection to port %2."
+msgstr "သင့် အပ္ပလီဂေးရှင်းထဲမှ %1 သည် port %2 အတွက် စာဝှက်မထားပဲ လုံခြုံမှုမရှိသော ဆက်သွယ်​မှုလိုင်း ဖြစ်စေပုံပေါ်နေသည်။"
+
+msgctxt "MainWindow"
+msgid "failed (%1)"
+msgstr "(%1) မအောင်မြင်ပါ"
+
+msgctxt "MainWindow"
+msgid ""
+"Your relay is shutting down.\n"
+"Click 'Stop' again to stop your relay now."
+msgstr "သင့် Relay ပိတ်နေသည်။\nသင့် Relay ကို ယခု ရပ်တန့်စေရန် \"ရပ်တန့်ရန်\" ခလုတ်ကို ထပ်ပြီး နှိပ်ပါ။"
+
+msgctxt "MainWindow"
+msgid ""
+"Vidalia can't find out how to talk to Tor because it can't access this file: %1\n"
+"\n"
+"Here's the last error message:\n"
+"%2"
+msgstr "Vidalia သည် ဖိုင်ကို မဖွင့်နိုင်သောကြောင့် Tor နှင့် ဆက်သွယ်မည့် နည်းလမ်းကို မတွေ့နိုင်ပါ - %1\n\nနောက်ဆုံး ချို့ယွင်းချက်ပြ စာတမ်းကို ဤနေရာတွင် ဖေါ်ပြထားသည် - \n %2"
+
+msgctxt "MainWindow"
+msgid ""
+"It seems Tor has stopped running since Vidalia started it.\n"
+"\n"
+"See the Advanced Message Log for more information."
+msgstr "Vidalia ကို စဖွင့်ကတည်းက Tor အလုပ်မလုပ်ပုံ ရသည်။\n\n အသေးစိတ် အပြည့်အစုံအတွက် အဆင့်မြှင့် စာ မှတ်တမ်းကို ကြည့်ပါ။"
+
+msgctxt "MainWindow"
+msgid ""
+"You are currently running a relay. Terminating your relay will interrupt any open connections from clients.\n"
+"\n"
+"Would you like to shutdown gracefully and give clients time to find a new relay?"
+msgstr "လောလောဆယ် သင်သည် Relay ကို ဖွင့်နေသည်။ သင့် Relay ကို ရပ်ဆိုင်းခြင်းဖြင့် သုံးစွဲသူများ အသုံးပြုသည့် ဖွင့်ထားသော ဆက်သွယ်မှုလိုင်း အားလုံးကို အနှောင့်အယှက် ဖြစ်စေလိမ့်မည်။\n\nRelay ကို ကြည်ကြည်သာသာ ပိတ်ပြီး သုံးစွဲသူများက Relay အသစ် တစ်ခု ရှာနိုင်ရန် အချိန်ပေးလိုသလား။"
+
+msgctxt "MainWindow"
+msgid ""
+"Vidalia detected that the Tor software exited unexpectedly.\n"
+"\n"
+"Please check the message log for recent warning or error messages."
+msgstr "Tor ဆော့ဗ်ဝဲသည် မမျှော်လင်ပဲ ပိတ်သွားကြောင်း Vidalia က တွေ့ရှိသွားသည်။\n\n လတ်တလော သတိပေးချက် (သို့) ချို့ယွင်းချက်ပြ စာတမ်းများအတွက် သတင်း မှတ်တမ်းကို စစ်ဆေးပါ။"
+
+msgctxt "MessageLog"
+msgid "Error Setting Filter"
+msgstr "စစ်ထုတ်မှု သတ်မှတ်ချက်၌ ချို့ယွင်းချက် ရှိသည်"
+
+msgctxt "MessageLog"
+msgid "Vidalia was unable to register for Tor's log events."
+msgstr "Vidalia သည် Tor မှတ်တမ်း ဖြစ်ရပ်များအတွက် မှတ်ပုံမတင်နိုင်ပါ။"
+
+msgctxt "MessageLog"
+msgid "Error Opening Log File"
+msgstr "မှတ်တမ်းဖိုင်ကို ဖွင့်ရာ၌ ချို့ယွင်းချက် ရှိသည်"
+
+msgctxt "MessageLog"
+msgid "Vidalia was unable to open the specified log file."
+msgstr "Vidalia သည် သတ်မှတ်ထားသော မှတ်တမ်းဖိုင်ကို မဖွင့်နိုင်ပါ။"
+
+msgctxt "MessageLog"
+msgid "Log Filename Required"
+msgstr "မှတ်တမ်း ဖိုင်အမည် လိုအပ်သည်"
+
+msgctxt "MessageLog"
+msgid "You must enter a filename to be able to save log messages to a file."
+msgstr "မှတ်တမ်း စာများကို ဖိုင်တစ်ခုထဲ သိမ်းဆည်းနိုင်ရန် ဖိုင်အမည် တစ်ခု ရေးထည့်ရမည်။"
+
+msgctxt "MessageLog"
+msgid "Select Log File"
+msgstr "မှတ်တမ်းဖိုင်ကို ရွေးချယ်ရန်"
+
+msgctxt "MessageLog"
+msgid "Save Log Messages"
+msgstr "မှတ်တမ်း စာများကို သိမ်းဆည်းပါ"
+
+msgctxt "MessageLog"
+msgid "Text Files (*.txt)"
+msgstr "စာသားဖိုင် (*.txt)"
+
+msgctxt "MessageLog"
+msgid "Vidalia"
+msgstr "Vidalia"
+
+msgctxt "MessageLog"
+msgid "Find in Message Log"
+msgstr "သတင်း မှတ်တမ်းထဲတွင် ရှာဖွေရန်"
+
+msgctxt "MessageLog"
+msgid "Find:"
+msgstr "ရှာဖွေရန် -"
+
+msgctxt "MessageLog"
+msgid "Not Found"
+msgstr "မတွေ့ရှိပါ"
+
+msgctxt "MessageLog"
+msgid "Search found 0 matches."
+msgstr "ရှာဖွေ တွေ့ရှိချက် 0 နှင့် ကိုက်ညီသည်။"
+
+msgctxt "MessageLog"
+msgid "Message Log"
+msgstr "သတင်း မှတ်တမ်း"
+
+msgctxt "MessageLog"
+msgid "Message Filters..."
+msgstr "သတင်း စစ်ထုတ်မှုများ..."
+
+msgctxt "MessageLog"
+msgid "Set message filters"
+msgstr "သတင်း စစ်ထုတ်မှုများကို သတ်မှတ်ရန်"
+
+msgctxt "MessageLog"
+msgid "History Size..."
+msgstr "မှတ်တမ်း အရွယ်အစား..."
+
+msgctxt "MessageLog"
+msgid "Set maximum number of messages to display"
+msgstr "ဖော်ပြမည့် အများဆုံး စာတမ်း အရေအတွက်ကို သတ်မှတ်ရန်"
+
+msgctxt "MessageLog"
+msgid "Clear"
+msgstr "ရှင်းလင်းရန်"
+
+msgctxt "MessageLog"
+msgid "Clear all messages from the Message Log (Ctrl+E)"
+msgstr "သတင်း မှတ်တမ်း (Ctrl+E) မှ စာတမ်း အားလုံးကို ရှင်းလင်းရန်"
+
+msgctxt "MessageLog"
+msgid "Ctrl+E"
+msgstr "Ctrl+E"
+
+msgctxt "MessageLog"
+msgid "Copy"
+msgstr "ကော်ပီကူးရန်"
+
+msgctxt "MessageLog"
+msgid "Copy the selected messages to the clipboard (Ctrl+C)"
+msgstr "ရွေးချယ်ထားသော စာများကို clipboard ထဲ ကော်ပီ ကူးရန် (Ctrl+C)"
+
+msgctxt "MessageLog"
+msgid "Ctrl+C"
+msgstr "Ctrl+C"
+
+msgctxt "MessageLog"
+msgid "Select All"
+msgstr "အားလုံး ရွေးချယ်ရန်"
+
+msgctxt "MessageLog"
+msgid "Select all messages (Ctrl+A)"
+msgstr "စာ အားလုံးကို ရွေးချယ်ရန် (Ctrl+A)"
+
+msgctxt "MessageLog"
+msgid "Ctrl+A"
+msgstr "Ctrl+A"
+
+msgctxt "MessageLog"
+msgid "Save All"
+msgstr "အားလုံးကို သိမ်းဆည်းရန်"
+
+msgctxt "MessageLog"
+msgid "Save all messages to a file"
+msgstr "စာ အားလုံးကို သိမ်းဆည်းရန်"
+
+msgctxt "MessageLog"
+msgid "Save Selected"
+msgstr "ရွေးချယ်ထားချက်ကို သိမ်းဆည်းရန်"
+
+msgctxt "MessageLog"
+msgid "Save selected messages to a file"
+msgstr "ရွေးချယ်ထားသည့် စာများကို ဖိုင်တစ်ခုထဲ သိမ်းဆည်းရန်"
+
+msgctxt "MessageLog"
+msgid "Settings"
+msgstr "ချိန်ညှိချက်များ"
+
+msgctxt "MessageLog"
+msgid "Adjust Message Log Settings"
+msgstr "သတင်း မှတ်တမ်း ချိန်ညှိချက်များကို ညှိနှိုင်းရန်"
+
+msgctxt "MessageLog"
+msgid "Ctrl+T"
+msgstr "Ctrl+T"
+
+msgctxt "MessageLog"
+msgid "Help"
+msgstr "အကူအညီ"
+
+msgctxt "MessageLog"
+msgid "Show the help browser"
+msgstr "အကူအညီပေး ဘရောင်ဆာကို ပြပါ"
+
+msgctxt "MessageLog"
+msgid "F1"
+msgstr "F1"
+
+msgctxt "MessageLog"
+msgid "Close"
+msgstr "ပိတ်ရန်"
+
+msgctxt "MessageLog"
+msgid "Close the Message Log"
+msgstr "သတင်း မှတ်တမ်းကို ပိတ်ရန်"
+
+msgctxt "MessageLog"
+msgid "Esc"
+msgstr "Esc"
+
+msgctxt "MessageLog"
+msgid "Find"
+msgstr "ရှာဖွေရန်"
+
+msgctxt "MessageLog"
+msgid "Find all messages containing the search text (Ctrl+F)"
+msgstr "ရှာဖွေလိုသည့် စာသားပါသော စာ အားလုံးကို ရှာရန် (Ctrl+F)"
+
+msgctxt "MessageLog"
+msgid "Ctrl+F"
+msgstr "Ctrl+F"
+
+msgctxt "MessageLog"
+msgid "Time"
+msgstr "အချိန်"
+
+msgctxt "MessageLog"
+msgid "Type"
+msgstr "အမျိုးအစား"
+
+msgctxt "MessageLog"
+msgid "Message"
+msgstr "သတင်းစကား"
+
+msgctxt "MessageLog"
+msgid "Saves the current Message Log settings"
+msgstr "လက်ရှိ သတင်း မှတ်တမ်း ချိန်ညှိချက်များကို သိမ်းဆည်းရန်"
+
+msgctxt "MessageLog"
+msgid "Save Settings"
+msgstr "ချိန်ညှိချက်များကို သိမ်းဆည်းရန်"
+
+msgctxt "MessageLog"
+msgid "Cancels changes made to settings"
+msgstr "ချိန်ညှိချက်များ၌ ပြုလုပ်သော အပြောင်းအလဲများကို ရပ်ဆိုင်းရန်"
+
+msgctxt "MessageLog"
+msgid "Cancel"
+msgstr "ရပ်ဆိုင်းရန်"
+
+msgctxt "MessageLog"
+msgid "Message Filter"
+msgstr "သတင်း စစ်ထုတ်မှု"
+
+msgctxt "MessageLog"
+msgid "Error"
+msgstr "ချို့ယွင်းချက်"
+
+msgctxt "MessageLog"
+msgid "Warning"
+msgstr "သတိပေးချက်"
+
+msgctxt "MessageLog"
+msgid "Notice"
+msgstr "သတိပြုရန်"
+
+msgctxt "MessageLog"
+msgid "Info"
+msgstr "အချက်အလက်"
+
+msgctxt "MessageLog"
+msgid "Debug"
+msgstr "အမှားစစ်ရန်"
+
+msgctxt "MessageLog"
+msgid "Message Log History"
+msgstr "သတင်း မှတ်တမ်း"
+
+msgctxt "MessageLog"
+msgid "Number of messages to display in the message log window"
+msgstr "သတင်း မှတ်တမ်း ဝင်းဒိုးထဲတွင် ဖေါ်ပြမည့် စာတမ်း အရေအတွက်"
+
+msgctxt "MessageLog"
+msgid "messages"
+msgstr "သတင်းစကား"
+
+msgctxt "MessageLog"
+msgid "Browse"
+msgstr "ဖွင့်ကြည့်ရန်"
+
+msgctxt "MessageLog"
+msgid "Enable automatically saving all new log messages to a file"
+msgstr "မှတ်တမ်း သတင်းလွှာ အသစ် အားလုံးကို ဖိုင် တစ်ဖိုင်၌ အလိုအလျောက် သိမ်းဆည်းရန် ပြုလုပ်ပါ"
+
+msgctxt "MessageLog"
+msgid "Automatically save new log messages to a file"
+msgstr "မှတ်တမ်း သတင်းလွှာ အသစ် အားလုံးကို ဖိုင် တစ်ဖိုင်၌ အလိုအလျောက် သိမ်းဆည်းရန်"
+
+msgctxt "MessageLog"
+msgid "Basic"
+msgstr "အခြေခံ"
+
+msgctxt "MessageLog"
+msgid "Tor Status"
+msgstr "Tor အနေအထား"
+
+msgctxt "MessageLog"
+msgid "Advanced"
+msgstr "အဆင့်မြင့်"
+
+msgctxt "MessageLog"
+msgid "Always Save New Log Messages"
+msgstr "မှတ်တမ်း သတင်းလွှာ အသစ်ကို အမြဲတမ်း သိမ်းဆည်းရန်"
+
+msgctxt "MessageLog"
+msgid ""
+"Messages that appear when something has \n"
+"gone very wrong and Tor cannot proceed."
+msgstr "တစ်ခုခု မှားယွင်းသည့်အခါနှင့် Tor အလုပ်\nမလုပ်နိုင်သည့်အခါ ထွက်ပေါ်လာသော စာတမ်းများ"
+
+msgctxt "MessageLog"
+msgid ""
+"Messages that only appear when \n"
+"something has gone wrong with Tor."
+msgstr "Tor ၌ တစ်ခုခု မှားယွင်းသည့်အခါ\nထွက်ပေါ်လာသော စာတမ်းများ"
+
+msgctxt "MessageLog"
+msgid ""
+"Messages that appear infrequently \n"
+"during normal Tor operation and are \n"
+"not considered errors, but you may \n"
+"care about."
+msgstr "Tor ပုံမှန် အလုပ်လုပ်သည့်အခါ မကြာခဏ \nပေါ်ထွက်လာသည့် စာတမ်း၊ ၄င်းတို့ကို ချို့ယွင်းချက်များဟု \nမသတ်မှတ်ပါ။ သို့သော် သင် သတိပြုရမည် ဖြစ်သည်။"
+
+msgctxt "MessageLog"
+msgid ""
+"Messages that appear frequently \n"
+"during normal Tor operation."
+msgstr "Tor ပုံမှန် အလုပ်လုပ်သည့်အခါ မကြာခဏ \nပေါ်ထွက်လာသည့် စာတမ်း။"
+
+msgctxt "MessageLog"
+msgid ""
+"Hyper-verbose messages primarily of \n"
+"interest to Tor developers."
+msgstr "အထူးသဖြင့် Tor စီစဉ်ဖန်တီးသူများ အတွက် ဖေါ်ပြပေးသော\n Hyper-verbose စာတမ်းရှည်များ ဖြစ်သည်။"
+
+msgctxt "MessageLog"
+msgid ""
+"Cannot write file %1\n"
+"\n"
+"%2."
+msgstr "%1 ဖိုင်ကို ရေး၍ မရပါ\n\n%2။"
+
+msgctxt "NetViewer"
+msgid "Tor Network Map"
+msgstr "Tor ကွန်ရက်ပြ မြေပုံ"
+
+msgctxt "NetViewer"
+msgid "Refresh"
+msgstr "ပြန်လှုပ်နှိုးရန်"
+
+msgctxt "NetViewer"
+msgid "Refresh the list of Tor relays and connections"
+msgstr "Tor Relay များနှင့် ဆက်သွယ်မှုလိုင်းများ ပါသော စာရင်းကို ပြန်လှုပ်နှိုးရန်"
+
+msgctxt "NetViewer"
+msgid "Ctrl+R"
+msgstr "Ctrl+R"
+
+msgctxt "NetViewer"
+msgid "Help"
+msgstr "အကူအညီ"
+
+msgctxt "NetViewer"
+msgid "Show the network map help"
+msgstr "ကွန်ရက်ပြ မြေပုံ အကူအညီကို ပြရန်"
+
+msgctxt "NetViewer"
+msgid "Show network map help"
+msgstr "ကွန်ရက်ပြ မြေပုံ အကူအညီကို ပြရန်"
+
+msgctxt "NetViewer"
+msgid "F1"
+msgstr "F1"
+
+msgctxt "NetViewer"
+msgid "Close"
+msgstr "ပိတ်ရန်"
+
+msgctxt "NetViewer"
+msgid "Close the network map"
+msgstr "ကွန်ရက်ပြ မြေပုံကို ပိတ်ရန်"
+
+msgctxt "NetViewer"
+msgid "Esc"
+msgstr "Esc"
+
+msgctxt "NetViewer"
+msgid "Zoom In"
+msgstr "ပုံကြီးချဲရန်"
+
+msgctxt "NetViewer"
+msgid "Zoom in on the network map"
+msgstr "ကွန်ရက်ပေါ်ရှိ မြေပုံကို ပုံကြီးချဲ့ရန်"
+
+msgctxt "NetViewer"
+msgid "+"
+msgstr "+"
+
+msgctxt "NetViewer"
+msgid "Zoom Out"
+msgstr "ပုံသေးချုံ့ရန်"
+
+msgctxt "NetViewer"
+msgid "Zoom out on the network map"
+msgstr "ကွန်ရက်ပေါ်ရှိ မြေပုံကို ပုံသေးချုံ့ရန်"
+
+msgctxt "NetViewer"
+msgid "-"
+msgstr "-"
+
+msgctxt "NetViewer"
+msgid "Zoom To Fit"
+msgstr "ကွက်တိဖြစ်အောင် ချဲ့ပါ"
+
+msgctxt "NetViewer"
+msgid "Zooms to fit all currently displayed circuits"
+msgstr "လက်ရှိ ဖော်ပြထားသော ဆားကစ် အားလုံးကို ကွက်တိ ချဲရန်"
+
+msgctxt "NetViewer"
+msgid "Ctrl+Z"
+msgstr "Ctrl+Z"
+
+msgctxt "NetViewer"
+msgid "Relay Not Found"
+msgstr "Relay ကို ရှာမတွေ့ပါ"
+
+msgctxt "NetViewer"
+msgid "No details on the selected relay are available."
+msgstr "ရွေးချယ်ထားသော Relay ၌ အသေးစိတ် အချက်အလက် မရနိုင်ပါ။"
+
+msgctxt "NetViewer"
+msgid "Unknown"
+msgstr "အမည်မသိ"
+
+msgctxt "NetViewer"
+msgid "Full Screen"
+msgstr "မျက်နှာပြင်အပြည့်"
+
+msgctxt "NetViewer"
+msgid "View the network map as a full screen window"
+msgstr "ကွန်ယက်ပြ မြေပုံကို မျက်နှာပြင် အပြည့်ဖြင့် ကြည့်ရန်"
+
+msgctxt "NetViewer"
+msgid "Ctrl+F"
+msgstr "Ctrl+F"
+
+msgctxt "NetworkPage"
+msgid "Copy (Ctrl+C)"
+msgstr "ကော်ပီကူးရန် (Ctrl+C)"
+
+msgctxt "NetworkPage"
+msgid ""
+"You must specify both an IP address or hostname and a port number to "
+"configure Tor to use a proxy to access the Internet."
+msgstr "အင်တာနက်ကို သုံးစွဲနိုင်ရန် ပရောက်ဇီကို ခံပြီး Tor ကို ပြင်ဆင်ရန် IP လိပ်စာ (သို့)​ host အမည် နှင့် port နံပါတ် တစ်ခုကို တွဲပြီး သတ်မှတ်ဖို့ လိုသည်။"
+
+msgctxt "NetworkPage"
+msgid ""
+"You must specify one or more ports to which your firewall allows you to "
+"connect."
+msgstr "အင်တာနက် ဆက်သွယ်သည့်အခါ firewall မှ ခွင့်ပြုပေးမည့် port တစ်ခု (သို့) ထိုထက် ပို၍ သတ်မှတ်ရမည်။"
+
+msgctxt "NetworkPage"
+msgid "'%1' is not a valid port number."
+msgstr "'%1' သည် port နံပါတ် အမှန် မဟုတ်ပါ။"
+
+msgctxt "NetworkPage"
+msgid "Check if your local network requires a proxy to access the Internet"
+msgstr "သင့် လိုကယ် ကွန်ရက်သည် အင်တာနက်နှင့် ချိတ်ဆက်ရန် ပရောင်ဇီ လိုမလို သိရှိရန် စစ်ဆေး&ef"
+
+msgctxt "NetworkPage"
+msgid "I use a proxy to access the Internet"
+msgstr "အင်တာနက် သုံးရန် ကျွန်တော် ပရောက်ဇီကို သုံးသည်"
+
+msgctxt "NetworkPage"
+msgid "Proxy Settings"
+msgstr "ပရောက်ဇီ ချိန်ညှိချက်များ"
+
+msgctxt "NetworkPage"
+msgid "Username:"
+msgstr "သုံးစွဲသူအမည် -"
+
+msgctxt "NetworkPage"
+msgid "Password:"
+msgstr "စကားဝှက် - "
+
+msgctxt "NetworkPage"
+msgid "Port:"
+msgstr "Port:"
+
+msgctxt "NetworkPage"
+msgid "Check to only connect to relays using ports allowed by your firewall"
+msgstr "သင့် firewall က ခွင့်ပြုသည့် ports များကို သုံးပြီး relays ကို ဆက်သွယ်ရန် စစ်ဆေးပါ"
+
+msgctxt "NetworkPage"
+msgid "My firewall only lets me connect to certain ports"
+msgstr "Firewall ဖြင့်သာ အချို့ ports များကို ကျွန်တော် ချိတ်ဆက်နိုင်သည်"
+
+msgctxt "NetworkPage"
+msgid "Firewall Settings"
+msgstr "Firewall ချိန်ညှိချက်များ"
+
+msgctxt "NetworkPage"
+msgid "Allowed Ports:"
+msgstr "ခွင့်ပြုထား​သော Ports များ -"
+
+msgctxt "NetworkPage"
+msgid "80, 443"
+msgstr "၈၀၊ ၄၄၃"
+
+msgctxt "NetworkPage"
+msgid ""
+"Check to encrypt directory requests and, optionally, use bridge relays to "
+"access the Tor network"
+msgstr "ဖိုင်လမ်းကြောင်း တောင်းဆိုချက်များကို စာဝှက်ရန် စစ်ဆေးပြီး၊ နှစ်သက်လျှင်၊ Tor ကွန်ရက်ကို ဆက်သွယ်ရန်  Bridge Relay များကို အသုံးပြုပါ။"
+
+msgctxt "NetworkPage"
+msgid "My ISP blocks connections to the Tor network"
+msgstr "ကျွန်တော့် ISP သည် Tor ကွန်ရက်ဆီ ဆက်သွယ်မှုလိုင်းများကို ပိတ်ဆို့ထားသည်"
+
+msgctxt "NetworkPage"
+msgid "Bridge Settings"
+msgstr "Bridge ချိန်ညှိချက်များ"
+
+msgctxt "NetworkPage"
+msgid "Add a Bridge:"
+msgstr "Bridge ထည့်သွင်းရန် -"
+
+msgctxt "NetworkPage"
+msgid "Remove the selected bridges from the list"
+msgstr "ရွေးချယ်ထားသော Bridge များကို စာရင်းထဲမှ ဖယ်ရှားရန်"
+
+msgctxt "NetworkPage"
+msgid "Copy the selected bridges to the clipboard"
+msgstr "ရွေးချယ်ထားသော Bridge များကို clipboard ထဲ ကော်ပီ ကူးရန်"
+
+msgctxt "NetworkPage"
+msgid "Find Bridges Now"
+msgstr "ယခု Bridge ကို ရှာရန်"
+
+msgctxt "NetworkPage"
+msgid "<a href=\"bridges.finding\">How else can I find bridges?</a>"
+msgstr "<a href=\"bridges.finding\">Bridge များကို အခြား မည်သည့်နည်းဖြင့် ရှာဖွေနိုင်မည်နည်း?</a>"
+
+msgctxt "NetworkPage"
+msgid "<a href=\"bridges.finding\">How can I find bridges?</a>"
+msgstr "<a href=\"bridges.finding\">Bridge များကို မည်ကဲ့သို့ ရှာဖွေနိုင်မည်နည်း?</a>"
+
+msgctxt "NetworkPage"
+msgid ""
+"No new bridges are currently available. You can either wait a while and try "
+"again, or try another method of finding new bridges."
+msgstr "လောလောဆယ် Bridge အသစ် မရရှိနိုင်ပါ။ သင် ခဏ စောင့်ဆိုင်းပြီး ထပ်ကြိုးစားကြည့်နိုင်သည်၊ (သို့) အခြား နည်းလမ်းဖြင့် Bridge အသစ်ကို ရှာဖွေနိုင်သည်။"
+
+msgctxt "NetworkPage"
+msgid "Click Help to see other methods of finding new bridges."
+msgstr "Bridge အသစ် ရှာဖွေသည့် အခြားနည်းလမ်းများကို သိရှိရန် အကူအညီကို နှိပ်ပါ။"
+
+msgctxt "NetworkPage"
+msgid "Address:"
+msgstr "နေရပ်လိပ်စာ -"
+
+msgctxt "NetworkPage"
+msgid "Type:"
+msgstr "အမျိုးအစား : "
+
+msgctxt "NetworkPage"
+msgid "You must select the proxy type."
+msgstr "ပရောင်ဇီ အမျိုးအစားကို ရွေးချယ်ရမည်။"
+
+msgctxt "NetworkPage"
+msgid "SOCKS 4"
+msgstr "SOCKS 4"
+
+msgctxt "NetworkPage"
+msgid "SOCKS 5"
+msgstr "SOCKS 5"
+
+msgctxt "NetworkPage"
+msgid "HTTP / HTTPS"
+msgstr "HTTP / HTTPS"
+
+msgctxt "NetworkPage"
+msgid "You must specify one or more bridges."
+msgstr "​Bridge တစ်ခု (သို့) တစ်ခုမက ရွေးချယ်ရမည်။"
+
+msgctxt "Policy"
+msgid "accept"
+msgstr "လက်ခံရန်"
+
+msgctxt "Policy"
+msgid "reject"
+msgstr "ငြင်းပယ်ရန်"
+
+msgctxt "RouterDescriptor"
+msgid "Online"
+msgstr "အွန်လိုင်း"
+
+msgctxt "RouterDescriptor"
+msgid "Hibernating"
+msgstr "စက် ခေတ္တ ရပ်နားခြင်း"
+
+msgctxt "RouterDescriptor"
+msgid "Offline"
+msgstr "အော့ဖ်လိုင်း"
+
+msgctxt "RouterDescriptorView"
+msgid "Location:"
+msgstr "ဖိုင်တည်နေရာ -"
+
+msgctxt "RouterDescriptorView"
+msgid "IP Address:"
+msgstr "IP လိပ်စာ -"
+
+msgctxt "RouterDescriptorView"
+msgid "Platform:"
+msgstr "ပလက်ဖောင်း -"
+
+msgctxt "RouterDescriptorView"
+msgid "Bandwidth:"
+msgstr "Bandwidth:"
+
+msgctxt "RouterDescriptorView"
+msgid "Uptime:"
+msgstr "အလုပ်လုပ်ချိန် -"
+
+msgctxt "RouterDescriptorView"
+msgid "Last Updated:"
+msgstr "နောက်ဆုံး မွမ်းမံချက် -"
+
+msgctxt "RouterDescriptorView"
+msgid "Copy"
+msgstr "ကော်ပီကူးရန်"
+
+msgctxt "RouterInfoDialog"
+msgid "Hibernating"
+msgstr "စက် ခေတ္တ ရပ်နားခြင်း"
+
+msgctxt "RouterInfoDialog"
+msgid "Online"
+msgstr "အွန်လိုင်း"
+
+msgctxt "RouterInfoDialog"
+msgid "Offline"
+msgstr "အော့ဖ်လိုင်း"
+
+msgctxt "RouterInfoDialog"
+msgid "Unknown"
+msgstr "အမည်မသိ"
+
+msgctxt "RouterInfoDialog"
+msgid "Relay Details"
+msgstr "Relay အသေးစိတ်များ"
+
+msgctxt "RouterInfoDialog"
+msgid "Summary"
+msgstr "အနှစ်ချုပ်"
+
+msgctxt "RouterInfoDialog"
+msgid "Name:"
+msgstr "နာမည် -"
+
+msgctxt "RouterInfoDialog"
+msgid "Status:"
+msgstr "အနေအထား -"
+
+msgctxt "RouterInfoDialog"
+msgid "Location:"
+msgstr "တည်နေရာ -"
+
+msgctxt "RouterInfoDialog"
+msgid "IP Address:"
+msgstr "IP လိပ်စာ -"
+
+msgctxt "RouterInfoDialog"
+msgid "Platform:"
+msgstr "ပလက်ဖောင်း -"
+
+msgctxt "RouterInfoDialog"
+msgid "Bandwidth:"
+msgstr "Bandwidth:"
+
+msgctxt "RouterInfoDialog"
+msgid "Uptime:"
+msgstr "အလုပ်လုပ်ချိန် -"
+
+msgctxt "RouterInfoDialog"
+msgid "Contact:"
+msgstr "ဆက်သွယ်ရန် -"
+
+msgctxt "RouterInfoDialog"
+msgid "Last Updated:"
+msgstr "နောက်ဆုံး မွမ်းမံချက် -"
+
+msgctxt "RouterInfoDialog"
+msgid "Descriptor"
+msgstr "Descriptor"
+
+msgctxt "RouterListItem"
+msgid "Offline"
+msgstr "အော့ဖ်လိုင်း"
+
+msgctxt "RouterListItem"
+msgid "Hibernating"
+msgstr "စက် ခေတ္တ ရပ်နားခြင်း"
+
+msgctxt "RouterListItem"
+msgid "%1 KB/s"
+msgstr "တစ်စက္ကန့်တွင် %1 KB"
+
+msgctxt "RouterListWidget"
+msgid "Relay"
+msgstr "Relay"
+
+msgctxt "RouterListWidget"
+msgid "Zoom to Relay"
+msgstr "Relay ကို ပုံချဲ့ရန်"
+
+msgctxt "RouterListWidget"
+msgid "%1 relays online"
+msgstr "%1 relays အွန်လိုင်းပေါ် ရောက်နေသည်"
+
+msgctxt "RouterListWidget"
+msgid "Copy"
+msgstr "ကော်ပီ ကူးရန်"
+
+msgctxt "RouterListWidget"
+msgid "Nickname"
+msgstr "အမည်ပြောင်"
+
+msgctxt "RouterListWidget"
+msgid "Fingerprint"
+msgstr "လက်ဗွေရာ"
+
+msgctxt "ServerPage"
+msgid "Bridge Support Unavailable"
+msgstr "Bridge အထောက်အပံ့ မရနိုင်ပါ"
+
+msgctxt "ServerPage"
+msgid ""
+"You have configured Tor to act as a bridge relay for censored users, but "
+"your version of Tor does not support bridges."
+msgstr "သင်သည် ဆင်ဆာပိတ်ထားသော သုံးစွဲသူများ အတွက် Bridge Relay တစ်ခုအနေဖြင့် ရပ်တည်ရန် Tor ကို ပြင်ဆင်ထားသည်၊ သို့သော် သင့် Tor ဗားရှင်းသည် Bridge များကို ထောက်ပံ့မထားပါ။"
+
+msgctxt "ServerPage"
+msgid ""
+"Please upgrade your Tor software or configure Tor to act as a normal Tor "
+"relay."
+msgstr "သင့် Tor ဆော့ဗ်ဝဲကို အဆင့်မြှင့်ပါ (သို့) Tor ကို ပုံမှန် Tor Relay အဖြစ် လုပ်ဆောင်ရန် ပြင်ဆင်လိုက်ပါ။"
+
+msgctxt "ServerPage"
+msgid "Your bridge relay is not running."
+msgstr "သင့် Bridge Relay သည် အလုပ်မလုပ်ပါ။"
+
+msgctxt "ServerPage"
+msgid "You must specify at least a relay nickname and port."
+msgstr "သင်သည် အနည်းဆုံး Relay အမည်ပြောင်နှင့် port ကို သတ်မှတ်ရမည်။"
+
+msgctxt "ServerPage"
+msgid "Run as a client only"
+msgstr "ဂလိုင်းအဖြစ်သာ သုံးစွဲရန်"
+
+msgctxt "ServerPage"
+msgid "Relay Port:"
+msgstr "Relay Port:"
+
+msgctxt "ServerPage"
+msgid "Enable to mirror the relay directory"
+msgstr "Relay ဖိုင်လမ်းကြောင်း၌ mirror ကို ဖွင့်ထားပါ"
+
+msgctxt "ServerPage"
+msgid "Attempt to automatically configure port forwarding"
+msgstr "Port ထပ်ဆင့် ပေးပို့ချက်ကို အလိုအလျောက် ပုံစံချရန်"
+
+msgctxt "ServerPage"
+msgid "Test"
+msgstr "စမ်းသပ်ရန်"
+
+msgctxt "ServerPage"
+msgid "Show help topic on port forwarding"
+msgstr "Port ထပ်ဆင့် ပေးပို့ခြင်းနှင့် ပါတ်သက်သော အကူအညီ ခေါင်းစဉ်ကို ဖော်ပြရန်"
+
+msgctxt "ServerPage"
+msgid "Directory Port:"
+msgstr "ဖိုင်လမ်းကြောင်း Port -"
+
+msgctxt "ServerPage"
+msgid "Directory Port Number"
+msgstr "ဖိုင်လမ်းကြောင်း Port နံပါတ်"
+
+msgctxt "ServerPage"
+msgid "Contact Info:"
+msgstr "ဆက်သွယ်ရမည့် အချက်အလက် -"
+
+msgctxt "ServerPage"
+msgid "Name of your relay"
+msgstr "သင့် Relay အမည်"
+
+msgctxt "ServerPage"
+msgid "Port on which users and other relays can communicate with your relay"
+msgstr "Port ကို သုံးစွဲသူများနှင့် သင့် Relay ဖြင့် ဆက်သွယ်နိုင်သော အခြား Relay များ"
+
+msgctxt "ServerPage"
+msgid "Nickname:"
+msgstr "နာမည်ပြောင် -"
+
+msgctxt "ServerPage"
+msgid "Basic Settings"
+msgstr "အခြေခံ ချိန်ညှိချက်များ"
+
+msgctxt "ServerPage"
+msgid ""
+"For Internet connections with fast download speed but slow upload, please "
+"list your upload speed here."
+msgstr "ဖိုင် တင်ပို့ရန် ​နှေးကွေးသော်လည်း ဒေါင်းလုဒ် ဆွဲနှုန်း မြန်ဆန်သော အင်တာနက် ဆက်သွယ်မှုလိုင်းအတွက်၊ ဤနေရာ၌ သင့် တင်ပို့မှု အမြန်နှုန်းကို စာရင်းပြုစုပါ။"
+
+msgctxt "ServerPage"
+msgid "Cable/DSL 256 Kbps"
+msgstr "Cable/DSL 256 Kbps"
+
+msgctxt "ServerPage"
+msgid "Cable/DSL 512 Kbps"
+msgstr "Cable/DSL 512 Kbps"
+
+msgctxt "ServerPage"
+msgid "Cable/DSL 768 Kbps"
+msgstr "Cable/DSL 768 Kbps"
+
+msgctxt "ServerPage"
+msgid "T1/Cable/DSL 1.5 Mbps"
+msgstr "T1/Cable/DSL 1.5 Mbps"
+
+msgctxt "ServerPage"
+msgid "> 1.5 Mbps"
+msgstr "> 1.5 Mbps"
+
+msgctxt "ServerPage"
+msgid "Custom"
+msgstr "စိတ်ကြိုက်"
+
+msgctxt "ServerPage"
+msgid "Select the entry that most closely resembles your Internet connection"
+msgstr "သင့် အင်တာနက် ဆက်သွယ်မှုလိုင်းနှင့် အနီးစပ်ဆုံး ဆင်တူသော အချက်အလက်ကို ရွေးချယ်ပါ"
+
+msgctxt "ServerPage"
+msgid "Show help topic on bandwidth rate limits"
+msgstr "Bandwidth ကန့်သတ် နှုန်းထားနှင့် ပါတ်သက်၍ အကူအညီ  ခေါင်းစဉ်ကို ပြပါ"
+
+msgctxt "ServerPage"
+msgid "Average Rate"
+msgstr "ပျမ်းမျှ နှုန်း"
+
+msgctxt "ServerPage"
+msgid "Long-term average bandwidth limit"
+msgstr "ရေရှည် ပျမ်းမျှ bandwidth ကန့်သတ်ချက်"
+
+msgctxt "ServerPage"
+msgid "KB/s"
+msgstr "KB/s"
+
+msgctxt "ServerPage"
+msgid "Maximum Rate"
+msgstr "အမြင့်ဆုံး နှုန်း"
+
+msgctxt "ServerPage"
+msgid "Peak bandwidth rate limit"
+msgstr "အမြင့်ဆုံး bandwidth ကန့်သတ် နှုန်း"
+
+msgctxt "ServerPage"
+msgid ""
+"Your maximum bandwidth rate must be greater than or equal to your average "
+"bandwidth rate. Both values must be at least 20 KB/s."
+msgstr "သင့် အများဆုံး bandwidth နှုန်းသည် သင့် ပျမ်းမျ bandwidth နှုန်းထက် ကြီးရမည် (သို့) တူညီနေရမည်။ တန်ဖိုး နှစ်ခုစလုံးသည် အနည်းဆုံး တစ်စက္ကန့်လျှင် ၂၀ ကီလိုဘိုက် ရှိရမည်။"
+
+msgctxt "ServerPage"
+msgid "Bandwidth Limits"
+msgstr "Bandwidth ကန့်သတ်ချက်များ"
+
+msgctxt "ServerPage"
+msgid "Ports 6660 - 6669 and 6697"
+msgstr "Ports  ၆၆၆၀ - ၆၆၆၉ နှင့် ၆၆၉၇"
+
+msgctxt "ServerPage"
+msgid "Internet Relay Chat (IRC)"
+msgstr "အင်တာနက် ထပ်ဆင့် စကားပြောခန်း (IRC)"
+
+msgctxt "ServerPage"
+msgid "Ports 110, 143, 993 and 995"
+msgstr "Ports ၁၁၀၊ ၁၄၃၊ ၉၉၃ နှင့် ၉၉၅"
+
+msgctxt "ServerPage"
+msgid "Retrieve Mail (POP, IMAP)"
+msgstr "မေးလ် ရယူရန် (POP, IMAP)"
+
+msgctxt "ServerPage"
+msgid "Ports unspecified by other checkboxes"
+msgstr "အခြား အမှန်ခြစ်ကွက်များမှ သတ်မှတ်မထားသော Ports များ"
+
+msgctxt "ServerPage"
+msgid "Misc Other Services"
+msgstr " အခြား အထွေထွေ ဝန်ဆောင်မှုများ"
+
+msgctxt "ServerPage"
+msgid "Ports 706, 1863, 5050, 5190, 5222, 5223, 8300 and 8888"
+msgstr "Ports ၇၀၆၊ ၁၈၆၃၊ ၅၀၅၀၊ ၅၁၉၀၊ ၅၂၂၃၊ ၈၃၀၀ နှင့် ၈၈၈၈"
+
+msgctxt "ServerPage"
+msgid "Instant Messaging (IM)"
+msgstr "လက်ငင်း စာတိုပေးပို့ စနစ် (IM)"
+
+msgctxt "ServerPage"
+msgid "Port 443"
+msgstr "Port 443"
+
+msgctxt "ServerPage"
+msgid "Secure Websites (SSL)"
+msgstr "လုံခြုံ​သော ကွန်ရက် စာမျက်နှာများ (SSL)"
+
+msgctxt "ServerPage"
+msgid "Port 80"
+msgstr "Port 80"
+
+msgctxt "ServerPage"
+msgid "Websites"
+msgstr "ကွန်ရက် စာမျက်နှာများ"
+
+msgctxt "ServerPage"
+msgid "Show help topic on exit policies"
+msgstr "အထွက် မူဝါဒနှင့် ပါတ်သက်၍ အကူအညီ ခေါင်းစဉ်ကို ပြပါ"
+
+msgctxt "ServerPage"
+msgid ""
+"What Internet resources should users be able to access from your relay?"
+msgstr "သုံးစွဲသူများသည် သင့် Relay မှ မည်သည့် အင်တာနက် အရင်းအမြစ်များကို ရယူနိုင်မည်နည်း?"
+
+msgctxt "ServerPage"
+msgid ""
+"Tor will still block some outgoing mail and file sharing applications by "
+"default to reduce spam and other abuse."
+msgstr "Tor သည် စပမ်း မေးလ်နှင့် အခြား အလွဲသုံးစားသော စာများ လျှော့နည်းစေရန် အ​ထွက် မေးလ်နှင့် ဖိုင် မျှဝေရေး အပ္ပလီဂေးရှင်းများကို ပုံမှန်အနေဖြင့် ပိတ်ထားမည် ဖြစ်သည်။"
+
+msgctxt "ServerPage"
+msgid "Exit Policies"
+msgstr "အထွက် မူဝါဒများ"
+
+msgctxt "ServerPage"
+msgid "Let others access your bridge by giving them this line:"
+msgstr "အခြားသူများကို ဤလိုင်း ပေးပြီး သင့် Bridge ကို ဝင်ရောက်ခွင့်ပြုပါ -"
+
+msgctxt "ServerPage"
+msgid ""
+"This is the identity of your bridge relay that you can give to other people"
+msgstr "၎င်းမှာ သင်က အခြားလူများထံသို့ ပေးနိုင်သည့် သင်၏ Bridge Relay ၏ အမှတ်အသား ဖြစ်သည်။"
+
+msgctxt "ServerPage"
+msgid "Copy your bridge relay's identity to the clipboard"
+msgstr "သင့် Bridge Relay ၏ အထောက်အထားကို clipboard ထဲ ကော်ပီး ကူးရန်"
+
+msgctxt "ServerPage"
+msgid "No Recent Usage"
+msgstr "လတ်တလော သုံးစွဲမှု မရှိပါ"
+
+msgctxt "ServerPage"
+msgid "No clients have used your relay recently."
+msgstr "လောလောဆယ်တွင် သင့် Relay ကို မည်သည့် ဂလိုင်းကမျှ အသုံးမပြုကြပါ။"
+
+msgctxt "ServerPage"
+msgid ""
+"Leave your relay running so clients have a better chance of finding and "
+"using it."
+msgstr "သုံးစွဲသူများက သင့် Relay ​ကို တွေ့ရှိပြီး သုံးစွဲနိုင်ရန် ၄င်းကို ဖွင့်ထားပါ။"
+
+msgctxt "ServerPage"
+msgid "Bridge History"
+msgstr "Bridge မှတ်တမ်း"
+
+msgctxt "ServerPage"
+msgid "Vidalia was unable to retrieve your bridge's usage history."
+msgstr "Vidalia သည် သင့် Bridge သုံးစွဲမှု မှတ်တမ်းကို မရယူနိုင်ပါ။"
+
+msgctxt "ServerPage"
+msgid ""
+"Tor returned an improperly formatted response when Vidalia requested your "
+"bridge's usage history."
+msgstr "Vidalia သည် သင့် Bridge ၏ သုံးစွဲမှု မှတ်တမ်းကို တောင်းခံသည့်အခါ Tor ထံမှ ပုံစံမကျသော တုံ့ပြန်ချက်ကို ပြန်လည် ပေးအပ်သည်။"
+
+msgctxt "ServerPage"
+msgid "The returned response was: %1"
+msgstr "ပြန်လည် ပေးအပ်သည့် တုံ့ပြန်မှုမှာ - %1"
+
+msgctxt "ServerPage"
+msgid "Help censored users reach the Tor network"
+msgstr "ဆင်ဆာပိတ်ခံရသည့် သုံးစွဲသူများကို Tor ကွန်ရက်ထဲ ရောက်ရှိရန် ကူညီပါ"
+
+msgctxt "ServerPage"
+msgid "<a href=\"#bridgeUsage\">Who has used my bridge?</a>"
+msgstr "<a href=\"#bridgeUsage\">ကျွန်တော့် Bridge ကို မည်သူ သုံးစွဲသနည်း?</a>"
+
+msgctxt "ServerPage"
+msgid "<a href=\"#bridgeHelp\">What's this?</a>"
+msgstr "<a href=\"#bridgeHelp\">ဒါဘာလဲ?</a>"
+
+msgctxt "ServerPage"
+msgid "Automatically distribute my bridge address"
+msgstr "ကျွန်တော့် Bridge လိပ်စာကို အလိုအလျောက် ဖြန့်ဖြူးရန်"
+
+msgctxt "ServerPage"
+msgid "Relay traffic for the Tor network (exit relay)"
+msgstr "Tor ကွန်ရက်အတွက် Relay Traffic (Relay ကို ပိတ်ရန်)"
+
+msgctxt "ServerPage"
+msgid "Relay traffic inside the Tor network (non-exit relay)"
+msgstr "Tor ကွန်ရက် အတွင်းရှိ Relay လမ်းကြောင်း (ပိတ်ရန် မလိုသော Relay)"
+
+msgctxt "ServerPage"
+msgid "Mirror the Relay Directory"
+msgstr "Relay ဖိုင်လမ်းကြောင်းကို မိတ္တူပွားရန်"
+
+msgctxt "ServerPage"
+msgid ""
+"Email address at which you may be reached if there is a\n"
+"problem with your relay. You might also include your PGP or GPG fingerprint."
+msgstr "သင့် Relay နှင့် ပတ်သက်၍ ပြဿနာ တစုံတရာ ဖြစ်လာလျှင် သင် ဆက်သွယ်နိုင်သော\nအီးမေးလ်လိပ်စာ ဖြစ်သည်။ သင့် PGP (သို့) GPG လက်ဗွေကိုလည်း သင် ထည့်သွင်းနိုင်သည်။"
+
+msgctxt "ServicePage"
+msgid "Error while trying to unpublish all services"
+msgstr "ဝန်ဆောင်မှု အားလုံးကို ထုတ်ပြန်မှု မလုပ်အောင် ကြိုးစားရာတွင် ချို့ယွင်းချက် ရှိသည်"
+
+msgctxt "ServicePage"
+msgid ""
+"Please configure at least a service directory and a virtual port for each "
+"service you want to save. Remove the other ones."
+msgstr "သင် သိမ်းဆည်းလိုသည့် ဝန်ဆောင်မှု တစ်ခုစီအတွက် အနည်းဆုံး ၀န်ဆောင်မှု လမ်းကြောင်း တစ်ခုနှင့် virtual port တစ်ခုကို ပြင်ဆင်ပါ။ အခြား အ​ရာများကို ဖယ်ထုတ်ပါ။"
+
+msgctxt "ServicePage"
+msgid "Error"
+msgstr "ချို့ယွင်းချက်"
+
+msgctxt "ServicePage"
+msgid "Please select a Service."
+msgstr "၀န်ဆောင်မှု တစ်ခု ရွေးပါ။"
+
+msgctxt "ServicePage"
+msgid "Select Service Directory"
+msgstr "၀န်ဆောင်မှု လမ်းကြောင်း ရွှေးပါ"
+
+msgctxt "ServicePage"
+msgid "Virtual Port may only contain valid port numbers [1..65535]."
+msgstr "Virtual Port ထဲ၌ Port နံပါတ် အမှန် [1..65535] ပါရှိနိုင်သည်။"
+
+msgctxt "ServicePage"
+msgid "Target may only contain address:port, address, or port."
+msgstr "ဦးတည်ချက်၌ address:port ၊ လိပ်စာ၊ (သို့) port သာ ပါဝင်သည်။"
+
+msgctxt "ServicePage"
+msgid "Directory already in use by another service."
+msgstr "ဖိုင်လမ်းကြောင်းကို အခြားဝန်ဆောင်မှုက အသုံးပြုနေပြီ။"
+
+msgctxt "ServicePage"
+msgid "Form"
+msgstr "ဖြည့်စွတ်ပုံစံ"
+
+msgctxt "ServicePage"
+msgid "Provided Hidden Services"
+msgstr "မမြင်​ရသော ဝန်ဆောင်မှုများ ပံ့ပိုးထားသည်"
+
+msgctxt "ServicePage"
+msgid "Onion Address"
+msgstr "Onion လိပ်စာ"
+
+msgctxt "ServicePage"
+msgid "Virtual Port"
+msgstr "Virtual Port"
+
+msgctxt "ServicePage"
+msgid "Target"
+msgstr "ပစ်မှတ်"
+
+msgctxt "ServicePage"
+msgid "Directory Path"
+msgstr "ဖိုင်လမ်း​ကြောင်း"
+
+msgctxt "ServicePage"
+msgid "Enabled"
+msgstr "ဖွင့်ထားသည်"
+
+msgctxt "ServicePage"
+msgid "Add new service to list"
+msgstr "စာရင်းထဲ၌ ၀န်ဆောင်မှု အသစ် ထည့်သွင်းရန်"
+
+msgctxt "ServicePage"
+msgid "Remove selected service from list"
+msgstr "စာရင်းထဲမှ ရွေးချယ်ထားသော ၀န်ဆောင်မှုကို ဖယ်ရှားရန်"
+
+msgctxt "ServicePage"
+msgid "Copy onion address of selected service to clipboard"
+msgstr "ရွေးချယ်ထားသော ၀န်ဆောင်မှု၏Onion လိပ်စာကို clipboard ကော်ပီ ကူးရန်"
+
+msgctxt "ServicePage"
+msgid "Browse in local file system and choose directory for selected service"
+msgstr "လိုကယ် ဖိုင်စနစ်ကို ဖွင့်ကြည့်ပြီး ရွေးချယ်ထားသော ၀န်ဆောင်မှုအတွက် ဖိုင်တည်နေရာကို ရွေးချယ်ရန်"
+
+msgctxt "ServicePage"
+msgid "Created by Tor"
+msgstr "Tor ဖြင့် ဖန်တီးထားသည်"
+
+msgctxt "StatusEventWidget"
+msgid "Copy to Clipboard"
+msgstr "Clipboard ထဲ ကော်ပီ ကူးရန်"
+
+msgctxt "StatusEventWidget"
+msgid "The Tor Software is Running"
+msgstr "Tor ဆော့ဗ်ဝဲ အလုပ်လုပ်နေသည်"
+
+msgctxt "StatusEventWidget"
+msgid "You are currently running version \"%1\" of the Tor software."
+msgstr "သင်သည် လောလောဆယ် Tor ဆော့ဗ်ဝဲ ဗားရှင်း \"%1\" ကို သုံးစွဲနေသည်။"
+
+msgctxt "StatusEventWidget"
+msgid "The Tor Software is not Running"
+msgstr "Tor ဆော့ဗ်ဝဲသည် အလုပ်မလုပ်ပါ"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Click \"Start Tor\" in the Vidalia Control Panel to restart the Tor "
+"software. If Tor exited unexpectedly, select the \"Advanced\" tab above for "
+"details about any errors encountered."
+msgstr "Tor ဆော့ဗ်ဝဲကို ပြန်ဖွင့်ရန် Vidalia Control Panel မှ \"Tor စဖွင့်ရန်\" ကို နှိပ်ပါ။ အကယ်၍ Tor သည် မမျှော်လင့်ပဲ ပိတ်သွားလျှင်၊ ကြုံတွေ့ရသည့် ချို့ယွင်းချက်များ၏ အသေးစိတ်ကို သိရှိရန် \"အဆင့်မြင့်\" စာအမှတ်ကို ရွေးပါ။"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"You are currently running version \"%1\" of the Tor software, which is no "
+"longer recommended. Please upgrade to the most recent version of the "
+"software, which may contain important security, reliability and performance "
+"fixes."
+msgstr "သင်သည် လောလောဆယ် အားမပေးတော့သော Tor ဆော့ဗ်ဝဲ ဗားရှင်း \"%1\" ကို သုံးစွဲနေသည်။ အရေးကြီးသော လုံခြုံမှု၊ ယုံကြည်စိတ်ချရမှုနှင့် စွမ်းဆောင်မှု ပြင်ဆင်ချက်များ ပါဝင်သည့် နောက်ဆုံးထွက် ဗားရှင်းအထိ အဆင့်မြှင့်လိုက်ပါ။"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"You are currently running version \"%1\" of the Tor software, which may no "
+"longer work with the current Tor network. Please upgrade to the most recent "
+"version of the software, which may contain important security, reliability "
+"and performance fixes."
+msgstr "သင်သည် လက်ရှိ Tor ကွန်ရက်၌ အသုံးမပြုတော့မည့် Tor ဆော့ဗ်ဝဲ ဗားရှင်း \"%1\" ကို လောလောဆယ် သုံးစွဲနေသည်။ အရေးကြီးသော လုံခြုံမှု၊ ယုံကြည်စိတ်ချရမှုနှင့် စွမ်းဆောင်မှု ပြင်ဆင်ချက်များ ပါဝင်သည့် နောက်ဆုံးထွက် ဗားရှင်းအထိ အဆင့်မြှင့်လိုက်ပါ။"
+
+msgctxt "StatusEventWidget"
+msgid "Your Tor Software is Out-of-date"
+msgstr "သင့် Tor ဆော့ဝဲလ်မှာ သက်တမ်းကုန်နေပြီ"
+
+msgctxt "StatusEventWidget"
+msgid "Connected to the Tor Network"
+msgstr "Tor ကွန်ရက်နှင့် ချိတ်ဆက်ထားသည်"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"We were able to successfully establish a connection to the Tor network. You "
+"can now configure your applications to use the Internet anonymously."
+msgstr "ကျွန်တော်တို့သည် Tor ကွန်ရက်သို့ ဆက်သွယ်မှုလိုင်း တစ်ခုကို အောင်မြင်စွာ တည်ဆောက်နိုင်သည်။ အင်တာနက်ကို လူသူမသိပဲ သုံးစွဲနိုင်ရန် သင့် အပ္ပလီဂေးရှင်းကို ယခု ပြင်ဆင်နိုင်သည်။"
+
+msgctxt "StatusEventWidget"
+msgid "Tor Software Error"
+msgstr "Tor ဆော့ဗ်ဝဲ ချို့ယွင်းချက်"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"The Tor software encountered an internal bug. Please report the following "
+"error message to the Tor developers at bugs.torproject.org: \"%1\""
+msgstr "Tor ဆော့ဖ်ဝဲလ်၌ ပရိုဂရမ် အတွင်းပိုင်းဆိုင်ရာ ချို့ယွင်းချက် တစ်ခုကို ဖြစ်ပွားနေသည်။ အောက်ပါ ချို့ယွင်းသည့် စာတမ်းကို Tor စီစဉ် ဖန်တီးသူများထံ bugs.torproject.org: \"%1\" မှ အစီရင်ခံ ပေးပို့ပါ။"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor has determined that your computer's clock may be set to %1 seconds in "
+"the past compared to the source \"%2\". If your clock is not correct, Tor "
+"will not be able to function. Please verify your computer displays the "
+"correct time."
+msgstr "သင့် ကွန်ပျူတာရှိ နာရီစနစ်သည် လွန်ခဲ့သော အရင်းအမြစ် \"%2\" နှင့် နှိုင်းယှဉ်လျှင် %1 စက္ကန့်သို့ သတ်မှတ်နိုင်ကြောင်း Tor က စစ်ဆေးတွေ့ရှိသည်။ အကယ်၍ သင့် နာရီသည် မမှန်ကန်လျှင် Tor သည် အလုပ်ကို ကောင်းစွာ လုပ်နိုင်မည်မဟုတ်ပါ။ သင့် ကွန်ပျူတာ၏ နာရီကို အချိန်မှန်ပြောင်းလိုက်ပါ။"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor has determined that your computer's clock may be set to %1 seconds in "
+"the future compared to the source \"%2\". If your clock is not correct, Tor "
+"will not be able to function. Please verify your computer displays the "
+"correct time."
+msgstr "သင့် ကွန်ပျူတာရှိ နာရီစနစ်သည် အရင်းအမြစ် \"%2\" နှင့် နှိုင်းယှဉ်လျှင် လာမည့်အချိန်၌ %1 စက္ကန့်သို့ သတ်မှတ်နိုင်ကြောင်း Tor က စစ်ဆေးတွေ့ရှိသည်။ အကယ်၍ သင့် နာရီသည် မမှန်ကန်ပါက Tor သည် ကောင်းစွာ အလုပ် လုပ်နိုင်မည်​မဟုတ်ပါ။ သင့် ကွန်ပျူတာ၏ နာရီကို အချိန်မှန်ပြောင်းလိုက်ပါ။"
+
+msgctxt "StatusEventWidget"
+msgid "Your Computer's Clock is Potentially Incorrect"
+msgstr "သင့် ကွန်ပျူတာရှိ နာရီစနစ်သည် မှားယွင်းနေနိုင်သည်"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"One of the applications on your computer may have attempted to make an "
+"unencrypted connection through Tor to port %1. Sending unencrypted "
+"information over the Tor network is dangerous and not recommended. For your "
+"protection, Tor has automatically closed this connection."
+msgstr "သင့် ကွန်ပျူတာထဲမှ အပ္ပလီဂေးရှင်း တစ်ခုသည် Tor မှတဆင့် port %1 ကို စာဝှက်မထားသော အင်တာနက် ချိတ်ဆက်မှု တစ်ခု ပြုလုပ်ရန် ကြိုးစားနေနိုင်သည်။ Tor ကွန်ရက်မှတဆင့် စာဝှက်မထားသော သတင်း အချက်အလက်များကို ပေးပို့ခြင်းသည် အန္တရာယ်ရှိပြီး သုံးစွဲရန် အားမပေးပါ။ သင့် လုံခြုံရေးအတွက်၊ Tor သည် ယင်း အင်တာနက် ချိတ်ဆက်မှုကို အလိုအလျောက် ပိတ်ပစ်လိုက်သည်။"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"One of the applications on your computer may have attempted to make an "
+"unencrypted connection through Tor to port %1. Sending unencrypted "
+"information over the Tor network is dangerous and not recommended."
+msgstr "သင့် ကွန်ပျူတာထဲမှ အပ္ပလီဂေးရှင်း တစ်ခုသည် Tor မှတဆင့် port %1 ကို စာဝှက်မထားသော အင်တာနက် ချိတ်ဆက်မှု တစ်ခု ပြုလုပ်ရန် ကြိုးစားနေနိုင်သည်။ Tor ကွန်ရက်မှတဆင့် စာဝှက်မထားသော သတင်း အချက်အလက်များကို ပေးပို့ခြင်းသည် အန္တရာယ်ရှိပြီး သုံးစွဲရန် အားမပေးပါ။"
+
+msgctxt "StatusEventWidget"
+msgid "Potentially Dangerous Connection!"
+msgstr "အန္တရာယ် အလားအလာများသော ဆက်သွယ်မှုလိုင်း!"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"One of your applications established a connection through Tor to \"%1\" "
+"using a protocol that may leak information about your destination. Please "
+"ensure you configure your applications to use only SOCKS4a or SOCKS5 with "
+"remote hostname resolution."
+msgstr "သင့်ကွန်ပျူတာထဲမှ အပ္ပလီဂေးရှင်း တစ်ခုသည် Tor မှတဆင့် \"%1\" သို့ သင် သွားရောက်မဲ့ ခရီးပန်းတိုင်နဲ့ ပါတ်သက်ပြီး အချက်အလက်များ စိမ့်ထွက်နိုင်သော ပရိုတိုကောဖြင့် အင်တာနက် ဆက်သွယ်မှု တစ်ခု ပြုလုပ်နေသည်။ အဝေးမှ host အမည်နှင့် ဆက်သွယ်သည့်အခါ SOCKS4a (သို့) SOCKS5 ကိုသာ အသုံးပြုရန် သင့် အ​ပ္ပလီဂေးရှင်းများကို အသေအချာ ပြင်ဆင်ထားပါ။"
+
+msgctxt "StatusEventWidget"
+msgid "Unknown SOCKS Protocol"
+msgstr "အမည်မသိ SOCKS ပရိုတိုကော"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"One of your applications tried to establish a connection through Tor using a"
+" protocol that Tor does not understand. Please ensure you configure your "
+"applications to use only SOCKS4a or SOCKS5 with remote hostname resolution."
+msgstr "သင့် ကွန်ပျူတာထဲမှ အပ္ပလီဂေးရှင်း တစ်ခုသည် Tor မှတဆင့် Tor နားမလည်သော ပရိုတိုကောကို သုံးပြီး အင်တာနက် ဆက်သွယ်မှု တစ်ခု ပြုလုပ်ရန် ကြိုးစားနေသည်။  အဝေးမှ host အမည်နှင့် ဆက်သွယ်သည့်အခါ SOCKS4a (သို့) SOCKS5 ကိုသာ အသုံးပြုရန် သင့် အ​ပ္ပလီဂေးရှင်းများကို အသေအချာ ပြင်ဆင်ထားပါ။"
+
+msgctxt "StatusEventWidget"
+msgid "Invalid Destination Hostname"
+msgstr "မမှန်သော ခရီးဆုံး Host အမည်"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"One of your applications tried to establish a connection through Tor to "
+"\"%1\", which Tor does not recognize as a valid hostname. Please check your "
+"application's configuration."
+msgstr "သင့် အပ္ပလီဂေးရှင်း တစ်ခုသည် Tor မှတဆင့် \"%1\" သို့ Tor က host အမည် အမှန်အဖြစ် အသိအမှတ်မပြုသော အင်တာနက် ဆက်သွယ်မှု တစ်ခုကို ပြုလုပ်ဖို့ ကြိုးစားနေသည်။ သင့် အပ္ပလီဂေးရှင်း၏ ပြင်ဆင်ချက်ကို စစ်ဆေးပါ။"
+
+msgctxt "StatusEventWidget"
+msgid "External IP Address Changed"
+msgstr "ပြင်ပ IP လိပ်စာ ပြောင်းသွားသည်"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor has determined your relay's public IP address is currently %1%2. If that"
+" is not correct, please consider setting the 'Address' option in your "
+"relay's configuration."
+msgstr "သင့် Relay ၏ အများသုံး IP လိပ်စာသည် လောလောဆယ် %1%2 ဖြစ်ကြောင်း Tor သည် သိရှိထားသည်။ အကယ်၍ မမှန်ကန်ပါက သင်၏ Relay ပြင်ဆင်ချက်ထဲမှ \"လိပ်စာ\" ရွေးစရာကို ချိန်ညှိရန် စဉ်းစားပါ။"
+
+msgctxt "StatusEventWidget"
+msgid "DNS Hijacking Detected"
+msgstr "DNS အပိုင်စီးမှုကို စစ်ဆေးတွေ့ရှိသည်"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor detected that your DNS provider is providing false responses for domains"
+" that do not exist. Some ISPs and other DNS providers, such as OpenDNS, are "
+"known to do this in order to display their own search or advertising pages."
+msgstr "သင့် DNS ပံ့ပိုးသူသည် တကယ် မရှိသော ဒိုမိန်းများအတွက် မှားယွင်းသော တုံ့ပြန်မှုများကို ပေးနေကြောင်း Tor က သိရှိသွားသည်။ OpenDNS ကဲ့သို့ အချို့ ISPs နှင့် အခြား DNS ပံ့ပိုးသူများသည် သူတို့ ကိုယ်တိုင် ရှာဖွေမှု (သို့) ကြော်ငြာ စာမျက်နှာများကို ဖော်ပြရန် ထိုသို့ လုပ်ဆောင်ကြခြင်း ဖြစ်သည်။"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor detected that your DNS provider is providing false responses for well "
+"known domains. Since clients rely on Tor network relays to provide accurate "
+"DNS repsonses, your relay will not be configured as an exit relay."
+msgstr "သင့် DNS ပံ့ပိုးသူသည် လူသိထင်ရှားသော ဒိုမိန်းများအတွက် မှားယွင်းသော တုံ့ပြန်မှုများကို ပေးနေကြောင်း Tor က သိရှိသွားသည်။ သုံးစွဲသူများသည် DNS ၏ တိကျသော တုံ့ပြန်ချက်များကို ပံ့ပိုးရန် Tor ကွန်ရက် Relay များအပေါ် မှီခိုရသည့်အတွက်၊ သင့် Relay ကို Exit Relay အဖြင့် ပြင်ဆင်ထားမည် မဟုတ်ပါ။"
+
+msgctxt "StatusEventWidget"
+msgid "Checking Server Port Reachability"
+msgstr "ဆာဗာ Port လက်လှမ်းမီနိုင်မှုကို စစ်ဆေးခြင်း"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor is trying to determine if your relay's server port is reachable from the"
+" Tor network by connecting to itself at %1:%2. This test could take several "
+"minutes."
+msgstr "သင့် Relay ဆာဗာ port သည် %1:%2 ၌ ၄င်းကိုယ်တိုင် ဆက်သွယ်ပြီး Tor ကွန်ရက်မှ လက်လှမ်းမီနိုင်မှုကို ဆုံးဖြတ်ရန် ကြိုးစားနေသည်။ ဤစမ်းသပ်မှုသည် မိနစ်အတန်ကြာ ကြာမြင့်နိုင်သည်။"
+
+msgctxt "StatusEventWidget"
+msgid "Server Port Reachability Test Successful!"
+msgstr "ဆာဗာ Port လက်လှမ်းမီနိုင်မှု စမ်းသပ်ချက် အောင်မြင်သည်!"
+
+msgctxt "StatusEventWidget"
+msgid "Your relay's server port is reachable from the Tor network!"
+msgstr "သင့် Relay ဆာဗာ port ကို Tor ကွန်ရက်မှ လက်လှမ်းမီနိုင်သည်!"
+
+msgctxt "StatusEventWidget"
+msgid "Server Port Reachability Test Failed"
+msgstr "ဆာဗာ Port လက်လှမ်းမီနိုင်မှု စမ်းသပ်ချက် မအောင်မြင်ပါ"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Your relay's server port is not reachable by other Tor clients. This can "
+"happen if you are behind a router or firewall that requires you to set up "
+"port forwarding. If %1:%2 is not your correct IP address and server port, "
+"please check your relay's configuration."
+msgstr "သင့် Relay ဆာဗာ port ကို အခြား Tor ဂလိုင်းများက လက်လှမ်းမမီနိုင်ပါ။ အကယ်၍ သင်သည် Port ထပ်ဆင့်ပေးမှု ပြုလုပ်ရန် လိုအပ်သော Router (သို့) Firewall တစ်ခုခု နောက်၌ သင် ရှိနေလျှင် ဖြစ်နိုင်သည်။ အကယ်၍ %1:%2  သည် သင့် IP လိပ်စာနှင့် ဆာဗာ port အမှန် မဟုတ်ပါက၊ သင့် Relay ပြင်ဆင်ချက်ကို စစ်ဆေးပါ။"
+
+msgctxt "StatusEventWidget"
+msgid "Checking Directory Port Reachability"
+msgstr "ဖိုင်လမ်းကြောင်း Port လက်လှမ်းမီမှု စစ်ဆေးခြင်း"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor is trying to determine if your relay's directory port is reachable from "
+"the Tor network by connecting to itself at %1:%2. This test could take "
+"several minutes."
+msgstr "သင့် Relay ဖိုင်လမ်းကြောင်း port သည် ၄င်းကိုယ်တိုင် %1:%2 ၌ ဆက်သွယ်ပြီး Tor ကွန်ရက်နှင့် လက်လှမ်းမီနိုင်မှုကို စစ်ဆေးရန် Tor သည် ကြိုးစားနေသည်။ ဤစစ်ဆေးမှုသည် မိနစ်အတန်ကြာ ကြာမြင့်နိုင်သည်။"
+
+msgctxt "StatusEventWidget"
+msgid "Directory Port Reachability Test Successful!"
+msgstr "ဖိုင်လမ်းကြောင်း Port လက်လှမ်းမီနိုင်မှု စမ်းသပ်ချက် အောင်မြင်သည်!"
+
+msgctxt "StatusEventWidget"
+msgid "Your relay's directory port is reachable from the Tor network!"
+msgstr "သင့် Relay ဖိုင်လမ်းကြောင်း port သည် Tor ကွန်ရက်မှ လက်လှမ်းမီနိုင်သည်!"
+
+msgctxt "StatusEventWidget"
+msgid "Directory Port Reachability Test Failed"
+msgstr "ဖိုင်လမ်းကြောင်း Port လက်လှမ်းမီနိုင်မှု စမ်းသပ်ချက် မအောင်မြင်ပါ"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Your relay's directory port is not reachable by other Tor clients. This can "
+"happen if you are behind a router or firewall that requires you to set up "
+"port forwarding. If %1:%2 is not your correct IP address and directory port,"
+" please check your relay's configuration."
+msgstr "သင့် Relay ဖိုင်လမ်းကြောင်း port ကို အခြား Tor ဂလိုင်းများက လက်လှမ်းမမီနိုင်ပါ။ အကယ်၍ သင်သည် Port ထပ်ဆင့်ပေးပို့မှု ပြုလုပ်ရန် လိုအပ်သော Router (သို့) Firewall တစ်ခုခု နောက်၌ ရှိနေလျှင် ထိုကဲ့သို့ ဖြစ်ပျက်နိုင်သည်။ အကယ်၍ %1:%2  သည် သင့် လက်ရှိ IP လိပ်စာနှင့် ဖိုင်လမ်းကြောင်း port အမှန် ဖြစ်ပါက၊ သင့် Relay ပြင်ဆင်ချက်ကို စစ်ဆေးပါ။"
+
+msgctxt "StatusEventWidget"
+msgid "Relay Descriptor Rejected"
+msgstr "Relay Descriptor ငြင်းပယ်ခံရသည်"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Your relay's descriptor, which enables clients to connect to your relay, was"
+" rejected by the directory server at %1:%2. The reason given was: %3"
+msgstr "သင့် ဂလိုင်းများကို သင့် relay နှင့် ဆက်သွယ်ပေးသော relay's descriptor ကို ဖိုင်လမ်းကြောင်း ဆာဗာမှ %1:%2 ၌ ငြင်းပယ်လိုက်သည်။ ပေးထားသော အကြောင်းပြချက်မှာ - %3"
+
+msgctxt "StatusEventWidget"
+msgid "Your Relay is Online"
+msgstr "သင့် Relay သည် အွန်လိုင်း၌ ရှိနေသည်"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Your relay is now online and available for Tor clients to use. You should "
+"see an increase in network traffic shown by the Bandwidth Graph within a few"
+" hours as more clients learn about your relay. Thank you for contributing to"
+" the Tor network!"
+msgstr "သင့် Relay သည် ယခု အွန်လိုင်းတွင် ရှိနေပြီး Tor ဂလိုင်းများက သုံးစွဲနိုင်ရန် အသင့် ရှိနေသည်။ ဂလိုင်းများက သင့် Relay အကြောင်းကို နာရီ အနည်းငယ်အတွင် လေ့လာနိုင်ရန် Bandwidth ဇယားက ဖေါ်ပြသည့် ကွန်ရက် လမ်းကြောင်းထဲမှ တိုးတက်မှုကို သင် တွေ့ရှိရမည် ဖြစ်သည်။ Tor ကွန်ရက်၌ ပါဝင်ပံ့ပိုးသည့်အတွက် ကျေးဇူးတင်ပါသည်။"
+
+msgctxt "Stream"
+msgid "New"
+msgstr "အသစ်"
+
+msgctxt "Stream"
+msgid "Resolving"
+msgstr "ဖြေရှင်းနေသည်"
+
+msgctxt "Stream"
+msgid "Connecting"
+msgstr "ဆက်သွယ်နေသည်"
+
+msgctxt "Stream"
+msgid "Open"
+msgstr "ဖွင့်ရန်"
+
+msgctxt "Stream"
+msgid "Failed"
+msgstr "မအောင်မြင်ပါ"
+
+msgctxt "Stream"
+msgid "Closed"
+msgstr "ပိတ်ထားသည်"
+
+msgctxt "Stream"
+msgid "Retrying"
+msgstr "ထပ်မံကြိုးစားနေသည်"
+
+msgctxt "Stream"
+msgid "Remapped"
+msgstr "ပြန်လည် ရေးဆွဲသည်"
+
+msgctxt "Stream"
+msgid "Unknown"
+msgstr "အမည်မသိ"
+
+msgctxt "TorProcess"
+msgid "Process %1 failed to stop. [%2]"
+msgstr "လုပ်ငန်းစဉ် %1 သည် ရပ်တန့်၍ မရပါ။ [%2]"
+
+msgctxt "TorService"
+msgid "The Tor service is not installed."
+msgstr "Tor ၀န်ဆောင်မှုကို ထည့်သွင်းမထားပါ။"
+
+msgctxt "TorService"
+msgid "Unable to start the Tor service."
+msgstr "Tor ဝန်ဆောင်မှုကို အစ မပြုနိုင်ပါ။"
+
+msgctxt "TorSettings"
+msgid "Failed to hash the control password."
+msgstr "ထိန်းချုပ် စကားဝှက်ကို ဖျက်၌ မရပါ။"
+
+msgctxt "TorrcDialog"
+msgid "Editing torrc"
+msgstr "torrc ကို တည်းဖြတ်ရန်"
+
+msgctxt "TorrcDialog"
+msgid ""
+"Save settings. If unchecked it will only apply settings to the current Tor "
+"instance."
+msgstr "ချိန်ညှိချက်များ သိမ်းဆည်းထားပြီ။ အကယ်၍ ရွေးမထားပါက ၄င်းချိန်ညှိချက်များသည် လက်ရှိ Tor လုပ်ငန်းကိုသာ သက်ရောက်စေမည် ဖြစ်သည်။"
+
+msgctxt "TorrcDialog"
+msgid "Cut"
+msgstr "ဖြတ်ယူရန်"
+
+msgctxt "TorrcDialog"
+msgid "Copy"
+msgstr "ကော်ပီကူးရန်"
+
+msgctxt "TorrcDialog"
+msgid "Paste"
+msgstr "ပွားယူရန်"
+
+msgctxt "TorrcDialog"
+msgid "Undo"
+msgstr "ပြန်ပြင်ရန်"
+
+msgctxt "TorrcDialog"
+msgid "Redo"
+msgstr "ပြန်ဖြည်ရန်"
+
+msgctxt "TorrcDialog"
+msgid "Select All"
+msgstr "အားလုံးကို ရွေးရန်"
+
+msgctxt "TorrcDialog"
+msgid "Apply all"
+msgstr "အမှတ်အသားပြုထားသောအပြောင်းအလဲများကိုလုပ်ဆောင်ပါ"
+
+msgctxt "TorrcDialog"
+msgid "Apply selection only"
+msgstr "ရွေးထားချက်ကိုသာ သက်ရောက်စေရန်"
+
+msgctxt "TorrcDialog"
+msgid "Error connecting to Tor"
+msgstr "Tor ကို ချိတ်ဆက်ရာ၌ ချို့ယွင်းချက်"
+
+msgctxt "TorrcDialog"
+msgid "Selection is empty. Please select some text, or check \"Apply all\""
+msgstr "ရွေးချယ်မှု မလုပ်​ရသေးပါ။ အချို့ စာသားကို ရွေးပါ၊ (သို့) \"Apply all\" ကို ရွေးပါ"
+
+msgctxt "TorrcDialog"
+msgid "Error at line %1: \"%2\""
+msgstr "ချို့ယွင်းချက် ရှိသော လိုင်း %1 - \"%2\""
+
+msgctxt "TorrcDialog"
+msgid "Error"
+msgstr "ချို့ယွင်းချက်"
+
+msgctxt "TorrcDialog"
+msgid "An error ocurred while opening torrc file"
+msgstr "torrc ဖိုင်ကို ဖွင့်နေစဉ် ချို့ယွင်းချက် တစ်ခု ရှိနေသည်"
+
+msgctxt "UPNPControl"
+msgid "Success"
+msgstr "အောင်မြင်သည်"
+
+msgctxt "UPNPControl"
+msgid "No UPnP-enabled devices found"
+msgstr "UPnP သုံးစွဲသော စက်ပစ္စည်းများ မတွေ့ရပါ"
+
+msgctxt "UPNPControl"
+msgid "No valid UPnP-enabled Internet gateway devices found"
+msgstr "UPnP သုံးစွဲသော အင်တာနက် ကြားခံ စက်ပစ္စည်း အမှန်ကို မတွေ့ရှိပါ"
+
+msgctxt "UPNPControl"
+msgid "WSAStartup failed"
+msgstr "WSAStartUp မဖွင့်နိုင်ပါ"
+
+msgctxt "UPNPControl"
+msgid "Failed to add a port mapping"
+msgstr "Port mapping တစ်ခု ထည့်သွင်း၍ မရပါ။"
+
+msgctxt "UPNPControl"
+msgid "Failed to retrieve a port mapping"
+msgstr "Port mapping တစ်ခု ပြန်ထုတ်ယူ၍ မရပါ"
+
+msgctxt "UPNPControl"
+msgid "Failed to remove a port mapping"
+msgstr "Port mapping တစ်ခု ဖယ်ရှား၍ မရပါ"
+
+msgctxt "UPNPControl"
+msgid "Unknown error"
+msgstr "အမည်မသိ ချို့ယွင်းချက်"
+
+msgctxt "UPNPTestDialog"
+msgid "Discovering UPnP-enabled devices"
+msgstr "UPnP ဖွင့်ထားသော စက်ပစ္စည်းများ ရှာဖွေနေသည်"
+
+msgctxt "UPNPTestDialog"
+msgid "Updating directory port mapping"
+msgstr "ဖိုင်လမ်းကြောင်း port mapping ကို မွမ်းမံ​နေသည်"
+
+msgctxt "UPNPTestDialog"
+msgid "Updating relay port mapping"
+msgstr "Relay port mapping မွမ်းမံနေသည်"
+
+msgctxt "UPNPTestDialog"
+msgid "Test completed successfully!"
+msgstr "စမ်းသပ်မှု အောင်မြင်စွာ ပြီးသွားပြီ!"
+
+msgctxt "UPNPTestDialog"
+msgid "Testing UPnP Support"
+msgstr "UPnP အထောက်အပံ့ စမ်းသပ်နေသည်"
+
+msgctxt "UPNPTestDialog"
+msgid "Testing Universal Plug & Play Support"
+msgstr "Universal Plug & Play အထောက်အပံ့ စမ်းသပ်နေသည်"
+
+msgctxt "UpdateProcess"
+msgid ""
+"Vidalia was unable to check for available software updates because it could "
+"not find '%1'."
+msgstr "Vidalia သည် '%1' ကို မရှာနိုင်သောကြောင့် ရနိုင်သော ဆော့ဗ်ဝဲ မွမ်းမံချက်များကို မစစ်ဆေးပေးနိုင်ပါ။"
+
+msgctxt "UpdateProcess"
+msgid ""
+"Vidalia was unable to check for available software updates because Tor's "
+"update process exited unexpectedly."
+msgstr "Tor မွမ်းမံချက် လုပ်ဆောင်မှု မမျှော်လင့်ပဲ ပိတ်သွားသည့်အတွက် Vidalia သည် ရနိုင်သော ဆော့ဗ်ဝဲ မွမ်းမံချက်များကို မစစ်ဆေးနိုင်ပါ။"
+
+msgctxt "UpdateProgressDialog"
+msgid "Checking for available updates..."
+msgstr "ရနိုင်သော မွမ်းမံချက်များကို စစ်ဆေးနေသည်..."
+
+msgctxt "UpdateProgressDialog"
+msgid "Hide"
+msgstr "ဖျောက်ထားရန်"
+
+msgctxt "UpdateProgressDialog"
+msgid "Downloading updates..."
+msgstr "မွမ်းမံချက်များကို ဒေါင်းလုဒ် ဆွဲနေသည်..."
+
+msgctxt "UpdateProgressDialog"
+msgid "Installing updated software..."
+msgstr "မွမ်းမံထားသော ဆော့ဗ်ဝဲကို စက်ထဲ ထည့်သွင်းနေသည်..."
+
+msgctxt "UpdateProgressDialog"
+msgid "Done! Your software is now up to date."
+msgstr "ပြီးသွားပြီ! သင့် ဆော့ဗ်ဝဲသည် ယခု နောက်ဆုံးထွက် ဗားရှင်း ဖြစ်သွားပြီ။"
+
+msgctxt "UpdateProgressDialog"
+msgid "OK"
+msgstr "ကောင်းပြီ"
+
+msgctxt "UpdateProgressDialog"
+msgid "Software Updates"
+msgstr "ဆော့ဗ်ဝဲ မွမ်းမံချက်များ"
+
+msgctxt "UpdateProgressDialog"
+msgid "Checking for updates..."
+msgstr "မွမ်းမံချက်များကို စစ်ဆေးနေသည်..."
+
+msgctxt "UpdateProgressDialog"
+msgid "Cancel"
+msgstr "ဖျက်သိမ်းရန်"
+
+msgctxt "UpdatesAvailableDialog"
+msgid "Software Updates Available"
+msgstr "ဆော့ဗ်ဝဲ မွမ်းမံချက်များ ရရှိနိုင်သည်"
+
+msgctxt "UpdatesAvailableDialog"
+msgid "Remind Me Later"
+msgstr "နောက်မှ သတိပေးရန်"
+
+msgctxt "UpdatesAvailableDialog"
+msgid "Install"
+msgstr "စက်ထဲ ထည့်သွင်းရန်"
+
+msgctxt "UpdatesAvailableDialog"
+msgid "The following updated software packages are ready for installation:"
+msgstr "မွမ်းမံထားသော အောက်ပါ ဆော့ဗ်ဝဲထုတ်များသည် စက်ထဲ ထည့်သွင်းရန် အသင့် ဖြစ်နေပြီ -"
+
+msgctxt "UpdatesAvailableDialog"
+msgid "Package"
+msgstr "ဖိုင်ထုတ်"
+
+msgctxt "UpdatesAvailableDialog"
+msgid "Version"
+msgstr "ဗားရှင်း"
+
+msgctxt "VMessageBox"
+msgid "OK"
+msgstr "ကောင်းပြီ"
+
+msgctxt "VMessageBox"
+msgid "Cancel"
+msgstr "ဖျက်သိမ်းရန်"
+
+msgctxt "VMessageBox"
+msgid "Yes"
+msgstr "ဟုတ်ကဲ့"
+
+msgctxt "VMessageBox"
+msgid "No"
+msgstr "လက်မခံ့ါ"
+
+msgctxt "VMessageBox"
+msgid "Help"
+msgstr "အကူအညီ"
+
+msgctxt "VMessageBox"
+msgid "Retry"
+msgstr "ထပ်ကြိုးစားရန်"
+
+msgctxt "VMessageBox"
+msgid "Show Log"
+msgstr "မှတ်တမ်း ပြရန်"
+
+msgctxt "VMessageBox"
+msgid "Show Settings"
+msgstr "ချိန်ညှိချက်များကို ပြရန်"
+
+msgctxt "VMessageBox"
+msgid "Continue"
+msgstr "ဆက်လုပ်ရန်"
+
+msgctxt "VMessageBox"
+msgid "Quit"
+msgstr "ထွက်ရန်"
+
+msgctxt "VMessageBox"
+msgid "Browse"
+msgstr "ဖွင့်ကြည့်ရန်"
+
+msgctxt "Vidalia"
+msgid "Invalid Argument"
+msgstr "မမှန်သော ငြင်းဆိုချက်"
+
+msgctxt "Vidalia"
+msgid "Vidalia is already running"
+msgstr "Vidalia အလုပ်လုပ်နေပြီ"
+
+msgctxt "Vidalia"
+msgid "Displays this usage message and exits."
+msgstr "ဤသုံးစွဲမှု စာတမ်းကို ပြပြီး ပိတ်ပါ။"
+
+msgctxt "Vidalia"
+msgid "Resets ALL stored Vidalia settings."
+msgstr "သိမ်းထားသော Vidalia ချိန်ညှိချက် အားလုံးကို ပြန်ချိန်ပါ။"
+
+msgctxt "Vidalia"
+msgid "Sets the directory Vidalia uses for data files."
+msgstr "ဒေတာ ဖိုင်များအတွက် ဖိုင်လမ်းကြောင်း Vidalia ကို သတ်မှတ်ပါ။"
+
+msgctxt "Vidalia"
+msgid "Sets the name and location of Vidalia's pidfile."
+msgstr "Vidalia ၏ pidfile အမည်နှင့် တည်နေရာကို သတ်မှတ်ပါ။"
+
+msgctxt "Vidalia"
+msgid "Sets the name and location of Vidalia's logfile."
+msgstr "Vidalia ၏ မှတ်တမ်းဖိုင် အမည်နှင့် တည်နေရာကို သတ်မှတ်ပါ။"
+
+msgctxt "Vidalia"
+msgid "Sets the verbosity of Vidalia's logging."
+msgstr "Vidalia ၏ မှတ်တမ်းတင်ခြင်း verbosity ကို သတ်မှတ်ပါ။"
+
+msgctxt "Vidalia"
+msgid "Sets Vidalia's interface style."
+msgstr "Vidalia ၏ မျက်နှာပြင် ပုံစံကို သတ်မှတ်ပါ။"
+
+msgctxt "Vidalia"
+msgid "Sets Vidalia's language."
+msgstr "Vidalia ၏ ဘာသာစကားကို သတ်မှတ်ပါ။"
+
+msgctxt "Vidalia"
+msgid "Vidalia Usage Information"
+msgstr "Vidalia သုံးစွဲမှု အချက်အလက်"
+
+msgctxt "Vidalia"
+msgid "Unable to open log file '%1': %2"
+msgstr "မှတ်တမ်းဖိုင် '%1': %2 ကို ဖွင့်မရပါ"
+
+msgctxt "Vidalia"
+msgid "Value required for parameter :"
+msgstr "ပါရာမီတာအတွက် လိုအပ်သော တန်ဖိုး -"
+
+msgctxt "Vidalia"
+msgid "Invalid language code specified:"
+msgstr "မမှန် ဘာသာစကား ကုဒ် သတ်မှတ်ချက် - "
+
+msgctxt "Vidalia"
+msgid "Invalid GUI style specified:"
+msgstr "မမှန်သော GUI ​ ပုံစံ သတ်မှတ်ချက် -"
+
+msgctxt "Vidalia"
+msgid "Invalid log level specified:"
+msgstr "မမှန်သော မှတ်တမ်း အဆင့် သတ်မှတ်ချက် -"
+
+msgctxt "Vidalia"
+msgid ""
+"Another Vidalia process is possibly already running. If there really is not another Vidalia process running, you can choose to continue anyway.\n"
+"\n"
+"Would you like to continue starting Vidalia?"
+msgstr "အခြား Vidalia လုပ်ငန်း အလုပ်လုပ်နေတာ ဖြစ်နိုင်သည်။ အကယ်၍ အခြား Vidalia လုပ်ငန်း အလုပ်မလုပ်ပါက၊ ဒီအတိုင်း ရှိနေအောင် သင် ရွေးချယ်နိုင်သည်။\n\nVidalia ကို ဆက်ဖွင့်လိုသလား။"
+
+msgctxt "stringutil.h"
+msgid "%1 secs"
+msgstr "%1 စက္ကန့်"
+
+msgctxt "stringutil.h"
+msgid "%1 B/s"
+msgstr "%1 B/s"
+
+msgctxt "stringutil.h"
+msgid "%1 KB/s"
+msgstr "%1 KB/s"
+
+msgctxt "stringutil.h"
+msgid "%1 MB/s"
+msgstr "%1 MB/s"
+
+msgctxt "stringutil.h"
+msgid "%1 GB/s"
+msgstr "%1 GB/s"
+
+msgctxt "stringutil.h"
+msgid "%1 days"
+msgstr "%1 ရက်"
+
+msgctxt "stringutil.h"
+msgid "%1 hours"
+msgstr "%1 နာရီ"
+
+msgctxt "stringutil.h"
+msgid "%1 mins"
+msgstr "%1 မိနစ်"

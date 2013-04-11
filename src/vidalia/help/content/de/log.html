@@ -1,0 +1,126 @@
+<!--
+**  $Id$
+** 
+**  This file is part of Vidalia, and is subject to the license terms in the
+**  LICENSE file, found in the top level directory of this distribution. If 
+**  you did not receive the LICENSE file with this file, you may obtain it
+**  from the Vidalia source package distributed by the Vidalia Project at
+**  http://www.torproject.org/projects/vidalia.html. No part of Vidalia, 
+**  including this file, may be copied, modified, propagated, or distributed 
+**  except according to the terms described in the LICENSE file.
+-->
+
+<html>
+<body>
+
+<h1>Nachrichtenprotokoll</h1>
+<hr />
+
+Das Nachrichtenprotokoll zeigt Statusinformationen zu laufenden Tor-Prozessen an.
+
+<a name="basic"/>
+Jede Nachricht wird mit einer <i>Gewichtung</i> dargestellt, beginnend bei
+<b>Fehler</b> (schwerwiegende Fehler) bis <b>Debug</b> (am ausf&uuml;hrlichsten).
+Im Abschnitt <a href="#severities">Gewichtung von Nachrichten</a> finden Sie
+weitere Informationen.
+
+
+<a name="severities"/>
+<h3>Gewichtung von Nachrichten</h3>
+<p>
+Die Gewichtung eine Nachricht gibt Auskunft dar&uuml;ber, wie wichtig diese ist.
+Eine h&ouml;her gewichtete Nachricht deutet normalerweise an, dass etwas mit Tor
+schief gegangen ist. Niedrig gewichtete Nachrichten erscheinen &ouml;fter
+w&auml;hrend des Tor-Betriebs und m&uuml;ssen normalerweise nicht aufgezeichnet
+werden.
+</p>
+
+<p>
+Die m&ouml;glichen Gewichtungen von Nachrichten, von der schwerwiegendsten zu
+der am wenigsten schwerwiegendsten, sind:
+</p>
+<ul>
+  <li>
+    <b>Fehler</b>: Nachrichten, die erscheinen, wenn ein schwerwiegender Fehler
+    aufgetreten ist und Tor nicht weiter ausgef&uuml;hrt werden kann. Diese
+    Nachrichten werden im Nachrichtenprotokoll <i>rot</i> hervor gehoben.
+  </li>
+  <li>
+    <b>Warnung</b>: Nachrichten, die nur erscheinen, wenn weniger
+    schwerwiegende Fehler aufgetreten sind und Tor weiterhin ausgef&uuml;hrt
+    werden kann. Diese Nachrichten werden <i>gelb</i> hervor gehoben.
+  </li>
+  <li>
+    <b>Hinweis</b>: Nachrichten, die unregelm&auml;&szlig;ig w&auml;hrend des
+    Tor-Betriebs auftauchen, aber nicht als Fehler eingestuft sind. Diese
+    k&ouml;nnten f&uuml;r Sie interessante Informationen enthalten.
+  </li>
+  <li>
+    <b>Info</b>: Nachrichten, die regelm&auml;&szlig;ig w&auml;hrend des
+    Tor-Betriebs auftauchen, aber in der Regel f&uuml;r die meisten Nutzer
+    uninteressant sind.
+  </li>
+  <li>
+    <b>Debug</b>: Sehr ausf&uuml;hrliche Nachrichten, die haupts&auml;chlich
+    f&uuml;r Entwickler von Bedeutung sind. Es empfiehlt sich nur, diese
+    Nachrichten aufzuzeichnen, wenn Sie wissen, was Sie tun.
+  </li>
+</ul>
+
+<p>
+F&uuml;r die meisten Nutzer ist es ausreichend, nur Nachrichten der Gewichtung
+<i>Fehler</i>, <i>Warnung</i> und <i>Hinweis</i> aufzuzeichnen.
+</p>
+
+<p>
+Um auszuw&auml;hlen, welche Nachrichten-Gewichtung angezeigt werden soll,
+befolgen Sie folgende Schritte:
+<ol>
+  <li>&Ouml;ffnen Sie das Nachrichtenprotokoll aus dem Vidalia Traymen&uuml;.</li>
+  <li>
+    Klicken Sie auf die Schaltfl&auml;che <i>Einstellungen</i> im Fenster des
+    Nachrichtenprotokolls.
+  </li>
+  <li>
+    W&auml;hlen Sie unter <i>Nachrichtenfilter</i> die Nachrichten aus, die
+    angezeigt werden sollen und deaktivieren Sie die f&uuml;r Sie
+    uninteressanten Nachrichten.
+  </li>
+  <li>
+    Klicken Sie auf <i>Speichere Einstellungen</i>, um den Vorgang
+    abzuschlie&szlig;en.
+  </li>
+</ol>
+</p>
+
+
+<a name="logfile"/>
+<h3>Das Nachrichtenprotokoll speichern</h3>
+<p>
+Vidalia kann die Nachrichten sowohl in Nachrichtenprotokollfenster anzeigen,
+als auch in einer Datei speichern. Um das Speichern in eine Datei zu aktivieren,
+befolgen Sie die folgenden Schritte:
+</p>
+
+<ol>
+  <li>&Ouml;ffnen sie das Nachrichtenprotokoll aus dem Vidalia Traymen&uuml;.</li>
+  <li>
+    Klicken Sie auf die Schaltfl&auml;che <i>Einstellungen</i> im Fenster des
+    Nachrichtenprotokolls.
+  </li>
+  <li>Aktivieren Sie unter <i>Nachrichten immer speichern</i> die Checkbox
+    <i>Alle neuen Nachrichten automatisch in einer Datei speichern</i>.
+  <li>
+    Falls Sie die Nachrichten in eine andere, als die angegebene Datei speichern
+    wollen, geben Sie entweder ein Verzeichnis und einen Dateinamen an, oder
+    klicken Sie auf <i>&Ouml;ffnen</i>, um eine Datei auszuw&auml;hlen.
+  </li>
+  <li>
+    Klicken sie auf <i>Speichere Einstellungen</i>, um den Vorgang
+    abzuschlie&szlig;en.
+  </li>
+</ol>
+
+</body>
+</html>
+

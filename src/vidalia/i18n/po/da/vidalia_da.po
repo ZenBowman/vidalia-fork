@@ -1,0 +1,3849 @@
+# 
+# Translators:
+#   <3xm@detfalskested.dk>, 2012.
+# Aputsiaq Janussen <aputtu@gmail.com>, 2011.
+# runasand <runa.sandvik@gmail.com>, 2011.
+#   <theoliver@live.co.uk>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: The Tor Project\n"
+"Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
+"POT-Creation-Date: 2012-03-21 17:52+0000\n"
+"PO-Revision-Date: 2012-04-11 07:32+0000\n"
+"Last-Translator: decibyte <3xm@detfalskested.dk>\n"
+"Language-Team: translations@vidalia-project.net\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: da\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"X-Generator: Vidalia ts2po 0.2\n"
+
+msgctxt "AboutDialog"
+msgid "About Vidalia"
+msgstr "Om Vidalia"
+
+msgctxt "AboutDialog"
+msgid "License"
+msgstr "Licens"
+
+msgctxt "AboutDialog"
+msgid "Vidalia 0.2.0"
+msgstr "Vidalia 0.2.0"
+
+msgctxt "AboutDialog"
+msgid "Tor 0.2.0.32"
+msgstr "Tor 0.2.0.32"
+
+msgctxt "AboutDialog"
+msgid "Qt 4.4.2"
+msgstr "Qt 4.4.2"
+
+msgctxt "AdvancedPage"
+msgid "'%1' is not a valid IP address."
+msgstr "'%1' er ikke en gyldig IP-adresse."
+
+msgctxt "AdvancedPage"
+msgid ""
+"You selected 'Password' authentication, but did not specify a password."
+msgstr "Du har valgt 'Password' autentificering, men har ikke angivet en adgangskode."
+
+msgctxt "AdvancedPage"
+msgid "Select Tor Configuration File"
+msgstr "Vælg Tor konfigurations fil"
+
+msgctxt "AdvancedPage"
+msgid "File Not Found"
+msgstr "Filen blev ikke fundet"
+
+msgctxt "AdvancedPage"
+msgid "%1 does not exist. Would you like to create it?"
+msgstr "%1 findes ikke. Vil du oprette den?"
+
+msgctxt "AdvancedPage"
+msgid "Failed to Create File"
+msgstr "Kunne ikke oprette fil"
+
+msgctxt "AdvancedPage"
+msgid "Unable to create %1 [%2]"
+msgstr "Kunne ikke oprette %1 [%2]"
+
+msgctxt "AdvancedPage"
+msgid "Select a Directory to Use for Tor Data"
+msgstr "Vælg en mappe som skal bruges til Tor Data"
+
+msgctxt "AdvancedPage"
+msgid "Unable to remove Tor Service"
+msgstr "Kan ikke fjerne Tor Service"
+
+msgctxt "AdvancedPage"
+msgid "Unable to install Tor Service"
+msgstr "Ude af stand til at installere Tor Service"
+
+msgctxt "AdvancedPage"
+msgid "Vidalia was unable to install the Tor service."
+msgstr "Vidalia var ikke i stand til at installere Tor service."
+
+msgctxt "AdvancedPage"
+msgid "Authentication:"
+msgstr "Autentificering:"
+
+msgctxt "AdvancedPage"
+msgid "Address:"
+msgstr "Adresse:"
+
+msgctxt "AdvancedPage"
+msgid "None"
+msgstr "Ingen"
+
+msgctxt "AdvancedPage"
+msgid "Cookie"
+msgstr "Cookie"
+
+msgctxt "AdvancedPage"
+msgid "Password"
+msgstr "Adgangskode"
+
+msgctxt "AdvancedPage"
+msgid "Randomly Generate"
+msgstr "Tilfældigt Genereret"
+
+msgctxt "AdvancedPage"
+msgid ":"
+msgstr ":"
+
+msgctxt "AdvancedPage"
+msgid "Tor Configuration File"
+msgstr "Tor konfigurationsfil"
+
+msgctxt "AdvancedPage"
+msgid "Start the Tor software with the specified configuration file (torrc)"
+msgstr "Start Tor med den angivne opsætningsfil (torrc)"
+
+msgctxt "AdvancedPage"
+msgid "Select path to your configuration file"
+msgstr "Valg stien til din konfigurationsfil"
+
+msgctxt "AdvancedPage"
+msgid "Browse"
+msgstr "Gennemse"
+
+msgctxt "AdvancedPage"
+msgid "Data Directory"
+msgstr "Fil Mappe"
+
+msgctxt "AdvancedPage"
+msgid "Store data for the Tor software in the following directory"
+msgstr "Gem Tors data i den følgende mappe"
+
+msgctxt "AdvancedPage"
+msgid "Select the directory used to store data for the Tor software"
+msgstr "Vælg hvilken katalog der skal bruges til at gemme data fra Tor"
+
+msgctxt "AdvancedPage"
+msgid "Tor Control"
+msgstr "Tor Kontrol"
+
+msgctxt "AdvancedPage"
+msgid "Use TCP connection (ControlPort)"
+msgstr "Brug TCP-forbindelse (ControlPort)"
+
+msgctxt "AdvancedPage"
+msgid "Path:"
+msgstr "Sti:"
+
+msgctxt "AdvancedPage"
+msgid "Use Unix domain socket (ControlSocket)"
+msgstr "Brug Unix-domænesokkel (ControlSocket)"
+
+msgctxt "AdvancedPage"
+msgid "Edit current torrc"
+msgstr "Rediger aktuel torrc"
+
+msgctxt "AdvancedPage"
+msgid "NOTE: this will edit the currently loaded torrc"
+msgstr "BEMÆRK: dette vil redigere aktuelt indlæste torrc"
+
+msgctxt "AdvancedPage"
+msgid "ControlSocket path doesn't exist."
+msgstr "ControlSocket-sti eksisterer ikke."
+
+msgctxt "AdvancedPage"
+msgid ""
+"The specified Tor configuration file location contains characters that "
+"cannot be represented in your system's current 8-bit character encoding."
+msgstr "Den angivne placering for Tor-konfigurationsfil indeholder tegn som ikke kan repræsenteres i dit systems aktuelle 8-bit tegnindkodning. "
+
+msgctxt "AdvancedPage"
+msgid ""
+"The specified Tor data directory location contains characters that cannot be"
+" represented in your system's current 8-bit character encoding."
+msgstr "Den angivne placering for Tor-datakatalog indeholder tegn som ikke kan repræsenteres i dit systems aktuelle 8-bit tegnindkodning. "
+
+msgctxt "AdvancedPage"
+msgid "Warning"
+msgstr "Advarsel"
+
+msgctxt "AdvancedPage"
+msgid "You changed torrc path, would you like to restart Tor?"
+msgstr "Du ændrede torrc-sti, vil du gerne genstarte Tor?"
+
+msgctxt "AdvancedPage"
+msgid "Tor Configuration File (torrc);;All Files (*)"
+msgstr "Tor-konfigurationsfil (torrc);; Alle filer (*)"
+
+msgctxt "AdvancedPage"
+msgid "Select a file to use for Tor socket path"
+msgstr "Vælg en fil til brug for Tor-sokkelsti"
+
+msgctxt "AdvancedPage"
+msgid "Configure ControlPort automatically"
+msgstr "Konfigurer KontrolPort Automatisk"
+
+msgctxt "AdvancedPage"
+msgid ""
+"You've checked the autoconfiguration option for the ControlPort, but "
+"provided no Data Directory. Please add one, or uncheck the \"Configure "
+"ControlPort automatically\" option."
+msgstr "Du har valgt automatisk konfiguration af KontrolPort, men har ikke angivet nogen DataMappe. Vælg venligst et, eller slå automatisk konfiguration af kontrolport fra."
+
+msgctxt "AdvancedPage"
+msgid ""
+"Vidalia was unable to remove the Tor service.\n"
+"\n"
+"You may need to remove it manually."
+msgstr "Vidalia var ikke i stand til at fjerne Tor-tjeneste.\n\nDu skal muligvis fjerne den manuelt."
+
+msgctxt "AppearancePage"
+msgid "Language"
+msgstr "Sprog"
+
+msgctxt "AppearancePage"
+msgid "Choose the language used in Vidalia"
+msgstr "Vælg sproget til brug i Vidalia"
+
+msgctxt "AppearancePage"
+msgid "Style"
+msgstr "Stil"
+
+msgctxt "AppearancePage"
+msgid "Choose Vidalia's interface style"
+msgstr "Vælg Vidalia's grænsefladestil"
+
+msgctxt "AppearancePage"
+msgid "Vidalia was unable to load the selected language translation."
+msgstr "Vidalia kunne ikke hente det valgte sprog"
+
+msgctxt "AppearancePage"
+msgid ""
+"System Icon Preferences (changes will take effect when you restart Vidalia)"
+msgstr "Systemikonindstillinger (ændringer træder i kraft når du genstarter Vidalia)"
+
+msgctxt "AppearancePage"
+msgid "Show the Tray Icon and Dock Icon (default)"
+msgstr "Vis bakkeikonet og dokikonet (slået til som standard)"
+
+msgctxt "AppearancePage"
+msgid "Hide the Tray Icon"
+msgstr "Skjul bakkeikonet"
+
+msgctxt "AppearancePage"
+msgid "Hide the Dock Icon"
+msgstr "Skjul dokikonet"
+
+msgctxt "BandwidthGraph"
+msgid "Since:"
+msgstr "Siden:"
+
+msgctxt "BandwidthGraph"
+msgid "Hide Settings"
+msgstr "Skjul Indstillinger"
+
+msgctxt "BandwidthGraph"
+msgid "Show Settings"
+msgstr "Vis Indstillinger"
+
+msgctxt "BandwidthGraph"
+msgid "Tor Bandwidth Usage"
+msgstr "Tors Bredbåndsbrug"
+
+msgctxt "BandwidthGraph"
+msgid "Reset"
+msgstr "Nulstil"
+
+msgctxt "BandwidthGraph"
+msgid "Receive Rate"
+msgstr "Modtagelseshastighed"
+
+msgctxt "BandwidthGraph"
+msgid "Send Rate"
+msgstr "Sendehastighed"
+
+msgctxt "BandwidthGraph"
+msgid "Always on Top"
+msgstr "Altid øverst"
+
+msgctxt "BandwidthGraph"
+msgid "Style"
+msgstr "Stil"
+
+msgctxt "BandwidthGraph"
+msgid "Changes the transparency of the Bandwidth Graph"
+msgstr "Ændre gennemsigtigheden af Båndbredsgrafen"
+
+msgctxt "BandwidthGraph"
+msgid "100"
+msgstr "100"
+
+msgctxt "BandwidthGraph"
+msgid "% Opaque"
+msgstr "% Uigennemsigtig"
+
+msgctxt "BandwidthGraph"
+msgid "Save"
+msgstr "Gem"
+
+msgctxt "BandwidthGraph"
+msgid "Cancel"
+msgstr "Annuller"
+
+msgctxt "BridgeDownloader"
+msgid "Starting HTTPS bridge request..."
+msgstr "Starter forespørgel af HTTPS-bro..."
+
+msgctxt "BridgeDownloader"
+msgid "Connecting to %1:%2..."
+msgstr "Forbinder til %1:%2..."
+
+msgctxt "BridgeDownloader"
+msgid "Sending an HTTPS request for bridges..."
+msgstr "Sender en HTTPS-forespørgsel efter broer... "
+
+msgctxt "BridgeDownloader"
+msgid "Downloading a list of bridges..."
+msgstr "Henter en liste af broer..."
+
+msgctxt "BridgeDownloaderProgressDialog"
+msgid "Downloading Bridges"
+msgstr "Henter broer"
+
+msgctxt "BridgeDownloaderProgressDialog"
+msgid "Unable to download bridges: %1"
+msgstr "Ikke i stand til at hente broer: %1"
+
+msgctxt "BridgeDownloaderProgressDialog"
+msgid "Retrying bridge request..."
+msgstr "Forsøger igen med bro-forespørgsel..."
+
+msgctxt "BridgeUsageDialog"
+msgid "Country"
+msgstr "Land"
+
+msgctxt "BridgeUsageDialog"
+msgid "# Clients"
+msgstr "# Klienter"
+
+msgctxt "BridgeUsageDialog"
+msgid "Clients from the following countries have used your relay since %1"
+msgstr "Klienter fra følgende lande har brugt dit relæ siden %1"
+
+msgctxt "BridgeUsageDialog"
+msgid "Bridge Usage Summary"
+msgstr "Opsummering for anvendelse af bro"
+
+msgctxt "BridgeUsageDialog"
+msgid "Client Summary"
+msgstr "Klientopsummering"
+
+msgctxt "Circuit"
+msgid "New"
+msgstr "Ny"
+
+msgctxt "Circuit"
+msgid "Open"
+msgstr "Åben"
+
+msgctxt "Circuit"
+msgid "Building"
+msgstr "Bygger"
+
+msgctxt "Circuit"
+msgid "Failed"
+msgstr "Mislykkedes"
+
+msgctxt "Circuit"
+msgid "Closed"
+msgstr "Lukket"
+
+msgctxt "Circuit"
+msgid "Unknown"
+msgstr "Ukendt"
+
+msgctxt "CircuitItem"
+msgid "<Path Empty>"
+msgstr "<Tom Sti>"
+
+msgctxt "CircuitListWidget"
+msgid "Connection"
+msgstr "Forbindelse"
+
+msgctxt "CircuitListWidget"
+msgid "Status"
+msgstr "Status"
+
+msgctxt "CircuitListWidget"
+msgid "Zoom to Circuit"
+msgstr "Zoom til Kredsløb"
+
+msgctxt "CircuitListWidget"
+msgid "Close Circuit (Del)"
+msgstr "Luk Kredsløb (Del)"
+
+msgctxt "CircuitListWidget"
+msgid "Close Stream (Del)"
+msgstr "Luk Strøm (Del)"
+
+msgctxt "ConfigDialog"
+msgid "General"
+msgstr "Generelt"
+
+msgctxt "ConfigDialog"
+msgid "Network"
+msgstr "Netværk"
+
+msgctxt "ConfigDialog"
+msgid "Sharing"
+msgstr "Deling"
+
+msgctxt "ConfigDialog"
+msgid "Services"
+msgstr "Tjenester"
+
+msgctxt "ConfigDialog"
+msgid "Appearance"
+msgstr "Udseende"
+
+msgctxt "ConfigDialog"
+msgid "Advanced"
+msgstr "Avanceret"
+
+msgctxt "ConfigDialog"
+msgid "Help"
+msgstr "Hjælp"
+
+msgctxt "ConfigDialog"
+msgid "Error Saving Settings"
+msgstr "Fejl ved Gemning af Indstillinger"
+
+msgctxt "ConfigDialog"
+msgid "Vidalia was unable to save your %1 settings."
+msgstr "Vidalia kunne ikke gemme dine %1 indstillinger."
+
+msgctxt "ConfigDialog"
+msgid "Error Applying Settings"
+msgstr "Fejl ved anvendelse af Indstillinger"
+
+msgctxt "ConfigDialog"
+msgid "Vidalia was unable to apply your %1 settings to Tor."
+msgstr "Vidalia kunne ikke anvende dine %1 indstillinger til Tor."
+
+msgctxt "ConfigDialog"
+msgid "Settings"
+msgstr "Indstillinger"
+
+msgctxt "ControlConnection"
+msgid "Vidalia was unable to connect to Tor. (%1)"
+msgstr "Vidalia kunne ikke forbinde til Tor. (%1)"
+
+msgctxt "ControlConnection"
+msgid "Control socket is not connected."
+msgstr "Kontrol socket er ikke tilsluttet."
+
+msgctxt "ControlPasswordInputDialog"
+msgid "Password Required"
+msgstr "Kodeord påkrævet"
+
+msgctxt "ControlPasswordInputDialog"
+msgid "Remember my password"
+msgstr "Husk mit kodeord"
+
+msgctxt "ControlPasswordInputDialog"
+msgid ""
+"Vidalia has connected to a running Tor process that requires a password. "
+"Please enter your control password:"
+msgstr "Vidalia er tilsluttet til en kørende Tor-proces som kræver et kodeord. Venligst indtast til kontrolkodeord:"
+
+msgctxt "ControlSocket"
+msgid "Control socket is not connected."
+msgstr "Kontrol-socket er ikke forbundet."
+
+msgctxt "ControlSocket"
+msgid "Error sending control command. [%1]"
+msgstr "Fejl ved sending af kontrolkommando. [%1]"
+
+msgctxt "ControlSocket"
+msgid "Socket disconnected while attempting to read a line of data."
+msgstr "Socket afbrudt mens forsøg på læsning af en linje data."
+
+msgctxt "ControlSocket"
+msgid "Invalid control reply. [%1]"
+msgstr "Ugyldigt kontrolsvar. [%1]"
+
+msgctxt "CountryInfo"
+msgid "Afghanistan"
+msgstr "Afghanistan"
+
+msgctxt "CountryInfo"
+msgid "Andorra"
+msgstr "Andorra"
+
+msgctxt "CountryInfo"
+msgid "Angola"
+msgstr "Angola"
+
+msgctxt "CountryInfo"
+msgid "Antigua & Barbuda"
+msgstr "Antigua & Barbuda"
+
+msgctxt "CountryInfo"
+msgid "Argentina"
+msgstr "Argentina"
+
+msgctxt "CountryInfo"
+msgid "Armenia"
+msgstr "Armenien"
+
+msgctxt "CountryInfo"
+msgid "Australia"
+msgstr "Australien"
+
+msgctxt "CountryInfo"
+msgid "Azerbaijan"
+msgstr "Aserbajdsjan"
+
+msgctxt "CountryInfo"
+msgid "Bahamas"
+msgstr "Bahamas"
+
+msgctxt "CountryInfo"
+msgid "Bangladesh"
+msgstr "Bangladesh"
+
+msgctxt "CountryInfo"
+msgid "Barbados"
+msgstr "Barbados"
+
+msgctxt "CountryInfo"
+msgid "Belarus"
+msgstr "Hviderusland"
+
+msgctxt "CountryInfo"
+msgid "Belgium"
+msgstr "Belgien"
+
+msgctxt "CountryInfo"
+msgid "Belize"
+msgstr "Belize"
+
+msgctxt "CountryInfo"
+msgid "Bhutan"
+msgstr "Bhutan"
+
+msgctxt "CountryInfo"
+msgid "Bolivia"
+msgstr "Bolivia"
+
+msgctxt "CountryInfo"
+msgid "Bosnia & Herzegovina"
+msgstr "Bosnien &amp; Hercegovina"
+
+msgctxt "CountryInfo"
+msgid "Botswana"
+msgstr "Botswana"
+
+msgctxt "CountryInfo"
+msgid "Brazil"
+msgstr "Brasilien"
+
+msgctxt "CountryInfo"
+msgid "Brunei Darussalam"
+msgstr "Brunei Darussalam"
+
+msgctxt "CountryInfo"
+msgid "Bulgaria"
+msgstr "Bulgarien"
+
+msgctxt "CountryInfo"
+msgid "Burkina Faso"
+msgstr "Burkina Faso"
+
+msgctxt "CountryInfo"
+msgid "Burundi"
+msgstr "Burundi"
+
+msgctxt "CountryInfo"
+msgid "Cambodia"
+msgstr "Cambodja"
+
+msgctxt "CountryInfo"
+msgid "Cameroon"
+msgstr "Cameroun"
+
+msgctxt "CountryInfo"
+msgid "Canada"
+msgstr "Canada"
+
+msgctxt "CountryInfo"
+msgid "Cape Verde"
+msgstr "Kap Verde"
+
+msgctxt "CountryInfo"
+msgid "Central African Republic"
+msgstr "Centralafrikanske Republik"
+
+msgctxt "CountryInfo"
+msgid "Chad"
+msgstr "Tchad"
+
+msgctxt "CountryInfo"
+msgid "Chile"
+msgstr "Chile"
+
+msgctxt "CountryInfo"
+msgid "China"
+msgstr "Kina"
+
+msgctxt "CountryInfo"
+msgid "Colombia"
+msgstr "Columbia"
+
+msgctxt "CountryInfo"
+msgid "Comoros"
+msgstr "Comorerne"
+
+msgctxt "CountryInfo"
+msgid "Congo, The Democratic Republic of the"
+msgstr "Congo, Den Demokratiske Republik"
+
+msgctxt "CountryInfo"
+msgid "Congo"
+msgstr "Congo"
+
+msgctxt "CountryInfo"
+msgid "Costa Rica"
+msgstr "Costa Rica"
+
+msgctxt "CountryInfo"
+msgid "Cote dâIvoire"
+msgstr "Elfenbenskysten"
+
+msgctxt "CountryInfo"
+msgid "Croatia"
+msgstr "Kroatien"
+
+msgctxt "CountryInfo"
+msgid "Cuba"
+msgstr "Cuba"
+
+msgctxt "CountryInfo"
+msgid "Cyprus"
+msgstr "Cypern"
+
+msgctxt "CountryInfo"
+msgid "Czech Republic"
+msgstr "Tjekkiske Republik"
+
+msgctxt "CountryInfo"
+msgid "Denmark"
+msgstr "Danmark"
+
+msgctxt "CountryInfo"
+msgid "Djibouti"
+msgstr "Djibouti"
+
+msgctxt "CountryInfo"
+msgid "Dominica"
+msgstr "Dominica"
+
+msgctxt "CountryInfo"
+msgid "Dominican Republic"
+msgstr "Dominikanske Republik"
+
+msgctxt "CountryInfo"
+msgid "Ecuador"
+msgstr "Ecuador"
+
+msgctxt "CountryInfo"
+msgid "Egypt"
+msgstr "Egypten"
+
+msgctxt "CountryInfo"
+msgid "El Salvador"
+msgstr "El Salvador"
+
+msgctxt "CountryInfo"
+msgid "Equatorial Guinea"
+msgstr "Ækvatorial Guinea"
+
+msgctxt "CountryInfo"
+msgid "Eritrea"
+msgstr "Eritrea"
+
+msgctxt "CountryInfo"
+msgid "Estonia"
+msgstr "Estland"
+
+msgctxt "CountryInfo"
+msgid "France"
+msgstr "Frankrig"
+
+msgctxt "CountryInfo"
+msgid "Gabon"
+msgstr "Gabon"
+
+msgctxt "CountryInfo"
+msgid "Gambia"
+msgstr "Gambia"
+
+msgctxt "CountryInfo"
+msgid "Georgia"
+msgstr "Georgien"
+
+msgctxt "CountryInfo"
+msgid "Germany"
+msgstr "Tyskland"
+
+msgctxt "CountryInfo"
+msgid "Ghana"
+msgstr "Ghana"
+
+msgctxt "CountryInfo"
+msgid "Grenada"
+msgstr "Grenada"
+
+msgctxt "CountryInfo"
+msgid "Guatemala"
+msgstr "Guatemala"
+
+msgctxt "CountryInfo"
+msgid "Guinea"
+msgstr "Guinea"
+
+msgctxt "CountryInfo"
+msgid "Guinea-Bissau"
+msgstr "Guinea-Bissau"
+
+msgctxt "CountryInfo"
+msgid "Guyana"
+msgstr "Guyana"
+
+msgctxt "CountryInfo"
+msgid "Hong Kong"
+msgstr "Hong Kong"
+
+msgctxt "CountryInfo"
+msgid "Haiti"
+msgstr "Haiti"
+
+msgctxt "CountryInfo"
+msgid "Honduras"
+msgstr "Honduras"
+
+msgctxt "CountryInfo"
+msgid "Israel"
+msgstr "Israel"
+
+msgctxt "CountryInfo"
+msgid "Italy"
+msgstr "Italien"
+
+msgctxt "CountryInfo"
+msgid "Jamaica"
+msgstr "Jamaica"
+
+msgctxt "CountryInfo"
+msgid "Japan"
+msgstr "Japan"
+
+msgctxt "CountryInfo"
+msgid "Jordan"
+msgstr "Jordan"
+
+msgctxt "CountryInfo"
+msgid "Kazakhstan"
+msgstr "Kasakhstan"
+
+msgctxt "CountryInfo"
+msgid "Kenya"
+msgstr "Kenya"
+
+msgctxt "CountryInfo"
+msgid "Kiribati"
+msgstr "Kiribati"
+
+msgctxt "CountryInfo"
+msgid "Kuwait"
+msgstr "Kuwait"
+
+msgctxt "CountryInfo"
+msgid "Kyrgyzstan"
+msgstr "Kirgisistan"
+
+msgctxt "CountryInfo"
+msgid "Laos"
+msgstr "Laos"
+
+msgctxt "CountryInfo"
+msgid "Latvia"
+msgstr "Letland"
+
+msgctxt "CountryInfo"
+msgid "Lebanon"
+msgstr "Libanon"
+
+msgctxt "CountryInfo"
+msgid "Lesotho"
+msgstr "Lesotho"
+
+msgctxt "CountryInfo"
+msgid "Liberia"
+msgstr "Liberia"
+
+msgctxt "CountryInfo"
+msgid "Liechtenstein"
+msgstr "Liechtenstein"
+
+msgctxt "CountryInfo"
+msgid "Lithuania"
+msgstr "Litauen"
+
+msgctxt "CountryInfo"
+msgid "Luxembourg"
+msgstr "Luxembourg"
+
+msgctxt "CountryInfo"
+msgid "Macedonia"
+msgstr "Makedonien"
+
+msgctxt "CountryInfo"
+msgid "Madagascar"
+msgstr "Madagaskar"
+
+msgctxt "CountryInfo"
+msgid "Malawi"
+msgstr "Malawi"
+
+msgctxt "CountryInfo"
+msgid "Malaysia"
+msgstr "Malaysia"
+
+msgctxt "CountryInfo"
+msgid "Mali"
+msgstr "Mali"
+
+msgctxt "CountryInfo"
+msgid "Malta"
+msgstr "Malta"
+
+msgctxt "CountryInfo"
+msgid "Marshall Islands"
+msgstr "Marshalløerne"
+
+msgctxt "CountryInfo"
+msgid "Mauritania"
+msgstr "Mauretanien"
+
+msgctxt "CountryInfo"
+msgid "Mauritius"
+msgstr "Mauritius"
+
+msgctxt "CountryInfo"
+msgid "Micronesia"
+msgstr "Mikronesien"
+
+msgctxt "CountryInfo"
+msgid "Moldova"
+msgstr "Moldova"
+
+msgctxt "CountryInfo"
+msgid "Monaco"
+msgstr "Monaco"
+
+msgctxt "CountryInfo"
+msgid "Mongolia"
+msgstr "Mongoliet"
+
+msgctxt "CountryInfo"
+msgid "Montenegro"
+msgstr "Montenegro"
+
+msgctxt "CountryInfo"
+msgid "Morocco"
+msgstr "Marokko"
+
+msgctxt "CountryInfo"
+msgid "Mozambique"
+msgstr "Mozambique"
+
+msgctxt "CountryInfo"
+msgid "Namibia"
+msgstr "Namibia"
+
+msgctxt "CountryInfo"
+msgid "Nauru"
+msgstr "Nauru"
+
+msgctxt "CountryInfo"
+msgid "Nepal"
+msgstr "Nepal"
+
+msgctxt "CountryInfo"
+msgid "Netherlands"
+msgstr "Holland"
+
+msgctxt "CountryInfo"
+msgid "New Zealand"
+msgstr "New Zealand"
+
+msgctxt "CountryInfo"
+msgid "Nicaragua"
+msgstr "Nicaragua"
+
+msgctxt "CountryInfo"
+msgid "Niger"
+msgstr "Niger"
+
+msgctxt "CountryInfo"
+msgid "Nigeria"
+msgstr "Nigeria"
+
+msgctxt "CountryInfo"
+msgid "Norway"
+msgstr "Norge"
+
+msgctxt "CountryInfo"
+msgid "Oman"
+msgstr "Oman"
+
+msgctxt "CountryInfo"
+msgid "Pakistan"
+msgstr "Pakistan"
+
+msgctxt "CountryInfo"
+msgid "Palau"
+msgstr "Palau"
+
+msgctxt "CountryInfo"
+msgid "Palestine"
+msgstr "Palæstina"
+
+msgctxt "CountryInfo"
+msgid "Panama"
+msgstr "Panama"
+
+msgctxt "CountryInfo"
+msgid "Papua New Guinea"
+msgstr "Papua Ny Guinea"
+
+msgctxt "CountryInfo"
+msgid "Paraguay"
+msgstr "Paraguay"
+
+msgctxt "CountryInfo"
+msgid "Peru"
+msgstr "Peru"
+
+msgctxt "CountryInfo"
+msgid "Philippines"
+msgstr "Filippinerne"
+
+msgctxt "CountryInfo"
+msgid "Poland"
+msgstr "Polen"
+
+msgctxt "CountryInfo"
+msgid "Portugal"
+msgstr "Portugal"
+
+msgctxt "CountryInfo"
+msgid "Qatar"
+msgstr "Qatar"
+
+msgctxt "CountryInfo"
+msgid "Romania"
+msgstr "Rumænien"
+
+msgctxt "CountryInfo"
+msgid "Russia"
+msgstr "Rusland"
+
+msgctxt "CountryInfo"
+msgid "Rwanda"
+msgstr "Rwanda"
+
+msgctxt "CountryInfo"
+msgid "Saint Kitts & Nevis"
+msgstr "Saint Kitts &amp; Nevis"
+
+msgctxt "CountryInfo"
+msgid "Saint Lucia"
+msgstr "Saint Lucia"
+
+msgctxt "CountryInfo"
+msgid "Saint Vincent & the Grenadines"
+msgstr "Saint Vincent &amp; Grenadinerne"
+
+msgctxt "CountryInfo"
+msgid "Samoa"
+msgstr "Samoa"
+
+msgctxt "CountryInfo"
+msgid "San Marino"
+msgstr "San Marino"
+
+msgctxt "CountryInfo"
+msgid "Sao Tome & Principe"
+msgstr "Sao Tome og Principe"
+
+msgctxt "CountryInfo"
+msgid "Saudi Arabia"
+msgstr "Saudi-Arabien"
+
+msgctxt "CountryInfo"
+msgid "Senegal"
+msgstr "Senegal"
+
+msgctxt "CountryInfo"
+msgid "Serbia"
+msgstr "Serbien"
+
+msgctxt "CountryInfo"
+msgid "Seychelles"
+msgstr "Seychellerne"
+
+msgctxt "CountryInfo"
+msgid "Sierra Leone"
+msgstr "Sierra Leone"
+
+msgctxt "CountryInfo"
+msgid "Singapore"
+msgstr "Singapore"
+
+msgctxt "CountryInfo"
+msgid "Slovakia"
+msgstr "Slovakiet"
+
+msgctxt "CountryInfo"
+msgid "Slovenia"
+msgstr "Slovenien"
+
+msgctxt "CountryInfo"
+msgid "Solomon Islands"
+msgstr "Salomonøerne"
+
+msgctxt "CountryInfo"
+msgid "Somalia"
+msgstr "Somalia"
+
+msgctxt "CountryInfo"
+msgid "South Africa"
+msgstr "Sydafrika"
+
+msgctxt "CountryInfo"
+msgid "Spain"
+msgstr "Spanien"
+
+msgctxt "CountryInfo"
+msgid "Sri Lanka"
+msgstr "Sri Lanka"
+
+msgctxt "CountryInfo"
+msgid "Sudan"
+msgstr "Sudan"
+
+msgctxt "CountryInfo"
+msgid "Suriname"
+msgstr "Surinam"
+
+msgctxt "CountryInfo"
+msgid "Swaziland"
+msgstr "Swaziland"
+
+msgctxt "CountryInfo"
+msgid "Sweden"
+msgstr "Sverige"
+
+msgctxt "CountryInfo"
+msgid "Switzerland"
+msgstr "Schweiz"
+
+msgctxt "CountryInfo"
+msgid "Syria"
+msgstr "Syrien"
+
+msgctxt "CountryInfo"
+msgid "Tajikistan"
+msgstr "Tadsjikistan"
+
+msgctxt "CountryInfo"
+msgid "Tanzania"
+msgstr "Tanzania"
+
+msgctxt "CountryInfo"
+msgid "Thailand"
+msgstr "Thailand"
+
+msgctxt "CountryInfo"
+msgid "Timor-Leste (East Timor)"
+msgstr "Timor-Leste (Østtimor)"
+
+msgctxt "CountryInfo"
+msgid "Togo"
+msgstr "Togo"
+
+msgctxt "CountryInfo"
+msgid "Tonga"
+msgstr "Tonga"
+
+msgctxt "CountryInfo"
+msgid "Trinidad & Tobago"
+msgstr "Trinidad &amp; Tobago"
+
+msgctxt "CountryInfo"
+msgid "Tunisia"
+msgstr "Tunesien"
+
+msgctxt "CountryInfo"
+msgid "Turkey"
+msgstr "Tyrkiet"
+
+msgctxt "CountryInfo"
+msgid "Turkmenistan"
+msgstr "Turkmenistan"
+
+msgctxt "CountryInfo"
+msgid "Tuvalu"
+msgstr "Tuvalu"
+
+msgctxt "CountryInfo"
+msgid "Uganda"
+msgstr "Uganda"
+
+msgctxt "CountryInfo"
+msgid "Ukraine"
+msgstr "Ukraine"
+
+msgctxt "CountryInfo"
+msgid "United Arab Emirates"
+msgstr "De Forenede Arabiske Emirater"
+
+msgctxt "CountryInfo"
+msgid "United Kingdom"
+msgstr "Storbritannien"
+
+msgctxt "CountryInfo"
+msgid "United States"
+msgstr "USA"
+
+msgctxt "CountryInfo"
+msgid "Uruguay"
+msgstr "Uruguay"
+
+msgctxt "CountryInfo"
+msgid "Uzbekistan"
+msgstr "Usbekistan"
+
+msgctxt "CountryInfo"
+msgid "Vanuatu"
+msgstr "Vanuatu"
+
+msgctxt "CountryInfo"
+msgid "Vatican"
+msgstr "Vatikanet"
+
+msgctxt "CountryInfo"
+msgid "Venezuela"
+msgstr "Venezuela"
+
+msgctxt "CountryInfo"
+msgid "Vietnam"
+msgstr "Vietnam"
+
+msgctxt "CountryInfo"
+msgid "Western Sahara"
+msgstr "Vestsahara"
+
+msgctxt "CountryInfo"
+msgid "Yemen"
+msgstr "Yemen"
+
+msgctxt "CountryInfo"
+msgid "Zambia"
+msgstr "Zambia"
+
+msgctxt "CountryInfo"
+msgid "Zimbabwe"
+msgstr "Zimbabwe"
+
+msgctxt "CountryInfo"
+msgid "Zaire"
+msgstr "Zaire"
+
+msgctxt "CountryInfo"
+msgid "Albania"
+msgstr "Albanien"
+
+msgctxt "CountryInfo"
+msgid "Algeria"
+msgstr "Algeriet"
+
+msgctxt "CountryInfo"
+msgid "Austria"
+msgstr "Østrig"
+
+msgctxt "CountryInfo"
+msgid "Bahrain"
+msgstr "Bahrain"
+
+msgctxt "CountryInfo"
+msgid "Benin"
+msgstr "Benin"
+
+msgctxt "CountryInfo"
+msgid "Ethiopia"
+msgstr "Etiopien"
+
+msgctxt "CountryInfo"
+msgid "Fiji"
+msgstr "Fiji"
+
+msgctxt "CountryInfo"
+msgid "Finland"
+msgstr "Finland"
+
+msgctxt "CountryInfo"
+msgid "Greece"
+msgstr "Grækenland"
+
+msgctxt "CountryInfo"
+msgid "Guam"
+msgstr "Guam"
+
+msgctxt "CountryInfo"
+msgid "Hungary"
+msgstr "Ungarn"
+
+msgctxt "CountryInfo"
+msgid "Iceland"
+msgstr "Island"
+
+msgctxt "CountryInfo"
+msgid "India"
+msgstr "Indien"
+
+msgctxt "CountryInfo"
+msgid "Indonesia"
+msgstr "Indonesien"
+
+msgctxt "CountryInfo"
+msgid "Iran"
+msgstr "Iran"
+
+msgctxt "CountryInfo"
+msgid "Iraq"
+msgstr "Irak"
+
+msgctxt "CountryInfo"
+msgid "Ireland"
+msgstr "Irland"
+
+msgctxt "CountryInfo"
+msgid "Korea, North"
+msgstr "Nordkorea"
+
+msgctxt "CountryInfo"
+msgid "Korea, South"
+msgstr "Sydkorea"
+
+msgctxt "CountryInfo"
+msgid "Libya"
+msgstr "Libyen"
+
+msgctxt "CountryInfo"
+msgid "Maldives"
+msgstr "Maldiverne"
+
+msgctxt "CountryInfo"
+msgid "Mexico"
+msgstr "Mexico"
+
+msgctxt "CountryInfo"
+msgid "Myanmar"
+msgstr "Myanmar"
+
+msgctxt "CountryInfo"
+msgid "Taiwan"
+msgstr "Taiwan"
+
+msgctxt "CrashReportDialog"
+msgid "Submit a Crash Report"
+msgstr "Indsend en fejlrapport"
+
+msgctxt "CrashReportDialog"
+msgid "Vidalia encountered an error and needed to close"
+msgstr "Vidalia stødte på en fejl og måtte lukke"
+
+msgctxt "CrashReportDialog"
+msgid "Restart Vidalia"
+msgstr "Genstart Vidalia"
+
+msgctxt "CrashReportDialog"
+msgid "Don't Restart"
+msgstr "Undlad at genstarte"
+
+msgctxt "CrashReportDialog"
+msgid "Unable to restart Vidalia"
+msgstr "Ikke i stand til at genstarte Vidalia"
+
+msgctxt "CrashReportDialog"
+msgid ""
+"We were unable to automatically restart Vidalia. Please restart Vidalia "
+"manually."
+msgstr "Vi kunne ikke automatisk genstarte Vidalia. Venligst genstart Vidalia manuelt."
+
+msgctxt "CrashReportDialog"
+msgid "Please fill a ticket in:"
+msgstr "Udfyld en formular:"
+
+msgctxt "CrashReportDialog"
+msgid ""
+"<a "
+"href=\"https://trac.torproject.org/projects/tor/newticket\">https://trac.torproject.org/projects/tor/newticket</a>"
+msgstr "<a href=\"https://trac.torproject.org/projects/tor/newticket\">https://trac.torproject.org/projects/tor/newticket</a>"
+
+msgctxt "CrashReportDialog"
+msgid ""
+"A crash report has been created that you can send to the Vidalia developers "
+"to help identify and fix the problem. The submitted report does not contain "
+"any personally identifying information."
+msgstr "Et nedbrudsrapport er blevet oprettet, som du kan sende til Vidalia udviklere til at hjælpe med at identificere og løse problemet. Rapporten indeholder ikke personligt identificerbare oplysninger."
+
+msgctxt "CrashReportDialog"
+msgid ""
+"with a description of what you were doing before the application crashed, "
+"along with the following files corresponding to the crash report:"
+msgstr "med en beskrivelse af, hvad du gjorde, før ansøgningen styrtede ned, sammen med følgende filer, der svarer til rapporten:"
+
+msgctxt "GeneralPage"
+msgid "Executables (*.exe)"
+msgstr "Program filer (*.exe)"
+
+msgctxt "GeneralPage"
+msgid "Select Path to Tor"
+msgstr "Vælg Stien til Tor"
+
+msgctxt "GeneralPage"
+msgid "Select Proxy Executable"
+msgstr "Vælg Proxy Programfil"
+
+msgctxt "GeneralPage"
+msgid "You must specify the name of your Tor executable."
+msgstr "Du skal angive navnet på din Tor programfil."
+
+msgctxt "GeneralPage"
+msgid "Start Vidalia when my system starts"
+msgstr "Start Vidalia når mit system starter"
+
+msgctxt "GeneralPage"
+msgid "Browse"
+msgstr "Gennemse"
+
+msgctxt "GeneralPage"
+msgid "Start the Tor software when Vidalia starts"
+msgstr "Start Tor når Vidalia starter"
+
+msgctxt "GeneralPage"
+msgid "Tor"
+msgstr "Tor"
+
+msgctxt "GeneralPage"
+msgid "Proxy Application (optional)"
+msgstr "Proxy Program (valgfri)"
+
+msgctxt "GeneralPage"
+msgid "Start a proxy application when Tor starts"
+msgstr "Start et proxy program når Tor starter"
+
+msgctxt "GeneralPage"
+msgid "Proxy Application Arguments:"
+msgstr "Proxy Program Argumenter:"
+
+msgctxt "GeneralPage"
+msgid "Software Updates"
+msgstr "Software-opdateringer"
+
+msgctxt "GeneralPage"
+msgid "Check for new software updates automatically"
+msgstr "Tjek efter nye software-opdateringer automatisk"
+
+msgctxt "GeneralPage"
+msgid "Check Now"
+msgstr "Tjek nu"
+
+msgctxt "GraphFrame"
+msgid "%1 KB/s"
+msgstr "%1 KB/s"
+
+msgctxt "GraphFrame"
+msgid "%1 KB"
+msgstr "%1 KB"
+
+msgctxt "GraphFrame"
+msgid "%1 MB"
+msgstr "%1 MB"
+
+msgctxt "GraphFrame"
+msgid "%1 GB"
+msgstr "%1 GB"
+
+msgctxt "GraphFrame"
+msgid "Recv:"
+msgstr "Modt:"
+
+msgctxt "GraphFrame"
+msgid "Sent:"
+msgstr "Sendt:"
+
+msgctxt "HelpBrowser"
+msgid "Supplied XML file is not a valid Contents document."
+msgstr "Angivne XML fil er ikke et gyldigt indholdsdokument"
+
+msgctxt "HelpBrowser"
+msgid "Search reached end of document"
+msgstr "Søgning har nået slutning af dokument"
+
+msgctxt "HelpBrowser"
+msgid "Search reached start of document"
+msgstr "Søgning har nået start af dokument"
+
+msgctxt "HelpBrowser"
+msgid "Text not found in document"
+msgstr "Tekst ikke fundet i dokument"
+
+msgctxt "HelpBrowser"
+msgid "Found %1 results"
+msgstr "Fundet %1 resultat(er)"
+
+msgctxt "HelpBrowser"
+msgid "Vidalia Help"
+msgstr "Vidalia Hjælp"
+
+msgctxt "HelpBrowser"
+msgid "Back"
+msgstr "Tilbage"
+
+msgctxt "HelpBrowser"
+msgid "Move to previous page (Backspace)"
+msgstr "Gå til sidste side (Slet)"
+
+msgctxt "HelpBrowser"
+msgid "Backspace"
+msgstr "Slet"
+
+msgctxt "HelpBrowser"
+msgid "Forward"
+msgstr "Frem"
+
+msgctxt "HelpBrowser"
+msgid "Move to next page (Shift+Backspace)"
+msgstr "Gå til næste side (Skift+Slet)"
+
+msgctxt "HelpBrowser"
+msgid "Shift+Backspace"
+msgstr "Skift+Slet"
+
+msgctxt "HelpBrowser"
+msgid "Home"
+msgstr "Hjem"
+
+msgctxt "HelpBrowser"
+msgid "Move to the Home page (Ctrl+H)"
+msgstr "Gå til Hjem-siden (Ctrl+H)"
+
+msgctxt "HelpBrowser"
+msgid "Ctrl+H"
+msgstr "Ctrl+H"
+
+msgctxt "HelpBrowser"
+msgid "Find"
+msgstr "Find"
+
+msgctxt "HelpBrowser"
+msgid "Search for a word or phrase on current page (Ctrl+F)"
+msgstr "Søg efter et ord eller en frase på denne side (Ctrl+F)"
+
+msgctxt "HelpBrowser"
+msgid "Ctrl+F"
+msgstr "Ctrl+F"
+
+msgctxt "HelpBrowser"
+msgid "Close"
+msgstr "Luk"
+
+msgctxt "HelpBrowser"
+msgid "Close Vidalia Help"
+msgstr "Luk Vidalia Hjælp"
+
+msgctxt "HelpBrowser"
+msgid "Esc"
+msgstr "Esc"
+
+msgctxt "HelpBrowser"
+msgid "Find:"
+msgstr "Find:"
+
+msgctxt "HelpBrowser"
+msgid "Find Previous"
+msgstr "Find Sidste"
+
+msgctxt "HelpBrowser"
+msgid "Find Next"
+msgstr "Find Næste"
+
+msgctxt "HelpBrowser"
+msgid "Case sensitive"
+msgstr "Versalfølsomt"
+
+msgctxt "HelpBrowser"
+msgid "Whole words only"
+msgstr "Kun hele ord"
+
+msgctxt "HelpBrowser"
+msgid "Help Topics"
+msgstr "Hjælpe-emner"
+
+msgctxt "HelpBrowser"
+msgid "Contents"
+msgstr "Indhold"
+
+msgctxt "HelpBrowser"
+msgid "Search"
+msgstr "Søg"
+
+msgctxt "HelpBrowser"
+msgid "Searching for:"
+msgstr "Søger efter:"
+
+msgctxt "HelpBrowser"
+msgid "Found Documents"
+msgstr "Fundne Dokumenter"
+
+msgctxt "HelpBrowser"
+msgid "Error Loading Help Contents:"
+msgstr "Fejl under indlæsning af Hjælpe-indhold:"
+
+msgctxt "HelpTextBrowser"
+msgid "Opening External Link"
+msgstr "Åbner Eksternt Link"
+
+msgctxt "HelpTextBrowser"
+msgid ""
+"Vidalia can open the link you selected in your default Web browser. If your "
+"browser is not currently configured to use Tor then the request will not be "
+"anonymous."
+msgstr "Vidalia kan åbne det valgte link i din standart Internet Browser. Hvis din browser ikke er opsat til at anvende Tor, vil din anmodning ikke være anonym. "
+
+msgctxt "HelpTextBrowser"
+msgid "Do you want Vidalia to open the link in your Web browser?"
+msgstr "Skal Vidalia åbne linket i din Internetbrowser?"
+
+msgctxt "HelpTextBrowser"
+msgid "Unable to Open Link"
+msgstr "Kan ikke Åbne Linket"
+
+msgctxt "HelpTextBrowser"
+msgid ""
+"Vidalia was unable to open the selected link in your Web browser. You can "
+"still copy the URL and paste it into your browser."
+msgstr "Vidalia kunne ikke åben det valgte link i din Internetbrowser. Du kan stadig kopiere URLen og paste den ind i din browser."
+
+msgctxt "HelpTextBrowser"
+msgid "Error opening help file:"
+msgstr "Fejl ved åbning af hjælpefil"
+
+msgctxt "LicenseDialog"
+msgid "License Information"
+msgstr "Licens-information"
+
+msgctxt "LicenseDialog"
+msgid "License"
+msgstr "Licens"
+
+msgctxt "LicenseDialog"
+msgid "Credits"
+msgstr "Tak til"
+
+msgctxt "LogEvent"
+msgid "Debug"
+msgstr "Fejlsøg"
+
+msgctxt "LogEvent"
+msgid "Info"
+msgstr "Info"
+
+msgctxt "LogEvent"
+msgid "Notice"
+msgstr "Bemærk"
+
+msgctxt "LogEvent"
+msgid "Warning"
+msgstr "Advarsel"
+
+msgctxt "LogEvent"
+msgid "Error"
+msgstr "Fejl"
+
+msgctxt "LogEvent"
+msgid "Unknown"
+msgstr "Ukendt"
+
+msgctxt "LogTreeItem"
+msgid "Debug"
+msgstr "Fejlsøg"
+
+msgctxt "LogTreeItem"
+msgid "Info"
+msgstr "Info"
+
+msgctxt "LogTreeItem"
+msgid "Notice"
+msgstr "Bemærk"
+
+msgctxt "LogTreeItem"
+msgid "Warning"
+msgstr "Advarsel"
+
+msgctxt "LogTreeItem"
+msgid "Error"
+msgstr "Fejl"
+
+msgctxt "LogTreeItem"
+msgid "Unknown"
+msgstr "Ukendt"
+
+msgctxt "MainWindow"
+msgid "Start Tor"
+msgstr "Start Tor"
+
+msgctxt "MainWindow"
+msgid "Exit"
+msgstr "Afslut"
+
+msgctxt "MainWindow"
+msgid "Bandwidth Graph"
+msgstr "Båndbredde-graf"
+
+msgctxt "MainWindow"
+msgid "Message Log"
+msgstr "Beskedlog"
+
+msgctxt "MainWindow"
+msgid "Network Map"
+msgstr "Netværksoversigt"
+
+msgctxt "MainWindow"
+msgid "Control Panel"
+msgstr "Kontrolpanel"
+
+msgctxt "MainWindow"
+msgid "Settings"
+msgstr "Indstillinger"
+
+msgctxt "MainWindow"
+msgid "About"
+msgstr "Om"
+
+msgctxt "MainWindow"
+msgid "Help"
+msgstr "Hjælp"
+
+msgctxt "MainWindow"
+msgid "New Identity"
+msgstr "Ny Identitet"
+
+msgctxt "MainWindow"
+msgid "Ctrl+T"
+msgstr "Ctrl+T"
+
+msgctxt "MainWindow"
+msgid "Ctrl+B"
+msgstr "Ctrl+B"
+
+msgctxt "MainWindow"
+msgid "Ctrl+L"
+msgstr "Ctrl+L"
+
+msgctxt "MainWindow"
+msgid "Ctrl+N"
+msgstr "Ctrl+N"
+
+msgctxt "MainWindow"
+msgid "Ctrl+?"
+msgstr "Ctrl+?"
+
+msgctxt "MainWindow"
+msgid "Ctrl+I"
+msgstr "Ctrl+I"
+
+msgctxt "MainWindow"
+msgid "Ctrl+P"
+msgstr "Ctrl+P"
+
+msgctxt "MainWindow"
+msgid "Tor"
+msgstr "Tor"
+
+msgctxt "MainWindow"
+msgid "View"
+msgstr "Se"
+
+msgctxt "MainWindow"
+msgid "Vidalia Help"
+msgstr "Vidalia Hjælp"
+
+msgctxt "MainWindow"
+msgid "Error starting web browser"
+msgstr "Fejl ved start af Internetbrowser"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to start the configured web browser"
+msgstr "Vidalia kunne ikke starte den konfigurerede internetbrowser"
+
+msgctxt "MainWindow"
+msgid "Error starting IM client"
+msgstr "Fejl ved start af IM klient"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to start the configured IM client"
+msgstr "Vidalia kunne ikke starte den konfigurerede IM klient"
+
+msgctxt "MainWindow"
+msgid "Error starting proxy server"
+msgstr "Fejl ved start af proxy server"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to start the configured proxy server"
+msgstr "Vidalia kunne ikke starte den konfigurerede proxy server"
+
+msgctxt "MainWindow"
+msgid "Connecting to a relay directory"
+msgstr "Tilslutter til relæ mappe"
+
+msgctxt "MainWindow"
+msgid "Establishing an encrypted directory connection"
+msgstr "Opretter en krypteret mappe forbindelse"
+
+msgctxt "MainWindow"
+msgid "Retrieving network status"
+msgstr "Henter netværk status"
+
+msgctxt "MainWindow"
+msgid "Loading network status"
+msgstr "Henter netværk status"
+
+msgctxt "MainWindow"
+msgid "Loading authority certificates"
+msgstr "Henter nøglecentercertifikater"
+
+msgctxt "MainWindow"
+msgid "Requesting relay information"
+msgstr "Beder om relæ information"
+
+msgctxt "MainWindow"
+msgid "Loading relay information"
+msgstr "Henter relæ information"
+
+msgctxt "MainWindow"
+msgid "Connecting to the Tor network"
+msgstr "Forbinder til Tor netværk"
+
+msgctxt "MainWindow"
+msgid "Establishing a Tor circuit"
+msgstr "Opretter et Tor kredsløb"
+
+msgctxt "MainWindow"
+msgid "Connected to the Tor network!"
+msgstr "Forbundet til Tor netværket!"
+
+msgctxt "MainWindow"
+msgid "miscellaneous"
+msgstr "diverse"
+
+msgctxt "MainWindow"
+msgid "identity mismatch"
+msgstr "identitet matcher ikke"
+
+msgctxt "MainWindow"
+msgid "done"
+msgstr "færdig"
+
+msgctxt "MainWindow"
+msgid "connection refused"
+msgstr "forbindelse afvist"
+
+msgctxt "MainWindow"
+msgid "connection timeout"
+msgstr "forbindelse timeout"
+
+msgctxt "MainWindow"
+msgid "read/write error"
+msgstr "læs/skriv fejl"
+
+msgctxt "MainWindow"
+msgid "no route to host"
+msgstr "ingen rute til vært"
+
+msgctxt "MainWindow"
+msgid "insufficient resources"
+msgstr "utilstrækkelige ressourcer"
+
+msgctxt "MainWindow"
+msgid "unknown"
+msgstr "ukendt"
+
+msgctxt "MainWindow"
+msgid "Tor is not running"
+msgstr "Tor kører ikke"
+
+msgctxt "MainWindow"
+msgid "Tor is shutting down"
+msgstr "Tor er ved at lukke ned"
+
+msgctxt "MainWindow"
+msgid "Stop Tor Now"
+msgstr "Stop Tor Nu"
+
+msgctxt "MainWindow"
+msgid "Stop Tor"
+msgstr "Stop Tor"
+
+msgctxt "MainWindow"
+msgid "Starting the Tor software"
+msgstr "Starter Tor"
+
+msgctxt "MainWindow"
+msgid "Starting Tor"
+msgstr "Starter Tor"
+
+msgctxt "MainWindow"
+msgid "Error Starting Tor"
+msgstr "Mislykket Tor Start"
+
+msgctxt "MainWindow"
+msgid ""
+"Vidalia was unable to start Tor. Check your settings to ensure the correct "
+"name and location of your Tor executable is specified."
+msgstr "Vidalia kunne ikke starte Tor. Kontroller dine indstillinger for at sikre, at din Tor programfil er korrekt angivet med navn og placering."
+
+msgctxt "MainWindow"
+msgid "Connecting to Tor"
+msgstr "Forbinder til Tor"
+
+msgctxt "MainWindow"
+msgid "Connection Error"
+msgstr "Forbindelse mislykkedes"
+
+msgctxt "MainWindow"
+msgid "Relaying is Enabled"
+msgstr "Genudlægning er aktiveret"
+
+msgctxt "MainWindow"
+msgid "Error Shutting Down"
+msgstr "Fejl ved Nedlukning"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to stop the Tor software."
+msgstr "Vidalia kunne ikke stoppe Tor."
+
+msgctxt "MainWindow"
+msgid "Unexpected Error"
+msgstr "Uforventet fejl"
+
+msgctxt "MainWindow"
+msgid "Authenticating to Tor"
+msgstr "Godkender til Tor"
+
+msgctxt "MainWindow"
+msgid "Cookie Authentication Required"
+msgstr "Cookie Godkendelse Påkrævet"
+
+msgctxt "MainWindow"
+msgid ""
+"The Tor software requires Vidalia to send the contents of an authentication "
+"cookie, but Vidalia was unable to find one."
+msgstr "Tor kræver at Vidalia sender indholdet af en godkendelses-cookie, men Vidalia var i stand til at finde en."
+
+msgctxt "MainWindow"
+msgid "Would you like to browse for the file 'control_auth_cookie' yourself?"
+msgstr "Vil du kigge efter filen 'control_auth_cookie' selv?"
+
+msgctxt "MainWindow"
+msgid "Data Directory"
+msgstr "Data Mappe"
+
+msgctxt "MainWindow"
+msgid "Control Cookie (control_auth_cookie)"
+msgstr "Kontrol Cookie (control_auth_cookie)"
+
+msgctxt "MainWindow"
+msgid "Error Registering for Events"
+msgstr "Fejl Registrering af Begivenheder"
+
+msgctxt "MainWindow"
+msgid ""
+"Vidalia was unable to register for some events. Many of Vidalia's features "
+"may be unavailable."
+msgstr "Vidalia kunne ikke registrere bestemte begivenheder. Mange af Vidalia's funktioner kan være utilgængelige."
+
+msgctxt "MainWindow"
+msgid "Authentication Error"
+msgstr "Godkendelsesfejl"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to authenticate to the Tor software. (%1)"
+msgstr "Vidalia kunne ikke godkende Tor. (%1)"
+
+msgctxt "MainWindow"
+msgid "Please check your control port authentication settings."
+msgstr "Tjek venligst din kontrolports godkendelses indstillinger."
+
+msgctxt "MainWindow"
+msgid "Tor Update Available"
+msgstr "Tor Opdatering Tilgængelig"
+
+msgctxt "MainWindow"
+msgid ""
+"The currently installed version of Tor is out of date or no longer "
+"recommended. Please visit the Tor website to download the latest version."
+msgstr "Den nuværende installation af Tor er enten for gammel eller ikke længere anbefalelsesværdig. Besøg venligst hjemmesiden for Tor og hent den nyeste version."
+
+msgctxt "MainWindow"
+msgid "Tor website: %1"
+msgstr "Tor hjemmeside: %1"
+
+msgctxt "MainWindow"
+msgid ""
+"All subsequent connections will appear to be different than your old "
+"connections."
+msgstr "Alle efterfølgende forbindelser vil synes at være anderledes end dine gamle forbindelser."
+
+msgctxt "MainWindow"
+msgid "Failed to Create New Identity"
+msgstr "Mislykkedes af Oprette Ny Identitet"
+
+msgctxt "MainWindow"
+msgid "Port Forwarding Failed"
+msgstr "Port Viderestilling Mislykkedes"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to configure automatic port forwarding."
+msgstr "Vidalia kunne ikke opsætte automatisk port viderestilling."
+
+msgctxt "MainWindow"
+msgid "Vidalia Control Panel"
+msgstr "Vidalia Kontrolpanel"
+
+msgctxt "MainWindow"
+msgid "Status"
+msgstr "Status"
+
+msgctxt "MainWindow"
+msgid "Vidalia Shortcuts"
+msgstr "Vidalia Genveje"
+
+msgctxt "MainWindow"
+msgid "Setup Relaying"
+msgstr "Indstil Relæ\n"
+
+msgctxt "MainWindow"
+msgid "Set up a relay and help the network grow"
+msgstr "Opsæt et relæ and hjælp netværket gro"
+
+msgctxt "MainWindow"
+msgid "View the Network"
+msgstr "Se Netværket"
+
+msgctxt "MainWindow"
+msgid "View a map of the Tor network"
+msgstr "Se et kort over Tor netværket"
+
+msgctxt "MainWindow"
+msgid "Use a New Identity"
+msgstr "Brug en Ny Identitet"
+
+msgctxt "MainWindow"
+msgid "Make subsequent connections appear new"
+msgstr "Få efterfølgende forbindelse til at se nye ud"
+
+msgctxt "MainWindow"
+msgid "View recent bandwidth usage"
+msgstr "Vis seneste båndbredde"
+
+msgctxt "MainWindow"
+msgid "View log message history"
+msgstr "Se log-besked historie"
+
+msgctxt "MainWindow"
+msgid "View help documentation"
+msgstr "Se hjælpe dokumentation"
+
+msgctxt "MainWindow"
+msgid "Configure Vidalia"
+msgstr "Indstil Vidalia"
+
+msgctxt "MainWindow"
+msgid "View version and license information"
+msgstr "Se version og licens information"
+
+msgctxt "MainWindow"
+msgid "Exit Vidalia"
+msgstr "Afslut Vidalia"
+
+msgctxt "MainWindow"
+msgid "Show this window on startup"
+msgstr "Vis vinduet ved opstart"
+
+msgctxt "MainWindow"
+msgid "Hide"
+msgstr "Skjul"
+
+msgctxt "MainWindow"
+msgid "Hide this window"
+msgstr "Skjul dette vindue"
+
+msgctxt "MainWindow"
+msgid "Password Reset Failed"
+msgstr "Nulstil Kodeord Mislykkedes"
+
+msgctxt "MainWindow"
+msgid ""
+"Vidalia tried to reset Tor's control password, but was not able to restart "
+"the Tor software. Please check your Task Manager to ensure there are no "
+"other Tor processes running."
+msgstr "Vidalia prøvede at nulstille Tors kontrol kodeord, men kunne ikke genstarte programmet. Kontroller venligst, at der ikke køre nogle Tor processer i din Jobliste."
+
+msgctxt "MainWindow"
+msgid ""
+"The currently installed version of Tor is out of date or no longer "
+"recommended."
+msgstr "Den aktuelt installerede version af Tor er forældet eller kan ikke længere anbefales."
+
+msgctxt "MainWindow"
+msgid ""
+"Would you like to check if a newer package is available for installation?"
+msgstr "Vil du gerne se, om der er en nyere pakke tilgængelig for installation?"
+
+msgctxt "MainWindow"
+msgid "Potentially Unsafe Connection"
+msgstr "Potentielt set usikker forbindelse"
+
+msgctxt "MainWindow"
+msgid ""
+"Tor has automatically closed your connection in order to protect your "
+"anonymity."
+msgstr "Tor har automatisk lukket din forbindelse for at beskytte din anonymitet."
+
+msgctxt "MainWindow"
+msgid "Update Failed"
+msgstr "Opdatering mislykkedes"
+
+msgctxt "MainWindow"
+msgid "Your software is up to date"
+msgstr "Din software er opdateret"
+
+msgctxt "MainWindow"
+msgid ""
+"There are no new Tor software packages available for your computer at this "
+"time."
+msgstr "Der er ingen nye Tor-softwarepakker tilgængelige til din computer på nuværende tidspunkt."
+
+msgctxt "MainWindow"
+msgid "Installation Failed"
+msgstr "Installation mislykkedes"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to install your software updates."
+msgstr "Vidalia var ude af stand til at installere dine software-opdateringer."
+
+msgctxt "MainWindow"
+msgid "The following error occurred:"
+msgstr "Følgende fejl opstod:"
+
+msgctxt "MainWindow"
+msgid ""
+"Anything sent over this connection could be monitored. Please check your "
+"application's configuration and use only encrypted protocols, such as SSL, "
+"if possible."
+msgstr "Alt som sendes over denne forbindelse vil kunne overvåges. Tjek venligst din applikations konfiguration og brug kun krypterede protokoller, såsom SSL, om muligt."
+
+msgctxt "MainWindow"
+msgid "Bootstrapping torrc from %1 to %2"
+msgstr "Bootsstrapper torrc fra %1 til %2"
+
+msgctxt "MainWindow"
+msgid "(probably Telnet)"
+msgstr "(måske Telnet)"
+
+msgctxt "MainWindow"
+msgid "(probably an email client)"
+msgstr "(måske en email klient)"
+
+msgctxt "MainWindow"
+msgid ""
+"One of your applications %1 appears to be making a potentially unencrypted "
+"and unsafe connection to port %2."
+msgstr "En af dine applikationer %1 synes at være ved at lave en potentielt ukrypteret og usikre forbindelse til port %2."
+
+msgctxt "MainWindow"
+msgid "failed (%1)"
+msgstr "mislykkedes (%1)"
+
+msgctxt "MainWindow"
+msgid ""
+"Your relay is shutting down.\n"
+"Click 'Stop' again to stop your relay now."
+msgstr "Deres relæ er ved at lukke. \nKlik på 'Stop' igen for at stoppe din relæ nu."
+
+msgctxt "MainWindow"
+msgid ""
+"Vidalia can't find out how to talk to Tor because it can't access this file: %1\n"
+"\n"
+"Here's the last error message:\n"
+"%2"
+msgstr "Vidalia kan ikke snakke med Tor, da den ikke kan tilgå filen: %1\n\nHere er den seneste fejlmeddelelse:\n%2"
+
+msgctxt "MainWindow"
+msgid ""
+"It seems Tor has stopped running since Vidalia started it.\n"
+"\n"
+"See the Advanced Message Log for more information."
+msgstr "Det ser ud til at Tor er holdt op med at køre siden Vidalia startede det.\n\nSee i den avancerede meddelelseslog efter mere information."
+
+msgctxt "MainWindow"
+msgid ""
+"You are currently running a relay. Terminating your relay will interrupt any open connections from clients.\n"
+"\n"
+"Would you like to shutdown gracefully and give clients time to find a new relay?"
+msgstr "Du har i øjeblikket et relæ kørende. Afbrydelse af dit relæ vil forstyrre alle åbne klientforbindelser.\n\nVil du gerne lukke taktfuldt og give klienterne tid til at finde nye relæer?"
+
+msgctxt "MainWindow"
+msgid ""
+"Vidalia detected that the Tor software exited unexpectedly.\n"
+"\n"
+"Please check the message log for recent warning or error messages."
+msgstr "Vidalia registrerede at Tor-softwaren uventet blev afsluttet.\n\nTjek venligst beskedloggen for seneste advarsler eller fejlbeskeder."
+
+msgctxt "MessageLog"
+msgid "Error Setting Filter"
+msgstr "Fejl ved Indstilling af Filter"
+
+msgctxt "MessageLog"
+msgid "Vidalia was unable to register for Tor's log events."
+msgstr "Vidalia var i stand til at registrere for Tor's log begivenheder."
+
+msgctxt "MessageLog"
+msgid "Error Opening Log File"
+msgstr "Fejl ved Åbning af Logfil"
+
+msgctxt "MessageLog"
+msgid "Vidalia was unable to open the specified log file."
+msgstr "Vidalia kunne ikke åbne den angivne logfil."
+
+msgctxt "MessageLog"
+msgid "Log Filename Required"
+msgstr "Log Filnavn Påkrævet"
+
+msgctxt "MessageLog"
+msgid "You must enter a filename to be able to save log messages to a file."
+msgstr "Do skal angive et filnavn for at kunne gemme log beskeder til en fil."
+
+msgctxt "MessageLog"
+msgid "Select Log File"
+msgstr "Vælg Log Fil"
+
+msgctxt "MessageLog"
+msgid "Save Log Messages"
+msgstr "Gem Log Besked"
+
+msgctxt "MessageLog"
+msgid "Text Files (*.txt)"
+msgstr "Tekst Filer (*.txt)"
+
+msgctxt "MessageLog"
+msgid "Vidalia"
+msgstr "Vidalia"
+
+msgctxt "MessageLog"
+msgid "Find in Message Log"
+msgstr "Find i Besked Log"
+
+msgctxt "MessageLog"
+msgid "Find:"
+msgstr "Find:"
+
+msgctxt "MessageLog"
+msgid "Not Found"
+msgstr "Ikke Fundet"
+
+msgctxt "MessageLog"
+msgid "Search found 0 matches."
+msgstr "Søgning fandt 0 resultater."
+
+msgctxt "MessageLog"
+msgid "Message Log"
+msgstr "Besked Log"
+
+msgctxt "MessageLog"
+msgid "Message Filters..."
+msgstr "Besked Filtre..."
+
+msgctxt "MessageLog"
+msgid "Set message filters"
+msgstr "Indstil besked filtre"
+
+msgctxt "MessageLog"
+msgid "History Size..."
+msgstr "Historie Størrelse..."
+
+msgctxt "MessageLog"
+msgid "Set maximum number of messages to display"
+msgstr "Angiv hvor mange beskeder der skal vises"
+
+msgctxt "MessageLog"
+msgid "Clear"
+msgstr "Ryd"
+
+msgctxt "MessageLog"
+msgid "Clear all messages from the Message Log (Ctrl+E)"
+msgstr "Ryd alle beskeder fra Besked Loggen (Ctrl+E)"
+
+msgctxt "MessageLog"
+msgid "Ctrl+E"
+msgstr "Ctrl+E"
+
+msgctxt "MessageLog"
+msgid "Copy"
+msgstr "Kopier"
+
+msgctxt "MessageLog"
+msgid "Copy the selected messages to the clipboard (Ctrl+C)"
+msgstr "Kopier den valgte besked til udklipholderen (Ctrl+C)"
+
+msgctxt "MessageLog"
+msgid "Ctrl+C"
+msgstr "Ctrl+C"
+
+msgctxt "MessageLog"
+msgid "Select All"
+msgstr "Vælg alle"
+
+msgctxt "MessageLog"
+msgid "Select all messages (Ctrl+A)"
+msgstr "Vælg alle beskeder (Ctrl+A)"
+
+msgctxt "MessageLog"
+msgid "Ctrl+A"
+msgstr "Ctrl+A"
+
+msgctxt "MessageLog"
+msgid "Save All"
+msgstr "Gem Alle"
+
+msgctxt "MessageLog"
+msgid "Save all messages to a file"
+msgstr "Gem alle beskeder til en fil"
+
+msgctxt "MessageLog"
+msgid "Save Selected"
+msgstr "Gem Valgte"
+
+msgctxt "MessageLog"
+msgid "Save selected messages to a file"
+msgstr "Gem valgte beskeder til en fil"
+
+msgctxt "MessageLog"
+msgid "Settings"
+msgstr "Indstillinger"
+
+msgctxt "MessageLog"
+msgid "Adjust Message Log Settings"
+msgstr "Juster Logbesked Instillingerne"
+
+msgctxt "MessageLog"
+msgid "Ctrl+T"
+msgstr "Ctrl+T"
+
+msgctxt "MessageLog"
+msgid "Help"
+msgstr "Hjælp"
+
+msgctxt "MessageLog"
+msgid "Show the help browser"
+msgstr "Vis hjælp browseren"
+
+msgctxt "MessageLog"
+msgid "F1"
+msgstr "F1"
+
+msgctxt "MessageLog"
+msgid "Close"
+msgstr "Luk"
+
+msgctxt "MessageLog"
+msgid "Close the Message Log"
+msgstr "Luk Besked Loggen"
+
+msgctxt "MessageLog"
+msgid "Esc"
+msgstr "Esc"
+
+msgctxt "MessageLog"
+msgid "Find"
+msgstr "Find"
+
+msgctxt "MessageLog"
+msgid "Find all messages containing the search text (Ctrl+F)"
+msgstr "Find alle beskeder indeholdende søge teksten (Ctrl+F)"
+
+msgctxt "MessageLog"
+msgid "Ctrl+F"
+msgstr "Ctrl+F"
+
+msgctxt "MessageLog"
+msgid "Time"
+msgstr "Tid"
+
+msgctxt "MessageLog"
+msgid "Type"
+msgstr "Type"
+
+msgctxt "MessageLog"
+msgid "Message"
+msgstr "Besked"
+
+msgctxt "MessageLog"
+msgid "Saves the current Message Log settings"
+msgstr "Gemmer de nuværende Logbesked instillinger"
+
+msgctxt "MessageLog"
+msgid "Save Settings"
+msgstr "Gem Indstillinger"
+
+msgctxt "MessageLog"
+msgid "Cancels changes made to settings"
+msgstr "Annullerer ændringer foretaget i indstillingerne"
+
+msgctxt "MessageLog"
+msgid "Cancel"
+msgstr "Annuller"
+
+msgctxt "MessageLog"
+msgid "Message Filter"
+msgstr "Besked Filter"
+
+msgctxt "MessageLog"
+msgid "Error"
+msgstr "Fejl"
+
+msgctxt "MessageLog"
+msgid "Warning"
+msgstr "Advarsel"
+
+msgctxt "MessageLog"
+msgid "Notice"
+msgstr "Meddelelse"
+
+msgctxt "MessageLog"
+msgid "Info"
+msgstr "Info"
+
+msgctxt "MessageLog"
+msgid "Debug"
+msgstr "Debug"
+
+msgctxt "MessageLog"
+msgid "Message Log History"
+msgstr "Logbesked Historie"
+
+msgctxt "MessageLog"
+msgid "Number of messages to display in the message log window"
+msgstr "Antal beskeder der skal vises i logbesked vinduet"
+
+msgctxt "MessageLog"
+msgid "messages"
+msgstr "beskeder"
+
+msgctxt "MessageLog"
+msgid "Browse"
+msgstr "Gennemse"
+
+msgctxt "MessageLog"
+msgid "Enable automatically saving all new log messages to a file"
+msgstr "Aktiver automatisk at gemme alle nye log-meddelelser til en fil"
+
+msgctxt "MessageLog"
+msgid "Automatically save new log messages to a file"
+msgstr "Gem automatisk nye log-meddelelser til en fil"
+
+msgctxt "MessageLog"
+msgid "Basic"
+msgstr "Grundlæggende"
+
+msgctxt "MessageLog"
+msgid "Tor Status"
+msgstr "Tor status"
+
+msgctxt "MessageLog"
+msgid "Advanced"
+msgstr "Avanceret"
+
+msgctxt "MessageLog"
+msgid "Always Save New Log Messages"
+msgstr "Gem Altid Nye Log Beskeder"
+
+msgctxt "MessageLog"
+msgid ""
+"Messages that appear when something has \n"
+"gone very wrong and Tor cannot proceed."
+msgstr "Beskeder som fremkommer når noget er gået\nmeget galt og hvor Tor ikke kan forsætte."
+
+msgctxt "MessageLog"
+msgid ""
+"Messages that only appear when \n"
+"something has gone wrong with Tor."
+msgstr "Beskeder som kun fremkommer når\nnoget er gået galt med Tor."
+
+msgctxt "MessageLog"
+msgid ""
+"Messages that appear infrequently \n"
+"during normal Tor operation and are \n"
+"not considered errors, but you may \n"
+"care about."
+msgstr "Beskeder som fremkommer mindre hyppigt \nunder normal Tor-brug og som ikke kan \nbetragtes som fejl, men som du kan være\ninteresseret i."
+
+msgctxt "MessageLog"
+msgid ""
+"Messages that appear frequently \n"
+"during normal Tor operation."
+msgstr "Beskeder som fremkommer hyppigt \nunder normal brug af Tor."
+
+msgctxt "MessageLog"
+msgid ""
+"Hyper-verbose messages primarily of \n"
+"interest to Tor developers."
+msgstr "Meget detaljerede beskeder som primært\nhar interesse for Tor-udviklere."
+
+msgctxt "MessageLog"
+msgid ""
+"Cannot write file %1\n"
+"\n"
+"%2."
+msgstr "Kan ikke skrive til %1\n\n%2."
+
+msgctxt "NetViewer"
+msgid "Tor Network Map"
+msgstr "Tor Netværksoversigt"
+
+msgctxt "NetViewer"
+msgid "Refresh"
+msgstr "Genopfrisk"
+
+msgctxt "NetViewer"
+msgid "Refresh the list of Tor relays and connections"
+msgstr "Genopfrisk listen med Tor-relæer og -forbindelser"
+
+msgctxt "NetViewer"
+msgid "Ctrl+R"
+msgstr "Ctrl+R"
+
+msgctxt "NetViewer"
+msgid "Help"
+msgstr "Hjælp"
+
+msgctxt "NetViewer"
+msgid "Show the network map help"
+msgstr "Vis netværkoversigts-hjælpen"
+
+msgctxt "NetViewer"
+msgid "Show network map help"
+msgstr "Vis netværksoversigts-hjælp"
+
+msgctxt "NetViewer"
+msgid "F1"
+msgstr "F1"
+
+msgctxt "NetViewer"
+msgid "Close"
+msgstr "Luk"
+
+msgctxt "NetViewer"
+msgid "Close the network map"
+msgstr "Luk netværksoversigten"
+
+msgctxt "NetViewer"
+msgid "Esc"
+msgstr "Esc"
+
+msgctxt "NetViewer"
+msgid "Zoom In"
+msgstr "Zoom Ind"
+
+msgctxt "NetViewer"
+msgid "Zoom in on the network map"
+msgstr "Zoom ind på netværksoversigten"
+
+msgctxt "NetViewer"
+msgid "+"
+msgstr "+"
+
+msgctxt "NetViewer"
+msgid "Zoom Out"
+msgstr "Zoom Ud"
+
+msgctxt "NetViewer"
+msgid "Zoom out on the network map"
+msgstr "Zoom ud på netværksoversigten"
+
+msgctxt "NetViewer"
+msgid "-"
+msgstr "-"
+
+msgctxt "NetViewer"
+msgid "Zoom To Fit"
+msgstr "Zoom til at Passe"
+
+msgctxt "NetViewer"
+msgid "Zooms to fit all currently displayed circuits"
+msgstr "Zoomer til at passe for alle pt. viste relæ"
+
+msgctxt "NetViewer"
+msgid "Ctrl+Z"
+msgstr "Ctrl+Z"
+
+msgctxt "NetViewer"
+msgid "Relay Not Found"
+msgstr "Relæ ikke fundet"
+
+msgctxt "NetViewer"
+msgid "No details on the selected relay are available."
+msgstr "Ingen tilgængelige detaljer om valgte relæ."
+
+msgctxt "NetViewer"
+msgid "Unknown"
+msgstr "Ukendt"
+
+msgctxt "NetViewer"
+msgid "Full Screen"
+msgstr "Fuld skærm"
+
+msgctxt "NetViewer"
+msgid "View the network map as a full screen window"
+msgstr "Vis netværkoversigten som fuldskærm-vindue"
+
+msgctxt "NetViewer"
+msgid "Ctrl+F"
+msgstr "Ctrl+F"
+
+msgctxt "NetworkPage"
+msgid "Copy (Ctrl+C)"
+msgstr "Kopier (Ctrl+C)"
+
+msgctxt "NetworkPage"
+msgid ""
+"You must specify both an IP address or hostname and a port number to "
+"configure Tor to use a proxy to access the Internet."
+msgstr "Du skal angive både IP adresse eller værts navn og en port, for at indstille Tor til at bruge en proxy som forbindelse til Internettet."
+
+msgctxt "NetworkPage"
+msgid ""
+"You must specify one or more ports to which your firewall allows you to "
+"connect."
+msgstr "Du skal angive en eller flere porte, som din firewall tillader dig at tilslutte."
+
+msgctxt "NetworkPage"
+msgid "'%1' is not a valid port number."
+msgstr "'%1' er ikke et accepteret port nummer."
+
+msgctxt "NetworkPage"
+msgid "Check if your local network requires a proxy to access the Internet"
+msgstr "Kontroller, om dit lokale netværk kræver en proxy for at få adgang til Internettet"
+
+msgctxt "NetworkPage"
+msgid "I use a proxy to access the Internet"
+msgstr "Jeg bruger en proxy for at forbinde til Internettet"
+
+msgctxt "NetworkPage"
+msgid "Proxy Settings"
+msgstr "Proxy Indstillinger"
+
+msgctxt "NetworkPage"
+msgid "Username:"
+msgstr "Brugernavn:"
+
+msgctxt "NetworkPage"
+msgid "Password:"
+msgstr "Kodeord:"
+
+msgctxt "NetworkPage"
+msgid "Port:"
+msgstr "Port:"
+
+msgctxt "NetworkPage"
+msgid "Check to only connect to relays using ports allowed by your firewall"
+msgstr "Kryds for kun at forbinde til relæer der benytter porte godkendt af din firewall"
+
+msgctxt "NetworkPage"
+msgid "My firewall only lets me connect to certain ports"
+msgstr "Min firewall lader mig kun forbinde til specifikke porte"
+
+msgctxt "NetworkPage"
+msgid "Firewall Settings"
+msgstr "Firewall Indstillinger"
+
+msgctxt "NetworkPage"
+msgid "Allowed Ports:"
+msgstr "Tilladte Porte:"
+
+msgctxt "NetworkPage"
+msgid "80, 443"
+msgstr "80, 443"
+
+msgctxt "NetworkPage"
+msgid ""
+"Check to encrypt directory requests and, optionally, use bridge relays to "
+"access the Tor network"
+msgstr "Kryds for at kryptere mappe anmodninger, og eventuelt bruge bro relæer til at få adgang til Tor nettet"
+
+msgctxt "NetworkPage"
+msgid "My ISP blocks connections to the Tor network"
+msgstr "Min udbyder (ISP) blokerer forbindelse til Tor netværket"
+
+msgctxt "NetworkPage"
+msgid "Bridge Settings"
+msgstr "Bro Indstillinger"
+
+msgctxt "NetworkPage"
+msgid "Add a Bridge:"
+msgstr "Tilføj en Bro:"
+
+msgctxt "NetworkPage"
+msgid "Remove the selected bridges from the list"
+msgstr "Fjern den valgte bro fra listen"
+
+msgctxt "NetworkPage"
+msgid "Copy the selected bridges to the clipboard"
+msgstr "Kopier den valgte bro til udklipsholderen"
+
+msgctxt "NetworkPage"
+msgid "Find Bridges Now"
+msgstr "Find broer nu"
+
+msgctxt "NetworkPage"
+msgid "<a href=\"bridges.finding\">How else can I find bridges?</a>"
+msgstr "<a href=\"bridges.finding\">Hvordan kan jeg også finde broer?</a>"
+
+msgctxt "NetworkPage"
+msgid "<a href=\"bridges.finding\">How can I find bridges?</a>"
+msgstr "<a href=\"bridges.finding\">Hvordan kan jeg finde broer?</a>"
+
+msgctxt "NetworkPage"
+msgid ""
+"No new bridges are currently available. You can either wait a while and try "
+"again, or try another method of finding new bridges."
+msgstr "Ingen nye broer er tilgængelige i øjeblikket. Du kan enten vente en stund og forsøge igen, eller forsøge at finde nye broer med en anden metode."
+
+msgctxt "NetworkPage"
+msgid "Click Help to see other methods of finding new bridges."
+msgstr "Klik Hjælp for at se andre metoder til at finde nye broer."
+
+msgctxt "NetworkPage"
+msgid "Address:"
+msgstr "Adresse:"
+
+msgctxt "NetworkPage"
+msgid "Type:"
+msgstr "Type:"
+
+msgctxt "NetworkPage"
+msgid "You must select the proxy type."
+msgstr "Du skal vælge proxy-typen:"
+
+msgctxt "NetworkPage"
+msgid "SOCKS 4"
+msgstr "SOCKS 4"
+
+msgctxt "NetworkPage"
+msgid "SOCKS 5"
+msgstr "SOCKS 5"
+
+msgctxt "NetworkPage"
+msgid "HTTP / HTTPS"
+msgstr "HTTP / HTTPS"
+
+msgctxt "NetworkPage"
+msgid "You must specify one or more bridges."
+msgstr "Du skal angive en eller flere broer."
+
+msgctxt "Policy"
+msgid "accept"
+msgstr "godkend"
+
+msgctxt "Policy"
+msgid "reject"
+msgstr "afvis"
+
+msgctxt "RouterDescriptor"
+msgid "Online"
+msgstr "Online"
+
+msgctxt "RouterDescriptor"
+msgid "Hibernating"
+msgstr "Dvale"
+
+msgctxt "RouterDescriptor"
+msgid "Offline"
+msgstr "Offline"
+
+msgctxt "RouterDescriptorView"
+msgid "Location:"
+msgstr "Placering:"
+
+msgctxt "RouterDescriptorView"
+msgid "IP Address:"
+msgstr "IP-adresse:"
+
+msgctxt "RouterDescriptorView"
+msgid "Platform:"
+msgstr "Platform:"
+
+msgctxt "RouterDescriptorView"
+msgid "Bandwidth:"
+msgstr "Båndbredde:"
+
+msgctxt "RouterDescriptorView"
+msgid "Uptime:"
+msgstr "Oppetid:"
+
+msgctxt "RouterDescriptorView"
+msgid "Last Updated:"
+msgstr "Sidst Opdateret:"
+
+msgctxt "RouterDescriptorView"
+msgid "Copy"
+msgstr "Kopier"
+
+msgctxt "RouterInfoDialog"
+msgid "Hibernating"
+msgstr "I dvale"
+
+msgctxt "RouterInfoDialog"
+msgid "Online"
+msgstr "Online"
+
+msgctxt "RouterInfoDialog"
+msgid "Offline"
+msgstr "Offline"
+
+msgctxt "RouterInfoDialog"
+msgid "Unknown"
+msgstr "Ukendt"
+
+msgctxt "RouterInfoDialog"
+msgid "Relay Details"
+msgstr "Detaljer om relæ"
+
+msgctxt "RouterInfoDialog"
+msgid "Summary"
+msgstr "Opsummering"
+
+msgctxt "RouterInfoDialog"
+msgid "Name:"
+msgstr "Navn:"
+
+msgctxt "RouterInfoDialog"
+msgid "Status:"
+msgstr "Status:"
+
+msgctxt "RouterInfoDialog"
+msgid "Location:"
+msgstr "Placering:"
+
+msgctxt "RouterInfoDialog"
+msgid "IP Address:"
+msgstr "IP-adresse:"
+
+msgctxt "RouterInfoDialog"
+msgid "Platform:"
+msgstr "Platform:"
+
+msgctxt "RouterInfoDialog"
+msgid "Bandwidth:"
+msgstr "Båndbredde:"
+
+msgctxt "RouterInfoDialog"
+msgid "Uptime:"
+msgstr "Oppetid:"
+
+msgctxt "RouterInfoDialog"
+msgid "Contact:"
+msgstr "Kontakt:"
+
+msgctxt "RouterInfoDialog"
+msgid "Last Updated:"
+msgstr "Senest opdateret:"
+
+msgctxt "RouterInfoDialog"
+msgid "Descriptor"
+msgstr "Deskriptor"
+
+msgctxt "RouterListItem"
+msgid "Offline"
+msgstr "Offline"
+
+msgctxt "RouterListItem"
+msgid "Hibernating"
+msgstr "I Dvale"
+
+msgctxt "RouterListItem"
+msgid "%1 KB/s"
+msgstr "%1 KB/s"
+
+msgctxt "RouterListWidget"
+msgid "Relay"
+msgstr "Relæ"
+
+msgctxt "RouterListWidget"
+msgid "Zoom to Relay"
+msgstr "Zoom til Relæ"
+
+msgctxt "RouterListWidget"
+msgid "%1 relays online"
+msgstr "%1 relæer online"
+
+msgctxt "RouterListWidget"
+msgid "Copy"
+msgstr "Kopier"
+
+msgctxt "RouterListWidget"
+msgid "Nickname"
+msgstr "Kaldenavn"
+
+msgctxt "RouterListWidget"
+msgid "Fingerprint"
+msgstr "Fingeraftryk"
+
+msgctxt "ServerPage"
+msgid "Bridge Support Unavailable"
+msgstr "Bro Support er Ikke Tilgælgelig"
+
+msgctxt "ServerPage"
+msgid ""
+"You have configured Tor to act as a bridge relay for censored users, but "
+"your version of Tor does not support bridges."
+msgstr "Du har konfigureret Tor til at fungere som en relæ-bro for censureret brugere, men din version af Tor understøtter ikke broer."
+
+msgctxt "ServerPage"
+msgid ""
+"Please upgrade your Tor software or configure Tor to act as a normal Tor "
+"relay."
+msgstr "Du skal opgradere din Tor software eller konfigurere Tor til at fungere som et normalt Tor relæ."
+
+msgctxt "ServerPage"
+msgid "Your bridge relay is not running."
+msgstr "Din relæ-bro kører ikke"
+
+msgctxt "ServerPage"
+msgid "You must specify at least a relay nickname and port."
+msgstr "Du skal angive mindst et kaldenavn og port."
+
+msgctxt "ServerPage"
+msgid "Run as a client only"
+msgstr "Kør kun som en klient"
+
+msgctxt "ServerPage"
+msgid "Relay Port:"
+msgstr "Relæ Port:"
+
+msgctxt "ServerPage"
+msgid "Enable to mirror the relay directory"
+msgstr "Tænd for at afbillede relæ mappe"
+
+msgctxt "ServerPage"
+msgid "Attempt to automatically configure port forwarding"
+msgstr "Forsøg at indstille automatisk port viderestilling"
+
+msgctxt "ServerPage"
+msgid "Test"
+msgstr "Test"
+
+msgctxt "ServerPage"
+msgid "Show help topic on port forwarding"
+msgstr "Vis hjælp emner om viderestilling af porte"
+
+msgctxt "ServerPage"
+msgid "Directory Port:"
+msgstr "Mappe Port:"
+
+msgctxt "ServerPage"
+msgid "Directory Port Number"
+msgstr "Mappe Port Nummer:"
+
+msgctxt "ServerPage"
+msgid "Contact Info:"
+msgstr "Kontakt Info:"
+
+msgctxt "ServerPage"
+msgid "Name of your relay"
+msgstr "Navnet på dit relæ"
+
+msgctxt "ServerPage"
+msgid "Port on which users and other relays can communicate with your relay"
+msgstr "Port hvor brugere og andre relæer kan kommunikere med dit relæ"
+
+msgctxt "ServerPage"
+msgid "Nickname:"
+msgstr "Kaldenavn:"
+
+msgctxt "ServerPage"
+msgid "Basic Settings"
+msgstr "Grundlæggende indstillinger"
+
+msgctxt "ServerPage"
+msgid ""
+"For Internet connections with fast download speed but slow upload, please "
+"list your upload speed here."
+msgstr "For internetforbindelser med hurtig download hastighed, men langsom upload, skal du angive din upload hastighed her."
+
+msgctxt "ServerPage"
+msgid "Cable/DSL 256 Kbps"
+msgstr "Kabel/DSL 256 Kbps"
+
+msgctxt "ServerPage"
+msgid "Cable/DSL 512 Kbps"
+msgstr "Kabel/DSL 512 Kbps"
+
+msgctxt "ServerPage"
+msgid "Cable/DSL 768 Kbps"
+msgstr "Kabel/DSL 768 Kbps"
+
+msgctxt "ServerPage"
+msgid "T1/Cable/DSL 1.5 Mbps"
+msgstr "T1/Kabel/DSL 1.5 Mbps"
+
+msgctxt "ServerPage"
+msgid "> 1.5 Mbps"
+msgstr "> 1.5 Mbps"
+
+msgctxt "ServerPage"
+msgid "Custom"
+msgstr "Tilpasset"
+
+msgctxt "ServerPage"
+msgid "Select the entry that most closely resembles your Internet connection"
+msgstr "Vælg den adgang, der mest ligner din internetforbindelse"
+
+msgctxt "ServerPage"
+msgid "Show help topic on bandwidth rate limits"
+msgstr "Vis hjælp emner om båndbrede grænser"
+
+msgctxt "ServerPage"
+msgid "Average Rate"
+msgstr "Gennemsnitlig"
+
+msgctxt "ServerPage"
+msgid "Long-term average bandwidth limit"
+msgstr "Langsigtede gennemsnit båndbredde grænse"
+
+msgctxt "ServerPage"
+msgid "KB/s"
+msgstr "KB/s"
+
+msgctxt "ServerPage"
+msgid "Maximum Rate"
+msgstr "Maksimal Hastighed"
+
+msgctxt "ServerPage"
+msgid "Peak bandwidth rate limit"
+msgstr "Peak båndbrede grænse"
+
+msgctxt "ServerPage"
+msgid ""
+"Your maximum bandwidth rate must be greater than or equal to your average "
+"bandwidth rate. Both values must be at least 20 KB/s."
+msgstr "Dit maksimale båndbredde grænse skal være større end eller lig med din gennemsnitlige båndbredde grænse. Begge værdier skal være mindst 20 kb/s."
+
+msgctxt "ServerPage"
+msgid "Bandwidth Limits"
+msgstr "Båndbrede Grænser"
+
+msgctxt "ServerPage"
+msgid "Ports 6660 - 6669 and 6697"
+msgstr "Porte 6660 - 6669 og 6697"
+
+msgctxt "ServerPage"
+msgid "Internet Relay Chat (IRC)"
+msgstr "Internet Relæ Chat (IRC)"
+
+msgctxt "ServerPage"
+msgid "Ports 110, 143, 993 and 995"
+msgstr "Porte 110, 143, 993 og 995"
+
+msgctxt "ServerPage"
+msgid "Retrieve Mail (POP, IMAP)"
+msgstr "Modtag Mail (POP, IMAP)"
+
+msgctxt "ServerPage"
+msgid "Ports unspecified by other checkboxes"
+msgstr "Porte uspecificerede af andre afkrydsningsfelter"
+
+msgctxt "ServerPage"
+msgid "Misc Other Services"
+msgstr "Diverse Andre Tjenester"
+
+msgctxt "ServerPage"
+msgid "Ports 706, 1863, 5050, 5190, 5222, 5223, 8300 and 8888"
+msgstr "Porte 706, 1863, 5050, 5190, 5222, 5223, 8300 og 8888"
+
+msgctxt "ServerPage"
+msgid "Instant Messaging (IM)"
+msgstr "Instant Messaging (IM)"
+
+msgctxt "ServerPage"
+msgid "Port 443"
+msgstr "Port 443"
+
+msgctxt "ServerPage"
+msgid "Secure Websites (SSL)"
+msgstr "Sikker Hjemmeside (SSL)"
+
+msgctxt "ServerPage"
+msgid "Port 80"
+msgstr "Port 80"
+
+msgctxt "ServerPage"
+msgid "Websites"
+msgstr "Hjemmeside"
+
+msgctxt "ServerPage"
+msgid "Show help topic on exit policies"
+msgstr "Vis hjælpe emne om afslutningspolitikker"
+
+msgctxt "ServerPage"
+msgid ""
+"What Internet resources should users be able to access from your relay?"
+msgstr "Hvilke Internet ressourcer skal brugere kunne få adgang til fra dit relæ?"
+
+msgctxt "ServerPage"
+msgid ""
+"Tor will still block some outgoing mail and file sharing applications by "
+"default to reduce spam and other abuse."
+msgstr "Tor vil stadig blokere nogle udgående post og fildeling applikationer som standard for at reducere spam og anden misbrug."
+
+msgctxt "ServerPage"
+msgid "Exit Policies"
+msgstr "Afslutningspolitikker"
+
+msgctxt "ServerPage"
+msgid "Let others access your bridge by giving them this line:"
+msgstr "Lad andre få adgang til din bro ved at give dem denne linje:"
+
+msgctxt "ServerPage"
+msgid ""
+"This is the identity of your bridge relay that you can give to other people"
+msgstr "Dette er identiteten af dit bro relæ, som du kan give til andre mennesker"
+
+msgctxt "ServerPage"
+msgid "Copy your bridge relay's identity to the clipboard"
+msgstr "Kopier dit bro relæs identitet til udklipsholderen"
+
+msgctxt "ServerPage"
+msgid "No Recent Usage"
+msgstr "Intet nyligt forbrug"
+
+msgctxt "ServerPage"
+msgid "No clients have used your relay recently."
+msgstr "Ingen klienter har brugt dit relæ for nylig."
+
+msgctxt "ServerPage"
+msgid ""
+"Leave your relay running so clients have a better chance of finding and "
+"using it."
+msgstr "Efterlad dit relæ kørende, så klienter har bedre chance for at finde og anvende det."
+
+msgctxt "ServerPage"
+msgid "Bridge History"
+msgstr "Historik for bro"
+
+msgctxt "ServerPage"
+msgid "Vidalia was unable to retrieve your bridge's usage history."
+msgstr "Vidalia var ikke i stand til at indhente forbrugshistorik for din bro."
+
+msgctxt "ServerPage"
+msgid ""
+"Tor returned an improperly formatted response when Vidalia requested your "
+"bridge's usage history."
+msgstr "Tor returnerede et ukorrekt formatteret svar, da Vidalia forespurgte din bros forbrugshistorik."
+
+msgctxt "ServerPage"
+msgid "The returned response was: %1"
+msgstr "Det returnerede svar var: %1"
+
+msgctxt "ServerPage"
+msgid "Help censored users reach the Tor network"
+msgstr "Hjælp censurerede bruger med at nå Tor-netværket"
+
+msgctxt "ServerPage"
+msgid "<a href=\"#bridgeUsage\">Who has used my bridge?</a>"
+msgstr "<a href=\"#bridgeUsage\">Hvem har anvendt min bro?</a>"
+
+msgctxt "ServerPage"
+msgid "<a href=\"#bridgeHelp\">What's this?</a>"
+msgstr "<a href=\"#bridgeHelp\">Hvad er dette?</a>"
+
+msgctxt "ServerPage"
+msgid "Automatically distribute my bridge address"
+msgstr "Distribuer automatisk min bro-adresse"
+
+msgctxt "ServerPage"
+msgid "Relay traffic for the Tor network (exit relay)"
+msgstr "Relætrafik for Tor-netværket (exit-relæ)"
+
+msgctxt "ServerPage"
+msgid "Relay traffic inside the Tor network (non-exit relay)"
+msgstr "Relætrafik for Tor-netværket (ikke-exit-relæ)"
+
+msgctxt "ServerPage"
+msgid "Mirror the Relay Directory"
+msgstr "Spejl relækataloget"
+
+msgctxt "ServerPage"
+msgid ""
+"Email address at which you may be reached if there is a\n"
+"problem with your relay. You might also include your PGP or GPG fingerprint."
+msgstr "Epost-adressen som du kan kontakte, hvis der er et\nproblem med dit relæ. Du kan også inkludere din PGP- eller GPG-fingeraftryk."
+
+msgctxt "ServicePage"
+msgid "Error while trying to unpublish all services"
+msgstr "Fejl under forsøg på at annullere udgivelsen af alle tjenester"
+
+msgctxt "ServicePage"
+msgid ""
+"Please configure at least a service directory and a virtual port for each "
+"service you want to save. Remove the other ones."
+msgstr "Opsæt mindst en tjeneste mappe og en virtuel port for hver tjeneste du vil gemme. Fjern de andre."
+
+msgctxt "ServicePage"
+msgid "Error"
+msgstr "Fejl"
+
+msgctxt "ServicePage"
+msgid "Please select a Service."
+msgstr "Vælg venligst en Tjeneste."
+
+msgctxt "ServicePage"
+msgid "Select Service Directory"
+msgstr "Vælg en Service Mappe"
+
+msgctxt "ServicePage"
+msgid "Virtual Port may only contain valid port numbers [1..65535]."
+msgstr "Virtuel Port må kun indeholde godkendte port numre [1...65535]."
+
+msgctxt "ServicePage"
+msgid "Target may only contain address:port, address, or port."
+msgstr "Målet kan kun indeholde adresse: port, adresse, eller port."
+
+msgctxt "ServicePage"
+msgid "Directory already in use by another service."
+msgstr "Mappen er allerede i brug af en anden tjeneste."
+
+msgctxt "ServicePage"
+msgid "Form"
+msgstr "Form"
+
+msgctxt "ServicePage"
+msgid "Provided Hidden Services"
+msgstr "Angivne Skjulte Tjenester"
+
+msgctxt "ServicePage"
+msgid "Onion Address"
+msgstr "Onion Adresse"
+
+msgctxt "ServicePage"
+msgid "Virtual Port"
+msgstr "Virtuel Port"
+
+msgctxt "ServicePage"
+msgid "Target"
+msgstr "Mål"
+
+msgctxt "ServicePage"
+msgid "Directory Path"
+msgstr "Mappe Sti"
+
+msgctxt "ServicePage"
+msgid "Enabled"
+msgstr "Aktiveret"
+
+msgctxt "ServicePage"
+msgid "Add new service to list"
+msgstr "Tilføj en ny tjeneste til listen"
+
+msgctxt "ServicePage"
+msgid "Remove selected service from list"
+msgstr "Fjern den valgte tjeneste fra listen"
+
+msgctxt "ServicePage"
+msgid "Copy onion address of selected service to clipboard"
+msgstr "Kopier onion adresse fra den valgte tjeneste til udklipsholderen"
+
+msgctxt "ServicePage"
+msgid "Browse in local file system and choose directory for selected service"
+msgstr "Gennemse lokale filsystem og vælg bibliotek til udvalgte tjenester"
+
+msgctxt "ServicePage"
+msgid "Created by Tor"
+msgstr "Lavet af Tor"
+
+msgctxt "StatusEventWidget"
+msgid "Copy to Clipboard"
+msgstr "Kopier til udklipsholder"
+
+msgctxt "StatusEventWidget"
+msgid "The Tor Software is Running"
+msgstr "Tor-programmelet er kørende"
+
+msgctxt "StatusEventWidget"
+msgid "You are currently running version \"%1\" of the Tor software."
+msgstr "Den aktuelt kørende version \"%1\" af Tor-programmelet."
+
+msgctxt "StatusEventWidget"
+msgid "The Tor Software is not Running"
+msgstr "Tor-programmelet kører ikke"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Click \"Start Tor\" in the Vidalia Control Panel to restart the Tor "
+"software. If Tor exited unexpectedly, select the \"Advanced\" tab above for "
+"details about any errors encountered."
+msgstr "Klik \"Start Tor\" i Kontrolpanelet for Vidalia for at genstarte Tor-programmelet. Hvis Tor afsluttede uventet, så vælg \"Avanceret\"-fanen ovenfor for detaljer om hvilke fejl som opstod."
+
+msgctxt "StatusEventWidget"
+msgid ""
+"You are currently running version \"%1\" of the Tor software, which is no "
+"longer recommended. Please upgrade to the most recent version of the "
+"software, which may contain important security, reliability and performance "
+"fixes."
+msgstr "Du kører i øjeblikket version \"%1\" af Tor-softwaren, der ikke længere anbefales. Opgradér venligst til den seneste version af softwaren, der kan indeholde vigtige rettelser vedrørende sikkerhed, pålidelighed og ydelse."
+
+msgctxt "StatusEventWidget"
+msgid ""
+"You are currently running version \"%1\" of the Tor software, which may no "
+"longer work with the current Tor network. Please upgrade to the most recent "
+"version of the software, which may contain important security, reliability "
+"and performance fixes."
+msgstr "Du kører i øjeblikket version \"%1\" af Tor-softwaren, der ikke længere fungerer med det nuværende Tor-netværk. Opgradér venligst til den seneste version af softwaren, der kan indeholde vigtige rettelser vedrørende sikkerhed, pålidelighed og ydelse."
+
+msgctxt "StatusEventWidget"
+msgid "Your Tor Software is Out-of-date"
+msgstr "Din Tor-software er forældet"
+
+msgctxt "StatusEventWidget"
+msgid "Connected to the Tor Network"
+msgstr "Forbundet til Tor-netværket"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"We were able to successfully establish a connection to the Tor network. You "
+"can now configure your applications to use the Internet anonymously."
+msgstr "Vi var i stand til succesfuldt at etablere en forbindelse til Tor-netværket. Du kan nu konfigurere dine applikationer til at anvende Internettet anonymt."
+
+msgctxt "StatusEventWidget"
+msgid "Tor Software Error"
+msgstr "Softwarefejl i Tor"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"The Tor software encountered an internal bug. Please report the following "
+"error message to the Tor developers at bugs.torproject.org: \"%1\""
+msgstr "Tor-softwaren stødte på en intern fejl. Rapportér venligst den følgende fejlbesked til Tor-udviklerne på bugs.torproject.org: \"%1\"\n"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor has determined that your computer's clock may be set to %1 seconds in "
+"the past compared to the source \"%2\". If your clock is not correct, Tor "
+"will not be able to function. Please verify your computer displays the "
+"correct time."
+msgstr "Tor af afgjort at din maskines ur kan sætte til %1 sekunder tilbage i tid sammenlignet med kilden \"%2\". Hvis dit ur ikke går korrekt, så vil Tor ikke være i stand til at fungere. Bekræft venligst at maskinen viser den korrekte tid."
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor has determined that your computer's clock may be set to %1 seconds in "
+"the future compared to the source \"%2\". If your clock is not correct, Tor "
+"will not be able to function. Please verify your computer displays the "
+"correct time."
+msgstr "Tor af afgjort at din maskines ur kan sætte til %1 sekunder frem i tid sammenlignet med kilden \"%2\". Hvis dit ur ikke går korrekt, så vil Tor ikke være i stand til at fungere. Bekræft venligst at maskinen viser den korrekte tid."
+
+msgctxt "StatusEventWidget"
+msgid "Your Computer's Clock is Potentially Incorrect"
+msgstr "Din maskines ur går muligvis forkert."
+
+msgctxt "StatusEventWidget"
+msgid ""
+"One of the applications on your computer may have attempted to make an "
+"unencrypted connection through Tor to port %1. Sending unencrypted "
+"information over the Tor network is dangerous and not recommended. For your "
+"protection, Tor has automatically closed this connection."
+msgstr "En af dine applikationer på din maskine har forsøgt at oprette en ukrypteret forbindelse gennem Tor på port %1. Afsendelse af ukrypteret information over Tor-netværket er farligt og anbefales ikke. For din egen beskyttelse, så har Tor automatisk lukket denne forbindelse."
+
+msgctxt "StatusEventWidget"
+msgid ""
+"One of the applications on your computer may have attempted to make an "
+"unencrypted connection through Tor to port %1. Sending unencrypted "
+"information over the Tor network is dangerous and not recommended."
+msgstr "En af dine applikationer på din maskine har forsøgt at oprette en ukrypteret forbindelse gennem Tor på port %1. Afsendelse af ukrypteret information over Tor-netværket er farligt og anbefales ikke."
+
+msgctxt "StatusEventWidget"
+msgid "Potentially Dangerous Connection!"
+msgstr "Potentielt farlig forbindelse!"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"One of your applications established a connection through Tor to \"%1\" "
+"using a protocol that may leak information about your destination. Please "
+"ensure you configure your applications to use only SOCKS4a or SOCKS5 with "
+"remote hostname resolution."
+msgstr "En af dine applikationer etablerede en forbindelse via Tor til \"%1\" ved hjælp af en protokol, der kan lække oplysninger om din destination. Sørg venligst for at konfigurere dine applikationer til kun at bruge SOCKS4a eller SOCKS5 med fjern værtsnavnsopløsning."
+
+msgctxt "StatusEventWidget"
+msgid "Unknown SOCKS Protocol"
+msgstr "Ukendt SOCKS protokol"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"One of your applications tried to establish a connection through Tor using a"
+" protocol that Tor does not understand. Please ensure you configure your "
+"applications to use only SOCKS4a or SOCKS5 with remote hostname resolution."
+msgstr "En af dine applikationer forsøgte at etablere en forbindelse via Tor ved hjælp af en protokol, som Tor ikke forstår. Sørg venligst for at konfigurere dine applikationer til kun at bruge SOCKS4a eller SOCKS5 med fjerne værtsnavnopløsning."
+
+msgctxt "StatusEventWidget"
+msgid "Invalid Destination Hostname"
+msgstr "Ugyldigt værtsnavn for destination"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"One of your applications tried to establish a connection through Tor to "
+"\"%1\", which Tor does not recognize as a valid hostname. Please check your "
+"application's configuration."
+msgstr "En af dine applikationer forsøgte at etablere en forbindelse gennem Tor til \"%1\", hvilken Tor ikke genkender som gyldigt værtsnavn. Tjek venligst din applikations konfiguration."
+
+msgctxt "StatusEventWidget"
+msgid "External IP Address Changed"
+msgstr "Ekstern IP-adresse ændrede sig"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor has determined your relay's public IP address is currently %1%2. If that"
+" is not correct, please consider setting the 'Address' option in your "
+"relay's configuration."
+msgstr "Tor har detekteret at dit relæs offentlige IP-adresse i øjeblikket er %1%2. Hvis dette ikke er korrekt, så overvej venligst at ændre indstillingen 'Adresse' i dit relæs konfiguration."
+
+msgctxt "StatusEventWidget"
+msgid "DNS Hijacking Detected"
+msgstr "DNS-kapring blev opdaget"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor detected that your DNS provider is providing false responses for domains"
+" that do not exist. Some ISPs and other DNS providers, such as OpenDNS, are "
+"known to do this in order to display their own search or advertising pages."
+msgstr "Tor har detekteret at din DNS-udbyder udbyder falske svar for domæner som ikke eksisterer. Nogle internetudbydere, såsom OpenDNS, er kendt for at gøre dette for at kunne vise deres egen søgefunktion eller reklamesider."
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor detected that your DNS provider is providing false responses for well "
+"known domains. Since clients rely on Tor network relays to provide accurate "
+"DNS repsonses, your relay will not be configured as an exit relay."
+msgstr "Tor har detekteret at din DNS-udbyder udbyder falske svar for velkendte domæner. Da klienter afhænger af at Tor-netværkets relæer tilbyder akkurate DNS-svar, så vil det relæ ikke blive konfigureret som et udgående relæ."
+
+msgctxt "StatusEventWidget"
+msgid "Checking Server Port Reachability"
+msgstr "Tjekker serverports tilgængelighed"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor is trying to determine if your relay's server port is reachable from the"
+" Tor network by connecting to itself at %1:%2. This test could take several "
+"minutes."
+msgstr "Tor forsøger at afgøre om dit relæs serverport er tilgængelig fra Tor-netværket ved selv at tilslutte sig på %1:%2. Denne test kan tage flere minutter."
+
+msgctxt "StatusEventWidget"
+msgid "Server Port Reachability Test Successful!"
+msgstr "Test af serverports tilgængelighed var succesfuld!"
+
+msgctxt "StatusEventWidget"
+msgid "Your relay's server port is reachable from the Tor network!"
+msgstr "Dit relæs serverport er tilgængelig fra Tor-netværket!"
+
+msgctxt "StatusEventWidget"
+msgid "Server Port Reachability Test Failed"
+msgstr "Test af serverports tilgængelighed mislykkedes!"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Your relay's server port is not reachable by other Tor clients. This can "
+"happen if you are behind a router or firewall that requires you to set up "
+"port forwarding. If %1:%2 is not your correct IP address and server port, "
+"please check your relay's configuration."
+msgstr "Dit relæs serverport er ikke tilgængelig for andre Tor-klienter. Dette kan ske når du er bag en router eller brandmur som kræver at du opsætter port-videresendelse. Hvis %1:%2 ikke er din korrekte IP-adresse og serverport, så tjek venligst dit relæs konfiguration."
+
+msgctxt "StatusEventWidget"
+msgid "Checking Directory Port Reachability"
+msgstr "Tjekker katalogportens tilgængelighed."
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor is trying to determine if your relay's directory port is reachable from "
+"the Tor network by connecting to itself at %1:%2. This test could take "
+"several minutes."
+msgstr "Tor forsøger at afgøre om dit relæs katalogport er tilgængelig fra Tor-netværket ved selv at tilslutte på %1:%2. Denne test kan tage flere minutter. "
+
+msgctxt "StatusEventWidget"
+msgid "Directory Port Reachability Test Successful!"
+msgstr "Test af katalogports tilgængelighed var succesfuld! "
+
+msgctxt "StatusEventWidget"
+msgid "Your relay's directory port is reachable from the Tor network!"
+msgstr "Dit relæs katalogport er tilgængeligt fra Tor-netværket!"
+
+msgctxt "StatusEventWidget"
+msgid "Directory Port Reachability Test Failed"
+msgstr "Test af katalogports tilgængelighed mislykkedes "
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Your relay's directory port is not reachable by other Tor clients. This can "
+"happen if you are behind a router or firewall that requires you to set up "
+"port forwarding. If %1:%2 is not your correct IP address and directory port,"
+" please check your relay's configuration."
+msgstr "Dit relæs katalogport er ikke tilgængeligt fra andre Tor-klienter. Dette kan ske hvis du er bag en router eller brandmur som kræver at du opsætter port-videresendelse. Hvis %1:%2 ikke er din korrekte IP-adresse og katalogport, så tjek venligst dit relæs konfiguration."
+
+msgctxt "StatusEventWidget"
+msgid "Relay Descriptor Rejected"
+msgstr "Relæ-deskriptor afvist"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Your relay's descriptor, which enables clients to connect to your relay, was"
+" rejected by the directory server at %1:%2. The reason given was: %3"
+msgstr "Dit relæs deskriptor, der gør det muligt for klienter at forbinde til dit relæ, blev afvist af katalogserveren på %1:%2. Begrundelsen som blev givet var: %3"
+
+msgctxt "StatusEventWidget"
+msgid "Your Relay is Online"
+msgstr "Dit relæ er online"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Your relay is now online and available for Tor clients to use. You should "
+"see an increase in network traffic shown by the Bandwidth Graph within a few"
+" hours as more clients learn about your relay. Thank you for contributing to"
+" the Tor network!"
+msgstr "Dit relæ er nu online og tilgængelig for anvendelse af Tor-klienter. Du bør kunne se en forøgelse i netværkstrafikken vist med Båndbredde-grafen inden for få timer i takt med at flere klienter finder frem til dit relæ. Tak for dit bidrag til Tor-netværket\"!"
+
+msgctxt "Stream"
+msgid "New"
+msgstr "Ny"
+
+msgctxt "Stream"
+msgid "Resolving"
+msgstr "Finder"
+
+msgctxt "Stream"
+msgid "Connecting"
+msgstr "Forbinder"
+
+msgctxt "Stream"
+msgid "Open"
+msgstr "Åben"
+
+msgctxt "Stream"
+msgid "Failed"
+msgstr "Mislykkedes"
+
+msgctxt "Stream"
+msgid "Closed"
+msgstr "Lukket"
+
+msgctxt "Stream"
+msgid "Retrying"
+msgstr "Prøver igen"
+
+msgctxt "Stream"
+msgid "Remapped"
+msgstr "Genmapped"
+
+msgctxt "Stream"
+msgid "Unknown"
+msgstr "Ukendt"
+
+msgctxt "TorProcess"
+msgid "Process %1 failed to stop. [%2]"
+msgstr "Tjeneste %1 mislykkedes at stoppe. [%2]"
+
+msgctxt "TorService"
+msgid "The Tor service is not installed."
+msgstr "Tor tjenesten er ikke installeret."
+
+msgctxt "TorService"
+msgid "Unable to start the Tor service."
+msgstr "Kan ikke starte Tor tjenesten."
+
+msgctxt "TorSettings"
+msgid "Failed to hash the control password."
+msgstr "Kunne ikke finde hash-værdi af kodeordet."
+
+msgctxt "TorrcDialog"
+msgid "Editing torrc"
+msgstr "Redigerer torrc"
+
+msgctxt "TorrcDialog"
+msgid ""
+"Save settings. If unchecked it will only apply settings to the current Tor "
+"instance."
+msgstr "Gem indstillinger. Hvis umarkeret vil de kun blive anvendt på den aktuelle Tor-instans."
+
+msgctxt "TorrcDialog"
+msgid "Cut"
+msgstr "Klip"
+
+msgctxt "TorrcDialog"
+msgid "Copy"
+msgstr "Kopier"
+
+msgctxt "TorrcDialog"
+msgid "Paste"
+msgstr "Indsæt"
+
+msgctxt "TorrcDialog"
+msgid "Undo"
+msgstr "Fortryd"
+
+msgctxt "TorrcDialog"
+msgid "Redo"
+msgstr "Gentag"
+
+msgctxt "TorrcDialog"
+msgid "Select All"
+msgstr "Marker alle"
+
+msgctxt "TorrcDialog"
+msgid "Apply all"
+msgstr "Anvend alle"
+
+msgctxt "TorrcDialog"
+msgid "Apply selection only"
+msgstr "Anvend kun markerede"
+
+msgctxt "TorrcDialog"
+msgid "Error connecting to Tor"
+msgstr "Fejl ved tilslutning til Tor"
+
+msgctxt "TorrcDialog"
+msgid "Selection is empty. Please select some text, or check \"Apply all\""
+msgstr "Markering er tom. Vælg venligst noget tekst, eller marker \"Anvend alle\""
+
+msgctxt "TorrcDialog"
+msgid "Error at line %1: \"%2\""
+msgstr "Fejl på linje %1: \"%2\""
+
+msgctxt "TorrcDialog"
+msgid "Error"
+msgstr "Fejl"
+
+msgctxt "TorrcDialog"
+msgid "An error ocurred while opening torrc file"
+msgstr "En fejl opstod under åbning af filen torrc"
+
+msgctxt "UPNPControl"
+msgid "Success"
+msgstr "Succes"
+
+msgctxt "UPNPControl"
+msgid "No UPnP-enabled devices found"
+msgstr "Ingen UPnP-aktiverede enheder fundet"
+
+msgctxt "UPNPControl"
+msgid "No valid UPnP-enabled Internet gateway devices found"
+msgstr "Ingen gyldige UPnP-aktiverede Internet gateway enheder fundet"
+
+msgctxt "UPNPControl"
+msgid "WSAStartup failed"
+msgstr "WSAStartop mislykkedes"
+
+msgctxt "UPNPControl"
+msgid "Failed to add a port mapping"
+msgstr "Det lykkedes ikke at tilføje en port angivning"
+
+msgctxt "UPNPControl"
+msgid "Failed to retrieve a port mapping"
+msgstr "Det lykkedes ikke at hente en port angivning"
+
+msgctxt "UPNPControl"
+msgid "Failed to remove a port mapping"
+msgstr "Det lykkedes ikke at fjerne en port angivning"
+
+msgctxt "UPNPControl"
+msgid "Unknown error"
+msgstr "Ukendt fejl"
+
+msgctxt "UPNPTestDialog"
+msgid "Discovering UPnP-enabled devices"
+msgstr "Søger efter UPnP-aktiverede enheder"
+
+msgctxt "UPNPTestDialog"
+msgid "Updating directory port mapping"
+msgstr "Opdaterer mappe port angivninger"
+
+msgctxt "UPNPTestDialog"
+msgid "Updating relay port mapping"
+msgstr "Opdaterer relæ port angivninger"
+
+msgctxt "UPNPTestDialog"
+msgid "Test completed successfully!"
+msgstr "Test gennemført succesfuldt!"
+
+msgctxt "UPNPTestDialog"
+msgid "Testing UPnP Support"
+msgstr "Tester UPnP Understøttelse"
+
+msgctxt "UPNPTestDialog"
+msgid "Testing Universal Plug & Play Support"
+msgstr "Tester Universal Plug & Plug Understøttelse"
+
+msgctxt "UpdateProcess"
+msgid ""
+"Vidalia was unable to check for available software updates because it could "
+"not find '%1'."
+msgstr "Vidalia var ude af stand til at søge efter tilgængelige softwareopdateringer, fordi det ikke kunne finde '%1'."
+
+msgctxt "UpdateProcess"
+msgid ""
+"Vidalia was unable to check for available software updates because Tor's "
+"update process exited unexpectedly."
+msgstr "Vidalia var ude af stand til at søge efter tilgængelige softwareopdateringer, fordi Tor's opdateringsproces afsluttede uventet."
+
+msgctxt "UpdateProgressDialog"
+msgid "Checking for available updates..."
+msgstr "Tjekker om der er tilgængelige opdateringer ..."
+
+msgctxt "UpdateProgressDialog"
+msgid "Hide"
+msgstr "Skjul"
+
+msgctxt "UpdateProgressDialog"
+msgid "Downloading updates..."
+msgstr "Henter opdateringer..."
+
+msgctxt "UpdateProgressDialog"
+msgid "Installing updated software..."
+msgstr "Installerer opdateret programmel..."
+
+msgctxt "UpdateProgressDialog"
+msgid "Done! Your software is now up to date."
+msgstr "Færdig! Din software er nu opdateret."
+
+msgctxt "UpdateProgressDialog"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "UpdateProgressDialog"
+msgid "Software Updates"
+msgstr "Software-opdateringer"
+
+msgctxt "UpdateProgressDialog"
+msgid "Checking for updates..."
+msgstr "Tjekker for opdateringer..."
+
+msgctxt "UpdateProgressDialog"
+msgid "Cancel"
+msgstr "Fortryd"
+
+msgctxt "UpdatesAvailableDialog"
+msgid "Software Updates Available"
+msgstr "Tilgængelige software-opdateringer"
+
+msgctxt "UpdatesAvailableDialog"
+msgid "Remind Me Later"
+msgstr "Påmind mig senere"
+
+msgctxt "UpdatesAvailableDialog"
+msgid "Install"
+msgstr "Installér"
+
+msgctxt "UpdatesAvailableDialog"
+msgid "The following updated software packages are ready for installation:"
+msgstr "Følgende opdaterede softwarepakker er klar til installation:"
+
+msgctxt "UpdatesAvailableDialog"
+msgid "Package"
+msgstr "Pakke"
+
+msgctxt "UpdatesAvailableDialog"
+msgid "Version"
+msgstr "Version"
+
+msgctxt "VMessageBox"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "VMessageBox"
+msgid "Cancel"
+msgstr "Annuller"
+
+msgctxt "VMessageBox"
+msgid "Yes"
+msgstr "Ja"
+
+msgctxt "VMessageBox"
+msgid "No"
+msgstr "Nej"
+
+msgctxt "VMessageBox"
+msgid "Help"
+msgstr "Hjælp"
+
+msgctxt "VMessageBox"
+msgid "Retry"
+msgstr "Forsøg igen"
+
+msgctxt "VMessageBox"
+msgid "Show Log"
+msgstr "Vis Log"
+
+msgctxt "VMessageBox"
+msgid "Show Settings"
+msgstr "Vis Indstillinger"
+
+msgctxt "VMessageBox"
+msgid "Continue"
+msgstr "Fortsæt"
+
+msgctxt "VMessageBox"
+msgid "Quit"
+msgstr "Afslut"
+
+msgctxt "VMessageBox"
+msgid "Browse"
+msgstr "Gennemse"
+
+msgctxt "Vidalia"
+msgid "Invalid Argument"
+msgstr "Argumentet er ugyldigt"
+
+msgctxt "Vidalia"
+msgid "Vidalia is already running"
+msgstr "Vidalia kører allerede"
+
+msgctxt "Vidalia"
+msgid "Displays this usage message and exits."
+msgstr "Viser denne brugs beskeder og afslutter."
+
+msgctxt "Vidalia"
+msgid "Resets ALL stored Vidalia settings."
+msgstr "Nulstiller ALLE gemte Vidalia indstillinger."
+
+msgctxt "Vidalia"
+msgid "Sets the directory Vidalia uses for data files."
+msgstr "Indstiller mappen som Vidalia bruger til data filer."
+
+msgctxt "Vidalia"
+msgid "Sets the name and location of Vidalia's pidfile."
+msgstr "Indstiller navn og placering af Vidalias profil."
+
+msgctxt "Vidalia"
+msgid "Sets the name and location of Vidalia's logfile."
+msgstr "Indstiller navn og placering af Vidalias logfil."
+
+msgctxt "Vidalia"
+msgid "Sets the verbosity of Vidalia's logging."
+msgstr "Indstiller mængden af data Vidalia logger."
+
+msgctxt "Vidalia"
+msgid "Sets Vidalia's interface style."
+msgstr "Indstiller Vidalias græseflade stil."
+
+msgctxt "Vidalia"
+msgid "Sets Vidalia's language."
+msgstr "Indstiller Vidalias sprog."
+
+msgctxt "Vidalia"
+msgid "Vidalia Usage Information"
+msgstr "Vidalia Forbrugs Information"
+
+msgctxt "Vidalia"
+msgid "Unable to open log file '%1': %2"
+msgstr "Kunne ikke åbne log fil '%1': %2"
+
+msgctxt "Vidalia"
+msgid "Value required for parameter :"
+msgstr "Værdi krævet fra parameter:"
+
+msgctxt "Vidalia"
+msgid "Invalid language code specified:"
+msgstr "Ugyldigt angivet sprogkode:"
+
+msgctxt "Vidalia"
+msgid "Invalid GUI style specified:"
+msgstr "Ugyldigt angivet stil for grafisk brugerfladet:"
+
+msgctxt "Vidalia"
+msgid "Invalid log level specified:"
+msgstr "Ugyldigt angivet logniveau:"
+
+msgctxt "Vidalia"
+msgid ""
+"Another Vidalia process is possibly already running. If there really is not another Vidalia process running, you can choose to continue anyway.\n"
+"\n"
+"Would you like to continue starting Vidalia?"
+msgstr "En anden Vidalia-proces kører muligvis allerede. Hvis der ikke kører andre processer, så kan du vælge alligevel at fortsætte.\n\nVil du gerne fortsætte med at starte Vidalia?  "
+
+msgctxt "stringutil.h"
+msgid "%1 secs"
+msgstr "%1 sek."
+
+msgctxt "stringutil.h"
+msgid "%1 B/s"
+msgstr "%1 B/s"
+
+msgctxt "stringutil.h"
+msgid "%1 KB/s"
+msgstr "%1 KB/s"
+
+msgctxt "stringutil.h"
+msgid "%1 MB/s"
+msgstr "%1 MB/s"
+
+msgctxt "stringutil.h"
+msgid "%1 GB/s"
+msgstr "%1 GB/s"
+
+msgctxt "stringutil.h"
+msgid "%1 days"
+msgstr "%1 dage"
+
+msgctxt "stringutil.h"
+msgid "%1 hours"
+msgstr "%1 timer"
+
+msgctxt "stringutil.h"
+msgid "%1 mins"
+msgstr "%1 min."

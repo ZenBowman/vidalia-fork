@@ -1,0 +1,105 @@
+<!--
+**  $Id$
+** 
+**  This file is part of Vidalia, and is subject to the license terms in the
+**  LICENSE file, found in the top level directory of this distribution. If 
+**  you did not receive the LICENSE file with this file, you may obtain it
+**  from the Vidalia source package distributed by the Vidalia Project at
+**  http://www.torproject.org/projects/vidalia.html. No part of Vidalia, 
+**  including this file, may be copied, modified, propagated, or distributed 
+**  except according to the terms described in the LICENSE file.
+-->
+
+<html>
+<body>
+
+<h1>Fehlersuche und Fehlerbeseitigung</h1>
+<hr />
+
+Nachfolgend sind einige der h&auml;ufigsten Probleme und Fragen zum Betrieb
+von Tor aufgef&uuml;hrt. Falls Sie zu Ihrem Problem nicht f&uuml;ndig werden,
+finden Sie auf unserer Webseite unter <i>www.vidalia-project.net</i> weitere
+Hilfe und Informationen.
+
+<a name="start"/>
+<h3>Ich kann Tor nicht starten</h3>
+<p>
+Ein h&auml;ufiger Grund, weshalb Vidalia Tor nicht starten konnte, ist die
+Angabe eines falschen Tor-Verzeichnisses. Sie k&ouml;nnen Vidalia das
+richtige Tor-Verzeichnis mitteilen, indem Sie die Option
+<i>Pfad zur Tor-Anwendung</i> in den <a href="config.html#general">Allgemeinen
+Einstellungen</a> korrigieren.
+</p>
+<p>
+Ein anderer m&ouml;glicher Grund ist, dass bereits ein Tor-Prozess l&auml;uft.
+&Uuml;berpr&uuml;fen Sie die Liste der laufenden Prozesse und beenden Sie den
+laufenden Tor-Prozess, falls Sie einen finden. Versuchen Sie
+anschlie&szlig;end Tor erneut zu starten.
+</p>
+<p>
+Falls dieses Vorgehen nicht hilft, &uuml;berpr&uuml;fen Sie das
+<a href="log.html">Nachrichtenprotokoll</a> auf Fehler w&auml;hrend des
+Starts von Tor.
+</p>
+
+<a name="connect"/>
+<h3>Vidalia kann keine Verbindung zu Tor herstellen</h3>
+<p>
+Vidalia steuert Tor durch Kommunikation &uuml;ber den
+<i>Kontrollport</i> von Tor.
+</p>
+<p>
+Der h&auml;ufigste Grund, dass Vidalia keine Verbindung zu Tor herstellen
+konnte, ist dass Tor nach dem Start einen Fehler festgestellt hat und
+sofort beendet wurde. Sie k&ouml;nnen das
+<a href="log.html">Nachrichtenprotokoll</a> anschauen und herausfinden,
+ob Tor beim Start Fehler gemeldet hat.
+</p>
+<p>
+Falls Tor auf einem anderen Port auf Verbindungen wartet, als es Vidalia
+erwartet, kann Vidalia keine Verbindung zu Tor herstellen. Diese Einstellung
+muss nur selten ge&auml;ndert werden, bspw. m&uuml;ssen Sie einen anderen
+Port angeben, falls ein anderer Dienst auf Ihrem Rechner ebenfalls diesen
+Port benutzt. Diese Einstellung k&ouml;nnen Sie in den
+<a href="config.html#advanced">Fortgeschrittenen Einstellungen</a> von Vidalia
+vornehmen.
+</p>
+
+<a name="torexited"/> 
+<h3>Tor wurden unerwartet beendet</h3> 
+<p>
+Falls Tor sofort nach dem Start beendet wird, l&auml;uft wahrscheinlich
+bereits ein anderer Tor-Prozess. Schauen Sie im
+<a href="log.html">Nachrichtenprotokoll</a> nach, ob eine der letzten
+Meldungen gelb hervorgehoben ist und eine Nachricht &auml;hnlich der folgenden
+enth&auml;lt:
+</p>
+<pre>
+connection_create_listener(): Could not bind to 127.0.0.1:9050: Address already in use. 
+Is Tor already running?
+</pre>
+<p>
+Falls Sie eine solche Fehlermeldung finden, m&uuml;ssen Sie den anderen Tor-Prozess
+beenden, bevor Sie einen neuen mit Vidalia starten. Falls Sie Windows benutzen,
+k&ouml;nnen Sie nach <i>tor.exe</i> im Taskmanager suchen und diesen Prozess beenden.
+Auf anderen Betriebssystemen hilft Ihnen der Befehl <i>ps</i> den anderen Tor-Prozess
+zu finden.
+</p>
+<p>
+Falls Tor bereits l&auml;nger als einige Sekunden lief, bevor es beendet wurde,
+sollten Sie das <a href="log.html">Nachrichtenprotokoll</a> auf Informationen
+durchsuchen. Fehler die zum Beenden von Tor gef&uuml;hrt haben, werden rot oder
+gelb hervorgehoben.
+</p>
+
+<a name="stop"/>
+<h3>Vidalia kann Tor nicht beenden</h3>
+<p>
+Falls Vidalia Tor nicht beenden konnte, sollten Sie das
+<a href="log.html">Nachrichtenprotokoll</a> auf Fehler durchsuchen, die beim
+Beenden von Tor aufgetreten sind.
+</p>
+
+</body>
+</html>
+

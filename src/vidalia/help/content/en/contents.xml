@@ -1,0 +1,66 @@
+<!--
+**  $Id$
+** 
+**  This file is part of Vidalia, and is subject to the license terms in the
+**  LICENSE file, found in the top level directory of this distribution. If 
+**  you did not receive the LICENSE file with this file, you may obtain it
+**  from the Vidalia source package distributed by the Vidalia Project at
+**  http://www.torproject.org/projects/vidalia.html. No part of Vidalia, 
+**  including this file, may be copied, modified, propagated, or distributed 
+**  except according to the terms described in the LICENSE file.
+-->
+
+<Contents name="Vidalia Help" html="index.html">
+  <Topic id="running" name="Running Tor" html="running.html">
+    <Topic id="starting" name="Starting and Stopping Tor" html="running.html" section="starting"/>
+    <Topic id="monitoring" name="Monitoring Tor's Status" html="running.html" section="monitoring"/>
+  </Topic>
+  <Topic id="log" name="Message Log" html="log.html">
+    <Topic id="basic" name="Basic Information" html="log.html" section="basic"/>
+    <Topic id="severities" name="Message Severities" html="log.html" section="severities"/>
+    <Topic id="logfile" name="Logging to a File" html="log.html" section="tofile"/>
+  </Topic>
+  <Topic id="netview" name="Network Viewer" html="netview.html">
+    <Topic id="overview" name="Overview" html="netview.html" section="overview"/>
+    <Topic id="netmap" name="Network Map" html="netview.html" section="netmap"/>
+    <Topic id="status" name="Relay Status" html="netview.html" section="status"/>
+    <Topic id="details" name="Relay Details" html="netview.html" section="details"/>
+  </Topic>
+  <Topic id="config" name="Configuring Tor" html="config.html">
+    <Topic id="general" name="General Settings" html="config.html" section="general"/>
+    <Topic id="network" name="Network Settings" html="config.html" section="network"/>
+    <Topic id="server" name="Relay Settings" html="config.html" section="server"/>
+    <Topic id="appearance" name="Appearance Settings" html="config.html" section="appearance"/>
+    <Topic id="advanced" name="Advanced Settings" html="config.html" section="advanced"/>
+    <Topic id="services" name="Hidden Services" html="config.html" section="services"/>
+  </Topic>
+  <Topic id="server" name="Setting Up a Tor Relay" html="server.html">
+    <Topic id="basic" name="Basic Setup" html="server.html" section="basic"/>
+    <Topic id="bandwidth" name="Bandwidth Limits" html="server.html" section="bandwidth"/>
+    <Topic id="exitpolicy" name="Exit Policies" html="server.html" section="exitpolicy"/>
+    <Topic id="upnp" name="Port Forwarding" html="server.html" section="upnp"/>
+  </Topic>
+  <Topic id="bridges" name="Bridge Relays" html="bridges.html">
+    <Topic id="about" name="What are bridge relays?" html="bridges.html" section="about"/>
+    <Topic id="finding" name="How do I find a bridge relay?" html="bridges.html" section="finding"/>
+  </Topic>
+  <Topic id="services" name="Hidden Services" html="services.html">
+    <Topic id="about" name="What is a hidden service?" html="services.html" section="about"/>
+    <Topic id="provide" name="How do I provide a hidden service?" html="services.html" section="provide"/>
+    <Topic id="data" name="What data do I need to provide?" html="services.html" section="data"/>
+    <Topic id="buttons" name="What are the five buttons used for?" html="services.html" section="buttons"/>
+    <Topic id="advanced" name="How can I configure advanced hidden service settings?" html="services.html" section="advanced"/>
+    <Topic id="client" name="How does Vidalia help me to access other hidden services?" html="services.html" section="client"/>
+  </Topic>
+  <Topic id="troubleshooting" name="Troubleshooting" html="troubleshooting.html">
+    <Topic id="start" name="I Can't Start Tor" html="troubleshooting.html" section="start"/>
+    <Topic id="connect" name="Vidalia Can't Connect to Tor" html="troubleshooting.html" section="connect"/>
+    <Topic id="password"
+           name="Why is Vidalia asking me for a &quot;control password&quot;?"
+           html="troubleshooting.html" section="password"/>
+    <Topic id="torexited" name="Tor exited unexpectedly" html="troubleshooting.html" section="torexited"/>
+    <Topic id="stop" name="Vidalia Can't Stop Tor" html="troubleshooting.html" section="stop"/>
+  </Topic>
+  <Topic id="links" name="Helpful Links" html="links.html"/>
+</Contents>
+

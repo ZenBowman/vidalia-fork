@@ -1,0 +1,3847 @@
+# 
+# Translators:
+# Gerard Farràs Ballabriga <>, 2012.
+# Josep Sànchez <papapep@gmail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: The Tor Project\n"
+"Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
+"POT-Creation-Date: 2012-03-21 17:52+0000\n"
+"PO-Revision-Date: 2012-03-22 08:52+0000\n"
+"Last-Translator: Josep Sànchez <papapep@gmail.com>\n"
+"Language-Team: translations@vidalia-project.net\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ca\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"X-Generator: Vidalia ts2po 0.2\n"
+
+msgctxt "AboutDialog"
+msgid "About Vidalia"
+msgstr "Quant a Vidalia"
+
+msgctxt "AboutDialog"
+msgid "License"
+msgstr "Llicència"
+
+msgctxt "AboutDialog"
+msgid "Vidalia 0.2.0"
+msgstr "Vidalia 0.2.0"
+
+msgctxt "AboutDialog"
+msgid "Tor 0.2.0.32"
+msgstr "Tor 0.2.0.32"
+
+msgctxt "AboutDialog"
+msgid "Qt 4.4.2"
+msgstr "Qt 4.4.2"
+
+msgctxt "AdvancedPage"
+msgid "'%1' is not a valid IP address."
+msgstr "%1 no és una adreça ip vàlida."
+
+msgctxt "AdvancedPage"
+msgid ""
+"You selected 'Password' authentication, but did not specify a password."
+msgstr "Heu seleccionat autenticació amb 'Contrasenya', però no n'heu especificat cap."
+
+msgctxt "AdvancedPage"
+msgid "Select Tor Configuration File"
+msgstr "Selecciona el fitxer de configuració del Tor"
+
+msgctxt "AdvancedPage"
+msgid "File Not Found"
+msgstr "Fitxer no trobat"
+
+msgctxt "AdvancedPage"
+msgid "%1 does not exist. Would you like to create it?"
+msgstr "%1 no existeix. El desitgeu crear ?"
+
+msgctxt "AdvancedPage"
+msgid "Failed to Create File"
+msgstr "Creació de fitxer fallida"
+
+msgctxt "AdvancedPage"
+msgid "Unable to create %1 [%2]"
+msgstr "Incapaç de crear %1 [%2]"
+
+msgctxt "AdvancedPage"
+msgid "Select a Directory to Use for Tor Data"
+msgstr "Selecciona el directori per a utilitzar les dades del Tor"
+
+msgctxt "AdvancedPage"
+msgid "Unable to remove Tor Service"
+msgstr "Incapaç de suprimir el servei del Tor"
+
+msgctxt "AdvancedPage"
+msgid "Unable to install Tor Service"
+msgstr "Incapaç d'instal·lar el servei del Tor"
+
+msgctxt "AdvancedPage"
+msgid "Vidalia was unable to install the Tor service."
+msgstr "Vidalia ha estat incapaç d'instal·lar el servei del Tor."
+
+msgctxt "AdvancedPage"
+msgid "Authentication:"
+msgstr "Autenticació:"
+
+msgctxt "AdvancedPage"
+msgid "Address:"
+msgstr "Adreça:"
+
+msgctxt "AdvancedPage"
+msgid "None"
+msgstr "Cap"
+
+msgctxt "AdvancedPage"
+msgid "Cookie"
+msgstr "Galeta"
+
+msgctxt "AdvancedPage"
+msgid "Password"
+msgstr "Contrasenya"
+
+msgctxt "AdvancedPage"
+msgid "Randomly Generate"
+msgstr "Generació aleatòria"
+
+msgctxt "AdvancedPage"
+msgid ":"
+msgstr ":"
+
+msgctxt "AdvancedPage"
+msgid "Tor Configuration File"
+msgstr "Fitxer de configuració del Tor"
+
+msgctxt "AdvancedPage"
+msgid "Start the Tor software with the specified configuration file (torrc)"
+msgstr "Arranca el Tor amb el fitxer de configuració especificat (torrc)"
+
+msgctxt "AdvancedPage"
+msgid "Select path to your configuration file"
+msgstr "Seleccioneu la ruta del vostre fitxer de configuració"
+
+msgctxt "AdvancedPage"
+msgid "Browse"
+msgstr "Navega"
+
+msgctxt "AdvancedPage"
+msgid "Data Directory"
+msgstr "Directori de dades"
+
+msgctxt "AdvancedPage"
+msgid "Store data for the Tor software in the following directory"
+msgstr "Emmagatzema les dades per al programari Tor en la carpeta següent"
+
+msgctxt "AdvancedPage"
+msgid "Select the directory used to store data for the Tor software"
+msgstr "Seleccioneu el directori utilitzat per a emmagatzemar la informació del programari Tor"
+
+msgctxt "AdvancedPage"
+msgid "Tor Control"
+msgstr ""
+
+msgctxt "AdvancedPage"
+msgid "Use TCP connection (ControlPort)"
+msgstr ""
+
+msgctxt "AdvancedPage"
+msgid "Path:"
+msgstr ""
+
+msgctxt "AdvancedPage"
+msgid "Use Unix domain socket (ControlSocket)"
+msgstr ""
+
+msgctxt "AdvancedPage"
+msgid "Edit current torrc"
+msgstr ""
+
+msgctxt "AdvancedPage"
+msgid "NOTE: this will edit the currently loaded torrc"
+msgstr ""
+
+msgctxt "AdvancedPage"
+msgid "ControlSocket path doesn't exist."
+msgstr ""
+
+msgctxt "AdvancedPage"
+msgid ""
+"The specified Tor configuration file location contains characters that "
+"cannot be represented in your system's current 8-bit character encoding."
+msgstr ""
+
+msgctxt "AdvancedPage"
+msgid ""
+"The specified Tor data directory location contains characters that cannot be"
+" represented in your system's current 8-bit character encoding."
+msgstr ""
+
+msgctxt "AdvancedPage"
+msgid "Warning"
+msgstr ""
+
+msgctxt "AdvancedPage"
+msgid "You changed torrc path, would you like to restart Tor?"
+msgstr ""
+
+msgctxt "AdvancedPage"
+msgid "Tor Configuration File (torrc);;All Files (*)"
+msgstr ""
+
+msgctxt "AdvancedPage"
+msgid "Select a file to use for Tor socket path"
+msgstr ""
+
+msgctxt "AdvancedPage"
+msgid "Configure ControlPort automatically"
+msgstr ""
+
+msgctxt "AdvancedPage"
+msgid ""
+"You've checked the autoconfiguration option for the ControlPort, but "
+"provided no Data Directory. Please add one, or uncheck the \"Configure "
+"ControlPort automatically\" option."
+msgstr ""
+
+msgctxt "AdvancedPage"
+msgid ""
+"Vidalia was unable to remove the Tor service.\n"
+"\n"
+"You may need to remove it manually."
+msgstr "Vidalia ha estat incapaç de suprimir el servei del Tor.\n\nHaureu de suprimirlo manualment."
+
+msgctxt "AppearancePage"
+msgid "Language"
+msgstr "Llengua"
+
+msgctxt "AppearancePage"
+msgid "Choose the language used in Vidalia"
+msgstr "Escolliu l'idioma utilitzat a Vidalia"
+
+msgctxt "AppearancePage"
+msgid "Style"
+msgstr "Estil"
+
+msgctxt "AppearancePage"
+msgid "Choose Vidalia's interface style"
+msgstr "Escolliu l'estil per a la interfície de Vidalia"
+
+msgctxt "AppearancePage"
+msgid "Vidalia was unable to load the selected language translation."
+msgstr "Vidalia ha estat incapaç de carregar el fitxer de llengua especificat."
+
+msgctxt "AppearancePage"
+msgid ""
+"System Icon Preferences (changes will take effect when you restart Vidalia)"
+msgstr ""
+
+msgctxt "AppearancePage"
+msgid "Show the Tray Icon and Dock Icon (default)"
+msgstr ""
+
+msgctxt "AppearancePage"
+msgid "Hide the Tray Icon"
+msgstr ""
+
+msgctxt "AppearancePage"
+msgid "Hide the Dock Icon"
+msgstr ""
+
+msgctxt "BandwidthGraph"
+msgid "Since:"
+msgstr "Des de:"
+
+msgctxt "BandwidthGraph"
+msgid "Hide Settings"
+msgstr "Oculta les preferències"
+
+msgctxt "BandwidthGraph"
+msgid "Show Settings"
+msgstr "Mostra les preferències"
+
+msgctxt "BandwidthGraph"
+msgid "Tor Bandwidth Usage"
+msgstr "Ús de l'amplada de banda del Tor"
+
+msgctxt "BandwidthGraph"
+msgid "Reset"
+msgstr "Reinicia"
+
+msgctxt "BandwidthGraph"
+msgid "Receive Rate"
+msgstr "Velocitat de recepció"
+
+msgctxt "BandwidthGraph"
+msgid "Send Rate"
+msgstr "Velocitat de tramesa"
+
+msgctxt "BandwidthGraph"
+msgid "Always on Top"
+msgstr "Sempre visible"
+
+msgctxt "BandwidthGraph"
+msgid "Style"
+msgstr "Estil"
+
+msgctxt "BandwidthGraph"
+msgid "Changes the transparency of the Bandwidth Graph"
+msgstr "Canvis en la transparència del gràfic d'amplada de banda"
+
+msgctxt "BandwidthGraph"
+msgid "100"
+msgstr "100"
+
+msgctxt "BandwidthGraph"
+msgid "% Opaque"
+msgstr "% d'opacitat"
+
+msgctxt "BandwidthGraph"
+msgid "Save"
+msgstr "Desa"
+
+msgctxt "BandwidthGraph"
+msgid "Cancel"
+msgstr "Cancel·la"
+
+msgctxt "BridgeDownloader"
+msgid "Starting HTTPS bridge request..."
+msgstr "Està fent la petició per al pont HTTPS...."
+
+msgctxt "BridgeDownloader"
+msgid "Connecting to %1:%2..."
+msgstr "S'està connectant al %1:%2...."
+
+msgctxt "BridgeDownloader"
+msgid "Sending an HTTPS request for bridges..."
+msgstr "S'està trametent una petició HTTPS pels ponts..."
+
+msgctxt "BridgeDownloader"
+msgid "Downloading a list of bridges..."
+msgstr "S'està descarregant un llistat dels ponts..."
+
+msgctxt "BridgeDownloaderProgressDialog"
+msgid "Downloading Bridges"
+msgstr "S'estan descarregant els ponts"
+
+msgctxt "BridgeDownloaderProgressDialog"
+msgid "Unable to download bridges: %1"
+msgstr "Incapaç de descarregar els ponts: %1"
+
+msgctxt "BridgeDownloaderProgressDialog"
+msgid "Retrying bridge request..."
+msgstr "S'està reintentant una petició per a pont...."
+
+msgctxt "BridgeUsageDialog"
+msgid "Country"
+msgstr "País"
+
+msgctxt "BridgeUsageDialog"
+msgid "# Clients"
+msgstr "# Clients"
+
+msgctxt "BridgeUsageDialog"
+msgid "Clients from the following countries have used your relay since %1"
+msgstr "Clients des dels països següents que han utilitzat el vostre relay des de %1"
+
+msgctxt "BridgeUsageDialog"
+msgid "Bridge Usage Summary"
+msgstr "Sumari d'ús de ponts"
+
+msgctxt "BridgeUsageDialog"
+msgid "Client Summary"
+msgstr "Sumari de client"
+
+msgctxt "Circuit"
+msgid "New"
+msgstr "Nou"
+
+msgctxt "Circuit"
+msgid "Open"
+msgstr "Obre"
+
+msgctxt "Circuit"
+msgid "Building"
+msgstr "S'està construïnt"
+
+msgctxt "Circuit"
+msgid "Failed"
+msgstr "Fallit"
+
+msgctxt "Circuit"
+msgid "Closed"
+msgstr "Tancat"
+
+msgctxt "Circuit"
+msgid "Unknown"
+msgstr "Desconegut"
+
+msgctxt "CircuitItem"
+msgid "<Path Empty>"
+msgstr "<Ruta buida>"
+
+msgctxt "CircuitListWidget"
+msgid "Connection"
+msgstr "Connexió"
+
+msgctxt "CircuitListWidget"
+msgid "Status"
+msgstr "Estat"
+
+msgctxt "CircuitListWidget"
+msgid "Zoom to Circuit"
+msgstr "Apropa el circuit"
+
+msgctxt "CircuitListWidget"
+msgid "Close Circuit (Del)"
+msgstr "Tanca el circuit (Del)"
+
+msgctxt "CircuitListWidget"
+msgid "Close Stream (Del)"
+msgstr "Tanca el flux (Del)"
+
+msgctxt "ConfigDialog"
+msgid "General"
+msgstr "General"
+
+msgctxt "ConfigDialog"
+msgid "Network"
+msgstr "Xarxa"
+
+msgctxt "ConfigDialog"
+msgid "Sharing"
+msgstr "S'està compartint"
+
+msgctxt "ConfigDialog"
+msgid "Services"
+msgstr "Serveis"
+
+msgctxt "ConfigDialog"
+msgid "Appearance"
+msgstr "Aparença"
+
+msgctxt "ConfigDialog"
+msgid "Advanced"
+msgstr "Avançat"
+
+msgctxt "ConfigDialog"
+msgid "Help"
+msgstr "Ajuda"
+
+msgctxt "ConfigDialog"
+msgid "Error Saving Settings"
+msgstr "Error mentre es desaven les preferències"
+
+msgctxt "ConfigDialog"
+msgid "Vidalia was unable to save your %1 settings."
+msgstr "Vidalia ha estat incapaç de desar les vostres %1 preferències."
+
+msgctxt "ConfigDialog"
+msgid "Error Applying Settings"
+msgstr "Error mentre s'aplicaven les preferències"
+
+msgctxt "ConfigDialog"
+msgid "Vidalia was unable to apply your %1 settings to Tor."
+msgstr "Vidalia ha estat incapaç d'aplicar les %1 preferències pel Tor."
+
+msgctxt "ConfigDialog"
+msgid "Settings"
+msgstr "Preferències"
+
+msgctxt "ControlConnection"
+msgid "Vidalia was unable to connect to Tor. (%1)"
+msgstr "Vidalia ha estat incapaç de connectar-se al Tor. (%1)"
+
+msgctxt "ControlConnection"
+msgid "Control socket is not connected."
+msgstr "No hi ha connexió amb el sòcol de control."
+
+msgctxt "ControlPasswordInputDialog"
+msgid "Password Required"
+msgstr "Contrasenya requerida"
+
+msgctxt "ControlPasswordInputDialog"
+msgid "Remember my password"
+msgstr "Recorda la meva contrasenya"
+
+msgctxt "ControlPasswordInputDialog"
+msgid ""
+"Vidalia has connected to a running Tor process that requires a password. "
+"Please enter your control password:"
+msgstr "Vidalia s'ha connectat amb un procés de Tor que requereix contrasenya. Si us plau, inseriu la contrasenya de control:"
+
+msgctxt "ControlSocket"
+msgid "Control socket is not connected."
+msgstr "No hi ha connexió amb el sòcol de control."
+
+msgctxt "ControlSocket"
+msgid "Error sending control command. [%1]"
+msgstr "Error en la tramesa de la comanda de control. [%1]"
+
+msgctxt "ControlSocket"
+msgid "Socket disconnected while attempting to read a line of data."
+msgstr "Sòcol desconnectat mentre s'intentava llegir una línia de dades."
+
+msgctxt "ControlSocket"
+msgid "Invalid control reply. [%1]"
+msgstr "Rèplica de control invàlida.[%1]"
+
+msgctxt "CountryInfo"
+msgid "Afghanistan"
+msgstr "Afganistan"
+
+msgctxt "CountryInfo"
+msgid "Andorra"
+msgstr "Andorra"
+
+msgctxt "CountryInfo"
+msgid "Angola"
+msgstr "Angola"
+
+msgctxt "CountryInfo"
+msgid "Antigua & Barbuda"
+msgstr "Antigua i Barbuda"
+
+msgctxt "CountryInfo"
+msgid "Argentina"
+msgstr "Argentina"
+
+msgctxt "CountryInfo"
+msgid "Armenia"
+msgstr "Armènia"
+
+msgctxt "CountryInfo"
+msgid "Australia"
+msgstr "Austràlia"
+
+msgctxt "CountryInfo"
+msgid "Azerbaijan"
+msgstr "Azerbaitjan"
+
+msgctxt "CountryInfo"
+msgid "Bahamas"
+msgstr "Bahames"
+
+msgctxt "CountryInfo"
+msgid "Bangladesh"
+msgstr "Banglasesh"
+
+msgctxt "CountryInfo"
+msgid "Barbados"
+msgstr "Barbados"
+
+msgctxt "CountryInfo"
+msgid "Belarus"
+msgstr "Bielorússia"
+
+msgctxt "CountryInfo"
+msgid "Belgium"
+msgstr "Bèlgica"
+
+msgctxt "CountryInfo"
+msgid "Belize"
+msgstr "Belize"
+
+msgctxt "CountryInfo"
+msgid "Bhutan"
+msgstr "Bhutan"
+
+msgctxt "CountryInfo"
+msgid "Bolivia"
+msgstr "Bolívia"
+
+msgctxt "CountryInfo"
+msgid "Bosnia & Herzegovina"
+msgstr "Bòsnia i Hercegovina "
+
+msgctxt "CountryInfo"
+msgid "Botswana"
+msgstr "Botsuana"
+
+msgctxt "CountryInfo"
+msgid "Brazil"
+msgstr "Brasil"
+
+msgctxt "CountryInfo"
+msgid "Brunei Darussalam"
+msgstr "Brunei"
+
+msgctxt "CountryInfo"
+msgid "Bulgaria"
+msgstr "Bulgària"
+
+msgctxt "CountryInfo"
+msgid "Burkina Faso"
+msgstr "Burkina Faso "
+
+msgctxt "CountryInfo"
+msgid "Burundi"
+msgstr "Burundi"
+
+msgctxt "CountryInfo"
+msgid "Cambodia"
+msgstr "Cambodja"
+
+msgctxt "CountryInfo"
+msgid "Cameroon"
+msgstr "Camerun"
+
+msgctxt "CountryInfo"
+msgid "Canada"
+msgstr "Canadà"
+
+msgctxt "CountryInfo"
+msgid "Cape Verde"
+msgstr "Cap Verd"
+
+msgctxt "CountryInfo"
+msgid "Central African Republic"
+msgstr "República Centrafricana "
+
+msgctxt "CountryInfo"
+msgid "Chad"
+msgstr "Txad"
+
+msgctxt "CountryInfo"
+msgid "Chile"
+msgstr "Xile"
+
+msgctxt "CountryInfo"
+msgid "China"
+msgstr "Xina"
+
+msgctxt "CountryInfo"
+msgid "Colombia"
+msgstr "Colòmbia"
+
+msgctxt "CountryInfo"
+msgid "Comoros"
+msgstr "Comores"
+
+msgctxt "CountryInfo"
+msgid "Congo, The Democratic Republic of the"
+msgstr "República Democràtica del Congo"
+
+msgctxt "CountryInfo"
+msgid "Congo"
+msgstr "Congo"
+
+msgctxt "CountryInfo"
+msgid "Costa Rica"
+msgstr "Costa Rica"
+
+msgctxt "CountryInfo"
+msgid "Cote dâIvoire"
+msgstr "Costa d'Vori"
+
+msgctxt "CountryInfo"
+msgid "Croatia"
+msgstr "Croàcia"
+
+msgctxt "CountryInfo"
+msgid "Cuba"
+msgstr "Cuba"
+
+msgctxt "CountryInfo"
+msgid "Cyprus"
+msgstr "Xipre"
+
+msgctxt "CountryInfo"
+msgid "Czech Republic"
+msgstr "República Txeca"
+
+msgctxt "CountryInfo"
+msgid "Denmark"
+msgstr "Dinamarca"
+
+msgctxt "CountryInfo"
+msgid "Djibouti"
+msgstr "Gibuti"
+
+msgctxt "CountryInfo"
+msgid "Dominica"
+msgstr "Dominicia"
+
+msgctxt "CountryInfo"
+msgid "Dominican Republic"
+msgstr "República Dominicana"
+
+msgctxt "CountryInfo"
+msgid "Ecuador"
+msgstr "Ecuador"
+
+msgctxt "CountryInfo"
+msgid "Egypt"
+msgstr "Egipte"
+
+msgctxt "CountryInfo"
+msgid "El Salvador"
+msgstr "El Salvador"
+
+msgctxt "CountryInfo"
+msgid "Equatorial Guinea"
+msgstr "Guinea Equatorial"
+
+msgctxt "CountryInfo"
+msgid "Eritrea"
+msgstr "Eritrea"
+
+msgctxt "CountryInfo"
+msgid "Estonia"
+msgstr "Estònia"
+
+msgctxt "CountryInfo"
+msgid "France"
+msgstr "França"
+
+msgctxt "CountryInfo"
+msgid "Gabon"
+msgstr "Gabon"
+
+msgctxt "CountryInfo"
+msgid "Gambia"
+msgstr "Gàmbia"
+
+msgctxt "CountryInfo"
+msgid "Georgia"
+msgstr "Geòrgia"
+
+msgctxt "CountryInfo"
+msgid "Germany"
+msgstr "Alemanya"
+
+msgctxt "CountryInfo"
+msgid "Ghana"
+msgstr "Ghana"
+
+msgctxt "CountryInfo"
+msgid "Grenada"
+msgstr "Grenada"
+
+msgctxt "CountryInfo"
+msgid "Guatemala"
+msgstr "Guatemala"
+
+msgctxt "CountryInfo"
+msgid "Guinea"
+msgstr "Guinea"
+
+msgctxt "CountryInfo"
+msgid "Guinea-Bissau"
+msgstr "Guinea Bissau"
+
+msgctxt "CountryInfo"
+msgid "Guyana"
+msgstr "Guaiana"
+
+msgctxt "CountryInfo"
+msgid "Hong Kong"
+msgstr "Hong Kong"
+
+msgctxt "CountryInfo"
+msgid "Haiti"
+msgstr "Haití"
+
+msgctxt "CountryInfo"
+msgid "Honduras"
+msgstr "Hondures"
+
+msgctxt "CountryInfo"
+msgid "Israel"
+msgstr "Israel"
+
+msgctxt "CountryInfo"
+msgid "Italy"
+msgstr "Itàlia"
+
+msgctxt "CountryInfo"
+msgid "Jamaica"
+msgstr "Jamaica"
+
+msgctxt "CountryInfo"
+msgid "Japan"
+msgstr "Japó"
+
+msgctxt "CountryInfo"
+msgid "Jordan"
+msgstr "Jordània"
+
+msgctxt "CountryInfo"
+msgid "Kazakhstan"
+msgstr "Casaquistan"
+
+msgctxt "CountryInfo"
+msgid "Kenya"
+msgstr "Kènia"
+
+msgctxt "CountryInfo"
+msgid "Kiribati"
+msgstr "Kiribati"
+
+msgctxt "CountryInfo"
+msgid "Kuwait"
+msgstr "Kuwait"
+
+msgctxt "CountryInfo"
+msgid "Kyrgyzstan"
+msgstr "Quirguisistan"
+
+msgctxt "CountryInfo"
+msgid "Laos"
+msgstr "Laos"
+
+msgctxt "CountryInfo"
+msgid "Latvia"
+msgstr "Letònia"
+
+msgctxt "CountryInfo"
+msgid "Lebanon"
+msgstr "Líban"
+
+msgctxt "CountryInfo"
+msgid "Lesotho"
+msgstr "Lesotho"
+
+msgctxt "CountryInfo"
+msgid "Liberia"
+msgstr "Libèria"
+
+msgctxt "CountryInfo"
+msgid "Liechtenstein"
+msgstr "Liechtenstein"
+
+msgctxt "CountryInfo"
+msgid "Lithuania"
+msgstr "Lituània"
+
+msgctxt "CountryInfo"
+msgid "Luxembourg"
+msgstr "Luxemburg"
+
+msgctxt "CountryInfo"
+msgid "Macedonia"
+msgstr "Macedònia"
+
+msgctxt "CountryInfo"
+msgid "Madagascar"
+msgstr "Madagascar"
+
+msgctxt "CountryInfo"
+msgid "Malawi"
+msgstr "Malawi"
+
+msgctxt "CountryInfo"
+msgid "Malaysia"
+msgstr "Malàisia"
+
+msgctxt "CountryInfo"
+msgid "Mali"
+msgstr "Mali"
+
+msgctxt "CountryInfo"
+msgid "Malta"
+msgstr "Malta"
+
+msgctxt "CountryInfo"
+msgid "Marshall Islands"
+msgstr "Illes Marshall"
+
+msgctxt "CountryInfo"
+msgid "Mauritania"
+msgstr "Mauritània"
+
+msgctxt "CountryInfo"
+msgid "Mauritius"
+msgstr "Maurici"
+
+msgctxt "CountryInfo"
+msgid "Micronesia"
+msgstr "Micronèsia"
+
+msgctxt "CountryInfo"
+msgid "Moldova"
+msgstr "Moldàvia"
+
+msgctxt "CountryInfo"
+msgid "Monaco"
+msgstr "Mònaco"
+
+msgctxt "CountryInfo"
+msgid "Mongolia"
+msgstr "Mongòlia"
+
+msgctxt "CountryInfo"
+msgid "Montenegro"
+msgstr "Montenegro"
+
+msgctxt "CountryInfo"
+msgid "Morocco"
+msgstr "Marroc"
+
+msgctxt "CountryInfo"
+msgid "Mozambique"
+msgstr "Moçambic"
+
+msgctxt "CountryInfo"
+msgid "Namibia"
+msgstr "Namíbia"
+
+msgctxt "CountryInfo"
+msgid "Nauru"
+msgstr "Naüru"
+
+msgctxt "CountryInfo"
+msgid "Nepal"
+msgstr "Nepal"
+
+msgctxt "CountryInfo"
+msgid "Netherlands"
+msgstr "Holanda"
+
+msgctxt "CountryInfo"
+msgid "New Zealand"
+msgstr "Nova Zelanda"
+
+msgctxt "CountryInfo"
+msgid "Nicaragua"
+msgstr "Nicaràgua"
+
+msgctxt "CountryInfo"
+msgid "Niger"
+msgstr "Níger"
+
+msgctxt "CountryInfo"
+msgid "Nigeria"
+msgstr "Nigèria"
+
+msgctxt "CountryInfo"
+msgid "Norway"
+msgstr "Noruega"
+
+msgctxt "CountryInfo"
+msgid "Oman"
+msgstr "Oman"
+
+msgctxt "CountryInfo"
+msgid "Pakistan"
+msgstr "Paquistan"
+
+msgctxt "CountryInfo"
+msgid "Palau"
+msgstr "Palau"
+
+msgctxt "CountryInfo"
+msgid "Palestine"
+msgstr "Palestina"
+
+msgctxt "CountryInfo"
+msgid "Panama"
+msgstr "Panamà"
+
+msgctxt "CountryInfo"
+msgid "Papua New Guinea"
+msgstr "Nova Guinea Pàpua"
+
+msgctxt "CountryInfo"
+msgid "Paraguay"
+msgstr "Paraguai"
+
+msgctxt "CountryInfo"
+msgid "Peru"
+msgstr "Perú"
+
+msgctxt "CountryInfo"
+msgid "Philippines"
+msgstr "Filipines"
+
+msgctxt "CountryInfo"
+msgid "Poland"
+msgstr "Polònia"
+
+msgctxt "CountryInfo"
+msgid "Portugal"
+msgstr "Portugal"
+
+msgctxt "CountryInfo"
+msgid "Qatar"
+msgstr "Qatar"
+
+msgctxt "CountryInfo"
+msgid "Romania"
+msgstr "Romania"
+
+msgctxt "CountryInfo"
+msgid "Russia"
+msgstr "Rússia"
+
+msgctxt "CountryInfo"
+msgid "Rwanda"
+msgstr "Ruanda"
+
+msgctxt "CountryInfo"
+msgid "Saint Kitts & Nevis"
+msgstr "Saint Kitts i Nevis"
+
+msgctxt "CountryInfo"
+msgid "Saint Lucia"
+msgstr "Santa Llúcia"
+
+msgctxt "CountryInfo"
+msgid "Saint Vincent & the Grenadines"
+msgstr "Saint Vincent i les Grenadines"
+
+msgctxt "CountryInfo"
+msgid "Samoa"
+msgstr "Samoa"
+
+msgctxt "CountryInfo"
+msgid "San Marino"
+msgstr "Sant Marino"
+
+msgctxt "CountryInfo"
+msgid "Sao Tome & Principe"
+msgstr "São Tomé i Príncipe "
+
+msgctxt "CountryInfo"
+msgid "Saudi Arabia"
+msgstr "Aràbia Saudita"
+
+msgctxt "CountryInfo"
+msgid "Senegal"
+msgstr "Senegal"
+
+msgctxt "CountryInfo"
+msgid "Serbia"
+msgstr "Sèrbia"
+
+msgctxt "CountryInfo"
+msgid "Seychelles"
+msgstr "Seychelles"
+
+msgctxt "CountryInfo"
+msgid "Sierra Leone"
+msgstr "Sierra Leona"
+
+msgctxt "CountryInfo"
+msgid "Singapore"
+msgstr "Singapur"
+
+msgctxt "CountryInfo"
+msgid "Slovakia"
+msgstr "Eslovàquia"
+
+msgctxt "CountryInfo"
+msgid "Slovenia"
+msgstr "Eslovènia"
+
+msgctxt "CountryInfo"
+msgid "Solomon Islands"
+msgstr "Illes Salomó"
+
+msgctxt "CountryInfo"
+msgid "Somalia"
+msgstr "Somàlia"
+
+msgctxt "CountryInfo"
+msgid "South Africa"
+msgstr "Àfrica del Sud"
+
+msgctxt "CountryInfo"
+msgid "Spain"
+msgstr "Espanya"
+
+msgctxt "CountryInfo"
+msgid "Sri Lanka"
+msgstr "Sri Lanka"
+
+msgctxt "CountryInfo"
+msgid "Sudan"
+msgstr "Sudan"
+
+msgctxt "CountryInfo"
+msgid "Suriname"
+msgstr "Surinam"
+
+msgctxt "CountryInfo"
+msgid "Swaziland"
+msgstr "Suazilàndia"
+
+msgctxt "CountryInfo"
+msgid "Sweden"
+msgstr "Suècia"
+
+msgctxt "CountryInfo"
+msgid "Switzerland"
+msgstr "Suïssa"
+
+msgctxt "CountryInfo"
+msgid "Syria"
+msgstr "Síria"
+
+msgctxt "CountryInfo"
+msgid "Tajikistan"
+msgstr "Tatgiquistan"
+
+msgctxt "CountryInfo"
+msgid "Tanzania"
+msgstr "Tanzània"
+
+msgctxt "CountryInfo"
+msgid "Thailand"
+msgstr "Tailàndia"
+
+msgctxt "CountryInfo"
+msgid "Timor-Leste (East Timor)"
+msgstr "Timor Oriental"
+
+msgctxt "CountryInfo"
+msgid "Togo"
+msgstr "Togo"
+
+msgctxt "CountryInfo"
+msgid "Tonga"
+msgstr "Tonga"
+
+msgctxt "CountryInfo"
+msgid "Trinidad & Tobago"
+msgstr "Trinitat i Tobago "
+
+msgctxt "CountryInfo"
+msgid "Tunisia"
+msgstr "Tuníssia"
+
+msgctxt "CountryInfo"
+msgid "Turkey"
+msgstr "Turquia"
+
+msgctxt "CountryInfo"
+msgid "Turkmenistan"
+msgstr "Turcmenistan"
+
+msgctxt "CountryInfo"
+msgid "Tuvalu"
+msgstr "Tuvalu"
+
+msgctxt "CountryInfo"
+msgid "Uganda"
+msgstr "Uganda"
+
+msgctxt "CountryInfo"
+msgid "Ukraine"
+msgstr "Ucraïna"
+
+msgctxt "CountryInfo"
+msgid "United Arab Emirates"
+msgstr "Emirats Àrabs Units"
+
+msgctxt "CountryInfo"
+msgid "United Kingdom"
+msgstr "Regne Unit"
+
+msgctxt "CountryInfo"
+msgid "United States"
+msgstr "Estats Units"
+
+msgctxt "CountryInfo"
+msgid "Uruguay"
+msgstr "Uruguai"
+
+msgctxt "CountryInfo"
+msgid "Uzbekistan"
+msgstr "Usbequistan"
+
+msgctxt "CountryInfo"
+msgid "Vanuatu"
+msgstr "Vanuatu"
+
+msgctxt "CountryInfo"
+msgid "Vatican"
+msgstr "Vaticà"
+
+msgctxt "CountryInfo"
+msgid "Venezuela"
+msgstr "Veneçuela"
+
+msgctxt "CountryInfo"
+msgid "Vietnam"
+msgstr "Vietnam"
+
+msgctxt "CountryInfo"
+msgid "Western Sahara"
+msgstr "Sahara occidental"
+
+msgctxt "CountryInfo"
+msgid "Yemen"
+msgstr "Iemen"
+
+msgctxt "CountryInfo"
+msgid "Zambia"
+msgstr "Zàmbia"
+
+msgctxt "CountryInfo"
+msgid "Zimbabwe"
+msgstr "Zimbàue"
+
+msgctxt "CountryInfo"
+msgid "Zaire"
+msgstr ""
+
+msgctxt "CountryInfo"
+msgid "Albania"
+msgstr "Albània"
+
+msgctxt "CountryInfo"
+msgid "Algeria"
+msgstr "Algèria"
+
+msgctxt "CountryInfo"
+msgid "Austria"
+msgstr "Àustria"
+
+msgctxt "CountryInfo"
+msgid "Bahrain"
+msgstr "Bahrain"
+
+msgctxt "CountryInfo"
+msgid "Benin"
+msgstr "Benin"
+
+msgctxt "CountryInfo"
+msgid "Ethiopia"
+msgstr "Etiopia"
+
+msgctxt "CountryInfo"
+msgid "Fiji"
+msgstr "Fiji"
+
+msgctxt "CountryInfo"
+msgid "Finland"
+msgstr "Finlàndia"
+
+msgctxt "CountryInfo"
+msgid "Greece"
+msgstr "Grècia"
+
+msgctxt "CountryInfo"
+msgid "Guam"
+msgstr "Guam"
+
+msgctxt "CountryInfo"
+msgid "Hungary"
+msgstr "Hongria"
+
+msgctxt "CountryInfo"
+msgid "Iceland"
+msgstr "Islàndia"
+
+msgctxt "CountryInfo"
+msgid "India"
+msgstr "Índia"
+
+msgctxt "CountryInfo"
+msgid "Indonesia"
+msgstr "Indonèsia"
+
+msgctxt "CountryInfo"
+msgid "Iran"
+msgstr "Iran"
+
+msgctxt "CountryInfo"
+msgid "Iraq"
+msgstr "Iraq"
+
+msgctxt "CountryInfo"
+msgid "Ireland"
+msgstr "Irlanda"
+
+msgctxt "CountryInfo"
+msgid "Korea, North"
+msgstr "Corea del Nord"
+
+msgctxt "CountryInfo"
+msgid "Korea, South"
+msgstr "Corea del Sud"
+
+msgctxt "CountryInfo"
+msgid "Libya"
+msgstr "Líbia"
+
+msgctxt "CountryInfo"
+msgid "Maldives"
+msgstr "Maldives"
+
+msgctxt "CountryInfo"
+msgid "Mexico"
+msgstr "Mèxic"
+
+msgctxt "CountryInfo"
+msgid "Myanmar"
+msgstr "Mianmar"
+
+msgctxt "CountryInfo"
+msgid "Taiwan"
+msgstr "Taiwan"
+
+msgctxt "CrashReportDialog"
+msgid "Submit a Crash Report"
+msgstr ""
+
+msgctxt "CrashReportDialog"
+msgid "Vidalia encountered an error and needed to close"
+msgstr ""
+
+msgctxt "CrashReportDialog"
+msgid "Restart Vidalia"
+msgstr ""
+
+msgctxt "CrashReportDialog"
+msgid "Don't Restart"
+msgstr ""
+
+msgctxt "CrashReportDialog"
+msgid "Unable to restart Vidalia"
+msgstr ""
+
+msgctxt "CrashReportDialog"
+msgid ""
+"We were unable to automatically restart Vidalia. Please restart Vidalia "
+"manually."
+msgstr "Hem estat incapaços de reiniciar Vidalia de manera automàtica. Si us plau, reinicieu Vidalia manualment."
+
+msgctxt "CrashReportDialog"
+msgid "Please fill a ticket in:"
+msgstr ""
+
+msgctxt "CrashReportDialog"
+msgid ""
+"<a "
+"href=\"https://trac.torproject.org/projects/tor/newticket\">https://trac.torproject.org/projects/tor/newticket</a>"
+msgstr ""
+
+msgctxt "CrashReportDialog"
+msgid ""
+"A crash report has been created that you can send to the Vidalia developers "
+"to help identify and fix the problem. The submitted report does not contain "
+"any personally identifying information."
+msgstr ""
+
+msgctxt "CrashReportDialog"
+msgid ""
+"with a description of what you were doing before the application crashed, "
+"along with the following files corresponding to the crash report:"
+msgstr ""
+
+msgctxt "GeneralPage"
+msgid "Executables (*.exe)"
+msgstr "Executables (*.exe)"
+
+msgctxt "GeneralPage"
+msgid "Select Path to Tor"
+msgstr "Seleccioneu la ruta del Tor"
+
+msgctxt "GeneralPage"
+msgid "Select Proxy Executable"
+msgstr "Seleccioneu l'executable per al servidor intermediari"
+
+msgctxt "GeneralPage"
+msgid "You must specify the name of your Tor executable."
+msgstr "Heu d'especificar el nom de l'executable del Tor"
+
+msgctxt "GeneralPage"
+msgid "Start Vidalia when my system starts"
+msgstr "Executa Vidalia quan el sistema arranqui"
+
+msgctxt "GeneralPage"
+msgid "Browse"
+msgstr "Navega"
+
+msgctxt "GeneralPage"
+msgid "Start the Tor software when Vidalia starts"
+msgstr "Executa el Tor quan arranqui Vidalia"
+
+msgctxt "GeneralPage"
+msgid "Tor"
+msgstr "Tor"
+
+msgctxt "GeneralPage"
+msgid "Proxy Application (optional)"
+msgstr "Aplicació de proxy (opcional)"
+
+msgctxt "GeneralPage"
+msgid "Start a proxy application when Tor starts"
+msgstr "Arranca l'aplicació de proxy quan arranqui el Tor"
+
+msgctxt "GeneralPage"
+msgid "Proxy Application Arguments:"
+msgstr "Paràmetres per a l'aplicació del servidor intermediari"
+
+msgctxt "GeneralPage"
+msgid "Software Updates"
+msgstr "Actualitzacions de programari"
+
+msgctxt "GeneralPage"
+msgid "Check for new software updates automatically"
+msgstr "Reviseu de forma automàtica les actualitzacions de nou programari"
+
+msgctxt "GeneralPage"
+msgid "Check Now"
+msgstr "Revisau ara"
+
+msgctxt "GraphFrame"
+msgid "%1 KB/s"
+msgstr "%1 KB/s"
+
+msgctxt "GraphFrame"
+msgid "%1 KB"
+msgstr "%1 KB"
+
+msgctxt "GraphFrame"
+msgid "%1 MB"
+msgstr "%1 MB"
+
+msgctxt "GraphFrame"
+msgid "%1 GB"
+msgstr "%1 GB"
+
+msgctxt "GraphFrame"
+msgid "Recv:"
+msgstr "Rebuts:"
+
+msgctxt "GraphFrame"
+msgid "Sent:"
+msgstr "Enviats:"
+
+msgctxt "HelpBrowser"
+msgid "Supplied XML file is not a valid Contents document."
+msgstr "El fitxer XML proporcionat no és un document vàlid de Continguts."
+
+msgctxt "HelpBrowser"
+msgid "Search reached end of document"
+msgstr "La recerca ha arribat al final del document"
+
+msgctxt "HelpBrowser"
+msgid "Search reached start of document"
+msgstr "La recerca ha arribat a l'inici del document"
+
+msgctxt "HelpBrowser"
+msgid "Text not found in document"
+msgstr "El text no ha estat trobat en el document"
+
+msgctxt "HelpBrowser"
+msgid "Found %1 results"
+msgstr "S'han trobat %1 resultats"
+
+msgctxt "HelpBrowser"
+msgid "Vidalia Help"
+msgstr "Ajuda de Vidalia"
+
+msgctxt "HelpBrowser"
+msgid "Back"
+msgstr "Enrera"
+
+msgctxt "HelpBrowser"
+msgid "Move to previous page (Backspace)"
+msgstr "Mou a la pàgina prèvia (Backspace)"
+
+msgctxt "HelpBrowser"
+msgid "Backspace"
+msgstr "Retrocés"
+
+msgctxt "HelpBrowser"
+msgid "Forward"
+msgstr "Avança"
+
+msgctxt "HelpBrowser"
+msgid "Move to next page (Shift+Backspace)"
+msgstr "Mou a la pàgina següent (Shift+Backspace)"
+
+msgctxt "HelpBrowser"
+msgid "Shift+Backspace"
+msgstr "Shift+Backspace"
+
+msgctxt "HelpBrowser"
+msgid "Home"
+msgstr "Inici"
+
+msgctxt "HelpBrowser"
+msgid "Move to the Home page (Ctrl+H)"
+msgstr "Vés a la pàgina d'inici (Ctrl+H)"
+
+msgctxt "HelpBrowser"
+msgid "Ctrl+H"
+msgstr "Ctrl+H"
+
+msgctxt "HelpBrowser"
+msgid "Find"
+msgstr "Cerca"
+
+msgctxt "HelpBrowser"
+msgid "Search for a word or phrase on current page (Ctrl+F)"
+msgstr "Cerca per una paraula o frase en la pàgina actual (Ctrl+F)"
+
+msgctxt "HelpBrowser"
+msgid "Ctrl+F"
+msgstr "Ctrl+F"
+
+msgctxt "HelpBrowser"
+msgid "Close"
+msgstr "Tanca"
+
+msgctxt "HelpBrowser"
+msgid "Close Vidalia Help"
+msgstr "Tanca l'ajuda de Vidalia"
+
+msgctxt "HelpBrowser"
+msgid "Esc"
+msgstr "Esc"
+
+msgctxt "HelpBrowser"
+msgid "Find:"
+msgstr "Cerca:"
+
+msgctxt "HelpBrowser"
+msgid "Find Previous"
+msgstr "Cerca anterior"
+
+msgctxt "HelpBrowser"
+msgid "Find Next"
+msgstr "Cerca següent"
+
+msgctxt "HelpBrowser"
+msgid "Case sensitive"
+msgstr "Distingeix majúscules i minúscules"
+
+msgctxt "HelpBrowser"
+msgid "Whole words only"
+msgstr "Només paraules senceres"
+
+msgctxt "HelpBrowser"
+msgid "Help Topics"
+msgstr "Temes d'ajuda"
+
+msgctxt "HelpBrowser"
+msgid "Contents"
+msgstr "Continguts"
+
+msgctxt "HelpBrowser"
+msgid "Search"
+msgstr "Recerca"
+
+msgctxt "HelpBrowser"
+msgid "Searching for:"
+msgstr "Recerca per:"
+
+msgctxt "HelpBrowser"
+msgid "Found Documents"
+msgstr "Documents trobats"
+
+msgctxt "HelpBrowser"
+msgid "Error Loading Help Contents:"
+msgstr "Error mentre carregava els continguts d'ajuda"
+
+msgctxt "HelpTextBrowser"
+msgid "Opening External Link"
+msgstr "S'està obrint un enllaç extern"
+
+msgctxt "HelpTextBrowser"
+msgid ""
+"Vidalia can open the link you selected in your default Web browser. If your "
+"browser is not currently configured to use Tor then the request will not be "
+"anonymous."
+msgstr "Vidalia pot obrir l'enllaç que heu seleccionat en el seu navegador per defecte. Si el vostre navegador no està actualment configurat per a utilitzar el Tor, llavors la petició no podrà ser anònima"
+
+msgctxt "HelpTextBrowser"
+msgid "Do you want Vidalia to open the link in your Web browser?"
+msgstr "Desitgeu que Vidalia obri l'enllaç en el seu navegador web ?"
+
+msgctxt "HelpTextBrowser"
+msgid "Unable to Open Link"
+msgstr "Incapaç d'obrir l'enllaç"
+
+msgctxt "HelpTextBrowser"
+msgid ""
+"Vidalia was unable to open the selected link in your Web browser. You can "
+"still copy the URL and paste it into your browser."
+msgstr "Vidalia ha estat incapaç d'obrir l'enllaç que heu seleccionat en el seu navegador Web. De totes maneres, encara podeu copiar la URL i enganxar-la en el vostre navegador web."
+
+msgctxt "HelpTextBrowser"
+msgid "Error opening help file:"
+msgstr "Error mentre s'obria el fitxer d'ajuda:"
+
+msgctxt "LicenseDialog"
+msgid "License Information"
+msgstr "Informació de la llicència"
+
+msgctxt "LicenseDialog"
+msgid "License"
+msgstr "Llicència"
+
+msgctxt "LicenseDialog"
+msgid "Credits"
+msgstr "Crèdits"
+
+msgctxt "LogEvent"
+msgid "Debug"
+msgstr "Debug"
+
+msgctxt "LogEvent"
+msgid "Info"
+msgstr "Informació"
+
+msgctxt "LogEvent"
+msgid "Notice"
+msgstr "Notice"
+
+msgctxt "LogEvent"
+msgid "Warning"
+msgstr "Avís"
+
+msgctxt "LogEvent"
+msgid "Error"
+msgstr "Error"
+
+msgctxt "LogEvent"
+msgid "Unknown"
+msgstr "Desconegut"
+
+msgctxt "LogTreeItem"
+msgid "Debug"
+msgstr ""
+
+msgctxt "LogTreeItem"
+msgid "Info"
+msgstr "Info"
+
+msgctxt "LogTreeItem"
+msgid "Notice"
+msgstr ""
+
+msgctxt "LogTreeItem"
+msgid "Warning"
+msgstr "Avís"
+
+msgctxt "LogTreeItem"
+msgid "Error"
+msgstr "Error"
+
+msgctxt "LogTreeItem"
+msgid "Unknown"
+msgstr "Desconegut"
+
+msgctxt "MainWindow"
+msgid "Start Tor"
+msgstr "Arranca el Tor"
+
+msgctxt "MainWindow"
+msgid "Exit"
+msgstr "Surt"
+
+msgctxt "MainWindow"
+msgid "Bandwidth Graph"
+msgstr "Gràfica de l'amplada de banda"
+
+msgctxt "MainWindow"
+msgid "Message Log"
+msgstr "Message Log"
+
+msgctxt "MainWindow"
+msgid "Network Map"
+msgstr "Mapa de xarxa"
+
+msgctxt "MainWindow"
+msgid "Control Panel"
+msgstr "Panell de control"
+
+msgctxt "MainWindow"
+msgid "Settings"
+msgstr "Preferències"
+
+msgctxt "MainWindow"
+msgid "About"
+msgstr "En quant a"
+
+msgctxt "MainWindow"
+msgid "Help"
+msgstr "Ajuda"
+
+msgctxt "MainWindow"
+msgid "New Identity"
+msgstr "Nova identitat"
+
+msgctxt "MainWindow"
+msgid "Ctrl+T"
+msgstr "Ctrl+T"
+
+msgctxt "MainWindow"
+msgid "Ctrl+B"
+msgstr "Ctrl+B"
+
+msgctxt "MainWindow"
+msgid "Ctrl+L"
+msgstr "Ctrl+L"
+
+msgctxt "MainWindow"
+msgid "Ctrl+N"
+msgstr "Ctrl+N"
+
+msgctxt "MainWindow"
+msgid "Ctrl+?"
+msgstr "Ctrl+?"
+
+msgctxt "MainWindow"
+msgid "Ctrl+I"
+msgstr "Ctrl+I"
+
+msgctxt "MainWindow"
+msgid "Ctrl+P"
+msgstr "Ctrl+P"
+
+msgctxt "MainWindow"
+msgid "Tor"
+msgstr "Tor"
+
+msgctxt "MainWindow"
+msgid "View"
+msgstr "Visualitza"
+
+msgctxt "MainWindow"
+msgid "Vidalia Help"
+msgstr "Ajuda de Vidalia"
+
+msgctxt "MainWindow"
+msgid "Error starting web browser"
+msgstr "Error mentre s'iniciava el navegador web"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to start the configured web browser"
+msgstr "Vidalia ha estat incapaç d'iniciar el navegador web configurat"
+
+msgctxt "MainWindow"
+msgid "Error starting IM client"
+msgstr "Error mentre s'iniciava el client IM"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to start the configured IM client"
+msgstr "Vidalia ha estat incapaç d'iniciar el client IM configurat"
+
+msgctxt "MainWindow"
+msgid "Error starting proxy server"
+msgstr "Error mentre s'iniciava el servidor intermediari"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to start the configured proxy server"
+msgstr "Vidalia ha estat incapaç d'iniciar el servidor intermediari configurat"
+
+msgctxt "MainWindow"
+msgid "Connecting to a relay directory"
+msgstr "Connecting to a relay directory"
+
+msgctxt "MainWindow"
+msgid "Establishing an encrypted directory connection"
+msgstr "S'està establint una connexió a un directori xifrat"
+
+msgctxt "MainWindow"
+msgid "Retrieving network status"
+msgstr "S'està rebent l'estat de la xarxa"
+
+msgctxt "MainWindow"
+msgid "Loading network status"
+msgstr "S'està carregant l'estat de la xarxa"
+
+msgctxt "MainWindow"
+msgid "Loading authority certificates"
+msgstr "S'estan carregant les autoritats de certificació"
+
+msgctxt "MainWindow"
+msgid "Requesting relay information"
+msgstr "S'està demanant informació del relé"
+
+msgctxt "MainWindow"
+msgid "Loading relay information"
+msgstr "S'està carregant informació del relé"
+
+msgctxt "MainWindow"
+msgid "Connecting to the Tor network"
+msgstr "S'està connectant a la xarxa Tor"
+
+msgctxt "MainWindow"
+msgid "Establishing a Tor circuit"
+msgstr "S'està establint un circuit amb el Tor"
+
+msgctxt "MainWindow"
+msgid "Connected to the Tor network!"
+msgstr "Connectats a la xarxa Tor!"
+
+msgctxt "MainWindow"
+msgid "miscellaneous"
+msgstr "miscel·lània"
+
+msgctxt "MainWindow"
+msgid "identity mismatch"
+msgstr ""
+
+msgctxt "MainWindow"
+msgid "done"
+msgstr "fet"
+
+msgctxt "MainWindow"
+msgid "connection refused"
+msgstr "connexió refusada"
+
+msgctxt "MainWindow"
+msgid "connection timeout"
+msgstr "S'ha excedit el temps d'espera de connexió"
+
+msgctxt "MainWindow"
+msgid "read/write error"
+msgstr "error de lectura/escriptura"
+
+msgctxt "MainWindow"
+msgid "no route to host"
+msgstr "no hi ha ruta cap al servidor"
+
+msgctxt "MainWindow"
+msgid "insufficient resources"
+msgstr "recursos insuficients"
+
+msgctxt "MainWindow"
+msgid "unknown"
+msgstr "desconegut"
+
+msgctxt "MainWindow"
+msgid "Tor is not running"
+msgstr "El Tor no s'està executant"
+
+msgctxt "MainWindow"
+msgid "Tor is shutting down"
+msgstr "S'està tancant el Tor"
+
+msgctxt "MainWindow"
+msgid "Stop Tor Now"
+msgstr "Atura el Tor ara"
+
+msgctxt "MainWindow"
+msgid "Stop Tor"
+msgstr "Atura el Tor"
+
+msgctxt "MainWindow"
+msgid "Starting the Tor software"
+msgstr "S'està arrancant el programari Tor"
+
+msgctxt "MainWindow"
+msgid "Starting Tor"
+msgstr "S'està arrancant el Tor"
+
+msgctxt "MainWindow"
+msgid "Error Starting Tor"
+msgstr "Error mentre s'arrancava el Tor"
+
+msgctxt "MainWindow"
+msgid ""
+"Vidalia was unable to start Tor. Check your settings to ensure the correct "
+"name and location of your Tor executable is specified."
+msgstr "Vidalia ha estat incapaç d'arrancar el Tor. Reviseu les vostres preferències per a assegurar-vos que el nom és correcte i la ubicació de l'executable del Tor està especificada."
+
+msgctxt "MainWindow"
+msgid "Connecting to Tor"
+msgstr "S'està connectant al Tor"
+
+msgctxt "MainWindow"
+msgid "Connection Error"
+msgstr "Error en la connexió"
+
+msgctxt "MainWindow"
+msgid "Relaying is Enabled"
+msgstr "El relaying està habilitat"
+
+msgctxt "MainWindow"
+msgid "Error Shutting Down"
+msgstr "Error mentre es tancava"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to stop the Tor software."
+msgstr "Vidalia ha estat incapaç d'aturar el Tor."
+
+msgctxt "MainWindow"
+msgid "Unexpected Error"
+msgstr "Error imprevist"
+
+msgctxt "MainWindow"
+msgid "Authenticating to Tor"
+msgstr "S'està autenticant el Tor"
+
+msgctxt "MainWindow"
+msgid "Cookie Authentication Required"
+msgstr "Es requereix l'autenticació amb galetes"
+
+msgctxt "MainWindow"
+msgid ""
+"The Tor software requires Vidalia to send the contents of an authentication "
+"cookie, but Vidalia was unable to find one."
+msgstr "El programari Tor requereix Vidalia per a trametre els continguts d'una galeta d'autenticació, però Vidalia ha estat incapaç de trobar-ne cap."
+
+msgctxt "MainWindow"
+msgid "Would you like to browse for the file 'control_auth_cookie' yourself?"
+msgstr "Desitgeu navegar pel fitxer 'control_auth_cookie' vós mateix?"
+
+msgctxt "MainWindow"
+msgid "Data Directory"
+msgstr "Carpeta de dades"
+
+msgctxt "MainWindow"
+msgid "Control Cookie (control_auth_cookie)"
+msgstr "Control de galetes (control_auth_cookie)"
+
+msgctxt "MainWindow"
+msgid "Error Registering for Events"
+msgstr "Error mentre s'enregistraven els esdeveniments"
+
+msgctxt "MainWindow"
+msgid ""
+"Vidalia was unable to register for some events. Many of Vidalia's features "
+"may be unavailable."
+msgstr "Vidalia ha estat incapaç d'entregistrar diversos esdeveniments. Moltes de les característiques de Vidalia podrien no estar disponibles."
+
+msgctxt "MainWindow"
+msgid "Authentication Error"
+msgstr "Error d'autenticació"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to authenticate to the Tor software. (%1)"
+msgstr "Vidalia ha estat incapaç d'autenticar-se amb el programari Tor. (%1)"
+
+msgctxt "MainWindow"
+msgid "Please check your control port authentication settings."
+msgstr "Si us plau, reviseu el paràmetre amb el port de control d'autenticació."
+
+msgctxt "MainWindow"
+msgid "Tor Update Available"
+msgstr "Actualització de Tor disponible"
+
+msgctxt "MainWindow"
+msgid ""
+"The currently installed version of Tor is out of date or no longer "
+"recommended. Please visit the Tor website to download the latest version."
+msgstr "La versió actual del Tor està desactualitzada i ja no està recomanada. Si us plau, visiteu el lloc web del Tor per a descarregar la darrera versió."
+
+msgctxt "MainWindow"
+msgid "Tor website: %1"
+msgstr "Lloc web del Tor: %1"
+
+msgctxt "MainWindow"
+msgid ""
+"All subsequent connections will appear to be different than your old "
+"connections."
+msgstr "Totes les connexions següents apareixeran diferents que les seves antigues connexions."
+
+msgctxt "MainWindow"
+msgid "Failed to Create New Identity"
+msgstr "Creació de Nova Identitat fallida"
+
+msgctxt "MainWindow"
+msgid "Port Forwarding Failed"
+msgstr "Reenviament de ports fallit"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to configure automatic port forwarding."
+msgstr "Vidalia ha estat incapaç de configurar automàticament el reenviament de ports."
+
+msgctxt "MainWindow"
+msgid "Vidalia Control Panel"
+msgstr "Panell de control de Vidalia"
+
+msgctxt "MainWindow"
+msgid "Status"
+msgstr "Estat"
+
+msgctxt "MainWindow"
+msgid "Vidalia Shortcuts"
+msgstr "Dreceres de Vidalia"
+
+msgctxt "MainWindow"
+msgid "Setup Relaying"
+msgstr "Configuració del relaying"
+
+msgctxt "MainWindow"
+msgid "Set up a relay and help the network grow"
+msgstr "Establiu un relay i ajudeu la xarxa a créixer"
+
+msgctxt "MainWindow"
+msgid "View the Network"
+msgstr "Visualitza la xarxa"
+
+msgctxt "MainWindow"
+msgid "View a map of the Tor network"
+msgstr "Visualitza un mapa de la xarxa Tor"
+
+msgctxt "MainWindow"
+msgid "Use a New Identity"
+msgstr "Utilitza una nova Identitat"
+
+msgctxt "MainWindow"
+msgid "Make subsequent connections appear new"
+msgstr "Fés que les connexions següents semblin noves"
+
+msgctxt "MainWindow"
+msgid "View recent bandwidth usage"
+msgstr "Visualitza l'ús recent de l'amplada de banda"
+
+msgctxt "MainWindow"
+msgid "View log message history"
+msgstr "Visualitza l'historial de missatges de registre"
+
+msgctxt "MainWindow"
+msgid "View help documentation"
+msgstr "Visualitza la documentació d'ajuda"
+
+msgctxt "MainWindow"
+msgid "Configure Vidalia"
+msgstr "Configura Vidalia"
+
+msgctxt "MainWindow"
+msgid "View version and license information"
+msgstr "Visualitza la versió i informació de llicència"
+
+msgctxt "MainWindow"
+msgid "Exit Vidalia"
+msgstr "Surt de Vidalia"
+
+msgctxt "MainWindow"
+msgid "Show this window on startup"
+msgstr "Mostra aquesta finestra en l'arrancada"
+
+msgctxt "MainWindow"
+msgid "Hide"
+msgstr "Oculta"
+
+msgctxt "MainWindow"
+msgid "Hide this window"
+msgstr "Oculta aquesta finestra"
+
+msgctxt "MainWindow"
+msgid "Password Reset Failed"
+msgstr "Reinicialització de la contrasenya fallida"
+
+msgctxt "MainWindow"
+msgid ""
+"Vidalia tried to reset Tor's control password, but was not able to restart "
+"the Tor software. Please check your Task Manager to ensure there are no "
+"other Tor processes running."
+msgstr "Vidalia ha intentat reinicialitzar la contrasenya de control del Tor, però no ha etat capaç de reinicialitzar el programari Tor. Si us plau, reviseu el Gestor de Tasques per a assegurar-vos que no hi ha d'altres processos Tor executant-se."
+
+msgctxt "MainWindow"
+msgid ""
+"The currently installed version of Tor is out of date or no longer "
+"recommended."
+msgstr "La versió instal·lada del Tor està desactualitzada i ja no està recomanada."
+
+msgctxt "MainWindow"
+msgid ""
+"Would you like to check if a newer package is available for installation?"
+msgstr "Desitgeu revisar si un paquet més nou està disponible per a ser instal·lat?"
+
+msgctxt "MainWindow"
+msgid "Potentially Unsafe Connection"
+msgstr "Connexió potencialment insegura"
+
+msgctxt "MainWindow"
+msgid ""
+"Tor has automatically closed your connection in order to protect your "
+"anonymity."
+msgstr "El Tor ha tancat de manera automàtica la seva connexió per tal d'assegurar la seva anonimitat."
+
+msgctxt "MainWindow"
+msgid "Update Failed"
+msgstr "Actualització fallida"
+
+msgctxt "MainWindow"
+msgid "Your software is up to date"
+msgstr "El seu programari està actualitzat"
+
+msgctxt "MainWindow"
+msgid ""
+"There are no new Tor software packages available for your computer at this "
+"time."
+msgstr "No hi ha nous paquets de programari del Tor disponibles pel seu ordinador en aquest moment."
+
+msgctxt "MainWindow"
+msgid "Installation Failed"
+msgstr "Instal·lació fallida"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to install your software updates."
+msgstr "Vidalia ha estat incapaç d'instal·lar les actualitzacions de programari."
+
+msgctxt "MainWindow"
+msgid "The following error occurred:"
+msgstr "Ha succeït el següent error:"
+
+msgctxt "MainWindow"
+msgid ""
+"Anything sent over this connection could be monitored. Please check your "
+"application's configuration and use only encrypted protocols, such as SSL, "
+"if possible."
+msgstr "Tot el que s'envïi per aquesta connexió serà monitoritzat. Si us plau, reviseu la configuració de la vostra aplicació i utilitzeu només protocols xifrats, com SSL."
+
+msgctxt "MainWindow"
+msgid "Bootstrapping torrc from %1 to %2"
+msgstr ""
+
+msgctxt "MainWindow"
+msgid "(probably Telnet)"
+msgstr ""
+
+msgctxt "MainWindow"
+msgid "(probably an email client)"
+msgstr ""
+
+msgctxt "MainWindow"
+msgid ""
+"One of your applications %1 appears to be making a potentially unencrypted "
+"and unsafe connection to port %2."
+msgstr ""
+
+msgctxt "MainWindow"
+msgid "failed (%1)"
+msgstr "fallit (%1)"
+
+msgctxt "MainWindow"
+msgid ""
+"Your relay is shutting down.\n"
+"Click 'Stop' again to stop your relay now."
+msgstr "El vostre relé s'està tancant.\nFeu clic un altre cop a \"Atura\" per a aturar el relé."
+
+msgctxt "MainWindow"
+msgid ""
+"Vidalia can't find out how to talk to Tor because it can't access this file: %1\n"
+"\n"
+"Here's the last error message:\n"
+"%2"
+msgstr ""
+
+msgctxt "MainWindow"
+msgid ""
+"It seems Tor has stopped running since Vidalia started it.\n"
+"\n"
+"See the Advanced Message Log for more information."
+msgstr ""
+
+msgctxt "MainWindow"
+msgid ""
+"You are currently running a relay. Terminating your relay will interrupt any open connections from clients.\n"
+"\n"
+"Would you like to shutdown gracefully and give clients time to find a new relay?"
+msgstr ""
+
+msgctxt "MainWindow"
+msgid ""
+"Vidalia detected that the Tor software exited unexpectedly.\n"
+"\n"
+"Please check the message log for recent warning or error messages."
+msgstr "Vidalia ha detectat que el programari Tor ha abortat inesperadament.\n\nSi us plau, reviseu el fitxer de registre per a avisos recents o missatges d'error."
+
+msgctxt "MessageLog"
+msgid "Error Setting Filter"
+msgstr "Error establint filtre"
+
+msgctxt "MessageLog"
+msgid "Vidalia was unable to register for Tor's log events."
+msgstr "Vidalia ha estat incapaç d'enregistrar els esdeveniments del Tor"
+
+msgctxt "MessageLog"
+msgid "Error Opening Log File"
+msgstr "Error mentre s'obrir el fitxer de registre"
+
+msgctxt "MessageLog"
+msgid "Vidalia was unable to open the specified log file."
+msgstr "Vidalia no ha pogut el fitxer de registre especificat."
+
+msgctxt "MessageLog"
+msgid "Log Filename Required"
+msgstr "Cal especificar un nom de fitxer de registre"
+
+msgctxt "MessageLog"
+msgid "You must enter a filename to be able to save log messages to a file."
+msgstr "Heu d'introduir un nom de fitxer per a poder-hi desar els missatges de registre."
+
+msgctxt "MessageLog"
+msgid "Select Log File"
+msgstr "Trieu un fitxer de registre"
+
+msgctxt "MessageLog"
+msgid "Save Log Messages"
+msgstr "Desa els missatges de registre"
+
+msgctxt "MessageLog"
+msgid "Text Files (*.txt)"
+msgstr "Fitxers de text (*.txt)"
+
+msgctxt "MessageLog"
+msgid "Vidalia"
+msgstr "Vidalia"
+
+msgctxt "MessageLog"
+msgid "Find in Message Log"
+msgstr "Cerca al registre de missatges"
+
+msgctxt "MessageLog"
+msgid "Find:"
+msgstr "Cerca:"
+
+msgctxt "MessageLog"
+msgid "Not Found"
+msgstr "No ha estat trobat"
+
+msgctxt "MessageLog"
+msgid "Search found 0 matches."
+msgstr "S'han trobat 0 coincidències per la cerca"
+
+msgctxt "MessageLog"
+msgid "Message Log"
+msgstr "Registre de missatges"
+
+msgctxt "MessageLog"
+msgid "Message Filters..."
+msgstr "Filtres de missatges..."
+
+msgctxt "MessageLog"
+msgid "Set message filters"
+msgstr "Estableix filtres de missatge"
+
+msgctxt "MessageLog"
+msgid "History Size..."
+msgstr "Mida de la història"
+
+msgctxt "MessageLog"
+msgid "Set maximum number of messages to display"
+msgstr "Estableix el nombre màxim de missatges a mostrar"
+
+msgctxt "MessageLog"
+msgid "Clear"
+msgstr "Neteja"
+
+msgctxt "MessageLog"
+msgid "Clear all messages from the Message Log (Ctrl+E)"
+msgstr "Esborreu tots els missatges del registre de missatges (Ctrl+E)"
+
+msgctxt "MessageLog"
+msgid "Ctrl+E"
+msgstr "Ctrl+E"
+
+msgctxt "MessageLog"
+msgid "Copy"
+msgstr "Copia"
+
+msgctxt "MessageLog"
+msgid "Copy the selected messages to the clipboard (Ctrl+C)"
+msgstr "Copia els missatges seleccionats en el porta-retalls (Ctrl+C)"
+
+msgctxt "MessageLog"
+msgid "Ctrl+C"
+msgstr "Ctrl+C"
+
+msgctxt "MessageLog"
+msgid "Select All"
+msgstr "Selecciona-ho tot"
+
+msgctxt "MessageLog"
+msgid "Select all messages (Ctrl+A)"
+msgstr "Selecciona tots els missatges (Ctrl+A)"
+
+msgctxt "MessageLog"
+msgid "Ctrl+A"
+msgstr "Ctrl+A"
+
+msgctxt "MessageLog"
+msgid "Save All"
+msgstr "Desa-ho tot"
+
+msgctxt "MessageLog"
+msgid "Save all messages to a file"
+msgstr "Desa tots els missatges en el fitxer"
+
+msgctxt "MessageLog"
+msgid "Save Selected"
+msgstr "Desa els seleccionats"
+
+msgctxt "MessageLog"
+msgid "Save selected messages to a file"
+msgstr "Desa els missatges seleccionats en el fitxer"
+
+msgctxt "MessageLog"
+msgid "Settings"
+msgstr "Preferències"
+
+msgctxt "MessageLog"
+msgid "Adjust Message Log Settings"
+msgstr "Ajusteu els paràmetres del registre"
+
+msgctxt "MessageLog"
+msgid "Ctrl+T"
+msgstr "Ctrl+T"
+
+msgctxt "MessageLog"
+msgid "Help"
+msgstr "Ajuda"
+
+msgctxt "MessageLog"
+msgid "Show the help browser"
+msgstr "Mostra el navegador de l'ajuda"
+
+msgctxt "MessageLog"
+msgid "F1"
+msgstr "F1"
+
+msgctxt "MessageLog"
+msgid "Close"
+msgstr "Tanca"
+
+msgctxt "MessageLog"
+msgid "Close the Message Log"
+msgstr "Tanca el registre de missatges"
+
+msgctxt "MessageLog"
+msgid "Esc"
+msgstr "Esc"
+
+msgctxt "MessageLog"
+msgid "Find"
+msgstr "Cerca"
+
+msgctxt "MessageLog"
+msgid "Find all messages containing the search text (Ctrl+F)"
+msgstr "Cerca tots els missatges que continguin el text (Ctrl+F)"
+
+msgctxt "MessageLog"
+msgid "Ctrl+F"
+msgstr "Ctrl+F"
+
+msgctxt "MessageLog"
+msgid "Time"
+msgstr "Temps"
+
+msgctxt "MessageLog"
+msgid "Type"
+msgstr "Tipus"
+
+msgctxt "MessageLog"
+msgid "Message"
+msgstr "Missatge"
+
+msgctxt "MessageLog"
+msgid "Saves the current Message Log settings"
+msgstr "Desa els paràmetres actuals del registre de missatges"
+
+msgctxt "MessageLog"
+msgid "Save Settings"
+msgstr "Desa els paràmetres"
+
+msgctxt "MessageLog"
+msgid "Cancels changes made to settings"
+msgstr "Desfès els canvis fets als paràmetres"
+
+msgctxt "MessageLog"
+msgid "Cancel"
+msgstr "Cancel·la"
+
+msgctxt "MessageLog"
+msgid "Message Filter"
+msgstr "Filtre de missatges"
+
+msgctxt "MessageLog"
+msgid "Error"
+msgstr "Error"
+
+msgctxt "MessageLog"
+msgid "Warning"
+msgstr "Advertència"
+
+msgctxt "MessageLog"
+msgid "Notice"
+msgstr "Avís"
+
+msgctxt "MessageLog"
+msgid "Info"
+msgstr "Informació"
+
+msgctxt "MessageLog"
+msgid "Debug"
+msgstr "Depura"
+
+msgctxt "MessageLog"
+msgid "Message Log History"
+msgstr "Històric del registre de missatges"
+
+msgctxt "MessageLog"
+msgid "Number of messages to display in the message log window"
+msgstr "Nombre de missatges a mostrar a la finestra del registre de missatges"
+
+msgctxt "MessageLog"
+msgid "messages"
+msgstr "missatges"
+
+msgctxt "MessageLog"
+msgid "Browse"
+msgstr "Navega"
+
+msgctxt "MessageLog"
+msgid "Enable automatically saving all new log messages to a file"
+msgstr "Habilita el desament automàtic a un fitxer dels missatges de registre "
+
+msgctxt "MessageLog"
+msgid "Automatically save new log messages to a file"
+msgstr "Desa automàticament a fitxer els nous missatges de registre"
+
+msgctxt "MessageLog"
+msgid "Basic"
+msgstr "Bàsic"
+
+msgctxt "MessageLog"
+msgid "Tor Status"
+msgstr "Estat del Tor"
+
+msgctxt "MessageLog"
+msgid "Advanced"
+msgstr "Avançat"
+
+msgctxt "MessageLog"
+msgid "Always Save New Log Messages"
+msgstr "Desa sempre els missatges de registre nous"
+
+msgctxt "MessageLog"
+msgid ""
+"Messages that appear when something has \n"
+"gone very wrong and Tor cannot proceed."
+msgstr ""
+
+msgctxt "MessageLog"
+msgid ""
+"Messages that only appear when \n"
+"something has gone wrong with Tor."
+msgstr ""
+
+msgctxt "MessageLog"
+msgid ""
+"Messages that appear infrequently \n"
+"during normal Tor operation and are \n"
+"not considered errors, but you may \n"
+"care about."
+msgstr ""
+
+msgctxt "MessageLog"
+msgid ""
+"Messages that appear frequently \n"
+"during normal Tor operation."
+msgstr "Missatges que apareixen sovient\ndurant l'operació normal del Tor"
+
+msgctxt "MessageLog"
+msgid ""
+"Hyper-verbose messages primarily of \n"
+"interest to Tor developers."
+msgstr ""
+
+msgctxt "MessageLog"
+msgid ""
+"Cannot write file %1\n"
+"\n"
+"%2."
+msgstr "No és possible escriure el fitxer %1\n\n%2."
+
+msgctxt "NetViewer"
+msgid "Tor Network Map"
+msgstr "Mapa de xarxa del Tor"
+
+msgctxt "NetViewer"
+msgid "Refresh"
+msgstr "Refresca"
+
+msgctxt "NetViewer"
+msgid "Refresh the list of Tor relays and connections"
+msgstr ""
+
+msgctxt "NetViewer"
+msgid "Ctrl+R"
+msgstr "Ctrl+R"
+
+msgctxt "NetViewer"
+msgid "Help"
+msgstr "Ajuda"
+
+msgctxt "NetViewer"
+msgid "Show the network map help"
+msgstr "Mostra l'ajuda del mapa de la xarxa"
+
+msgctxt "NetViewer"
+msgid "Show network map help"
+msgstr "Mostra l'ajuda del mapa de la xarxa"
+
+msgctxt "NetViewer"
+msgid "F1"
+msgstr "F1"
+
+msgctxt "NetViewer"
+msgid "Close"
+msgstr "Tanca"
+
+msgctxt "NetViewer"
+msgid "Close the network map"
+msgstr "Tanca el mapa de xarxa"
+
+msgctxt "NetViewer"
+msgid "Esc"
+msgstr "Esc"
+
+msgctxt "NetViewer"
+msgid "Zoom In"
+msgstr "Augmenta"
+
+msgctxt "NetViewer"
+msgid "Zoom in on the network map"
+msgstr "Augmenta el mapa de la xarxa"
+
+msgctxt "NetViewer"
+msgid "+"
+msgstr "+"
+
+msgctxt "NetViewer"
+msgid "Zoom Out"
+msgstr "Allunya't"
+
+msgctxt "NetViewer"
+msgid "Zoom out on the network map"
+msgstr "Allunya't del mapa de la xarxa"
+
+msgctxt "NetViewer"
+msgid "-"
+msgstr "-"
+
+msgctxt "NetViewer"
+msgid "Zoom To Fit"
+msgstr ""
+
+msgctxt "NetViewer"
+msgid "Zooms to fit all currently displayed circuits"
+msgstr ""
+
+msgctxt "NetViewer"
+msgid "Ctrl+Z"
+msgstr "Ctrl+Z"
+
+msgctxt "NetViewer"
+msgid "Relay Not Found"
+msgstr ""
+
+msgctxt "NetViewer"
+msgid "No details on the selected relay are available."
+msgstr ""
+
+msgctxt "NetViewer"
+msgid "Unknown"
+msgstr "Desconegut"
+
+msgctxt "NetViewer"
+msgid "Full Screen"
+msgstr "Pantalla completa"
+
+msgctxt "NetViewer"
+msgid "View the network map as a full screen window"
+msgstr "Visualitza el mapa de xarxa com una finestra a mida completa"
+
+msgctxt "NetViewer"
+msgid "Ctrl+F"
+msgstr "Ctrl+F"
+
+msgctxt "NetworkPage"
+msgid "Copy (Ctrl+C)"
+msgstr "Copia (Ctrl+C)"
+
+msgctxt "NetworkPage"
+msgid ""
+"You must specify both an IP address or hostname and a port number to "
+"configure Tor to use a proxy to access the Internet."
+msgstr "Heu d'especificar tant una adreça IP o domini com un número de port per a configurar el Tor per tal que pugui utilitzar un servidor intermediari per a accedir a Internet."
+
+msgctxt "NetworkPage"
+msgid ""
+"You must specify one or more ports to which your firewall allows you to "
+"connect."
+msgstr "Heu d'especificar un o més ports del vostre tallafocs per tal que us permeti connectar-vos."
+
+msgctxt "NetworkPage"
+msgid "'%1' is not a valid port number."
+msgstr "%1' no és un número de port vàlid."
+
+msgctxt "NetworkPage"
+msgid "Check if your local network requires a proxy to access the Internet"
+msgstr "Reviseu si la vostra xarxa local requereix un servidor intermediari per a accedir a Internet"
+
+msgctxt "NetworkPage"
+msgid "I use a proxy to access the Internet"
+msgstr "Jo utilitzo un servidor intermediari per a accedir a Internet"
+
+msgctxt "NetworkPage"
+msgid "Proxy Settings"
+msgstr "Preferències del servidor intermediari"
+
+msgctxt "NetworkPage"
+msgid "Username:"
+msgstr "Nom d'usuari:"
+
+msgctxt "NetworkPage"
+msgid "Password:"
+msgstr "Contrasenya:"
+
+msgctxt "NetworkPage"
+msgid "Port:"
+msgstr "Port:"
+
+msgctxt "NetworkPage"
+msgid "Check to only connect to relays using ports allowed by your firewall"
+msgstr ""
+
+msgctxt "NetworkPage"
+msgid "My firewall only lets me connect to certain ports"
+msgstr "El meu tallafocs només em permet connectar-me en ports concrets"
+
+msgctxt "NetworkPage"
+msgid "Firewall Settings"
+msgstr "Preferències del tallafocs"
+
+msgctxt "NetworkPage"
+msgid "Allowed Ports:"
+msgstr "Ports permesos:"
+
+msgctxt "NetworkPage"
+msgid "80, 443"
+msgstr "80, 443"
+
+msgctxt "NetworkPage"
+msgid ""
+"Check to encrypt directory requests and, optionally, use bridge relays to "
+"access the Tor network"
+msgstr ""
+
+msgctxt "NetworkPage"
+msgid "My ISP blocks connections to the Tor network"
+msgstr "El meu ISP bloca les connexions a la xarxa Tor"
+
+msgctxt "NetworkPage"
+msgid "Bridge Settings"
+msgstr "Preferències del pont"
+
+msgctxt "NetworkPage"
+msgid "Add a Bridge:"
+msgstr "Afegeix un pont:"
+
+msgctxt "NetworkPage"
+msgid "Remove the selected bridges from the list"
+msgstr "Suprimiu els ponts seleccionats de la llista"
+
+msgctxt "NetworkPage"
+msgid "Copy the selected bridges to the clipboard"
+msgstr "Copia els ponts seleccionats en el porta-retalls"
+
+msgctxt "NetworkPage"
+msgid "Find Bridges Now"
+msgstr "Afegeix nous ponts"
+
+msgctxt "NetworkPage"
+msgid "<a href=\"bridges.finding\">How else can I find bridges?</a>"
+msgstr "<a href=\"bridges.finding\">Com més puc trobar ponts?</a>"
+
+msgctxt "NetworkPage"
+msgid "<a href=\"bridges.finding\">How can I find bridges?</a>"
+msgstr "<a href=\"bridges.finding\">Com puc trobar ponts?</a>"
+
+msgctxt "NetworkPage"
+msgid ""
+"No new bridges are currently available. You can either wait a while and try "
+"again, or try another method of finding new bridges."
+msgstr "Ara mateix, no hi ha ponts disponibles. Podeu esperar-vos una estona i torna-ho a intentar o provar un mètode alternatiu per a trobar nous ponts."
+
+msgctxt "NetworkPage"
+msgid "Click Help to see other methods of finding new bridges."
+msgstr ""
+
+msgctxt "NetworkPage"
+msgid "Address:"
+msgstr "Adreça:"
+
+msgctxt "NetworkPage"
+msgid "Type:"
+msgstr "Tipus:"
+
+msgctxt "NetworkPage"
+msgid "You must select the proxy type."
+msgstr "Heu de seleccionar el tipus de proxy."
+
+msgctxt "NetworkPage"
+msgid "SOCKS 4"
+msgstr "SOCKS 4"
+
+msgctxt "NetworkPage"
+msgid "SOCKS 5"
+msgstr "SOCKS 5"
+
+msgctxt "NetworkPage"
+msgid "HTTP / HTTPS"
+msgstr "HTTP / HTTPS"
+
+msgctxt "NetworkPage"
+msgid "You must specify one or more bridges."
+msgstr ""
+
+msgctxt "Policy"
+msgid "accept"
+msgstr "accepta"
+
+msgctxt "Policy"
+msgid "reject"
+msgstr "refusa"
+
+msgctxt "RouterDescriptor"
+msgid "Online"
+msgstr "En línia"
+
+msgctxt "RouterDescriptor"
+msgid "Hibernating"
+msgstr "S'està hibernant"
+
+msgctxt "RouterDescriptor"
+msgid "Offline"
+msgstr "Fora de línia:"
+
+msgctxt "RouterDescriptorView"
+msgid "Location:"
+msgstr "Localització:"
+
+msgctxt "RouterDescriptorView"
+msgid "IP Address:"
+msgstr "Adreça IP:"
+
+msgctxt "RouterDescriptorView"
+msgid "Platform:"
+msgstr "Plataforma:"
+
+msgctxt "RouterDescriptorView"
+msgid "Bandwidth:"
+msgstr "Amplada de banda:"
+
+msgctxt "RouterDescriptorView"
+msgid "Uptime:"
+msgstr ""
+
+msgctxt "RouterDescriptorView"
+msgid "Last Updated:"
+msgstr "Darrera actualització:"
+
+msgctxt "RouterDescriptorView"
+msgid "Copy"
+msgstr "Copia"
+
+msgctxt "RouterInfoDialog"
+msgid "Hibernating"
+msgstr "S'està hibernant:"
+
+msgctxt "RouterInfoDialog"
+msgid "Online"
+msgstr "En línia"
+
+msgctxt "RouterInfoDialog"
+msgid "Offline"
+msgstr "Fora de línia"
+
+msgctxt "RouterInfoDialog"
+msgid "Unknown"
+msgstr "Desconegut"
+
+msgctxt "RouterInfoDialog"
+msgid "Relay Details"
+msgstr ""
+
+msgctxt "RouterInfoDialog"
+msgid "Summary"
+msgstr "Sumari"
+
+msgctxt "RouterInfoDialog"
+msgid "Name:"
+msgstr "Nom:"
+
+msgctxt "RouterInfoDialog"
+msgid "Status:"
+msgstr "Estat:"
+
+msgctxt "RouterInfoDialog"
+msgid "Location:"
+msgstr "Ubicació:"
+
+msgctxt "RouterInfoDialog"
+msgid "IP Address:"
+msgstr "Adreça IP:"
+
+msgctxt "RouterInfoDialog"
+msgid "Platform:"
+msgstr "Plataforma:"
+
+msgctxt "RouterInfoDialog"
+msgid "Bandwidth:"
+msgstr "Amplada de banda:"
+
+msgctxt "RouterInfoDialog"
+msgid "Uptime:"
+msgstr ""
+
+msgctxt "RouterInfoDialog"
+msgid "Contact:"
+msgstr "Contacte:"
+
+msgctxt "RouterInfoDialog"
+msgid "Last Updated:"
+msgstr "Darrera actualització:"
+
+msgctxt "RouterInfoDialog"
+msgid "Descriptor"
+msgstr ""
+
+msgctxt "RouterListItem"
+msgid "Offline"
+msgstr "Fora de línia"
+
+msgctxt "RouterListItem"
+msgid "Hibernating"
+msgstr "S'està hibernant"
+
+msgctxt "RouterListItem"
+msgid "%1 KB/s"
+msgstr "%1 KB/s"
+
+msgctxt "RouterListWidget"
+msgid "Relay"
+msgstr ""
+
+msgctxt "RouterListWidget"
+msgid "Zoom to Relay"
+msgstr ""
+
+msgctxt "RouterListWidget"
+msgid "%1 relays online"
+msgstr ""
+
+msgctxt "RouterListWidget"
+msgid "Copy"
+msgstr "Copia"
+
+msgctxt "RouterListWidget"
+msgid "Nickname"
+msgstr "Àlies"
+
+msgctxt "RouterListWidget"
+msgid "Fingerprint"
+msgstr "Fingerprint"
+
+msgctxt "ServerPage"
+msgid "Bridge Support Unavailable"
+msgstr ""
+
+msgctxt "ServerPage"
+msgid ""
+"You have configured Tor to act as a bridge relay for censored users, but "
+"your version of Tor does not support bridges."
+msgstr ""
+
+msgctxt "ServerPage"
+msgid ""
+"Please upgrade your Tor software or configure Tor to act as a normal Tor "
+"relay."
+msgstr ""
+
+msgctxt "ServerPage"
+msgid "Your bridge relay is not running."
+msgstr ""
+
+msgctxt "ServerPage"
+msgid "You must specify at least a relay nickname and port."
+msgstr ""
+
+msgctxt "ServerPage"
+msgid "Run as a client only"
+msgstr ""
+
+msgctxt "ServerPage"
+msgid "Relay Port:"
+msgstr ""
+
+msgctxt "ServerPage"
+msgid "Enable to mirror the relay directory"
+msgstr ""
+
+msgctxt "ServerPage"
+msgid "Attempt to automatically configure port forwarding"
+msgstr ""
+
+msgctxt "ServerPage"
+msgid "Test"
+msgstr "Test"
+
+msgctxt "ServerPage"
+msgid "Show help topic on port forwarding"
+msgstr "Mostra el tema d'ajuda sobre el reenviament de ports"
+
+msgctxt "ServerPage"
+msgid "Directory Port:"
+msgstr "Directori de ports"
+
+msgctxt "ServerPage"
+msgid "Directory Port Number"
+msgstr ""
+
+msgctxt "ServerPage"
+msgid "Contact Info:"
+msgstr "Informació de contacte:"
+
+msgctxt "ServerPage"
+msgid "Name of your relay"
+msgstr "Nom del seu repetidor"
+
+msgctxt "ServerPage"
+msgid "Port on which users and other relays can communicate with your relay"
+msgstr "Port en el qual usuaris i d'altres repetidors podran comunicar-se amb el seu"
+
+msgctxt "ServerPage"
+msgid "Nickname:"
+msgstr "Sobrenom:"
+
+msgctxt "ServerPage"
+msgid "Basic Settings"
+msgstr "Preferències bàsiques"
+
+msgctxt "ServerPage"
+msgid ""
+"For Internet connections with fast download speed but slow upload, please "
+"list your upload speed here."
+msgstr "Per a connexions a Internet amb descàrrega ràpida però càrrega lenta, si us plau, llisteu la seva velocitat aquí."
+
+msgctxt "ServerPage"
+msgid "Cable/DSL 256 Kbps"
+msgstr "Cable/DSL 256 Kbps"
+
+msgctxt "ServerPage"
+msgid "Cable/DSL 512 Kbps"
+msgstr "Cable/DSL 512 Kbps"
+
+msgctxt "ServerPage"
+msgid "Cable/DSL 768 Kbps"
+msgstr "Cable/DSL 768 Kbps"
+
+msgctxt "ServerPage"
+msgid "T1/Cable/DSL 1.5 Mbps"
+msgstr "T1/Cable/DSL 1,5 Mbps"
+
+msgctxt "ServerPage"
+msgid "> 1.5 Mbps"
+msgstr "> 1.5 Mbps"
+
+msgctxt "ServerPage"
+msgid "Custom"
+msgstr "Personalitzat"
+
+msgctxt "ServerPage"
+msgid "Select the entry that most closely resembles your Internet connection"
+msgstr ""
+
+msgctxt "ServerPage"
+msgid "Show help topic on bandwidth rate limits"
+msgstr "Mostra el tema d'ajuda sobre els límits en la velocitat d'amplada de banda"
+
+msgctxt "ServerPage"
+msgid "Average Rate"
+msgstr "Velocitat mitjana"
+
+msgctxt "ServerPage"
+msgid "Long-term average bandwidth limit"
+msgstr "Límit d'amplada de banda mitjana a llarg plaç"
+
+msgctxt "ServerPage"
+msgid "KB/s"
+msgstr "KB/s"
+
+msgctxt "ServerPage"
+msgid "Maximum Rate"
+msgstr "Velocitat màxima"
+
+msgctxt "ServerPage"
+msgid "Peak bandwidth rate limit"
+msgstr "Pic en l'amplada de banda"
+
+msgctxt "ServerPage"
+msgid ""
+"Your maximum bandwidth rate must be greater than or equal to your average "
+"bandwidth rate. Both values must be at least 20 KB/s."
+msgstr ""
+
+msgctxt "ServerPage"
+msgid "Bandwidth Limits"
+msgstr "Límits d'amplada de banda"
+
+msgctxt "ServerPage"
+msgid "Ports 6660 - 6669 and 6697"
+msgstr "Ports 6660 - 6669 i 6697"
+
+msgctxt "ServerPage"
+msgid "Internet Relay Chat (IRC)"
+msgstr "Internet Relay Chat (IRC)"
+
+msgctxt "ServerPage"
+msgid "Ports 110, 143, 993 and 995"
+msgstr "Ports 110, 143, 993 i 995"
+
+msgctxt "ServerPage"
+msgid "Retrieve Mail (POP, IMAP)"
+msgstr "Recupera el correu (POP,IMAP)"
+
+msgctxt "ServerPage"
+msgid "Ports unspecified by other checkboxes"
+msgstr "Ports no especificats per d'altres opcions"
+
+msgctxt "ServerPage"
+msgid "Misc Other Services"
+msgstr ""
+
+msgctxt "ServerPage"
+msgid "Ports 706, 1863, 5050, 5190, 5222, 5223, 8300 and 8888"
+msgstr "Ports 706, 1863, 5050, 5190, 5222, 5223, 8300 i 8888"
+
+msgctxt "ServerPage"
+msgid "Instant Messaging (IM)"
+msgstr "Instant Messaging (IM)"
+
+msgctxt "ServerPage"
+msgid "Port 443"
+msgstr "Port 443"
+
+msgctxt "ServerPage"
+msgid "Secure Websites (SSL)"
+msgstr "Secure Websites (SSL)"
+
+msgctxt "ServerPage"
+msgid "Port 80"
+msgstr "Port 80"
+
+msgctxt "ServerPage"
+msgid "Websites"
+msgstr "Llocs web"
+
+msgctxt "ServerPage"
+msgid "Show help topic on exit policies"
+msgstr ""
+
+msgctxt "ServerPage"
+msgid ""
+"What Internet resources should users be able to access from your relay?"
+msgstr ""
+
+msgctxt "ServerPage"
+msgid ""
+"Tor will still block some outgoing mail and file sharing applications by "
+"default to reduce spam and other abuse."
+msgstr ""
+
+msgctxt "ServerPage"
+msgid "Exit Policies"
+msgstr ""
+
+msgctxt "ServerPage"
+msgid "Let others access your bridge by giving them this line:"
+msgstr ""
+
+msgctxt "ServerPage"
+msgid ""
+"This is the identity of your bridge relay that you can give to other people"
+msgstr ""
+
+msgctxt "ServerPage"
+msgid "Copy your bridge relay's identity to the clipboard"
+msgstr ""
+
+msgctxt "ServerPage"
+msgid "No Recent Usage"
+msgstr "No hi ha ús recent"
+
+msgctxt "ServerPage"
+msgid "No clients have used your relay recently."
+msgstr ""
+
+msgctxt "ServerPage"
+msgid ""
+"Leave your relay running so clients have a better chance of finding and "
+"using it."
+msgstr ""
+
+msgctxt "ServerPage"
+msgid "Bridge History"
+msgstr "Història del pont"
+
+msgctxt "ServerPage"
+msgid "Vidalia was unable to retrieve your bridge's usage history."
+msgstr ""
+
+msgctxt "ServerPage"
+msgid ""
+"Tor returned an improperly formatted response when Vidalia requested your "
+"bridge's usage history."
+msgstr ""
+
+msgctxt "ServerPage"
+msgid "The returned response was: %1"
+msgstr "La resposta retornada ha estat: %1"
+
+msgctxt "ServerPage"
+msgid "Help censored users reach the Tor network"
+msgstr "Ajudeu als usuaris censurats d'accedir a la xarxa del Tor"
+
+msgctxt "ServerPage"
+msgid "<a href=\"#bridgeUsage\">Who has used my bridge?</a>"
+msgstr ""
+
+msgctxt "ServerPage"
+msgid "<a href=\"#bridgeHelp\">What's this?</a>"
+msgstr "<a href=\"#bridgeHelp\">Què és això?</a>"
+
+msgctxt "ServerPage"
+msgid "Automatically distribute my bridge address"
+msgstr "Distribueix de manera automàtica l'adreça del meu pont"
+
+msgctxt "ServerPage"
+msgid "Relay traffic for the Tor network (exit relay)"
+msgstr ""
+
+msgctxt "ServerPage"
+msgid "Relay traffic inside the Tor network (non-exit relay)"
+msgstr ""
+
+msgctxt "ServerPage"
+msgid "Mirror the Relay Directory"
+msgstr ""
+
+msgctxt "ServerPage"
+msgid ""
+"Email address at which you may be reached if there is a\n"
+"problem with your relay. You might also include your PGP or GPG fingerprint."
+msgstr ""
+
+msgctxt "ServicePage"
+msgid "Error while trying to unpublish all services"
+msgstr ""
+
+msgctxt "ServicePage"
+msgid ""
+"Please configure at least a service directory and a virtual port for each "
+"service you want to save. Remove the other ones."
+msgstr ""
+
+msgctxt "ServicePage"
+msgid "Error"
+msgstr "Error"
+
+msgctxt "ServicePage"
+msgid "Please select a Service."
+msgstr "Si us plau, seleccioneu un servei."
+
+msgctxt "ServicePage"
+msgid "Select Service Directory"
+msgstr ""
+
+msgctxt "ServicePage"
+msgid "Virtual Port may only contain valid port numbers [1..65535]."
+msgstr "El port virtual pot contenir només números de port vàlids [1..65535]"
+
+msgctxt "ServicePage"
+msgid "Target may only contain address:port, address, or port."
+msgstr "L'objectiu pot contenir solament adreça:port, adreça o port."
+
+msgctxt "ServicePage"
+msgid "Directory already in use by another service."
+msgstr ""
+
+msgctxt "ServicePage"
+msgid "Form"
+msgstr "Formulari"
+
+msgctxt "ServicePage"
+msgid "Provided Hidden Services"
+msgstr "Serveis ocuts proveïts"
+
+msgctxt "ServicePage"
+msgid "Onion Address"
+msgstr ""
+
+msgctxt "ServicePage"
+msgid "Virtual Port"
+msgstr "Port virtual"
+
+msgctxt "ServicePage"
+msgid "Target"
+msgstr "Objectiu"
+
+msgctxt "ServicePage"
+msgid "Directory Path"
+msgstr "Ruta"
+
+msgctxt "ServicePage"
+msgid "Enabled"
+msgstr "Habilitat"
+
+msgctxt "ServicePage"
+msgid "Add new service to list"
+msgstr "Afegeix nou servei a la llista"
+
+msgctxt "ServicePage"
+msgid "Remove selected service from list"
+msgstr "Suprimeix el servei seleccionat de la llista"
+
+msgctxt "ServicePage"
+msgid "Copy onion address of selected service to clipboard"
+msgstr ""
+
+msgctxt "ServicePage"
+msgid "Browse in local file system and choose directory for selected service"
+msgstr "Navega pel sistema de fitxers local i esculliu un directori pel servei seleccionat"
+
+msgctxt "ServicePage"
+msgid "Created by Tor"
+msgstr "Creat pel Tor"
+
+msgctxt "StatusEventWidget"
+msgid "Copy to Clipboard"
+msgstr "Copia al porta-retalls"
+
+msgctxt "StatusEventWidget"
+msgid "The Tor Software is Running"
+msgstr "S'està executant el Tor"
+
+msgctxt "StatusEventWidget"
+msgid "You are currently running version \"%1\" of the Tor software."
+msgstr "Esteu executant la versió \"%1\" del Tor"
+
+msgctxt "StatusEventWidget"
+msgid "The Tor Software is not Running"
+msgstr "El Tor no s'està executant"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Click \"Start Tor\" in the Vidalia Control Panel to restart the Tor "
+"software. If Tor exited unexpectedly, select the \"Advanced\" tab above for "
+"details about any errors encountered."
+msgstr "Feu clic a \"Inicia el Tor\" en el panell de control de Vidalia per a reiniciar el programari. En el cas que el Tor aborti de manera inesperada, seleccioneu \"Avançat\" per a conéixer més detalls sobre els errors"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"You are currently running version \"%1\" of the Tor software, which is no "
+"longer recommended. Please upgrade to the most recent version of the "
+"software, which may contain important security, reliability and performance "
+"fixes."
+msgstr "Esteu executant la versió \"%1\" del Tor, la qual ja no està suportada. Si us plau, actualitzeu-vos a la versió més recent, que conté correccions relacionades amb la seguretat, la fiabilitat i el rendiment. "
+
+msgctxt "StatusEventWidget"
+msgid ""
+"You are currently running version \"%1\" of the Tor software, which may no "
+"longer work with the current Tor network. Please upgrade to the most recent "
+"version of the software, which may contain important security, reliability "
+"and performance fixes."
+msgstr "Esteu executant la versió \"%1\" del Tor, que probablement ja no funciona amb la xarxa de Tor actual. Si us plau, actualitze-vos a la versió més recent, que conté correccions relacionades amb la seguretat, la fibilitat i el rendiment."
+
+msgctxt "StatusEventWidget"
+msgid "Your Tor Software is Out-of-date"
+msgstr "El seu Tor està desactualitzat"
+
+msgctxt "StatusEventWidget"
+msgid "Connected to the Tor Network"
+msgstr "S'ha connectat a la xarxa Tor"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"We were able to successfully establish a connection to the Tor network. You "
+"can now configure your applications to use the Internet anonymously."
+msgstr "Estem en condicions de connectar-nos correctament a la xarxa Tor. Ara, podeu configurar aplicacions per tal d'utilitzar Internet de manera anònima."
+
+msgctxt "StatusEventWidget"
+msgid "Tor Software Error"
+msgstr "Error del Tor"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"The Tor software encountered an internal bug. Please report the following "
+"error message to the Tor developers at bugs.torproject.org: \"%1\""
+msgstr "El Tor ha topat amb un error de programació. Si us plau, informeu als desenvolupadors de l'error següent a bugs.torproject.org: \"%1\""
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor has determined that your computer's clock may be set to %1 seconds in "
+"the past compared to the source \"%2\". If your clock is not correct, Tor "
+"will not be able to function. Please verify your computer displays the "
+"correct time."
+msgstr "El Tor ha determinat que el rellotge del seu sistema està establert %1 seconds en el passat que el de la font de \"%2\". Si l'hora del seu rellotge no és correcta, el Tor no podrà funcionar correctament. Si us plau, verifiqueu que el seu sistema tingui l'hrora correcta."
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor has determined that your computer's clock may be set to %1 seconds in "
+"the future compared to the source \"%2\". If your clock is not correct, Tor "
+"will not be able to function. Please verify your computer displays the "
+"correct time."
+msgstr "El Tor ha determinat que el rellotge del seu sistema està establert %1 seconds en el futur que el de la font de \"%2\". Si l'hora del seu rellotge no és correcta, el Tor no podrà funcionar correctament. Si us plau, verifiqueu que el seu sistema tingui l'hrora correcta."
+
+msgctxt "StatusEventWidget"
+msgid "Your Computer's Clock is Potentially Incorrect"
+msgstr "L'hora del seu sistema és potencialment incorrecta"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"One of the applications on your computer may have attempted to make an "
+"unencrypted connection through Tor to port %1. Sending unencrypted "
+"information over the Tor network is dangerous and not recommended. For your "
+"protection, Tor has automatically closed this connection."
+msgstr "Una de les aplicacions del seu sistema ha intentat realitzar una connexió no xifrada al Tor a través del port %1. Enviar informació en clar a través de la xarxa Tor és perillós i no està recomanat. Per la seva protecció, el Tor ha tancat de manera automàtica aquesta connexió."
+
+msgctxt "StatusEventWidget"
+msgid ""
+"One of the applications on your computer may have attempted to make an "
+"unencrypted connection through Tor to port %1. Sending unencrypted "
+"information over the Tor network is dangerous and not recommended."
+msgstr "Una de les aplicacions del seu sistema ha intentat realitzar una connexió no xifrada al Tor a través del port %1. Enviar informació en clar a través de la xarxa Tor és perillós i no està recomanat. "
+
+msgctxt "StatusEventWidget"
+msgid "Potentially Dangerous Connection!"
+msgstr "Connexió potencialment perillosa!"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"One of your applications established a connection through Tor to \"%1\" "
+"using a protocol that may leak information about your destination. Please "
+"ensure you configure your applications to use only SOCKS4a or SOCKS5 with "
+"remote hostname resolution."
+msgstr "Una de les vostres aplicacions ha establert una connexió a través del Tor a \"%1\" utilitzant un protocol que podria proporcionar informació sobre la seva destinació. Si us plau, assegureu-vos que heu configurat les vostres aplicacions per tal d'utilitzar solament SOCKS4 i SOCKS5 amb resolució d'objectiu remot."
+
+msgctxt "StatusEventWidget"
+msgid "Unknown SOCKS Protocol"
+msgstr "Protocol SOCKS desconegut"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"One of your applications tried to establish a connection through Tor using a"
+" protocol that Tor does not understand. Please ensure you configure your "
+"applications to use only SOCKS4a or SOCKS5 with remote hostname resolution."
+msgstr "Una de les vostres aplicacions ha establert una connexió a través del Tor emprant un protocol que aquest no compren. Si us plau, assegureu-vos que heu configurat les vostres aplicacions per tal d'utilitzar solament SOCKS4 i SOCKS5 amb resolució d'objectiu remot."
+
+msgctxt "StatusEventWidget"
+msgid "Invalid Destination Hostname"
+msgstr "Destinació d'objectiu invàlida"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"One of your applications tried to establish a connection through Tor to "
+"\"%1\", which Tor does not recognize as a valid hostname. Please check your "
+"application's configuration."
+msgstr "Una de les vostres aplicacions ha intentat establir una connexió via el Tor a \"%1\", que aquest no reconeix com a objectiu vàlid. Si us plau, reviseu la configuració de la seva aplicació."
+
+msgctxt "StatusEventWidget"
+msgid "External IP Address Changed"
+msgstr "L'adreça IP externa s'ha canviat"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor has determined your relay's public IP address is currently %1%2. If that"
+" is not correct, please consider setting the 'Address' option in your "
+"relay's configuration."
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid "DNS Hijacking Detected"
+msgstr "Detecció de DNS Hijacking"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor detected that your DNS provider is providing false responses for domains"
+" that do not exist. Some ISPs and other DNS providers, such as OpenDNS, are "
+"known to do this in order to display their own search or advertising pages."
+msgstr "El Tor ha detectat que el seu proveïdor de DNS està proveïnt de respostes falses per dominis que no existeixen. És conegut que alguns ISPs i d'altres proveïdors de DNS, com per exemple, OpenDNS, fan això per tal de mostrar les seves pròpies pàgines de cerca o de publicitat."
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor detected that your DNS provider is providing false responses for well "
+"known domains. Since clients rely on Tor network relays to provide accurate "
+"DNS repsonses, your relay will not be configured as an exit relay."
+msgstr "El Tor ha detectat que el seu proveïdor de DNS està proveïnt de respostes falses per a dominis reconeguts. Since clients rely on Tor network relays to provide accurate DNS repsonses, your relay will not be configured as an exit relay."
+
+msgctxt "StatusEventWidget"
+msgid "Checking Server Port Reachability"
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor is trying to determine if your relay's server port is reachable from the"
+" Tor network by connecting to itself at %1:%2. This test could take several "
+"minutes."
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid "Server Port Reachability Test Successful!"
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid "Your relay's server port is reachable from the Tor network!"
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid "Server Port Reachability Test Failed"
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Your relay's server port is not reachable by other Tor clients. This can "
+"happen if you are behind a router or firewall that requires you to set up "
+"port forwarding. If %1:%2 is not your correct IP address and server port, "
+"please check your relay's configuration."
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid "Checking Directory Port Reachability"
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor is trying to determine if your relay's directory port is reachable from "
+"the Tor network by connecting to itself at %1:%2. This test could take "
+"several minutes."
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid "Directory Port Reachability Test Successful!"
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid "Your relay's directory port is reachable from the Tor network!"
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid "Directory Port Reachability Test Failed"
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Your relay's directory port is not reachable by other Tor clients. This can "
+"happen if you are behind a router or firewall that requires you to set up "
+"port forwarding. If %1:%2 is not your correct IP address and directory port,"
+" please check your relay's configuration."
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid "Relay Descriptor Rejected"
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Your relay's descriptor, which enables clients to connect to your relay, was"
+" rejected by the directory server at %1:%2. The reason given was: %3"
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid "Your Relay is Online"
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Your relay is now online and available for Tor clients to use. You should "
+"see an increase in network traffic shown by the Bandwidth Graph within a few"
+" hours as more clients learn about your relay. Thank you for contributing to"
+" the Tor network!"
+msgstr ""
+
+msgctxt "Stream"
+msgid "New"
+msgstr "Nou"
+
+msgctxt "Stream"
+msgid "Resolving"
+msgstr "S'està resolent"
+
+msgctxt "Stream"
+msgid "Connecting"
+msgstr "S'està connectant"
+
+msgctxt "Stream"
+msgid "Open"
+msgstr "Obre"
+
+msgctxt "Stream"
+msgid "Failed"
+msgstr "Fallit"
+
+msgctxt "Stream"
+msgid "Closed"
+msgstr "Tancat"
+
+msgctxt "Stream"
+msgid "Retrying"
+msgstr "S'està rebent"
+
+msgctxt "Stream"
+msgid "Remapped"
+msgstr "Remapejat"
+
+msgctxt "Stream"
+msgid "Unknown"
+msgstr "Desconegut"
+
+msgctxt "TorProcess"
+msgid "Process %1 failed to stop. [%2]"
+msgstr "El procés %1 ha fallat en l'aturada. [%2]"
+
+msgctxt "TorService"
+msgid "The Tor service is not installed."
+msgstr "El servei del Tor no està instal·lat."
+
+msgctxt "TorService"
+msgid "Unable to start the Tor service."
+msgstr "Incapaç d'iniciar el servei del Tor."
+
+msgctxt "TorSettings"
+msgid "Failed to hash the control password."
+msgstr "La generació d'una funció resum per a la contrasenya de control ha fallit."
+
+msgctxt "TorrcDialog"
+msgid "Editing torrc"
+msgstr ""
+
+msgctxt "TorrcDialog"
+msgid ""
+"Save settings. If unchecked it will only apply settings to the current Tor "
+"instance."
+msgstr ""
+
+msgctxt "TorrcDialog"
+msgid "Cut"
+msgstr ""
+
+msgctxt "TorrcDialog"
+msgid "Copy"
+msgstr ""
+
+msgctxt "TorrcDialog"
+msgid "Paste"
+msgstr ""
+
+msgctxt "TorrcDialog"
+msgid "Undo"
+msgstr ""
+
+msgctxt "TorrcDialog"
+msgid "Redo"
+msgstr ""
+
+msgctxt "TorrcDialog"
+msgid "Select All"
+msgstr ""
+
+msgctxt "TorrcDialog"
+msgid "Apply all"
+msgstr ""
+
+msgctxt "TorrcDialog"
+msgid "Apply selection only"
+msgstr ""
+
+msgctxt "TorrcDialog"
+msgid "Error connecting to Tor"
+msgstr ""
+
+msgctxt "TorrcDialog"
+msgid "Selection is empty. Please select some text, or check \"Apply all\""
+msgstr ""
+
+msgctxt "TorrcDialog"
+msgid "Error at line %1: \"%2\""
+msgstr ""
+
+msgctxt "TorrcDialog"
+msgid "Error"
+msgstr ""
+
+msgctxt "TorrcDialog"
+msgid "An error ocurred while opening torrc file"
+msgstr ""
+
+msgctxt "UPNPControl"
+msgid "Success"
+msgstr "Èxit"
+
+msgctxt "UPNPControl"
+msgid "No UPnP-enabled devices found"
+msgstr "No s'han trobat dispositius UPnP habilitats"
+
+msgctxt "UPNPControl"
+msgid "No valid UPnP-enabled Internet gateway devices found"
+msgstr ""
+
+msgctxt "UPNPControl"
+msgid "WSAStartup failed"
+msgstr "WSAStartup ha fallat"
+
+msgctxt "UPNPControl"
+msgid "Failed to add a port mapping"
+msgstr ""
+
+msgctxt "UPNPControl"
+msgid "Failed to retrieve a port mapping"
+msgstr ""
+
+msgctxt "UPNPControl"
+msgid "Failed to remove a port mapping"
+msgstr ""
+
+msgctxt "UPNPControl"
+msgid "Unknown error"
+msgstr "Error desconegut"
+
+msgctxt "UPNPTestDialog"
+msgid "Discovering UPnP-enabled devices"
+msgstr ""
+
+msgctxt "UPNPTestDialog"
+msgid "Updating directory port mapping"
+msgstr ""
+
+msgctxt "UPNPTestDialog"
+msgid "Updating relay port mapping"
+msgstr ""
+
+msgctxt "UPNPTestDialog"
+msgid "Test completed successfully!"
+msgstr "El test ha estat completat correctament!"
+
+msgctxt "UPNPTestDialog"
+msgid "Testing UPnP Support"
+msgstr ""
+
+msgctxt "UPNPTestDialog"
+msgid "Testing Universal Plug & Play Support"
+msgstr ""
+
+msgctxt "UpdateProcess"
+msgid ""
+"Vidalia was unable to check for available software updates because it could "
+"not find '%1'."
+msgstr ""
+
+msgctxt "UpdateProcess"
+msgid ""
+"Vidalia was unable to check for available software updates because Tor's "
+"update process exited unexpectedly."
+msgstr ""
+
+msgctxt "UpdateProgressDialog"
+msgid "Checking for available updates..."
+msgstr "S'està verificant actualitzacions disponibles..."
+
+msgctxt "UpdateProgressDialog"
+msgid "Hide"
+msgstr "Oculta"
+
+msgctxt "UpdateProgressDialog"
+msgid "Downloading updates..."
+msgstr "S'estan descarregant actualitzacions..."
+
+msgctxt "UpdateProgressDialog"
+msgid "Installing updated software..."
+msgstr "S'està actualitzant el programari..."
+
+msgctxt "UpdateProgressDialog"
+msgid "Done! Your software is now up to date."
+msgstr "Fet! El seu programari està actualitzat."
+
+msgctxt "UpdateProgressDialog"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "UpdateProgressDialog"
+msgid "Software Updates"
+msgstr "Actualitzacions de programari"
+
+msgctxt "UpdateProgressDialog"
+msgid "Checking for updates..."
+msgstr ""
+
+msgctxt "UpdateProgressDialog"
+msgid "Cancel"
+msgstr "Cancel·la"
+
+msgctxt "UpdatesAvailableDialog"
+msgid "Software Updates Available"
+msgstr "Actualitzacions de programari disponibles"
+
+msgctxt "UpdatesAvailableDialog"
+msgid "Remind Me Later"
+msgstr ""
+
+msgctxt "UpdatesAvailableDialog"
+msgid "Install"
+msgstr "Instal·la"
+
+msgctxt "UpdatesAvailableDialog"
+msgid "The following updated software packages are ready for installation:"
+msgstr ""
+
+msgctxt "UpdatesAvailableDialog"
+msgid "Package"
+msgstr "Paquet"
+
+msgctxt "UpdatesAvailableDialog"
+msgid "Version"
+msgstr "Versió"
+
+msgctxt "VMessageBox"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "VMessageBox"
+msgid "Cancel"
+msgstr "Cancel·la"
+
+msgctxt "VMessageBox"
+msgid "Yes"
+msgstr "Sí"
+
+msgctxt "VMessageBox"
+msgid "No"
+msgstr "No"
+
+msgctxt "VMessageBox"
+msgid "Help"
+msgstr "Ajuda"
+
+msgctxt "VMessageBox"
+msgid "Retry"
+msgstr "Reintenta"
+
+msgctxt "VMessageBox"
+msgid "Show Log"
+msgstr ""
+
+msgctxt "VMessageBox"
+msgid "Show Settings"
+msgstr "Mostra les preferències"
+
+msgctxt "VMessageBox"
+msgid "Continue"
+msgstr "Continua"
+
+msgctxt "VMessageBox"
+msgid "Quit"
+msgstr "Surt"
+
+msgctxt "VMessageBox"
+msgid "Browse"
+msgstr "Navega"
+
+msgctxt "Vidalia"
+msgid "Invalid Argument"
+msgstr "Argument invàlid"
+
+msgctxt "Vidalia"
+msgid "Vidalia is already running"
+msgstr "Vidalia ja s'està executant"
+
+msgctxt "Vidalia"
+msgid "Displays this usage message and exits."
+msgstr "Mostra el missatge d'ús i surt."
+
+msgctxt "Vidalia"
+msgid "Resets ALL stored Vidalia settings."
+msgstr "Reinicialitza TOTES les preferències de Vidalia emmagatzemades."
+
+msgctxt "Vidalia"
+msgid "Sets the directory Vidalia uses for data files."
+msgstr "Estableix la carpeta que Vidalia utilitza per als fitxers de dades."
+
+msgctxt "Vidalia"
+msgid "Sets the name and location of Vidalia's pidfile."
+msgstr "Estableix el nom i la ubicació del pidfile de Vidalia"
+
+msgctxt "Vidalia"
+msgid "Sets the name and location of Vidalia's logfile."
+msgstr "Estableix el nom i la ubicació del fitxer de registre de Vidalia."
+
+msgctxt "Vidalia"
+msgid "Sets the verbosity of Vidalia's logging."
+msgstr "Estableix el nivell de detall del fitxer de registre de Vidalia."
+
+msgctxt "Vidalia"
+msgid "Sets Vidalia's interface style."
+msgstr ""
+
+msgctxt "Vidalia"
+msgid "Sets Vidalia's language."
+msgstr ""
+
+msgctxt "Vidalia"
+msgid "Vidalia Usage Information"
+msgstr ""
+
+msgctxt "Vidalia"
+msgid "Unable to open log file '%1': %2"
+msgstr ""
+
+msgctxt "Vidalia"
+msgid "Value required for parameter :"
+msgstr ""
+
+msgctxt "Vidalia"
+msgid "Invalid language code specified:"
+msgstr ""
+
+msgctxt "Vidalia"
+msgid "Invalid GUI style specified:"
+msgstr ""
+
+msgctxt "Vidalia"
+msgid "Invalid log level specified:"
+msgstr ""
+
+msgctxt "Vidalia"
+msgid ""
+"Another Vidalia process is possibly already running. If there really is not another Vidalia process running, you can choose to continue anyway.\n"
+"\n"
+"Would you like to continue starting Vidalia?"
+msgstr ""
+
+msgctxt "stringutil.h"
+msgid "%1 secs"
+msgstr ""
+
+msgctxt "stringutil.h"
+msgid "%1 B/s"
+msgstr ""
+
+msgctxt "stringutil.h"
+msgid "%1 KB/s"
+msgstr ""
+
+msgctxt "stringutil.h"
+msgid "%1 MB/s"
+msgstr ""
+
+msgctxt "stringutil.h"
+msgid "%1 GB/s"
+msgstr ""
+
+msgctxt "stringutil.h"
+msgid "%1 days"
+msgstr ""
+
+msgctxt "stringutil.h"
+msgid "%1 hours"
+msgstr ""
+
+msgctxt "stringutil.h"
+msgid "%1 mins"
+msgstr ""

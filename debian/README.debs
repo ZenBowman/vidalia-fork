@@ -1,0 +1,35 @@
+================================
+Debian and Ubuntu packages
+================================
+
+Binary packages
+--------------------------------
+Debian and Ubuntu packages are now available in the Tor Debian/Ubuntu 
+repository. Instructions for adding the repository to your
+/etc/apt/sources.list and installing Vidalia can be found here:
+https://www.torproject.org/docs/debian-vidalia.html.en
+
+Building your own
+--------------------------------
+If you would like to build your own packages, you can get the current 
+Debian source by cloning the Git repository.
+
+If you want to use git-buildpackage:
+  gbp-clone http://git.debian.org/git/collab-maint/vidalia.git
+then use git-buildpackage to build packages.
+
+Else, just clone the repository "normally":
+  git clone http://git.debian.org/git/collab-maint/vidalia.git
+then build packages as normal.
+
+Instructions
+--------------------------------
+For information about building Debian and Ubuntu packages, please consult 
+the following documentation:
+
+1. https://wiki.debian.org/DebianPackagingHandbook
+2. http://www.debian.org/doc/maint-guide/ch-build.en.html
+3. https://www.netfort.gr.jp/~dancer/software/pbuilder-doc/pbuilder-doc.html
+4. https://wiki.ubuntu.com/PackagingGuide/Complete
+5. https://wiki.ubuntu.com/PbuilderHowto
+6. http://honk.sigxcpu.org/projects/git-buildpackage/manual-html/gbp.html

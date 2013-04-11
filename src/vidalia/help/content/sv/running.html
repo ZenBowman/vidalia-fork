@@ -1,0 +1,99 @@
+﻿<!--
+**  $Id: running.html 2379 2008-03-02 02:10:00Z djhasis $
+** 
+**  This file is part of Vidalia, and is subject to the license terms in the
+**  LICENSE file, found in the top level directory of this distribution. If 
+**  you did not receive the LICENSE file with this file, you may obtain it
+**  from the Vidalia source package distributed by the Vidalia Project at
+**  http://www.torproject.org/projects/vidalia.html. No part of Vidalia, 
+**  including this file, may be copied, modified, propagated, or distributed 
+**  except according to the terms described in the LICENSE file.
+-->
+
+<html>
+<body>
+
+<h1>Användning av Tor</h1>
+<hr />
+
+<p>
+Med Vidalia du kan kontrolla Tor; startar och stoppar det, övervakar Tors ställning och vet om det har oväntat avslutats.
+</p>
+
+<a name="starting"/>
+<h3>Startar och stoppar Tor</h3>
+<p>
+För <i>starta</i> Tor,
+<ol>
+  <li>Välj <i>Starta</i> från aktivitetsfälts Vidalias meny eller trycka <i>Ctrl+S</i></li>.
+  <li>
+    Vidalia's tray icon will change from an onion with a red X to a green
+    onion when Tor has started.
+  </li>
+</ol>
+Om Vidalia kan inte starta Tor, Vidalia skall visa en felmeddelande, som berättar vad var det problem. Du kan också titta din
+<a href="log.html">meddelandelogg</a>, om Tor har skrev något mer information av det problem.
+</p>
+
+<p>
+För <i>stoppa</i> Tor,
+<ol>
+  <li>Välj <i>Stoppa</i> från aktivitetsfälts Vidalias meny eller trycka <i>Ctrl+T</i></li>.
+  <li>
+    Vidalia's tray icon will change from a green onion to a gray onion with a
+    red X when Tor has stopped.
+  </li>
+</ol>
+Om Vidalia kan inte stoppa Tor, Vidalia skall visa en felmeddelande, som berättar vad var det problem. Du kan också titta din
+<a href="log.html">meddelandelogg</a>, om Tor har skrev något mer information av det problem.
+</p>
+
+<a name="monitoring"/>
+<h3>Övervakar Tors ställning</h3>
+<p>
+Vidalia tells you about the status of Tor by displaying an icon in your system
+tray or dock area. The following table shows the different states indicated by
+an icon in your system's notification area:
+</p>
+<p>
+<table border="1">
+<tr>
+    <td><img src="qrc:/images/32x32/tor-off.png"/></td>
+    <td valign="middle">
+      Tor har stoppat. Välj <i>Starta</i> från aktivitetsfälts Vidalias meny för startar Tor.
+    </td>
+</tr>
+<tr>
+    <td><img src="qrc:/images/32x32/tor-starting.png"/></td>
+    <td valign="middle">
+      Tor startas upp. You can check the 
+      <a href="log.html">meddelandelogg</a> for status information about Tor
+      while it is starting.
+    </td>
+</tr>
+<tr>
+    <td><img src="qrc:/images/32x32/tor-on.png"/></td>
+    <td valign="middle">
+      Tor är igång. Om du vill stopppa Tor, välj <i>Stoppa</i> från
+      Vidalias meny. Tor will print informational messages to the 
+      <a href="log.html">meddelandelogg</a> while it is running, if you want to 
+      see what Tor is doing.
+    </td>
+</tr>
+<tr>
+    <td><img src="qrc:/images/32x32/tor-stopping.png"/></td>
+    <td valign="middle">Tor avslutas nu.</td>
+</tr>
+</table>
+</p>
+
+<p>
+If Tor exits unexpectedly, Vidalia will change its icon to the dark onion with a
+red X and display an error message letting you know what went wrong. You can
+also check the <a href="log.html">meddelandelogg</a> for details about any problems
+Tor encountered before it exited.
+</p>
+
+</body>
+</html>
+

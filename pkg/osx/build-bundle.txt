@@ -1,0 +1,102 @@
+           Building the Vidalia/Tor/Polipo OS X Bundle
+
+XCode
+0. You need the most recent version of XCode, including the 10.4 SDK.
+Download the latest XCode updates available from http://developer.apple.com and make sure
+you're installing 10.4 support.
+
+Libevent
+1. Download and extract the latest libevent source from
+   http://www.monkey.org/~provos/libevent/
+
+2. Configure libevent with the following:
+CFLAGS="-O -g -mmacosx-version-min=10.4 -isysroot /Developer/SDKs/MacOSX10.4u.sdk -arch i386" \
+LDFLAGS="-Wl,-syslibroot,/Developer/SDKs/MacOSX10.4u.sdk" \
+./configure --enable-static --disable-shared --disable-dependency-tracking CC="gcc-4.0"
+
+3. Build and install libevent as follows:
+   make && make install
+
+   You will need to be root to `make install`
+
+  NOTE: If you have previously installed a Libevent that was not configured with
+  the options above, you must remove those before building Tor, otherwise Tor
+  will link to the wrong Libevent.
+
+
+Qt
+4. Download and extract the open source version of Qt 4.3 or higher from 
+   Trolltech at the following address:
+   http://qt.nokia.com/downloads/mac-os-cpp
+
+  Alternatively, download the open source Qt dmg and install.  You can now skip 5
+and 6.
+
+5. Configure Qt with the following (OS X 10.4 or later):
+  export MACOSX_DEPLOYENT_TARGET=10.4
+   ./configure -static -release -universal -fast -no-qt3support \
+     -nomake demos -nomake examples -sdk /Developer/SDKs/MacOSX10.4u.sdk/
+
+6. Build and install Qt as follows:
+   make && make install
+ 
+ 
+Polipo
+7. Download the OS X Polipo source from:
+http://www.pps.jussieu.fr/~jch/software/files/polipo/.
+
+7a. Download the Tor modifications to Polipo from:
+https://gitweb.torproject.org/tor.git/tree/HEAD:/contrib/polipo
+
+Alternatively, download a tarball with the Polipo source and Tor
+modifications together from:
+http://interloper.org/tmp/polipo/polipo-1.0.4.1-with-mods.tar.gz
+
+8. Follow the directions to build polipo at
+   https://gitweb.torproject.org/tor.git/blob/HEAD:/contrib/polipo/README
+
+Tor
+9. Download and extract the latest Tor source from
+   https://www.torproject.org/download
+
+   Note the location to which you extract Tor's source, because you will need
+   to specify it in Step 12.
+
+10. Configure Tor with the following:
+CFLAGS="-O -g -mmacosx-version-min=10.4 -isysroot /Developer/SDKs/MacOSX10.4u.sdk -arch i386" \
+LDFLAGS="-Wl,-syslibroot,/Developer/SDKs/MacOSX10.4u.sdk" \
+CONFDIR=/Applications/Vidalia.app \
+./configure --prefix=/Applications/Vidalia.app --bindir=/Applications/Vidalia.app \
+--sysconfdir=/Library --disable-dependency-tracking CC="gcc-4.0"
+
+11. Build Tor by running 'make'. You do NOT need to run 'make install'
+afterwards.
+
+
+Vidalia
+12. Configure Vidalia with the following:
+
+      export MACOSX_DEPLOYMENT_TARGET=10.4
+      mkdir build && cd build
+      cmake -DOSX_TIGER_COMPAT=1 \
+            -DQT_QMAKE_EXECUTABLE=/path/to/qmake \
+            -DTOR_SOURCE_DIR=<path-to-tor> \
+            -DPOLIPO_SOURCE_DIR=<path-to-polipo> \
+            -DTORBUTTON_XPI=<path-torbutton.xpi> ..
+
+13. Run `make dist-osx-bundle` to build Vidalia and package all of the
+components (Vidalia, Tor, Polipo and Torbutton) into a single .dmg. The resulting
+.dmg will be placed in the 'build' directory created in Step 11.
+
+14. (Optional) Run 'make dist-osx-split-bundle' if you would like to build
+the split OS X bundle.
+
+NOTE: Steps 1-6 only need to be done once initially, unless you need to
+change the packaged version of Libevent or Qt. Step 7 also only needs to
+be done once, unless Polipo ever gets updated. Steps 9-11 need to be
+repeated when the bundled version of Tor changes. Steps 12-13 need to be
+repeated when the bundled version of Vidalia changes.
+
+Experimental gcc-hardened Vidalia config:
+CFLAGS="-D_FORTIFY_SOURCE=2 -fstack-protector-all -fwrapv -fPIE -Wstack-protector -Wformat -Wformat-security -Wpointer-sign" \\
+LDFLAGS="-pie" cmake -DCMAKE_OSX_ARCHITECTURES=i386 -DCMAKE_BUILD_TYPE=minsizerel .

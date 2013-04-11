@@ -1,0 +1,170 @@
+$Id$
+
+0. Introduction.
+
+   Vidalia tracks geographic coordinates of the IP addresses for Tor
+   servers, so it can display them in its Network Map window. This
+   document describes the actual lookup and caching mechanism, and also
+   lays out some of the security questions and future directions.
+
+1. Fetching and caching.
+
+   When we learn one or more new descriptors, we check to see if we have
+   a cached mapping for each IP address to some geographic location. An
+   example mapping is:
+
+       206.124.149.146,Bellevue,WA,US,47.6051,-122.1134
+
+   If we don't have a cached answer, we send an HTTP request to a perl
+   script located on our geographic information server, asking about one
+   or more IP addresses. 
+   
+   As of Vidalia 0.1.0, if Vidalia is built against Qt 4.3 or later with
+   OpenSSL support, the requests are done over an SSL connection and sent to
+
+       https://geoip.vidalia-project.net:1443/cgi-bin/geoip
+   
+   The server has a CACert-issued certificate and CACert's root certificate
+   is included in Vidalia's signed packages. Prior to Vidalia 0.1.0, or
+   when Vidalia is built against a Qt without OpenSSL support, requests
+   are unauthenticated and unencrypted. The requests are sent to
+
+       http://geoip.vidalia-project.net/cgi-bin/geoip
+
+   which is currently hardcoded into Vidalia's source code.
+
+   Request logs are not kept on the geographic information servers.
+   
+   Each server maintains a GeoLite City database from MaxMind which
+   allows lookup of geographic location information for a given IP
+   address. Database lookups are done using a Perl database API, also
+   provided by MaxMind. More information on the GeoLite City database
+   can be found at http://www.maxmind.com/app/geolitecity.
+  
+   Requests can be formatted as either HTTP GET or POST requests. A GET
+   request for geographic information is applicable for small requests
+   consisting of only a few IP addresses. An example of a GET request 
+   for geographic information for a single IP address (128.213.11.48)
+   is:
+
+       http://geoip.vidalia-project.net/cgi-bin/geoip?ip=128.213.11.48
+
+   which returns the following information:
+      
+      128.213.11.48,Troy,NY,US,42.7495,-73.5951
+   
+   Geographic information is formatted in the body of an HTTP response as
+    
+      IPAddress,City,State,Country,Latitude,Longitude
+
+   Multiple IP addresses in a single GET request are separated by commas.
+   For example: 
+
+      geoip?ip=128.213.11.48,18.244.0.188,128.2.220.167
+
+   which would return the following information in the body of a standard
+   HTTP response:
+
+      128.213.11.48,Troy,NY,US,42.7495,-73.5951
+      18.244.0.188,Cambridge,MA,US,42.3646,-71.1028
+      128.2.220.167,Pittsburgh,PA,US,40.4439,-79.9562
+
+   Requests can also be formatted as HTTP POST requests, suitable for
+   requesting geographic information for a large number of IP addresses.
+   The request is formatted in a similar manner as for an HTTP GET request,
+   but with the list of IP addresses placed in the body of the request.
+   
+      POST /cgi-bin/geoip HTTP/1.0
+      Host: geoip.vidalia-project.net
+      Content-Length: 42
+
+      ip=128.213.11.48,18.244.0.188,128.2.220.167
+   
+   Vidalia always uses HTTP POST requests to request geographic location
+   information.
+
+   The order of results returned IS NOT guaranteed to be the same as
+   the order of IP addresses given in the original request. If the
+   geographic information database does not contain any information for
+   an IP address given in a request, the string "UNKNOWN" follows that 
+   IP address in the response, separated by a comma 
+   (e.g., "1.2.3.4,UNKNOWN").
+    
+   If no IP addresses are provided in a request, geographic information 
+   for the IP address of the requester is returned. Vidalia currently 
+   does not use this feature.
+
+   We cache geographic information in an unsorted text file called
+   "~/.vidalia/geoip-cache" (on Windows, the cache file is stored in
+   %APPDATA%\Vidalia\geoip-cache) along with an optional Unix 
+   timestamp, such as:
+
+       206.124.149.146,Bellevue,WA,US,47.6051,-122.1134:1159123625
+
+   If no timestamp is associated with a particular cache entry, the
+   current date and time will be used. We load the cache file on
+   startup, discard all entries that are over a month old, and write
+   a new version. After that the cache file is append-only.
+
+   The requests are done over Tor, as ordinary socks requests to the
+   local Tor client. Vidalia will query the local Tor client for its 
+   socks listening address and port via Tor's controller interface.
+
+   Once Vidalia queues a request for geographic information, we wait
+   MIN_RESOLVE_QUEUE_DELAY (currently 10 seconds) after the last 
+   queued request, but no longer than MAX_RESOLVE_QUEUE_DELAY 
+   (currently 30 seconds) after the first queued request, before actually 
+   launching the connection. This way we lump them together and send 
+   one larger request instead of several little ones. If Vidalia's network 
+   map window is not currently visible, the requests are queued until
+   either the queue contains requests for at least 1/4 of all known 
+   servers, or the network map window becomes visible again.
+
+   If we don't get an answer, we don't retry -- if we don't have
+   geographic information for a server, it simply doesn't get mapped.
+
+2. Security and anonymity questions.
+
+   First, can the operator of the above URLs track popularity and
+   spreading of servers? Yes. Does this buy him anything? I'm not sure.
+
+3. Future directions.
+
+3.1. Tor servers could include geoip data in network statuses.
+
+   Rather than having separate geoip services that Vidalia maintains,
+   we could instead integrate the geoip data into the Tor network
+   status documents. The Tor directory authorities would learn this
+   information and the users would learn it through their ordinary
+   directory downloads.
+
+   This would make life easier for Vidalia, but it would also increase
+   the bandwidth overhead of network-status downloads -- rather than
+   caching the geoip information, users would fetch it at every update.
+
+3.2. Map networks, not individual IP addresses.
+
+   We should stop mapping individual IP addresses. For servers that have
+   dynamic IP addresses, we end up with something like
+
+       68.179.33.128,Toronto,ON,CA,43.6667,-79.4168:1155698575
+       68.179.33.129,Toronto,ON,CA,43.6667,-79.4168:1155696448
+       68.179.33.131,Toronto,ON,CA,43.6667,-79.4168:1157209955
+
+   Instead we should just cache
+
+       68.179.33.0/24,Toronto,ON,CA,43.6667,-79.4168:1155698575
+
+   Ideally we would have a database, similar to our current GeoLite City
+   database, that can provide network prefix information given an IP
+   address. In the absence of such a database, simply matching on /24 
+   might be easiest and sufficient.
+
+3.3. What else is geoip information for?
+
+   What other uses do we have for this information? Is it only useful
+   for drawing maps of the Tor network?
+
+   Once we start letting users control their circuits based on geographic
+   data, the security questions in Section 2 become more challenging.
+

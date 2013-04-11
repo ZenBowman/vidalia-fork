@@ -1,0 +1,3855 @@
+# 
+# Translators:
+# Ahmad LuvSy <donotplay@hotmail.ca>, 2012.
+# Ahmad Mohammad <>, 2012.
+# IBRAHIM <mradonadiego@hotmail.fr>, 2011.
+#   <manmacdeath@gmail.com>, 2011.
+#   <moazbaghdadi@gmail.com>, 2011.
+# mohammad Alhargan <malham1@gmail.com>, 2011.
+# Mohammed Al-Doub <voulnet@gmail.com>, 2012.
+# OsamaK <osamak@gnu.org>, 2011.
+# runasand <runa.sandvik@gmail.com>, 2011.
+# Yehia Badawy <the1legend_2010@yahoo.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: The Tor Project\n"
+"Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
+"POT-Creation-Date: 2012-03-21 17:52+0000\n"
+"PO-Revision-Date: 2012-04-17 16:48+0000\n"
+"Last-Translator: Mohammed Al-Doub <voulnet@gmail.com>\n"
+"Language-Team: translations@vidalia-project.net\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ar\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5\n"
+"X-Generator: Vidalia ts2po 0.2\n"
+
+msgctxt "AboutDialog"
+msgid "About Vidalia"
+msgstr "عن ڤيداليا"
+
+msgctxt "AboutDialog"
+msgid "License"
+msgstr "الترخيص"
+
+msgctxt "AboutDialog"
+msgid "Vidalia 0.2.0"
+msgstr "ڤيداليا 0.2.0"
+
+msgctxt "AboutDialog"
+msgid "Tor 0.2.0.32"
+msgstr "تور 0.2.0.32"
+
+msgctxt "AboutDialog"
+msgid "Qt 4.4.2"
+msgstr "كيوتي 4.4.2"
+
+msgctxt "AdvancedPage"
+msgid "'%1' is not a valid IP address."
+msgstr "'%1' ليس رقم IP صحيح."
+
+msgctxt "AdvancedPage"
+msgid ""
+"You selected 'Password' authentication, but did not specify a password."
+msgstr "لقد اخترت \"كلمة سر\" كنظام استيثاق، لكنك لم تحدد كلمة سر."
+
+msgctxt "AdvancedPage"
+msgid "Select Tor Configuration File"
+msgstr "اختر ملف إعدادات تور"
+
+msgctxt "AdvancedPage"
+msgid "File Not Found"
+msgstr "الملف غير موجود"
+
+msgctxt "AdvancedPage"
+msgid "%1 does not exist. Would you like to create it?"
+msgstr "%1 غير موجود. أتريد إنشاءه؟"
+
+msgctxt "AdvancedPage"
+msgid "Failed to Create File"
+msgstr "تعذَّر إنشاء الملف"
+
+msgctxt "AdvancedPage"
+msgid "Unable to create %1 [%2]"
+msgstr "تعذَّر إنشاء الملف %1 [%2]"
+
+msgctxt "AdvancedPage"
+msgid "Select a Directory to Use for Tor Data"
+msgstr "اختر مجلدًا لحفظ بيانات التور"
+
+msgctxt "AdvancedPage"
+msgid "Unable to remove Tor Service"
+msgstr "تعذَّرت إزالة خدمة تور"
+
+msgctxt "AdvancedPage"
+msgid "Unable to install Tor Service"
+msgstr "تعذَّر تثبيت خدمة تور"
+
+msgctxt "AdvancedPage"
+msgid "Vidalia was unable to install the Tor service."
+msgstr "لم يتمكن ڤيداليا من تثبيت خدمة تور."
+
+msgctxt "AdvancedPage"
+msgid "Authentication:"
+msgstr "الاستيثاق:"
+
+msgctxt "AdvancedPage"
+msgid "Address:"
+msgstr "العنوان:"
+
+msgctxt "AdvancedPage"
+msgid "None"
+msgstr "لا شيء"
+
+msgctxt "AdvancedPage"
+msgid "Cookie"
+msgstr "كعكة"
+
+msgctxt "AdvancedPage"
+msgid "Password"
+msgstr "كلمة السر"
+
+msgctxt "AdvancedPage"
+msgid "Randomly Generate"
+msgstr "توليد عشوائي"
+
+msgctxt "AdvancedPage"
+msgid ":"
+msgstr ":"
+
+msgctxt "AdvancedPage"
+msgid "Tor Configuration File"
+msgstr "ملف ضبط تور"
+
+msgctxt "AdvancedPage"
+msgid "Start the Tor software with the specified configuration file (torrc)"
+msgstr "ابدأ برنامج تور بملف الضبط المحدد (torrc)"
+
+msgctxt "AdvancedPage"
+msgid "Select path to your configuration file"
+msgstr "اختر مسار ملف ضبطك"
+
+msgctxt "AdvancedPage"
+msgid "Browse"
+msgstr "تصفّح"
+
+msgctxt "AdvancedPage"
+msgid "Data Directory"
+msgstr "مجلد البيانات"
+
+msgctxt "AdvancedPage"
+msgid "Store data for the Tor software in the following directory"
+msgstr "احفظ بيانات برمجية تور في الدليل التالي"
+
+msgctxt "AdvancedPage"
+msgid "Select the directory used to store data for the Tor software"
+msgstr "اختر الدليل المستخدم لحفظ بيانات برمجية تور"
+
+msgctxt "AdvancedPage"
+msgid "Tor Control"
+msgstr "التحكم بتور"
+
+msgctxt "AdvancedPage"
+msgid "Use TCP connection (ControlPort)"
+msgstr "استخدام اتصال TCP (ControlPort)"
+
+msgctxt "AdvancedPage"
+msgid "Path:"
+msgstr "المسار:"
+
+msgctxt "AdvancedPage"
+msgid "Use Unix domain socket (ControlSocket)"
+msgstr "استعمل مقبس نطاق يونِكس (ControlSocket)"
+
+msgctxt "AdvancedPage"
+msgid "Edit current torrc"
+msgstr "حرر ملف التوررك الحالي"
+
+msgctxt "AdvancedPage"
+msgid "NOTE: this will edit the currently loaded torrc"
+msgstr "ملحوظة: فعل هذا سيغير ملف التوررك المحمّل حاليا"
+
+msgctxt "AdvancedPage"
+msgid "ControlSocket path doesn't exist."
+msgstr "مسار ControlSocket غير موجود."
+
+msgctxt "AdvancedPage"
+msgid ""
+"The specified Tor configuration file location contains characters that "
+"cannot be represented in your system's current 8-bit character encoding."
+msgstr "ملف الإعدادات المحدد يحتوي على أحرف لا يستطيع نظامك إظهارها لاعتماده على نظام ترقيم 8-بت "
+
+msgctxt "AdvancedPage"
+msgid ""
+"The specified Tor data directory location contains characters that cannot be"
+" represented in your system's current 8-bit character encoding."
+msgstr "مجلد المعلومات المحدد يحتوي على أحرف لا يستطيع نظامك إظهارها لاعتماده على نظام ترقيم 8-بت"
+
+msgctxt "AdvancedPage"
+msgid "Warning"
+msgstr "تحذير"
+
+msgctxt "AdvancedPage"
+msgid "You changed torrc path, would you like to restart Tor?"
+msgstr "غيرت مسار torrc، أتريد إعادة تشغيل تور؟"
+
+msgctxt "AdvancedPage"
+msgid "Tor Configuration File (torrc);;All Files (*)"
+msgstr "ملف إعدادات Tor (torrc) ;; كل الملفات (*)"
+
+msgctxt "AdvancedPage"
+msgid "Select a file to use for Tor socket path"
+msgstr "حدد ملف ليتم استخدامه لمسار مأخذ توصيل تور"
+
+msgctxt "AdvancedPage"
+msgid "Configure ControlPort automatically"
+msgstr "جهز محطة التحكم آليًّا"
+
+msgctxt "AdvancedPage"
+msgid ""
+"You've checked the autoconfiguration option for the ControlPort, but "
+"provided no Data Directory. Please add one, or uncheck the \"Configure "
+"ControlPort automatically\" option."
+msgstr "لقد تفحصت خيار الإعداد الأوتوماتيكي لمنفذ التحكم, لكنه لم يتوصل لمعلومات, من فضلك أضف واحداً, أو أزل علامة الأختيار من على \" ضبط منفذ التحكم أوتوماتيكياً\""
+
+msgctxt "AdvancedPage"
+msgid ""
+"Vidalia was unable to remove the Tor service.\n"
+"\n"
+"You may need to remove it manually."
+msgstr "لم يتمكن ڤيداليا من إزالة خدمة تور.\n\nقد تضطر لإزالتها يدوياً."
+
+msgctxt "AppearancePage"
+msgid "Language"
+msgstr "اللغة"
+
+msgctxt "AppearancePage"
+msgid "Choose the language used in Vidalia"
+msgstr "اختر اللغة المستخدمة في ڤيداليا"
+
+msgctxt "AppearancePage"
+msgid "Style"
+msgstr "النمط"
+
+msgctxt "AppearancePage"
+msgid "Choose Vidalia's interface style"
+msgstr "اختر نمط واجهة ڤيداليا"
+
+msgctxt "AppearancePage"
+msgid "Vidalia was unable to load the selected language translation."
+msgstr "ڤيداليا لم يتمكن من تحميل ملف ترجمة اللغة المحدد."
+
+msgctxt "AppearancePage"
+msgid ""
+"System Icon Preferences (changes will take effect when you restart Vidalia)"
+msgstr "ضع الأيكونه ضمن تفضيلات أيكونات النظام ( تحتاج لإعادة تشغيل فيداليا لتفعيل الإعداد ) "
+
+msgctxt "AppearancePage"
+msgid "Show the Tray Icon and Dock Icon (default)"
+msgstr " اظهار الايقونة بسلة  و شريط البرامج"
+
+msgctxt "AppearancePage"
+msgid "Hide the Tray Icon"
+msgstr "اخفاء الايقونة من سلة البرامج"
+
+msgctxt "AppearancePage"
+msgid "Hide the Dock Icon"
+msgstr "اخفاء الايقونة من شريط البرامج"
+
+msgctxt "BandwidthGraph"
+msgid "Since:"
+msgstr "منذ:"
+
+msgctxt "BandwidthGraph"
+msgid "Hide Settings"
+msgstr "أخفِ الإعدادات"
+
+msgctxt "BandwidthGraph"
+msgid "Show Settings"
+msgstr "أظهر الإعدادات"
+
+msgctxt "BandwidthGraph"
+msgid "Tor Bandwidth Usage"
+msgstr "استخدام تور لعرض النطاق"
+
+msgctxt "BandwidthGraph"
+msgid "Reset"
+msgstr "أعد الضبط"
+
+msgctxt "BandwidthGraph"
+msgid "Receive Rate"
+msgstr "مُعدَّل الاستقبال"
+
+msgctxt "BandwidthGraph"
+msgid "Send Rate"
+msgstr "مُعدَّل الإرسال"
+
+msgctxt "BandwidthGraph"
+msgid "Always on Top"
+msgstr "دائما في المقدمة"
+
+msgctxt "BandwidthGraph"
+msgid "Style"
+msgstr "النمط"
+
+msgctxt "BandwidthGraph"
+msgid "Changes the transparency of the Bandwidth Graph"
+msgstr "تغيير شفافية مخطط عرض النطاق"
+
+msgctxt "BandwidthGraph"
+msgid "100"
+msgstr "100"
+
+msgctxt "BandwidthGraph"
+msgid "% Opaque"
+msgstr "% غير شفاف"
+
+msgctxt "BandwidthGraph"
+msgid "Save"
+msgstr "احفظ"
+
+msgctxt "BandwidthGraph"
+msgid "Cancel"
+msgstr "ألغِ"
+
+msgctxt "BridgeDownloader"
+msgid "Starting HTTPS bridge request..."
+msgstr "بدء طلب جسر HTTPS..."
+
+msgctxt "BridgeDownloader"
+msgid "Connecting to %1:%2..."
+msgstr "جارٍ الاتصال بـ%1:%2..."
+
+msgctxt "BridgeDownloader"
+msgid "Sending an HTTPS request for bridges..."
+msgstr "جاري إرسال طلب HTTPS للجسور..."
+
+msgctxt "BridgeDownloader"
+msgid "Downloading a list of bridges..."
+msgstr "تنزيل قائمة الجسور..."
+
+msgctxt "BridgeDownloaderProgressDialog"
+msgid "Downloading Bridges"
+msgstr "تنزيل قائمة الجسور"
+
+msgctxt "BridgeDownloaderProgressDialog"
+msgid "Unable to download bridges: %1"
+msgstr "غير قادر على تنزيل الجسور: %1"
+
+msgctxt "BridgeDownloaderProgressDialog"
+msgid "Retrying bridge request..."
+msgstr "إعادة محاولة طلب الجسور..."
+
+msgctxt "BridgeUsageDialog"
+msgid "Country"
+msgstr "البلد"
+
+msgctxt "BridgeUsageDialog"
+msgid "# Clients"
+msgstr "# العملاء"
+
+msgctxt "BridgeUsageDialog"
+msgid "Clients from the following countries have used your relay since %1"
+msgstr "العملاء من الدول التالية استخدموا تحويلتك منذ %1"
+
+msgctxt "BridgeUsageDialog"
+msgid "Bridge Usage Summary"
+msgstr "ملخص استخدام الجسر"
+
+msgctxt "BridgeUsageDialog"
+msgid "Client Summary"
+msgstr "ملخص العميل"
+
+msgctxt "Circuit"
+msgid "New"
+msgstr "جديد"
+
+msgctxt "Circuit"
+msgid "Open"
+msgstr "افتح"
+
+msgctxt "Circuit"
+msgid "Building"
+msgstr "جار البناء"
+
+msgctxt "Circuit"
+msgid "Failed"
+msgstr "فشل"
+
+msgctxt "Circuit"
+msgid "Closed"
+msgstr "أغلقت"
+
+msgctxt "Circuit"
+msgid "Unknown"
+msgstr "غير معروف"
+
+msgctxt "CircuitItem"
+msgid "<Path Empty>"
+msgstr "<المسار فارغ>"
+
+msgctxt "CircuitListWidget"
+msgid "Connection"
+msgstr "الاتصال"
+
+msgctxt "CircuitListWidget"
+msgid "Status"
+msgstr "الحالة"
+
+msgctxt "CircuitListWidget"
+msgid "Zoom to Circuit"
+msgstr "قرّب إلى الدائرة"
+
+msgctxt "CircuitListWidget"
+msgid "Close Circuit (Del)"
+msgstr "أغلق الدائرة (Del)"
+
+msgctxt "CircuitListWidget"
+msgid "Close Stream (Del)"
+msgstr "أغلق الجدول (Del)"
+
+msgctxt "ConfigDialog"
+msgid "General"
+msgstr "عام"
+
+msgctxt "ConfigDialog"
+msgid "Network"
+msgstr "الشبكة"
+
+msgctxt "ConfigDialog"
+msgid "Sharing"
+msgstr "المشاركة"
+
+msgctxt "ConfigDialog"
+msgid "Services"
+msgstr "الخدمات"
+
+msgctxt "ConfigDialog"
+msgid "Appearance"
+msgstr "المظهر"
+
+msgctxt "ConfigDialog"
+msgid "Advanced"
+msgstr "متقدم"
+
+msgctxt "ConfigDialog"
+msgid "Help"
+msgstr "مساعدة"
+
+msgctxt "ConfigDialog"
+msgid "Error Saving Settings"
+msgstr "خطأ في حفظ الإعدادات"
+
+msgctxt "ConfigDialog"
+msgid "Vidalia was unable to save your %1 settings."
+msgstr "لم يتمكن ڤيداليا من حفظ إعداداتك ل%1"
+
+msgctxt "ConfigDialog"
+msgid "Error Applying Settings"
+msgstr "خطأ في تطبيق الإعدادات"
+
+msgctxt "ConfigDialog"
+msgid "Vidalia was unable to apply your %1 settings to Tor."
+msgstr "ڤيداليا لا يستطيع تطبيق إعداداتك %1 في تور"
+
+msgctxt "ConfigDialog"
+msgid "Settings"
+msgstr "إعدادات"
+
+msgctxt "ControlConnection"
+msgid "Vidalia was unable to connect to Tor. (%1)"
+msgstr "ڤيداليا لا يستطيع الإتصال بتور. (%1)"
+
+msgctxt "ControlConnection"
+msgid "Control socket is not connected."
+msgstr "مقبس التحكم غير متصل."
+
+msgctxt "ControlPasswordInputDialog"
+msgid "Password Required"
+msgstr "كلمة السر مطلوبة"
+
+msgctxt "ControlPasswordInputDialog"
+msgid "Remember my password"
+msgstr "تذكر كلمة السر"
+
+msgctxt "ControlPasswordInputDialog"
+msgid ""
+"Vidalia has connected to a running Tor process that requires a password. "
+"Please enter your control password:"
+msgstr "اتصل ڤيداليا بعملية تور جارية تتطلب كلمة سر. يرجى أن تدخل كلمة سر التحكم:"
+
+msgctxt "ControlSocket"
+msgid "Control socket is not connected."
+msgstr "مقبس التحكم غير متصل."
+
+msgctxt "ControlSocket"
+msgid "Error sending control command. [%1]"
+msgstr "خطأ في إرسال أمر تحكم. [%1]"
+
+msgctxt "ControlSocket"
+msgid "Socket disconnected while attempting to read a line of data."
+msgstr "فُصِل المقبس أثناء محاولة قراءة سطر بيانات."
+
+msgctxt "ControlSocket"
+msgid "Invalid control reply. [%1]"
+msgstr "رد تحكم غير صالح. [%1]"
+
+msgctxt "CountryInfo"
+msgid "Afghanistan"
+msgstr "أفغانستان"
+
+msgctxt "CountryInfo"
+msgid "Andorra"
+msgstr "أندورا"
+
+msgctxt "CountryInfo"
+msgid "Angola"
+msgstr "أنجولا"
+
+msgctxt "CountryInfo"
+msgid "Antigua & Barbuda"
+msgstr "أنتيغوا وبربودا"
+
+msgctxt "CountryInfo"
+msgid "Argentina"
+msgstr "الأرجنتين"
+
+msgctxt "CountryInfo"
+msgid "Armenia"
+msgstr "أرميني"
+
+msgctxt "CountryInfo"
+msgid "Australia"
+msgstr "أستراليا"
+
+msgctxt "CountryInfo"
+msgid "Azerbaijan"
+msgstr "أذربيجان"
+
+msgctxt "CountryInfo"
+msgid "Bahamas"
+msgstr "البهاما"
+
+msgctxt "CountryInfo"
+msgid "Bangladesh"
+msgstr "بنغلاديش"
+
+msgctxt "CountryInfo"
+msgid "Barbados"
+msgstr "باربادوس"
+
+msgctxt "CountryInfo"
+msgid "Belarus"
+msgstr "روسيا البيضاء"
+
+msgctxt "CountryInfo"
+msgid "Belgium"
+msgstr "بلجيكا"
+
+msgctxt "CountryInfo"
+msgid "Belize"
+msgstr "بيليز"
+
+msgctxt "CountryInfo"
+msgid "Bhutan"
+msgstr "بوتان"
+
+msgctxt "CountryInfo"
+msgid "Bolivia"
+msgstr "بوليفيا"
+
+msgctxt "CountryInfo"
+msgid "Bosnia & Herzegovina"
+msgstr "البوسنة والهرسك"
+
+msgctxt "CountryInfo"
+msgid "Botswana"
+msgstr "بوتسوانا"
+
+msgctxt "CountryInfo"
+msgid "Brazil"
+msgstr "البرازيل"
+
+msgctxt "CountryInfo"
+msgid "Brunei Darussalam"
+msgstr "بروناي دار السلام"
+
+msgctxt "CountryInfo"
+msgid "Bulgaria"
+msgstr "بلغاريا"
+
+msgctxt "CountryInfo"
+msgid "Burkina Faso"
+msgstr "بوركينا فاسو"
+
+msgctxt "CountryInfo"
+msgid "Burundi"
+msgstr "بوروندي"
+
+msgctxt "CountryInfo"
+msgid "Cambodia"
+msgstr "كمبوديا"
+
+msgctxt "CountryInfo"
+msgid "Cameroon"
+msgstr "الكاميرون"
+
+msgctxt "CountryInfo"
+msgid "Canada"
+msgstr "كندا"
+
+msgctxt "CountryInfo"
+msgid "Cape Verde"
+msgstr "الرأس الأخضر"
+
+msgctxt "CountryInfo"
+msgid "Central African Republic"
+msgstr "جمهورية افريقيا الوسطى"
+
+msgctxt "CountryInfo"
+msgid "Chad"
+msgstr "تشاد"
+
+msgctxt "CountryInfo"
+msgid "Chile"
+msgstr "شيلي"
+
+msgctxt "CountryInfo"
+msgid "China"
+msgstr "الصين"
+
+msgctxt "CountryInfo"
+msgid "Colombia"
+msgstr "كولومبيا"
+
+msgctxt "CountryInfo"
+msgid "Comoros"
+msgstr "جزر القمر"
+
+msgctxt "CountryInfo"
+msgid "Congo, The Democratic Republic of the"
+msgstr "جمهورية الكونغو الديمقراطية"
+
+msgctxt "CountryInfo"
+msgid "Congo"
+msgstr "الكونغو"
+
+msgctxt "CountryInfo"
+msgid "Costa Rica"
+msgstr "كوستاريكا"
+
+msgctxt "CountryInfo"
+msgid "Cote dâIvoire"
+msgstr "ساحل العاج"
+
+msgctxt "CountryInfo"
+msgid "Croatia"
+msgstr "كرواتيا"
+
+msgctxt "CountryInfo"
+msgid "Cuba"
+msgstr "كوبا"
+
+msgctxt "CountryInfo"
+msgid "Cyprus"
+msgstr "قبرص"
+
+msgctxt "CountryInfo"
+msgid "Czech Republic"
+msgstr "جمهورية التشيك"
+
+msgctxt "CountryInfo"
+msgid "Denmark"
+msgstr "الدنمارك"
+
+msgctxt "CountryInfo"
+msgid "Djibouti"
+msgstr "جيبوتي"
+
+msgctxt "CountryInfo"
+msgid "Dominica"
+msgstr "دومينيكا"
+
+msgctxt "CountryInfo"
+msgid "Dominican Republic"
+msgstr "جمهورية الدومينيكان"
+
+msgctxt "CountryInfo"
+msgid "Ecuador"
+msgstr "الاكوادور"
+
+msgctxt "CountryInfo"
+msgid "Egypt"
+msgstr "مصر"
+
+msgctxt "CountryInfo"
+msgid "El Salvador"
+msgstr "السلفادور"
+
+msgctxt "CountryInfo"
+msgid "Equatorial Guinea"
+msgstr "غينيا الاستوائية"
+
+msgctxt "CountryInfo"
+msgid "Eritrea"
+msgstr "إريتريا"
+
+msgctxt "CountryInfo"
+msgid "Estonia"
+msgstr "استونيا"
+
+msgctxt "CountryInfo"
+msgid "France"
+msgstr "فرنسا"
+
+msgctxt "CountryInfo"
+msgid "Gabon"
+msgstr "الغابون"
+
+msgctxt "CountryInfo"
+msgid "Gambia"
+msgstr "غامبيا"
+
+msgctxt "CountryInfo"
+msgid "Georgia"
+msgstr "جورجيا"
+
+msgctxt "CountryInfo"
+msgid "Germany"
+msgstr "ألمانيا"
+
+msgctxt "CountryInfo"
+msgid "Ghana"
+msgstr "غانا"
+
+msgctxt "CountryInfo"
+msgid "Grenada"
+msgstr "جرينادا"
+
+msgctxt "CountryInfo"
+msgid "Guatemala"
+msgstr "جواتيمالا"
+
+msgctxt "CountryInfo"
+msgid "Guinea"
+msgstr "غينيا"
+
+msgctxt "CountryInfo"
+msgid "Guinea-Bissau"
+msgstr "غينيا بيساو"
+
+msgctxt "CountryInfo"
+msgid "Guyana"
+msgstr "غوايانا"
+
+msgctxt "CountryInfo"
+msgid "Hong Kong"
+msgstr "هونج كونج"
+
+msgctxt "CountryInfo"
+msgid "Haiti"
+msgstr "هايتي"
+
+msgctxt "CountryInfo"
+msgid "Honduras"
+msgstr "هندوراس"
+
+msgctxt "CountryInfo"
+msgid "Israel"
+msgstr "اسرائيل"
+
+msgctxt "CountryInfo"
+msgid "Italy"
+msgstr "ايطاليا"
+
+msgctxt "CountryInfo"
+msgid "Jamaica"
+msgstr "جامايكا"
+
+msgctxt "CountryInfo"
+msgid "Japan"
+msgstr "اليابان"
+
+msgctxt "CountryInfo"
+msgid "Jordan"
+msgstr "الأردن"
+
+msgctxt "CountryInfo"
+msgid "Kazakhstan"
+msgstr "كازاخستان"
+
+msgctxt "CountryInfo"
+msgid "Kenya"
+msgstr "كينيا"
+
+msgctxt "CountryInfo"
+msgid "Kiribati"
+msgstr "كيريباتي"
+
+msgctxt "CountryInfo"
+msgid "Kuwait"
+msgstr "الكويت"
+
+msgctxt "CountryInfo"
+msgid "Kyrgyzstan"
+msgstr "قيرغيزستان"
+
+msgctxt "CountryInfo"
+msgid "Laos"
+msgstr "لاوس"
+
+msgctxt "CountryInfo"
+msgid "Latvia"
+msgstr "لاتفيا"
+
+msgctxt "CountryInfo"
+msgid "Lebanon"
+msgstr "لبنان"
+
+msgctxt "CountryInfo"
+msgid "Lesotho"
+msgstr "ليسوتو"
+
+msgctxt "CountryInfo"
+msgid "Liberia"
+msgstr "ليبيريا"
+
+msgctxt "CountryInfo"
+msgid "Liechtenstein"
+msgstr "ليختنشتاين"
+
+msgctxt "CountryInfo"
+msgid "Lithuania"
+msgstr "ليتوانيا"
+
+msgctxt "CountryInfo"
+msgid "Luxembourg"
+msgstr "لوكسمبورج"
+
+msgctxt "CountryInfo"
+msgid "Macedonia"
+msgstr "مقدونيا"
+
+msgctxt "CountryInfo"
+msgid "Madagascar"
+msgstr "مدغشقر"
+
+msgctxt "CountryInfo"
+msgid "Malawi"
+msgstr "مالاوي"
+
+msgctxt "CountryInfo"
+msgid "Malaysia"
+msgstr "ماليزيا"
+
+msgctxt "CountryInfo"
+msgid "Mali"
+msgstr "مالي"
+
+msgctxt "CountryInfo"
+msgid "Malta"
+msgstr "مالطا"
+
+msgctxt "CountryInfo"
+msgid "Marshall Islands"
+msgstr "جزر مارشال"
+
+msgctxt "CountryInfo"
+msgid "Mauritania"
+msgstr "موريتانيا"
+
+msgctxt "CountryInfo"
+msgid "Mauritius"
+msgstr "موريشيوس"
+
+msgctxt "CountryInfo"
+msgid "Micronesia"
+msgstr "ميكرونيزيا"
+
+msgctxt "CountryInfo"
+msgid "Moldova"
+msgstr "مولدافيا"
+
+msgctxt "CountryInfo"
+msgid "Monaco"
+msgstr "موناكو"
+
+msgctxt "CountryInfo"
+msgid "Mongolia"
+msgstr "منغوليا"
+
+msgctxt "CountryInfo"
+msgid "Montenegro"
+msgstr "الجبل الأسود"
+
+msgctxt "CountryInfo"
+msgid "Morocco"
+msgstr "المغرب"
+
+msgctxt "CountryInfo"
+msgid "Mozambique"
+msgstr "موزامبيق"
+
+msgctxt "CountryInfo"
+msgid "Namibia"
+msgstr "ناميبيا"
+
+msgctxt "CountryInfo"
+msgid "Nauru"
+msgstr "ناورو"
+
+msgctxt "CountryInfo"
+msgid "Nepal"
+msgstr "نيبال"
+
+msgctxt "CountryInfo"
+msgid "Netherlands"
+msgstr "هولندا"
+
+msgctxt "CountryInfo"
+msgid "New Zealand"
+msgstr "نيوزيلندا"
+
+msgctxt "CountryInfo"
+msgid "Nicaragua"
+msgstr "نيكاراجوا"
+
+msgctxt "CountryInfo"
+msgid "Niger"
+msgstr "النيجر"
+
+msgctxt "CountryInfo"
+msgid "Nigeria"
+msgstr "نيجيريا"
+
+msgctxt "CountryInfo"
+msgid "Norway"
+msgstr "النرويج"
+
+msgctxt "CountryInfo"
+msgid "Oman"
+msgstr "عُمان"
+
+msgctxt "CountryInfo"
+msgid "Pakistan"
+msgstr "باكستان"
+
+msgctxt "CountryInfo"
+msgid "Palau"
+msgstr "بالاو"
+
+msgctxt "CountryInfo"
+msgid "Palestine"
+msgstr "فلسطين"
+
+msgctxt "CountryInfo"
+msgid "Panama"
+msgstr "بنما"
+
+msgctxt "CountryInfo"
+msgid "Papua New Guinea"
+msgstr "بابوا غينيا الجديدة"
+
+msgctxt "CountryInfo"
+msgid "Paraguay"
+msgstr "الباراجواي"
+
+msgctxt "CountryInfo"
+msgid "Peru"
+msgstr "البيرو"
+
+msgctxt "CountryInfo"
+msgid "Philippines"
+msgstr "الفلبين"
+
+msgctxt "CountryInfo"
+msgid "Poland"
+msgstr "بولندا"
+
+msgctxt "CountryInfo"
+msgid "Portugal"
+msgstr "البرتغال"
+
+msgctxt "CountryInfo"
+msgid "Qatar"
+msgstr "قطر"
+
+msgctxt "CountryInfo"
+msgid "Romania"
+msgstr "رومانيا"
+
+msgctxt "CountryInfo"
+msgid "Russia"
+msgstr "روسيا"
+
+msgctxt "CountryInfo"
+msgid "Rwanda"
+msgstr "رواندا"
+
+msgctxt "CountryInfo"
+msgid "Saint Kitts & Nevis"
+msgstr "سانت كيتس ونيفيس"
+
+msgctxt "CountryInfo"
+msgid "Saint Lucia"
+msgstr "سانت لوسيا"
+
+msgctxt "CountryInfo"
+msgid "Saint Vincent & the Grenadines"
+msgstr "سانت فنسنت وغرينادين"
+
+msgctxt "CountryInfo"
+msgid "Samoa"
+msgstr "ساموا"
+
+msgctxt "CountryInfo"
+msgid "San Marino"
+msgstr "سان مارينو"
+
+msgctxt "CountryInfo"
+msgid "Sao Tome & Principe"
+msgstr "ساوتومي وبرنسيب"
+
+msgctxt "CountryInfo"
+msgid "Saudi Arabia"
+msgstr "المملكة العربية السعودية"
+
+msgctxt "CountryInfo"
+msgid "Senegal"
+msgstr "السنغال"
+
+msgctxt "CountryInfo"
+msgid "Serbia"
+msgstr "صربيا"
+
+msgctxt "CountryInfo"
+msgid "Seychelles"
+msgstr "سيشيل"
+
+msgctxt "CountryInfo"
+msgid "Sierra Leone"
+msgstr "سيراليون"
+
+msgctxt "CountryInfo"
+msgid "Singapore"
+msgstr "سنغافورة"
+
+msgctxt "CountryInfo"
+msgid "Slovakia"
+msgstr "سلوفاكيا"
+
+msgctxt "CountryInfo"
+msgid "Slovenia"
+msgstr "سلوفينيا"
+
+msgctxt "CountryInfo"
+msgid "Solomon Islands"
+msgstr "جزر سليمان"
+
+msgctxt "CountryInfo"
+msgid "Somalia"
+msgstr "الصومال"
+
+msgctxt "CountryInfo"
+msgid "South Africa"
+msgstr "جنوب أفريقيا"
+
+msgctxt "CountryInfo"
+msgid "Spain"
+msgstr "اسبانيا"
+
+msgctxt "CountryInfo"
+msgid "Sri Lanka"
+msgstr "سريلانكا"
+
+msgctxt "CountryInfo"
+msgid "Sudan"
+msgstr "السودان"
+
+msgctxt "CountryInfo"
+msgid "Suriname"
+msgstr "سورينام"
+
+msgctxt "CountryInfo"
+msgid "Swaziland"
+msgstr "سوازيلاند"
+
+msgctxt "CountryInfo"
+msgid "Sweden"
+msgstr "السويد"
+
+msgctxt "CountryInfo"
+msgid "Switzerland"
+msgstr "سويسرا"
+
+msgctxt "CountryInfo"
+msgid "Syria"
+msgstr "سوريا"
+
+msgctxt "CountryInfo"
+msgid "Tajikistan"
+msgstr "طاجيكستان"
+
+msgctxt "CountryInfo"
+msgid "Tanzania"
+msgstr "تنزانيا"
+
+msgctxt "CountryInfo"
+msgid "Thailand"
+msgstr "تايلاند"
+
+msgctxt "CountryInfo"
+msgid "Timor-Leste (East Timor)"
+msgstr "تيمور الشرقية (تيمور الشرقية)"
+
+msgctxt "CountryInfo"
+msgid "Togo"
+msgstr "توغو"
+
+msgctxt "CountryInfo"
+msgid "Tonga"
+msgstr "تونجا"
+
+msgctxt "CountryInfo"
+msgid "Trinidad & Tobago"
+msgstr "ترينيداد وتوباجو"
+
+msgctxt "CountryInfo"
+msgid "Tunisia"
+msgstr "تونس"
+
+msgctxt "CountryInfo"
+msgid "Turkey"
+msgstr "تركيا"
+
+msgctxt "CountryInfo"
+msgid "Turkmenistan"
+msgstr "تركمانستان"
+
+msgctxt "CountryInfo"
+msgid "Tuvalu"
+msgstr "توفالو"
+
+msgctxt "CountryInfo"
+msgid "Uganda"
+msgstr "أوغندا"
+
+msgctxt "CountryInfo"
+msgid "Ukraine"
+msgstr "أوكرانيا"
+
+msgctxt "CountryInfo"
+msgid "United Arab Emirates"
+msgstr "الإمارات العربية المتحدة"
+
+msgctxt "CountryInfo"
+msgid "United Kingdom"
+msgstr "المملكة المتحدة"
+
+msgctxt "CountryInfo"
+msgid "United States"
+msgstr "الولايات المتحدة الأمريكية"
+
+msgctxt "CountryInfo"
+msgid "Uruguay"
+msgstr "الأوروغواي"
+
+msgctxt "CountryInfo"
+msgid "Uzbekistan"
+msgstr "أوزبكستان"
+
+msgctxt "CountryInfo"
+msgid "Vanuatu"
+msgstr "فانواتو"
+
+msgctxt "CountryInfo"
+msgid "Vatican"
+msgstr "الفاتيكان"
+
+msgctxt "CountryInfo"
+msgid "Venezuela"
+msgstr "فنزويلا"
+
+msgctxt "CountryInfo"
+msgid "Vietnam"
+msgstr "فيتنام"
+
+msgctxt "CountryInfo"
+msgid "Western Sahara"
+msgstr "الصحراء الغربية"
+
+msgctxt "CountryInfo"
+msgid "Yemen"
+msgstr "اليمن"
+
+msgctxt "CountryInfo"
+msgid "Zambia"
+msgstr "زامبيا"
+
+msgctxt "CountryInfo"
+msgid "Zimbabwe"
+msgstr "زيمبابوي"
+
+msgctxt "CountryInfo"
+msgid "Zaire"
+msgstr "Zaire"
+
+msgctxt "CountryInfo"
+msgid "Albania"
+msgstr "ألبانيا"
+
+msgctxt "CountryInfo"
+msgid "Algeria"
+msgstr "الجزائر"
+
+msgctxt "CountryInfo"
+msgid "Austria"
+msgstr "النمسا"
+
+msgctxt "CountryInfo"
+msgid "Bahrain"
+msgstr "البحرين"
+
+msgctxt "CountryInfo"
+msgid "Benin"
+msgstr "بنين"
+
+msgctxt "CountryInfo"
+msgid "Ethiopia"
+msgstr "اثيوبيا"
+
+msgctxt "CountryInfo"
+msgid "Fiji"
+msgstr "فيجي"
+
+msgctxt "CountryInfo"
+msgid "Finland"
+msgstr "فنلندا"
+
+msgctxt "CountryInfo"
+msgid "Greece"
+msgstr "اليونان"
+
+msgctxt "CountryInfo"
+msgid "Guam"
+msgstr "غوام"
+
+msgctxt "CountryInfo"
+msgid "Hungary"
+msgstr "المجر"
+
+msgctxt "CountryInfo"
+msgid "Iceland"
+msgstr "أيسلندا"
+
+msgctxt "CountryInfo"
+msgid "India"
+msgstr "الهند"
+
+msgctxt "CountryInfo"
+msgid "Indonesia"
+msgstr "أندونيسيا"
+
+msgctxt "CountryInfo"
+msgid "Iran"
+msgstr "إيران"
+
+msgctxt "CountryInfo"
+msgid "Iraq"
+msgstr "العراق"
+
+msgctxt "CountryInfo"
+msgid "Ireland"
+msgstr "أيرلاندا"
+
+msgctxt "CountryInfo"
+msgid "Korea, North"
+msgstr "كوريا الشمالية"
+
+msgctxt "CountryInfo"
+msgid "Korea, South"
+msgstr "كوريا الجنوبية"
+
+msgctxt "CountryInfo"
+msgid "Libya"
+msgstr "ليبيا"
+
+msgctxt "CountryInfo"
+msgid "Maldives"
+msgstr "جزر المالديف"
+
+msgctxt "CountryInfo"
+msgid "Mexico"
+msgstr "المكسيك"
+
+msgctxt "CountryInfo"
+msgid "Myanmar"
+msgstr "ميانمار"
+
+msgctxt "CountryInfo"
+msgid "Taiwan"
+msgstr "تايوان"
+
+msgctxt "CrashReportDialog"
+msgid "Submit a Crash Report"
+msgstr "بلّغ عن الانهيار"
+
+msgctxt "CrashReportDialog"
+msgid "Vidalia encountered an error and needed to close"
+msgstr "واجه فيداليا خطأ ويحتاج إلى الإغلاق"
+
+msgctxt "CrashReportDialog"
+msgid "Restart Vidalia"
+msgstr "إعادة تشغيل فيداليا"
+
+msgctxt "CrashReportDialog"
+msgid "Don't Restart"
+msgstr "لا تعد التشغيل"
+
+msgctxt "CrashReportDialog"
+msgid "Unable to restart Vidalia"
+msgstr "غير قادر على إعادة تشغيل فيداليا"
+
+msgctxt "CrashReportDialog"
+msgid ""
+"We were unable to automatically restart Vidalia. Please restart Vidalia "
+"manually."
+msgstr "لم نتمكن من إعادة تشغيل فيداليا تلقائيا. الرجاء إعادة تشغيله يدويا."
+
+msgctxt "CrashReportDialog"
+msgid "Please fill a ticket in:"
+msgstr "يرجى ملء تذكرة :"
+
+msgctxt "CrashReportDialog"
+msgid ""
+"<a "
+"href=\"https://trac.torproject.org/projects/tor/newticket\">https://trac.torproject.org/projects/tor/newticket</a>"
+msgstr "<a href=\"https://trac.torproject.org/projects/tor/newticket\">https://trac.torproject.org/projects/tor/newticket</a>"
+
+msgctxt "CrashReportDialog"
+msgid ""
+"A crash report has been created that you can send to the Vidalia developers "
+"to help identify and fix the problem. The submitted report does not contain "
+"any personally identifying information."
+msgstr "تم كتابة إخطار فشل تستطيع إرساله إلى مبرمجي فيداليا لكي يساعدهم على إيجاد وحل المشكلة. لا يحتوي على أي معلومات شخصية."
+
+msgctxt "CrashReportDialog"
+msgid ""
+"with a description of what you were doing before the application crashed, "
+"along with the following files corresponding to the crash report:"
+msgstr "بوصف لما كنت تفعل قبل فشل البرنامج، مع الملفات الآتية التي تتصل بالإخطار:"
+
+msgctxt "GeneralPage"
+msgid "Executables (*.exe)"
+msgstr "الملفات التنفيذية (*.exe)"
+
+msgctxt "GeneralPage"
+msgid "Select Path to Tor"
+msgstr "اختيار مسار تور"
+
+msgctxt "GeneralPage"
+msgid "Select Proxy Executable"
+msgstr "اختيار الملف التنفيذي للوسيط (بروكسي)"
+
+msgctxt "GeneralPage"
+msgid "You must specify the name of your Tor executable."
+msgstr "يجب تحديد اسم ملف تور التنفيذي."
+
+msgctxt "GeneralPage"
+msgid "Start Vidalia when my system starts"
+msgstr "ابدأ ڤيداليا عند بدء تشغيل النظام"
+
+msgctxt "GeneralPage"
+msgid "Browse"
+msgstr "تصفّح"
+
+msgctxt "GeneralPage"
+msgid "Start the Tor software when Vidalia starts"
+msgstr "ابدأ عمل برمجية تور مع بدء تشغيل ڤيداليا"
+
+msgctxt "GeneralPage"
+msgid "Tor"
+msgstr "تور"
+
+msgctxt "GeneralPage"
+msgid "Proxy Application (optional)"
+msgstr "تطبيق الوسيط (اختياري)"
+
+msgctxt "GeneralPage"
+msgid "Start a proxy application when Tor starts"
+msgstr "ابدأ تطبيق الوسيط مع بدء تشغيل تور"
+
+msgctxt "GeneralPage"
+msgid "Proxy Application Arguments:"
+msgstr "معطيات تطبيق الوسيط:"
+
+msgctxt "GeneralPage"
+msgid "Software Updates"
+msgstr "تحديث البرنامج"
+
+msgctxt "GeneralPage"
+msgid "Check for new software updates automatically"
+msgstr "التمس تحديثات البرمجيات تلقائيًا"
+
+msgctxt "GeneralPage"
+msgid "Check Now"
+msgstr "التمس الآن"
+
+msgctxt "GraphFrame"
+msgid "%1 KB/s"
+msgstr "%1 ك.ب/ثا"
+
+msgctxt "GraphFrame"
+msgid "%1 KB"
+msgstr "%1 ك.ب"
+
+msgctxt "GraphFrame"
+msgid "%1 MB"
+msgstr "%1 م.ب."
+
+msgctxt "GraphFrame"
+msgid "%1 GB"
+msgstr "%1 ج.ب."
+
+msgctxt "GraphFrame"
+msgid "Recv:"
+msgstr "مستقبل:"
+
+msgctxt "GraphFrame"
+msgid "Sent:"
+msgstr "مرسل:"
+
+msgctxt "HelpBrowser"
+msgid "Supplied XML file is not a valid Contents document."
+msgstr "ملف XML الموفر ليس وثيقة محتويات صالحة."
+
+msgctxt "HelpBrowser"
+msgid "Search reached end of document"
+msgstr "وصل البحث إلى نهاية الوثيقة"
+
+msgctxt "HelpBrowser"
+msgid "Search reached start of document"
+msgstr "وصل البحث إلى بداية الوثيقة"
+
+msgctxt "HelpBrowser"
+msgid "Text not found in document"
+msgstr "لم يُعثر على النص في الوثيقة"
+
+msgctxt "HelpBrowser"
+msgid "Found %1 results"
+msgstr "وجدت %1 نتيجة"
+
+msgctxt "HelpBrowser"
+msgid "Vidalia Help"
+msgstr "مساعدة ڤيداليا"
+
+msgctxt "HelpBrowser"
+msgid "Back"
+msgstr "عودة"
+
+msgctxt "HelpBrowser"
+msgid "Move to previous page (Backspace)"
+msgstr "انتقل إلى الصفحة السابقة (Backspace)"
+
+msgctxt "HelpBrowser"
+msgid "Backspace"
+msgstr "Backspace"
+
+msgctxt "HelpBrowser"
+msgid "Forward"
+msgstr "تقدَّم"
+
+msgctxt "HelpBrowser"
+msgid "Move to next page (Shift+Backspace)"
+msgstr "تقدم إلى الصفحة التالية (Shift+Backspace)"
+
+msgctxt "HelpBrowser"
+msgid "Shift+Backspace"
+msgstr "Shift+Backspace"
+
+msgctxt "HelpBrowser"
+msgid "Home"
+msgstr "الصفحة الرئيسية"
+
+msgctxt "HelpBrowser"
+msgid "Move to the Home page (Ctrl+H)"
+msgstr "اذهب إلى الصفحة الرئيسية (Ctrl+H)"
+
+msgctxt "HelpBrowser"
+msgid "Ctrl+H"
+msgstr "Ctrl+H"
+
+msgctxt "HelpBrowser"
+msgid "Find"
+msgstr "ابحث"
+
+msgctxt "HelpBrowser"
+msgid "Search for a word or phrase on current page (Ctrl+F)"
+msgstr "ابحث عن كلمة أو عبارة في الصفحة الحالية (Ctrl+F)"
+
+msgctxt "HelpBrowser"
+msgid "Ctrl+F"
+msgstr "Ctrl+F"
+
+msgctxt "HelpBrowser"
+msgid "Close"
+msgstr "أغلق"
+
+msgctxt "HelpBrowser"
+msgid "Close Vidalia Help"
+msgstr "أغلق مساعدة ڤيداليا"
+
+msgctxt "HelpBrowser"
+msgid "Esc"
+msgstr "Esc"
+
+msgctxt "HelpBrowser"
+msgid "Find:"
+msgstr "بحث:"
+
+msgctxt "HelpBrowser"
+msgid "Find Previous"
+msgstr "ابحث عن السابق"
+
+msgctxt "HelpBrowser"
+msgid "Find Next"
+msgstr "ابحث عن اللاحق"
+
+msgctxt "HelpBrowser"
+msgid "Case sensitive"
+msgstr "ميّز الأحرف اللاتينية الكبيرة و الصغيرة"
+
+msgctxt "HelpBrowser"
+msgid "Whole words only"
+msgstr "الكلمات الكاملة فقط"
+
+msgctxt "HelpBrowser"
+msgid "Help Topics"
+msgstr "موضوعات المساعدة"
+
+msgctxt "HelpBrowser"
+msgid "Contents"
+msgstr "المحتويات"
+
+msgctxt "HelpBrowser"
+msgid "Search"
+msgstr "البحث"
+
+msgctxt "HelpBrowser"
+msgid "Searching for:"
+msgstr "يجري البحث عن:"
+
+msgctxt "HelpBrowser"
+msgid "Found Documents"
+msgstr "المستندات التي تم إيجادها"
+
+msgctxt "HelpBrowser"
+msgid "Error Loading Help Contents:"
+msgstr "خطأ في تحميل محتويات المساعدة:"
+
+msgctxt "HelpTextBrowser"
+msgid "Opening External Link"
+msgstr "فتح رابط خارجي"
+
+msgctxt "HelpTextBrowser"
+msgid ""
+"Vidalia can open the link you selected in your default Web browser. If your "
+"browser is not currently configured to use Tor then the request will not be "
+"anonymous."
+msgstr "يمكن لڤيداليا فتح الرابط الذي حددته في متصفحك المبدئي للإنترنت. إذا لم يكن متصفحك حاليا مضبوطاً لاستخدام تور فإن هذا الطلب لن يكون سريًا."
+
+msgctxt "HelpTextBrowser"
+msgid "Do you want Vidalia to open the link in your Web browser?"
+msgstr "أتريد أن يفتح ڤيداليا الرابط في متصفحك للوب؟"
+
+msgctxt "HelpTextBrowser"
+msgid "Unable to Open Link"
+msgstr "غير قادر على فتح الرابط"
+
+msgctxt "HelpTextBrowser"
+msgid ""
+"Vidalia was unable to open the selected link in your Web browser. You can "
+"still copy the URL and paste it into your browser."
+msgstr "لم يتمكن ڤيداليا من فتح الوصلة المحددة في متصفحك للوب. لا يزال بإمكانك نسخ المسار ولصقه في متصفحك."
+
+msgctxt "HelpTextBrowser"
+msgid "Error opening help file:"
+msgstr "خطا في فتح ملف المساعدة:"
+
+msgctxt "LicenseDialog"
+msgid "License Information"
+msgstr "معلومات الترخيص"
+
+msgctxt "LicenseDialog"
+msgid "License"
+msgstr "ترخيص"
+
+msgctxt "LicenseDialog"
+msgid "Credits"
+msgstr "المساهمون"
+
+msgctxt "LogEvent"
+msgid "Debug"
+msgstr "تشخيص المشاكل"
+
+msgctxt "LogEvent"
+msgid "Info"
+msgstr "معلومات"
+
+msgctxt "LogEvent"
+msgid "Notice"
+msgstr "تنبيه"
+
+msgctxt "LogEvent"
+msgid "Warning"
+msgstr "تحذير"
+
+msgctxt "LogEvent"
+msgid "Error"
+msgstr "خطأ"
+
+msgctxt "LogEvent"
+msgid "Unknown"
+msgstr "غير معروف"
+
+msgctxt "LogTreeItem"
+msgid "Debug"
+msgstr "تنقيح"
+
+msgctxt "LogTreeItem"
+msgid "Info"
+msgstr "معلومة"
+
+msgctxt "LogTreeItem"
+msgid "Notice"
+msgstr "تنبيه"
+
+msgctxt "LogTreeItem"
+msgid "Warning"
+msgstr "تحذير"
+
+msgctxt "LogTreeItem"
+msgid "Error"
+msgstr "خطأ"
+
+msgctxt "LogTreeItem"
+msgid "Unknown"
+msgstr "غير معروف"
+
+msgctxt "MainWindow"
+msgid "Start Tor"
+msgstr "بدء تور"
+
+msgctxt "MainWindow"
+msgid "Exit"
+msgstr "اخرج"
+
+msgctxt "MainWindow"
+msgid "Bandwidth Graph"
+msgstr "رسم بياني لعرض الحزمة"
+
+msgctxt "MainWindow"
+msgid "Message Log"
+msgstr "سِجِّل الرسائل"
+
+msgctxt "MainWindow"
+msgid "Network Map"
+msgstr "خريطة الشبكة"
+
+msgctxt "MainWindow"
+msgid "Control Panel"
+msgstr "لوحة التحكم"
+
+msgctxt "MainWindow"
+msgid "Settings"
+msgstr "إعدادات"
+
+msgctxt "MainWindow"
+msgid "About"
+msgstr "عن ڤيداليا"
+
+msgctxt "MainWindow"
+msgid "Help"
+msgstr "مساعدة"
+
+msgctxt "MainWindow"
+msgid "New Identity"
+msgstr "هوية جديدة"
+
+msgctxt "MainWindow"
+msgid "Ctrl+T"
+msgstr "Ctrl+T"
+
+msgctxt "MainWindow"
+msgid "Ctrl+B"
+msgstr "Ctrl+B"
+
+msgctxt "MainWindow"
+msgid "Ctrl+L"
+msgstr "Ctrl+L"
+
+msgctxt "MainWindow"
+msgid "Ctrl+N"
+msgstr "Ctrl+N"
+
+msgctxt "MainWindow"
+msgid "Ctrl+?"
+msgstr "Ctrl+?"
+
+msgctxt "MainWindow"
+msgid "Ctrl+I"
+msgstr "Ctrl+I"
+
+msgctxt "MainWindow"
+msgid "Ctrl+P"
+msgstr "Ctrl+P"
+
+msgctxt "MainWindow"
+msgid "Tor"
+msgstr "تور"
+
+msgctxt "MainWindow"
+msgid "View"
+msgstr "اعرض"
+
+msgctxt "MainWindow"
+msgid "Vidalia Help"
+msgstr "مساعدة ڤيداليا"
+
+msgctxt "MainWindow"
+msgid "Error starting web browser"
+msgstr "خطأ في إطلاق متصفح الإنترنت"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to start the configured web browser"
+msgstr "لم يتمكن ڤيداليا من بدء المتصفح المضبوطة إعداداته"
+
+msgctxt "MainWindow"
+msgid "Error starting IM client"
+msgstr "خطأ في بدء عميل المراسلة الفورية"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to start the configured IM client"
+msgstr "لم يتمكن ڤيداليا من بدء عميل المراسلة الفورية المضبوطة إعداداته"
+
+msgctxt "MainWindow"
+msgid "Error starting proxy server"
+msgstr "خطأ في بدء خادوم الوسيط"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to start the configured proxy server"
+msgstr "لم يتمكن ڤيداليا من بدء خادوم الوسيط المضبوطة إعداداته"
+
+msgctxt "MainWindow"
+msgid "Connecting to a relay directory"
+msgstr "جارٍ الاتصال بدليل التحويلات"
+
+msgctxt "MainWindow"
+msgid "Establishing an encrypted directory connection"
+msgstr "ينشئ اتصالا معمًى بالدليل"
+
+msgctxt "MainWindow"
+msgid "Retrieving network status"
+msgstr "يسترجع حالة الشبكة"
+
+msgctxt "MainWindow"
+msgid "Loading network status"
+msgstr "يحمل حالة الشبكة"
+
+msgctxt "MainWindow"
+msgid "Loading authority certificates"
+msgstr "يحمل شهادات السلطة"
+
+msgctxt "MainWindow"
+msgid "Requesting relay information"
+msgstr "يطلب معلومات التحويلة"
+
+msgctxt "MainWindow"
+msgid "Loading relay information"
+msgstr "يحمل معلومات التحويلة"
+
+msgctxt "MainWindow"
+msgid "Connecting to the Tor network"
+msgstr "يتصل بشبكة تور"
+
+msgctxt "MainWindow"
+msgid "Establishing a Tor circuit"
+msgstr "ينشئ دائرة تور"
+
+msgctxt "MainWindow"
+msgid "Connected to the Tor network!"
+msgstr "تم الاتصال بشبكة تور"
+
+msgctxt "MainWindow"
+msgid "miscellaneous"
+msgstr "متفرقات"
+
+msgctxt "MainWindow"
+msgid "identity mismatch"
+msgstr "لم تتطابق الهوية"
+
+msgctxt "MainWindow"
+msgid "done"
+msgstr "تم"
+
+msgctxt "MainWindow"
+msgid "connection refused"
+msgstr "تم رفض الاتصال"
+
+msgctxt "MainWindow"
+msgid "connection timeout"
+msgstr "الاتصال عاطل"
+
+msgctxt "MainWindow"
+msgid "read/write error"
+msgstr "خطأ في القراءة/الكتابة"
+
+msgctxt "MainWindow"
+msgid "no route to host"
+msgstr "لا طريق للمضيف"
+
+msgctxt "MainWindow"
+msgid "insufficient resources"
+msgstr "الموارد غير كافية"
+
+msgctxt "MainWindow"
+msgid "unknown"
+msgstr "غير معروف"
+
+msgctxt "MainWindow"
+msgid "Tor is not running"
+msgstr "تور غير مشغل"
+
+msgctxt "MainWindow"
+msgid "Tor is shutting down"
+msgstr "جارٍ إغلاق تور"
+
+msgctxt "MainWindow"
+msgid "Stop Tor Now"
+msgstr "أوقف تور الآن"
+
+msgctxt "MainWindow"
+msgid "Stop Tor"
+msgstr "أوقف تور"
+
+msgctxt "MainWindow"
+msgid "Starting the Tor software"
+msgstr "جاري بدء تشغيل برنامج تور"
+
+msgctxt "MainWindow"
+msgid "Starting Tor"
+msgstr "بدء تشغيل تور"
+
+msgctxt "MainWindow"
+msgid "Error Starting Tor"
+msgstr "خطأ في بدء تشغيل تور"
+
+msgctxt "MainWindow"
+msgid ""
+"Vidalia was unable to start Tor. Check your settings to ensure the correct "
+"name and location of your Tor executable is specified."
+msgstr "تعذَّر على ڤيداليا تشغيل تور. تفحص إعداداتك للتأكد من صحة اسم وموضع ملف تور التنفيذي."
+
+msgctxt "MainWindow"
+msgid "Connecting to Tor"
+msgstr "جار الاتصال بتور"
+
+msgctxt "MainWindow"
+msgid "Connection Error"
+msgstr "خطأ في الاتصال"
+
+msgctxt "MainWindow"
+msgid "Relaying is Enabled"
+msgstr "التحويل مفعل"
+
+msgctxt "MainWindow"
+msgid "Error Shutting Down"
+msgstr "خطأ في إيقاف التشغيل"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to stop the Tor software."
+msgstr "لم يتمكن ڤيداليا من إيقاف برنامج تور"
+
+msgctxt "MainWindow"
+msgid "Unexpected Error"
+msgstr "خطأ غير متوقع"
+
+msgctxt "MainWindow"
+msgid "Authenticating to Tor"
+msgstr "جار المصادقة إلى تور"
+
+msgctxt "MainWindow"
+msgid "Cookie Authentication Required"
+msgstr "مطلوب المصادقة على الكعكات (cookies)"
+
+msgctxt "MainWindow"
+msgid ""
+"The Tor software requires Vidalia to send the contents of an authentication "
+"cookie, but Vidalia was unable to find one."
+msgstr "تطلب برمجية تور من ڤيداليا إرسال محتويات كعكة التصديق ولكن ڤيداليا لم يتمكن من إيجادها."
+
+msgctxt "MainWindow"
+msgid "Would you like to browse for the file 'control_auth_cookie' yourself?"
+msgstr "هل تود بالتصفح لإيجاد ملف 'control_auth_cookie' بنفسك؟"
+
+msgctxt "MainWindow"
+msgid "Data Directory"
+msgstr "دليل البيانات"
+
+msgctxt "MainWindow"
+msgid "Control Cookie (control_auth_cookie)"
+msgstr "كعكة التحكم (control_auth_cookie)"
+
+msgctxt "MainWindow"
+msgid "Error Registering for Events"
+msgstr "خطأ في تسجيل الأحداث"
+
+msgctxt "MainWindow"
+msgid ""
+"Vidalia was unable to register for some events. Many of Vidalia's features "
+"may be unavailable."
+msgstr "فيداليا لم يتمكن من التسجيل لبعض الأحداث. قد تكون العديد من مزايا فيداليا غير متوفرة."
+
+msgctxt "MainWindow"
+msgid "Authentication Error"
+msgstr "خطأ في المصادقة"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to authenticate to the Tor software. (%1)"
+msgstr "لم يتمكن ڤيداليا من المصادقة مع برنامج تور. (%1)"
+
+msgctxt "MainWindow"
+msgid "Please check your control port authentication settings."
+msgstr "يرجى التحقق من إعدادات مصادقة مدخل التحكم الخاص بك."
+
+msgctxt "MainWindow"
+msgid "Tor Update Available"
+msgstr "يتوفر تحديث لتور"
+
+msgctxt "MainWindow"
+msgid ""
+"The currently installed version of Tor is out of date or no longer "
+"recommended. Please visit the Tor website to download the latest version."
+msgstr "إصدار تور المنصب حالياً قديم أو لاينصح به بعد الآن. يرجى زيارة موقع تور لتنزيل آخر إصدار."
+
+msgctxt "MainWindow"
+msgid "Tor website: %1"
+msgstr "موقع تور على الوب: %1"
+
+msgctxt "MainWindow"
+msgid ""
+"All subsequent connections will appear to be different than your old "
+"connections."
+msgstr "ستبدو كل الاتصالات اللاحقة مختلفة عن الاتصالات السابقة."
+
+msgctxt "MainWindow"
+msgid "Failed to Create New Identity"
+msgstr "تعذَّر إنشاء هوية جديدة"
+
+msgctxt "MainWindow"
+msgid "Port Forwarding Failed"
+msgstr "فشل تقديم المدخل"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to configure automatic port forwarding."
+msgstr "لم يتمكن ڤيداليا من ضبط توجيه المنفذ تلقائيًا."
+
+msgctxt "MainWindow"
+msgid "Vidalia Control Panel"
+msgstr "لوحة تحكم ڤيداليا"
+
+msgctxt "MainWindow"
+msgid "Status"
+msgstr "الحالة"
+
+msgctxt "MainWindow"
+msgid "Vidalia Shortcuts"
+msgstr "اختصارات ڤيداليا"
+
+msgctxt "MainWindow"
+msgid "Setup Relaying"
+msgstr "أعدَّ التحويل"
+
+msgctxt "MainWindow"
+msgid "Set up a relay and help the network grow"
+msgstr "أعدَّ تحويلة وساعد الشبكة على النمو"
+
+msgctxt "MainWindow"
+msgid "View the Network"
+msgstr "اعرض الشبكة"
+
+msgctxt "MainWindow"
+msgid "View a map of the Tor network"
+msgstr "شاهد خريطة شبكة تور"
+
+msgctxt "MainWindow"
+msgid "Use a New Identity"
+msgstr "استخدم هوية جديدة"
+
+msgctxt "MainWindow"
+msgid "Make subsequent connections appear new"
+msgstr "اجعل الاتصالات اللاحقة تبدو كأنها جديدة"
+
+msgctxt "MainWindow"
+msgid "View recent bandwidth usage"
+msgstr "اعرض مدى استخدام عرض الحزمة مؤخراً"
+
+msgctxt "MainWindow"
+msgid "View log message history"
+msgstr "اعرض تاريخ سجل الرسائل"
+
+msgctxt "MainWindow"
+msgid "View help documentation"
+msgstr "اعرض وثائق المساعدة"
+
+msgctxt "MainWindow"
+msgid "Configure Vidalia"
+msgstr "اضبط ڤيداليا"
+
+msgctxt "MainWindow"
+msgid "View version and license information"
+msgstr "استعرض معلومات الإصدار والرخصة"
+
+msgctxt "MainWindow"
+msgid "Exit Vidalia"
+msgstr "أغلق ڤيداليا"
+
+msgctxt "MainWindow"
+msgid "Show this window on startup"
+msgstr "أظهر هذه النافذة عند بدء تشغيل الجهاز"
+
+msgctxt "MainWindow"
+msgid "Hide"
+msgstr "أخفِ"
+
+msgctxt "MainWindow"
+msgid "Hide this window"
+msgstr "أخفِ هذه النافذة"
+
+msgctxt "MainWindow"
+msgid "Password Reset Failed"
+msgstr "فشل إعادة ضبط كلمة السر"
+
+msgctxt "MainWindow"
+msgid ""
+"Vidalia tried to reset Tor's control password, but was not able to restart "
+"the Tor software. Please check your Task Manager to ensure there are no "
+"other Tor processes running."
+msgstr "حاول ڤيداليا إعادة ضبط كلمة سر التحكم بتور ولكنه لم يكن قادراً على إعادة تشغيل برنامج تور. يرجى التحقق من مدير المهام الخاص بك للتأكد من عدم وجود عمليات تور أخرى جارية."
+
+msgctxt "MainWindow"
+msgid ""
+"The currently installed version of Tor is out of date or no longer "
+"recommended."
+msgstr "النسخة المنصبة حالياً من تور قديمة أو لا يوصى بها بعد الآن."
+
+msgctxt "MainWindow"
+msgid ""
+"Would you like to check if a newer package is available for installation?"
+msgstr "هل تود التحقق مما إذا كانت هناك حزمة جديدة متوفرة للتنزيل؟"
+
+msgctxt "MainWindow"
+msgid "Potentially Unsafe Connection"
+msgstr "يحتمل أن يكون الاتصال غير آمناً"
+
+msgctxt "MainWindow"
+msgid ""
+"Tor has automatically closed your connection in order to protect your "
+"anonymity."
+msgstr "أغلق تور اتصالك تلقائيًا ليحمي سريتك."
+
+msgctxt "MainWindow"
+msgid "Update Failed"
+msgstr "فشل التحديث"
+
+msgctxt "MainWindow"
+msgid "Your software is up to date"
+msgstr "برنامج محدث"
+
+msgctxt "MainWindow"
+msgid ""
+"There are no new Tor software packages available for your computer at this "
+"time."
+msgstr "لا توجد حزم برنامج تور جديدة لكمبيوترك في هذا الوقت."
+
+msgctxt "MainWindow"
+msgid "Installation Failed"
+msgstr "فشل التثبيت"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to install your software updates."
+msgstr "لم تتمكن ڤيداليا من تنصيب تحديثات برامجك."
+
+msgctxt "MainWindow"
+msgid "The following error occurred:"
+msgstr "حصل الخطأ التالي:"
+
+msgctxt "MainWindow"
+msgid ""
+"Anything sent over this connection could be monitored. Please check your "
+"application's configuration and use only encrypted protocols, such as SSL, "
+"if possible."
+msgstr "كل شيء يتم إرساله عن طريق هذا الاتصال تمكن مراقبته، الرجاء التحقق من إعدادات التطبيق واستخدام بروتوكولات مشفرة فقط، مثل SSL، إن كان هذا ممكناً"
+
+msgctxt "MainWindow"
+msgid "Bootstrapping torrc from %1 to %2"
+msgstr "يتم تشغيل torrc من %1 إلى %2"
+
+msgctxt "MainWindow"
+msgid "(probably Telnet)"
+msgstr "(عميل تلنت على ما يبدو)"
+
+msgctxt "MainWindow"
+msgid "(probably an email client)"
+msgstr "(عميل بريد إلكتروني على ما يبدو)"
+
+msgctxt "MainWindow"
+msgid ""
+"One of your applications %1 appears to be making a potentially unencrypted "
+"and unsafe connection to port %2."
+msgstr "يبدو أن أحد برامجك %1 يتصل بطريقة غير مشفرة ولا آمنة بالمحطة %2."
+
+msgctxt "MainWindow"
+msgid "failed (%1)"
+msgstr "فشل (%1)"
+
+msgctxt "MainWindow"
+msgid ""
+"Your relay is shutting down.\n"
+"Click 'Stop' again to stop your relay now."
+msgstr "جار إيقاف تحويلتك.\nيرجى النقر على \"إيقاف\" مرة أخرى لتوقف تحويلتك الآن."
+
+msgctxt "MainWindow"
+msgid ""
+"Vidalia can't find out how to talk to Tor because it can't access this file: %1\n"
+"\n"
+"Here's the last error message:\n"
+"%2"
+msgstr "فيداليا غير قادر على التحدث الى شبكة تور لأنه غير قادر على الدخول لهذا الملف:  %1\n\nهنا آخر شرح للخطأ:\n%2"
+
+msgctxt "MainWindow"
+msgid ""
+"It seems Tor has stopped running since Vidalia started it.\n"
+"\n"
+"See the Advanced Message Log for more information."
+msgstr "إذا كان فيداليا غير قادر على إيقاف تور, سوف يقوم فيداليا بعرض رسالة خطأ تخبرك عن الخطأ الذي حدث. يمكنك أيضا إلقاء نظرة على &lt;a href=\"log.html\"&gt;سجل الاحداث&lt;/a&gt; لمعرفة ما إذا قام تور بإصدار المزيد من المعلومات حول ما الخطأ الذي حدث."
+
+msgctxt "MainWindow"
+msgid ""
+"You are currently running a relay. Terminating your relay will interrupt any open connections from clients.\n"
+"\n"
+"Would you like to shutdown gracefully and give clients time to find a new relay?"
+msgstr "أنت حالياً تشغل تحويلة. إيقاف هذه التحويلة سيقاطع أي اتصالات مفتوحة من العملاء.\n\nهل تود إيقاف التحويلة ببطء لإعطاء العملاء وقتاً كافياُ للبحث عن تحويلة جديدة؟"
+
+msgctxt "MainWindow"
+msgid ""
+"Vidalia detected that the Tor software exited unexpectedly.\n"
+"\n"
+"Please check the message log for recent warning or error messages."
+msgstr "وجد ڤيداليا أن برمجية تور توقفت عن العمل بشكل مفاجئ.\n\nيرجى التحقق من سجل الرسائل لتحذيرات أو رسائل خطأ حديثة."
+
+msgctxt "MessageLog"
+msgid "Error Setting Filter"
+msgstr "عُطل في ضبط المُرشِّح"
+
+msgctxt "MessageLog"
+msgid "Vidalia was unable to register for Tor's log events."
+msgstr "تعذّر على ڤيداليا التسجيل لسجل أحداث تور."
+
+msgctxt "MessageLog"
+msgid "Error Opening Log File"
+msgstr "عُطل في فتح ملف السجِّل"
+
+msgctxt "MessageLog"
+msgid "Vidalia was unable to open the specified log file."
+msgstr "تعذّر على ڤيداليا فتح ملف السّجل المذكور."
+
+msgctxt "MessageLog"
+msgid "Log Filename Required"
+msgstr "اسم ملف السّجل مطلوب"
+
+msgctxt "MessageLog"
+msgid "You must enter a filename to be able to save log messages to a file."
+msgstr "يجب إدخال اسم ملف ليمكن حفظ مدخلات السّجل فيه."
+
+msgctxt "MessageLog"
+msgid "Select Log File"
+msgstr "اختر ملف السجِّل"
+
+msgctxt "MessageLog"
+msgid "Save Log Messages"
+msgstr "احفظ رسائل السجِّل"
+
+msgctxt "MessageLog"
+msgid "Text Files (*.txt)"
+msgstr "ملفات نصية (*.txt)"
+
+msgctxt "MessageLog"
+msgid "Vidalia"
+msgstr "ڤيداليا"
+
+msgctxt "MessageLog"
+msgid "Find in Message Log"
+msgstr "بحث في سِجِّل الرسائل"
+
+msgctxt "MessageLog"
+msgid "Find:"
+msgstr "بحث:"
+
+msgctxt "MessageLog"
+msgid "Not Found"
+msgstr "لا يوجد"
+
+msgctxt "MessageLog"
+msgid "Search found 0 matches."
+msgstr "لم يجد البحث أي نتائج مطابقة."
+
+msgctxt "MessageLog"
+msgid "Message Log"
+msgstr "سِجِّل الرسائل"
+
+msgctxt "MessageLog"
+msgid "Message Filters..."
+msgstr "مُرشّحات الرسائل..."
+
+msgctxt "MessageLog"
+msgid "Set message filters"
+msgstr "اضبط مرشحات الرسائل"
+
+msgctxt "MessageLog"
+msgid "History Size..."
+msgstr "حجم التاريخ..."
+
+msgctxt "MessageLog"
+msgid "Set maximum number of messages to display"
+msgstr "تحديد أقصى عدد يعرض من الرسائل"
+
+msgctxt "MessageLog"
+msgid "Clear"
+msgstr "امسح"
+
+msgctxt "MessageLog"
+msgid "Clear all messages from the Message Log (Ctrl+E)"
+msgstr "مسح كل الرسائل من سِجِّل الرسائل (Ctrl+E)"
+
+msgctxt "MessageLog"
+msgid "Ctrl+E"
+msgstr "Ctrl+E"
+
+msgctxt "MessageLog"
+msgid "Copy"
+msgstr "انسخ"
+
+msgctxt "MessageLog"
+msgid "Copy the selected messages to the clipboard (Ctrl+C)"
+msgstr "نسخ الرسائل المختارة إلى لوح القصاصات (Ctrl+C)"
+
+msgctxt "MessageLog"
+msgid "Ctrl+C"
+msgstr "Ctrl+C"
+
+msgctxt "MessageLog"
+msgid "Select All"
+msgstr "اختر الكل"
+
+msgctxt "MessageLog"
+msgid "Select all messages (Ctrl+A)"
+msgstr "اختيار كل الرسائل (Ctrl+A)"
+
+msgctxt "MessageLog"
+msgid "Ctrl+A"
+msgstr "Ctrl+A"
+
+msgctxt "MessageLog"
+msgid "Save All"
+msgstr "احفظ الكل"
+
+msgctxt "MessageLog"
+msgid "Save all messages to a file"
+msgstr "يحفظ كل الرسائل في ملف"
+
+msgctxt "MessageLog"
+msgid "Save Selected"
+msgstr "احفظ المختارة"
+
+msgctxt "MessageLog"
+msgid "Save selected messages to a file"
+msgstr "يحفظ الرسائل المختارة في ملف"
+
+msgctxt "MessageLog"
+msgid "Settings"
+msgstr "إعدادات"
+
+msgctxt "MessageLog"
+msgid "Adjust Message Log Settings"
+msgstr "يعدل إعدادات سِجِّل الرسائل"
+
+msgctxt "MessageLog"
+msgid "Ctrl+T"
+msgstr "Ctrl+T"
+
+msgctxt "MessageLog"
+msgid "Help"
+msgstr "مساعدة"
+
+msgctxt "MessageLog"
+msgid "Show the help browser"
+msgstr "يظهر متصفح المساعدة"
+
+msgctxt "MessageLog"
+msgid "F1"
+msgstr "F1"
+
+msgctxt "MessageLog"
+msgid "Close"
+msgstr "أغلق"
+
+msgctxt "MessageLog"
+msgid "Close the Message Log"
+msgstr "يغلق سِجِّل الرسائل"
+
+msgctxt "MessageLog"
+msgid "Esc"
+msgstr "Esc"
+
+msgctxt "MessageLog"
+msgid "Find"
+msgstr "ابحث"
+
+msgctxt "MessageLog"
+msgid "Find all messages containing the search text (Ctrl+F)"
+msgstr "جد كل الرسائل المحتوية على نص البحث (Ctrl+F)"
+
+msgctxt "MessageLog"
+msgid "Ctrl+F"
+msgstr "Ctrl+F"
+
+msgctxt "MessageLog"
+msgid "Time"
+msgstr "الوقت"
+
+msgctxt "MessageLog"
+msgid "Type"
+msgstr "النوع"
+
+msgctxt "MessageLog"
+msgid "Message"
+msgstr "الرسالة"
+
+msgctxt "MessageLog"
+msgid "Saves the current Message Log settings"
+msgstr "حفظ إعدادات سجل الرسائل الحالية"
+
+msgctxt "MessageLog"
+msgid "Save Settings"
+msgstr "احفظ الإعدادات"
+
+msgctxt "MessageLog"
+msgid "Cancels changes made to settings"
+msgstr "إلغاء التغييرات في الإعدادات"
+
+msgctxt "MessageLog"
+msgid "Cancel"
+msgstr "ألغِ"
+
+msgctxt "MessageLog"
+msgid "Message Filter"
+msgstr "مُرشِّح الرسائل"
+
+msgctxt "MessageLog"
+msgid "Error"
+msgstr "خطأ"
+
+msgctxt "MessageLog"
+msgid "Warning"
+msgstr "تحذير"
+
+msgctxt "MessageLog"
+msgid "Notice"
+msgstr "تنبيه"
+
+msgctxt "MessageLog"
+msgid "Info"
+msgstr "معلومة"
+
+msgctxt "MessageLog"
+msgid "Debug"
+msgstr "تنقيح"
+
+msgctxt "MessageLog"
+msgid "Message Log History"
+msgstr "تاريخ سجل الرسائل"
+
+msgctxt "MessageLog"
+msgid "Number of messages to display in the message log window"
+msgstr "عدد الرسائل المعروضة في نافذة سجل الرسائل"
+
+msgctxt "MessageLog"
+msgid "messages"
+msgstr "رسائل"
+
+msgctxt "MessageLog"
+msgid "Browse"
+msgstr "تصفّح"
+
+msgctxt "MessageLog"
+msgid "Enable automatically saving all new log messages to a file"
+msgstr "فعِّل الحفظ الأوتوماتيّ لكل رسائل السِّجل الجديدة في ملف"
+
+msgctxt "MessageLog"
+msgid "Automatically save new log messages to a file"
+msgstr "احفظ رسائل السجِّل الجديدة في ملف تلقائيًا"
+
+msgctxt "MessageLog"
+msgid "Basic"
+msgstr "الأساسية"
+
+msgctxt "MessageLog"
+msgid "Tor Status"
+msgstr "حالة تور"
+
+msgctxt "MessageLog"
+msgid "Advanced"
+msgstr "متقدم"
+
+msgctxt "MessageLog"
+msgid "Always Save New Log Messages"
+msgstr "احفظ رسائل السِّجل الجديدة دائما"
+
+msgctxt "MessageLog"
+msgid ""
+"Messages that appear when something has \n"
+"gone very wrong and Tor cannot proceed."
+msgstr "الرسائل التي تظهر عندما يحصل \nشيء ما بشكل خاطئ جداً ولا يستطيع تور المتابعة."
+
+msgctxt "MessageLog"
+msgid ""
+"Messages that only appear when \n"
+"something has gone wrong with Tor."
+msgstr "الرسائل التي تظهر فقد عندما \nيحصل شيء خطأ في تور."
+
+msgctxt "MessageLog"
+msgid ""
+"Messages that appear infrequently \n"
+"during normal Tor operation and are \n"
+"not considered errors, but you may \n"
+"care about."
+msgstr "الرسائل التي تظهر بشكل قليل \nأثناء تشغيل تور بشكل طبيعي ولا \nيعتبرن أخطاء، ولكن يمكن \nأن يهموك."
+
+msgctxt "MessageLog"
+msgid ""
+"Messages that appear frequently \n"
+"during normal Tor operation."
+msgstr "الرسائل التي تظهر بشكر متكرر \nأثناء تشغيل تور بشكل طبيعي."
+
+msgctxt "MessageLog"
+msgid ""
+"Hyper-verbose messages primarily of \n"
+"interest to Tor developers."
+msgstr "رسائل مطولة جداً تهم مطوري \nتور بشكل رئيسي."
+
+msgctxt "MessageLog"
+msgid ""
+"Cannot write file %1\n"
+"\n"
+"%2."
+msgstr "لا يمكن كتابة الملف %1\n\n%2."
+
+msgctxt "NetViewer"
+msgid "Tor Network Map"
+msgstr "خريطة شبكة تور"
+
+msgctxt "NetViewer"
+msgid "Refresh"
+msgstr "تحديث"
+
+msgctxt "NetViewer"
+msgid "Refresh the list of Tor relays and connections"
+msgstr "تحديث قائمة تحويلات ووصلات تور"
+
+msgctxt "NetViewer"
+msgid "Ctrl+R"
+msgstr "Ctrl+R"
+
+msgctxt "NetViewer"
+msgid "Help"
+msgstr "مساعدة"
+
+msgctxt "NetViewer"
+msgid "Show the network map help"
+msgstr "إظهار المساعدة الخاصة بخريطة الشبكة"
+
+msgctxt "NetViewer"
+msgid "Show network map help"
+msgstr "إظهار مساعدة خريطة الشبكة"
+
+msgctxt "NetViewer"
+msgid "F1"
+msgstr "F1"
+
+msgctxt "NetViewer"
+msgid "Close"
+msgstr "أغلق"
+
+msgctxt "NetViewer"
+msgid "Close the network map"
+msgstr "إغلاق خريطة الشبكة"
+
+msgctxt "NetViewer"
+msgid "Esc"
+msgstr "Esc"
+
+msgctxt "NetViewer"
+msgid "Zoom In"
+msgstr "تكبير"
+
+msgctxt "NetViewer"
+msgid "Zoom in on the network map"
+msgstr "كبّر خريطة الشبكة"
+
+msgctxt "NetViewer"
+msgid "+"
+msgstr "+"
+
+msgctxt "NetViewer"
+msgid "Zoom Out"
+msgstr "تصغير"
+
+msgctxt "NetViewer"
+msgid "Zoom out on the network map"
+msgstr "تصغير خريطة الشبكة"
+
+msgctxt "NetViewer"
+msgid "-"
+msgstr "-"
+
+msgctxt "NetViewer"
+msgid "Zoom To Fit"
+msgstr "ملء النافذة"
+
+msgctxt "NetViewer"
+msgid "Zooms to fit all currently displayed circuits"
+msgstr "يملأ المنظور بكل الدوائر الظاهرة حاليا"
+
+msgctxt "NetViewer"
+msgid "Ctrl+Z"
+msgstr "Ctrl+Z"
+
+msgctxt "NetViewer"
+msgid "Relay Not Found"
+msgstr "لم يتم العثور التحويلة"
+
+msgctxt "NetViewer"
+msgid "No details on the selected relay are available."
+msgstr "لا تتوفر تفاصيل حول التحويلة المختارة."
+
+msgctxt "NetViewer"
+msgid "Unknown"
+msgstr "غير معروف"
+
+msgctxt "NetViewer"
+msgid "Full Screen"
+msgstr "عرض على كامل الشاشة"
+
+msgctxt "NetViewer"
+msgid "View the network map as a full screen window"
+msgstr "استعراض خريطة الشبكة على كامل الشاشة"
+
+msgctxt "NetViewer"
+msgid "Ctrl+F"
+msgstr "Ctrl+F"
+
+msgctxt "NetworkPage"
+msgid "Copy (Ctrl+C)"
+msgstr "نسخ (Ctrl+C)"
+
+msgctxt "NetworkPage"
+msgid ""
+"You must specify both an IP address or hostname and a port number to "
+"configure Tor to use a proxy to access the Internet."
+msgstr "يجب أن تحدد إما عنوان IP أو اسم المضيف ورقم المنفذ لضبط تور لاستخدام وسيط للوصول إلى الإنترنت."
+
+msgctxt "NetworkPage"
+msgid ""
+"You must specify one or more ports to which your firewall allows you to "
+"connect."
+msgstr "يجب أن تحدد منفذًا واحدًا يسمح لك الجدار الناري بالاتصال به أو أكثر."
+
+msgctxt "NetworkPage"
+msgid "'%1' is not a valid port number."
+msgstr "'%1' ليس رقماً صالحاً."
+
+msgctxt "NetworkPage"
+msgid "Check if your local network requires a proxy to access the Internet"
+msgstr "تحقق إذا كانت شبكتك المحلية تتطلب وسيطًا للاتصال بالإنترنت"
+
+msgctxt "NetworkPage"
+msgid "I use a proxy to access the Internet"
+msgstr "أستخدم وسيطًا (بروكسي) للاتصال بالإنترنت"
+
+msgctxt "NetworkPage"
+msgid "Proxy Settings"
+msgstr "إعدادات الوسيط"
+
+msgctxt "NetworkPage"
+msgid "Username:"
+msgstr "اسم المستخدم:"
+
+msgctxt "NetworkPage"
+msgid "Password:"
+msgstr "كلمة السر:"
+
+msgctxt "NetworkPage"
+msgid "Port:"
+msgstr "المنفذ:"
+
+msgctxt "NetworkPage"
+msgid "Check to only connect to relays using ports allowed by your firewall"
+msgstr "اختر لتتصل فقط عبر تحويلات تستخدم المنافذ التي يسمح بها جدارك الناري"
+
+msgctxt "NetworkPage"
+msgid "My firewall only lets me connect to certain ports"
+msgstr "جداري الناري يسمح لي بالاتصال بمنافذ معينة فقط"
+
+msgctxt "NetworkPage"
+msgid "Firewall Settings"
+msgstr "إعدادات الجدار الناري"
+
+msgctxt "NetworkPage"
+msgid "Allowed Ports:"
+msgstr "المنافذ المسموحة:"
+
+msgctxt "NetworkPage"
+msgid "80, 443"
+msgstr "80, 443"
+
+msgctxt "NetworkPage"
+msgid ""
+"Check to encrypt directory requests and, optionally, use bridge relays to "
+"access the Tor network"
+msgstr "اختر لتشفر طلبات الدليل و -اختيارياً- تستخدم تحويلات الجسور للوصول إلى شبكة تور"
+
+msgctxt "NetworkPage"
+msgid "My ISP blocks connections to the Tor network"
+msgstr "مزود خدمة الإنترنت لي يحجب الاتصال بشبكة تور"
+
+msgctxt "NetworkPage"
+msgid "Bridge Settings"
+msgstr "إعدادات الجسر"
+
+msgctxt "NetworkPage"
+msgid "Add a Bridge:"
+msgstr "إضافة جسر:"
+
+msgctxt "NetworkPage"
+msgid "Remove the selected bridges from the list"
+msgstr "إزالة الجسور المختارة من القائمة"
+
+msgctxt "NetworkPage"
+msgid "Copy the selected bridges to the clipboard"
+msgstr "نسخ الجسور المختارة إلى لوح القصاصات"
+
+msgctxt "NetworkPage"
+msgid "Find Bridges Now"
+msgstr "البحث عن جسور الآن"
+
+msgctxt "NetworkPage"
+msgid "<a href=\"bridges.finding\">How else can I find bridges?</a>"
+msgstr "<a href=\"bridges.finding\">ما هي الطرق الأخرى لإيجاد الجسور؟</a>"
+
+msgctxt "NetworkPage"
+msgid "<a href=\"bridges.finding\">How can I find bridges?</a>"
+msgstr "<a href=\"bridges.finding\">كيف يمكنني أن أجد جسوراً؟</a>"
+
+msgctxt "NetworkPage"
+msgid ""
+"No new bridges are currently available. You can either wait a while and try "
+"again, or try another method of finding new bridges."
+msgstr "لا توجد جسور جديدة حالياً. يمكنك أن تنتظر قليلاً وتحاول مرة أخرى، أو أن تجرب أسلوباً آخر لإيجاد جسور جديدة."
+
+msgctxt "NetworkPage"
+msgid "Click Help to see other methods of finding new bridges."
+msgstr "اضغط مساعدة لترى أساليب أخرى لإيجاد الجسور."
+
+msgctxt "NetworkPage"
+msgid "Address:"
+msgstr "العنوان:"
+
+msgctxt "NetworkPage"
+msgid "Type:"
+msgstr "النوع:"
+
+msgctxt "NetworkPage"
+msgid "You must select the proxy type."
+msgstr "يجب أن تختار نوع الوسيط"
+
+msgctxt "NetworkPage"
+msgid "SOCKS 4"
+msgstr "SOCKS 4"
+
+msgctxt "NetworkPage"
+msgid "SOCKS 5"
+msgstr "SOCKS 5"
+
+msgctxt "NetworkPage"
+msgid "HTTP / HTTPS"
+msgstr "HTTP / HTTPS"
+
+msgctxt "NetworkPage"
+msgid "You must specify one or more bridges."
+msgstr "يجب أن تحدد منفذًا واحدًا يسمح لك الجدار الناري بالاتصال به أو أكثر."
+
+msgctxt "Policy"
+msgid "accept"
+msgstr "قبول"
+
+msgctxt "Policy"
+msgid "reject"
+msgstr "رفض"
+
+msgctxt "RouterDescriptor"
+msgid "Online"
+msgstr "متصل"
+
+msgctxt "RouterDescriptor"
+msgid "Hibernating"
+msgstr "في وضع السبات"
+
+msgctxt "RouterDescriptor"
+msgid "Offline"
+msgstr "مفصول"
+
+msgctxt "RouterDescriptorView"
+msgid "Location:"
+msgstr "الموضع:"
+
+msgctxt "RouterDescriptorView"
+msgid "IP Address:"
+msgstr "عنوان IP:"
+
+msgctxt "RouterDescriptorView"
+msgid "Platform:"
+msgstr "المنصة:"
+
+msgctxt "RouterDescriptorView"
+msgid "Bandwidth:"
+msgstr "عرض الحزمة:"
+
+msgctxt "RouterDescriptorView"
+msgid "Uptime:"
+msgstr "مدة الاتصال:"
+
+msgctxt "RouterDescriptorView"
+msgid "Last Updated:"
+msgstr "آخر تحديث:"
+
+msgctxt "RouterDescriptorView"
+msgid "Copy"
+msgstr "انسخ"
+
+msgctxt "RouterInfoDialog"
+msgid "Hibernating"
+msgstr "في وضع السبات"
+
+msgctxt "RouterInfoDialog"
+msgid "Online"
+msgstr "متصل"
+
+msgctxt "RouterInfoDialog"
+msgid "Offline"
+msgstr "مفصول"
+
+msgctxt "RouterInfoDialog"
+msgid "Unknown"
+msgstr "غير معروف"
+
+msgctxt "RouterInfoDialog"
+msgid "Relay Details"
+msgstr "تفاصيل التحويلة"
+
+msgctxt "RouterInfoDialog"
+msgid "Summary"
+msgstr "ملخص"
+
+msgctxt "RouterInfoDialog"
+msgid "Name:"
+msgstr "الاسم:"
+
+msgctxt "RouterInfoDialog"
+msgid "Status:"
+msgstr "الحالة:"
+
+msgctxt "RouterInfoDialog"
+msgid "Location:"
+msgstr "الموضع:"
+
+msgctxt "RouterInfoDialog"
+msgid "IP Address:"
+msgstr "عنوان IP:"
+
+msgctxt "RouterInfoDialog"
+msgid "Platform:"
+msgstr "المنصة:"
+
+msgctxt "RouterInfoDialog"
+msgid "Bandwidth:"
+msgstr "عرض الحزمة:"
+
+msgctxt "RouterInfoDialog"
+msgid "Uptime:"
+msgstr "مدة الاتصال:"
+
+msgctxt "RouterInfoDialog"
+msgid "Contact:"
+msgstr "بيانات الاتصال:"
+
+msgctxt "RouterInfoDialog"
+msgid "Last Updated:"
+msgstr "آخر تحديث:"
+
+msgctxt "RouterInfoDialog"
+msgid "Descriptor"
+msgstr "الواصف"
+
+msgctxt "RouterListItem"
+msgid "Offline"
+msgstr "مفصول"
+
+msgctxt "RouterListItem"
+msgid "Hibernating"
+msgstr "في وضع السبات"
+
+msgctxt "RouterListItem"
+msgid "%1 KB/s"
+msgstr "%1 ك.ب/ث"
+
+msgctxt "RouterListWidget"
+msgid "Relay"
+msgstr "تحويلة"
+
+msgctxt "RouterListWidget"
+msgid "Zoom to Relay"
+msgstr "كبّر إلى التحويلة"
+
+msgctxt "RouterListWidget"
+msgid "%1 relays online"
+msgstr "%1 تحويلات فاعلة"
+
+msgctxt "RouterListWidget"
+msgid "Copy"
+msgstr "انسخ"
+
+msgctxt "RouterListWidget"
+msgid "Nickname"
+msgstr "الاسم المستعار"
+
+msgctxt "RouterListWidget"
+msgid "Fingerprint"
+msgstr "البصمة"
+
+msgctxt "ServerPage"
+msgid "Bridge Support Unavailable"
+msgstr "دعم الجسور غير متوفر"
+
+msgctxt "ServerPage"
+msgid ""
+"You have configured Tor to act as a bridge relay for censored users, but "
+"your version of Tor does not support bridges."
+msgstr "يجب أن تضبط إعدادات تور ليتصرف على أنه تحويلة جسر للمستخدمين المحجوبين، ولكن نسخة تور الخاصة بك لا تدعم الجسور."
+
+msgctxt "ServerPage"
+msgid ""
+"Please upgrade your Tor software or configure Tor to act as a normal Tor "
+"relay."
+msgstr "يرجى تحديث برنامج تور أو ضبط تور ليعمل على أنه تحويلة تور عادية."
+
+msgctxt "ServerPage"
+msgid "Your bridge relay is not running."
+msgstr "تحويلة الجسر الخاصة بك لا تعمل."
+
+msgctxt "ServerPage"
+msgid "You must specify at least a relay nickname and port."
+msgstr "يجب أن تختار اسما مستعاراً للتحويلة ورقم مدخل."
+
+msgctxt "ServerPage"
+msgid "Run as a client only"
+msgstr "تشغيل كعميل فقط."
+
+msgctxt "ServerPage"
+msgid "Relay Port:"
+msgstr "مدخل التحويلة:"
+
+msgctxt "ServerPage"
+msgid "Enable to mirror the relay directory"
+msgstr "فعل عكس (mirror) دليل التحويلة"
+
+msgctxt "ServerPage"
+msgid "Attempt to automatically configure port forwarding"
+msgstr "حاول ضبط تقديم المدخل بشكل أوتوماتيكي"
+
+msgctxt "ServerPage"
+msgid "Test"
+msgstr "افحص"
+
+msgctxt "ServerPage"
+msgid "Show help topic on port forwarding"
+msgstr "أظهر موضوع المساعدة حول تقديم المدخل"
+
+msgctxt "ServerPage"
+msgid "Directory Port:"
+msgstr "منفذ الدليل:"
+
+msgctxt "ServerPage"
+msgid "Directory Port Number"
+msgstr "رقم منفذ الدليل"
+
+msgctxt "ServerPage"
+msgid "Contact Info:"
+msgstr "بيانات الاتصال:"
+
+msgctxt "ServerPage"
+msgid "Name of your relay"
+msgstr "اسم تحويلتك"
+
+msgctxt "ServerPage"
+msgid "Port on which users and other relays can communicate with your relay"
+msgstr "المدخل الذي يتواصل عبر المستخدمون والتحويلات الأخرى مع تحويلتك"
+
+msgctxt "ServerPage"
+msgid "Nickname:"
+msgstr "الاسم المستعار:"
+
+msgctxt "ServerPage"
+msgid "Basic Settings"
+msgstr "إعدادات أساسية"
+
+msgctxt "ServerPage"
+msgid ""
+"For Internet connections with fast download speed but slow upload, please "
+"list your upload speed here."
+msgstr "لوصلات الإنترنت ذات سرعة التنزيل الكبيرة وسرعة رفع صغيرة، يرجى ذكر سرعة الرفع المتاحة هنا."
+
+msgctxt "ServerPage"
+msgid "Cable/DSL 256 Kbps"
+msgstr "كابل/دي​إس​إل 256 ك.بت/ثا"
+
+msgctxt "ServerPage"
+msgid "Cable/DSL 512 Kbps"
+msgstr "كابل/دي​إس​إل 512 ك.بت/ثا"
+
+msgctxt "ServerPage"
+msgid "Cable/DSL 768 Kbps"
+msgstr "كابل/دي​إس​إل 768 ك.بت/ثا"
+
+msgctxt "ServerPage"
+msgid "T1/Cable/DSL 1.5 Mbps"
+msgstr "T1/كابل/دي​إس​إل 1.5 م.بت/ثا"
+
+msgctxt "ServerPage"
+msgid "> 1.5 Mbps"
+msgstr "> 1.5 م.بت/ثا"
+
+msgctxt "ServerPage"
+msgid "Custom"
+msgstr "مخصص"
+
+msgctxt "ServerPage"
+msgid "Select the entry that most closely resembles your Internet connection"
+msgstr "اختر أقرب ما يماثل اتصال الإنترنت الخاص بك"
+
+msgctxt "ServerPage"
+msgid "Show help topic on bandwidth rate limits"
+msgstr "عرض موضوع المساعدة عن حدود معدل عرض الحزمة"
+
+msgctxt "ServerPage"
+msgid "Average Rate"
+msgstr "المعدل الوسطي"
+
+msgctxt "ServerPage"
+msgid "Long-term average bandwidth limit"
+msgstr "حد عرض الحزمة الوسطي طويل المدى"
+
+msgctxt "ServerPage"
+msgid "KB/s"
+msgstr "ك.بايت/ثا"
+
+msgctxt "ServerPage"
+msgid "Maximum Rate"
+msgstr "أقصى معدل"
+
+msgctxt "ServerPage"
+msgid "Peak bandwidth rate limit"
+msgstr "حد أقصى معدل عرض حزمة"
+
+msgctxt "ServerPage"
+msgid ""
+"Your maximum bandwidth rate must be greater than or equal to your average "
+"bandwidth rate. Both values must be at least 20 KB/s."
+msgstr "يجب أن يكون أكبر معدل عرض حزمة مساوياً أو أكبر من المعدل الوسطي لعرض الحزمة؛ و كلا القيمتين يجب أن تكونا 20 ك.بايت/ثا على الأقل."
+
+msgctxt "ServerPage"
+msgid "Bandwidth Limits"
+msgstr "حدود عرض الحزمة"
+
+msgctxt "ServerPage"
+msgid "Ports 6660 - 6669 and 6697"
+msgstr "المداخل 6660 - 6669 و 6697"
+
+msgctxt "ServerPage"
+msgid "Internet Relay Chat (IRC)"
+msgstr "دردشة إنترنت بالتمرير (IRC)"
+
+msgctxt "ServerPage"
+msgid "Ports 110, 143, 993 and 995"
+msgstr "المداخل 110 و 143 و 993 و 995"
+
+msgctxt "ServerPage"
+msgid "Retrieve Mail (POP, IMAP)"
+msgstr "جلب البريد (POP و IMAP)"
+
+msgctxt "ServerPage"
+msgid "Ports unspecified by other checkboxes"
+msgstr "مداخل لم يتم تحديدها في مربعات التأشير الأخرى"
+
+msgctxt "ServerPage"
+msgid "Misc Other Services"
+msgstr "خدمات أخرى متنوعة"
+
+msgctxt "ServerPage"
+msgid "Ports 706, 1863, 5050, 5190, 5222, 5223, 8300 and 8888"
+msgstr "المداخل 706 و 1863 و 5050 و 5190 و 5222 و 5223 و 8300 و 8888"
+
+msgctxt "ServerPage"
+msgid "Instant Messaging (IM)"
+msgstr "التراسل الفوري (IM)"
+
+msgctxt "ServerPage"
+msgid "Port 443"
+msgstr "المدخل 443"
+
+msgctxt "ServerPage"
+msgid "Secure Websites (SSL)"
+msgstr "المواقع المؤمنة (SSL)"
+
+msgctxt "ServerPage"
+msgid "Port 80"
+msgstr "المدخل 80"
+
+msgctxt "ServerPage"
+msgid "Websites"
+msgstr "المواقع"
+
+msgctxt "ServerPage"
+msgid "Show help topic on exit policies"
+msgstr "عرض موضوع المساعدة حول سياسات المخرج"
+
+msgctxt "ServerPage"
+msgid ""
+"What Internet resources should users be able to access from your relay?"
+msgstr "ما هي موارد الإنترنت التي يجب أن يتمكن المستخدمون من الوصول إليها من تحويلتك؟"
+
+msgctxt "ServerPage"
+msgid ""
+"Tor will still block some outgoing mail and file sharing applications by "
+"default to reduce spam and other abuse."
+msgstr "تور سيستمر بحجب بعض تطبيقات البريد الصادر وتشارك الملفات بشكل تلقائي للتخفيف من السخام (spam) وإساءات الاستخدام الأخرى."
+
+msgctxt "ServerPage"
+msgid "Exit Policies"
+msgstr "سياسة المَخرج"
+
+msgctxt "ServerPage"
+msgid "Let others access your bridge by giving them this line:"
+msgstr "دع الآخرين يصلون إلى جسرك بإعطائهم السطر التالي:"
+
+msgctxt "ServerPage"
+msgid ""
+"This is the identity of your bridge relay that you can give to other people"
+msgstr "هذه هوية تحويلة الجسر الخاص بك والتي يمكنك إعطاؤها للمستخدمين الآخرين"
+
+msgctxt "ServerPage"
+msgid "Copy your bridge relay's identity to the clipboard"
+msgstr "نسخ هوية تحويلة الجسر الخاص بك إلى لوح القصاصات"
+
+msgctxt "ServerPage"
+msgid "No Recent Usage"
+msgstr "لا استعمالات حديثة"
+
+msgctxt "ServerPage"
+msgid "No clients have used your relay recently."
+msgstr "لم يستخدم أي عملاء تحويلتك مؤخراً"
+
+msgctxt "ServerPage"
+msgid ""
+"Leave your relay running so clients have a better chance of finding and "
+"using it."
+msgstr "اترك تحويلتك فاعلة كي يكون لدى العملاء فرصة أكبر في العثور عليها واستخدامها."
+
+msgctxt "ServerPage"
+msgid "Bridge History"
+msgstr "تاريخ الجسر"
+
+msgctxt "ServerPage"
+msgid "Vidalia was unable to retrieve your bridge's usage history."
+msgstr "تعذّر على ڤيداليا استعادة تاريخ استخدام الجسر الخاص بك."
+
+msgctxt "ServerPage"
+msgid ""
+"Tor returned an improperly formatted response when Vidalia requested your "
+"bridge's usage history."
+msgstr "أعاد تور استجابة منسقة بشكل غير مناسب عندما طلب ڤيداليا تاريخ استخدام جسرك."
+
+msgctxt "ServerPage"
+msgid "The returned response was: %1"
+msgstr "الاستجابة العائدة كانت: %1"
+
+msgctxt "ServerPage"
+msgid "Help censored users reach the Tor network"
+msgstr "ساعد المستخدمين المحجوبين على الاتصال بشبكة تور"
+
+msgctxt "ServerPage"
+msgid "<a href=\"#bridgeUsage\">Who has used my bridge?</a>"
+msgstr "<a href=\"#bridgeUsage\">من استخدم جسري؟</a>"
+
+msgctxt "ServerPage"
+msgid "<a href=\"#bridgeHelp\">What's this?</a>"
+msgstr "<a href=\"#bridgeHelp\">ما هذا؟</a>"
+
+msgctxt "ServerPage"
+msgid "Automatically distribute my bridge address"
+msgstr "انشر عنوان  الجسر الخاص بي تلقائيا"
+
+msgctxt "ServerPage"
+msgid "Relay traffic for the Tor network (exit relay)"
+msgstr "تمرير تدفقات شبكة تور"
+
+msgctxt "ServerPage"
+msgid "Relay traffic inside the Tor network (non-exit relay)"
+msgstr "تتابع حركة المرور داخل الشبكة تور (غير الخروج التتابع)"
+
+msgctxt "ServerPage"
+msgid "Mirror the Relay Directory"
+msgstr "عكس (mirror) دليل التحويلات"
+
+msgctxt "ServerPage"
+msgid ""
+"Email address at which you may be reached if there is a\n"
+"problem with your relay. You might also include your PGP or GPG fingerprint."
+msgstr "عنوان البريد الذي يمكن الاتصال بك عبره في حال وجدت\nمشكلة في تحويلتك. يمكنك أيضاً تضمين بصمة PGP أو GPG الخاصة بك."
+
+msgctxt "ServicePage"
+msgid "Error while trying to unpublish all services"
+msgstr "خطأ أثناء محاولة إلغاء نشر جميع الخدمات"
+
+msgctxt "ServicePage"
+msgid ""
+"Please configure at least a service directory and a virtual port for each "
+"service you want to save. Remove the other ones."
+msgstr "يرجى ضبط خدمة الدليل ومدخل افتراضي على الأقل لكل خدمة تريد حفظها. احذف الآخرين."
+
+msgctxt "ServicePage"
+msgid "Error"
+msgstr "خطأ"
+
+msgctxt "ServicePage"
+msgid "Please select a Service."
+msgstr "يرجى اختيار خدمة."
+
+msgctxt "ServicePage"
+msgid "Select Service Directory"
+msgstr "اختر دليل خدمة"
+
+msgctxt "ServicePage"
+msgid "Virtual Port may only contain valid port numbers [1..65535]."
+msgstr "يمكن للمدخل الافتراضي أن يحتوي على أرقام مدخل صالحة فقط [1..65535]."
+
+msgctxt "ServicePage"
+msgid "Target may only contain address:port, address, or port."
+msgstr "الهدف يمكن فقط أن يحتوي عنوان:مدخل، عنوان، أو مدخلز"
+
+msgctxt "ServicePage"
+msgid "Directory already in use by another service."
+msgstr "الدليل مستعمل بشكل مسبق في خدمة أخرى"
+
+msgctxt "ServicePage"
+msgid "Form"
+msgstr "استمارة"
+
+msgctxt "ServicePage"
+msgid "Provided Hidden Services"
+msgstr "الخدمات الموفرة المخفية"
+
+msgctxt "ServicePage"
+msgid "Onion Address"
+msgstr "عنوان البصلة"
+
+msgctxt "ServicePage"
+msgid "Virtual Port"
+msgstr "المدخل الافتراضي"
+
+msgctxt "ServicePage"
+msgid "Target"
+msgstr "الهدف"
+
+msgctxt "ServicePage"
+msgid "Directory Path"
+msgstr "مسار الدليل"
+
+msgctxt "ServicePage"
+msgid "Enabled"
+msgstr "مفعل"
+
+msgctxt "ServicePage"
+msgid "Add new service to list"
+msgstr "أضف خدمة جديدة إلى القائمة"
+
+msgctxt "ServicePage"
+msgid "Remove selected service from list"
+msgstr "احذف الخدمات المختارة من القائمة"
+
+msgctxt "ServicePage"
+msgid "Copy onion address of selected service to clipboard"
+msgstr "انسخ عنوان البصلة لالخدمات المختارة إلى لوح القصاصات"
+
+msgctxt "ServicePage"
+msgid "Browse in local file system and choose directory for selected service"
+msgstr "تصفّح في نظام الملفات المحلي لاختيار دليل للخدمات المختارة"
+
+msgctxt "ServicePage"
+msgid "Created by Tor"
+msgstr "أنشأه تور"
+
+msgctxt "StatusEventWidget"
+msgid "Copy to Clipboard"
+msgstr "انسخ للحافظة"
+
+msgctxt "StatusEventWidget"
+msgid "The Tor Software is Running"
+msgstr "برمجية تور تعمل"
+
+msgctxt "StatusEventWidget"
+msgid "You are currently running version \"%1\" of the Tor software."
+msgstr "أنت الآن تشغل النسخة \"%1\" من برمجية تور."
+
+msgctxt "StatusEventWidget"
+msgid "The Tor Software is not Running"
+msgstr "برمجية تور لا تعمل"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Click \"Start Tor\" in the Vidalia Control Panel to restart the Tor "
+"software. If Tor exited unexpectedly, select the \"Advanced\" tab above for "
+"details about any errors encountered."
+msgstr "اضغط زر \"ابدأ Tor\" في لوحة تحكم Vialia لإعادة تشغيل برنامج Tor. إن تم إغلاق Tor بشكل غير متوقع، انتقل إلى تبويب \"الخيارات المتقدمة\" في الأعلى لمعرفة تفاصيل عن الخطأ الحاصل."
+
+msgctxt "StatusEventWidget"
+msgid ""
+"You are currently running version \"%1\" of the Tor software, which is no "
+"longer recommended. Please upgrade to the most recent version of the "
+"software, which may contain important security, reliability and performance "
+"fixes."
+msgstr "أنت الآن تستخدم النسخة \"%1\" من برنامج Tor وهي نسخة لم يعد استخدامها مستحسناً. الرجاء التحديث لآخر نسخة من البرنامج فقد توجد فيها إصلاحات أمنية هامة وإصلاحات لضمان الوثوقية وإصلاحات في الإداء."
+
+msgctxt "StatusEventWidget"
+msgid ""
+"You are currently running version \"%1\" of the Tor software, which may no "
+"longer work with the current Tor network. Please upgrade to the most recent "
+"version of the software, which may contain important security, reliability "
+"and performance fixes."
+msgstr "أنت الآن على إصدار \"%1\" من التور, والذي قد لا يعمل مع الشبكة التورية الحالية. رجاءً طوره إلى آخر نسخ، والتي قد تحتوي على إصلاحات مهمة في الأمن والكفائة."
+
+msgctxt "StatusEventWidget"
+msgid "Your Tor Software is Out-of-date"
+msgstr "نسختك من برمجية تور غير محدثة"
+
+msgctxt "StatusEventWidget"
+msgid "Connected to the Tor Network"
+msgstr "متصل بشكبة تور"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"We were able to successfully establish a connection to the Tor network. You "
+"can now configure your applications to use the Internet anonymously."
+msgstr "نجح الاتصال بشبكة تور. يمكنك الآن ضبط تطبيقاتك لتستخدم الإنترنت بسرية."
+
+msgctxt "StatusEventWidget"
+msgid "Tor Software Error"
+msgstr "خطأ في برمجية تور"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"The Tor software encountered an internal bug. Please report the following "
+"error message to the Tor developers at bugs.torproject.org: \"%1\""
+msgstr "أعاق البرنامج خلل داخلي. رجاءً أبلغ مبرمجي \"تور\" عن الخلل التالي على bugs.torproject.org: \"%1\""
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor has determined that your computer's clock may be set to %1 seconds in "
+"the past compared to the source \"%2\". If your clock is not correct, Tor "
+"will not be able to function. Please verify your computer displays the "
+"correct time."
+msgstr "يظن تور أن ساعة حاسبك الآلي أخرت %1 ثانية عن الأصل \"%2\". لو لم تكن ساعتك مضبوطة، لن يستطيع تور العمل بشكل سليم. رجاءً تأكد من صحة الوفت الذي يظهره حاسبك."
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor has determined that your computer's clock may be set to %1 seconds in "
+"the future compared to the source \"%2\". If your clock is not correct, Tor "
+"will not be able to function. Please verify your computer displays the "
+"correct time."
+msgstr "يظن تور أن ساعة حاسبك الآلي قدمت %1 ثانية عن الأصل \"%2\". لو لم تكن ساعتك مضبوطة، لن يستطيع تور العمل بشكل سليم. رجاءً تأكد من صحة الوفت الذي يظهره حاسبك."
+
+msgctxt "StatusEventWidget"
+msgid "Your Computer's Clock is Potentially Incorrect"
+msgstr "من المحتمل أن ساعة حاسوبك غير صحيحة"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"One of the applications on your computer may have attempted to make an "
+"unencrypted connection through Tor to port %1. Sending unencrypted "
+"information over the Tor network is dangerous and not recommended. For your "
+"protection, Tor has automatically closed this connection."
+msgstr "أظن أن أحد البرامج التي على حاسبك حاول أن يتصل بلا تشفير من المحطة %1. إرسال معلومات غير مشفرة من خلال الشبكة التورية خطر ولا ينصح به. لأجل حمايتك، أغلق تور الإتصال ذاتيا."
+
+msgctxt "StatusEventWidget"
+msgid ""
+"One of the applications on your computer may have attempted to make an "
+"unencrypted connection through Tor to port %1. Sending unencrypted "
+"information over the Tor network is dangerous and not recommended."
+msgstr "أظن أن أحد البرامج التي على حاسبك حاول أن يتصل بلا تشفير من المحطة %1. إرسال معلومات غير مشفرة من خلال الشبكة التورية خطر ولا ينصح به."
+
+msgctxt "StatusEventWidget"
+msgid "Potentially Dangerous Connection!"
+msgstr "من المحتمل أن يكون الاتصال خطرًا"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"One of your applications established a connection through Tor to \"%1\" "
+"using a protocol that may leak information about your destination. Please "
+"ensure you configure your applications to use only SOCKS4a or SOCKS5 with "
+"remote hostname resolution."
+msgstr " أحد برامجك اتصل بـ%1 من خلال تور باستخدام بروتوكول قد يسرب بعض المعلومات عن اتجاهك. رجاءً تأكد من ترتيب برامجك لاستخدام الـSocks4a أو الSocks5ـ لا غير حسن الاتصال بمستضفين غير محلين."
+
+msgctxt "StatusEventWidget"
+msgid "Unknown SOCKS Protocol"
+msgstr "ميفاق SOCKS غير معروف"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"One of your applications tried to establish a connection through Tor using a"
+" protocol that Tor does not understand. Please ensure you configure your "
+"applications to use only SOCKS4a or SOCKS5 with remote hostname resolution."
+msgstr " حاول أحد برامجك أن يتصل ببروتركول لا يفهمه تور. رجاءً تأكد من ترتيب برامجك لاستخدام الـSocks4a أو الSocks5ـ لا غير حسن الاتصال بمستضفين غير محلين."
+
+msgctxt "StatusEventWidget"
+msgid "Invalid Destination Hostname"
+msgstr "اسم الوجهة غير صالح"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"One of your applications tried to establish a connection through Tor to "
+"\"%1\", which Tor does not recognize as a valid hostname. Please check your "
+"application's configuration."
+msgstr "حاول أحد برامجك أن يتصل بـ%1، والذي لا يعتبره تور مستضيف ممكن. رجاءً تحقق من إعداد برنامجك."
+
+msgctxt "StatusEventWidget"
+msgid "External IP Address Changed"
+msgstr "تغير عنوان الآيبي الخارجي"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor has determined your relay's public IP address is currently %1%2. If that"
+" is not correct, please consider setting the 'Address' option in your "
+"relay's configuration."
+msgstr "حدد تور أن عنوان الآي بي الخاص بمرحلك هو %1%2. لو لم يكن هذا صحيحا، رجاءً فكر في تغيير خيار الـ\"عنوان\" على  مرحلك."
+
+msgctxt "StatusEventWidget"
+msgid "DNS Hijacking Detected"
+msgstr "تم كشف احتلال دي إن إس."
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor detected that your DNS provider is providing false responses for domains"
+" that do not exist. Some ISPs and other DNS providers, such as OpenDNS, are "
+"known to do this in order to display their own search or advertising pages."
+msgstr "اكتقف تور أن مقدم الدي إن إس الخاص بك يقدم إجابات كاذبة للمواقع غير الموجودة. بعض مقدمي خدمة الإنترنت و مقدمي الدي إن إس الآخرين، مثلا (أوبن دي إن إس)، مشهورين بفعل هذا لكي يعرضوا صفحات الإعلان أو البحث الخاضة بهم. "
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor detected that your DNS provider is providing false responses for well "
+"known domains. Since clients rely on Tor network relays to provide accurate "
+"DNS repsonses, your relay will not be configured as an exit relay."
+msgstr " اكتشف تور أن مقدم خدمة الدي إن إس الخاص بك يقدم إجابات كاذبة لمواقع مشهورة. بما أن العملاء تعتمد على مراحل شبكة تور لأجل الحصول على إجابات دي إن إس دقيقة، لن يتم استعمال مرحلك كمخرج. "
+
+msgctxt "StatusEventWidget"
+msgid "Checking Server Port Reachability"
+msgstr "القدرة على الوصول لمحطات الخادم قيد التحقق."
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor is trying to determine if your relay's server port is reachable from the"
+" Tor network by connecting to itself at %1:%2. This test could take several "
+"minutes."
+msgstr "يحاول تور أن يحدد إذا كان من الممكن الاتصال بخادمك المرحل من قبل شبكة تور باستخدام الاتصال بنفسه على %1:%2. يمكن أن يأخد هذا الاختبار أكثر من دقيقة. "
+
+msgctxt "StatusEventWidget"
+msgid "Server Port Reachability Test Successful!"
+msgstr "نجح اختبار القدرة على الوصول لمحطات الخادم!"
+
+msgctxt "StatusEventWidget"
+msgid "Your relay's server port is reachable from the Tor network!"
+msgstr "يمكن شبكة تور الآن الوصول إلى مرحل محطة خادمك!"
+
+msgctxt "StatusEventWidget"
+msgid "Server Port Reachability Test Failed"
+msgstr "فشل اختبار القدرة على الوصول لمحطات الخادم."
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Your relay's server port is not reachable by other Tor clients. This can "
+"happen if you are behind a router or firewall that requires you to set up "
+"port forwarding. If %1:%2 is not your correct IP address and server port, "
+"please check your relay's configuration."
+msgstr "منفذ المخدم الخاص بك للترحيل غير قابلة للوصول من قبل عملاء آخرين . يمكن أن يحدث هذا إذا كنت خلف جهاز التوجيه أو جدار الحماية الذي يتطلب منك إنشاء ميناء الشحن.إذا كان%1:%2 ليست عنوان الإنترنت الخاص بك والدليل المنفذ الصحيح، الرجاء التحقق من تكوين المبدلات لديك."
+
+msgctxt "StatusEventWidget"
+msgid "Checking Directory Port Reachability"
+msgstr "القدرة على الوصول إلى محطة المجلد قيد التحقيق."
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor is trying to determine if your relay's directory port is reachable from "
+"the Tor network by connecting to itself at %1:%2. This test could take "
+"several minutes."
+msgstr "تور يحاول تحديد ما إذا كان منفذ الدليل الخاص بك المبدل قابل للوصول من شبكة تور بالاتصال بحد ذاته في%1:%2. هذا الاختبار يمكن أن يستغرق عدة دقائق."
+
+msgctxt "StatusEventWidget"
+msgid "Directory Port Reachability Test Successful!"
+msgstr "نجح اختبار القدرة على الوصول لمحطات المجلد!"
+
+msgctxt "StatusEventWidget"
+msgid "Your relay's directory port is reachable from the Tor network!"
+msgstr "منفذ دليل المبدل الخاص بك قابل للوصول من شبكة تور!"
+
+msgctxt "StatusEventWidget"
+msgid "Directory Port Reachability Test Failed"
+msgstr "فشل اختبار القدرة على الوصول لمحطات المجلد."
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Your relay's directory port is not reachable by other Tor clients. This can "
+"happen if you are behind a router or firewall that requires you to set up "
+"port forwarding. If %1:%2 is not your correct IP address and directory port,"
+" please check your relay's configuration."
+msgstr "منفذ الدليل الخاص بك للتبيل غير قابل للوصول بعملاء آخرين . يمكن أن يحدث هذا إذا كنت خلف جهاز التوجيه أو جدار الحماية الذي يتطلب منك إنشا منفذ مرجع .إذا كان%1:%2 ليستعنوان الإنترنت الخاص بك والدليل المنفذ الصحيح، الرجاء التحقق من تكوين المبدلات لديك."
+
+msgctxt "StatusEventWidget"
+msgid "Relay Descriptor Rejected"
+msgstr "مشخص التبديل قد رفض"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Your relay's descriptor, which enables clients to connect to your relay, was"
+" rejected by the directory server at %1:%2. The reason given was: %3"
+msgstr "مشخص المبدل الخاص بك، الذي يمكن العملاء من الاتصال بالمبدل  الخاص بك ، رفضه ملقم الدليل في%1:%2. والسبب:%3"
+
+msgctxt "StatusEventWidget"
+msgid "Your Relay is Online"
+msgstr "اتصال مرحل على الإنترنت"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Your relay is now online and available for Tor clients to use. You should "
+"see an increase in network traffic shown by the Bandwidth Graph within a few"
+" hours as more clients learn about your relay. Thank you for contributing to"
+" the Tor network!"
+msgstr "المبدل الخاص بك الآن على الإنترنت ومتاح لعملاء تور ليستخدموه. يجب أن تشاهد زيادة في حركة مرور شبكة الاتصال التي أبدته Bandwidth Graph  في غضون ساعات قليلة كما علم المزيد من العملاء عن المبدل الخاص بك. شكرا لك على المساهمة في شبكة تور!"
+
+msgctxt "Stream"
+msgid "New"
+msgstr "جديد"
+
+msgctxt "Stream"
+msgid "Resolving"
+msgstr "جار الحل"
+
+msgctxt "Stream"
+msgid "Connecting"
+msgstr "جار الاتصال"
+
+msgctxt "Stream"
+msgid "Open"
+msgstr "مفتوح"
+
+msgctxt "Stream"
+msgid "Failed"
+msgstr "فشل"
+
+msgctxt "Stream"
+msgid "Closed"
+msgstr "مغلق"
+
+msgctxt "Stream"
+msgid "Retrying"
+msgstr "تجري إعادة المحاولة"
+
+msgctxt "Stream"
+msgid "Remapped"
+msgstr "تم إعادة رسم الموقع"
+
+msgctxt "Stream"
+msgid "Unknown"
+msgstr "غير معروف"
+
+msgctxt "TorProcess"
+msgid "Process %1 failed to stop. [%2]"
+msgstr "تعذَّر إيقاف العملية %1. [%2]"
+
+msgctxt "TorService"
+msgid "The Tor service is not installed."
+msgstr "خدمة تور غير منصّبة."
+
+msgctxt "TorService"
+msgid "Unable to start the Tor service."
+msgstr "غير قادر على بدء تشغيل خدمة تور."
+
+msgctxt "TorSettings"
+msgid "Failed to hash the control password."
+msgstr "فشل في حل كلمة سر التحكم."
+
+msgctxt "TorrcDialog"
+msgid "Editing torrc"
+msgstr "تحرير ملف الإعدادات"
+
+msgctxt "TorrcDialog"
+msgid ""
+"Save settings. If unchecked it will only apply settings to the current Tor "
+"instance."
+msgstr "احفظ الإعدادات. إن لم يكن هذا الخيار مُعلّما، ستطبق الإعدادات على تور هذه المرة فقط."
+
+msgctxt "TorrcDialog"
+msgid "Cut"
+msgstr "قُص"
+
+msgctxt "TorrcDialog"
+msgid "Copy"
+msgstr "انسخ"
+
+msgctxt "TorrcDialog"
+msgid "Paste"
+msgstr "ألصق"
+
+msgctxt "TorrcDialog"
+msgid "Undo"
+msgstr "تراجَع"
+
+msgctxt "TorrcDialog"
+msgid "Redo"
+msgstr "كرِّر"
+
+msgctxt "TorrcDialog"
+msgid "Select All"
+msgstr "اختر الكل"
+
+msgctxt "TorrcDialog"
+msgid "Apply all"
+msgstr "طبّق الكل"
+
+msgctxt "TorrcDialog"
+msgid "Apply selection only"
+msgstr "طبّق المحدد فقط"
+
+msgctxt "TorrcDialog"
+msgid "Error connecting to Tor"
+msgstr "حدث خلل أثناء محاولة الاتصال بتور"
+
+msgctxt "TorrcDialog"
+msgid "Selection is empty. Please select some text, or check \"Apply all\""
+msgstr "اختيار فارغ. الرجاء حدد بعض من النص، أو اختر \"تطبيق الكل\""
+
+msgctxt "TorrcDialog"
+msgid "Error at line %1: \"%2\""
+msgstr "خلل في سطر %1: \"%2\""
+
+msgctxt "TorrcDialog"
+msgid "Error"
+msgstr "خطأ"
+
+msgctxt "TorrcDialog"
+msgid "An error ocurred while opening torrc file"
+msgstr "حدث خلل أثناء فتح ملف الإعدادات."
+
+msgctxt "UPNPControl"
+msgid "Success"
+msgstr "نجاح"
+
+msgctxt "UPNPControl"
+msgid "No UPnP-enabled devices found"
+msgstr "لم يتم إيجاد أجهزة قادرة على UPnP"
+
+msgctxt "UPNPControl"
+msgid "No valid UPnP-enabled Internet gateway devices found"
+msgstr "لم يتم إيجاد بوابات إنترنت قادرة على UPnP"
+
+msgctxt "UPNPControl"
+msgid "WSAStartup failed"
+msgstr "فشل WSAStartup"
+
+msgctxt "UPNPControl"
+msgid "Failed to add a port mapping"
+msgstr "فشل في إضافة رسم المداخل (mapping)"
+
+msgctxt "UPNPControl"
+msgid "Failed to retrieve a port mapping"
+msgstr "فشل في استعادة رسم (mapping) مدخل"
+
+msgctxt "UPNPControl"
+msgid "Failed to remove a port mapping"
+msgstr "فشل في إزالة رسم (mapping) مدخل"
+
+msgctxt "UPNPControl"
+msgid "Unknown error"
+msgstr "خطأ غير معروف"
+
+msgctxt "UPNPTestDialog"
+msgid "Discovering UPnP-enabled devices"
+msgstr "اكتشاف الأجهزة القادرة على UPnP"
+
+msgctxt "UPNPTestDialog"
+msgid "Updating directory port mapping"
+msgstr "تحديث دليل رسم المداخل (mapping)"
+
+msgctxt "UPNPTestDialog"
+msgid "Updating relay port mapping"
+msgstr "تحديث رسم (mapping) مدخل التحويلة"
+
+msgctxt "UPNPTestDialog"
+msgid "Test completed successfully!"
+msgstr "تم إكمال الإختبار بنجاح!"
+
+msgctxt "UPNPTestDialog"
+msgid "Testing UPnP Support"
+msgstr "اختبار دعم UPnP"
+
+msgctxt "UPNPTestDialog"
+msgid "Testing Universal Plug & Play Support"
+msgstr "اختبار دعم الوصل والتشغيل العالمي"
+
+msgctxt "UpdateProcess"
+msgid ""
+"Vidalia was unable to check for available software updates because it could "
+"not find '%1'."
+msgstr "لم يتمكن ڤيداليا من التحقق من وجود تحديثات للبرنامج لأنه لم يتمكن من إيجاد '%1'."
+
+msgctxt "UpdateProcess"
+msgid ""
+"Vidalia was unable to check for available software updates because Tor's "
+"update process exited unexpectedly."
+msgstr "لم يتمكن ڤيداليا من التحقق من وجود تحديثات للبرنامج لأن عملية تحديث تور أغلقت بشكل غير متوقع."
+
+msgctxt "UpdateProgressDialog"
+msgid "Checking for available updates..."
+msgstr "جارٍ التحقق من وجود التحديثات..."
+
+msgctxt "UpdateProgressDialog"
+msgid "Hide"
+msgstr "إخفاء"
+
+msgctxt "UpdateProgressDialog"
+msgid "Downloading updates..."
+msgstr "جارٍ تنزيل التحديثات..."
+
+msgctxt "UpdateProgressDialog"
+msgid "Installing updated software..."
+msgstr "جارٍ تنصيب البرنامج المحدّث..."
+
+msgctxt "UpdateProgressDialog"
+msgid "Done! Your software is now up to date."
+msgstr "انتهى التنصيب! تم تحديث البرامج بنجاح."
+
+msgctxt "UpdateProgressDialog"
+msgid "OK"
+msgstr "موافق"
+
+msgctxt "UpdateProgressDialog"
+msgid "Software Updates"
+msgstr "تحديثات البرامج"
+
+msgctxt "UpdateProgressDialog"
+msgid "Checking for updates..."
+msgstr "جاري التحقق من وجود التحديثات"
+
+msgctxt "UpdateProgressDialog"
+msgid "Cancel"
+msgstr "إلغاء"
+
+msgctxt "UpdatesAvailableDialog"
+msgid "Software Updates Available"
+msgstr "هناك تحديثات للبرامج"
+
+msgctxt "UpdatesAvailableDialog"
+msgid "Remind Me Later"
+msgstr "ذكرني لاحقاً"
+
+msgctxt "UpdatesAvailableDialog"
+msgid "Install"
+msgstr "تنصيب"
+
+msgctxt "UpdatesAvailableDialog"
+msgid "The following updated software packages are ready for installation:"
+msgstr "حزمات التحديث البرمجية التالية جاهزة للتنصيب:"
+
+msgctxt "UpdatesAvailableDialog"
+msgid "Package"
+msgstr "حزمة"
+
+msgctxt "UpdatesAvailableDialog"
+msgid "Version"
+msgstr "إصدار"
+
+msgctxt "VMessageBox"
+msgid "OK"
+msgstr "موافق"
+
+msgctxt "VMessageBox"
+msgid "Cancel"
+msgstr "ألغِ"
+
+msgctxt "VMessageBox"
+msgid "Yes"
+msgstr "نعم"
+
+msgctxt "VMessageBox"
+msgid "No"
+msgstr "لا"
+
+msgctxt "VMessageBox"
+msgid "Help"
+msgstr "مساعدة"
+
+msgctxt "VMessageBox"
+msgid "Retry"
+msgstr "حاول مجددا"
+
+msgctxt "VMessageBox"
+msgid "Show Log"
+msgstr "استعرض السِّجِل"
+
+msgctxt "VMessageBox"
+msgid "Show Settings"
+msgstr "استعرض الإعدادات"
+
+msgctxt "VMessageBox"
+msgid "Continue"
+msgstr "متابعة"
+
+msgctxt "VMessageBox"
+msgid "Quit"
+msgstr "أنهِ"
+
+msgctxt "VMessageBox"
+msgid "Browse"
+msgstr "تصفّح"
+
+msgctxt "Vidalia"
+msgid "Invalid Argument"
+msgstr "مُعطى غير صحيح"
+
+msgctxt "Vidalia"
+msgid "Vidalia is already running"
+msgstr "ڤيداليا يعمل بشكل مسبق"
+
+msgctxt "Vidalia"
+msgid "Displays this usage message and exits."
+msgstr "يعرض رسالة الاستخدام هذه وينهي."
+
+msgctxt "Vidalia"
+msgid "Resets ALL stored Vidalia settings."
+msgstr "يصفِّر كل إعدادات ڤيداليا."
+
+msgctxt "Vidalia"
+msgid "Sets the directory Vidalia uses for data files."
+msgstr "يحدد الدليل الذي تستخدمه ڤيداليا لتخزين ملفات البيانات."
+
+msgctxt "Vidalia"
+msgid "Sets the name and location of Vidalia's pidfile."
+msgstr "يحدد اسم و موضع ملف pidfile لڤيداليا."
+
+msgctxt "Vidalia"
+msgid "Sets the name and location of Vidalia's logfile."
+msgstr "يحدد اسم و موضع ملف سِجِّل ڤيداليا."
+
+msgctxt "Vidalia"
+msgid "Sets the verbosity of Vidalia's logging."
+msgstr "يحدد مدى تفصيل سِجِّل ڤيداليا."
+
+msgctxt "Vidalia"
+msgid "Sets Vidalia's interface style."
+msgstr "يحدد سمة واجهة ڤيداليا."
+
+msgctxt "Vidalia"
+msgid "Sets Vidalia's language."
+msgstr "يحدد لغة واجهة ڤيداليا."
+
+msgctxt "Vidalia"
+msgid "Vidalia Usage Information"
+msgstr "معلومات استخدام ڤيداليا."
+
+msgctxt "Vidalia"
+msgid "Unable to open log file '%1': %2"
+msgstr "تعذَّر فتح ملف السِّجل '%1': %2"
+
+msgctxt "Vidalia"
+msgid "Value required for parameter :"
+msgstr "القيمة المطلوبة للمعطى"
+
+msgctxt "Vidalia"
+msgid "Invalid language code specified:"
+msgstr "كود اللغة المحدد غير صحيح:"
+
+msgctxt "Vidalia"
+msgid "Invalid GUI style specified:"
+msgstr "سمة واجهة المستخدم المحددة غير صالحة:"
+
+msgctxt "Vidalia"
+msgid "Invalid log level specified:"
+msgstr "مستوى السجل المحدد غير صالح:"
+
+msgctxt "Vidalia"
+msgid ""
+"Another Vidalia process is possibly already running. If there really is not another Vidalia process running, you can choose to continue anyway.\n"
+"\n"
+"Would you like to continue starting Vidalia?"
+msgstr "إحتمال وجود نسخة أخرى من ڤيداليا تعمل مسبقاً. إذا كان فعلاً لاتوجد نسخة أخرى تعمل، يمكن إختيار المتابعة على أي حال.\n\nهل تريد مواصلة بدء ڤيداليا؟"
+
+msgctxt "stringutil.h"
+msgid "%1 secs"
+msgstr "%1 ثوان"
+
+msgctxt "stringutil.h"
+msgid "%1 B/s"
+msgstr "%1 ب/ثا"
+
+msgctxt "stringutil.h"
+msgid "%1 KB/s"
+msgstr "%1 ك.ب/ثا"
+
+msgctxt "stringutil.h"
+msgid "%1 MB/s"
+msgstr "%1 م.ب/ثا"
+
+msgctxt "stringutil.h"
+msgid "%1 GB/s"
+msgstr "%1 ج.ب/ثا"
+
+msgctxt "stringutil.h"
+msgid "%1 days"
+msgstr "%1 أيام"
+
+msgctxt "stringutil.h"
+msgid "%1 hours"
+msgstr "%1 ساعات"
+
+msgctxt "stringutil.h"
+msgid "%1 mins"
+msgstr "%1 دقائق"
