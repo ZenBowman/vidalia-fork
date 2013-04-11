@@ -99,6 +99,7 @@ set(vidalia_SRCS ${vidalia_SRCS}
   config/NicknameValidator.cpp
   config/Policy.cpp
   config/PortValidator.cpp
+  config/PortConfigurator.cpp
   config/ServerPage.cpp
   config/ServerSettings.cpp
   config/Service.cpp

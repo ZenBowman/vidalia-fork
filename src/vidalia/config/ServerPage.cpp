@@ -23,6 +23,7 @@
 #include "DomainValidator.h"
 #include "NicknameValidator.h"
 #include "BridgeUsageDialog.h"
+#include "PortConfigurator.h"
 
 #include "html.h"
 #include "stringutil.h"
@@ -53,18 +54,18 @@
 #define MAX_BANDWIDTH_RATE      2097151
 
 /** Ports represented by the "Websites" checkbox. (80) */
-#define PORTS_HTTP   (QStringList() << "80")
+//#define PORTS_HTTP   (QStringList() << "80")
 /** Ports represented by the "Secure Websites" checkbox. (443) */
-#define PORTS_HTTPS  (QStringList() << "443")
+//#define PORTS_HTTPS  (QStringList() << "443")
 /** Ports represented by the "Retrieve Mail" checkbox. (110,143,993,995) */
-#define PORTS_MAIL   (QStringList() << "110" << "143" << "993" << "995")
+//#define PORTS_MAIL   (QStringList() << "110" << "143" << "993" << "995")
 /** Ports represented by the "Instant Messaging" checkbox.
  * (703,1863,5050,5190,5222,8300,8888) */
-#define PORTS_IM     (QStringList() << "706" << "1863" << "5050" << "5190" \
+//#define PORTS_IM     (QStringList() << "706" << "1863" << "5050" << "5190" \
                                     << "5222" << "5223" << "8300" << "8888")
 /** Ports represented by the "Internet Relay Chat" checkbox.
  * (6660-6669,6697,7000-7001) */
-#define PORTS_IRC    (QStringList() << "6660-6669" << "6697" << "7000-7001")
+//#define PORTS_IRC    (QStringList() << "6660-6669" << "6697" << "7000-7001")
 
 
 /** Constructor */
@@ -472,24 +473,25 @@ void
 ServerPage::loadExitPolicies()
 {
   ExitPolicy exitPolicy = _settings->getExitPolicy();
+  PortConfigurator *pc = PortConfigurator::getInstance();
 
   if (exitPolicy.contains(Policy(Policy::RejectAll))) {
     /* If the policy ends with reject *:*, check if the policy explicitly
      * accepts these ports */
-    ui.chkWebsites->setChecked(exitPolicy.acceptsPorts(PORTS_HTTP));
-    ui.chkSecWebsites->setChecked(exitPolicy.acceptsPorts(PORTS_HTTPS));
-    ui.chkMail->setChecked(exitPolicy.acceptsPorts(PORTS_MAIL));
-    ui.chkIRC->setChecked(exitPolicy.acceptsPorts(PORTS_IRC));
-    ui.chkIM->setChecked(exitPolicy.acceptsPorts(PORTS_IM));
+    ui.chkWebsites->setChecked(exitPolicy.acceptsPorts(pc->httpPorts()));
+    ui.chkSecWebsites->setChecked(exitPolicy.acceptsPorts(pc->httpsPorts()));
+    ui.chkMail->setChecked(exitPolicy.acceptsPorts(pc->mailPorts()));
+    ui.chkIRC->setChecked(exitPolicy.acceptsPorts(pc->ircPorts()));
+    ui.chkIM->setChecked(exitPolicy.acceptsPorts(pc->imPorts()));
     ui.chkMisc->setChecked(false);
   } else {
     /* If the exit policy ends with accept *:*, check if the policy explicitly
      * rejects these ports */
-    ui.chkWebsites->setChecked(!exitPolicy.rejectsPorts(PORTS_HTTP));
-    ui.chkSecWebsites->setChecked(!exitPolicy.rejectsPorts(PORTS_HTTPS));
-    ui.chkMail->setChecked(!exitPolicy.rejectsPorts(PORTS_MAIL));
-    ui.chkIRC->setChecked(!exitPolicy.rejectsPorts(PORTS_IRC));
-    ui.chkIM->setChecked(!exitPolicy.rejectsPorts(PORTS_IM));
+    ui.chkWebsites->setChecked(!exitPolicy.rejectsPorts(pc->httpPorts()));
+    ui.chkSecWebsites->setChecked(!exitPolicy.rejectsPorts(pc->httpsPorts()));
+    ui.chkMail->setChecked(!exitPolicy.rejectsPorts(pc->mailPorts()));
+    ui.chkIRC->setChecked(!exitPolicy.rejectsPorts(pc->ircPorts()));
+    ui.chkIM->setChecked(!exitPolicy.rejectsPorts(pc->imPorts()));
     ui.chkMisc->setChecked(true);
   }
 }
@@ -499,6 +501,7 @@ void
 ServerPage::saveExitPolicies()
 {
   ExitPolicy *exitPolicy;
+  PortConfigurator *pc = PortConfigurator::getInstance();
   if(ui.rdoNonExitMode->isChecked()) {
     exitPolicy = new ExitPolicy(ExitPolicy::Middleman);
   } else {
@@ -509,29 +512,29 @@ ServerPage::saveExitPolicies()
      * policy alone. Else, accept only checked items and end with reject *:*,
      * replacing the default exit policy. */
     if (ui.chkWebsites->isChecked() && !rejectUnchecked) {
-      exitPolicy->addAcceptedPorts(PORTS_HTTP);
+      exitPolicy->addAcceptedPorts(pc->httpPorts());
     } else if (!ui.chkWebsites->isChecked() && rejectUnchecked) {
-      exitPolicy->addRejectedPorts(PORTS_HTTP);
+      exitPolicy->addRejectedPorts(pc->httpPorts());
     }
     if (ui.chkSecWebsites->isChecked() && !rejectUnchecked) {
-      exitPolicy->addAcceptedPorts(PORTS_HTTPS);
+      exitPolicy->addAcceptedPorts(pc->httpsPorts());
     } else if (!ui.chkSecWebsites->isChecked() && rejectUnchecked) {
-      exitPolicy->addRejectedPorts(PORTS_HTTPS);
+      exitPolicy->addRejectedPorts(pc->httpsPorts());
     }
     if (ui.chkMail->isChecked() && !rejectUnchecked) {
-      exitPolicy->addAcceptedPorts(PORTS_MAIL);
+      exitPolicy->addAcceptedPorts(pc->mailPorts());
     } else if (!ui.chkMail->isChecked() && rejectUnchecked) {
-      exitPolicy->addRejectedPorts(PORTS_MAIL);
+      exitPolicy->addRejectedPorts(pc->mailPorts());
     }
     if (ui.chkIRC->isChecked() && !rejectUnchecked) {
-      exitPolicy->addAcceptedPorts(PORTS_IRC);
+      exitPolicy->addAcceptedPorts(pc->ircPorts());
     } else if (!ui.chkIRC->isChecked() && rejectUnchecked) {
-      exitPolicy->addRejectedPorts(PORTS_IRC);
+      exitPolicy->addRejectedPorts(pc->ircPorts());
     }
     if (ui.chkIM->isChecked() && !rejectUnchecked) {
-      exitPolicy->addAcceptedPorts(PORTS_IM);
+      exitPolicy->addAcceptedPorts(pc->imPorts());
     } else if (!ui.chkIM->isChecked() && rejectUnchecked) {
-      exitPolicy->addRejectedPorts(PORTS_IM);
+      exitPolicy->addRejectedPorts(pc->imPorts());
     }
     if (!ui.chkMisc->isChecked()) {
       exitPolicy->addPolicy(Policy(Policy::RejectAll));
